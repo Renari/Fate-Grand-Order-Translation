@@ -1,0 +1,106 @@
+[soundStopAll]
+//[scene 10200]
+[bgm BGM_EVENT_1]
+[fadein clear 2]
+[wait fade]
+[wait time 0.5]
+＠？？？
+―――塩基配列　　ヒトゲノムと確認[r]―――霊器属性　　善性・中立と確認[k]
+
+＠？？？
+―――99％の安全性を保証　ゲート　開きます[k][clear]
+
+[fadeout black 2]
+[wait fade]
+[scene 10200]
+[charaSet A 8001000 0 ネロ]
+[charaSet B 1013000 2 緑茶]
+[charaFace A 2]
+[fadein black 2]
+[wait fade]
+[charaFadein A 2]
+[charaFadein B 2]
+[charaDepth A 0]
+[charaDepth B 0]
+[wait time 2.5]
+＠1：ネロ
+[fontSize x-large]ようこそ！[fontSize medium][k]
+
+[charaFace A 4]
+＠1：ネロ
+人類の[FF0000]未来を語る[-]資料館へ。[r]ここは[#人理継続保障機関:じんりけいぞくほしょうきかん]　カルデアα。[k]
+
+[charaFace B 1]
+＠2：[#緑茶:ロビンフッド]
+貴方は本日　最後の来館者です。[r]最終確認を行います。[k]
+
+[charaFace B 3]
+＠2：緑茶
+飲み物は何が好きですか？[k]
+
+[wait time 0.5]
+？1：烏龍茶[image heart]
+
+[wait time 0.5]
+[charaFace A 2]
+＠1：ネロ
+それはどういうお茶だ？[r]
+紅茶とは違うようだが…[k]
+
+？2：紅茶だろう！！
+
+[wait time 0.5]
+[charaFace A 1]
+＠1：ネロ
+やはり紅茶が一番か！[r]
+良きマスター候補だな♪[k]
+
+？！
+
+[wait time 0.5]
+[charaFace A 0]
+[charaFace B 0]
+＠2：緑茶
+さて冗談はこれぐらいにして。[r]
+本当の最終確認を行います。[k]
+
+＠？？？
+[speed 4]指紋認証　声帯認証　遺伝子認証　クリア。[r][speed 0]魔術回路の測定[line 4]完了しました。[k][speed -]
+
+＠？？？
+固体名・[%1]と一致します。[r]貴方を霊長類の一因である事を認めます。[k]
+
+[charaFace A 2]
+＠1：ネロ
+はじめまして　[%1]さま。[r]貴方の来訪を歓迎します。[k]
+
+＠1：ネロ
+どうぞ、善き時間をお過ごしください。[k][clear]
+
+[shake 0.1 5 5 2.5]
+[wait time 3]
+[shakeStop]
+[charaFace B 3]
+＠2：緑茶
+……申し訳ごさいません。[r]入館手続き完了までもう少しかかります。[k]
+
+[charaFace A 4]
+＠1：ネロ
+その間、模擬戦闘をお楽しみください。[k]
+
+＠？？？
+レギュレーション：シニア[r]難易度：シニア[k]
+
+＠？？？
+どうぞ[%1]さまの気の向くまま、[r]自由にお楽しみください。[k]
+
+＠？？？
+英霊召喚システム　フェイト　起動します。[r]マスターとして善い経験ができますよう。[k][clear]
+
+[charaFadeout A 2]
+[charaFadeout B 2]
+[wipeout circleOut 2]
+[wait wipe]
+[wait time 1]
+[soundStopAll]
+[end]

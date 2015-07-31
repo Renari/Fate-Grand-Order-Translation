@@ -1,0 +1,12 @@
+[soundStopAll]
+[scene 10000]
+[fadein black 0]
+[wait fade]
+
+[fowardEffect bit_queststart01]
+[wait fowardEffect]
+
+[fadeout black 0]
+[wait fade]
+
+[end]

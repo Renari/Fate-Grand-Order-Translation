@@ -1,0 +1,12 @@
+[charaSet A {0} 1]
+[charaFace A {1}]
+[charaFadein A 0]
+[charaDepth A 0]
+[fadein clear 1]
+[wait fade]
+[wait time 0.5]
+{2}
+[notification normal]
+[fadeout clear 1]
+[wait fade]
+[end]

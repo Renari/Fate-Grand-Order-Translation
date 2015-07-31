@@ -1,0 +1,30 @@
+[soundStopAll]
+[scene 10200]
+[bgm BGM_EVENT_2]
+[fadein clear 2]
+[wait fade]
+[wait time 0.5]
+[charaSet A 8001000 0 ネロ]
+[charaSet B 1013000 2 ロビンフッド]
+[charaFadein A 2]
+[charaFadein B 2]
+[charaDepth A 0]
+[charaDepth B 0]
+[wait time 2.5]
+＠1：ネロ
+初めてのバトルはいかがでしたか？[k]
+
+＠2：ロビンフッド
+まだ慣れないかもしれませんが、[r]今後の真の戦いに備えないといけません！[k]
+
+＠？？？
+英霊召喚システム　フェイト　一時停止します。[r]マスターとして最後まで頑張りましょう。[k]
+
+[wait touch]
+[charaFadeout A 2]
+[charaFadeout B 2]
+[fadeout black 2]
+[wait fade]
+[wait time 1]
+[soundStopAll]
+[end]

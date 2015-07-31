@@ -1,0 +1,8 @@
+[soundStopAll]
+[fadein white 1]
+[wait fade]
+
+[effect bit_chapterstart02]
+[wait effect]
+
+[end]
