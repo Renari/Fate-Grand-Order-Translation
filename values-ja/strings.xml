@@ -17,9 +17,9 @@
     <string name="common_google_play_services_unsupported_title">Google Play開発者サービス</string>
     <string name="common_google_play_services_unsupported_text">一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。</string>
     <string name="common_google_play_services_unsupported_date_text">端末上の日付が正しくないようです。端末上の日付をご確認ください。</string>
-    <string name="common_google_play_services_update_button">更新</string>
-    <string name="common_signin_button_text">ログイン</string>
-    <string name="common_signin_button_text_long">Googleでログイン</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Login</string>
+    <string name="common_signin_button_text_long">Login with Google</string>
     <string name="auth_client_using_bad_version_title">アプリはGoogle Play開発者サービスの不適切なバージョンを使用しようとしました。</string>
     <string name="auth_client_needs_enabling_title">アプリではGoogle Play開発者サービスを有効にする必要があります。</string>
     <string name="auth_client_needs_installation_title">アプリではGoogle Play開発者サービスをインストールする必要があります。</string>

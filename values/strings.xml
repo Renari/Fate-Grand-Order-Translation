@@ -27,12 +27,12 @@
     <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
     <string name="auth_client_requested_by_msg">Requested by %1$s</string>
     <string name="location_client_powered_by_google">Powered by Google</string>
-    <string name="com_unicon_ltd_konect_sdk_place_holder">プレースホルダ</string>
-    <string name="com_unicon_ltd_konect_sdk_popup_button_negative">閉じる</string>
-    <string name="com_unicon_ltd_konect_sdk_popup_button_positive">起動する</string>
-    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_title">終了の確認</string>
-    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_message">終了しますか？</string>
-    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_button_negative">キャンセル</string>
-    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_button_positive">終了する</string>
+    <string name="com_unicon_ltd_konect_sdk_place_holder">placeholder</string>
+    <string name="com_unicon_ltd_konect_sdk_popup_button_negative">Close</string>
+    <string name="com_unicon_ltd_konect_sdk_popup_button_positive">Start</string>
+    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_title">Exit</string>
+    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_message">Are you sure you want to exit?</string>
+    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_button_negative">No</string>
+    <string name="com_unicon_ltd_konect_sdk_confirm_quit_popup_button_positive">Yes</string>
     <string name="app_name">Fate/GO</string>
 </resources>
