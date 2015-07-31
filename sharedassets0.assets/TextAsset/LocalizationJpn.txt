@@ -1,0 +1,997 @@
+{
+    "UNKNOWN_NAME" : "???",
+    "NO_ENTRY_NAME" : "---",
+
+    "ERROR_DIALOG_TITLE" : "",
+    
+    // App Ver
+    "APP_VERSION" : "[133493]Ver.{0}",
+    
+    // CopyRight
+    "TITLE_COPYRIGHT" : "[133493]©TYPE-MOON / FGO PROJECT",
+    
+    // User FriendCode
+    "USER_FRIEND_CODE" : "[133493]ID : {0}",
+    
+    // Common
+    "COMMON_CONFIRM_YES" : "はい",
+    "COMMON_CONFIRM_NO" : "いいえ",
+    "COMMON_CONFIRM_OK" : "OK",
+    "COMMON_CONFIRM_DECIDE" : "決定",
+    "COMMON_CONFIRM_CANCEL" : "キャンセル",
+    "COMMON_CONFIRM_CLOSE" : "閉じる",
+    "COMMON_CONFIRM_EXIT" : "終了",
+    "COMMON_CONFIRM_RETRY" : "やり直す",
+    "COMMON_CONFIRM_BACK" : "戻る",
+    "COMMON_CONFIRM_USE" : "使う",
+    "COMMON_EQUIP_CHANGE" : "装備する",
+    "COMMON_EQUIP_SET" : "装備",
+    "COMMON_EQUIP_REMOVE" : "はずす",
+    "COMMON_EQUIP_USED" : "使用中",
+
+    "COMMON_ON" : "ON",
+    "COMMON_OFF" : "OFF",
+    "COMMON_SEARCH" : "検索",
+    "COMMON_INPUT" : "タッチして入力",
+
+	"TIME_BEFORE_TITLE_LOGIN" : "[00FFFF]最終ログイン[-]",
+	"TIME_BEFORE_MINUTES" : "{0}分前",
+	"TIME_BEFORE_HOURS" : "{0}時間前",
+	"TIME_BEFORE_DAYS" : "{0}日前",
+	"TIME_BEFORE_OVER_YEARS" : "1年以上",
+	"TIME_BEFORE_TITLE_COLOR" : "[0FEB6D]{0}[-]",
+
+	"TIME_REST_TIMEOVER" : "時間切れ",
+	"TIME_REST_MINUTES" : "残り {0}分",
+	"TIME_REST_HOURS" : "残り {0}時間",
+	"TIME_REST_DAYS" : "残り {0}日",
+	"TIME_REST_OVER_YEARS" : "残り 1年以上",
+	"TIME_REST_NONE" : "----",
+
+	//"UNIT_REST_NUM" : "{0}／{1}",
+	"UNIT_REST_NUM" : "あと{0}個",
+	"UNIT_REST_NONE" : "----",
+
+    "UNIT_INFO" : "{0}個",
+    "HAVE_UNIT_INFO" : "所持 {0}個",
+    "COUNT_INFO" : "{0}回",
+    "PRICE_NAME" : "価格",
+    "PRICE_INFO" : "{0}円",
+    "PRICE2_INFO" : "¥{0}",
+
+    "ID_ICON_INFO" : "No{0}",
+    
+    "LEVEL_NAME" : "LEVEL",
+    "LEVEL_INFO" : "Lv.{0}",
+    "LEVEL_ICON_INFO" : "Lv.{0}",
+    
+    "COST_NAME" : "COST",
+    "COST_INFO" : "COST.{0}",
+    "COST_ICON_INFO" : "COST{0}",
+    
+    "HP_NAME" : "HP",
+    "HP_INFO" : "HP.{0}",
+    "HP_ICON_INFO" : "HP{0}",
+    
+    "ATTACK_NAME" : "ATTACK",
+    "ATTACK_INFO" : "ATK.{0}",
+    "ATTACK_ICON_INFO" : "ATK{0}",
+    
+    "FREE_NAME" : "無料",
+
+    "STONE_NAME" : "聖晶石",
+    "STONE_TAKE" : "所持聖晶石",
+    "STONE_INFO" : "所持聖晶石 {0}個",
+    "STONE_UNIT" : "{0}個",
+    "STONE_NEED_INFO" : "[20FF20]必要聖晶石[-] {0}個",
+
+    "QP_NAME" : "QP",
+    "QP_TAKE" : "所持QP",
+    "QP_INFO" : "所持QP：{0:N0}",
+    "QP_UNIT" : "{0} QP",
+    //"QP_GET_INFO" : "獲得QP：{0}",
+
+    "MANA_NAME" : "マナプリズム",
+    "MANA_TAKE" : "所持マナプリズム",
+    "MANA_INFO" : "所持マナプリズム：{0}",
+    "MANA_UNIT" : "{0}個",
+    //"MANA_GET_INFO" : "獲得マナプリズム：{0}",
+    "MANA_NEED_INFO" : "[20FF20]必要マナプリズム[-] {0}個",
+
+    "FRIEND_POINT_NAME" : "フレンドポイント",
+    "FRIEND_POINT_UNIT" : "{0} pt",
+
+    "FRIENDSHIP_NAME" : "絆ポイント",
+    "FRIENDSHIP_UNIT" : "{0} pt",
+    
+    "USER_EXP_NAME" : "EXP",
+    "USER_EXP_UNIT" : "{0} EXP",
+    
+    "SERVANT_TAKE" : "サーヴァント",
+    "SERVANT_INFO" : "サーヴァント {0}／{1}",
+    "SERVANT_UNIT" : "{0}騎",
+    "EXCEPT_SERVANT_UNIT" : "{0}体",
+    
+    "SERVANT_EQUIP_TAKE" : "概念礼装",
+    "SERVANT_EQUIP_INFO" : "概念礼装 {0}／{1}",
+    "SERVANT_EQUIP_UNIT" : "{0}枚",
+
+    "SELECT_INFO" : "[00FFFF]選択数 [-]{0}／{1}",
+    "SELECT_CANNOT" : "選択不可",
+    "SELECT_LOCK" : "ロック中",
+    "SELECT_FAVORITE" : "お気に入り\n登録中",
+    "SELECT_PARTY" : "PARTY\n登録中",
+    
+    "SVT_HP" : "[FFB900]HP[-] {0}",	// フォーマットが異なるため作成→確定次第削除
+    "SVT_ATK" : "[FFB900]ATK[-] {0}",	// フォーマットが異なるため作成→確定次第削除
+    
+    "PARTY_NUMBER" : "PARTY {0}",
+    
+    "NUM_INFO" : "{0}",
+    "SUM_INFO" : "{0}/{1}",
+    
+    "FOLLOWER_TYPE_NPC" : "[0020E0]NPC",
+    "FOLLOWER_TYPE_FRIEND" : "[00C000]FRIEND",
+    "FOLLOWER_TYPE_NOT_FRIEND" : "",
+    
+    // System
+    "NETWORK_ERROR_DIFFERENT_CREATE_USER_SERVER" : "作成されているユーザーデータは\n現在接続しているゲームサーバーと異なるため\nデバッグメニューを起動します",
+    "NETWORK_ERROR_DISK_FULL" : "ストレージが不足しています。\n整理してください。",
+    "NETWORK_ERROR_CSID_CODE" : "エラーコード: {0}",
+    
+    "NETWORK_ERROR_TIME_OVER_MESSAGE" : "サーバーとの通信が切れました。\nリトライしますか？\n\n「終了」をタッチすると\nタイトル画面に戻ります。",
+    "NETWORK_ERROR_SERVER_CANCEL_MESSAGE" : "通信が実行できませんでした。",
+    "NETWORK_ERROR_SERVER_BUSY_MESSAGE" : "サーバーが混雑しています。\nしばらく時間を置いてからゲームを起動しなおしてください。\n\n※通信環境のよい場所でプレイしてください",
+    "NETWORK_ERROR_SERVER_CONNECT_MESSAGE" : "サーバーに接続ができませんでした\nタイトル画面に移行します",
+    "NETWORK_ERROR_SERVER_PARAMETER_MESSAGE" : "不正なパラメータです\nタイトル画面に移行します",
+    "NETWORK_ERROR_SERVER_AUTH_MESSAGE" : "サーバーの認証に失敗しました\nタイトル画面に移行します",
+    "NETWORK_ERROR_SERVER_NO_FILE_MESSAGE" : "ファイルを見つけられませんでした\nタイトル画面に移行します",
+
+    "NETWORK_ERROR_PURCHASE_SUSPEND_MESSAGE" : "処理が中断されました\nリトライします。",
+
+
+    "NETWORK_USER_DELETE_DECIDE": "はい",
+    "NETWORK_USER_DELETE_CANCEL": "いいえ",
+
+    "CONNECT_LOAD_MESSAGE1" : "※ダウンロードは、いつでも中断する事ができます。",
+    "CONNECT_LOAD_MESSAGE2" : "ダウンロード中、しばらくお待ちください。",
+    "CONNECT_LOAD_CANCEL" : "中断する",
+    "CONNECT_TIP_TITLE" : "Tips",
+    "CONNECT_TIP_MESSAGE_1" : "tips",
+    "CONNECT_TIP_MESSAGE_2" : "準備中",
+    
+    "CONNECT_CONFIRM_MESSAGE" : "追加のゲームデータのダウンロードを\n中断しますか？\n\n※中断してもゲームプレイには影響しません。",
+    "CONNECT_CONFIRM_DECIDE" : "中断する",
+    "CONNECT_CONFIRM_CANCEL" : "キャンセル",
+    
+    "CONNECT_LATEST_MESSAGE" : "ゲームデータは最新状態です。",
+    "CONNECT_COMPLET_MESSAGE" : "ゲームデータのダウンロードが完了しました。",
+    "CONNECT_CANCEL_MESSAGE" : "ダウンロードを中断しました。",
+    
+    // Notification
+    "NOTIFICATION_AP_RECOVER_MESSAGE" : "APが全回復しました。",
+
+    // Master Profile
+    "CHANGE_NAME_TITLE" : "名前を入力してください\n※最大12文字まで入力できます。",
+       
+    // Game Option
+    "OPTION_BGM" : "BGM",
+    "OPTION_SE" : "SE",
+    "OPTION_VOICE" : "VOICE",
+    
+    "OPTION_NOTICE_AP" : "AP回復時",
+    "OPTION_NOTICE_ELSE" : "ゲームからのお知らせ",
+    
+    "FULLDOWNLOAD_INFO_TXT" : "ファイルの容量が大きいため\nWi-Fi接続でのダウンロードをお勧めします。",
+    "FULLDOWNLOAD_CONFIRM_TITLE" : "追加のゲームデータをダウンロードします。",
+    "FULLDOWNLOAD_CONFIRM_MSG" : "追加のゲームデータをダウンロードすることで、\n快適にプレイすることができるようになります。\n\n※Wi-Fi接続でのダウンロードをお勧めします。",
+    
+    // Friend Point
+    "GET_FRIEND_POINT" : "フレンドポイント \n[00FFFF]{0}[-] pt\n獲得しました。",
+
+    // CondType
+    "COND_TYPE_TITLE" : "解放条件：",
+    "COND_TYPE_NONE" : "無条件",
+    "COND_TYPE_QUEST_CLEAR" : "{0} をクリアする",
+    "COND_TYPE_QUEST_PHASE_CLEAR" : "{0} の {1} をクリアする",
+    "COND_TYPE_SERVANT_LEVEL" : "サーヴァントのレベルを {0} にする",
+    "COND_TYPE_SERVANT_LIMIT_COUNT" : "霊基再臨を {0} 段階突破する",
+    "COND_TYPE_SERVANT_GET" : "サーヴァント {0} を従える",
+    "COND_TYPE_SERVANT_FRIENDSHIP" : "絆レベルを {0} にする",
+    "COND_TYPE_SERVANT_GROUP" : "グループに所属",
+    "COND_TYPE_EVENT" : "{0} イベント解放中",
+    
+    // Skill
+    "SKILL_EFFECT_TITLE" : "{0}",
+    "SKILL_EFFECT_LEVEL_TITLE" : "{0} Lv.{1}",
+    
+    // TreasureDevice
+    "NP_NAME" : "{0}",
+    "NP_NAME_LEVEL" : "{0} Lv.{1}",
+    "NP_COLOR_NAME" : "{0}",
+    "NP_MAX_COLOR_NAME" : "[FFFF20]{0}",
+    "NP_DISABLE_COLOR_NAME" : "[808080]{0}",
+
+    // Web View Title
+    "WEB_VIEW_TITLE_INFOMATION" : "インフォメーション",
+    "WEB_VIEW_TITLE_HELP" : "ヘルプ",
+    "WEB_VIEW_TITLE_CONTACT_US" : "お問い合わせ",
+    "WEB_VIEW_TITLE_TERMS_OF_USE" : "利用規約",
+    "WEB_VIEW_TITLE_CREDIT" : "クレジット",
+    "WEB_VIEW_TITLE_RIGHT_NOTATION" : "権利表記",
+    "WEB_VIEW_TITLE_SERIAL_CODE" : "シリアルコード入力",
+    "WEB_VIEW_TITLE_STONE_PURCHASE" : "特定商取引法・資金決済法に関して",
+    "WEB_VIEW_TITLE_SUMMON" : "召喚詳細",
+
+    // UserEntry
+    "INPUT_NAME_ANNOUNCE" : "名前を入力してください",
+    "INPUT_NAME_INFO" : "（ゲーム開始後も変更可能です）",
+    "INPUT_NAME_LIMIT_NUM" : "12文字まで入力可能です",
+    "SELECT_FIGURE_INFO" : "フリックで性別を選択",
+    "INPUT_BIRTHDAY_INFO" : "※ゲーム開始後は変更できません",
+    "CHECK_BIRTHDAY_TITLE_MESSAGE" : "入力の確認",
+    "CHECK_BIRTHDAY_MESSAGE" : "正しい日付を入力してください。",
+    "CONFIRM_TITLE_MESSAGE" : "確認",
+    "ENTRY_GENDER_MAN" : "男性",
+    "ENTRY_GENDER_WOMAN" : "女性",
+    "CONFIRM_INFO_MESSAGE" : "性別：{0}\n名前：{1}\n\nこの設定で開始しますか？",
+    
+    // UserStatus
+    "USER_ACTION_POINT" : "{0}/{1}",
+    "USER_ACTION_POINT_RECOVER" : "あと {0:D2}:{1:D2}",
+    
+    // ServantList
+    //"CHARA_GRAPH_TAB_SERVANT" : "サーヴァント {0}/{1}",
+    "CHARA_GRAPH_TAB_SERVANT" : "{0}/{1}",
+    //"CHARA_GRAPH_TAB_SERVANT_EQUIP" : "概念礼装 {0}/{1}",
+    "CHARA_GRAPH_TAB_SERVANT_EQUIP" : "{0}/{1}",
+
+    // ServantStatus
+    "SERVANT_STATUS_TAB_STATUS" : "ステータス",
+    "SERVANT_STATUS_TAB_PROFILE" : "プロフィール",
+    "SERVANT_STATUS_TAB_BATTLE" : "バトルキャラ",
+    "SERVANT_STATUS_EXP_LATE" : "あと {0}",
+    "SERVANT_STATUS_TITLE_LIMIT_COUNT" : "霊基再臨",
+    "SERVANT_STATUS_TITLE_POWER" : "筋力",
+    "SERVANT_STATUS_TITLE_DEFENSE" : "耐久",
+    "SERVANT_STATUS_TITLE_LUCK" : "幸運",
+    "SERVANT_STATUS_TITLE_NP" : "宝具",
+    "SERVANT_STATUS_TITLE_NP_LEVEL" : "[20F020]宝具レベル：[-]",
+    "SERVANT_STATUS_TITLE_NP_RANK" : "[20F020]宝具ランク：[-]",
+    "SERVANT_STATUS_NP_GUAGE_MESSAGE" : "max{0}%",
+    "SERVANT_STATUS_PROFILE_CONDITION" : "[FFff20]{0}と解放[-]",
+  	"SERVANT_STATUS_PROFILE_ILLUST_TITLE" : "ILLUST:",
+  	"SERVANT_STATUS_PROFILE_CV_TITLE" : "CV:",
+  	"SERVANT_STATUS_PROFILE_VOICE_BUTTON" : "VOICE",
+   	"SERVANT_STATUS_BATTLE_LEVEL" : "第{0}段階",
+	"SERVANT_STATUS_TOTAL_EXP" : "累計EXP：{0}",
+	"SERVANT_STATUS_TOTAL_FRIENDSHIP" : "累計絆ポイント：{0}",
+	"SERVANT_STATUS_FAVORITE_CONFIRM_TITLE" : "注意",
+	"SERVANT_STATUS_FAVORITE_CONFIRM_MESSAGE" : "{0}を\nお気に入りに登録していますが、変更しますか？",
+   	"SERVANT_STATUS_FAVORITE_CONFIRM_CANCEL" : "キャンセル",
+	"SERVANT_STATUS_FAVORITE_CONFIRM_DECIDE" : "決定",
+
+    // Stone Purchase
+    "STONE_PURCHASE_TITLE" : "聖晶石購入",
+    "STONE_PURCHASE_EXPLANATION" : "特定商取引法・資金決済法に関して",
+    "STONE_PURCHASE_CLOSE" : "キャンセル",
+    
+    "STONE_PURCHASE_RESULT_CANCEL" : "聖晶石の購入をキャンセルしました。",
+    "STONE_PURCHASE_RESULT_FAIL" : "聖晶石の購入をキャンセルしました。",
+    "STONE_PURCHASE_RESULT_SUCCESS" : "聖晶石を購入しました。",
+    "STONE_PURCHASE_RESULT_CLOSE" : "閉じる",
+    
+    "STONE_PURCHASE_RESULT_WAIT" : "ペアレントコントロール\n\nこのアプリケーションから\nこの機能を使用することはできません。",
+
+    "STONE_PURCHASE_BUSY_STORE" : "聖晶石購入認証待ちのため追加購入はできません。",
+
+    "AGE_VEIFICATION_NONE" : "未設定",
+    "AGE_VEIFICATION_TYPE1" : "～15歳 1か月／5,000円まで",
+    "AGE_VEIFICATION_TYPE2" : "16歳～19歳	 1か月／30,000円まで",
+    "AGE_VEIFICATION_TYPE3" : "20歳以上 制限なし",
+    
+    "AGE_VEIFICATION_TITLE" : "年齢を選択してください",
+    "AGE_VEIFICATION_MESSAGE" : "1か月の間に聖晶石を購入できる金額は\nあなたの年齢によって決まっています。\n※この選択は毎月1日以降に表示されます。",
+
+    "AGE_VEIFICATION_CONFIRM_TITLE" : "選択の確認",
+    "AGE_VEIFICATION_CONFIRM_MESSAGE" : "{0}\n\nこの設定でよろしいでしょうか？",
+    "AGE_VEIFICATION_CONFIRM_DECIDE" : "はい",
+    "AGE_VEIFICATION_CONFIRM_CANCEL" : "いいえ",
+    
+    "SPEND_LIMIT_TITLE" : "利用額オーバー",
+    "SPEND_LIMIT_MESSAGE" : "今月ご利用できる金額を超えるため、\nこの商品は購入できません。\n\n設定\n{0}\n\n今月のご利用額\n{1}",
+    "SPEND_LIMIT_CLOSE" : "OK",
+
+    // Present Box Notification
+    "PRESENT_BOX_NOTIFICATION_MESSAGE1" : "[20C0FF]アイテムを入手しました！",
+    "PRESENT_BOX_NOTIFICATION_MESSAGE2" : "アイテムはプレゼントボックスから受け取ってください。",
+    "PRESENT_BOX_NOTIFICATION_CLOSE" : "閉じる",
+    
+    // User Game Act Recover
+    "USER_GAME_ACT_RECOVER_TITLE" : "AP回復",
+    "USER_GAME_ACT_RECOVER_MESSAGE_START" : "聖晶石を1個使用して\nAPを回復しますか？",
+    "USER_GAME_ACT_RECOVER_MESSAGE_END": "APの回復が完了しました。",
+    "USER_GAME_ACT_RECOVER_MESSAGE_ERROR": "[00FFFF]APの回復ができませんでした。",
+    "USER_GAME_ACT_RECOVER_MESSAGE_MAX_ACT": "[00FFFF]APを回復する必要はありません。",
+    "USER_GAME_ACT_RECOVER_MESSAGE_INFO_NONE": "購入商品情報がありません。",
+    "USER_GAME_ACT_RECOVER_INFO" : "[00FFFF]{0}[-]／[00FFFF]{1}",
+    "USER_GAME_ACT_RECOVER_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
+    "USER_GAME_ACT_RECOVER_CANCEL": "キャンセル",
+    "USER_GAME_ACT_RECOVER_DECIDE": "回復する",
+    "USER_GAME_ACT_RECOVER_STONE": "聖晶石購入へ",
+    "USER_GAME_ACT_RECOVER_CLOSE": "閉じる",
+    
+    // Shop Scene
+    "SHOP_BUY_BANK_ITEM" : "聖晶石購入",
+    "SHOP_BUY_QP_ITEM" : "QPで交換",
+    "SHOP_BUY_MANA_ITEM" : "マナプリズムで交換",
+    "SHOP_BUY_STONE_ITEM" : "聖晶石で交換",
+    "SHOP_RECOVER_USER_GAME_ACT": "AP回復",
+    "SHOP_BUY_SERVANT_FRAME" : "サーヴァント所持枠拡張",
+    "SHOP_BUY_SERVANT_EQUIP_FRAME" : "概念礼装所持枠拡張",
+    "SHOP_SELL_SERVANT" : "霊基変還",
+    "SHOP_ITEM_CHANGE" : "{0}で交換",
+    "SHOP_NOAH" : "ゲームを遊んで\n聖晶石を無料でゲット！",
+    "SHOP_BUY_ACCOUNT_ITEM" : "課金動作購入（デバッグ用）",
+    
+    "SHOP_LIST_EMPTY" : "購入できる商品がありません",
+
+    "SHOP_BUY_MANA_CONFIRM_WARNING" : "[FF0000]マナプリズムが足りません。",
+    //"SHOP_BUY_MANA_CONFIRM_TITLE" : "マナプリズム使用",
+    //"SHOP_BUY_MANA_CONFIRM_MESSAGE" : "マナプリズムを{1}使用して\n{0}を購入しますか？",
+    "SHOP_BUY_MANA_CONFIRM_CANCEL" : "キャンセル",
+    "SHOP_BUY_MANA_CONFIRM_DECIDE" : "購入する",
+    
+    "SHOP_BUY_STONE_CONFIRM_WARNING" : "[FF0000]聖晶石が足りません。",
+    //"SHOP_BUY_STONE_CONFIRM_TITLE" : "聖晶石使用",
+    //"SHOP_BUY_STONE_CONFIRM_MESSAGE" : "聖晶石を{1}使用して\n{0}を購入しますか？",
+    "SHOP_BUY_STONE_CONFIRM_CANCEL" : "キャンセル",
+    "SHOP_BUY_STONE_CONFIRM_DECIDE" : "購入する",
+    
+    "SHOP_BUY_SUCCESS" : "『{0} ×{1}』を\n入手しました。",
+
+    "SHOP_BUY_SERVANT_FULL_WARNING" : "[FF0000]サーヴァント所持枠が限界に達しています。",
+    "SHOP_BUY_SERVANT_OVER_WARNING" : "[FF0000]購入するとサーヴァント所持枠を越えます。",
+    "SHOP_BUY_SERVANT_EQUIP_FULL_WARNING" : "[FF0000]概念礼装所持枠が限界に達しています。",
+    "SHOP_BUY_SERVANT_EQUIP_OVER_WARNING" : "[FF0000]購入すると概念礼装所持枠を越えます。",
+    "SHOP_BUY_ITEM_FULL_WARNING" : "[FF0000]アイテム所持枠が限界に達しています。",
+    "SHOP_BUY_ITEM_OVER_WARNING" : "[FF0000]購入するとアイテム所持枠を越えます。",
+
+    // Servant Sort
+    "SERVANT_SORT_TITLE" : "ソート",
+    "SERVANT_SORT_TITLE2" : "フィルター",
+    "SERVANT_SORT_CANCEL": "キャンセル",
+    "SERVANT_SORT_CLEAR": "クリア",
+    "SERVANT_SORT_DECIDE": "決定",
+    
+    "SERVANT_SORT_KIND_BUTTON" : "順",
+    "SERVANT_SORT_KIND_PARTY" : "パーティ",
+    "SERVANT_SORT_KIND_CREATE" : "入手",
+    "SERVANT_SORT_KIND_RARITY" : "レアリティ",
+    "SERVANT_SORT_KIND_LEVEL" : "レベル",
+    "SERVANT_SORT_KIND_NP_LEVEL" :  "宝具レベル",
+    "SERVANT_SORT_KIND_HP" : "HP",
+    "SERVANT_SORT_KIND_ATK" : "ATK",
+    "SERVANT_SORT_KIND_COST" : "COST",
+    "SERVANT_SORT_KIND_CLASS" : "クラス",
+    "SERVANT_SORT_KIND_LIMIT_COUNT" : "霊基再臨回数",
+    "SERVANT_SORT_KIND_FRIENDSHIP" : "絆",
+    "SERVANT_SORT_KIND_ALL" : "全て",
+    "SERVANT_SORT_KIND_LOGIN_ACCESS" : "ログイン",
+    "SERVANT_SORT_KIND_USER_LEVEL" : "レベル",
+    "SERVANT_SORT_KIND_ID" : "ID",
+    "SERVANT_SORT_KIND_AMOUNT" : "枚数",
+
+    "SERVANT_SORT_FILTER_KIND_1" : "セイバー",
+    "SERVANT_SORT_FILTER_KIND_2" : "アーチャー",
+    "SERVANT_SORT_FILTER_KIND_3" : "ランサー",
+    "SERVANT_SORT_FILTER_KIND_4" : "ライダー",
+    "SERVANT_SORT_FILTER_KIND_5" : "キャスター",
+    "SERVANT_SORT_FILTER_KIND_6" : "アサシン",
+    "SERVANT_SORT_FILTER_KIND_7" : "バーサーカー",
+    "SERVANT_SORT_FILTER_KIND_8" : "他",
+    "SERVANT_SORT_FILTER_KIND_9" : "EXP",
+    "SERVANT_SORT_FILTER_KIND_10" : "ステータス",
+    "SERVANT_SORT_FILTER_KIND_COLLECTION_NOT_GET" : "未遭遇",
+    "SERVANT_SORT_FILTER_KIND_COLLECTION_FIND" : "未契約",
+    "SERVANT_SORT_FILTER_KIND_COLLECTION_GET" : "契約済",
+
+    "SERVANT_ALL_EMPTY" : "所持していません",
+    "SERVANT_EMPTY" : "契約しているサーヴァントがいません",
+    "SERVANT_EQUIP_EMPTY" : "所持している概念礼装がありません",
+    "SERVANT_SORT_FILTER_RESULT_EMPTY" : "該当する条件の項目が見つかりません",
+
+    // Servant Frame Purchase
+    "SERVANT_FRAME_PURCHASE_TITLE" : "サーヴァント所持枠を増やす",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_START" : "聖晶石を1個使用して\nサーヴァント所持枠を増やしますか？\n※最大{0}枠まで増やせます。",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_END": "サーヴァント所持枠が増えました。\n※最大{0}枠まで拡張することができます。",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_ERROR": "[00FFFF]サーヴァント所持枠を増やすことができませんでした。",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_MAX_FRAME": "[00FFFF]サーヴァント所持枠拡張が上限に達しています。",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_INFO_NONE": "購入商品情報がありません。",
+    "SERVANT_FRAME_PURCHASE_INFO1" : "＜{0}枠＞　　　　[00FFFF]＜{1}枠＞",
+    "SERVANT_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}枠＞",
+    "SERVANT_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
+    "SERVANT_FRAME_PURCHASE_CANCEL": "キャンセル",
+    "SERVANT_FRAME_PURCHASE_DECIDE": "拡張する",
+    "SERVANT_FRAME_PURCHASE_STONE": "聖晶石購入へ",
+    "SERVANT_FRAME_PURCHASE_CLOSE": "閉じる",
+    
+    // Servant Equip Frame Purchase
+    "SERVANT_EQUIP_FRAME_PURCHASE_TITLE" : "概念礼装所持枠を増やす",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_START" : "聖晶石を1個使用して\n概念礼装所持枠を拡張しますか？\n※最大{0}枠まで拡張することができます。",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_END": "概念礼装所持枠拡張が完了しました。\n※最大{0}枠まで拡張することができます。",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_ERROR": "[00FFFF]概念礼装所持枠拡張ができませんでした。",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_MAX_FRAME": "[00FFFF]概念礼装所持枠拡張が上限に達しています。",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_INFO_NONE": "購入商品情報がありません。",
+    "SERVANT_EQUIP_FRAME_PURCHASE_INFO1" : "＜{0}枠＞　　　　[00FFFF]＜{1}枠＞",
+    "SERVANT_EQUIP_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}枠＞",
+    "SERVANT_EQUIP_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
+    "SERVANT_EQUIP_FRAME_PURCHASE_CANCEL": "キャンセル",
+    "SERVANT_EQUIP_FRAME_PURCHASE_DECIDE": "拡張する",
+    "SERVANT_EQUIP_FRAME_PURCHASE_STONE": "聖晶石購入へ",
+    "SERVANT_EQUIP_FRAME_PURCHASE_CLOSE": "閉じる",
+    
+    // Servant Sell
+    "SERVANT_SELL_TITLE" : "霊基変還",
+    "SERVANT_SELL_QP_TITLE" : "獲得QP",
+    "SERVANT_SELL_MP_TITLE" : "獲得MP",
+    "SERVANT_SELL_MESSAGE_START" : "選択したサーヴァントを変還します。\nよろしいですか？",
+    "SERVANT_EQUIP_SELL_MESSAGE_START" : "選択した概念礼装を変還します。\nよろしいですか？",
+    "SERVANT_SELL_MESSAGE_END": "サーヴァントを変還しました。",
+    "SERVANT_EQUIP_SELL_MESSAGE_END": "概念礼装を変還しました。",
+    "SERVANT_SELL_MESSAGE_ERROR": "[00FFFF]サーヴァントを変還できませんでした。",
+    "SERVANT_EQUIP_SELL_MESSAGE_ERROR": "[00FFFF]概念礼装を変還できませんでした。",
+    "SERVANT_SELL_MESSAGE_NO_SELECT": "[00FFFF]変還するサーヴァントを選択してください",
+    "SERVANT_EQUIP_SELL_MESSAGE_NO_SELECT": "[00FFFF]変還する概念礼装を選択してください",
+    "SERVANT_SELL_INFO0" : "獲得QP：{0}",
+    "SERVANT_SELL_INFO1" : "獲得マナプリズム：{0}",
+    "SERVANT_SELL_INFO2" : "QP：{0}",
+    "SERVANT_SELL_INFO3" : "マナプリズム：{0}",
+    "SERVANT_SELL_REQUEST_RARITY_MESSAGE" : "[FF0000]R以上のサーヴァントが含まれています。",
+    "SERVANT_EQUIP_SELL_REQUEST_RARITY_MESSAGE" : "[FF0000]R以上の概念礼装が含まれています。",
+    "SERVANT_SELL_CANCEL": "キャンセル",
+    "SERVANT_SELL_DECIDE": "くべる",
+    "SERVANT_SELL_CLOSE": "閉じる",
+
+    // Friend Scene
+    "FRIEND_SEARCH_TITLE1" : "あなたのユーザーID",
+    "FRIEND_SEARCH_TITLE2" : "友達のユーザーIDを入れて検索できます",
+    "FRIEND_SEARCH_EXPLANATION" : "ここをタッチして入力してください",
+    "FRIEND_SEARCH_COPY_ID" : "IDをコピー",
+    "FRIEND_SEARCH_RESULT_TITLE" : "検索結果",
+    
+    "FRIEND_BUTTON_OFFER" : "申請",
+    "FRIEND_BUTTON_ACCEPT" : "承認",
+    "FRIEND_BUTTON_REJECT" : "拒否",
+    "FRIEND_BUTTON_CANCEL" : "取り止め",
+    "FRIEND_BUTTON_REMOVE" : "解除",
+    
+    "FRIEND_SHOW_INFOMATION" : "{0}/{1}",
+    
+    "FRIEND_TAB_FRIEND" : "フレンド",
+    "FRIEND_TAB_OFFERED" : "通知",
+    "FRIEND_TAB_SEARCH" : "フレンド検索",
+    
+    "FRIEND_OFFER_MESSAGE" : "{0} へ\nフレンド申請を行いますか？",
+    "FRIEND_OFFER_DECIDE" : "はい",
+    "FRIEND_OFFER_CANCEL" : "いいえ",
+    
+    "FRIEND_ACCEPT_MESSAGE" : "{0} からの\nフレンド申請を承認しますか？",
+    "FRIEND_ACCEPT_DECIDE" : "はい",
+    "FRIEND_ACCEPT_CANCEL" : "いいえ",
+
+    "FRIEND_REJECT_MESSAGE" : "{0} からの\nフレンド申請を拒否します\n本当によろしいですか？",
+    "FRIEND_REJECT_DECIDE" : "はい",
+    "FRIEND_REJECT_CANCEL" : "いいえ",
+
+    "FRIEND_CANCEL_MESSAGE" : "{0} への\nフレンド申請を取りやめます\n本当によろしいですか？",
+    "FRIEND_CANCEL_DECIDE" : "はい",
+    "FRIEND_CANCEL_CANCEL" : "いいえ",
+
+    "FRIEND_REMOVE_MESSAGE" : "{0}\n\nこのフレンドを解除します。\n本当によろしいですか？",
+    "FRIEND_REMOVE_DECIDE" : "はい",
+    "FRIEND_REMOVE_CANCEL" : "いいえ",
+    
+    "FRIEND_MAX_FRIEND_MESSAGE" : "フレンド数が上限に達しています",
+    "FRIEND_MAX_FRIEND_CLOSE" : "OK",
+    
+    "FRIEND_NO_FRIEND_MESSAGE" : "現在フレンドがいません",
+    "FRIEND_NO_FRIEND_CLOSE" : "OK",
+    
+    "FRIEND_NO_OFFER_MESSAGE" : "フレンド申請はありません",
+    "FRIEND_NO_OFFER_CLOSE" : "OK",
+
+    "FRIEND_NO_OFFERED_MESSAGE" : "フレンド通知はありません",
+    "FRIEND_NO_OFFERED_CLOSE" : "OK",
+
+    "FRIEND_NO_SEARCH_MESSAGE" : "検索対象が存在しません",
+    "FRIEND_NO_SEARCH_CLOSE" : "OK",
+    
+    "FRIEND_NO_STRING_MESSAGE" : " IDを入力してください",
+    "FRIEND_NO_STRING_CLOSE" : "OK",
+    
+    "FRIEND_EMPTY_FRIEND_MESSAGE" : "現在フレンドがいません。\nフレンドはIDを検索して探すか\nクエストクリア時に申請できます",
+    "FRIEND_EMPTY_OFFERED_MESSAGE" : "フレンド通知はありません。",
+    
+    // Follower Scene
+    "FOLLOWER_SELECT_EXPLANATION" : "[5CD5FF]NPC・フレンドを選択すると、宝具が使用できます",
+    "FOLLOWER_SELECT_NP_LOCK" : "[E04020]フレンドでないため宝具は使用できません",
+    "FOLLOWER_SELECT_TYPE_POINT" : "[FCC13F]+{0}",
+    "FOLLOWER_SELECT_TYPE_POINT_UP" : "[0000E6]+{0}",
+    
+    // 
+    "BATTLE_SETUP_CONFIRM_MESSAGE" : "出撃しますか？",
+    "BATTLE_SETUP_CONFIRM_DECIDE" : "出撃する",
+
+    // Party Organization
+    "PARTY_ORGANIZATION_EDIT" : "パーティ編成",
+    "PARTY_ORGANIZATION_CHANGE" : "メンバー編成",
+    "PARTY_ORGANIZATION_SWAP" : "配置変更",
+    "PARTY_ORGANIZATION_START" : "クエスト開始",
+    "PARTY_ORGANIZATION_COMMAND_CARD" : "コマンドカード",
+    "PARTY_ORGANIZATION_CANCEL" : "キャンセル",
+    "PARTY_ORGANIZATION_REMOVE" : "パーティ解散",
+    "PARTY_ORGANIZATION_DECIDE" : "決定",
+
+    "PARTY_ORGANIZATION_SARVANT_CHANGE" : "替える",
+    "PARTY_ORGANIZATION_SARVANT_SWAP" : "入替える",
+    "PARTY_ORGANIZATION_SARVANT_REMOVE" : "はずす",
+
+    "PARTY_ORGANIZATION_SARVANT_COST_OVER" : "COST OVER",
+    "PARTY_ORGANIZATION_SARVANT_SAME_SERVANT" : "同じサーヴァント選択不可",
+    
+    "PARTY_ORGANIZATION_CONFIRM_CANCEL_TITLE" : "CAUTION"
+    "PARTY_ORGANIZATION_CONFIRM_CANCEL_MESSAGE" : "変更前の編成の状態に戻ります。\n実行しますか？",
+    "PARTY_ORGANIZATION_CONFIRM_CANCEL_DECIDE" : "決定",
+    "PARTY_ORGANIZATION_CONFIRM_CANCEL_CANCEL" : "キャンセル",
+
+    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_TITLE" : "CAUTION"
+    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_MESSAGE" : "STARTING MEMBERが登録されていません。\n変更前の編成の状態に戻ります。\n実行しますか？",
+    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_DECIDE" : "決定",
+    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_CANCEL" : "キャンセル",
+    
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_TITLE" : "パーティ解散"
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_MESSAGE" : "登録中のすべてのサーヴァントを解除します。\n実行しますか？",
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_DECIDE" : "決定",
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_CANCEL" : "キャンセル",
+
+    "PARTY_ORGANIZATION_COMMAND_CARD_TITLE" : "コマンドカード確認"
+    "PARTY_ORGANIZATION_COMMAND_CARD_MESSAGE" : "STARTING MEMBERのコマンドカード",
+    "PARTY_ORGANIZATION_COMMAND_CARD_CLOSE" : "閉じる",
+
+    "PARTY_ORGANIZATION_DECIDE_WARNING_TITLE_COST_OVER" : "[FF2020]コストオーバー",
+    "PARTY_ORGANIZATION_DECIDE_WARNING_MESSAGE_COST_OVER" : "コストの制限をこえているので\nこのパーティを登録できません。",
+
+    "PARTY_ORGANIZATION_START_WARNING_TITLE_COST_OVER" : "[FF2020]コストオーバー",
+    "PARTY_ORGANIZATION_START_WARNING_MESSAGE_COST_OVER" : "コストの制限をこえているので\nこのパーティではクエストを開始できません。",
+
+    // Script Action Scene
+    "SCRIPT_ACTION_SKIP_CONFIRM_TITLE" : "スキップ確認",
+    "SCRIPT_ACTION_SKIP_CONFIRM_DETAIL" : "このイベントをスキップしますか？",
+    
+    "SCRIPT_ACTION_CODE_COMMENT" : "＊",
+    "SCRIPT_ACTION_CODE_LABEL" : "＄",
+    "SCRIPT_ACTION_CODE_SCENE" : "＃",
+    "SCRIPT_ACTION_CODE_TALK" : "＠",
+    "SCRIPT_ACTION_CODE_SWITCH_CASE" : "？",
+    "SCRIPT_ACTION_CODE_SWITCH_CASE_SPLIT" : "：",
+    "SCRIPT_ACTION_CODE_SWITCH_END" : "？！",
+    "SCRIPT_ACTION_CODE_VOICE" : "％％",
+    "SCRIPT_ACTION_CODE_CLASS_SPLIT" : "：",
+    "SCRIPT_ACTION_CODE_RETURN" : "￥",
+    "SCRIPT_ACTION_BACK_LOG_TALK_START" : "「",
+    "SCRIPT_ACTION_BACK_LOG_TALK_END" : "」",
+    
+    // Debug Test
+    "DEBUG_TEST_EXIT_APPLICATION_TITLE" : "Exit Application",
+    "DEBUG_TEST_EXIT_APPLICATION_DITAIL" : "処理を反映するには、アプリケーションの再起動が必要です。アプリケーションを停止しますか？",
+    
+    // SummonScene
+    "PAY_SUMMON_DETAIL" : "聖晶石{0}個で1回召喚",
+    "TICKET_SUMMON_DETAIL" : "呼符で召喚",
+    "TICKET_NUM" : "呼符所持数：{0}枚",
+    
+    "DAILY_SUMMON_DETAIL" : "1日1回無料で召喚",
+    "POINT_SUMMON_DETAIL" : "{0}Pで1回召喚",
+    
+    "SHORT_DLG_TITLE" : "CAUTION",
+    
+    "SHORT_SERVANT_SERVANT" : "サーヴァント",
+    "SHORT_SERVANT_EQUIP" : "概念礼装",
+    "SHORT_SERVANT_SUMMON" : "召喚は実行",
+    "SHORT_SERVANT_QUEST" : "クエストに出撃",
+    "SHORT_SERVANT_FRAME" : "{0}枠が限界になっています。\n{0}枠に1枠以上の空きを作るまで、\n{1}できません。\n\n[FF0000]{2}[-]/{3}\n\n※{0}枠を拡張しますか？",
+    "SERVANT_FRAME_PURCHASE" : "サーヴァント所持枠を増やす",
+    "SERVANT_EQUIP_FRAME_PURCHASE" : "概念礼装所持枠を増やす",
+
+    "SHORT_HAVE_STONE" : "聖晶石が不足しています。\n聖晶石を購入しますか？\n\n所持聖晶石：{0}",
+    "STONE_PURCHASE" : "聖晶石購入",
+    
+    "SHORT_HAVE_POINT" : "フレンドポイントが不足しています。\n\n所持フレンドポイント：{0}",
+    
+    "CONFIRM_PAYSUMMON_MSG" : "聖晶石を{0}個使用して召喚します。\nよろしいですか？\n\n所持聖晶石：{1}\n召喚後聖晶石：{2}",
+    "CONFIRM_TICKETSUMMON_MSG" : "呼符を1枚使用して召喚します。\nよろしいですか？\n\n所持呼符：{0}\n召喚後呼符：{1}",
+    "CONFIRM_POINTSUMMON_MSG" : "フレンドポイントを＜{0}＞使用して召喚します。\nよろしいですか？\n\n所持フレンドポイント：{1}\n召喚後所持フレンドポイント：{2}",
+    "CONFIRM_FREESUMMON_MSG" : "1日1回無料で召喚できます。\nよろしいですか？\n\n※{0}：00で再度利用可能になります。",
+    
+    "SUMMON_OPEN_FRINEDQUEST_NAME" : "[03D7FD]幕間の物語 開放！[-]\n\n｢{0}｣ が\nオープンしました！",
+    
+    "HAVE_SVT_NUM_TITLE" : "サーヴァント",
+    "HAVE_SVTEQ_NUM_TITLE" : "概念礼装",
+        
+    // CombineScene
+    "SELECT_BASE_INFO" : "強化ベースにする\nサーヴァントを\n選択してください",
+    "PRESELECT_BASE" : "先にベースを選択してください",
+    "SELECT_MATERIAL_INFO" : "合成させるサーヴァントを選択してください",
+    
+    "NONSELECT_BASE" : "これ以上\n強化不可",
+    "NONSELECT_LIMITUP_BASE" : "これ以上\n霊基再臨不可",
+    
+    "NOMAXLV_LIMITUP_BASE" : "レベル\n不足",
+    "NOITEM_LIMITUP_BASE" : "アイテム\n不足",
+    "NO_SAME_BASE" : "同一\nサーヴァント\nなし",
+    
+    "NEED_QP_INFO" : "必要QP",
+    "NEED_QP" : "{0:N0}",
+    "GET_EXP_INFO" : "獲得EXP",
+    
+    "COMBINE_DECIDE_BUTTON_TXT" : "強化する",
+    
+    "SHORT_QP_INFO_MSG" : "[DB0052]必要QPが足りません!",
+    "SHORT_ITEM_INFO_MSG" : "[DB0052]必要アイテムが足りません",
+    
+    "SERVANT_SELL_BUTTON_TXT" : "売却へ",
+    "GOTO_TERMINAL_BUTTON_TXT" : "クエストへ",
+    
+    "RARE_SVT_WARNING_INFO_MSG" : "R以上のサーヴァントが含まれています。\n実行しますか？",
+    "RARE_SVTEQ_WARNING_INFO_MSG" : "R以上の概念礼装が含まれています。\n実行しますか？",
+    
+    "RARE_MATERIAL_INFO_MSG" : "[FF0000]★３以上の素材が含まれています！",
+    
+    "ALL_STATUS_MAX_MSG" : "これ以上の「{0}強化」は効果がありません！\n（経験値は上昇します）",
+    
+    "INCREMENT_SVTLEVEL" : "(+{0})",
+    
+    "NEED_ITEM_INFO" : "[03D7FD]必要数[-] {0} / [03D7FD]所持数[-] {1}",
+    
+    "CONFIRM_TITLE_SVT_COMBINE" : "サーヴァント強化",
+    "CONFIRM_TITLE_LIMITUP" : "霊基再臨",
+    "CONFIRM_TITLE_SKILL_COMBINE" : "スキル強化",
+    "CONFIRM_TITLE_TD_COMBINE" : "宝具強化",
+    "CONFIRM_TITLE_SVTEQ_COMBINE" : "概念礼装強化",
+    
+    "CONFIRM_COMBINE_MSG" : "強化合成を行いますか？",
+    
+    "CONFIRM_SVT_COMBINE" : "サーヴァント強化を実施します",
+    "CONFIRM_SVTEQ_COMBINE" : "概念礼装強化を実施します",
+    "CONFIRM_SKILL_COMBINE" : "{0}を強化します",
+    "CONFIRM_LIMITUP_COMBINE" : "霊基再臨を行いますか？",
+    
+    "CURRENT_LEVEL_TXT" : "現在のLv.{0}",
+    "NEXT_LEVEL_TXT" : "[00FFFF]強化後のLv.{0}",
+    "NEXT_GET_SKILL" : "取得スキル：{0}",
+    
+    "CURRENT_MAX_LV_TXT" : "現在の最大Lv.{0}",
+    "NEXT_MAX_LV_TXT" : "[00FFFF]霊基再臨後の最大Lv.{0}",
+    
+    "LEVELUP_NOTICE_TITLE" :  "[FFF800]レベルアップしました！",
+    
+    "OPEN_STORY_QUEST_TITLE" : "[03D7FD]物語クエスト開放",
+    "OPEN_HERO_QUEST_TITLE" : "[09FD05]英雄譚クエスト開放",
+    "OPEN_QUEST_NAME" : "｢{0}｣ が\nオープンしました！",
+    
+    "GET_SKILL_TITLE" : "スキルを覚えました!",
+    "GET_SKILL_NAME" : "｢{0}｣",
+    
+    "SAME_SVTEQUIP_COMBINE" : "限界突破",
+    
+    "HEADER_MSG_SVTCOMBINE_BASE" : "強化するサーヴァントを選択してください",
+    "HEADER_MSG_COMBINE_MATERIAL" : "強化に使用するカードを選択してください",
+    "EXE_SUMMON_COMBINE_TXT" : "「強化する」ボタンをタッチしてください",
+    
+    "HEADER_MSG_LIMITUP" : "霊基再臨させるサーヴァントを選択してください",
+    "MSG_MAXLV_LIMITUP_BASE" : "[DB0052]霊基再臨可能なレベルに達していません",
+    
+    "HEADER_MSG_SKILLUP" : "スキルを強化するサーヴァントを選択してください",
+    "MSG_SKILL_LEVEL_MAX" : "[FF0000]スキルレベルが最大レベルです",
+    
+    "HEADER_MSG_NPUP_BASE" : "宝具を強化するサーヴァントを選択してください",
+    "HEADER_MSG_NPUP_MATERIAL" : "宝具強化に使用するカードを選択してください",
+    
+    "HEADER_MSG_SVTEQ_BASE" : "強化する概念礼装を選択してください",
+    "EXE_SVTEQ_COMBINE_TXT" : "概念礼装強化開始！！",
+    
+    "MAX_LVUP_TXT" : "レベル上限：Lv.{0} → Lv.{1}",
+    "SVTEQ_LVMAX_INFO_TXT" : "[DB0052]これ以上経験値を得ることはできません",
+    
+    // PresentBox
+    "PRESENT_LIST_INFO" : "{0} / {1}件",
+    "PRESENT_LIST_NOTICE" : "※注意：{0}件以上は、古い順に削除されます。",
+    
+    "RECEIVE_NORMAL_TXT" : "『{0} ×{1}』を\n受け取りました。",
+    "RECEIVE_SELECT_TXT" : "選択したプレゼントを受け取りました。\n\nプレゼントは1度に10件まで\n受け取ることができます。",
+    "RECEIVE_ALL_TXT" : "プレゼントを受け取りました。\n\nプレゼントは1度に10件まで\n受け取ることができます。",
+    "RECEIVE_ITEM_TXT" : "霊基以外のプレゼントを\n受け取りました。\n\nプレゼントは1度に10件まで\n受け取ることができます。",
+    "RECEIVE_ALL_DONE" : "すべて受け取り済みです。",
+    
+    "REJECT_NORMAL_TXT" : "[FF0000]所持可能な数が上限に達しているため、\nプレゼントを受け取れませんでした。",
+    "REJECT_SELECT_TXT" : "[FF0000]所持可能な数が上限に達しているため、\n一部のプレゼントを受け取れませんでした。",
+    "REJECT_ALL_TXT" : "[FF0000]所持可能な数が上限に達しているため、\n一部のプレゼントを受け取れませんでした。\n\nプレゼントは1度に10件まで\n受け取ることができます。",
+    
+    "PRESENT_INFO" : "{0} ×{1}",
+
+    // Battle
+    "BATTLE_NOENTITY_TITLE": "通信エラー",
+    "BATTLE_NOENTITY_CONF": "戦闘データを確認できませんでした\nタイトル画面に移行します",
+
+    "BATTLE_HASNOT_TD": "使用不可能",
+    "BATTLE_RETIRE_CHECKSTR": "撤退すると[FF007e]戦利品が入手できません[FFFFFF]\n撤退しますか？",
+    "BATTLE_CONTINUE_RETIRE" : "撤退する",
+    "BATTLE_CONTINUE_CHECK_SPELL" : "令呪を使用してコンティニューしますか？",
+    "BATTLE_CONTINUE_USE_SPELL" : "令呪を使う",
+    "BATTLE_CONTINUE_CHECK_STONE" : "聖晶石を1個使用してコンティニューしますか？",
+    "BATTLE_CONTINUE_USE_STONE" : "聖晶石を使う",
+    "BATTLE_CONTINUE_NO_STONE":"聖晶石を1個使用してコンティニューしますか？\n[FF0000]＊コンティニューに必要な聖晶石が足りません[FFFFFF]",
+    "BATTLE_CHECKUSE_COMMANDSPELL":"この命令で令呪を使ってよろしいですか？",
+
+    "BATTLE_DIALOG_SELECT_SERVANT": "対象を選択してください",
+    "BATTLE_DIALOG_RETIRE_TITLE": "クエストから撤退しました",
+    "BATTLE_DIALOG_RETIRE_CONF": "サーヴァントや概念礼装を強化して\nパーティを強くし\nクエストに再チャレンジしましょう",
+    "BATTLE_DIALOG_USECOMMANDSPELL_ERROR_TITLE": "通信に失敗しました",
+    "BATTLE_DIALOG_USECOMMANDSPELL_ERROR_CONF": "サーバーとの通信に\n失敗しました\n再度接続をおこないます",
+    "BATTLE_TDCOUNT_LABEL": "あと：",
+    "BATTLE_SKILLCHARGETURN": "チャージタイム：{0}",
+
+    "BATTLE_ITEMLIST_NOTGET": "戦利品を得られませんでした",
+    "BATTLE_ITEMLIST_NOTYET": "戦利品を得ていません",
+
+    "BATTLE_SUBENTRY_PLAYER": "Sub Member  - 残り：{0}騎 -",
+    "BATTLE_SUBENTRY_ENEMY": "New Enemy  - 残り：{0} -",
+    "BATTLE_SUBENTRY_ENEMY_UNKNOWN": "New Enemy  - 残り：? -",
+
+    "BATTLE_COMMANDDIALOG_NOFUNC": "真名を思い出せないため\n宝具を使用できません",
+    "BATTLE_COMMANDDIALOG_DONTTD": "宝具は使用できません",
+    "BATTLE_COMMANDDIALOG_DONTACT": "行動不能のため\n宝具を使用できません",
+
+    // Result
+    "RESULT_EQUIP_MAXEXP": "LEVEL MAX",
+    "RESULT_FRIEND_COUNT": " あなたのフレンド {0:D3}/{1:D3}",
+    "RESULT_FRIEND_TITLE": "サポートしてくれたプレイヤーに\nフレンド申請を送りますか？",
+    "RESULT_FRIEND_REQUEST_YES": "申請する",
+    "RESULT_FRIEND_REQUEST_NO": "申請しない",
+    "RESULT_FRIEND_REQUEST_NG": "フレンド申請に失敗しました。",
+
+    // Result Up Bounds
+    "RESULT_BOUNDS_OPENQUEST": "・幕間の物語が開放されました\n　「{0}」\n",
+    "RESULT_BOUNDS_GETNP": "・宝具が開放されました\n　「{0}」\n",
+    "RESULT_BOUNDS_GETSKILL": "・スキルを取得しました\n　「{0}」\n",
+    "RESULT_BOUNDS_UPDATE_MATERIAL": "・マテリアルが更新されました\n",
+    "RESULT_BOUNDS_GETVOICE": "・新しいボイスが追加されました\n",
+
+   	// Result Eq Exp
+    "RESULT_EQEXP_GETSKILL": "・スキルを習得しました\n　「{0}」\n",
+    "RESULT_EQEXP_UPSKILLLV": "・スキルレベルアップ\n　「{0}」Lv.{1}\n",
+
+    // tutorial battle1
+    "TUTORIAL_MESSAGE_BATTLE_000": "\n",
+    "TUTORIAL_MESSAGE_BATTLE_110": "模擬戦闘を開始します\n\n敵性対象を攻撃するために\nAttackボタンをタッチしてください",
+    "TUTORIAL_MESSAGE_BATTLE_111": "サーヴァントに指示を送ります\n「コマンドカード」を\n3枚選択してください",
+    "TUTORIAL_MESSAGE_BATTLE_120": "このようにカードに描かれた\nサーヴァントが攻撃を繰り出します",
+    "TUTORIAL_MESSAGE_BATTLE_121": "現在のターンでドローされる\nカードはAttackボタンの\n上部に表示されます",
+    "TUTORIAL_MESSAGE_BATTLE_122": "3枚とも同じサーヴァントを\n選択することで\nより強力な攻撃を繰り出せます",
+    "TUTORIAL_MESSAGE_BATTLE_130": "単騎による強力な攻撃\nブレイブチェインが発動しました！",
+    "TUTORIAL_MESSAGE_BATTLE_131": "次は3枚とも同じ色のカードを\n選択してください",
+    "TUTORIAL_MESSAGE_BATTLE_140": "このようにカードの色に\n対応したチェイン攻撃が\n発動します！",
+    "TUTORIAL_MESSAGE_BATTLE_141": "次はご自身でサーヴァントに\n指示を与えてみてください",
+    "TUTORIAL_MESSAGE_BATTLE_150": "戦局に応じた最良の手を見抜き\nサーヴァントに指示を出しましょう",
+    "TUTORIAL_MESSAGE_BATTLE_151": "NPゲージが貯まると\n宝具を発動できるようになります。\n今回は特別にアルトリアの\nゲージを100%にします",
+    "TUTORIAL_MESSAGE_BATTLE_152": "アルトリアの宝具を\n使用してみましょう",
+    "TUTORIAL_MESSAGE_BATTLE_153": "最後に宝具の使用方法です\nNPゲージが100%になると\n宝具カードがドローされます\n\ｎ「約束された勝利の剣」を\nタッチしてください",
+
+    // tutorial battle2
+    "TUTORIAL_MESSAGE_BATTLE_210": "クエストに入ると\n戦闘が開始されます\n\nAttackボタンをタッチしてください",
+    "TUTORIAL_MESSAGE_BATTLE_220": "ダメージを受けてしまいました！\n「スキル」を発動して\nダメージを減らしましょう",
+    "TUTORIAL_MESSAGE_BATTLE_222": "「スキル」が発動しました\n\n使用したスキルは\n一定ターン後に\n再び使用できるようになります",
+    "TUTORIAL_MESSAGE_BATTLE_230": "サーヴァントは様々な効果の\n「スキル」を持っています\n\n戦局を見極めて\nサーヴァントに指示を出しましょう",
+
+    // tutorial battle3
+    "TUTORIAL_MESSAGE_BATTLE_320": "クエストによっては\n最初の敵を全て倒しても\n続けて、次のバトルが開始されます",
+    "TUTORIAL_MESSAGE_BATTLE_321": "敵を倒すと\n「クリティカルスター」を入手できます\nクリティカルスターは\nコマンドカードに振り分けられ\n数が多いほどそのコマンドで\nクリティカル攻撃が発生しやすくなります",
+
+    // UserItemList
+    "STONE_INFO_TITLE" : "聖晶石所持内容",
+    "PAYSTONE_INFO_TITLE" : "有償入手分",
+    "FREESTONE_INFO_TITLE" : "無償入手分",
+    "STONE_INFO_NOTICE" : "聖晶石は無償入手分から先に消費されます。\n聖晶石購入時に入手したおまけ分は無償入手分とします。",
+    "NONITEM_NOTICE" : "アイテムを所持していません。",
+    
+    // MyRoom
+    "MYROOM_MENU_NAME_0" : "マテリアル",
+    "MYROOM_MENU_NAME_1" : "所持アイテム一覧",
+    "MYROOM_MENU_NAME_2" : "マスタープロフィール",
+    "MYROOM_MENU_NAME_3" : "ゲームオプション",
+    "MYROOM_MENU_NAME_4" : "お知らせ",
+    "MYROOM_MENU_NAME_5" : "シリアルコード入力",
+    "MYROOM_MENU_NAME_6" : "引き継ぎナンバー発行",
+    "MYROOM_MENU_NAME_7" : "タイトル",
+    
+    "MYROOM_TITLE_CONFIRM" : "タイトル画面へ戻りますか？",
+
+    // Material
+    "MATERIAL_TOP_SERVANT" : "霊基一覧",
+    "MATERIAL_TOP_MAP" : "特異点の記録",
+    "MATERIAL_TOP_STORY" : "幕間の物語の記録",
+    "MATERIAL_TOP_FREE" : "フリークエストの記録",
+    "MATERIAL_TOP_OPENING" : "オープニング",
+    "MATERIAL_MAP_PROLOGUE" : "プロローグ",
+    "MATERIAL_MAP_AVANT_TITLE" : "アバンタイトル",
+    "MATERIAL_STORY_SUMMON" : "召喚",
+
+    // Serial Code
+    "SERIAL_CODE_TITLE" : "シリアルコードを入力してください。",
+    "SERIAL_CODE_EXPLANATION" : "4〜12文字の半角英数字を入力",
+    "SERIAL_CODE_DECIDE" : "決定",
+    
+    // Continue Device
+    "CONTINUE_DEVICE_INPUT_TITLE" : "データ引き継ぎ時に使用するパスワードを登録してください。",
+    "CONTINUE_DEVICE_INPUT_EXPLANATIOIN1" : "[5CD5FF]パスワード",
+    "CONTINUE_DEVICE_INPUT_EXPLANATIOIN2" : "[5CD5FF]パスワード(再入力)",
+    "CONTINUE_DEVICE_INPUT_EXPLANATIOIN3" : "4〜12文字の半角英数字を入力",
+	"CONTINUE_DEVICE_INPUT_DECIDE" : "発行する",
+    "CONTINUE_DEVICE_INPUT_PASSWARD_LOW" : "[FF0000]半角英数字で4文字以上、12文字以内で入力してください。",
+    "CONTINUE_DEVICE_INPUT_PASSWARD_DIFFERENT" : "[FF0000]入力したパスワードが一致しません。",
+
+    "CONTINUE_DEVICE_DISP_TITLE" : "[20E0E0]引き継ぎナンバーを発行しました",
+    "CONTINUE_DEVICE_DISP_MESSAGE" : "他端末への引き継ぎは、タイトル画面の\n「引き継ぎ」から行うことができます。",
+    "CONTINUE_DEVICE_DISP_EXPLANATIOIN1" : "[5CD5FF]引き継ぎ",
+    "CONTINUE_DEVICE_DISP_EXPLANATIOIN2" : "※引き継ぎナンバーは１日１回発行することができます。\n再発行が行えるのは、AM5：00以降となります。",
+	"CONTINUE_DEVICE_DISP_COPY" : "コピー",
+  	"CONTINUE_DEVICE_DISP_DECIDE" : "再発行",
+
+	"CONTINUE_DEVICE_CONFIRM_MESSAGE1" : "設定したパスワードで\n引き継ぎナンバーを発行します。\nよろしいですか？",
+	"CONTINUE_DEVICE_CONFIRM_MESSAGE2" : "引き継ぎナンバーを再発行します。\nよろしいですか？\n\n\n※パスワードの登録からやり直しになります。",
+	
+    "CONTINUE_DEVICE_DIALOG_MESSAGE1" : "引き継ぎナンバーをコピーしました。",
+    
+    "CONTINUE_DEVICE_TAKEOVER_EXPLANATIOIN1" : "タッチしてください",
+    "CONTINUE_DEVICE_TAKEOVER_EXPLANATIOIN2" : "タッチしてください",
+    
+    "CONTINUE_DEVICE_TAKEOVER_CONFIRM_MESSAGE" : "「{0}」\nこのユーザーを引き継いでよろしいですか？",
+	"CONTINUE_DEVICE_TAKEOVER_DECIDE_MESSAGE" : "引き継ぎに成功しました！\n以前のデータでゲームを再開します。",
+    "CONTINUE_DEVICE_TAKEOVER_FAIL_MESSAGE" : "引き継ぎに失敗しました。\n引き継ぎナンバーとパスワードをご確認のうえ\n再度入力してください。",
+    
+    // CommandSpell
+    "COMMAND_SPELL_RECOVER_TIME" : "{0:D2}:{1:D2}:{2:D2}",
+    
+    // Terms Of Use
+    "TERMS_OF_USE_TITLE" : "利用規約同意確認",
+    "TERMS_OF_USE_MESSAGE1" : "『Fate/Grand Order』をプレイするには\n利用規約に同意していただく必要があります。\n利用規約をご確認のうえ、\n「同意する」をタッチしてください。",
+    "TERMS_OF_USE_MESSAGE2" : "『Fate/Grand Order』の\n利用規約が更新されました。\n利用規約をご確認のうえ、\n「同意する」をタッチしてください。",
+    "TERMS_OF_USE_SHOW" : "利用規約",
+    "TERMS_OF_USE_CANCEL" : "同意しない",
+    "TERMS_OF_USE_DECIDE" : "同意する",
+    
+    "TERMS_OF_USE_DENIAL_TITLE" : "利用規約同意確認",
+    "TERMS_OF_USE_DENIAL_MESSAGE" : "『Fate/Grand Order』をプレイするためには\n利用規約に同意が必要です。",
+
+     // クエストボード
+    "QUEST_BOARD_CAMPAIGN_AP" : "消費AP {0:D2}％DOWN",
+    "QUEST_BOARD_CAMPAIGN_EXP" : "取得EXP {0:D2}％UP",
+    "QUEST_BOARD_CAMPAIGN_DROP" : "ドロップ率 {0:D2}％UP",
+    "QUEST_BOARD_CAMPAIGN_QP" : "取得QP {0:D2}％UP",
+    "QUEST_BOARD_CLOSED_1" : "＜条件を満たしていません＞",
+    "QUEST_BOARD_CLOSED_2" : "＜条件を満たしていません＞",
+    "QUEST_BOARD_CLOSED_3" : "＜条件を満たしていません＞",
+    "QUEST_BOARD_CLOSED_4" : "＜条件を満たしていません＞",
+    "QUEST_BOARD_CLOSED_5" : "＜条件を満たしていません＞",
+
+    // クエスト開始できないメッセージ
+    "QUEST_AP_MAX_OVER" : "このクエストに挑戦するための\n最大APが不足しています。",
+    "QUEST_TIME_OVER" : "クエストの開放期間が終了しました。",
+
+    // クエスト開始演出タイトル
+    "QUEST_START_ACTION_TITLE_MAIN" : "第{0}節",
+    "QUEST_START_ACTION_TITLE_FREE" : "フリークエスト",
+    "QUEST_START_ACTION_TITLE_EVENT" : "イベントクエスト",
+    "QUEST_START_ACTION_TITLE_STORY" : "幕間の物語",
+    "QUEST_START_ACTION_TITLE_HERO" : "英雄譚クエスト",
+
+    // クエストクリア変化通知
+    "QUEST_CLEAR_CHANGE_ACTION_STORY" : "がオープンしました！",
+    "QUEST_CLEAR_CHANGE_ACTION_COLLECTION" : "マテリアルが更新されました！",
+
+    // TUTORIAL MESSAGE
+    "TUTORIAL_ARROW_MARK_MESSAGE" : "Touch",
+    "TUTORIAL_CANCEL_CONFIRM_TITLE" : "チュートリアル飛ばし確認",
+    "TUTORIAL_CANCEL_CONFIRM_MESSAGE" : "チュートリアルを終了したことにしますか？",
+    "TUTORIAL_MESSAGE_FAVORITE1" : "お気に入りの説明",
+    "TUTORIAL_MESSAGE_SHOP1" : "ここでは聖晶石の購入や、\n霊基の変還\n最大所持数の拡張、\nマナプリズムの使用が行えます。",
+    "TUTORIAL_MESSAGE_TERMINAL_SPOT" : "画面の指示に従って\n操作してください",
+    "TUTORIAL_MESSAGE_TERMINAL_QUEST" : "マップ上のランドマークを\nタッチするとクエストが\n表示されます\n\nタッチすることで\nクエストが開始されます",
+    "TUTORIAL_MESSAGE_TERMINAL_MENU" : "「メインメニュー」が\n使用可能になりました\n\nMENUボタンをタッチしてください",
+    "TUTORIAL_MESSAGE_TERMINAL_GACHA" : "メインメニューからは\n様々な画面へ移動できます\n\n早速「召喚」でサーヴァントを\n召喚してみましょう",
+    "TUTORIAL_MESSAGE_TERMINAL_FAVORITE" : "お気に入りサーヴァントの登録機能が解放されました。サーヴァント詳細で設定可能です。\n\n登録するとお気に入りサーヴァントがマイルーム画面に表示されるようになります。",
+    "TUTORIAL_MESSAGE_COMBINE" : "ここではアイテムや\nサーヴァントを合成することで、\nサーヴァント自身やスキル・宝具の\n強化を行うことができます。",
+    "TUTORIAL_MESSAGE_SUMMON1" : "召喚は、聖晶石やフレンドポイント\nを使用して実行できます\n\n聖晶石を4個プレゼントしました\n今から召喚を行ってみましょう！",
+    "TUTORIAL_MESSAGE_SUMMON2" : "サーヴァントを召喚できました！\n\n次は、このサーヴァントを\n「編成」してみましょう",
+
+    "TUTORIAL_MESSAGE_PARTY_ORGANIZATION1" : "この画面でサーヴァントを\nパーティに編成できます",
+    "TUTORIAL_MESSAGE_PARTY_ORGANIZATION2" : "「SELECT」をタッチしてください",
+    "TUTORIAL_MESSAGE_PARTY_ORGANIZATION1_2" : "「パーティ編成」画面で\nサーヴァントを編成できます\n\n「SELECT」をタッチしてください",
+    "TUTORIAL_MESSAGE_PARTY_ORGANIZATION3" : "先ほど召喚したサーヴァントを\nタッチしてください",
+    "TUTORIAL_MESSAGE_PARTY_ORGANIZATION4" : "これでサーヴァントをパーティ参加させることが完了しました\n\n「決定」をタッチしてください",
+    "TUTORIAL_MESSAGE_PARTY_ORGANIZATION5" : "次はこのパーティで\nクエストに挑みます\n\n引き続き、画面の指示に従って\n操作してください",
+    
+    "TUTORIAL_MESSAGE_FOLLOWER1" : "「サポート選択」画面では\nクエストをサポートしてくれる\nサーヴァントを選択できます\n\nサポートしてもらうことで\nフレンドポイントを入手できます",
+    "TUTORIAL_MESSAGE_FOLLOWER_ORGANIZATION1" : "これで準備は完了です\n\n「クエスト開始」をタッチして\nクエストに挑みましょう！",
+    
+    "TUTORIAL_MESSAGE_FOLLOWER2" : "今回はNPCサーヴァントを\nサポートとして選択できます！\n早速選択してみましょう！",
+    "TUTORIAL_MESSAGE_FOLLOWER_ORGANIZATION2" : "このように、シナリオによっては\nNPCサーヴァントをサポートに\n指定することができます！",
+
+    "TUTORIAL_IMAGE_DIALOG_CLOSE" : "閉じる",
+    "TUTORIAL_IMAGE_DIALOG_NEXT" : "次へ",
+    "TUTORIAL_IMAGE_DIALOG_PREV" : "前へ",
+
+    // ログインボーナス
+    "LOGIN_BONUS_TITLE" : "ログインボーナス！",
+    "LOGIN_BONUS_TOTAL" : "通算ログイン：[FFA500]{0}[-]日目\n[FFA500]{0}[-]日目ボーナス\n",
+    "LOGIN_BONUS_TOTAL_ITEM" : "[FFA500]{0}x{1}[-]GET!\n",
+    "LOGIN_BONUS_SEQ" : "連続ログイン：[AFEEEE]{0}[-]日目\n",
+    "LOGIN_BONUS_SEQ_ITEM" : "[AFEEEE]{0}x{1}[-]GET!\n",
+    
+    // キャンペーンボーナス
+    "CAMPAIGN_BONUS_ITEM" : "[FFFF00]{0}x{1}[-]GET!\n",
+    
+    // クエストクリア報酬
+    "QUEST_CLEAR_REWARD_GET" : "{0}x{1} GET!",
+    
+    // 予告章ボード
+    "QUEST_CHAPTER_CLOSED" : "次回バージョンアップをお待ちください。",
+
+    // クエストショートカット
+    "QUEST_SHORTCUT_NONE" : "クエストがありません。",
+
+    // Formation
+    "EQUIP_COND_LEVEL" : "Lv.{0}〜",
+    "CURRENT_EQUIP_STATUS" : "装備中",
+    "NG_EQUIP_STATUS" : "装備Lv.不足",
+
+    // 戦闘中断復帰
+    "BATTLERESUME_CONFIRM_TITLE": "確認",
+    "BATTLERESUME_CONFIRM_MESSAGE": "バトル中です。\nバトルを再開しますか？\n[FF0000](再開しない場合、APのみ消費されます)",
+    "BATTLERESUME_CONFIRM_DECIDE": "再開する",
+    "BATTLERESUME_CONFIRM_CANCEL": "再開しない",
+
+    // 問い合わせ、要望メール
+    "SUPPORTMAIL_ADDRESS": "support@fate-go.jp",
+
+    "SUPPORTMAIL_SUBJECT_SUGGEST": "FGO ご意見・ご要望",
+    "SUPPORTMAIL_SUBJECT_INQUIRY": "FGO お問い合わせ",
+
+    "SUPPORTMAIL_BODY": "ユーザーID:{0}\nご利用OS:{1}\nご利用機種:{2}\n------------------------------\n以下に詳細をご記入ください。\n【】内は必要な情報を残し他を消してください。\n\n通信環境：【3G/LTE/Wi-Fi】\nキャリア：【DoCoMo/au/Softbank/その他】\n詳細：\n",
+
+	// 誕生日設定
+	"INPUT_BIRTHDAY_TITLE" : "誕生日の設定",
+	"INPUT_BIRTHDAY_INFO" : "誕生日を入力すると、お気に入りサーヴァントが\n特別な反応をしてくれることがあります。",
+	"INPUT_BIRTHDAY_NOTICE" : "※誕生日は1度設定すると変更できません。",
+	"BIRTHDAY_TEXT" : "誕生日",
+	
+	// 性別変更
+	"CHANGE_GENDER_TITLE" : "性別の設定",
+	"CHANGE_GENDER_INFO" : "変更したい性別をタッチしてください。",
+	"FEMALE_TEXT" : "女性",
+	"MALE_TEXT" : "男性",
+
+    // 宝具パネル
+    "NOBLEINFO_NP_PER" : "{0}%"
+    
+    // 引き継ぎ
+    "TAKEOVER_DETAIL_TXT" : "引き継ぎナンバーとパスワードを入力すると\n他の端末でデータを引き継いで遊ぶことが出来ます",
+    "TAKEOVER_ID_TXT" : "引き継ぎナンバー",
+    "TAKEOVER_PW_TXT" : "パスワード",
+
+	
+	
+    //
+    "END" : "END"
+}
