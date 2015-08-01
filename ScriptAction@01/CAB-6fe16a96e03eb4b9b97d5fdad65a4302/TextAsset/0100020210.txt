@@ -1,0 +1,80 @@
+＄01-00-02-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ？？？]
+[charaSet E 7010001 1 カリギュラ]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠D：？？？
+ところで、おまえたち。[r]異国の者に違いなかろうが、何処の出身なのだ？
+[k]
+
+[charaFace D 5]
+＠D：？？？
+ブリタニア……ではないな。[r]東の果て……と言うわけでもなさそうだ。
+[k]
+
+？1：カルデアです
+
+[charaFace D 4]
+＠D：？？？
+カルデア？？
+[k]
+
+？2：未来です
+
+[charaFace D 4]
+＠D：？？？
+なんと。真実だとしたら難儀なことよ。[r]身中察するぞ。しかし、階段から転げ落ちでもしたか？
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_2 0.4]
+[se ad16]
+[wt 2]
+[seStop ad16 3]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+お話はそこまでです。[r]敵兵はまだまだ残っています。第二波、来ます。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+ええい、せわしない連合帝国の者どもめっ！[r]余の玉音を妨げるとは不届きなっ。
+[k]
+
+[charaFace D 2]
+＠D：？？？
+ゆくぞ！[r]なかなかな姿をした少女よ、余の盾役を命じよう！
+[k]
+
+[charaFace A 6]
+＠マシュ
+あっ、えっ、はいっ！？
+[k]
+
+[charaFace A 7]
+＠マシュ
+……先輩、[r]わたしたち、いつのまにか仕切られています……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

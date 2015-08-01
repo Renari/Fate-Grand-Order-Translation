@@ -1,0 +1,54 @@
+＄01-00-01-12-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 2005001 1 バーサーク・アーチャー]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4006001 1 ゲオルギウス]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaFace C 5]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠バーサーク・アーチャー
+……これでいい、これでいい。[r]まったく、厄介でどうしようもなく損な役回りだった。
+[k]
+
+[charaFace C 1]
+＠バーサーク・アーチャー
+行け、そしてあの竜を倒せ。[r]ああ、私も次こそは[line 2]。
+[k]
+
+[messageOff]
+[charaSpecialEffect C flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect C]
+[wt 0.5]
+[bgmStop BGM_EVENT_6 0.4]
+[bgm BGM_EVENT_3 0.1]
+[se ad13]
+[wait se ad13]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+バーサーク・アーチャーの消滅を確認した。[r]同時に極大生命反応！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+オルレアンから、ファヴニールが出発したらしい。[r]つまり……いよいよ決戦だ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

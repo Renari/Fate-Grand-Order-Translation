@@ -1,0 +1,478 @@
+＄01-00-01-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98013000 1 ファヴニール]
+[charaSet C 98007000 1 ジャンヌ・オルタ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 1008001 1 ？？？]
+[charaSet H 98003003 1 Dr.ロマン]
+[wipeFilter circleIn 0.5 1]
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……居ました！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+酷い負傷……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 3]
+[charaFadein G 0.1 0]
+＠G：？？？
+……くっ！
+[k]
+
+[effect bit_talk_12 1]
+[shake 0.05 0 10 0.5]
+[se bac6]
+[wait se bac6]
+[charaFace A 15]
+＠マシュ
+きゃっ！
+[k]
+
+[charaFace G 2]
+＠G：？？？
+次から……次へと。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+待って下さい！　私たちは味方です！[r]少なくとも、貴方に害を為すつもりはありません！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠G：？？？
+……？
+[k]
+
+＠マシュ
+ともかく急いで下さい！[r]ここに、竜種がやってきます！
+[k]
+
+[charaFace A 7]
+＠マシュ
+他、サーヴァントも数騎。[r]戦力的にこちらが圧倒的に不利で[line 2]。
+[k]
+
+[charaFace G 4]
+＠G：？？？
+竜……か。[r]……なるほどな。
+[k]
+
+[charaFace G 0]
+＠G：？？？
+だからこそ俺が召喚され、[r]そして襲撃を受けた訳か。
+[k]
+
+[charaFace A 0]
+＠マシュ
+手を貸しましょう、脱出します！
+[k]
+
+[charaFace G 1]
+＠G：？？？
+すまない、頼む……！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[wipeOff]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[wt 0.5]
+[scene 20520 0]
+[charaTalk E]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace E 2]
+[charaFadein E 0 0]
+[fadein black 0.5]
+[wait fade]
+＠マリー・アントワネット
+急いで、[%1]さん！[r]わたしたちでも感知できるほど接近しています！
+[k]
+
+＠Dr.ロマン
+視認できる距離まで接近したぞ！[r]これは……おい、まさか……！
+[k]
+
+[charaFace A 15]
+＠マシュ
+ワイバーンなんか比較にもならない。[r]あれが、真の竜種……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[se ad17]
+[wait se ad17]
+[wt 1]
+[charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジャンヌ・オルタ
+……何を見つけたかと思えば、[r]瀕死のサーヴァント一騎ですか。
+[k]
+
+[charaFace C 2]
+＠ジャンヌ・オルタ
+いいでしょう、[#諸共:もろとも]滅びなさい……！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout C 0.4]
+[wt 0.3]
+[scene 20520 0]
+[charaFace E 2]
+[charaFadein E 0.4 2]
+[charaFace F 0]
+[charaFadein F 0.4 0]
+[wipein rightToLeft 0.4 1]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait wipe]
+＠マリー・アントワネット
+突撃してくる……！
+[k]
+
+[charaFace F 2]
+＠アマデウス
+だめだ、さがれマリア！[r]君の宝具ではどうにもならない……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+わ、わたしが出ます！
+[k]
+
+？1：無茶苦茶言うな！
+
+？2：何を言ってる！？
+
+？！
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+マシュさん、ここは一緒に……！
+[k]
+
+＠マシュ
+は、はい！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFadein B 0.1 1]
+＠ジャンヌ・オルタ
+灼き尽くせ……ファヴニール！！
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+『[#我が神は:リュミノジテ][line 2]』
+[k]
+
+[charaFace A 2]
+＠マシュ
+仮想宝具、展開します！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+『[#ここにありて:エテルネッル]！！』
+[k]
+
+[messageOff]
+[voice NP_800100_2]
+[fowardEffect bit_talk_14]
+[wt 0.5]
+[fowardEffect bit_talk_29]
+[se ad17]
+[flashin once 1 1 FF000080 EE000040]
+[wt 2]
+[fowardEffectStop bit_talk_29]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 1]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+きゃっ……！
+[k]
+
+＠Dr.ロマン
+うわっ！？[r]莫大なエネルギーだな、これは……！
+[k]
+
+＠Dr.ロマン
+そっちは大丈夫か！？[r]っていうか聞こえてる！？
+[k]
+
+＠Dr.ロマン
+……な、何か言ってくれーっ！！
+[k]
+
+？1：やかましいです！
+
+？2：黙ってください！
+
+？！
+
+[charaFadeout E 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+くっ……ぅぅぅぅぅっ！！[r]やはり、これでは……！
+[k]
+
+[charaFace A 15]
+＠マシュ
+耐えられない、もうダメ……！
+[k]
+
+＠G：？？？
+[line 2]いや、間に合ったようだ。[r]君たちのおかげでわずかだが、魔力を回復できた。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……え？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠G：？？？
+[line 2]久しぶりだな。[#邪悪なる竜:ファヴニール]。[r][#二度:にたび]蘇ったなら、[#二度:にたび]喰らわせるまでだ……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジャンヌ・オルタ
+……ファヴニールが怯えて……[r]あのサーヴァント、まさか[line 2]！？
+[k]
+
+[charaFadeout C 0.1]
+[charaSet G 1008001 1 ジークフリート]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ジークフリート
+蒼天の空に聞け！　我が真名はジークフリート！[r]汝をかつて打ち倒した者なり！
+[k]
+
+＠ジークフリート
+宝具解放……！[r]『[#幻想大剣:バル][line 2][#天魔失墜:ムンク]！！』
+[k]
+
+[messageOff]
+[seStop ad11 2]
+[wt 1]
+[flashout 1]
+[charaSpecialEffect G flash 1 2]
+[wt 1]
+[voice NP_100800_2]
+[wt 1.5]
+[charaFadeout G 0.1]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+[wt 1]
+[charaSpecialEffectStop G flash]
+[fadein white 1]
+[wait fade]
+＠ジャンヌ・オルタ
+くっ……！[r]ファヴニール、[#上昇:あがり]なさい！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[wt 0.3]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジークフリート
+……はぁ、はぁ、はぁ。[r]すまないが、これで限界だ。
+[k]
+
+[charaFace G 0]
+＠ジークフリート
+戻ってこない内に、逃げてくれ……。
+[k]
+
+[se ad54]
+[wait se ad54]
+[charaFadeout G 0.4]
+[wt 0.5]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+今の内に撤退しましょう、皆さん！
+[k]
+
+[charaFadeout D 0.7]
+[messageOff]
+[wipeout downToUp 0.7 2]
+[wait wipe]
+[wt 0.5]
+[scene 20320 0]
+[charaFace C 0]
+[charaFadein C 0 1]
+[wipein downToUp 0.4 2]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait wipe]
+＠ジャンヌ・オルタ
+厄介ですね。これから先のことを考えると、[r]ファヴニールを酷使する訳にもいきませんか。
+[k]
+
+＠ジャンヌ・オルタ
+……またあの剣を使われても困りますしね。
+[k]
+
+[charaFace C 4]
+＠ジャンヌ・オルタ
+バーサーカー、セイバー。[r]あの“竜殺し”が獲物です。集中的に狙いなさい。
+[k]
+
+[charaFace C 0]
+＠ジャンヌ・オルタ
+バーサーク・アサシンもそろそろ合流します。[r]今度こそトドメを刺すように。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.5]
+[scene 20300 0]
+[charaSet B 98003003 1 Dr.ロマン]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+[wt 0.5]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠Dr.ロマン
+先の極大生体反応は確認できない。[r]だが、まだ追跡は止まっていない。急ぐんだ！
+[k]
+
+＠マシュ
+先輩、馬がほしいです！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+ごめんなさい、一人乗りで……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アマデウス
+旅には慣れているけど、こんな旅は初めてだ！[r]いや、これただの撤退戦じゃないか!?
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、遅れないで下さい！
+[k]
+
+？1：ごめん、でも足が……
+
+[charaFace A 7]
+＠マシュ
+こうなったら、もう……！
+[k]
+
+？2：迎撃しよう
+
+[charaFace A 7]
+＠マシュ
+確かに、[r]もうこうなったら迎撃するしか……！
+[k]
+
+？！
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+待って下さい。[r]前方に何か見えます、あれは……フランス軍！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+ワイバーンたちに襲われています！[r]救出に向かわなくては……！
+[k]
+
+[charaFace A 2]
+＠マシュ
+マスター、来ます！
+[k]
+
+？1：応戦準備！
+
+？2：やるしかない！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、毒食わば皿までですね、先輩！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

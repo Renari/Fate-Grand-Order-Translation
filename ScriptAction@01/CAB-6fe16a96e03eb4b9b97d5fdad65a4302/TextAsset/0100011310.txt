@@ -1,0 +1,272 @@
+＄01-00-01-13-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1008001 1 ジークフリート]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet G 1022001 1 ジル]
+[charaSet H 98013000 1 ファヴニール]
+[charaTalk E]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 1]
+[charaFadein E 0 2]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ・オルタ
+こんにちは、[#ジャンヌ:わたし]の残り[#滓:カス]。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+……いいえ。私は残骸でもないし、[r]そもそも貴女でもありませんよ、“竜の魔女”。
+[k]
+
+[charaFace E 3]
+＠ジャンヌ・オルタ
+……？　貴女は私でしょう。[r]何を言っているのです？
+[k]
+
+＠ジャンヌ
+……今、何を言ったところで貴女に届くはずがない。
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+この戦いが終わってから、[r]存分に言いたいことを言わせてもらいます。
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+ほざくな……！[r]この竜を見よ！　この竜の群れを見るがいい！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadein H 0.4 1]
+[se ad17]
+[wait se ad17]
+[charaFadeout H 0.1]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+今や我らが故国は竜の巣となった！
+[k]
+
+＠ジャンヌ・オルタ
+ありとあらゆるモノを喰らい、[r]このフランスを不毛の土地とするだろう！
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+それでこの世界は完結する。[r]それでこの世界は破綻する。
+[k]
+
+＠ジャンヌ・オルタ
+そして竜同士が際限なく争い始める。[r]無限の戦争、無限の捕食。
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+それこそが、真の百年戦争[line 2]。[r]邪竜百年戦争だ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadein H 0.1 1]
+[se ad34]
+[charaEffect H bit_talk_32]
+[wt 1]
+[charaEffectStop H]
+[wt 1]
+[charaFadeout H 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+何……！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……ジル……！
+[k]
+
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20700 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+[wt 0.5]
+＠ジル
+撃て！　ここがフランスを守れるかどうかの瀬戸際だ！[r]全砲弾を撃って撃って撃ちまくれ！
+[k]
+
+[charaFace G 5]
+＠ジル
+恐れるな！　嘆くな！　[#退:しりぞ]くな！[r]人間であるならば、ここでその命を捨てろ！
+[k]
+
+[charaFace G 2]
+＠ジル
+もう一度言う！　恐れることは決してない！[r]何故なら我らには[line 2]。
+[k]
+
+＠ジル
+[#聖女がついている]。
+[k]
+
+[se ad16]
+[wt 2]
+[charaFadeout G 0.1]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[seStop ad16 3]
+[wait wipe]
+[wt 0.3]
+[scene 20700 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[charaFace D 1]
+[charaFadein D 0 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[wt 0.5]
+＠ジャンヌ
+……ジル……！
+[k]
+
+[charaFace E 4]
+＠ジャンヌ・オルタ
+……ふん。強固な信念ね、反吐が出そう。[r]ファヴニール！
+[k]
+
+[se ad17]
+[wait se ad17]
+[charaFace E 2]
+＠ジャンヌ・オルタ
+この聖女を、あの軍を、この[#祖国:フランス]を！[r]ことごとく燃やし尽くしなさい！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace C 1]
+[charaFadein C 0.4 1]
+＠ジークフリート
+[line 2]ハッ。三度、貴様と相見えようとはな。
+[k]
+
+[charaFace C 0]
+＠ジークフリート
+もしかすると、別の時空別の世界では違う形で[r]繋がったかもしれないが[line 2]！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+ジークフリート……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ジークフリート
+ファヴニール！　邪悪なる竜よ！[r]俺は此処に居る！　ジークフリートは此処に居るぞ！
+[k]
+
+＠ジークフリート
+再び貴様を黄昏に叩き込む。[r]我が正義、我が信念に誓って[line 2]！！
+[k]
+
+[se ad17]
+[wait se ad17]
+[wt 0.5]
+[charaFadeout C 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+我がサーヴァントたちよ、前に出よ！
+[k]
+
+[charaFadeout E 0.1]
+[charaSet H 1026001 2 バーサーク・セイバー]
+[charaSet G 7007001 0 バーサーク・ランサー]
+[charaTalk H]
+[charaFace G 0]
+[charaFadein G 0.4]
+[charaFace H 1]
+[charaFadein H 0.4]
+＠バーサーク・セイバー
+やあ、君たち！[r]健勝なようで何よりだ！
+[k]
+
+[charaFace H 2]
+＠バーサーク・セイバー
+シュヴァリエ・デオン。[r]此度は悪に加担するが[line 2]我が剣に曇りはない。
+[k]
+
+＠バーサーク・セイバー
+さあ、全力で立ち向かってみせろ！[r]この悪夢を滅ぼすために！
+[k]
+
+[charaFace G 5]
+＠バーサーク・ランサー
+……来たか。[r]堕落し、浅ましい姿を晒すことは恥ではない。
+[k]
+
+[charaFace G 4]
+＠バーサーク・ランサー
+しかし、敗北は何よりの恥だ。[r]聖杯を求め、[#傀儡:かいらい]にこの身を[#貶:おとし]めてもなお[line 2]。
+[k]
+
+[charaFace G 1]
+＠バーサーク・ランサー
+余は不死身の吸血鬼を謳おう。
+[k]
+
+＠バーサーク・ランサー
+それが虚構であろうとも、[r]余にはそれしか残されておらぬのだからな。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！　来ます！[r]ワイバーンはフランス軍が引き付けてくれています！
+[k]
+
+[charaFace A 7]
+＠マシュ
+ここが勝負所です！
+[k]
+
+？1：頼むぞ、マシュ！
+
+？2：やるぞ、マシュ！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい！[r]共に勝利を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

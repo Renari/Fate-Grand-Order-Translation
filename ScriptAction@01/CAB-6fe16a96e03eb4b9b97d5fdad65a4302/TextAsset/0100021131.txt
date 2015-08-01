@@ -1,0 +1,82 @@
+＄01-00-02-11-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 5019001 1 ？？？]
+[charaSet F 4015001 1 ？？？]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[fadein black 1]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+何とか、阻んだか。残る敵軍は撤退したようだ。[r]お疲れさま、マシュ、[%1][&君:ちゃん]。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+何とか、呂布とスパルタクスは温存できた。[r]やれやれ、だね。まずは一息だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠荊軻
+今後は後方も十二分に警戒しよう。[r]敵は、こちらの軍の性質を理解しているらしい。
+[k]
+
+＠Dr.ロマン
+サーヴァントの気配を感じたりはしたかな。[r]こちらでは、感知できなかったが。
+[k]
+
+＠マシュ
+戦闘中、何の気配もありませんでした。[r]自軍の四体以外には。ああ、いえ……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+荊軻さんは、よく気配が消えてしまいます。[r]ですから、正確には三体。
+[k]
+
+＠Dr.ロマン
+アサシンの気配遮断スキルだね。[r]それは、こちらからも感知することはできない。
+[k]
+
+＠Dr.ロマン
+しかし、アサシンの関与ではないだろうね。[r]今回のことは[line 2]
+[k]
+
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠荊軻
+采配、だな。[r]指揮に優れた敵将がいるな。
+[k]
+
+[charaFace A 12]
+＠マシュ
+敵将……「皇帝」のひとりでしょうか。
+[k]
+
+[charaFace H 0]
+＠荊軻
+何とも。[r]だが、いずれわかる。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,334 @@
+＄01-00-01-11-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1008001 1 ジークフリート]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4006001 1 ゲオルギウス]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+マシュさん！
+[k]
+
+[charaFace A 13]
+＠マシュ
+ああ、良かった！[r]そちらは[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ゲオルギウス
+ゲオルギウス、と呼ばれています。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アマデウス
+……マリアはどうした？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+マリーは……。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout D 0]
+[wt 0.3]
+[scene 20500 0]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠アマデウス
+そうか。[r]そう言って残ったのか。んー、なら仕方ないか。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+気にしなくていいよ。[r]僕らがいたとしても彼女はそうしただろうし。
+[k]
+
+[charaFace F 3]
+＠アマデウス
+マリアはかぎりのない博愛主義者だからなあ。[r]そういう生き方で、そういう死に方をする女だよ。
+[k]
+
+[charaFace F 0]
+＠アマデウス
+それより、[r]早くジークフリートの呪いを解いてやったら？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+は、はい！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+アマデウスさん……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アマデウス
+いいんだって。こうなるってわかってたし。[r]ほら。マリア、ピアノの話をしていただろ？
+[k]
+
+[charaFace F 3]
+＠アマデウス
+あれはさ、彼女なりの別れの言葉なんだ。[r]生前、一度も叶わなかったからね。
+[k]
+
+＠アマデウス
+ピアノを聴かせて、なんて言われたら[r]僕としては止めようがないさ。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+でもまあ、二度目の別れは堪えるね。[r]一度目より辛い。もう出会えないかと思うと余計にだ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え……あの、英霊ならまた[r]会える事もあるのではないですか？
+[k]
+
+＠マシュ
+今回みたいに、同じ戦場に呼ばれる事だって……
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アマデウス
+んー、それはないと思うよー？[r]英霊だって星の数ほどいるんだし。
+[k]
+
+[charaFace F 0]
+＠アマデウス
+今回、僕と彼女が出会えたのはそれこそ奇跡だった。[r]ま、誰か酔狂なマスターがいるなら話は別だけど。
+[k]
+
+[charaFace F 3]
+＠アマデウス
+ともあれ、ちょっと疲れたな。[r]しばらく席を外すから、出発の時は声をかけてくれ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+待っ……。
+[k]
+
+？1：ダメだ、マシュ
+
+？2：止めて、マシュ
+
+？！
+
+[charaFace A 4]
+＠マシュ
+マスター、でも[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠エリザベート
+いいじゃない、[r]誰だって一人になりたいときはあるわよ。
+[k]
+
+＠清姫
+そうです、マシュ。[r]男心がわかっておりません。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……そうですね。[r]それはそれとして。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……何でいるのですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠エリザベート
+別にいいじゃない、ねえ？
+[k]
+
+＠清姫
+わたくしたちがいて、何の不満が？[r]戦闘も手伝って差し上げますのに。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+はあ、それは有り難いことですが……。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.5]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠清姫
+ところでマスター。
+[k]
+
+？1：自分？
+
+？2：ミー？
+
+？！
+
+[charaFace G 0]
+＠清姫
+もちろん貴方です。[r]仮ですが、マスター契約を結んで下さいますか？
+[k]
+
+[charaFace G 1]
+＠清姫
+ええ、小指を出して下されば充分です。
+[k]
+
+＠清姫
+ゆーびきーりげーんまーん[r]うそついたらはりせんぼんのーますー……。
+[k]
+
+[charaFace G 0]
+＠清姫
+これで契約完了です。マスター契約は絶対なので、[r]以降わたくしに嘘をついた場合、針を千本呑んで貰います。
+[k]
+
+[charaFace G 1]
+＠清姫
+よろしいですね？[r]それでは、よろしくお願い致します。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout G 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 0.3]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+マスター、ジャンヌさんたちがジークフリートの解呪に[r]成功したそうです！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+ええ、これで問題ありません。[r]やはり一人では呪いを解くことはできなかったでしょう。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……マリーのおかげです。[r]彼女がいたからこそ、私たちは生き残った。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+彼女がその身を挺して守ろうとしたものを、[r]私も守りたい。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+この時代、この世界、この国[line 2][r]そのために“竜の魔女”を……そして、竜を倒しましょう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠ジークフリート
+[line 2]よし、動くようになった。[r]骨を折ってもらい、申し訳ない[%1]。
+[k]
+
+[charaFace C 1]
+＠ジークフリート
+いや、マスター……そう言った方が正しいか。[r]あなたたちが骨を折ってくれたこと、心より感謝する。
+[k]
+
+[charaFace C 0]
+＠ジークフリート
+そして、その返礼として剣を預けよう。[r]この身はマスターの剣であり、盾である。
+[k]
+
+＠ジークフリート
+真名ジークフリート。竜を殺す以外には[r]能の無いサーヴァントだが、使ってくれれば光栄だ。
+[k]
+
+[se ad19]
+[wait se ad19]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 7]
+＠マシュ
+この声は……ワイバーンです！
+[k]
+
+[charaFace C 5]
+＠ジークフリート
+……どうやら早速俺の出番らしいな。[r]是非使ってくれ。
+[k]
+
+？1：任せた
+
+？2：頑張ろう
+
+？！
+
+[charaFace C 2]
+＠ジークフリート
+ああ。[r][line 2]ジークフリート、参る！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

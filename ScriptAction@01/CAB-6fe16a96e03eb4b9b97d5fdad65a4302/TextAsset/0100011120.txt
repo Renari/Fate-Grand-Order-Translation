@@ -1,0 +1,83 @@
+＄93-00-01-15-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 5015001 1 アマデウス]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+今夜はここで野営をとりましょう。[r]明日の決戦に備えて……
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+その前に周囲の安全を確保しなければいけませんね。[r]皆さん、戦闘準備を。囲まれています。
+[k]
+
+＠ジャンヌ
+あまり目立たないよう、[r]派手な攻撃は控えて迅速に終わらせて……おや？
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+[%1]さん、[r]マシュさんとアマデウスの姿が見えないのですが……
+[k]
+
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.3]
+[scene 20802]
+[charaFace E 4]
+[charaFadein E 0.1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠アマデウス
+まいったな。ちょっと水を汲みに来ただけなのに、[r]敵兵に襲われるなんて運がない。
+[k]
+
+[charaTalk A]
+[charaFadeout E 0]
+[charaFadein E 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+アマデウスさん、こちらへ！[r]わたしが前に出ますから、後ろに隠れていてください！
+[k]
+
+[charaFace E 0]
+＠アマデウス
+お言葉に甘える……ワケにはいかないか。[r]今回はいつもと状況が違う。
+[k]
+
+[charaFace E 2]
+＠アマデウス
+前衛がマシュ嬢ひとりでは逃げてもいられない。[r]ここは肩を並べて一緒に戦おう。
+[k]
+
+[charaFace A 15]
+＠マシュ
+アマデウスさん!?[r]いいんですか、怪我、しますよ!?
+[k]
+
+[charaFace E 1]
+＠アマデウス
+なに、明日の戦いにそなえての予行演習さ。[r]多少の傷は気にしない、気にしない。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

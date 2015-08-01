@@ -1,0 +1,84 @@
+＄01-00-00-08-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10710]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 5021001 1 キャスター]
+[charaSet G 98015000 1 ？？？]
+[charaFace A 15]
+[charaFadein A 0 2]
+[charaFace F 0]
+[charaFadein F 0 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+限界、です[line 3]これ以上の連続戦闘、は[line 3][r]すみません、キャスター、さん[line 3]
+[k]
+
+＠マシュ
+こういった根性論ではなく、[r]きちんと理屈にそった教授、を[line 3]
+[k]
+
+[charaFace F 4]
+＠キャスター
+[line 3]分かってねえなあ。[r]コイツは見込み違いかねぇ。
+[k]
+
+[charaFace F 0]
+＠キャスター
+まあいいか、そん時はそん時だ。[r]んじゃあ次の相手はオレだ。
+[k]
+
+＠キャスター
+味方だからって遠慮しなくていいぞ。[r]オレも遠慮なしで[%1]を殺すからよ。
+[k]
+
+＠マシュ
+っ……!?
+[k]
+
+[charaFadeout A 0]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠オルガマリー
+なに言ってるのアナタ、正気!?[r]この訓練に[%1]は関係ないでしょう!?
+[k]
+
+[charaFace F 5]
+＠キャスター
+サーヴァントの問題はマスターの問題だ。[r]運命共同体だって言わなかったか、オレ？
+[k]
+
+＠キャスター
+おまえもそうだろ、[%1]？[r]お嬢ちゃんが立てなくなった時が[#手前:テメェ]の死だ。
+[k]
+
+[charaFadeout E 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……！[r]マスター……下がって、ください……！
+[k]
+
+＠マシュ
+わたしは[line 3]先輩の足手まといには、[r]なりませんから……！
+[k]
+
+[charaFace F 0]
+＠キャスター
+そうこなくっちゃな。[r]んじゃあまあ、マトモなサーヴァント戦といきますか！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

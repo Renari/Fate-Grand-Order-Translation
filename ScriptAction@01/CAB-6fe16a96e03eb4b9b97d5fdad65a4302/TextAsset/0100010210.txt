@@ -1,0 +1,220 @@
+＄01-00-01-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98014000 1 兵士]
+[charaFace A 6]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+これは……。[r]酷い、ですね……。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0]
+[wt 0.5]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationChara 98003003 0 5 0 5]
+＠Dr.ロマン
+中がボロボロじゃないか……外壁はそこそこ[r]無事だけど、砦とは呼べないぞ、これ。
+[k]
+
+？1：戦争中だから？
+
+[charaFace A 12]
+＠マシュ
+……いえ、それは有り得ません。
+[k]
+
+？2：負傷兵ばかりだ
+
+[charaFace A 12]
+＠マシュ
+そうですね。[r]戦争中ではないはずなのに[line 2]
+[k]
+
+？！
+
+[charaFace A 0]
+＠マシュ
+１４３１年、フランス側のシャルル七世がイギリス側に[r]ついたフィリップ三世と休戦条約を結んだはずです。
+[k]
+
+＠マシュ
+もちろん小競り合いはあったかもしれませんが[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+＠兵士
+ひぃっ……！？[r]ま、また来たぞ！！
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+ボンジュール。[r]わたしたちは旅の者です。
+[k]
+
+＠マシュ
+あなたがたに危害を加える者ではありません。[r]どうか、武器を置いて下さいムシュー。
+[k]
+
+＠兵士
+敵では……ないのか……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+む。案外簡単に信用するね。[r]理性を取り戻したのかな。それとも[line 3]
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+戦う気力がないほど、萎えきっているとか……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+シャルル七世は休戦条約を結ばなかったのですか？
+[k]
+
+＠兵士
+シャルル王？[r]知らんのか、アンタ。
+[k]
+
+＠兵士
+王なら死んだよ。[r]魔女の炎に焼かれた。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……死んだ……？[r]魔女の炎に、ですか……？
+[k]
+
+＠兵士
+[#ジャンヌ・ダルク]だ。[r]あの方は“竜の魔女”となって蘇ったんだ。
+[k]
+
+＠兵士
+イングランドはとうの昔に撤退した。[r]だが、俺たちはどこへ逃げればいい？
+[k]
+
+＠兵士
+ここが故郷なのに、畜生、どうすることもできないんだ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ジャンヌ・ダルクが、魔女……？
+[k]
+
+？1：ジャンヌ・ダルクって？
+
+[charaFace A 0]
+＠マシュ
+救国の聖女ジャンヌ・ダルク。[r]世界的に有名な英雄です。
+[k]
+
+＠マシュ
+百年戦争後期、征服されかかっていたフランスを[r]救うために立ち上がった女性です。
+[k]
+
+＠マシュ
+十七才でフランスを救うために立ち上がり、[r]わずか一年でオルレアン奪回を果たしたのですが……
+[k]
+
+[charaFace A 4]
+＠マシュ
+イングランド軍に捕縛され、[r]異端審問の末、火刑に処せられました。
+[k]
+
+＠マシュ
+……彼女が投獄されてから火刑にいたるまでの日々は、[r]あまりにも惨い拷問と屈辱の日々だったそうです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+イングランド側は彼女を聖人ではなく異端者として[r]発表したかった。
+[k]
+
+＠マシュ
+そのために、あらゆる責め苦で彼女自身の口から[r]“私は主の声を聞いてはいない”と言わせたかった。
+[k]
+
+[charaFace A 7]
+＠マシュ
+[line 3]ですが、彼女は最期まで心を折らなかった。[r]火にくべられた時でさえ祈りを放さなかった。
+[k]
+
+[charaFace A 13]
+＠マシュ
+その後、名誉回復が行われ、[r]四百年後には正式な聖人として認定されました。
+[k]
+
+＠マシュ
+無力な少女の想いが世界を変えた[line 3]その例で言うのなら、[r]ジャンヌ・ダルクは最高級の英霊です。
+[k]
+
+？2：……………。
+
+？！
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[se ad16]
+[wt 2]
+[seStop ad16 3]
+＠兵士
+……ッ！[r]来た！　奴らが来たぞ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+注意してくれ！　魔力反応がある！
+[k]
+
+＠Dr.ロマン
+少量の魔力による人体を用いた使い魔……骸骨兵だな。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+今度はさっきとは違う。[r]思う存分暴れていいぞ、ふたりとも！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。指示をマスター！[r]木っ端みじんに蹴散らします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

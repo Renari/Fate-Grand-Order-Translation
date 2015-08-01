@@ -1,0 +1,50 @@
+＄01-00-00-05-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10720]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 98006000 1 ？？？]
+[charaFace A 4]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ハァ[line 3]ハ、ァ[line 3][r]勝てた……絶対ダメだと思ったのに、勝てた[line 3]
+[k]
+
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 5]
+＠Dr.ロマン
+……ゴメン、休んでいる暇はないんだマシュ。
+[k]
+
+＠Dr.ロマン
+[#今の反応と同じもの]がそちらに向かっている。[r]……どうするべきか、言わなくてもわかるね？
+[k]
+
+[charaFace A 15]
+＠マシュ
+え[line 3]同じ反応って、そんな[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠オルガマリー
+[%1]！　撤退よ、急ぎなさい！[r]とにかくここから離れるの！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

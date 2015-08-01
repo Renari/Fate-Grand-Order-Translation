@@ -1,0 +1,69 @@
+＄01-00-01-13-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1008001 1 ジークフリート]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 3005001 1 エリザベート]
+[charaSet G 6017001 1 カーミラ]
+[charaTalk G]
+[charaFace F 0]
+[charaFadein F 0 2]
+[charaFace G 5]
+[charaFadein G 0 0]
+[fadein black 1]
+[wait fade]
+＠カーミラ
+未来が過去を否定するのではなく。[r]過去が未来を否定するなんて。
+[k]
+
+[charaFace G 3]
+＠カーミラ
+[line 2]何て出鱈目な少女なのかしら。[r]でも、だからこそ……鬱陶しいぐらい、眩しいのね。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠カーミラ
+ああ……暗がりの中に戻るよう。[r]最後の瞬間……レンガの隙間に見えた、あの光[line 3]
+[k]
+
+[charaFace G 4]
+＠カーミラ
+ああ、そう……やっぱり私は[line 3][r]生きても死んでも、ひとりきりというワケね[line 3]
+[k]
+
+[messageOff]
+[charaSpecialEffect G flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect G]
+[wt 0.5]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠エリザベート
+……さようなら、[#私:アタシ]の未来。[r]悲しいくらいに分離してしまった、もう一人の自分。
+[k]
+
+[charaFace F 5]
+＠エリザベート
+だからって罪が軽くなる訳でもないし、[r]私への恐怖が無くなることもない。
+[k]
+
+[charaFace F 0]
+＠エリザベート
+それでも、[#私:アタシ]は[line 2]何度でも未来を否定するし、[r]何度でも唄うのよ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_6 0.4]
+[wait fade]
+[soundStopAll]
+[end]

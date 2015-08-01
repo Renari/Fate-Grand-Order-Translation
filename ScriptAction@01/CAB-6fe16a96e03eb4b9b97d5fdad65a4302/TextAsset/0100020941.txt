@@ -1,0 +1,200 @@
+＄01-00-02-09-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21101 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 6010001 1 ステンノ]
+[charaSet F 3005001 1 エリザベート]
+[charaSet G 7016001 1 タマモキャット]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0 2]
+[charaFace E 1]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠ステンノ
+ふふ。おかえりなさい。[r]とっておきのご褒美、たっぷり楽しんでもらえまして？
+[k]
+
+[charaFace D 4]
+＠ネロ
+へろへろだ……。[r]余は、つかれた……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+そう、ですね……。[r]閉鎖空間での連続戦闘は想像以上に疲弊します……。
+[k]
+
+？1：流石に、疲れた……
+
+[charaFace A 8]
+＠マシュ
+はい、早く休息を取るべきだと思います……[r]船に戻るべきでしょうか……。
+[k]
+
+？2：なんのこれしき
+
+[charaFace A 6]
+＠マシュ
+本当……ですか？[r]先輩は、時に常人離れした忍耐を示すのです……
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠エリザベート
+何よ、だらしないわねー。[r]私はあんな大きな猫ぐらいどうってことなかったわよ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠タマモキャット
+あははははは！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、敵性生物が二体です。[r]トカゲか、竜か、あるいはアイドルか……
+[k]
+
+＠マシュ
+ともかく、蹴散らします！
+[k]
+
+？1：違う、アレはエリザベートだ！
+
+＠マシュ
+分かっています、分かっていますとも……！
+[k]
+
+＠マシュ
+ですが危険なんです先輩、[r]彼女は何もかもメチャクチャにしてしまいそうで！
+[k]
+
+＠Dr.ロマン
+それは同感だなあ……よし、知らないフリをして[r]この場をやり過ごそう、[%1][&君:ちゃん]！
+[k]
+
+？2：よし、容赦なく倒してしまおう！
+
+＠Dr.ロマン
+それが正しい、きっとまたろくでもないコトを[r]言い出すに決まっているからね！
+[k]
+
+？！
+
+[charaFadeout A 0]
+[charaFadein A 0.1 2]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+＠エリザベート
+ちょ、またそのリアクションなの！？[r]かわいくないヘンな子ジカ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠タマモキャット
+あははははは！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、ヘンな人にヘンって言われました先輩！
+[k]
+
+？1：あーよしよし
+
+？2：ヘンなのは向こうだから
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠エリザベート
+ふふん。あの洞窟が相当キツかったみたいね。[r]ま、子イヌの実力じゃしょうがないでしょうけど。
+[k]
+
+[charaFadeout F 0]
+[charaTalk D]
+[charaFadein F 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ネロ
+……何だ、貴様？[r]突然出て来て、何を訳のわからぬことを。
+[k]
+
+[charaFace F 5]
+＠エリザベート
+アンタこそ何よ。[r]ん？　魔力感じない……え、人間？　アンタが？
+[k]
+
+[charaFace D 0]
+＠ネロ
+何を驚いている。無礼かつ無粋なヤツめ。[r]その姿が美少女ベースでなければ叩き斬っているぞ？
+[k]
+
+[charaFace D 2]
+＠ネロ
+余は当代の皇帝ネロ・クラウディウスである。[r]……むう。なぜそう親しみのある視線を向けるのだ？
+[k]
+
+[charaFace F 1]
+＠エリザベート
+うっそ、生ネロ！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+生……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ネロ
+何が生か！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+＠タマモキャット
+あはははははは！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ちょっ、これフランスの時より酷いぞ!?[r]ますます話がわからなくなってきた……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

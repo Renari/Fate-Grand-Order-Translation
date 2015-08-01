@@ -1,0 +1,407 @@
+＄01-00-02-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ？？？]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 3]ふう。[r]今回も無事、転移に成功しましたね先輩。
+[k]
+
+[charaFace A 13]
+＠マシュ
+風の感触、土の匂い[line 3]どこまでも広くて青い空。
+[k]
+
+＠マシュ
+……不思議です。映像で何度も見たものなのに、[r]こうして大地に立っているだけで鮮明度が違うなんて。
+[k]
+
+？1：どうしたんだ、深呼吸なんかして？
+
+[charaFace A 3]
+＠マシュ
+え……してましたか、わたし？[r]そ、そうですか。きっと自然にしていたんだと思います。
+[k]
+
+？2：やっぱりレイシフトは緊張する？
+
+[charaFace A 12]
+＠マシュ
+はい、レイシフトは緊張します。でも、[r]この精神状態はそれとは無関係のような気がします。
+[k]
+
+？！
+
+[charaFace A 11]
+＠マシュ
+……なんていうか、圧倒されている、のでしょうか。
+[k]
+
+[charaFace A 13]
+＠マシュ
+フランスの時は驚きばかりだったから。[r]やっと、この景色と向き合えている気がするんです。
+[k]
+
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フゥー……ンキュ、キュ？
+[k]
+
+[charaFace A 6]
+＠マシュ
+フォウさん！？
+[k]
+
+？1：また付いて来ちゃったのか！？
+
+？2：いま、マシュの胸から出てこなかった！？
+
+？！
+
+＠フォウ
+キュー、キャーウ！
+[k]
+
+[charaFace A 0]
+＠マシュ
+フォウさん、今回も同行すると言っています。[r]狭い基地より外の世界の方がいいそうです。
+[k]
+
+[charaFace A 13]
+＠マシュ
+その意見にはわたしも同意なのです。
+[k]
+
+＠マシュ
+戦いは怖いものですが、[r]こうして新しい世界を知るのは嬉しいので。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……でも、この時代の空にも[r]「あれ」が見えているんですね。
+[k]
+
+[charaFadeout A 0.7]
+[charaFadeout C 0.7]
+[messageOff]
+[wipeout downToUp 0.7 2]
+[wait wipe]
+[scene 20320 0]
+[wipein downToUp 0.4 2]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait wipe]
+＠マシュ
+あの光の輪。[r]前回、フランスの空にも存在していたものと同一です。
+[k]
+
+＠マシュ
+いいえ、同一であるように見えます。[r]正確に観測できている訳ではありませんが。
+[k]
+
+＠マシュ
+あれは、一体、何なのでしょうか。[r]あんなにも大きな[line 2]
+[k]
+
+[se ad13]
+[wait se ad13]
+＠Dr.ロマン
+光の輪、か。相変わらず、[r]こちらからはしっかりと観測できないんだよ。
+[k]
+
+＠Dr.ロマン
+けど、確かに気になる現象だ。[r]引き続き調査は進めておこう。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[scene 20300 0]
+[communicationChara 98003003 0 5 0 0]
+[charaTalk B]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+＠Dr.ロマン
+ところで、そこは……おや？[r]首都ローマ……では、ないのかな？
+[k]
+
+？1：丘陵地ですが
+
+[charaFace A 0]
+＠マシュ
+ええ、先輩の言う通りです。[r]丘陵地帯です。
+[k]
+
+？2：どうなんだろう？
+
+[charaFace A 0]
+＠マシュ
+いえ、先輩。ここは丘陵地帯です。[r]古代ローマの都ではないように思います。
+[k]
+
+？！
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+あれ。おかしいな。[r]こっちも確認したよ、そこは首都じゃないね。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+転送位置は確かに固定化したはずなんだけどなあ……。[r]えーと、そこは首都ローマ郊外にあたる場所のようだ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+転送座標の調整ミス……ですか？[r]では時代については？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+時代は正しいよ。[r]特異点の存在する一世紀で間違いない。
+[k]
+
+＠Dr.ロマン
+ローマ帝国第五代皇帝[line 2][r]ネロ・クラウディウスが統治する時代。それは確かだ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+しかし、おかしいな。[r]どうして首都からズレたんだ？
+[k]
+
+＠Dr.ロマン
+先年に皇太后アグリッピナを毒殺したとは言え、[r]今はまだ、晩年のネロ危急の時代ではないんだけどな。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+皇帝が人々に愛されている時代の、[r]繁栄の都ローマが……。
+[k]
+
+＠Dr.ロマン
+……君たちを出迎えるはずなんだが。
+[k]
+
+[charaFace A 11]
+＠マシュ
+いいえドクター、なだらかな丘陵地帯です。[r]羊がいないのが惜しまれるほどの。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+うん、何かしらの理由があるのかも知れない。[r]周囲に何か変わったものは見えないかい？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フゥー、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……聞こえてきます。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+なに？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[se ad16]
+[wt 2]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+[seStop ad16 3]
+＠マシュ
+これは[line 2]
+[k]
+
+？1：どこかで戦闘が？
+
+？2：何か聞こえる？
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。これは、多人数戦闘の音と思われます。[r]丘の向こうのようですね。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+多人数戦闘？　戦争、か？[r]いや、いやいや。有り得ない話だ。
+[k]
+
+＠Dr.ロマン
+この時代に首都ローマ付近で[r]本格的な戦闘があったなんて話はないぞ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+なら、それはつまり[line 2]
+[k]
+
+[charaFace A 7]
+＠マシュ
+歴史に異常が起きている。[r]そういうこと、ですね。
+[k]
+
+？1：音の方向へ急ごう！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+？！
+
+[charaFadeout A 0.4]
+[charaFadeout C 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300 0]
+[charaTalk A]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFace A 6]
+[charaFadein A 0 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[se ad16]
+[wt 2]
+＠マシュ
+あれは……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+間違いありません、戦闘中のようです。[r]片方は大部隊で、もう片方はきわめて少数の部隊です。
+[k]
+
+[charaFace A 0]
+＠マシュ
+大部隊は「真紅と黄金」の意匠。[r]少部隊もまた「真紅と黄金」ですが、意匠が異なります。
+[k]
+
+[communicationCharaFace 0]
+[seStop ad16 3]
+＠Dr.ロマン
+真紅と黄金は古代ローマで特に好まれた色彩だね。[r]マシュ、他に特徴は？
+[k]
+
+[charaFace A 6]
+＠マシュ
+……女性です。[r]数名の小部隊を率いているのは、年若い女性一名。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ほとんど一人で敵部隊を相手取っています。[r]首都方面へ雪崩れこもうとする軍団を、たった一人で。
+[k]
+
+＠マシュ
+きわめて強力な個人です。[r]サーヴァントでしょうか？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+いや、サーヴァント反応は感じない。[r]君も気配は感じていないね。
+[k]
+
+＠マシュ
+はい。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+なら確実だ。[r]その女性はこの時代の人間だよ。
+[k]
+
+＠マシュ
+個人的な感想ですが[line 2]
+[k]
+
+[charaFace A 13]
+＠マシュ
+[#彼女:ジャンヌ]に少し、似ています。[r]根拠はないのですが。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ジャンヌに？　尊いもののために立つ聖人系かな？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+んー……この時代の人間で、そういった人物は……。[r]思い当たらないなあ。ボクの知識不足か。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ともかく、だ。[r]有り得ないはずの戦争が発生している訳だね。
+[k]
+
+＠Dr.ロマン
+それなら[line 2]
+[k]
+
+？1：あの女性を助けよう
+
+？2：都市が蹂躙されるのを阻止すべきだ
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい。わたしも先輩の強気な方針に賛成です。[r]フォウさんも湧き立っています。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+キューウ！　キュキュ、キュ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+相手はサーヴァントや怪物ではないようだけれど、[r]規模が規模だ。注意したまえ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+はい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

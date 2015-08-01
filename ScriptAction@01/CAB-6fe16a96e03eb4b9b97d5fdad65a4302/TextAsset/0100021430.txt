@@ -1,0 +1,289 @@
+＄01-00-02-14-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 98004000 1 レフ]
+[charaSet G 98017000 1 魔神フラウロス]
+[charaSet H 1018001 1 アルテラ]
+[fadein black 1]
+[wait fade]
+[wt 1.3]
+[charaFace F 0]
+[charaFadein F 0 1]
+＠レフ
+……いや、いや。[r]ロムルスを倒しきるとは。
+[k]
+
+[charaFace F 3]
+＠レフ
+デミ・サーヴァント[#ふぜい]がよくやるものだ。[r]冬木で目にした時よりも、多少は力を付けたのか？
+[k]
+
+＠レフ
+だが、所詮はサーヴァント。[r]悲しいかな、聖杯の力に勝ることなど有り得ない。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……！
+[k]
+
+[charaFace D 5]
+＠ネロ
+あやつが宮廷魔術師か。[r]では、ああして携えている黄金の杯が[line 2]
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい、あれが聖杯です。[r]形状は、前回目にしたものと同一のようですが……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+宮廷魔術師が王の危急をあえて見過ごすとはね。[r]すっかり裏切りが板に付いたんじゃないか、レフ教授？
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+というより、それが素なのかな。[r]カルデアにいた頃より活き活きとしているよ、君。
+[k]
+
+？1：無駄口はあとだ……！
+
+？2：聖杯を渡せ、レフ・ライノール！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠レフ
+ほう。[r]いっぱしの口を聞くようになったね、[&少年:お嬢さん]。
+[k]
+
+＠レフ
+聞けばフランスでは大活躍だったとか。[r]まったく[line 3]おかげで私は大目玉さ！
+[k]
+
+[charaFace F 3]
+＠レフ
+本来ならとっくに神殿に帰還しているというのに、[r]子供の使いさえできないのかと追い返された！
+[k]
+
+[charaFace F 5]
+＠レフ
+結果、こんな時代で後始末だ。
+[k]
+
+＠レフ
+聖杯を相応しい愚者に与え、[r]その[#顛末:てんまつ]を見物する愉しみも台無しだよ。
+[k]
+
+[charaFadeout F 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+……そうか。[r]その時代を狂わせる人間、あるいは英霊。
+[k]
+
+＠Dr.ロマン
+その人物に聖杯を授けてしまえば、[r]時代は勝手に狂っていく。
+[k]
+
+＠Dr.ロマン
+フランスではそうだった。[r]でも今回は[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。神祖ロムルスは人類の滅びを望んではいなかった。[r]だから[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 5]
+＠Dr.ロマン
+君が自らの手で干渉するしかなかったというコトか。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+皮肉だなレフ教授。この時代、君のような人類の[r]裏切り者はひとりもいなかったってワケだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠レフ
+ほざけカス共。[r]人間になんぞ初めから期待していない。
+[k]
+
+[charaFace F 2]
+＠レフ
+君もだよ、[%1]君。
+[k]
+
+[charaFace F 4]
+＠レフ
+凡百のサーヴァントを掻き集めた程度で、[r]このレフ・ライノールを阻めるとでも？
+[k]
+
+？1：あの時の自分とは違う……！
+
+[charaFace F 2]
+＠レフ
+ああ、確かに変わったな。[r]君は立派に成長した。
+[k]
+
+[charaFace F 4]
+＠レフ
+無駄にあがげば無駄に苦しむと分からない、[r]その愚かさが実に無様に成長したとも！
+[k]
+
+？2：おまえの目的はなんなんだ！
+
+[charaFace F 2]
+＠レフ
+目的はとうに済んでいる、と言ったはずだ。[r]それを問うならこうだよ、[%1]君。
+[k]
+
+＠レフ
+“一体どんな理念で、人類を滅ぼしたんだ？”とね！
+[k]
+
+＠レフ
+ま、問われたところで、[r]答える道理も権利も私にはないワケだが。
+[k]
+
+？！
+
+[charaFace F 3]
+＠レフ
+そしてやはりおまえたちは思い違いをしている。[r]聖杯を回収し、特異点を修復し、人類を[line 3]
+[k]
+
+[charaFace F 2]
+＠レフ
+[#人理:じんり]を守るぅ？　[line 3]バカめ。[r]貴様たちでは既に[#どうにもならない]。
+[k]
+
+＠レフ
+抵抗しても何の意味もない。結末は確定している。[r]貴様たちは無意味、無能！
+[k]
+
+[charaFace F 4]
+＠レフ
+哀れにも消えゆく貴様たちに！[r]今！　私が！　我らが王の寵愛を見せてやろう！
+[k]
+
+[messageOff]
+[effect bit_talk_20 1]
+[se bas2]
+[wt 1]
+[flashin loop 1 0.5 FFFFFFFF 00000000]
+[charaEffect F bit_talk_36]
+[se ad39]
+[wt 2]
+[flashout 0]
+[se ad39]
+[flashin loop 3 0 FFFFFFFF FFFFFFFF]
+[flashout 0]
+[fadeout white 3]
+[charaChange F 98017000 1 fade 3]
+[wait fade]
+[scene 10001]
+[effectStop bit_talk_20]
+[charaEffectStop F]
+[scene 20900 0]
+[fadein white 1.5]
+[wait charaChange]
+[charaFace F 0]
+[wt 1.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+＠マシュ
+……！
+[k]
+
+＠ネロ
+なんだあの怪物は……！[r]醜い！　この世のどんな怪物より醜いぞ、貴様！
+[k]
+
+＠レフ
+はは！　はははは！　ソレハその通り！[r]その醜さこそが貴様らを滅ぼすのだ！
+[k]
+
+＠Dr.ロマン
+……この反応、この魔力……！
+[k]
+
+＠Dr.ロマン
+サーヴァントでもない、幻想種でもない！[r]これは[line 3]伝説上の、本当の“悪魔”の反応か……!?
+[k]
+
+＠レフ
+改めて、自己紹介しよう。[r]私は、レフ・ライノール・[#フラウロス]！
+[k]
+
+＠レフ
+七十二柱の魔神が一柱！[r]魔神フラウロス[line 2]これが、王の寵愛そのもの！
+[k]
+
+[charaFadeout F 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ネロ
+おぞましい……。[r]悪逆そのものではないか、これでは！
+[k]
+
+[charaFace A 5]
+＠マシュ
+地に突き立つ、巨大な、肉の柱……？[r]それに、ここまで大量の魔力は……ドクター……！
+[k]
+
+＠Dr.ロマン
+……フラウロス。七十二柱の魔神と、確かに彼は言った。[r]なら、彼の言う王とは[line 3]
+[k]
+
+＠Dr.ロマン
+いや、まだ情報が足りない。[r]そもそもそんな筈はない。魔神なんて実際は存在しない！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+……フォウ！　キュ、キュキュキャー！
+[k]
+
+＠Dr.ロマン
+詳細はすべて不明。だが、それは危険なものだ。[r]来るぞ……！　この場で完全に撃破するんだ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

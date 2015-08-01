@@ -1,0 +1,103 @@
+＄01-00-01-15-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 5002001 1 ジル]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaFace E 4]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ・オルタ
+な……に……。
+[k]
+
+＠ジャンヌ・オルタ
+そん、な。[r]馬鹿な。有り得ない、嘘だ。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+だって、私は[line 2]聖杯を、所有しているはず[line 2]！[r]聖杯を持つ者に、敗北はない。
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+そのはずなのに……！
+[k]
+
+[charaTalk F]
+[charaFadeout E 0]
+[charaFadein E 0.1 2]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+＠ジル
+おお、ジャンヌ！　ジャンヌよ！[r]何という痛ましいお姿に……！
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+ジ、ル……。
+[k]
+
+[charaFace F 0]
+＠ジル
+ですが、このジル・ド・レェが参ったからには[r]もう安心ですぞ。
+[k]
+
+[charaFace F 1]
+＠ジル
+さあ、安心してお眠りなさい。
+[k]
+
+[charaFace E 4]
+＠ジャンヌ・オルタ
+でも[line 2]私は、まだ、[r]まだ、フランスを、滅ぼせては……。
+[k]
+
+[charaFace F 0]
+＠ジル
+それは私が引き受けます。[r]私に全てお任せを。
+[k]
+
+[charaFace F 4]
+＠ジル
+大丈夫、貴女が死ぬはずがない。[r]ただ、少しだけ……少しだけ、疲れただけ。
+[k]
+
+[charaFace F 1]
+＠ジル
+瞼を閉じ、眠りなさい。[r]目覚めたときには、私が全て終わらせています。
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[wt 0.4]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+＠ジャンヌ・オルタ
+そう、そうよね。[r]ジル……貴方が戦ってくれるなら、安心して……。
+[k]
+
+[charaSpecialEffect E flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[messageOff]
+[effect bit_talk_20 1]
+[se bas2]
+[wt 1.5]
+[effectStop]
+[wait effect]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

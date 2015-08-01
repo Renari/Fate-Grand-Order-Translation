@@ -1,0 +1,165 @@
+＄01-00-00-09-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20110]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 5021001 1 キャスター]
+[charaSet G 2001001 1 サーヴァント]
+[charaFace F 0]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+＠キャスター
+大聖杯はこの奥だ。ちぃとばかり[r]入り組んでいるんで、はぐれないようにな。
+[k]
+
+[charaFadeout F 0]
+[charaTalk A]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+天然の洞窟……のように見えますが、[r]これも元から冬木の街にあったものですか？
+[k]
+
+[charaFadeout A 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠オルガマリー
+でしょうね。これは半分天然、半分人工よ。[r]魔術師が長い年月をかけて拡げた地下工房です。
+[k]
+
+＠オルガマリー
+それより、キャスターのサーヴァント。[r]大事なことを確認していなかったのだけど。
+[k]
+
+＠オルガマリー
+セイバーのサーヴァントの真名は知っているの？[r]何度か戦っているような口ぶりだったけど。
+[k]
+
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠キャスター
+ああ、知っている。ヤツの宝具を食らえば誰だって[r]真名……その正体に突き当たるからな。
+[k]
+
+＠キャスター
+他のサーヴァントが倒されたのも、[r]ヤツの宝具があまりにも強力だったからだ。
+[k]
+
+[charaFadeout E 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+強力な宝具……ですか。[r]それはどういう？
+[k]
+
+＠キャスター
+王を選定する岩の剣のふた振り目。[r]おまえさんたちの時代においてもっとも有名な聖剣。
+[k]
+
+＠キャスター
+その名は、
+[k]
+
+＠サーヴァント
+[#約束された勝利の剣:エクスカリバー]。[r]騎士の王と誉れの高い、アーサー王の持つ剣だ。
+[k]
+
+[charaFadeout A 0]
+[charaFadeout F 0]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠[%1]
+！？
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaShadow G false]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠オルガマリー
+アーチャーのサーヴァント……！
+[k]
+
+＠キャスター
+おう、言ってるそばから信奉者の登場だ。[r]相変わらず聖剣使いを護ってんのか、テメエは。
+[k]
+
+[charaSet G 2001001 1 アーチャー]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0 1]
+＠アーチャー
+……ふん。信奉者になった覚えはないがね。[r]つまらん来客を追い返す程度の仕事はするさ。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaShadow G false]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠キャスター
+ようは門番じゃねえか。何からセイバーを守って[r]いるかは知らねえが、ここらで決着をつけようや。
+[k]
+
+＠キャスター
+永遠に終わらないゲームなんざ退屈だろう？[r]良きにつけ悪しきにつけ、駒を先に進ませないとな？
+[k]
+
+[charaFadeout F 0.1]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0 1]
+＠アーチャー
+その口ぶりでは事のあらましは理解済みか。[r]大局を知りながらも自らの欲望に熱中する……
+[k]
+
+＠アーチャー
+魔術師になってもその性根は変わらんと見える。[r]文字通り、この剣でたたき直してやろう。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaShadow G false]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠キャスター
+ハ、弓兵がなに言いやがる。[r]ってオイ、なにぼんやりしてんだお嬢ちゃん。
+[k]
+
+＠キャスター
+相手はアーチャーだ。アンタの盾がなきゃ[r]オレはまともに詠唱できねえんだが。
+[k]
+
+＠マシュ
+あ……は、はい！[r]すみません、なぜか気が抜けていました。
+[k]
+
+[charaFace A 2]
+＠マシュ
+問題ありません、いけます。[r]ガードならお任せください！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

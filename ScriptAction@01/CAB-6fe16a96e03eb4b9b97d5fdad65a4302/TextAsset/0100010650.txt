@@ -1,0 +1,160 @@
+＄01-00-01-06-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20802 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 5009003 1 ダ・ヴィンチ]
+[charaSet H 4019001 1 バーサーク・ライダー]
+[charaTalk A]
+[charaFace E 5]
+[charaFadein E 0 0]
+[charaFace A 2]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+残るはサーヴァントだけです！
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+みんな、大丈夫？[r]傷の治療は必要？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+こちらは大丈夫です。[r]マシュは？
+[k]
+
+[charaFace A 0]
+＠マシュ
+大丈夫です。[r]ドクター、まだですか！？
+[k]
+
+＠Dr.ロマン
+[line 2]来るぞ、準備はいいか！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace H 1]
+[charaFadein H 0.4 1]
+＠バーサーク・ライダー
+……こんにちは、皆さま。[r]寂しい夜ね。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+[line 2]何者ですか、貴女は。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠バーサーク・ライダー
+何者……？[r]そうね、私は何者なのかしら。
+[k]
+
+＠バーサーク・ライダー
+聖女たらんと己を[#戒:いまし]めていたのに、[r]こちらの世界では壊れた聖女の使いっ走りなんて。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+壊れた聖女……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠バーサーク・ライダー
+ええ、彼女のせいで理性が消し飛んで[r]凶暴化してるのよ。
+[k]
+
+[charaFace H 3]
+＠バーサーク・ライダー
+今も衝動を抑えるのに割と必死だし。[r]困ったものね、まったく。
+[k]
+
+[charaFace H 5]
+＠バーサーク・ライダー
+だから、貴方たちの期待はありがたいけど、[r]味方になることはできないわ。
+[k]
+
+＠バーサーク・ライダー
+気を張ってなきゃ、貴女たちを後ろから攻撃する[r]サーヴァントが味方になれるはずもないでしょう？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+では、どうして出てきたのです？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠バーサーク・ライダー
+……監視が役割だったけど。最後に残った理性が、[r]貴女たちを試すべきだと[#囁:ささや]いている。
+[k]
+
+[charaFace H 5]
+＠バーサーク・ライダー
+あなたたちの前に立ちはだかるのは“竜の魔女”。[r][#究極の竜種]に騎乗する、災厄の結晶。
+[k]
+
+＠バーサーク・ライダー
+私ごときを乗り越えられなければ、[r]彼女を打ち倒せるはずはない。
+[k]
+
+[charaFace H 0]
+＠バーサーク・ライダー
+私を倒しなさい。[r]躊躇なく、この胸に刃を突き立てなさい。
+[k]
+
+[charaFace H 2]
+＠バーサーク・ライダー
+我が[#真名:な]はマルタ。[r]さあ出番よ、大鉄甲竜タラスク！
+[k]
+
+[flashin once 1 0.4 FFFFFFAA 00000000]
+[se su2]
+[wait se su2]
+＠Dr.ロマン
+マルタ……聖女マルタか！？[r]気を付けろ、みんな！
+[k]
+
+＠Dr.ロマン
+彼女はかつて竜種を祈りだけで屈服させた聖女だ！[r]その彼女がサーヴァントということはつまり[line 2]。
+[k]
+
+[charaFace H 0]
+＠バーサーク・ライダー
+我が屍を乗り越えられるか、見極めます[line 2]！
+[k]
+
+[se ad17]
+[wait se ad17]
+＠Dr.ロマン
+[#ドラゴンライダー]だ……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

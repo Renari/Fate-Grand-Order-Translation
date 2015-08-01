@@ -1,0 +1,131 @@
+＄01-00-02-03-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20402 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……ふう。[r]敵軍、撤退していきます。
+[k]
+
+[charaFace A 7]
+＠マシュ
+サーヴァントはいなかったようですね。[r]すべて人間の兵士でした。
+[k]
+
+＠Dr.ロマン
+レフらしき魔術師も見当たらず、か。[r]ともあれお疲れさま。すっかり夜になってしまったな。
+[k]
+
+[charaFace A 0]
+＠マシュ
+戻りましょう、先輩。[r]夜襲があればまた戦闘になるはずですし。
+[k]
+
+[charaFace A 7]
+＠マシュ
+できるうちに休息しておくべきです。[r]今朝も言いましたよね。
+[k]
+
+？1：そうだね
+
+[charaFace A 13]
+＠マシュ
+はい。
+[k]
+
+？2：まだ眠くない……
+
+[charaFace A 13]
+＠マシュ
+はい？
+[k]
+
+？！
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 1]
+＠Dr.ロマン
+はっはっは。[r]じゃあ、ボクも私室に戻って眠るとしようかな。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+マギ☆マリのブログもチェックしないと。[r]そろそろ日記が更新されてるはずなんだよね……
+[k]
+
+？1：ドクター……
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+な、なんだ、その哀れな生き物を見るような目は!?[r]いいじゃんか、ネットアイドル！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+マスコミの手にもテレビ局の方針にも汚れていない、[r]まさに理想の[#偶像:アイドル]なんだぞ!?
+[k]
+
+？2：外の世界は消滅しているはずでは？
+
+＠Dr.ロマン
+いいところに気がついたね。[r]確かに外の世界は消滅してしまった。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+だからマギ☆マリも、そのＨＰも[r]もう更新されない……とでも思ったかい？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+バカめ。マギ☆マリはそういう浮き世の事情とは[r]関係ないところにいる至高のアイドルなのさ！
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……まあ、ホントのところは元データから再現した[r]自動生成AIで再生してるだけなんだけど。
+[k]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+ドクター。30才を控えた独身男性の趣味に口だしは[r]しませんが、職務はまっとうしてください。
+[k]
+
+[charaFace A 5]
+＠マシュ
+さもないと、帰還した際にドクターの秘蔵フォルダを[r]デリートする事もやぶさかではありません。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+や、やだなあ、冗談だよ冗談！[r]常に周囲のチェックと情報捜索はしておくさっ！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+とにかくふたりは休憩に入ってくれ。[r]皇帝陛下も報告を待っているだろうしね。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

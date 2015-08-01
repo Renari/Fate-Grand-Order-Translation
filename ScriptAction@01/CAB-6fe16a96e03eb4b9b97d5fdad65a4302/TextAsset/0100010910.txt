@@ -1,0 +1,294 @@
+＄01-00-01-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 1008001 1 ジークフリート]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 13]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……放棄された砦のようですね。[r]ひとまず、ここで休みましょう。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+ジークフリートの傷はどうですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠マリー・アントワネット
+わたしの宝具は少しだけど傷を癒すことができるわ。[r]でも、この傷はダメみたい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠ジークフリート
+……どうやら、呪いの類らしいな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+どうして貴方はあの街にいたのですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ジークフリート
+俺は召喚されたのが比較的早い方だったらしい。
+[k]
+
+＠ジークフリート
+マスターもおらず放浪していたところに……[r]あの街が襲われるのを見てしまってな。
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk E]
+[charaFadein G 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠マリー・アントワネット
+助けに行ったのですね？
+[k]
+
+[charaFace G 1]
+＠ジークフリート
+ああ。……生前とは違うが、それでもこの[#幻想大剣:バルムンク][r]があれば、何とかなる。
+[k]
+
+[charaFace G 4]
+＠ジークフリート
+しかし、複数のサーヴァントに[r]襲い掛かられてはさすがに難しかった。
+[k]
+
+＠ジークフリート
+……ただ、その中の一騎が俺を城に[#匿:かくま]ってくれた。[r]傷は治らず、誰かに助けを求めることもできず。
+[k]
+
+[charaFace G 0]
+＠ジークフリート
+ああして、待つしかなかった。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+それは、もしかして竜を操る女性でしたか？
+[k]
+
+[charaFace G 4]
+＠ジークフリート
+竜……？　いや、あれは亀……いや竜……竜亀……[r]言われてみれば……なるほど、ああいう竜もありか……
+[k]
+
+[charaFace G 1]
+＠ジークフリート
+そうだ。雰囲気はルーラー、君に似ていたな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+聖女マルタ……でしょうね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ジークフリート
+なるほど、彼女が邪竜タラスクを退散させたという[r]聖女マルタか。彼女に礼を言いたいが[line 2]。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……。
+[k]
+
+＠ジークフリート
+そうか。いや、いい。[r]彼女も覚悟の上だったろう。
+[k]
+
+[charaFace G 1]
+＠ジークフリート
+もっとも、こんな役立たずの自分を救ってもらって[r]気がとがめるのも確かだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠ジャンヌ
+恐らく、[#洗礼詠唱:せんれいえいしょう]で解呪できるでしょう。[r]ただ、相当高位のサーヴァントでなくては[line 2]
+[k]
+
+＠マリー・アントワネット
+ジャンヌなら出来るのではありません？
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……いいえ。[r]試してみましたが、私ひとりでは力が足りません。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+ジークフリートには、複数の呪いが掛かっています。[r]……生きているのが、不思議なくらいです。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+複数の呪いを同時に解除するためには、[r]聖人があとひとり必要です。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+聖人のサーヴァント……ですか。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+……ああ、可能性はあるよ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+聖杯を持っているのが聖女ジャンヌ・ダルク……[r]失敬、“竜の魔女”たるジャンヌならば。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+その反動[line 2]抑止力のようなもので[r]聖人が召喚されている可能性はある。
+[k]
+
+＠Dr.ロマン
+現に聖女マルタが召喚されているだろう？[r]それで。君たちに聖人サーヴァントのあてはあるかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠ジークフリート
+俺にとって、君たちが初めて出会うサーヴァントだ。
+[k]
+
+＠マシュ
+わたしとジャンヌさんも、[r]敵となったサーヴァント以外はわかりません。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠マリー・アントワネット
+……まとまって行動する方が安全なのでしょうけど、[r]手分けした方が良くないかしら？
+[k]
+
+＠マリー・アントワネット
+“[#竜殺し:ドラゴンスレイヤー]”ジークフリートの呪いを解かなければ、[r]あのファヴニールは倒せないのでしょう？
+[k]
+
+＠ジャンヌ
+でも……。
+[k]
+
+[charaFace E 4]
+＠マリー・アントワネット
+ジャンヌ？
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+あ、いえ。[r]……何でもありません。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+そうですね、私もそれが妥当だと思います。[r]如何でしょう、[%1]さん？
+[k]
+
+？1：聖人を探す
+
+？2：手分けして、フランスを巡る
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+幸いに、と言うのも何ですが[r]フランス領は既に半分以下にまで追いやられている。
+[k]
+
+[charaFace A 7]
+＠マシュ
+探すこと自体は容易だと思います。[r]問題はどう手分けするかですが……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+[wt 1]
+＠Dr.ロマン
+おっと。話し合いの最中済まないが、[r]ワンダリングモンスターの登場だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ワンダ……何です？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+[wt 1]
+＠Dr.ロマン
+……いや、何でもない。ともかく敵だ、[r]さっさと片付けて話し合いを続けよう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

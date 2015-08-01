@@ -1,0 +1,148 @@
+＄01-00-02-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ？？？]
+[charaSet E 7010001 1 ？？？]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠D：？？？
+……なんとか危機は脱したか。[r]また助けられてしまったな。
+[k]
+
+[charaFace D 5]
+＠D：？？？
+多勢に無勢はいくさの常ではあろうが、[r]無勢の側に立つのは嬉しくない。疲れる！
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+いいえ、まだです。[r]まだ来ます。この気配……！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+サーヴァントだ、マシュ、[%1][&君:ちゃん]！[r]一体のサーヴァント反応を確認した！
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい。感じています。[r]もう、すぐそこまで……来た……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠E：？？？
+[line 2]我が、愛しき、妹の子、よ。
+[k]
+
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠D：？？？
+伯父上……！
+[k]
+
+[charaFace D 5]
+＠D：？？？
+いや……いいや、今は敢えてこう呼ぼう。[r]如何なる理由かさ迷い出でて、連合に与する愚か者！
+[k]
+
+[charaFace D 2]
+＠D：？？？
+……[#カリギュラ]……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠Dr.ロマン
+いま彼女は何と言った？[r]伯父上。そう言ったのか？
+[k]
+
+[charaFace A 0]
+＠マシュ
+はい、確かにそう聞こえました。[r]この時代に生きる[#人間]が、サーヴァントと血縁[line 2]？
+[k]
+
+＠Dr.ロマン
+詮索は後にしておこう、マシュ。[r]間違いなくそこにいるのはサーヴァントだ。
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]、準備はいいな！[r]この時代に来て初めてのサーヴァント戦闘になる。
+[k]
+
+？1：いつでもＯＫ！
+
+？2：何度やっても慣れないけど、仕方ない
+
+？！
+
+[charaFace A 13]
+＠マシュ
+心配いりません、先輩。[r]いいえ、マスター。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaSet E 7010001 0 カリギュラ]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠カリギュラ
+余、の[line 2]
+[k]
+
+＠カリギュラ
+余の、振る舞い、は、運命、で、ある。
+[k]
+
+＠カリギュラ
+捧げよ、その、命。[r]捧げよ、その、体。
+[k]
+
+[charaFace E 5]
+＠カリギュラ
+[fontSize x-large]す　べ　て　を[fontSize -]
+[k]
+
+[charaFace E 2]
+＠カリギュラ
+[fontSize x-large]捧　げ　よ　！[fontSize -]
+[k]
+
+[charaFace D 5]
+＠D：？？？
+くっ……！[r]叔父上、何処まで……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+来ます！[r]サーヴァント戦闘です。マスター、指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

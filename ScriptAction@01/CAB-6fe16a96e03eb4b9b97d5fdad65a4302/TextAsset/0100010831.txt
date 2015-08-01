@@ -1,0 +1,107 @@
+＄01-00-01-08-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98013000 1 ファヴニール]
+[charaSet C 98014000 1 兵士]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7002001 1 ランスロット]
+[charaSet H 6012001 1 サンソン]
+[charaFace G 2]
+[charaFadein G 0 2]
+[charaFace H 4]
+[charaFadein H 0 0]
+[fadein black 1]
+[wait fade]
+＠？？？
+……Ａｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒ！
+[k]
+
+[charaFace H 5]
+＠サンソン
+……チッ。どうなっている、あのサーヴァント……？[r]頑丈にもほどがあるぞ……？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠マシュ
+は……、つ……！
+[k]
+
+＠マリー・アントワネット
+サンソン……なんという事でしょう……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アマデウス
+くそ、ワイバーンも増えている！[r]あのイカレ首切りマニアに専念させてくれないものか！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ジャンヌさんは……！？
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300 0]
+[charaFace C 0]
+[charaFadein C 0.4 0]
+[charaFace D 2]
+[charaFadein D 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジャンヌ
+……逃げなさい！
+[k]
+
+＠兵士
+な、何？
+[k]
+
+＠ジャンヌ
+いいから、すぐに逃げなさい！[r]死にたいのですか！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaSet C 98014000 1 指揮官]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠指揮官
+に、逃げるな！[r]あそこにいるのが“竜の魔女”だ！
+[k]
+
+＠指揮官
+討ち取れ！[r]故郷の仇を討て！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+くっ……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

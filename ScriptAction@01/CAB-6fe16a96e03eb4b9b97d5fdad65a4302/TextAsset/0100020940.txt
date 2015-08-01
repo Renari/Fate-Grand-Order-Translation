@@ -1,0 +1,109 @@
+＄01-00-02-09-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20113 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 6010001 1 ステンノ]
+[charaSet F 98006100 1 ？？？]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 3]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+……ふう。余はちょっと疲れてきた……[r]戻って休みたい……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ところが何と、だね。[r]戦っているうちに洞窟の奥へ辿り着いたようだよ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そこに特殊な反応がある。[r]これは、魔力の[line 2]いや、そんな、まさか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+何でしょう、ドクター。[r]もしかして本当に、ここに聖杯が？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いや。……いや、全然聖杯じゃあないね！[r]幻想種だ。竜種ではないが、強力な幻獣の反応が一体！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[se ad19]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠F：？？？
+[fontSize x-large]グオオオオオオオオ！！[fontSize -]
+[k]
+
+[wt 1]
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+これは[line 2]
+[k]
+
+[charaFace D 2]
+＠ネロ
+で、でかいではないかー！[r]むっ、しかしあの獅子の顔は可愛いぞっ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+古代ギリシャに伝わる怪物、キメラだよ。[r]魔術による合成生物ではなく、伝説の幻獣そのもの！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+何でこんなものが……。[r]あっ、そうか、あの女神が用意したのか！？
+[k]
+
+＠Dr.ロマン
+強力な相手だ！[r]相当のタフネスがあるはずだから気を付けて！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+了解。マスター、戦闘開始します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

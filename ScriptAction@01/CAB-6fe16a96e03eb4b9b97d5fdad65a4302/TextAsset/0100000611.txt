@@ -1,0 +1,270 @@
+＄01-00-00-06-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 6002001 0 サーヴァント]
+[charaSet G 3006001 1 サーヴァント]
+[charaSet H 5021001 1 キャスター]
+[charaFace A 7]
+[charaFadein A 0]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ハァ[line 3]これで、どうだっ……！
+[k]
+
+[messageOff]
+[charaEffect F bit_talk_12]
+[se ad32]
+[wt 0.5]
+[charaEffectStop F]
+[wait charaEffect F]
+＠F：サーヴァント
+[line 6]ドウ　モ　何モ、話ニナラン。[r]コレデハ　私一人デ　十分ダッタカ。
+[k]
+
+？1：……どういう意味だ？
+
+？2：……マシュ、下がれ！
+
+？！
+
+＠Dr.ロマン
+[%1]、追いつかれた！[r]もう一体、そっちが本命だ！
+[k]
+
+[charaFadeout A 0]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[wt 1.5]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaShadow F false]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaShadow G false]
+[charaTalk E]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠オルガマリー
+そんな……一体でも負けてるのに、[r]二体同時に襲ってくるの!?
+[k]
+
+[charaFace A 6]
+＠マシュ
+あ[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠F：サーヴァント
+決メルゾ　ランサー。[r]ドコノ英霊カ知ラヌガ、[#御首:ミシルシ]ニハ違イナイ
+[k]
+
+[charaFace G 0]
+＠G：サーヴァント
+[line 3]ハ。[r]ハハハハハハハハハハハハハハハハ！
+[k]
+
+＠Dr.ロマン
+所長、マシュ、しっかりするんだ……！[r]足を止めちゃいけない！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaShadow G false]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.5]
+[charaShadow F false]
+[charaFadeout C 0.1]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠G：サーヴァント
+[line 3]ハ。[r]ハハハハハハハハハハハハハハハハ！
+[k]
+
+＠Dr.ロマン
+くそ、二人とも飲まれている……[r]指示を、[%1][&君:ちゃん]！　冷静なのは君だけだ！
+[k]
+
+？1：……今は逃げるしかない！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaShadow G false]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩……！
+[k]
+
+[charaFadeout A 0]
+[charaTalk G]
+[charaFadein A 0.1 2]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠G：サーヴァント
+面白イ　面白イ　面白イ　面白イ！
+[k]
+
+[messageOff]
+[charaEffect A bit_talk_12]
+[charaShake A 0.05 10 0 0.5]
+[se bac7]
+[wt 0.2]
+[flashin once 0.3 0.3 FF000080 00000000]
+[flashout 0.3]
+[wait flash]
+[charaFace A 9]
+＠マシュ
+く、つぁ……！
+[k]
+
+＠G：サーヴァント
+面白イ　殺シタイ　逃ゲル背中ホド　美シイ！
+[k]
+
+[messageOff]
+[charaMove G 1 0.5]
+[wt 1.5]
+[se bac18]
+[effect bit_talk_13 1]
+[shake 0.05 0 10 0.5]
+[flashin once 0.6 0.4 FFFFFF80 00000000]
+[flashout 0.4]
+[wait flash]
+？2：こうなったら戦うしかない！
+
+[charaFadeout G 0]
+[wt 0.1]
+[charaShadow G false]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……了解です。もう、それしかありません……！
+[k]
+
+[charaFadeout A 0]
+[charaTalk F]
+[charaFadein A 0.1 2]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠F：サーヴァント
+ハ。未熟未熟。戦ウモ死ニ筋、逃ゲルモ無理筋。[r]未熟者ノ末路トハ　ドウアレ無様ヨナ。
+[k]
+
+[charaFadeout F 0]
+[wt 0.1]
+[charaShadow F false]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠G：サーヴァント
+ソレデヨイ。藻掻クガヨイ。無様ナ者ホド面白イ！
+[k]
+
+[charaFadeout A 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠オルガマリー
+た、戦うって正気!?[r]どうあっても勝ち目がないじゃない、アレ!?
+[k]
+
+[charaFadeout E 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……それでも戦うしかありません。[r]死中に活を見いだします……！
+[k]
+
+[charaFadeout G 0]
+[wt 0.1]
+[charaShadow G false]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠F：サーヴァント
+ハ[line 3]死ンダゾ、娘……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaShadow F false]
+[wt 0.5]
+＠？？？
+小娘かと思えばそれなりに[#兵:つわもの]じゃねえか。[r]なら放っておけねえな。
+[k]
+
+[messageOff]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaShadow G true]
+[charaFadein G 0.1 2]
+[wt 0.5]
+[effect bit_talk_13 1]
+[shake 0.05 0 10 0.5]
+[se bac18]
+[flashin once 0.6 0.4 FFFFFF80 00000000]
+[flashout 0.4]
+[wait flash]
+[wt 0.5]
+？！
+
+[charaFadeout G 0]
+[wt 0.1]
+[charaShadow G false]
+[charaFadeout A 0]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：サーヴァント
+ヌゥ……！　何者ダ……!?
+[k]
+
+[charaFadeout F 0]
+[wt 0.1]
+[charaShadow F false]
+[charaShadow F true]
+[charaFadein F 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠？？？
+何者って、見れば分かんだろご同輩。[r]なんだ、泥に飲まれちまって目ん玉まで腐ったか？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

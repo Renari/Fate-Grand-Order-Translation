@@ -1,0 +1,216 @@
+＄01-00-01-11-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[scene 20800 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1008001 1 ジークフリート]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4006001 1 ゲオルギウス]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaFace C 0]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠ジークフリート
+この中で軍を率いた経験は……どうやら俺だけらしいな。
+[k]
+
+[charaFace C 3]
+＠ジークフリート
+もっとも俺とて、国という国を軍で攻め落とす、という[r]絢爛な軍歴がある訳でもないが。
+[k]
+
+[charaFace C 4]
+＠ジークフリート
+ともかく我々の人数は少なく、[r]そして敵の人数は多い。
+[k]
+
+[charaFace C 0]
+＠ジークフリート
+……ただし、敵のほとんどは我々より圧倒的に弱い。[r]こういう場合、取るべき手段は二つ。
+[k]
+
+＠ジークフリート
+正面突破か、密かに背後を突くか。[r]しかし、我々の居場所はとうの昔に知られている。
+[k]
+
+[charaFace C 5]
+＠ジークフリート
+つまり密かも何も、とうに敵に発見されている。[r]……要するに取るべき手段は実質一つだ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠二人
+正面突破。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ジークフリート
+……ということだ。
+[k]
+
+＠ジークフリート
+ファヴニールは俺とマスターのグループが受け持とう。
+[k]
+
+＠ジークフリート
+他の人間はサーヴァントとワイバーンたちから、[r]俺たちを守って欲しい。
+[k]
+
+[charaFace C 1]
+＠ジークフリート
+俺たちがファヴニールを倒せるか否か。[r]そこがこの戦争の分岐点となるだろう。
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……了解しました。[r]未熟ですが、精一杯戦わせて戴きます。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠エリザベート
+あ、子イヌ。[r][#私:アタシ]、ちょっと殴り合わなきゃならないヤツがいるの。
+[k]
+
+[charaFace H 5]
+＠エリザベート
+[#私:アタシ]はそいつに専念してもいいかしら？
+[k]
+
+？1：構わない
+
+[charaFace H 1]
+＠エリザベート
+そ、ありがと。
+[k]
+
+？2：誰と戦うつもり
+
+[charaFace H 5]
+＠エリザベート
+ま、色々と因縁があるサーヴァントよ。
+[k]
+
+？！
+
+[charaFace H 0]
+＠エリザベート
+[#私:アタシ]的にはそれさえ達成すれば文句はないわ。[r]……ま、暇だったらその後も手伝ってあげていいけど。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠ジャンヌ
+私は……必然的に、[r]“竜の魔女”を相手にすることになりますね。
+[k]
+
+[charaFace E 1]
+＠ゲオルギウス
+勝てますか？
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+……はい、勝ちます。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+万が一、彼女が本物のジャンヌ・ダルクで[r]あったとしても、私は勝ちます。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アマデウス
+んー、僕は特に因縁とかないしなあ。[r]適当にワイバーンの目を引いていればいいかな。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠清姫
+それでは……わたくしは[r]マスターのお傍で適当に火を吐いておりますね。
+[k]
+
+[charaFace G 0]
+＠清姫
+ほら。飛んで火に入る夏の虫、[r]人の恋路を邪魔する馬の骨、と申しますし。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout G 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+周囲の探査はこちらに任せてくれ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ここが勝負所だ、[r]栄養ドリンクもバケツ一杯準備した！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター……それは逆効果です。[r]胃痛になるので飲めないのではないでしょうか……？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+顔をつければスッキリするかもだろう！？[r]ともかく、任せてくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジークフリート
+つまり、全員問題ないということか。[r]では、マスター[line 2]我々に命令を。
+[k]
+
+？1：戦おう！
+
+？2：勝とう！
+
+？！
+
+[charaFace D 1]
+＠ジャンヌ
+はい！[r]それではいざ、オルレアンへ[line 4]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

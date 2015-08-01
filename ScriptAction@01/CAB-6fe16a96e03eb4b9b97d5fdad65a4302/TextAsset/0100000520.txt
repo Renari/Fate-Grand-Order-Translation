@@ -1,0 +1,97 @@
+＄01-00-00-05-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10720]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 4001001 1 サーヴァント]
+[charaFace A 13]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……ふう。[r]良かった、今回もなんとかなりましたね、マスター。
+[k]
+
+[charaFadeout A 0]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠オルガマリー
+もう完全にサーヴァントとしてやっていけるわね。[r]ここの程度も知れたし、もう怖いものはないんじゃない？
+[k]
+
+[charaFace A 12]
+＠マシュ
+それは……どうでしょうか。[r]どんなにうまく武器を使えても、戦闘そのものは……
+[k]
+
+[se ad13]
+[wait se ad13]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0]
+[charaFadeout E 0]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ごめん、話はあと！[r]すぐにそこから逃げるんだ三人とも！
+[k]
+
+＠Dr.ロマン
+まだ反応が残っている！[r]しかもこれは[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 1.5]
+[charaFadeout F 0]
+[wt 0.5]
+[charaShadow F false]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠オルガマリー
+な[line 3]まさか、あれって!?
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+そこにいるのはサーヴァントだ！
+[k]
+
+＠Dr.ロマン
+戦うな[%1]、マシュ！[r]君たちにサーヴァント戦はまだ早い……！
+[k]
+
+[charaFace E 1]
+＠オルガマリー
+そんなこと言っても逃げられないわよ！
+[k]
+
+＠オルガマリー
+マシュ、戦いなさい！[r]同じサーヴァントよ、なんとかなるでしょう!?
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 15]
+[charaFadein A 0.1 0]
+＠マシュ
+……………はい。[r]最善を尽くします……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

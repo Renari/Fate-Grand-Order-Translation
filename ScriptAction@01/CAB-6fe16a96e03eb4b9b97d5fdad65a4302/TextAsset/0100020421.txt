@@ -1,0 +1,168 @@
+＄01-00-02-04-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006300 1 正体不明人型]
+[communicationCharaLoop 98003003 0 5 0 5]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 2]周囲に敵影、ありません。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+今度こそもう安全だ。[r]連合の兵士たちがいないか注意しながら下山しよう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout C 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.5]
+[scene 20300 0]
+[communicationCharaLoop 98003003 0 5 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+連合ローマ帝国……。[r]サーヴァントを擁した勢力であるようですが。
+[k]
+
+[charaFace A 7]
+＠マシュ
+一体、首魁は何者なのでしょうか。[r]レフ・ライノールであるのか、それとも[line 2]
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ボクの方ではまだ何も掴めていないけど、[r]サーヴァントがいるなら戦闘は避けられないだろうね。
+[k]
+
+＠Dr.ロマン
+堂々と、サーヴァントという存在が[r]戦場に投入される。明確なまでの異常事態だ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+キミたちがいなければ、[r]きっと皇帝陛下も殺されてしまうだろう。
+[k]
+
+＠Dr.ロマン
+どうか、頑張ってくれ。[r]こっちでも情報解析は進めておくから。
+[k]
+
+？1：了解
+
+？2：ドクターも頑張って
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout C 0.1]
+[wt 0.5]
+[scene 20602 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ネロ
+おおっ戻ったか、[%1]。
+[k]
+
+[charaFace D 0]
+＠ネロ
+戻ったばかりですまぬが、[r]これからガリアへと遠征を行おうと思う。
+[k]
+
+＠ネロ
+無論、余、自らが出ねば意味がない。[r]苦戦する配下を助けつつ鼓舞するのが目的だ。
+[k]
+
+[charaFace D 1]
+＠ネロ
+[%1]とマシュには供を頼みたい。[r]どうだ、来てくれるな？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……どうしますか、先輩？
+[k]
+
+[se ad13]
+[wait se ad13]
+＠Dr.ロマン
+皇帝陛下から聞いて戦況詳細は把握済みだ。[r]ガリアは連合との戦いに於ける最前線のひとつらしい。
+[k]
+
+＠Dr.ロマン
+聖杯を有したサーヴァントが敵将として[r]暴れている可能性もあるし、レフもいるかも知れない。
+[k]
+
+＠Dr.ロマン
+ここは、彼女と供に移動するのがいいだろう。[r]当然ながら危険を伴ってしまうが[line 2]
+[k]
+
+？1：仕方ない
+
+？2：命を大事にしつつ頑張ろう
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……はい、先輩。[r]わたしもそう思います。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+＠ネロ
+決まりだな！[r]皇帝自らの遠征である！　直ちに支度せよ！
+[k]
+
+＠ローマ兵
+ははっ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

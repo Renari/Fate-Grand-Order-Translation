@@ -1,0 +1,388 @@
+＄01-00-02-09-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 6010001 1 ？？？]
+[charaTalk D]
+[charaFace A 4]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+うむ、良い風を掴まえたな！[r]かつてない攻め攻めな船旅であった！
+[k]
+
+[charaFace A 8]
+＠マシュ
+……。[r]三半規管も強化されていて助かりました
+[k]
+
+[charaFace A 15]
+＠マシュ
+デミ・サーヴァントになっていなければ……。[r]うう。い、いえ、想像はしません。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 3]
+＠Dr.ロマン
+き、強烈な体験だったみたいだね。[r]こちらからも君たちのバイタルでおおむねわかったよ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+兵たちも船から出てこないし……。[r]ああ、可哀想に。
+[k]
+
+＠Dr.ロマン
+皇帝自ら舵を握るというからには、きっと[r]優れた操船技術を修めているのだろうと思ったけども。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+いや、いや待てよ。もしや？[r]これはかなりの腕ということなのではないかな？
+[k]
+
+＠Dr.ロマン
+荒波の如く危ういようでいて、しかし沈没せず。[r]時に空を舞い、時にドリフトターン……
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+よく考えてみれば凄いぞ。[r]流石は皇帝、か……ふうむ……。
+[k]
+
+？1：いい加減なことを言うな
+
+？2：そうですね
+
+？！
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+は、ははは、いやだなあ！[r][%1][&君:ちゃん]、怒ったのかな。怒ったかい？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ともかく無事に、噂の島に到着したんだ。[r]さっそく古き神とやらを[line 2]
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaFace 5]
+＠Dr.ロマン
+おっと。こちらから探す必要はなかったかな？[r]あちらからお出ましのようだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ただし、サーヴァント反応だ。[r]警戒してくれたまえ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……！
+[k]
+
+[charaFace D 5]
+＠ネロ
+何だ、またも敵襲か？[r]既にこの島も連合の手に落ちていたとはな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+いいや、これは……サーヴァントではあるが……。[r]何だ。違う。正常なそれとは些か違う、これは、何だ？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+＠E：？？？
+ええ、そうよ。[r][#ふつう]のサーヴァントではないもの。
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠E：？？？
+ご機嫌よう、勇者のみなさま。[r]当代に於ける私のささやかな仮住まい、[#形ある]島へ。
+[k]
+
+[charaFace E 3]
+＠E：？？？
+ふふ、あら、あら。[r]どんなに立派な勇者の到来かと思ったのだけれど。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+サーヴァントが混ざっているだなんて、驚きました。[r]残念だわ、人間の勇者を待っていましたのに。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+この気配は[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+何てこった。これは……こんなことがあるのか！[r]反応からすれば確かにサーヴァント。しかし、違う！
+[k]
+
+？1：一体何が
+
+？2：彼女が「古き神」？
+
+？！
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+数値で計測できるほどの神性……！[r]そうとも、彼女は間違いなく神なんだ。いいや、女神！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaSet E 6010001 0 ステンノ]
+[charaFadein E 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ステンノ
+ええ、そう。[r]私は女神[line 2]名は、ステンノ。
+[k]
+
+[charaFace E 4]
+＠ステンノ
+ゴルゴンの三姉妹が[#一柱:ひとはしら]。[r]古き神、と呼ばれるのはあまり好きではないのだけれど。
+[k]
+
+[charaFace E 1]
+＠ステンノ
+でも、それでも構わなくてよ。[r]確かに、貴方たちからすれば過去の神なのでしょうし。
+[k]
+
+[charaFace E 3]
+＠ステンノ
+どうか好きにお呼びになってくださいな、みなさま。[r]私の美しさは時間に依るものではありませんもの。
+[k]
+
+[charaFace A 11]
+＠マシュ
+英霊、ではなく、神霊のサーヴァント？[r]ドクター。先刻と話が違います。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+う、うん。何事にも例外はあるよね。[r]い、いやあしかし困ったな、神霊サーヴァントなんてさ。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+しかも、[#あの]古代ギリシャの神々の一柱！[r]正真正銘の神さまじゃないか。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+可能なのか？　いや、実際に君たちの目の前にいるんだ。[r]しかし、そうだとしても「神そのまま」であるはずがない。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そう、そうとも。英霊にしてもそうだが、[r]その力はダウンサイジングされていて然るべきだ。
+[k]
+
+＠Dr.ロマン
+既に神々は地上で[#権能]を振るうことはない。[r]ならば……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠ステンノ
+あら、詳しいのね魔術師さん。[r]ええそう、間違ってはおりませんわ。
+[k]
+
+[charaFace E 4]
+＠ステンノ
+でも……ひとつ覚えておきなさいな、無粋な方。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+な、何でしょう。[r][line 2]まさか、女神にご教授いただけるとは。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ステンノ
+あら、とても良いお声。素敵な響き。[r]せっかくなのだからお顔を目にしてみたいけれど……
+[k]
+
+[charaFace E 4]
+＠ステンノ
+残念です、私の[#目]でも届かない地平にいるよう。
+[k]
+
+[charaFace E 1]
+＠ステンノ
+手の届く範囲にいたのなら、[r]一目でどうにかしてさしあげましたのに。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+うわっ……全身に寒気が走ったぞう……[r]黒ジャンヌの時とは違ったプレッシャーだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠ステンノ
+あら。それは貴方の気のせいですわ。[r]何も知らない貴方たちへ教えてあげましょう。
+[k]
+
+[charaFace E 0]
+＠ステンノ
+強きものばかりが神ではない、ということよ。[r]私や[#私:エウリュアレ]は、とても[#か弱きもの]なのです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+魔力の反応からするとかなりのもののはずだが……。[r]キミの戦闘能力は低く、敵対の意思はない、と？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ステンノ
+戦うことが求められない女神というのも在るのです。[r]たとえば、ほら、そこの貴方。
+[k]
+
+[charaFace A 6]
+＠マシュ
+わたし、ですか？
+[k]
+
+＠ステンノ
+貴女だってそうでしょう？[r]貴女の力は、屠るためではなく、守るためのもの。
+[k]
+
+[charaFace A 8]
+＠マシュ
+……それは。
+[k]
+
+[charaFace E 1]
+＠ステンノ
+ふふ。素直な娘は好きよ。[r][#妹:メドゥーサ]のように可愛がってあげたいくらい。
+[k]
+
+[charaFace A 11]
+＠マシュ
+（あっ今、ぞくっとしました）
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ネロ
+（余もぞくっとしたぞ！）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+………おっと。別の反応が海辺に現れてる、ぞ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ステンノ
+あら。
+[k]
+
+[charaFace D 5]
+＠ネロ
+女神と皇帝との語らいを邪魔するとは、不遜な。[r]何者だ？　連合の者か？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……いいえ。死霊系の怪物のようです。[r]こちらに接近してきます。
+[k]
+
+？1：蹴散らそう
+
+？2：お帰り願おう
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい、先輩。[r]迎撃戦闘、開始します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

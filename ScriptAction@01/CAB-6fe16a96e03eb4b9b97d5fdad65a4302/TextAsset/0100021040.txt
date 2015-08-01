@@ -1,0 +1,308 @@
+＄01-00-02-10-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10800 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 3009001 1 レオニダス]
+[charaSet G 7003001 1 ？？？]
+[charaSet H 6011001 1 ？？？]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+[se ad6]
+[wt 2]
+[seStop ad6 2]
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[scene 20900 0]
+[charaFace D 4]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ネロ
+ふう……。[r]やっと、落ち着いたな。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+すさまじい人の賑わいでした。お祭りのような。[r]先輩、もみくちゃにされていましたね？
+[k]
+
+[charaFace A 6]
+＠マシュ
+ですが、それほど不快なようではありませんでした。[r]ああいうのがお好みですか？
+[k]
+
+？1：まあね
+
+？2：お祭りなら仕方ないし
+
+？！
+
+[charaFace A 1]
+＠マシュ
+なるほど……なるほど。[r]お祭りというのは、誰もが親しくなる催しなのですね。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+はは。まんざらでもなかっただろう。[r]あれが勝利の美酒の味わいってヤツさ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ネロ
+ほほう。姿なき魔術師殿。[r]まるで、味わったことがあるような口ぶりだな？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ははは。ボクは想像力豊かな方だからね。[r]おかげで色んな目に遭ったけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ネロ
+マシュは見事に身を守り切っていたな。[r]人に触れられるのは苦手か？
+[k]
+
+[charaFace D 1]
+＠ネロ
+流石は盾の猛将、余以外に貞操が堅いのはよいことだ。[r]いっそう気に入ったぞ。
+[k]
+
+[charaFace A 3]
+＠マシュ
+あ、ありがとうございます。[r]恐縮です……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+？1：なぜこっちを見る？
+
+？2：好かれて良かったね
+
+？！
+
+[charaFace A 11]
+＠マシュ
+は、はい……いえ。いいえ。[r]別に、わたしは。何もありません。
+[k]
+
+[se ad55]
+[wt 0.9]
+[seStop ad55]
+[se bac2]
+[wait se bac2]
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+＠ローマ兵
+恐れながら皇帝陛下に申し上げます！[r]特別遠征軍、首都ローマへ帰還の途にあるとのこと！
+[k]
+
+[charaFace D 1]
+＠ネロ
+なに[line 2][r]あの者たちが帰ってきたか！
+[k]
+
+＠ローマ兵
+はっ。将軍、両名ともご健在！　しかし現在、[r]連合の大攻勢に遭って足止めを受けているとのことです！
+[k]
+
+[charaFace D 5]
+＠ネロ
+それはいかんな。[r]すまぬ、マシュ、[%1]！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。[r]先輩、指示をください。
+[k]
+
+？1：助けに行こう
+
+？2：命令なら仕方ない
+
+？！
+
+[charaFace A 7]
+＠マシュ
+[line 2]了解しました。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20700 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+[se ad16]
+[se ad33]
+[wt 3]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[wt 0.5]
+＠G：？？？
+[image berserker_language_1]。
+[k]
+
+[seStop ad16]
+[charaFace H 5]
+＠H：？？？
+見事に囲まれたな。[r]周囲は敵、敵、敵。[#雲霞:うんか]の如し。
+[k]
+
+[charaFace H 4]
+＠H：？？？
+私たちは、取り立てて問題もないだろう。[r]しかし……。
+[k]
+
+[charaFace G 5]
+＠G：？？？
+[image berserker_language_1]。
+[k]
+
+[charaFace H 5]
+＠H：？？？
+ああ。ネロ・クラウディウスから預かった[r]兵たちを失うことになる。なるべく、避けたいな。
+[k]
+
+[charaFace H 0]
+＠H：？？？
+死中に活あり[line 2]
+[k]
+
+[charaFace H 4]
+＠H：？？？
+私や貴殿はそれが叶うだろうが、[r]彼らに対してそれを強いるのは酷、と言うもの。
+[k]
+
+[charaFace H 5]
+＠H：？？？
+どうしたものかな。[r]……ん？
+[k]
+
+[se ad16]
+[wt 3]
+[seStop ad16]
+[charaFace G 2]
+＠G：？？？
+[image berserker_language_2]。
+[k]
+
+[charaFace H 0]
+＠H：？？？
+援軍、か。[r][#戦車の女王:ブーディカ]と[#闘士:スパルタクス]はガリアと聞いたが。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……[#荊軻:けいか]さんですね。聞いていた特徴と一致します。[r]わたしたちは合流できたようです、マスター。
+[k]
+
+？1：良かった
+
+[charaFace A 13]
+＠マシュ
+はい。間に合いました。
+[k]
+
+？2：死ぬかと思った
+
+[charaFace A 8]
+＠マシュ
+はい。敵軍を突破するのは少しだけ緊張しました。[r]ですが……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+相手は人間の軍隊です。[r]危険度は、比較的低いものと思われます。
+[k]
+
+？！
+
+[charaFadeout A 0]
+[charaTalk H]
+[charaFadein A 0.1 2]
+[charaSet H 6011001 0 荊軻]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+＠荊軻
+見ない顔だ。[r]しかし、敵ではないようだ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい。首都ローマから援軍として来ました。[r]ええと、あなたたちは[line 2]
+[k]
+
+[charaFace H 0]
+＠荊軻
+話は後だ。[r]君も[#私たちの同類:サーヴァント]だろう？
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい。
+[k]
+
+[charaFace H 1]
+＠荊軻
+ならば、共に活路を開こう。[r]できれば多くの兵を生かしてローマへ帰したい。
+[k]
+
+[charaFace A 2]
+＠マシュ
+はい。[r]マスター、多人数戦闘です。指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

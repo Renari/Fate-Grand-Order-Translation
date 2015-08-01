@@ -1,0 +1,49 @@
+＄01-00-01-04-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……まだ居ます。[r]ワイバーンのようです。
+[k]
+
+[charaFace A 15]
+＠マシュ
+あれは……まさか。[r]うっ……！
+[k]
+
+[se ad46]
+[wait se ad46]
+＠Dr.ロマン
+死体を喰っているのか……！？
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+やめなさい……！
+[k]
+
+[se ad19]
+[wait se ad19]
+[charaFace A 2]
+＠マシュ
+行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

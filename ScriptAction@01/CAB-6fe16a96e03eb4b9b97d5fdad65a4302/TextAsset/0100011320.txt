@@ -1,0 +1,138 @@
+＄01-00-01-13-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1008001 1 ジークフリート]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 1022001 1 ジル]
+[charaSet H 6012001 1 サンソン]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace H 5]
+[charaShadow H true]
+[charaFadein H 0.1 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+はぁ、はぁ、はぁ……。
+[k]
+
+＠サンソン
+フゥゥゥ……[r]アアァアア………アアァアア……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaShadow H false]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アマデウス
+なんて腐れ縁だ。適当にやっていたら[r]一番どうでもいいヤツが来てしまった。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+やあ処刑人。[r]その分だとマリアに絶縁状を叩きつけられたな？
+[k]
+
+[charaFadeout F 0.1]
+[charaShadow H true]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠サンソン
+アマ……デウス……？[r]アーーーマーーーデェウスゥゥゥウウウ……！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaShadow H false]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アマデウス
+むむ。なんだいその盛りあがり様は。[r]もしやマリアのヤツ、最後に余計な言葉も付け足したか？
+[k]
+
+[charaFace F 3]
+＠アマデウス
+たとえば、そう[line 3][r]同じ人間のクズでも、僕の方が百倍はマシだ、とか？
+[k]
+
+[charaFadeout F 0.1]
+[charaShadow H true]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠サンソン
+ハァ[line 3]アァ、ア[line 3][r]ふざ[line 3]けるな。ふざけるな、アマデウス……！
+[k]
+
+[charaFace H 2]
+＠サンソン
+僕はおまえには負けない！[r]おまえにだけは負けてなるものか……！
+[k]
+
+[se ad39]
+[wait se ad39]
+[charaFadeout H 0.4]
+[wt 0.1]
+[charaShadow H false]
+[wt 0.4]
+[charaFace H 5]
+[charaFadein H 0.4 1]
+[wt 1]
+[charaFadeout H 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アマデウス
+……うわあ!?[r]ちょっ、今ので正気を取り戻したのか!?
+[k]
+
+[charaFace F 0]
+＠アマデウス
+あーもう。一言余計だったのは僕も同じか。[r]けど[line 3]これでやり甲斐が出てきたな。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+シャルル＝アンリ・サンソン。[r]僕の八つ当たりを受ける用意はいいかい？
+[k]
+
+＠アマデウス
+めずらしく元気で仕方がないんだ。[r]なにしろ、ピアノを一曲弾くための体力が余っていてね。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠サンソン
+好きにしろ。その指先から斬り落とす。[r]そもそも僕はね、アマデウス。
+[k]
+
+[charaFace H 5]
+＠サンソン
+ずっと前から、死を音楽などという娯楽に落とす、[r]君の[#鎮魂歌:レクイエム]が嫌いで嫌いで仕方がなかった！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠アマデウス
+チィ、これだから陰気な体育会系というヤツは！[r]というかすごい迫力だな、圧倒されそうだ！
+[k]
+
+[charaFace F 2]
+＠アマデウス
+すまない、手を貸してくれマスター！[r]マリアへの[#餞:はなむけ]だ、思いっきり派手にいかせてくれ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

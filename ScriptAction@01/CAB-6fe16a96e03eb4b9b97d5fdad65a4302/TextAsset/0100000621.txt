@@ -1,0 +1,121 @@
+＄01-00-00-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10700]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 6002001 0 サーヴァント]
+[charaSet G 3006001 2 サーヴァント]
+[charaSet H 5021001 1 キャスター]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0]
+[fadein black 1]
+[wait fade]
+＠F：サーヴァント
+グ[line 3]オノレ、聖杯ヲ、目ノ前ニ、シテ[line 3]
+[k]
+
+[messageOff]
+[charaSpecialEffect F darkEnemyErasure 0 3]
+[charaSpecialEffect G darkEnemyErasure 2 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect F]
+[wait charaSpecialEffect G]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wt 0.5]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+＠マシュ
+あ、あの……ありがとう、ございます。[r]危ないところを助けていただいて……
+[k]
+
+＠キャスター
+おう、おつかれさん。[r]この程度貸しにもならねえ、気にすんな。
+[k]
+
+[charaFace H 0]
+＠キャスター
+それより自分の身体の心配だな。ケツのあたり、[r]アサシンのヤロウにしつこく狙われてただろう？
+[k]
+
+[charaMoveReturn H 2 0]
+[charaShake A 0.05 2 0 0.5]
+[charaFace A 3]
+＠マシュ
+ひゃん……！
+[k]
+
+[charaFace H 1]
+＠キャスター
+おう、なよっとしてるようでいい体してるじゃねえか！[r]役得役得っと。
+[k]
+
+[charaFace H 0]
+＠キャスター
+何のクラスだがまったくわからねえが、その頑丈さは[r]セイバーか？　いや、剣は持ってねえけどよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠オルガマリー
+………ちょっと、[%1]。[r]アレ、どう思う？
+[k]
+
+？1：まごう事なきセクハラオヤジだ。
+
+？2：……味方、かな……？
+
+？！
+
+[se ad13]
+[wait se ad13]
+[charaFadeout E 0]
+[charaTalk B]
+[charaFadein E 0.1 0]
+[communicationChara 98003003 2 5 0 0]
+＠Dr.ロマン
+とりあえず事情を聞こう。[r]どうやら彼はまともな英霊のようだ。
+[k]
+
+[charaFadeout E 0]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠キャスター
+おっ、話の早いヤツがいるじゃねえか。[r]なんだオタク？　そいつは魔術による連絡手段か？
+[k]
+
+＠Dr.ロマン
+はじめましてキャスターのサーヴァント。御身がどこの[r]英霊かは存じませんが、我々は尊敬と畏怖をもって、
+[k]
+
+＠キャスター
+ああ、そういう前口上は結構だ。聞き飽きた。てっとり[r]早く用件だけ話せよ軟弱男。そういうの得意だろ？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+うっ……そ、そうですか、では早速。……軟弱……[r]軟弱男とか、また初対面で言われちゃったぞ……
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

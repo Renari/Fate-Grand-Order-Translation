@@ -1,0 +1,36 @@
+＄01-00-01-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaTalk D]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace D 2]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+はぁ、はぁ、はぁ……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+大丈夫ですか？
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+ええ。[r]大丈夫[line 2]です。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

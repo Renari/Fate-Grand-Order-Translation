@@ -1,0 +1,333 @@
+＄01-00-02-15-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet H 6011001 1 荊軻]
+[charaTalk D]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace D 3]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+……死ぬかと思ったぞ。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+ああ。対城宝具の解放を間近にしながら、君たちが[r]死んでいないのがボクには不思議なくらいだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ありがとう、マシュ。[r]それに、ブーディカも。ナイスタイミングだった。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0 0]
+[charaFace A 7]
+[charaFadein A 0 2]
+＠ブーディカ
+……正直、ギリギリだった。
+[k]
+
+[charaFace E 5]
+＠ブーディカ
+王宮入口から攻略して、駆け付けたと思ったら[r]すごい魔力でさ。慌ててこっちも宝具を真名解放してさ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+わたしの宝具だけでは防ぎ切れませんでした。[r]ありがとうございます、ブーディカさん。
+[k]
+
+[charaFace E 1]
+＠ブーディカ
+こっちこそ。[r]しかし、どうしたもんかね。
+[k]
+
+[charaFace E 0]
+＠ブーディカ
+王宮入口の近くで暴れてたスパルタクスと呂布は、[r]運悪く、あの光をまともに浴びちまった。
+[k]
+
+[charaFace E 4]
+＠ブーディカ
+戦力には数えられないだろうね。[r]ここに来て……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ネロ
+アルテラとか言ったか。[r]あれは[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+既に連合首都から移動を開始したようだ。[r]方角から見て恐らく、首都ローマを目指すつもりだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ネロ
+ならばあれは、[r]余の都を[#灰燼:かいじん]と化すつもりか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+そうだろうね。そして彼女にはその力がある。
+[k]
+
+＠Dr.ロマン
+たとえ君が生き残ったとしても、[r]首都消滅を迎えればローマ帝国は消え去るだろう。
+[k]
+
+＠Dr.ロマン
+もしくは、彼女は、[r]首都の後に君を殺しに来るか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ネロ
+どちらも願い下げだな。[r]余は、余のローマも、余も、くれてやるつもりはない。
+[k]
+
+[charaFace A 15]
+＠マシュ
+では、アルテラを倒すしかありません。[r]わたしたちに……叶うでしょうか、果たして。
+[k]
+
+[charaFace A 7]
+＠マシュ
+あそこまでの魔力量です。[r]冬木で目にした聖剣を想起させるほどの……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの時は、強力なキャスターの援護がありました。[r]ですが、今は……。
+[k]
+
+[charaFace D 0]
+＠ネロ
+できぬか、マシュ？
+[k]
+
+[charaFace A 4]
+＠マシュ
+……。
+[k]
+
+[charaFace D 1]
+＠ネロ
+余はそうは思わぬ。[r][%1]は、マシュは、幾度も余を助けてみせた。
+[k]
+
+＠ネロ
+神々についてあれこれとおまえたちは述べたが、[r]余は確信している。運命と神々は、余に味方していると。
+[k]
+
+＠ネロ
+だからこそ、[%1]たちが来た。[r]余の想いはきっと叶う。
+[k]
+
+[charaFace D 0]
+＠ネロ
+ローマは救われる。[r]余の民と、余のローマは、後世にも残る。絶対にだ。
+[k]
+
+＠ネロ
+神祖もそう言っていた。[r]余は聞いた。
+[k]
+
+＠ネロ
+世界は永遠でなくてならぬ、とな。[r]ならば、ローマはすなわち永遠に続くのだ。
+[k]
+
+[charaFace D 1]
+＠ネロ
+たとえ、その名がいつか忘れられたとしても、[r]ローマが植えた多くの芽は、かたちさえ変えて続くだろう。
+[k]
+
+＠ネロ
+永遠の帝国は在り続ける。[r]皇帝が変わり、国が変わり、名が変わろうと。
+[k]
+
+[charaFace D 0]
+＠ネロ
+それが人の繁栄の[#理:ことわり]。[r]人間という[#生命:いのち]の系統樹。
+[k]
+
+＠ネロ
+[line 3][%1]。[r]そなたたちが守らんとする、[#人理:じんり]に他ならない。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠ブーディカ
+……ネロ公。[r]なに言ってるのか、よくわかんない。
+[k]
+
+[charaFace D 1]
+＠ネロ
+そうか。[r]実は、余もよくわからん。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+わたしは、少しだけわかりました。[r]いえ、そんな気がしました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+明確な形が消えても……。[r]世界が在ればミームは残る、とか……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+もっとロマンチックに考えるべきじゃないかな。[r]ボクは、ネロの言葉で勇気が出たよ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+彼女は、アルテラにも勝てると確信している。[r]だから世界は終わらない。
+[k]
+
+＠Dr.ロマン
+そういうことさ。[r]いいね。根拠は確かに不明瞭だが[line 2]
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+やってみようかという気にさせられる。[r][%1][&君:ちゃん]、君はどうだい？
+[k]
+
+？1：──ネロを信じよう
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+……わかりました。[r]では、わたしは先輩の言葉を信じます。
+[k]
+
+[charaFadeout A 0]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ブーディカ
+あたしも付き合うよ。[r]何かが蹂躙されるのを見るのはもうご免だし。
+[k]
+
+[charaFace E 1]
+＠ブーディカ
+あのアルテラってヤツはネロ公以上に気にくわないしね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace H 1]
+[charaFadein H 0.1 0]
+＠荊軻
+何の話か知らんが、[r]ネロ・クラウディウスの強運なら信じても良い。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠ネロ
+おお、荊軻ではないか。[r]そなた、どこへ消えていたのだ？
+[k]
+
+[charaFace H 5]
+＠荊軻
+あの剣使い[line 2]アルテラの様子を探ってきた。[r]余裕の足取りで、ゆっくり移動中だ。
+[k]
+
+[charaFace H 0]
+＠荊軻
+今から追っても間に合うだろう。[r]もっとも、貴殿らにそのつもりがあればの話だ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout H 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+それなら丁度、話がついたところだよ。[r]君もナイスタイミングだね。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+さあ。諸君。出発だ！[r]聖杯を取り戻し、ローマと世界を救おうじゃないか！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+……と、言ってるそばから邪魔が入ったぞ。[r]大型の魔力反応。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+アルテラと繋がった聖杯の魔力に呼び寄せられたか[line 2][r]幻想種、ワイバーンだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ネロ
+ワイバーン？？[r]何だ、それは。おとぎ話の怪物か？
+[k]
+
+[charaFace A 2]
+＠マシュ
+いいえ、危険な敵性生物です。[r]マスター、指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

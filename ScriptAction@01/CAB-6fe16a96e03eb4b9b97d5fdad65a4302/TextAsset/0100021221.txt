@@ -1,0 +1,78 @@
+＄01-00-02-12-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 5019001 1 エルメロイ二世]
+[charaSet F 4015001 1 アレキサンダー]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaFace F 1]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠アレキサンダー
+もうひとつ、言葉を残しておくよ。[r]可愛い皇帝さん。
+[k]
+
+[charaFace F 0]
+＠アレキサンダー
+その誇り高さ……[r]咲き誇る花の如き輝きは尊いものだろう。けれど。
+[k]
+
+[charaFace F 4]
+＠アレキサンダー
+きっと、危険なものでもあるはずだ。[r]どうか……。
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect F]
+[wt 0.5]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠エルメロイ二世
+おまえの[line 2][r]いや、貴方の言えた事ではないな。
+[k]
+
+[charaFace E 1]
+＠エルメロイ二世
+だが、貴方らしいお節介ではある。[r]やれやれ。
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[wt 0.5]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ネロ
+余は、間違ってなどいない。[r]なにひとつ……。
+[k]
+
+[charaFace D 4]
+＠ネロ
+余は、ただひとりの……。[r]皇帝だ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+…………。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

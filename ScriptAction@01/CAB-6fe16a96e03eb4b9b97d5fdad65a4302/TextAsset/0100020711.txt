@@ -1,0 +1,46 @@
+＄01-00-02-07-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 連合兵]
+[charaSet F 1013001 1 カエサル]
+[charaSet G 4011001 1 ブーディカ]
+[charaSet H 7005001 1 スパルタクス]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……今の、敵性体は。
+[k]
+
+[se ad13]
+[wait se ad13]
+＠Dr.ロマン
+間違いない。魔術に依る怪物だ。[r]敵方のサーヴァントなり魔術師なりの仕業か。
+[k]
+
+＠Dr.ロマン
+それとも、レフ・ライノールか[line 2]？
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ネロ
+何を呆けている！[r]本陣までこのまま駆け抜けるぞっ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,654 @@
+＄01-00-01-15-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 5002001 1 ジル]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaFace F 5]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠ジル
+馬鹿、な……！[r]聖杯の力を以てしても、届かなかった……だと……。
+[k]
+
+＠ジル
+そんなはずはない！　そんな理不尽があってたまるか！[r]私、は、まだ……！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+ジル。[r]もう、いいんです。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+もう大丈夫です。[r]休みなさい。貴方はよくやってくれた。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+右も左も分からぬ小娘を信じて、[r]この街の解放まで。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……今の貴方がどうあれ、[r]私はあの時の貴方を信じている。
+[k]
+
+＠ジャンヌ
+大丈夫。[r]私は最後の最後まで、決して後悔しません。
+[k]
+
+[charaFace D 3]
+＠ジャンヌ
+私の[#屍:しかばね]が、誰かの道へ繋がっている。[r]……ただ、それだけで良かったんです。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+さあ、戻りましょう。[r]在るべき[#時代:クロニクル]へ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ジル
+……ジャンヌ。[r]地獄に堕ちるのは、私だけで[line 2]。
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect F]
+[effect bit_talk_20 1]
+[se bas2]
+[wt 2]
+[effectStop bit_talk_20]
+[wt 1]
+[se ad13]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+聖杯の回収を完了した！[r]これより、時代の修正が始まるぞ！
+[k]
+
+＠Dr.ロマン
+レイシフト準備は整っている。[r]すぐにでも帰還してくれ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+了解しました、ドクター！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+もう、行かれるのですか？
+[k]
+
+？1：やるべきことがある
+
+？2：行かなくてはならない
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+＠エリザベート
+あら、そうなの？[r]ふぅん……まあ、目的は果たしたしよしとするわ。
+[k]
+
+[charaFace H 1]
+＠エリザベート
+じゃあね、子イヌ。[r]悪くない戦いぶりだったわよ？
+[k]
+
+[charaFace G 4]
+＠清姫
+[line 2]まあ、ここで離ればなれだなんて。[r]でも、マスター。安心して下さい。
+[k]
+
+[charaFace G 0]
+＠清姫
+わたくし、些か執念深い[#性質:タチ]なので。[r]どこに行ってもきっちり追跡させていただきますわ。
+[k]
+
+[charaFace G 3]
+＠清姫
+だって、それが、「愛」ですもの。[r]……ね？
+[k]
+
+[charaFace G 1]
+＠清姫
+それでは、ごきげんよう。
+[k]
+
+[messageOff]
+[charaSpecialEffect G flashErasure 2 3]
+[charaSpecialEffect H flashErasure 0 3]
+[wt 1]
+[se ad52]
+[wait charaSpecialEffect G]
+[wait charaSpecialEffect H]
+[wt 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20700 0]
+[charaSet G 1008001 2 ジークフリート]
+[charaSet H 4006001 1 ゲオルギウス]
+[charaTalk G]
+[charaFace H 0]
+[charaFadein H 0 2]
+[charaFace G 0]
+[charaFadein G 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ジークフリート
+……どうやらすべて終わったらしいな。[r]ワイバーンたちが消えていく。
+[k]
+
+[charaFace H 1]
+＠ゲオルギウス
+聖杯戦争、というにはあまりに歪んだ形でしたが。[r]ともあれ“[#竜殺し:ドラゴンスレイヤー]”と共に戦えて光栄でした。
+[k]
+
+[charaFace G 1]
+＠ジークフリート
+俺の方こそ、名高き聖ゲオルギウスと同じ陣営で[r]戦えるとはな。
+[k]
+
+[charaFace H 4]
+＠ゲオルギウス
+しかし、この様子だと[r]再び召喚される日も遠くはなさそうだ。
+[k]
+
+[charaFace G 0]
+＠ジークフリート
+ああ、あのマスターの旅路はまだ続くだろう。[r]俺たちも、もう一度助力できると良いのだが[line 2]。
+[k]
+
+[messageOff]
+[charaSpecialEffect G flashErasure 2 3]
+[charaSpecialEffect H flashErasure 0 3]
+[wt 1]
+[se ad52]
+[wait charaSpecialEffect G]
+[wait charaSpecialEffect H]
+[wt 0.5]
+[charaSet G 5015001 1 アマデウス]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 0.5]
+＠アマデウス
+ようやくお役目ゴメンか。[r]ああ疲れた、働き尽くしでケツが痛い！
+[k]
+
+[charaFace G 4]
+＠アマデウス
+……っと、その手のネタは禁句だったな、失敗失敗。
+[k]
+
+[charaFace G 1]
+＠アマデウス
+ともあれ、いい指揮だったよ[%1]。[r]実に、実にやり甲斐のある仕事だった。
+[k]
+
+[messageOff]
+[charaSpecialEffect G flashErasure 1 3]
+[wt 1]
+[se ad52]
+[wait charaSpecialEffect G]
+[wt 0.5]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20900 0]
+[charaSet G 1022001 0 ジル]
+[charaFace G 0]
+[charaFadein G 0 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[fadein black 0.5]
+[wait fade]
+＠G：ジル
+ジャンヌ！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+ジル……！
+[k]
+
+[charaFace G 5]
+＠G：ジル
+一体、何があったのです……！？[r]いえ、何より生きていらっしゃったのですか！
+[k]
+
+[charaFace G 1]
+＠G：ジル
+このフランスは荒廃してしまったが……。[r]貴女が生きているなら、それだけでも……！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……いいえ、それは違いますよ。
+[k]
+
+[charaFace G 4]
+＠G：ジル
+え[line 2]？
+[k]
+
+＠ジャンヌ
+貴方とて、何とはなしに理解できているはず。[r]この世界は泡沫の夢に過ぎない。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+私は確かに死に、貴方は[line 2]悲嘆する。[r]それは歴史。決して変えられぬ運命。
+[k]
+
+[charaFace G 0]
+＠G：ジル
+ジャンヌ……。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+でも。違う形で、違う在り方で。[r]共に戦うこともできる……そんな予感があります。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+だから、これは一時の別れです。
+[k]
+
+[charaFace G 4]
+＠G：ジル
+やはり、貴女は……。[r]いや、それでも。死してなお、この国を……！
+[k]
+
+[charaFace G 5]
+＠G：ジル
+赦して欲しい、ジャンヌ・ダルクよ！[r]我々は、フランスは、貴女を裏切った……！
+[k]
+
+[charaFace G 2]
+＠G：ジル
+おおおおお……！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+大丈夫、大丈夫です。[r]せめて笑って、この世界から離れましょう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター……そろそろのようです。
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+マスター、そしてマシュさん。
+[k]
+
+＠ジャンヌ
+恐らく、こうしてマシュさんや[%1]さんと[r]出会ったことも、戦ったことも、失った命すら……
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+無かったことになるのでしょうね。[r]私はそれが、少し悲しい。
+[k]
+
+＠ジャンヌ
+……もちろん、失ったはずの命が戻ってくるのは[r]喜ばしいことでしょうけれど。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+お二人とは、また何処かで出会えそうな予感がします。[r]私の勘は、結構当たるんですよ？
+[k]
+
+[effect bit_talk_06]
+[wt 0.5]
+＠ジャンヌ
+[line 2]さようなら。[r]そして、ありがとう。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+全てが虚空の彼方に消え去るとしても。[r]残るものが、きっと[line 2]
+[k]
+
+[effectStop bit_talk_06]
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[scene 10201]
+[bgmStop BGM_EVENT_6 0.4]
+[bgm BGM_EVENT_2 0.1]
+[fadein white 1]
+[wait fade]
+[wt 0.5]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+お帰り、マシュ、[%1][&君:ちゃん]！[r]お疲れさま！
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+初のグランドオーダーは[r]君たちのおかげで無事遂行された。
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+[line 3]うん、本当によくやってくれた。[r]補給物資も乏しい、人員もいない、
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+そして実験段階のレイシフトという最悪の状況で、[r]君たちはこれ以上はない成果を出してくれた。
+[k]
+
+＠Dr.ロマン
+生き残った全カルデア所員を代表して言うよ。
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+君たちはもう一人前の、[r]そしてボクらカルデアが誇る、新しい[#魔術師:ウィザード]だって！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！　フォーウ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+……フォウさんもしっかり帰還しています。[r]やはりラッキーアニマルなのではないでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaSet D 5009001 1 ダ・ヴィンチ]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ダ・ヴィンチ
+おや、お帰り。[r]だいぶん疲れているようだね。
+[k]
+
+[charaFadeout B 0]
+[charaTalk D]
+[charaFadein B 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ダ・ヴィンチ
+はい、これ最新の観測記録。[r]見てごらんドクター。
+[k]
+
+[charaFace B 2]
+＠Dr.ロマン
+お……おおおおお！
+[k]
+
+＠Dr.ロマン
+やった、十五世紀フランスの修正は完璧だ！[r]まだ七つの内、たった一つだけだが[line 2]
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+我々は人類史をきちんとあるべき姿に戻したという訳だ！[r]やったな、[%1][&君:ちゃん]！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+はい。ですが教授[line 2][r]レフ・ライノールは現れませんでした。
+[k]
+
+[charaFace A 14]
+＠マシュ
+彼はフランスにはいなかったのでしょうか……
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+うん、残り六つの時代のいずれかに潜んでいるんだろう。[r]……いや、潜むはずはないか。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+彼はそれほどの力を手にしているんだ。[r]同じ時代にいれば必ず僕たちを妨害してくる。
+[k]
+
+＠Dr.ロマン
+……その内、きっと姿を現すだろう。[r]それまでに、こちらの陣営も強化しておかないと。
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+まあ、そんな細かいことはどうでもいいさ！
+[k]
+
+＠Dr.ロマン
+今日のところはこれでミッション終了だ！
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+暖かいベッドとシャワーが恋しいだろう？[r]遠慮せず部屋に帰って休むといい。
+[k]
+
+[charaFace A 1]
+＠マシュ
+はい。その提案は抗いがたい魅力に満ちています。[r]失礼しますドクター。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.5]
+[scene 10310 0]
+[fadein black 0.5]
+[wait fade]
+[se ad8]
+[wait se ad8]
+[charaFace A 6]
+[charaFadein A 0 1]
+＠マシュ
+……あ、先輩。
+[k]
+
+[charaFace A 1]
+＠マシュ
+お疲れ様でした。[r]また明日も、頑張りましょう！
+[k]
+
+？1：マシュも頑張ったね
+
+[charaFace A 3]
+＠マシュ
+……はい、ありがとうございます。
+[k]
+
+[charaFace A 8]
+＠マシュ
+わたしはまだ、[r]少しも先輩の助けにはなれませんでしたが……
+[k]
+
+[charaFace A 12]
+＠マシュ
+なんとかやっていけるだけの覚悟はできました。
+[k]
+
+＠マシュ
+先輩と一緒なら、[r]あと六つの時代も戦っていけると思います。
+[k]
+
+？2：体は大丈夫？
+
+[charaFace A 12]
+＠マシュ
+はい、問題ありません。
+[k]
+
+＠マシュ
+デミ・サーヴァントとしての肉体は、[r]治癒性、耐久性、強靱性、全てにおいて破格ですから。
+[k]
+
+＠マシュ
+少し経てば完全回復するでしょう。
+[k]
+
+[charaFace A 1]
+＠マシュ
+先輩の方こそ、[r]今日はゆっくりと休んで下さい。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクターに診て貰うのもいいかもしれません。[r]あれでも、一応お医者さんですから。
+[k]
+
+？！
+
+[charaFace A 8]
+＠マシュ
+……。[r]……。
+[k]
+
+？1：どうしたの？
+
+？2：何か用事？
+
+？！
+
+[charaFace A 8]
+＠マシュ
+いえ、ジル・ド・レェのことを[r]思い出していたんです。
+[k]
+
+＠マシュ
+歴史としては理解していたつもりです。[r]ジャンヌの死によって、心が壊れた彼は……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+正しい歴史では、[r]領地で何百人もの子供を惨殺する殺人鬼となる。
+[k]
+
+[charaFace A 14]
+＠マシュ
+……あの血腥いフランスは、彼が望んだものです。[r]確かに、あれは殺人鬼に相応しい光景でした。
+[k]
+
+[charaFace A 4]
+＠マシュ
+でも、それでも[line 2]。あの人の真の望みは、[r]ジャンヌ・ダルクを生かすことだけだった。
+[k]
+
+＠マシュ
+だからこその怒りであり、憎悪だった。[r]国を滅ぼしてもなお尽きぬ、純粋な怒り[line 2]
+[k]
+
+[charaFace A 12]
+＠マシュ
+剥き出しの感情って、凄いものなんですね。[r]それこそ、世界を滅ぼすほどに[line 2]
+[k]
+
+？1：人間だからね
+
+？！
+
+[charaFace A 6]
+＠マシュ
+……人間だから。[r]アマデウスさんもそんな言葉を口にしていました。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……わたしには彼等ほどの経験はありません。[r]あんなに深い感情も、それを受け止める心の強さも。
+[k]
+
+[charaFace A 3]
+＠マシュ
+でも、学んでいきたいと思います。[r]すべてが分からなくても、少しずつ分かればいい。
+[k]
+
+＠マシュ
+アマデウスさんは[r]そんな事を言っていたんだと思いますから。
+[k]
+
+[charaFace A 13]
+＠マシュ
+それでは、また明日。[r]おやすみなさい先輩。
+[k]
+
+[charaFace A 1]
+＠マシュ
+どうかよい夢を。[r]聖女の祝福が、わたしたちにあらんことを。
+[k]
+
+[messageOff]
+[charaFadeout A 0]
+[scene 10000 1]
+[wait scene]
+[bgmStop BGM_EVENT_2 1]
+[soundStopAll]
+[wt 1]
+プレゼントボックスに報酬が届いています。[r]ご確認ください。
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[end]

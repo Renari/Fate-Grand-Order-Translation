@@ -1,0 +1,63 @@
+＄01-00-02-11-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98006300 1 正体不明人型]
+[charaSet F 7011001 1 ダレイオス三世]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaFace F 5]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+＠Dr.ロマン
+凄いな、こちらにいても空気の振動を感じそうだ！[r]魔力反応あり。間違いない、そいつはサーヴァントだ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+言語による意思の疎通は不可能と判断されます。[r]敵性サーヴァントです。マスター、指示を！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ！！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+くっ……。
+[k]
+
+？1：呑まれるな！
+
+？2：普段通りに戦えば、勝てる！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+[line 2]はい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,383 @@
+＄01-00-02-08-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 1013001 1 カエサル]
+[charaSet G 4011001 1 ブーディカ]
+[charaSet H 7005001 1 スパルタクス]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 2]戦闘、終了しました。後続はありません。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ふう。しかし、イヤだねえ。[r]勝手に死霊の類が沸いてくるなんて……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ネロ
+余は大概慣れたぞ。[r]それで、ええと、何の話をしていたか[line 2]
+[k]
+
+[charaFace D 1]
+＠ネロ
+そう、地中海の神とやらだ！[r]ぜひこれを余としては確かめてみたい。
+[k]
+
+[charaFace A 6]
+＠マシュ
+良いのですか？[r]首都ローマへ帰還しなくても。
+[k]
+
+[charaFace D 0]
+＠ネロ
+古き神とやらが何かはわからぬが、[r]もしも真に神々の[#一柱:ひとはしら]であれば、と考えてみろ。
+[k]
+
+＠ネロ
+有り得ぬ話ではない。[r]そうだ、ローマの言い伝えにもある。
+[k]
+
+[charaFace D 1]
+＠ネロ
+例えばローマ神祖にして建国王たるロムルスは[r]雷によって姿を隠した後、最も新しき神となったのだぞ。
+[k]
+
+＠ネロ
+そういうことは往々にしてあるのだ。[r]古き神、面白いではないか。
+[k]
+
+[charaFace D 0]
+＠ネロ
+更なる仮にローマの神々であるとして、[r]連合の「皇帝」どもに奪われでもすれば、大問題だ。
+[k]
+
+[charaFace D 5]
+＠ネロ
+それは嫌だ。[r]余は、それだけはとても嫌だ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+なるほど、皇帝陛下の言葉はもっともだ。[r]ならば客将としてはお供をしない訳にはいかないね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+……楽しんでいませんか、ドクター。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そんなことないよ！　ないよ？[r]ボクは研究者としての溢れる好奇心を隠さないだけで！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠マシュ
+それって。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フー……キュッキュッ。フォーウ。
+[k]
+
+＠ネロ
+……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+ほら、ネロさんも怒って……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ネロさん？[r]大丈夫ですか？
+[k]
+
+[charaFace D 0]
+＠ネロ
+……ん。何だ？[r]いや、余は決めた。凱旋の帰路に海を渡るのもよい！
+[k]
+
+[charaFace D 1]
+＠ネロ
+そのまま海路で首都ローマへ戻るとしよう。[r]地の上の旅はいささか飽きた！
+[k]
+
+[charaFace A 12]
+＠マシュ
+（今、ぼうっとしていましたね）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+（そうだね。ブーディカの言っていたのが、これか）
+[k]
+
+[messageOff]
+[wipeout rollFlashRight 1.5 1]
+[communicationCharaClear]
+[wait communicationChara]
+[wait wipe]
+[wt 0.5]
+[scene 21000]
+[charaTalk G]
+[charaFace A 0]
+[charaFadein A 1 2]
+[charaFace G 0]
+[charaFadein G 1 0]
+[wipein rollFlashRight 1 1]
+[wait wipe]
+＠ブーディカ
+ちょっと、気になることがあるんだ。[r]ネロ公のこと。
+[k]
+
+＠ブーディカ
+ここに来てすぐの時もあったでしょ。[r]気付いてたかな。
+[k]
+
+[charaFace G 4]
+＠ブーディカ
+たまにね、あいつ、ぼーっとしてるんだ。[r]連合が現れて以降、たまにあんな感じになってる。
+[k]
+
+＠ブーディカ
+気のせいかも知れないけど、[r]そんな時は何か、薄く魔力を感じるんだ。
+[k]
+
+[charaFace G 0]
+＠ブーディカ
+……あいつはこの時代の人間だ。[r]魔術師じゃない。なのに、確かに感じる。
+[k]
+
+[charaFace G 4]
+＠ブーディカ
+それとなく聞いてみたけど、[r]あいつ自身は全然自覚がないみたいだ。
+[k]
+
+[charaFace G 3]
+＠ブーディカ
+だから、ちょっと気を付けといてもらえるかな。[r]あいつのこと。
+[k]
+
+[charaFace G 0]
+＠ブーディカ
+あたしとスパルタクスは、引き続き、[r]ガリア総督としてここを守らなきゃいけないから。
+[k]
+
+[charaFace G 1]
+＠ブーディカ
+あいつのことは……。[r]叶うなら、あんたたちに頼みたいのよ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+わかりました。[r]心配……されているんですね、ネロさんのこと。
+[k]
+
+[charaFace G 5]
+＠ブーディカ
+ネロ公の心配なんてしませんっ！[r]……個人としてどうこうって話じゃないの。
+[k]
+
+＠ブーディカ
+良くも悪くもあいつはこの地の象徴だからね。[r]何かあれば負け戦になっちゃうでしょ。
+[k]
+
+[charaFace G 4]
+＠ブーディカ
+もう負け戦は嫌なんだよ、あたし。[r]あいつを気にかける理由なんてそれだけ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……はい。
+[k]
+
+[charaFace G 3]
+＠ブーディカ
+うん。よし、じゃあそれはそれとしてぇー。[r]マシュ、まだ時間あるわねー？
+[k]
+
+[charaFace A 3]
+＠マシュ
+え、ええと[line 2]
+[k]
+
+[charaFace G 1]
+＠ブーディカ
+出発前にお姉さんがとっておきの[r]ブリタニア料理を教えてあげましょう！
+[k]
+
+＠ブーディカ
+ちゃんと覚えて、得意料理にしてくれると嬉しいなっ！
+[k]
+
+[charaFace A 8]
+＠マシュ
+い、いえ、それは[line 2]
+[k]
+
+＠ブーディカ
+こんなに可愛いんだから、[r]花嫁修業はやっておかないとね！
+[k]
+
+[charaFace G 3]
+＠ブーディカ
+ああもう、可愛いなあ！[r]ほら、こっちおいで！
+[k]
+
+[charaDepth G 3]
+[charaMove G 2 1]
+[wait charaMove]
+[charaMove G 1 0.5]
+[charaMove A 1 0.5]
+[wait charaMove]
+[charaFace A 3]
+＠マシュ
+わ、わっ、また[line 2][r]胸が[line 2]
+[k]
+
+[charaDepth A 1]
+＠ブーディカ
+よしよし。[r]いい子、いい子。
+[k]
+
+[charaDepth A 1]
+[charaFace G 4]
+＠ブーディカ
+ずっと元気でいなさいね。[r]怪我とか無茶とか、あんまりしないように。
+[k]
+
+[charaDepth A 1]
+[charaFace G 1]
+＠ブーディカ
+キミ、ホントは可愛い女の子なんだから。
+[k]
+
+[charaFace A 11]
+＠マシュ
+は、はい、いえ、[r]わ、わたしは、先輩の……その……。
+[k]
+
+[charaDepth A 1]
+[charaFace G 3]
+＠ブーディカ
+よーしよし！[r]んー、いい[#後輩:こ]が育ってお姉さん嬉しいなー！
+[k]
+
+[charaFace A 8]
+＠マシュ
+…………。
+[k]
+
+[messageOff]
+[charaFadeout A 1.5]
+[charaFadeout G 1.5]
+[wipeout rollFlashRight 1.5 1]
+[wait wipe]
+[wt 0.5]
+[scene 20803]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+[wipein rollFlashRight 1 1]
+[wait wipe]
+＠マシュ
+……。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+（うん。確かにネロから僅かな魔力を感知したぞ。[r]　彼女に魔術の素養がある、ということかも知れないが）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+（一体、何なのでしょう）
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+（う～ん、情報が足りないな……）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ネロ
+よし、では話は決まったな！[r]ゆくぞ、まずは早々に船を確保せねばな！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 7]
+＠マシュ
+[line 2]その前に。マスター。[r]敵軍残党のようです。気配を感知しました。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+うん。こちらでも生体反応を複数確認だ。[r]連合ガリア軍の敵性反応が幾つか、といったところだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ネロ
+逃げ帰るなら放っておくところだが、[r]向かってくるなら是非もない。返り討ちだ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

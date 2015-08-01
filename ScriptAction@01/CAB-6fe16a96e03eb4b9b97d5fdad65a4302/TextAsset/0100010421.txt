@@ -1,0 +1,158 @@
+＄01-00-01-04-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaTalk A]
+[charaFace D 4]
+[charaFadein D 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 2]最後のワイバーンを仕留めました。[r]周囲に敵影なし。戦闘終了です。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ジャンヌさん？
+[k]
+
+＠ジャンヌ
+……これをやったのは、[r]恐らく“私”なのでしょうね。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そう決まった訳では[line 2]
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+いいえ、わかります。その確信が私にはあります。[r]……わからないことは一つだけ。
+[k]
+
+＠ジャンヌ
+どれほど人を憎めば、[r]このような所業を行えるのでしょう。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+私には、それだけがわからない。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+[wt 1]
+＠Dr.ロマン
+待った！　先ほど去ったサーヴァントが反転した！[r]まずいな、君たちの存在を察知したらしい！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+数は！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+おい、冗談だろ……！？[r]数は五騎！
+[k]
+
+[communicationCharaFace 98003003]
+＠Dr.ロマン
+速度が迅い……これは、ライダーか何かか！？[r]と、ともかく逃げろ！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+数で勝てない以上、逃げるしかない！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+＠マシュ
+ですが[line 2]！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+数が同じだったら勝負を挑んでもいい！
+[k]
+
+＠Dr.ロマン
+だが、戦力的に君たちの倍以上ある相手と[r]戦わせる訳にはいかないだろう！？
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+撤退しよう、こんなの誰だって逃げる！[r]三十六計さんもそう言ってる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+……。
+[k]
+
+[charaFace A 2]
+＠マシュ
+ジャンヌさん！[r]サーヴァントがやってきます、すぐに[line 2]
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+……逃げません。[r]せめて、真意を問い質さなければ……！
+[k]
+
+＠マシュ
+ですが……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ダメだ、もう間に合わない！[r]マシュ、とにかく逃げることを考えるんだ。いいね！？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

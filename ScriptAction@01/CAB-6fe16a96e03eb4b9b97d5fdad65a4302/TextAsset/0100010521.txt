@@ -1,0 +1,61 @@
+＄01-00-01-05-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet G 7007001 1 バーサーク・ランサー]
+[charaSet H 6017001 1 バーサーク・アサシン]
+[charaFace H 4]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠バーサーク・アサシン
+……妙な違和感があります。[r]ヴラド公が手を抜いたのはこういう事だった、のかしら？
+[k]
+
+＠バーサーク・アサシン
+そちらのお嬢さん。[r]貴女[line 3]イヤな匂いよ。
+[k]
+
+[charaFace H 0]
+＠バーサーク・アサシン
+年端もいかぬ少女なのに戦闘だけは熟練の技。[r]矛盾しているわ。何者なのかしら？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……デミ・サーヴァントでしょう。[r]人間とサーヴァントが入り混じった異質な存在です。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……そして私の失策でした。貴方たちは他の者より[r]残忍ですが、だからこそ遊びがすぎる。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+あの小娘たちの始末は、[r]遊びのない残り三騎に任せるとしましょう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

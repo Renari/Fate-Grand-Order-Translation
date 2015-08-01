@@ -1,0 +1,63 @@
+＄01-00-00-06-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10700]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 6002001 1 サーヴァント]
+[charaSet G 3006001 0 サーヴァント]
+[charaSet H 5021001 2 キャスター]
+[charaFace H 0]
+[charaFadein H 0]
+[charaShadow G true]
+[charaFace G 0]
+[charaFadein G 0]
+[fadein black 1]
+[wait fade]
+＠G：サーヴァント
+貴様、キャスター！[r]ナゼ　漂流者ノ　肩ヲ持ツ……!?
+[k]
+
+＠キャスター
+あん？　テメエらよりマシだからに決まってんだろ。[r]それとまあ、見所のあるガキは嫌いじゃない。
+[k]
+
+＠キャスター
+そら、構えなそこのお嬢ちゃん。腕前じゃあアンタは[r]ヤツに負けてねえ。気を張れば番狂わせもあるかもだ。
+[k]
+
+[charaFadeout G 0]
+[wt 0.1]
+[charaShadow G false]
+[charaFace A 7]
+[charaFadein A 0.1 0]
+＠マシュ
+は……はい、頑張ります！
+[k]
+
+＠キャスター
+[&坊主:お嬢ちゃん]がマスターかい？[r]なら指示はアンタに任せようか。
+[k]
+
+＠キャスター
+オレはキャスターのサーヴァント。[r]故あってヤツラとは敵対中でね。
+[k]
+
+＠キャスター
+敵の敵は味方ってワケじゃないが、[r]今は信頼してもらっていい。
+[k]
+
+＠キャスター
+ひとりで健気に戦ったあのお嬢ちゃんに免じて、[r]仮契約だがアンタのサーヴァントになってやるよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

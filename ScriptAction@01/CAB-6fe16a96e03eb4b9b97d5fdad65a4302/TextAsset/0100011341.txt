@@ -1,0 +1,106 @@
+＄01-00-01-13-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 5002001 1 ジル]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 1008001 1 ジークフリート]
+[charaSet G 98013000 1 ファヴニール]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+[wt 0.5]
+[charaSpecialEffect G darkEnemyErasure 1 3]
+[wt 0.5]
+[se ad18]
+[wait charaSpecialEffect G]
+[wt 0.5]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+馬鹿な……！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マシュ
+……倒しました……！
+[k]
+
+＠Dr.ロマン
+ファヴニールの完全沈黙確認……！[r]凄いな、新たなドラゴンスレイヤーの誕生だ！
+[k]
+
+[charaFace A 2]
+＠マシュ
+見て下さい、ワイバーンがパニックに陥っています！
+[k]
+
+＠ジークフリート
+連中を支配していたファヴニールが倒れたからな。[r]混乱しているのだろう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……っ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFadein E 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠ジル
+お戻りあれ、ジャンヌ！
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+ジル！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……ジル……！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠ジル
+まずはこの監獄城に帰還を！[r]態勢を立て直すところから始めましょう。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+……わかりました。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+待ちなさい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,170 @@
+＄01-00-01-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98014000 1 兵士]
+[charaSet E 9001001 1 ジャンヌ]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……今ので最後のようですね。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 1]
+＠Dr.ロマン
+ようし、良くやったぞ諸君！　いやあ、手に汗と[r]ゴマ饅頭を握って見入っちゃったな！
+[k]
+
+[charaFace A 5]
+＠マシュ
+ドクター。[r]それはわたしが用意したゴマ饅頭ですね。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+え？　あれ？　そうなの？[r]管制室にお茶と一緒にあったから、てっきり……
+[k]
+
+＠マシュ
+……このオーダーから帰還できた時を想定し、[r]ささやかな労いとして用意していたのです。
+[k]
+
+＠マシュ
+もちろんドクター用ではなく、[r]現地で活躍したであろう先輩用に。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+マシュ……なんて気の利く子に育って……[r]もしゃもしゃ。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+うん。それにしても美味しいね、この饅頭。[r]これなら[%1][&君:ちゃん]も大喜びだろう！
+[k]
+
+[charaFace A 7]
+＠マシュ
+……マスター。カルデアに帰る時、一回分の[r]戦闘リソースを残しておいてください。
+[k]
+
+[charaFace A 13]
+＠マシュ
+もうひとり、峰打ちを見舞わせたいエネミーを[r]登録しましたので。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein D 0.1 1]
+＠兵士
+そんな、貴女は[line 2]いや、お前は！[r]逃げろ！　魔女が出たぞ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+え、魔女……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[se ad55]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[seStop ad55 3]
+＠ジャンヌ
+……。
+[k]
+
+[charaFadeout E 0]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ジャンヌ
+あの。[r]ありがとうございます。
+[k]
+
+[charaFace A 1]
+＠マシュ
+いえ、当然です。[r]それより、貴女の名を[line 2]。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ
+[#ルーラー]。[r]私のサーヴァントクラスはルーラーです。
+[k]
+
+＠ジャンヌ
+真名をジャンヌ・ダルクと申します。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ジャンヌ……ダルク！？
+[k]
+
+？1：魔女になったとかいう……
+
+？2：死んだはずでは
+
+？！
+
+[charaFace E 4]
+＠ジャンヌ
+その話は後で。[r]……彼らの前で、話すことでもありませんから。
+[k]
+
+[charaFace E 1]
+＠ジャンヌ
+こちらに来て下さい。[r]お願いします。
+[k]
+
+[charaFace A 11]
+＠マシュ
+……誘われてしまいました。[r]どうしましよう、先輩？
+[k]
+
+？1：ついていこう
+
+？2：手掛かりだ
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+キュキュ、キュウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ボクも賛成だ。[r]弱まっているようだけど彼女だってサーヴァントだ。
+[k]
+
+＠Dr.ロマン
+きっとこの時代の事情に精通している。[r]詳しい話を聞いてみよう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

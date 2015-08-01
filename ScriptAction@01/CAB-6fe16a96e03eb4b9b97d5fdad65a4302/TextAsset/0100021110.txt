@@ -1,0 +1,427 @@
+＄01-00-02-11-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21000 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 5019001 1 ？？？]
+[charaSet F 4015001 1 ？？？]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0 2]
+[charaFace E 0]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠E：？？？
+[line 2]以上が、ネロ・クラウディウス軍の概要だ。
+[k]
+
+＠E：？？？
+詳細はレポート形式で纏めておいた。[r]後で目を通しておけ。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+私からの注釈は、ひとつ。[r]敵将・呂布は災害のようなものだと考えろ。
+[k]
+
+＠E：？？？
+スパルタクスにしても同じだ。[r]まともに正面から相手をしてやるだけ無駄だ。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+ただし、対処可能な災害だ。[r]バーサーカーである二体は自動機械のようなもの。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+[#誘導]は容易だろう。[r]他のクラスでの現界でなかったことが幸いしたな。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+幸運が働いた、ってことかな。[r]僕、そんなに幸運のパラメーター良かった？
+[k]
+
+[charaFace E 0]
+＠E：？？？
+過ぎた後の幸運はただの現実だ。[r]現実が、ただ、お前の利として働くだけのこと。
+[k]
+
+[charaFace F 4]
+＠F：？？？
+ふうん。[r]そういう考え方もあるか。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+どっちでもいいや。[r]僕は、あの子の顔を見たい。
+[k]
+
+＠F：？？？
+ネロ・クラウディウス。[r]ローマ帝国、第五代皇帝。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+どういった王なのか。[r]いや、どういう皇帝なのか、と言ってあげるべきか。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+その望み、私が叶えよう。[r]必ず。
+[k]
+
+[charaFace F 3]
+＠F：？？？
+ありがとう。[r]でも、何だかへんな気分だな。
+[k]
+
+[charaFace F 3]
+＠F：？？？
+僕はちょっと変化球の英霊だから、[r][#記憶]の在り方も少し違うようなんだけど。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+君が、僕の先生になるなんて。[r]なんだかおかしいや。
+[k]
+
+[charaFace E 5]
+＠E：？？？
+それはこちらの言葉だ。縁もゆかりもない[r]英霊の依り代にされ、過去へ飛ぶ、などと。
+[k]
+
+＠E：？？？
+元の時代の私はどうなったのか？[r]この英霊と入れ替わったのか？
+[k]
+
+[charaFace E 4]
+＠E：？？？
+それとも、[#私の時代]の時間は停止していて、[r]英霊と一体となった私そのものが、此処に在るのか。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+……まったく、訳が分からない。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+でも、そうして君は来てくれた。[r]僕の新しい先生だ。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+ね、[#諸葛孔明:しょかつこうめい]先生。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+違う。いや、英霊としてはそうかも知れんが。
+[k]
+
+[charaSet E 5019001 0 エルメロイ二世]
+[charaFace E 0]
+[charaFadein E 0]
+＠エルメロイ二世
+[line 2]私は、ロード・エルメロイ二世だ。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wait fade]
+[wipeout downToUp 0]
+[scene 20700]
+[wipein rollFlashRight 1 1]
+[fadein black 0]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_1 0.1]
+[wait wipe]
+＠マシュ
+そして[line 2]
+[k]
+
+＠マシュ
+正統ローマ帝国軍が、進撃を開始しました。[r]連合帝国首都への侵攻です。
+[k]
+
+＠マシュ
+既に、荊軻さんが偵察を終えました。[r]確かに、首都ローマに酷似した都市が指定位置に存在。
+[k]
+
+＠マシュ
+ステンノさんの教えてくれた場所です。[r]女神の祝福は、確かに在ったのです。
+[k]
+
+＠マシュ
+ガリアから合流したブーディカさんとスパルタクスさん。[r]そして、呂布さんと荊軻さん。
+[k]
+
+＠マシュ
+わたしを含めて五体のサーヴァントを擁した軍勢。[r]それが、皇帝ネロの率いる正統ローマ帝国軍。
+[k]
+
+＠マシュ
+通常戦力では敵う筈がない軍勢です。[r]なのに、連合は、敵将のサーヴァントを投入しません。
+[k]
+
+＠マシュ
+レフ・ライノールの姿も見当たらず。[r]日々、進軍は続いていきます。
+[k]
+
+＠マシュ
+戦況は明らかにわたしたちが有利。[r]帝国軍は、破竹の勢いで連合首都へと進撃しています。
+[k]
+
+＠マシュ
+そんな中で、わたしは[line 2]
+[k]
+
+＠マシュ
+こうして[line 2]
+[k]
+
+？1：何してるの？
+
+[messageOff]
+[wipeout rollFlashRight 1.5 1]
+[wait wipe]
+[wt 0.5]
+[scene 20700]
+[charaFadein C 0.1 1]
+[wipein rollFlashRight 1 1]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait wipe]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+わっ、せ、先輩？　フォウさん!?
+[k]
+
+？2：日記でも書いてるのかな？
+
+[messageOff]
+[wipeout rollFlashRight 1.5 1]
+[wait wipe]
+[wt 0.5]
+[scene 20700]
+[charaFadein C 0.1 1]
+[wipein rollFlashRight 1 1]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait wipe]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+あ……先輩、フォウさん。[r]はい、そうなんです。実は[line 2]
+[k]
+
+？！
+
+[charaFace A 3]
+＠マシュ
+……ドクターから頼まれたんです。[r]戦記物っぽく、日記を付けてくれないかと。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout C 0.1]
+[communicationChara 98003003 0 5 0 1]
+＠Dr.ロマン
+そうとも、ボクが頼んだのさ！[r]せっかく君がローマ総督のひとりになったんだからね！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+新・ガリア戦記というのはどうだろう。[r]かつてカエサルが書いた本をオマージュした題だよ。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+これは面白くなるんじゃないだろうか。[r]途中で神さまが出てくるあたりはうまく誤魔化して……。
+[k]
+
+？1：出版するつもり……？
+
+？2：機密漏洩になるんじゃ
+
+？！
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+そうだね。[r]じゃあ、真面目な話をしよう。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+君たちが世界を救うことができた、としてだ。[r]それから先のことをボクは少し考えてみた。
+[k]
+
+＠Dr.ロマン
+もしも世界を救ったとしても、[r]カルデアを襲った惨劇がくつがえることはないだろう。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+つまり[line 2][r]ボクらの給与については保証がない。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+後は、わかるね？
+[k]
+
+[charaFace A 13]
+＠マシュ
+なるほど。転ばぬ先の杖、というヤツですね。[r]しかし、ドクターはなぜ肉体労働を避けるのです？
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+あっ、ご、ごめん。冗談。冗談だってば。[r]世界終焉の危機に、狸の皮算用もないだろう？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+まさしくローマに於ける状況は戦争そのものだ。[r]戦況を正しく把握するため、最上の手段を取っただけさ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+趣旨は正しく理解しました。[r]では、この日記は速やかに破棄します。
+[k]
+
+[charaFace A 1]
+＠マシュ
+戦闘記録に関しては、[r]後ほどダ・ヴィンチちゃんに届けますので。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+よぅし、正しい教育が行き届いているぞ！[r]チクショウ！
+[k]
+
+？1：マシュはただしい。
+
+？2：でも、捨てるのは勿体ないね
+
+？！
+
+[charaFace A 6]
+＠マシュ
+……………。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ネロ
+む、何だ？[r]何の話をしているのだ。
+[k]
+
+[charaFace D 1]
+＠ネロ
+[%1]たちはいつも楽しそうだな。[r]余も混ぜるがよい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaSet E 4011001 1 ブーディカ]
+[charaFace E 2]
+[charaFadein E 0.1]
+＠ブーディカ
+こーらっ。遊んでる暇、ないでしょうに。[r]敵を発見したよ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+あっ本当だ。多数の反応あり。[r]サーヴァント反応なし。通常兵力だね。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+＠ネロ
+むう。[r]せっかくの談議であったのに……余はつまらぬ……。
+[k]
+
+[charaFace D 0]
+＠ネロ
+まあよい、まずは蹴散らしてくれる！[r]連合の敵兵何するものぞ！
+[k]
+
+[charaFace D 2]
+＠ネロ
+降伏する者は受け入れよ！[r]余のローマに恭順するならば命は助ける！
+[k]
+
+[charaFace E 5]
+＠ブーディカ
+余のローマ、ね。
+[k]
+
+[charaFace D 5]
+＠ネロ
+む？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター、わたしたちも出ましょう。[r]突出してきた部隊を叩けば、敵兵の士気を挫けます。
+[k]
+
+？1：わかった！
+
+？2：やりすぎないように
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。……行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

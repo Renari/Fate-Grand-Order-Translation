@@ -1,0 +1,144 @@
+＄01-00-02-15-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[scene 20701 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 1018001 1 アルテラ]
+[charaSet H 6011001 1 荊軻]
+[charaFace F 5]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠アルテラ
+……行く手を阻むのか、私の。
+[k]
+
+？1：その為にここまで来た。
+
+？2：キミを進ませる訳にはいかない。
+
+？！
+
+[charaFadeout F 0]
+[charaTalk D]
+[charaFadein F 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ネロ
+そう、阻むぞ。余は貴様を阻もう。[r]絶対に、その先に行かせる訳にはいかぬのでな。
+[k]
+
+＠ネロ
+貴様は言った。[r]世界を滅ぼす、とな。
+[k]
+
+[charaFace D 0]
+＠ネロ
+余にはわからぬ。[r]なぜ、世界を滅ぼすなどと口にするのだ？
+[k]
+
+[charaFace D 1]
+＠ネロ
+世界には美しいもので溢れている。[r]花も良い。歌も良い。黄金も良い。愛も良い。
+[k]
+
+[charaFace D 2]
+＠ネロ
+そうとも、何よりも、[r]この[#世界:ローマ]は余の愛に満ちている！
+[k]
+
+[charaFace D 5]
+＠ネロ
+それなのに貴様は滅ぼすのか？[r]勿体ないとは思わぬか、アルテラとやら。
+[k]
+
+[charaFace F 0]
+＠アルテラ
+私は[line 2]
+[k]
+
+＠アルテラ
+フンヌの戦士である。
+[k]
+
+＠アルテラ
+そして、大王である。
+[k]
+
+[charaFace F 5]
+＠アルテラ
+この西方世界を滅ぼす、破壊の大王。
+[k]
+
+[charaFace D 4]
+＠ネロ
+またそれか……。
+[k]
+
+＠ネロ
+哀しいな、アルテラよ。[r]余はしかし、貴様のその哀しささえ美しく思おう。
+[k]
+
+[charaFace D 0]
+＠ネロ
+どうも貴様は放っておけぬ。[r]その在り方に大いなる矛盾と痛みを感じるのだ。
+[k]
+
+＠ネロ
+力では余に勝るかも知れぬ。[r]だが、愛では、貴様は余には敵わぬと知れ。
+[k]
+
+[charaFace F 4]
+＠アルテラ
+美しさなど。[r]愛など。私は、知らない。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクター、先刻とは異なる言葉です。[r]自動的な対応を行うばかりではないようです。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+この反応は[line 2]
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+そうか、聖杯と一体化して暴走状態にあるのか！[r]しかし駄目だ。対話では収めることはできないぞ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+魔力反応が増大中だ。[r]また、あれを撃たれる前に止めるしかない。
+[k]
+
+＠Dr.ロマン
+これがローマ最後の戦いだ[line 2][r]マシュ、[%1][&君:ちゃん]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マシュ
+対サーヴァント戦闘！[r]マスター、指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,320 @@
+＄01-00-01-05-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 5015001 1 アマデウス]
+[charaSet C 4019001 1 バーサーク・ライダー]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 4017001 1 マリー・アントワネット]
+[charaSet G 7007001 1 バーサーク・ランサー]
+[charaSet H 6017001 1 バーサーク・アサシン]
+[charaTalk D]
+[charaFace A 15]
+[charaFadein A 0 2]
+[charaFace D 2]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+持ち堪えました、彼女も……！
+[k]
+
+＠マシュ
+はぁ、はぁ、はぁ……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠バーサーク・ランサー
+ちっ、鬱陶しい……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マリー・アントワネット
+そうですわね。[r]ここは戦場ですもの、語らいはこのあたりで。
+[k]
+
+＠マリー・アントワネット
+貴女は世界の敵でしょう？　では、何はともあれ[line 2][r]まずは貴女が殺めた人々への鎮魂が必要不可欠。
+[k]
+
+[charaFace F 1]
+＠マリー・アントワネット
+お待たせしました、アマデウス。[r]機械みたいにウィーンとやっちゃって！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+＠アマデウス
+任せたまえ。[r]宝具、『[#死神のための葬送曲:レクイエム・フォー・デス]』
+[k]
+
+[flashin once 0.6 0.4 FFFFFF80 0000000]
+[flashout 0.4]
+[voice NP_501500_1]
+[shake 0.1 0 6 1.5]
+[wt 3]
+[charaFadeout B 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠バーサーク・アサシン
+もう一人……！！[r]ああ、でもなんて壮麗で邪悪な音でしょう！
+[k]
+
+＠バーサーク・ランサー
+くっ、重圧か……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+ちっ……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠マリー・アントワネット
+それではごきげんよう皆様。[r]オ・ルヴォワール！
+[k]
+
+[charaFadeout F 0.4]
+[wt 1]
+[bgmStop BGM_EVENT_4 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……ふん。[r]ライダー！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFadein E 0.4 0]
+[charaFadein C 0.4 2]
+＠バーサーク・ライダー
+……何かしら。
+[k]
+
+＠ジャンヌ・オルタ
+追いなさい。[r]貴女の“馬”なら追いつけるでしょう。
+[k]
+
+＠ジャンヌ・オルタ
+戦う必要はありません。
+[k]
+
+＠ジャンヌ・オルタ
+居場所を報告してくれれば、[r]一気に叩き潰しますから。
+[k]
+
+[charaFace C 2]
+＠バーサーク・ライダー
+……了解。[r]追いついてみせるわ。
+[k]
+
+[charaFadeout C 0.1]
+[wt 1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠バーサーク・アサシン
+……ああ、耳障りな音が消えてしまいました……[r]名残惜しいわ。
+[k]
+
+[charaFace H 1]
+＠バーサーク・アサシン
+あのサーヴァント、私のペットにならないかしら。[r]蓄音機の上に首だけおいて夜ごと悲鳴をあげてもらうの。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠バーサーク・ランサー
+……ルーラー。[r]ライダー一人で十分だと考えているのか？
+[k]
+
+[charaFace E 1]
+＠ジャンヌ・オルタ
+十分でしょう。殲滅する、という事だけなら[r]ライダーの宝具は確実です。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+……ですが念には念ですね。[r]私は帰還して新たなサーヴァントの召喚に掛かります。
+[k]
+
+＠ジャンヌ・オルタ
+貴方たちは好きに暴れなさい。[r]彼らと運良く遭遇したのなら、蹴散らしてもいい。
+[k]
+
+[charaFace E 3]
+＠ジャンヌ・オルタ
+まさか、宮殿で愛でられていた后如きに遅れを取る[r]貴方たちではありませんよね？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠バーサーク・アサシン
+辛辣ですのね。[r]城にこもっていたのは私も同じですのに。
+[k]
+
+[charaFace H 1]
+＠バーサーク・アサシン
+でも……フフ、重ねた手練手管では[r]他の方たちには負けてはおりません。
+[k]
+
+＠バーサーク・アサシン
+セイバー、ランサー。次に戦うときは、[r]向こうのライダーは私に譲っていただける？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠バーサーク・ランサー
+何故かね？
+[k]
+
+[charaFace H 4]
+＠バーサーク・アサシン
+この世でいちばん無惨に殺したいから。[r]足下に跪くのは[#あの女:マリー]の方ですわ。
+[k]
+
+[charaFadeout G 0.1]
+[charaSet C 1026001 0 バーサーク・セイバー]
+[charaFace C 4]
+[charaFadein C 0.1]
+＠バーサーク・セイバー
+……。
+[k]
+
+[charaFace H 0]
+＠バーサーク・アサシン
+あら、セイバー。[r]何か言いたいことでもあるのですか？
+[k]
+
+[charaFace C 0]
+＠バーサーク・セイバー
+そうだな。おまえが抱いた彼女への劣等感など、[r]私が気に掛けても仕方ない。
+[k]
+
+[charaFace H 2]
+＠バーサーク・アサシン
+[line 2]なんですって？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ジャンヌ・オルタ
+……止めなさい。[r]別に構いません。誰が倒すにせよ、結果は同じです。
+[k]
+
+＠ジャンヌ・オルタ
+後は任せました。好きに行動しろ、と言いましたが、[r]あまりハメは外さないように。
+[k]
+
+＠ジャンヌ・オルタ
+反英霊にも礼節はあります。[r]ただの殺人鬼に落ちないよう、気をつけなさい。
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.5]
+[se ad17]
+[wait se ad17]
+[charaFace H 0]
+＠バーサーク・アサシン
+……飛んでいきましたわね。[r]“竜の魔女”とは、また正しい呼称で。
+[k]
+
+[charaFace C 4]
+[charaFadein C 0.1 0]
+＠バーサーク・セイバー
+[line 2]先ほど私たちが相対した彼女。[r]あれが、本当のジャンヌ・ダルクなんだろうな。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+＠バーサーク・ランサー
+それがどうした。[r]こちらのジャンヌ・ダルクとて偽物ではない。
+[k]
+
+[charaFace G 0]
+＠バーサーク・ランサー
+そして我らは血を渇望するサーヴァント。[r][line 2]ああ、狂化されているとはいえ貴様は違うか。
+[k]
+
+＠バーサーク・ランサー
+シュヴァリエ・デオン。[r]高潔なる[#竜騎兵:ドラグーン]よ。
+[k]
+
+[charaFace C 0]
+＠バーサーク・セイバー
+……私はマスターには従うさ。[r]彼女が世界を終わらせたいなら、そうするだけだ。
+[k]
+
+[charaFace C 4]
+＠バーサーク・セイバー
+それから、僕にも狂化は掛かっている。[r][#あまり怒らせるな]。
+[k]
+
+[charaFace G 1]
+＠バーサーク・ランサー
+[line 2]ほう。それは失礼。
+[k]
+
+＠バーサーク・セイバー
+……。
+[k]
+
+[charaFadeout C 0.4]
+[wt 0.5]
+[charaFadeout G 0.1]
+[charaFadein G 0.1 0]
+[charaFace H 4]
+[charaFadein H 0.1 2]
+＠バーサーク・アサシン
+思えば彼女も哀れですね。[r]ドレスを贈ってくれた、敬愛する后が敵に回るなんて。
+[k]
+
+[charaFace H 0]
+＠バーサーク・アサシン
+でも、それがサーヴァントの宿命。[r]聖杯戦争とは、そういうもの。
+[k]
+
+＠バーサーク・アサシン
+ではランサー、出立しましょう。[r]次の街を探さなくては。
+[k]
+
+[charaFace H 1]
+＠バーサーク・アサシン
+私たちは人間の血を吸わなければ生きられない吸血鬼。[r]次の食卓探しは死活問題でしょう？
+[k]
+
+[charaFace G 0]
+＠バーサーク・ランサー
+……そうだな。[r]みすぼらしい食事ばかりだが、選り好みはできん。
+[k]
+
+[charaFadeout H 0.4]
+[charaFadeout G 0.4]
+[messageOff]
+[wt 1]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

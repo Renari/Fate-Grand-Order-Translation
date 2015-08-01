@@ -1,0 +1,63 @@
+＄01-00-02-08-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 1013001 1 カエサル]
+[charaSet G 4011001 1 ブーディカ]
+[charaSet H 7005001 1 スパルタクス]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+あらかた片付いたな。[r]では、気を取り直して海へと出るとしよう。
+[k]
+
+＠ネロ
+船旅も良いものだ。[r][%1]、余の鮮やかな操船を披露してやろう。
+[k]
+
+？1：楽しみだ
+
+[charaFace D 1]
+＠ネロ
+そうであろう、そうであろう。[r]ふふ。素直な奴め。
+[k]
+
+？2：ちょっと不安
+
+[charaFace D 1]
+＠ネロ
+そう照れずとも良い。[r]ふふ。そなたはすぐに顔に出るのだな。
+[k]
+
+？！
+
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+すごいな、皇帝さまは……[r]何を言っても彼女にとって都合いい返答になるんだ!?
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

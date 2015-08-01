@@ -1,0 +1,176 @@
+＄01-00-01-08-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98013000 1 ファヴニール]
+[charaSet C 98007000 1 ジャンヌ・オルタ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7002001 1 ？？？]
+[charaSet H 6012001 1 ？？？]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+先行してきたワイバーンはあらかた始末しました。[r]次はいよいよ……
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠G：？？？
+Ａ[line 8]ｕｒｒｒｒｒ！！
+[k]
+
+＠H：？？？
+……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠アマデウス
+……野郎……！
+[k]
+
+＠マリー・アントワネット
+[line 2]まあ、何て奇遇なんでしょう。[r]貴方の顔は忘れたことがないわ、[#気怠:けだる]い職人さん？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：？？？
+それは嬉しいな。僕も忘れた事などなかったからね。[r]懐かしき御方。白雪の如き[#白いうなじ]の君。
+[k]
+
+＠H：？？？
+そして同時に、またこうなった事に運命を感じている。[r]やはり僕と貴女は、特別な縁で結ばれている、と。
+[k]
+
+[charaFace H 1]
+＠H：？？？
+そうだろう？　処刑人として一人の人間を二回も殺す[r]運命なんて、この星では僕たちだけだと思うんだ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アマデウス
+……生前のみならず、[r]今回もマリアを“処刑”するつもり満々ときたか。
+[k]
+
+＠アマデウス
+シャルル＝アンリ・サンソン。[r]どうやら本気でいかれてたってワケかい？
+[k]
+
+[charaFadeout F 0.1]
+[charaSet H 6012001 1 サンソン]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠サンソン
+……人間として最低品位の男に、[r]僕と彼女の関係を語られるのは不愉快だな。
+[k]
+
+[charaFace H 0]
+＠サンソン
+アマデウス。君は生き物、人間を汚物だと断言した。[r]僕は違う。人間は聖なるものだ。[#尊:とうと]いものだ。
+[k]
+
+＠サンソン
+だからこそ、処刑人はその命に敬意を払う。[r]おまえと僕は相容れない。
+[k]
+
+[charaFace H 2]
+＠サンソン
+人間を愛せない人間のクズめ。彼女の尊さを[r]理解しない貴様に、彼女に付き従う資格はない。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠G：？？？
+……Ａｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒ！
+[k]
+
+[charaFace A 15]
+＠マシュ
+くっ……！
+[k]
+
+[messageOff]
+[effect bit_talk_12 1]
+[shake 0.05 0 10 0.5]
+[se ad32]
+[wt 0.5]
+[charaFadeout G 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+なんて一撃……！[r]マスター、退がって下さい……！
+[k]
+
+[charaFace A 15]
+＠マシュ
+このバーサーカー……今までのどのサーヴァントより[r]まっすぐで、怖い、です……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+空を見て！[r]ワイバーンもありったけ飛んでいるわ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+っ……！　私がフランス軍の救出に向かいます！[r]お二人はそのサーヴァントを！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠サンソン
+我が処刑の刃は清らかなるもの。
+[k]
+
+＠サンソン
+おまえたちのように、[r]死を受け入れないものに使うものではないが……
+[k]
+
+[charaFace H 2]
+＠サンソン
+思えば、いまやこの国のすべてが処刑場。[r]その首、一撃で斬り落としてやろう！
+[k]
+
+[charaFadeout H 0]
+[charaTalk G]
+[charaFadein H 0.1 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠？？？
+Ａｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒｒ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

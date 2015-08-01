@@ -1,0 +1,310 @@
+＄01-00-01-06-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20801 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 5009003 1 ダ・ヴィンチ]
+[charaTalk E]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace E 4]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠マリー・アントワネット
+[line 2]話はわかりました。[r]フランスはおろか、世界の危機なのですね。
+[k]
+
+＠マリー・アントワネット
+形は違えど、[r]これもまた聖杯戦争という訳ですか……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アマデウス
+マスターなしで召喚なんて時点で危険な音しか[r]しなかったけど、予想以上だなこれは。
+[k]
+
+[charaFace F 4]
+＠アマデウス
+あのとき相対していたサーヴァントは合計五騎。[r]マシュを含めると九騎だけど、多すぎないか？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+七騎の法則は崩壊しています。[r]……無制限、という訳ではありませんが。
+[k]
+
+＠マシュ
+サーヴァントの数が七騎を超過しても[r]決して不思議ではありません。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……記録によれば、十五騎のサーヴァントが争ったという[r]形跡もあるようですし。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+あ。わかった、わたし閃きましたわ、みんな！
+[k]
+
+＠マリー・アントワネット
+こうやってわたしたちが召喚されたのは[line 2][r]英雄のように、彼らを打倒するためなのね！
+[k]
+
+？1：同じように世界を滅ぼすためかも？
+
+[charaFace E 0]
+＠マリー・アントワネット
+ノン、ノン、ノン♪[r]それは違います、[%1]さん。
+[k]
+
+[charaFace E 1]
+＠マリー・アントワネット
+だってわたし、生前と変わらず[r]みんなが大好きなんですもの！
+[k]
+
+＠マリー・アントワネット
+世界を滅ぼすためならこんな感情不要だし、[r]第一召喚されないわ！
+[k]
+
+？2：多分そう
+
+＠マリー・アントワネット
+ええ、ええ！　わたしこの世界でやっと、[r]やるべきことを見つけられた気がします！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アマデウス
+根拠のない自信は結構だけどね、マリア。[r]相手は掛け値なしに強敵だぞ。
+[k]
+
+[charaFace F 4]
+＠アマデウス
+ジャンヌとマシュ、[%1]は戦いに[r]慣れているとしても、僕と君は汗を流すタイプじゃない。
+[k]
+
+＠アマデウス
+頭数はともかく、戦力差は絶望的だけどなあ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……そうですね。[r]ヴラド三世、エリザベート・バートリー。
+[k]
+
+[charaFace A 12]
+＠マシュ
+一人は英雄として、もう一人は殺人鬼として[r]歴史に名を刻んだ者ですし……。
+[k]
+
+＠マシュ
+あと一人、セイバーらしき人間はマリーさんの[r]知己のようでしたが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+……そうね。[r]もし彼女がわたしのことを知っているとすれば……。
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+シュヴァリエ・デオン、じゃないかしら。[r]確証はないけれど。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+シュヴァリエ・デオン……ルイ十五世が設立した情報機関、[r]「スクレ・ドゥ・ロワ」の[#工作員:スパイ]だね。
+[k]
+
+＠Dr.ロマン
+同時に軍所属の竜騎兵、最高特権を持つ[r]特命全権大使でもある。……彼女、いや、彼かな……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+彼女、ですよ、遠い世界の魔術師さん。[r]デオンの性別に関してははぐらかす。[r]些末な事よ、枝葉の話よ、みたいな。
+[k]
+
+＠マリー・アントワネット
+わたしとは全盛期がすれ違っているけれど、[r]彼女の端整な顔立ちは変わってはいませんでした。
+[k]
+
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+そうか……[r]彼女が味方に加わってくれればいいんだけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+それは難しい、と思います。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+ルーラーのクラス能力である真名看破は失われていますが、[r]それでも見破れたことがあります。
+[k]
+
+＠ジャンヌ
+どうやら、彼らは『狂化』を付与されているようです。[r]属性、伝説の有無など関係なく。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+キュウゥゥゥ………
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+聖杯の力だろうね。狂躁のエピソードがなくても、[r]英霊にバーサーク属性を与えられる、か……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+む。聖杯を求めて戦うのが聖杯戦争なのに、[r]相手はもう聖杯を手に入れているなんて。
+[k]
+
+[charaFace E 3]
+＠マリー・アントワネット
+不公平だわ、もう！
+[k]
+
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+ただ、そうなると一つ謎が残ります。[r]マリーたちが召喚されたのは何故なのか、という点です。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……これは、あくまで推測ですが。
+[k]
+
+＠ジャンヌ
+聖杯戦争が開始されていないにもかかわらず、[r]聖杯を勝ち取った勝者が存在する。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+この因果の逆転、つまりバグのような状況に[r]聖杯そのものが対抗するためではないでしょうか。
+[k]
+
+＠ジャンヌ
+そしてそれは、相手が強大であればあるほど、[r]その反動も大きいのではないか、と思います。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+……そうか。[r]つまり、このフランスには[line 2]。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+はい、他にもマリーのように召喚された[r]サーヴァントがいらっしゃるのではないか、と。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠マリー・アントワネット
+まあ……！[r]それって、まだ新しい誰かに出会えるという事ね！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アマデウス
+それが希望ってワケでもないけどね。[r]敵が増えるだけ、なんて結末もある。
+[k]
+
+[charaFace F 0]
+＠アマデウス
+けど、どうあれ探すのは悪くない。[r]出来得るだけ早く行動した方がいい。
+[k]
+
+＠アマデウス
+あっちのジャンヌたちが、先に見つけてしまう前に。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+そうですね。[r]私はサーヴァントの探知機能が欠落しています。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+現状ですと、ロマンさんの探知が頼りです。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ。さすがにルーラーの全力には及ばずとも、[r]サーヴァントの探知範囲を上回ることは可能なはずだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+＠マリー・アントワネット
+さあ、そうと決まったらしばらく休みましょう！[r]皆、疲れているでしょうし。
+[k]
+
+[charaFace A 13]
+＠マシュ
+そうですね。マスター、しばらくお休み下さい。[r]周囲はわたしたちで見張りますから。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

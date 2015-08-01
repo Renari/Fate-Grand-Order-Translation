@@ -1,0 +1,328 @@
+＄01-00-02-07-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 3009001 1 レオニダス]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 3010001 1 ？？？]
+[charaSet F 1013001 1 カエサル]
+[charaSet G 98004000 1 レフ]
+[charaSet H 7010001 1 カリギュラ]
+[charaTalk D]
+[charaFace F 4]
+[charaFadein F 0 0]
+[charaFace D 0]
+[charaFadein D 0 2]
+[fadein black 1]
+[wait fade]
+＠ネロ
+む、むむ……。[r]やった、のか……！
+[k]
+
+＠Dr.ロマン
+ああ、反応が弱くなっているのが観測できている。[r]君たちは勝利したんだ。おめでとう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+あなたの剣は強力な攻撃でした。[r]けれど、先輩の指示さえあれば守り切れます。
+[k]
+
+[charaFace F 1]
+＠カエサル
+うむ、うむ。[r]美しい女たちに負けるのも悪くない。
+[k]
+
+[charaFace F 4]
+＠カエサル
+そも、俺が一兵卒の真似事をするのは無理がある。[r]まったく、[#あの御方]の奇矯には困ったものだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ネロ
+あの御方[line 2]？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠カエサル
+そうだ。当代の正しき皇帝よ。[r]連合首都で、あの御方は貴様の訪れを待っているだろう。
+[k]
+
+＠カエサル
+正確には「皇帝」ではない私だが、[r]まあ、死した歴代「皇帝」さえも逆らえん御方だ。
+[k]
+
+[charaFace F 1]
+＠カエサル
+その名と姿を目にした時、[r]貴様は、どんな顔をするだろうか。楽しみだ。
+[k]
+
+[charaFace F 0]
+＠カエサル
+嫌味で言っているのではないぞ。[r]貴様は美しい。どんな表情を浮かべても、等しく[line 2]
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect F]
+[wt 0.5]
+[charaFadeout D 0]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ネロ
+消えた……。
+[k]
+
+[charaFace D 4]
+＠ネロ
+これは……。[r]何だ、魔術に依るものか……それとも……。
+[k]
+
+？1：サーヴァントの死だ
+
+[charaFace D 5]
+＠ネロ
+何、と……？
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩の言葉通りのことです。[r]あのサーヴァントは、その命を失いました。
+[k]
+
+？2：この世界から消えたんだ
+
+[charaFace D 5]
+＠ネロ
+何、と……？
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩の言葉通りのことです。[r]あのサーヴァントは、この世界から消えました。
+[k]
+
+？！
+
+[charaFace A 7]
+＠マシュ
+死を迎えたことによるサーヴァントの消滅。[r]仮初めの肉体が消え、座へと経験が送られるんです。
+[k]
+
+[charaFace D 0]
+＠ネロ
+よく、わからぬが……。[r]つまり、先ほど奴が、いや、[#あの方]が言ったのは。
+[k]
+
+＠Dr.ロマン
+おおむね真実だよ。彼はサーヴァント。[r]死した人間がある種の存在へと昇華されたものだ。
+[k]
+
+[charaFace D 4]
+＠ネロ
+……そうか。
+[k]
+
+＠ネロ
+余は、名君カエサルを[r]そなたたちの手に掛けさせたのだな。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ネロさん[line 2]
+[k]
+
+[charaFace D 1]
+＠ネロ
+いや。何でもない。うむ！[r]見事に「皇帝」のひとりを倒したこと、褒めてつかわす！
+[k]
+
+[charaFace D 2]
+＠ネロ
+これでガリアは名実共に余の元へ戻った。[r]強大な連合帝国に、一矢報いたのだ！
+[k]
+
+＠ネロ
+余の想いのままに、余の民の願いのままに、[r]神祖と神々に祝福されしローマが、今、戻りつつある！
+[k]
+
+[charaFace D 0]
+＠ネロ
+余はローマを我が手に取り戻す！[r]それまで[line 2][r]それまでは、絶対に。[r]余は、立ち止まる訳にはいかんのだ。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20900 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+＠E：？？？
+……カエサルが敗れたか。
+[k]
+
+[charaFace G 3]
+[charaFadein G 0.4 1]
+＠レフ
+ああ、そのようだ。[r]聖杯への願いがあると言うから使ってやったものを。
+[k]
+
+＠レフ
+さして問題はないだろう。[r]新たなサーヴァントは私が幾らでも召喚する。
+[k]
+
+[charaFace G 5]
+＠レフ
+問題と言うなら、この愚かなバーサーカーだ。[r]いいや、バーサーカーが愚かであるのは自明だったか？
+[k]
+
+[charaFace G 3]
+＠レフ
+こちらの命令に逆らうとは、いささか驚かされた。[r]血は水よりも濃いか？　笑える話だがね。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+＠カリギュラ
+余の、運命に……。[r]我が愛しき妹の子、ネロは……関わりない……。
+[k]
+
+[charaFace H 1]
+＠カリギュラ
+美しい子……。[r]ネロ、お前は、愛され、愛され、愛される……。
+[k]
+
+[charaFace H 4]
+＠カリギュラ
+故に……。[r]余の、運命には……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠レフ
+ふん。令呪がないのが口惜しい。[r]だが、貴様にはとっておきの術式を用意してある。
+[k]
+
+[charaFace G 3]
+＠レフ
+悔やみながら己の姪を手に掛けろ。[r]そして、この時代のすべてを破壊し尽くすがいい。
+[k]
+
+＠レフ
+もっとも[line 3][r]悔やむ程の知性なんぞ、残っていないだろうがね。
+[k]
+
+[charaFace G 2]
+＠レフ
+いやいや。[r]まったく、サーヴァントとは不自由なものだよ。
+[k]
+
+＠レフ
+どのような伝説を持ち、どのような超人であろうとも、[r]その根底は使い魔にすぎない。
+[k]
+
+[charaFace G 4]
+＠レフ
+世界を思うままに駆けられる力がありながら[r]自由がないとは、こんな皮肉な話があるか！
+[k]
+
+[charaFace G 2]
+＠レフ
+なあ、そうは思わないか、君？
+[k]
+
+＠E：？？？
+……さて。
+[k]
+
+[charaFace G 1]
+＠レフ
+おっと。失礼をしたか。[r]そういえば、貴方もサーヴァントだったな。
+[k]
+
+[charaFace G 0]
+＠レフ
+[line 3]ク。故にこそ、私に従うしかない。[r]おまえに運命なるものが存在するならば、私がそれだ。
+[k]
+
+[charaFace G 2]
+＠レフ
+この時代の完全な破壊。[r]皇帝ネロの死と、古代ローマ帝国の崩壊。人類史の死。
+[k]
+
+＠レフ
+それこそ[line 2][r]我らが王が賜れた、私の責務であるのだから。
+[k]
+
+＠E：？？？
+……うむ。
+[k]
+
+[charaFace G 0]
+＠レフ
+さて、と。では減った戦力を補充するとしよう。[r]丁度、召喚儀式が終了するところだ。
+[k]
+
+＠レフ
+所詮未完成であるカルデアのそれとは違う。[r]私は真に、サーヴァントを自在に召喚できる。
+[k]
+
+[charaFace G 2]
+＠レフ
+我らはそのように作られたもの。[r]こと召喚術において、私はこの世の[#終:つい]に立つ。
+[k]
+
+[charaFadeout G 0.1]
+[messageOff]
+[se su2]
+[wait se su2]
+[flashin once 1 1 FFFFFF80 00000000]
+[wt 1]
+[charaFace C 0]
+[charaFadein C 1 1]
+＠レオニダス
+……サーヴァント、ランサー。[r]真名をレオニダス。これより貴方にお仕えします。
+[k]
+
+[charaFadeout C 0]
+[charaTalk G]
+[charaFadein C 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠レフ
+ほう、テルモピュライの英霊か。悪くない。[r]全力を以て、ネロ・クラウディウスを抹殺せよ[line 2]
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

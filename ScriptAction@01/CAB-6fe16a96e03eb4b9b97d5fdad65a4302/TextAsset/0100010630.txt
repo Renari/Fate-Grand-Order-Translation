@@ -1,0 +1,289 @@
+＄01-00-01-06-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 5009003 1 ダ・ヴィンチ]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 13]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+見回りに行ってきます。[r]ジャンヌさんはここで待機して下さい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[se ad60]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[seStop ad60 3]
+[wt 1]
+[charaFace D 4]
+＠ジャンヌ
+……。
+[k]
+
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠マリー・アントワネット
+どうかしましてジャンヌ。[r]気が抜けていたようですけど、お疲れですか？
+[k]
+
+[charaFace D 3]
+＠ジャンヌ
+マリー……いえ。[r]疲れてはいません、これでもサーヴァントですし。
+[k]
+
+[charaFace E 3]
+＠マリー・アントワネット
+では、フランスを見て消沈……[r]その、がっかりしてしまわれました？
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+いえ、がっかりはしていません。[r]気遣いありがとう、マリー。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……でも。見慣れた街が燃えているのは、[r][#些:いささ]か堪えますね。
+[k]
+
+[charaFace E 4]
+＠マリー・アントワネット
+……そうでした。[r]特に貴女にとってこの時代は生前とまったく同じ。
+[k]
+
+＠マリー・アントワネット
+わたしが抱いた所感とは違う、[r]まだ続いている記憶なのですね。
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+……うん！　せっかくだから、トークしましょう！[r]女子会トーク！
+[k]
+
+[charaFace D 3]
+＠ジャンヌ
+……はい？
+[k]
+
+＠マリー・アントワネット
+あら、おかしいですか？[r]でも、わたしも貴女も全盛期で召喚されたのです。
+[k]
+
+[charaFace E 1]
+＠マリー・アントワネット
+ほら。わたしなんて思春期真っ只中ですから？[r]恋とか愛とか大好きでたまらないのです！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+あはは。……折角ですが、難しいです。[r]慈愛は知っていても、恋はわかりません。
+[k]
+
+[charaFace E 2]
+＠マリー・アントワネット
+そんな……それは人生の十割を損しています！[r]今からでも遅くはありません、恋をしましょうジャンヌ！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+ええ、機会があれば。[r]そういうマリーは恋をしたの？
+[k]
+
+[charaFace E 1]
+＠マリー・アントワネット
+ふふふ。もちろんです。
+[k]
+
+＠マリー・アントワネット
+七歳の頃、プロポーズをしてくれた男の子に恋をしました。[r]多分、あれが初恋だと思います。
+[k]
+
+＠マリー・アントワネット
+それから、十四歳の頃。[r]結婚した王に恋をしました。
+[k]
+
+[charaFace D 3]
+＠ジャンヌ
+十四……！[r]あらためて聞くと、凄いですね。
+[k]
+
+＠ジャンヌ
+その頃の私は……男女関係なく、[r]畑を駆けめぐって働いたり遊んでいたりしたような。
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+それだって楽しい、羨ましい生き方ですわ。[r]どこまでも行けるなんて、とても楽しそう！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+そうですね。確かにあの日々は楽しかった。[r]恋や愛はなくとも、友情がありましたから。
+[k]
+
+＠マリー・アントワネット
+モテモテ？
+[k]
+
+[charaFace D 3]
+＠ジャンヌ
+うぅん、当時の私は髪は短かったので[r]男っぽい扱いだったような[line 2]。
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20802 0]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0.4 0]
+[charaFace E 1]
+[charaFadein E 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マリー・アントワネット
+ああ、サーヴァントになって良かったわ！[r]まさかジャンヌ・ダルクとこんな話ができるなんて。
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+王妃になってみるものね！
+[k]
+
+＠ジャンヌ
+私の方こそ。かのマリー・アントワネットと語り合う[r]ことができるなんて。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+サーヴァントになってみるものです。
+[k]
+
+＠マリー・アントワネット
+真っ当な聖杯戦争でなかった事に感謝します。[r]そうでなければ、こんな呑気にお話を[line 2]
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……マリー。
+[k]
+
+[charaFace E 4]
+＠マリー・アントワネット
+ええ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+お二人とも、申し訳ありません。[r]敵襲のようです！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠ジャンヌ
+やはりですか。
+[k]
+
+＠マリー・アントワネット
+まあ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスターを起こしてきます！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.5]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠マリー・アントワネット
+それではジャンヌ。[r]ここからはサーヴァントらしく戦いましょう。
+[k]
+
+[charaFace E 1]
+＠マリー・アントワネット
+勇敢に、厳格に、懸命に。[r]けれど可憐に、恋をする少女のように。
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+それが聖女でもなく王妃でもない、[r]ただのわたしとあなたの根底だと思うのです。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……私の戦い方は華麗さや優雅さとは[r]あまり縁が無いものですが、ね。
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20802 0]
+[charaFace A 2]
+[charaFadein A 0.4 2]
+[charaFace E 2]
+[charaFadein E 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+ではマスター、指示をお願いします！
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+さあ、[%1]さん。
+[k]
+
+[charaFace E 1]
+＠マリー・アントワネット
+せっかくだから、さっき見せられなかったわたしの力、[r]貴方たちに見てもらいたいわ！
+[k]
+
+[charaFace E 2]
+＠マリー・アントワネット
+[line 3]おてんばでごめん遊ばせ。[r]ガラス細工のように、[#煌:きら]びやかに踊るわよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,104 @@
+＄01-00-01-14-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20602 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 5002001 1 ジル]
+[fadein black 1]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationChara 98003003 1 5 0 2]
+[wt 1]
+＠Dr.ロマン
+おっと、その先にサーヴァントがいる！[r]注意して！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠ジル
+[line 2]おやおや、お久しぶりですな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+ジル……！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジル
+まさかファヴニールを倒し、[r]このオルレアンまで乗り込んでくるとは……。
+[k]
+
+[charaFace E 1]
+＠ジル
+正直に申し上げまして、感服致しました。
+[k]
+
+[charaFace E 5]
+＠ジル
+しかし！　しかしだ！[r]ああ、聖女よ！　そしてその仲間たちよ！
+[k]
+
+＠ジル
+何故私の邪魔をする！？
+[k]
+
+[charaFace E 5]
+＠ジル
+私の世界に土足で入り込み、あらゆるモノを踏みにじり、[r]あまつさえジャンヌ・ダルクを殺そうとするなど！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+[line 2]その点に関して、私は一つ質問があるのです。
+[k]
+
+＠ジャンヌ
+ジル・ド・レェ。[r]彼女は本当に、[#ジャンヌ:わたし]なのですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジル
+……何と、何と何と何と許せぬ暴言！[r]聖女とて怒りを抱きましょう、聖女とて絶望しましょう！
+[k]
+
+[charaFace E 0]
+＠ジル
+あれは、確かに紛れもないジャンヌ・ダルク。[r]その秘めたる闇の側面そのもの！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+[line 2]そうですか。[r]ではいずれにせよ、闇ではない私は彼女と対決しなければ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ジル
+ジャンヌ。たとえ貴女といえども[line 2][r]その邪魔はさせませんぞ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

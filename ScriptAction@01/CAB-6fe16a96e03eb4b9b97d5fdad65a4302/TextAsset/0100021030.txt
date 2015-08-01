@@ -1,0 +1,160 @@
+＄01-00-02-10-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 3009001 1 ？？？]
+[charaFace A 15]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……マスター。[r]サーヴァントの気配です、数は一体、いえ、数百！
+[k]
+
+[charaFace A 2]
+＠マシュ
+数百は先刻と同じ気配である模様。[r]ですが、確かなサーヴァントの気配は一体のみ！
+[k]
+
+[se ad16]
+[wt 2]
+[charaFadeout A 0.1]
+[charaFadein E 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ローマ兵
+敵襲！　敵兵、数百！
+[k]
+
+[seStop ad16 3]
+[charaFace D 5]
+＠ネロ
+待ち伏せか！[r]数百もの数を、一体何処に……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+＠F：？？？
+待ち伏せ、ではない。[r]私はここを防衛すると決めただけのことです。
+[k]
+
+＠F：？？？
+我が拠点に貴方たちが足を踏み入れたのです。[r]すなわち、私は、これより拠点防衛を開始します。
+[k]
+
+[charaFace F 5]
+＠F：？？？
+進軍する敵のすべてを打ち砕く。[r]攻撃よりも勇ましく、防御よりも遙かに硬く。
+[k]
+
+＠F：？？？
+これが、我がスパルタの拠点防衛術。[r]その身をもって味わうと良いでしょう。
+[k]
+
+[charaFadeout F 0]
+[charaTalk A]
+[charaFadein F 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+スパルタと言いましたね。[r]では、あなたは[line 2]
+[k]
+
+[charaSet F 3009001 0 レオニダス]
+[charaFace F 0]
+[charaFadein F 0]
+＠レオニダス
+サーヴァント、ランサー。[r]真名をレオニダス。
+[k]
+
+＠Dr.ロマン
+真名を隠さない、か。前回といい今回といい、[r]通常の聖杯戦争とはおもむきが違うね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ネロ
+レオニダス？[r]貴様、かのスパルタのレオニダス王と申すか？
+[k]
+
+＠レオニダス
+その通り。[r]義なき戦いなれど、貴方を砕く者です。
+[k]
+
+[charaFace D 2]
+＠ネロ
+なんと……！[r]伝説の、炎門の守護者レオニダスか！
+[k]
+
+[charaFace D 0]
+＠ネロ
+蘇ったのは「皇帝」たちだけではない、のか？[r]ん。ならば、ブーディカは……。
+[k]
+
+？1：そんなことより戦闘だ！
+
+[charaFace D 4]
+＠ネロ
+う、うむ？
+[k]
+
+？2：エリザベートとかもいたよね？
+
+[charaFace D 4]
+＠ネロ
+ああ、そういえばそうだな。[r]ん。ならば、やはりブーディカも、まさか。
+[k]
+
+[charaFace D 0]
+＠ネロ
+本当は死んでいるのか？[r]そうなのか？
+[k]
+
+[charaFace D 4]
+＠ネロ
+生きていたのか、ならば、[r]今度こそローマの軍門に下れと、余は言って……。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+そ、それよりもネロさん[r]敵の数は多数です。防御を固める必要があります！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠ネロ
+う、うむ。しかし、こちらはごく小部隊。[r]守り切れると良いのだが……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+サーヴァント本体を倒せば残る数百は消えるはずです。[r]ですから[line 2]
+[k]
+
+[charaFace A 2]
+＠マシュ
+マスター、サーヴァント戦闘です。[r]指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

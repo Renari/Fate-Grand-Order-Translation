@@ -1,0 +1,64 @@
+＄01-00-01-05-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet G 7007001 1 バーサーク・ランサー]
+[charaSet H 6017001 1 バーサーク・アサシン]
+[charaFace H 0]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠バーサーク・アサシン
+では、次は私の手番ね。[r]お優しいヴラド公と一緒とは思わないでくださる？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター……エリザベート・バートリー。[r]……ご存じですか？
+[k]
+
+？1：血の伯爵夫人、だっけ？
+
+＠マシュ
+そうです。[r]ヴラド三世と同じく、怪物として恐れられた女性[line 2]
+[k]
+
+[charaFace A 7]
+＠マシュ
+少女の血を浴びると若返ると信じ、[r]そのために数百人の少女を虐殺したと伝えられています。
+[k]
+
+？2：分からない
+
+＠マシュ
+彼女はハンガリーの貴族ですが、[r]領地の娘たちを城にさらっては虐殺したそうです。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……何でも、少女の血を浴びると[r]肌が若返ると信じていたのだとか。
+[k]
+
+？！
+
+[charaFadeout A 0]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠バーサーク・アサシン
+聖女の血は貴重品ですもの。目の前に宝石があれば、[r]一粒たりとも見逃さないのが女という生き物よ……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,100 @@
+＄01-00-02-14-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 3010001 1 ロムルス]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaFace F 1]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠ロムルス
+……眩い、愛だ。ネロ。
+[k]
+
+＠ロムルス
+永遠なりし真紅と黄金の帝国。[r]そのすべて、お前と、後に続く者たちへと託す。
+[k]
+
+[charaFace F 0]
+＠ロムルス
+忘れるな。[r]ローマは永遠だ。
+[k]
+
+＠ロムルス
+故に、世界は、永遠でなくてはならない。[r]心せよ……。
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect F]
+[wt 0.5]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+敵性サーヴァント、ランサー・ロムルスを撃破。[r]わたしたちの勝利です。
+[k]
+
+[charaFace D 4]
+＠ネロ
+勝った、のか。そうか……。[r]これで……。
+[k]
+
+[charaFace D 1]
+＠ネロ
+……うむ。[r]ローマは、元あるべき姿へと戻るだろう。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 3]
+＠Dr.ロマン
+おおむねその通りなんだけど、[r]まだ宮廷魔術師を発見していない。聖杯を探さないと。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ネロ
+む？　これで連合ローマ帝国は終わりを迎えた。[r]姿の見えぬ魔術師殿、そうであろう？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+大勢としてはそのはずではあるんだけどね。[r]聖杯を確保しないと、ボクらとしての目的は[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠荊軻
+待て。誰かがいる。[r]サーヴァントではない、が。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

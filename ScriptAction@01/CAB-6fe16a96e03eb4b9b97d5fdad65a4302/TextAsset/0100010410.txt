@@ -1,0 +1,214 @@
+＄01-00-01-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20800 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98006300 1 正体不明人型]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+まずはここの森を抜けて、[r]オルレアンの方へと向かいましょう。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+もちろん、[r]オルレアンに直接乗りこむのは難しいです。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+けれど周辺の街や砦なら[r]何かしらの情報が得られるかもしれません。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20300 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ジャンヌ
+もうすぐラ・シャリテです。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+ここでオルレアンの情報が得られない場合、[r]更にオルレアンへ近付かなければいけませんが[line 2]。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+なるべく、そうならないように済ませたいですね。
+[k]
+
+＠ジャンヌ
+今の戦力で彼らに打ち勝てるのかどうか、[r]その確証が持てない限り、攻め入る訳にもいきませんし。
+[k]
+
+？1：慎重だな
+
+？2：冷静だな
+
+？！
+
+[charaFace D 4]
+＠ジャンヌ
+……いえ、正直焦っています。[r]もう一人の“私”は、どう考えても正気ではない。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+そんな怪物が人を支配して、[r]何をするかなど[line 2]想像するのは容易いのです。
+[k]
+
+＠ジャンヌ
+圧倒的な力、圧倒的な憎悪は、[r]どれほど高潔な人間でも、簡単に壊してしまう。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 5]
+[wt 1]
+＠Dr.ロマン
+[line 2]む、ちょっと待ってくれ。[r]君たちの行く先にサーヴァントが探知された。
+[k]
+
+＠Dr.ロマン
+場所はラ・シャリテ。君たちの目的地だけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠マシュ
+！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 2]
+[wt 1]
+＠Dr.ロマン
+あれ、でも遠ざかっていくぞ。[r]……ああ、駄目だロストした！　速すぎる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！　フォーウ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+なんですかフォウさん、急に頭に乗って。[r]向こうの空を見るんだ、ですか？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+＠マシュ
+街が……燃えてる……！？
+[k]
+
+[charaFadeout C 0]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+急ぎましょう！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 20523 0]
+[fadein black 0.5]
+[wait fade]
+[wt 0.5]
+[charaFace A 15]
+[charaFadein A 0 2]
+[charaFace D 2]
+[charaFadein D 0 0]
+＠ジャンヌ
+まさか……！
+[k]
+
+[charaFace A 2]
+＠マシュ
+ドクター、生体反応を[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+……駄目だ。[r]その街に命と呼べるものは残っていない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠マシュ
+そんな[line 2]。
+[k]
+
+[se ad54]
+[wait se ad54]
+[charaFace D 2]
+＠ジャンヌ
+待って下さい、今、音が……！
+[k]
+
+[charaFace A 2]
+＠マシュ
+違います、それは[line 2]！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ
+あ……そん、な……！
+[k]
+
+＠マシュ
+[#生ける屍:リビングデッド]のようです。[r]マスター、蹴散らします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,91 @@
+＄01-00-02-15-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 98006000 1 ？？？]
+[charaSet H 6011001 1 荊軻]
+[fadein black 1]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+お疲れさま、と言いたいところなんだがね。[r]まだ来るようだ。今度は、前回の規模の数倍だ[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ネロ
+な、何？[r]数倍とは、また激しいな。
+[k]
+
+[charaFace E 5]
+＠ブーディカ
+……仕方ないか。[r]アレはこっちで引き受けるよ。荊軻、いいかい？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠荊軻
+怪物は専門外だが。[r]いいだろう、人型以外の相手もたまにはな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ネロ
+ま、待てブーディカ。荊軻。[r]引き受けるとは何だ。お前たちも共に行くのだぞ。
+[k]
+
+[charaFadeout D 0]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠ブーディカ
+言葉の通り。[r]あんたは、さっさと先に行ってろ。
+[k]
+
+[charaFace D 0]
+＠ネロ
+何を言って[line 2]
+[k]
+
+[se ad19]
+[wait se ad19]
+＠F：？？？
+ＧｕＯＯＯＯＯＯＯＯ[line 2]ッ！！！！！！
+[k]
+
+[charaFace E 2]
+＠ブーディカ
+行け！　この、馬鹿皇帝！[r]いいから、あんたの世界ってのを守ってみせなよ。
+[k]
+
+[charaFace D 4]
+＠ネロ
+……すまぬ。[r]我が好敵手、ブリタニアの女王よ。
+[k]
+
+＠Dr.ロマン
+そうだ、諸君。振り返っている暇はないぞ。[r]アルテラの位置まではもうすぐだ[line 2]
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

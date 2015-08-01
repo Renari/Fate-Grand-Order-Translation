@@ -1,0 +1,177 @@
+＄01-00-01-07-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace E 0]
+[charaFadein E 0 2]
+[fadein black 1]
+[wait fade]
+＠マリー・アントワネット
+もうそろそろかしら。
+[k]
+
+＠ジャンヌ
+はい、そろそろです。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……また滅んだ街を見なければならないと思うと、[r]少し憂鬱ですが……。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.5]
+[scene 20403 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 4]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ジャンヌ
+……誰もいませんね。
+[k]
+
+＠マシュ
+ドクター、生体反応は[line 2]。
+[k]
+
+＠Dr.ロマン
+……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクター？
+[k]
+
+[se ad31]
+[wt 1]
+[seStop ad31]
+[charaFace A 4]
+＠マシュ
+申し訳ありません。[r]通信の調子が悪いようです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+手分けして、聖女マルタが[r]言っていた“竜殺し”を探しましょう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠マリー・アントワネット
+ええ、どちらが先に見つけるのか競争ね。[r]わたしとアマデウスは西側を選びます。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+では、私とマシュは東側ですね。
+[k]
+
+＠マシュ
+了解です。[r]行きましょう、マスター！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20520 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+＠ジャンヌ
+かつて美しい街だったはずなのに。[r]あの“竜の魔女”はどうして[line 2]。
+[k]
+
+？1：あれは偽物
+
+？2：あれは君じゃない
+
+？！
+
+[charaFace D 5]
+＠ジャンヌ
+だといいのですけど…………あれ？[r]いま、声がしませんでしたか？
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい、わずかですが。[r]生存者かもしれません、見に行きましょう。
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20520 0]
+[charaTalk A]
+[charaFace D 2]
+[charaFadein D 0.4 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジャンヌ
+……っ！
+[k]
+
+[charaFace A 6]
+＠マシュ
+[#生きる屍:リビングデッド]……！
+[k]
+
+＠ジャンヌ
+この街の人間を、怪物にするなんて……[r]あまりに外法過ぎる……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+彼らはもう救えません。[r]……戦闘状況に移行します、マスター！
+[k]
+
+？1：安らかな眠りを
+
+？2：鎮魂を
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

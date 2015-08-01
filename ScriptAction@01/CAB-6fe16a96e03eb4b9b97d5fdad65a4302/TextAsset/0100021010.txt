@@ -1,0 +1,68 @@
+＄01-00-02-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaFace A 13]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+もうすぐですね。首都ローマには間もなく到着します。[r]帰路もお疲れさまでした、先輩。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFadein E 0.1 2]
+＠ネロ
+なぜ馬に乗らぬのだ、[%1]？[r]そうだ、戦車でも用意すれば良かったか。
+[k]
+
+[charaFace D 4]
+＠ネロ
+すまぬ、余の部隊に残った数名の兵たちは精鋭だが[r]生憎と戦車兵はおらぬのだ。
+[k]
+
+＠ローマ兵
+ならば、皇帝陛下。[r]次の遠征には戦車を用意いたしましょうか。
+[k]
+
+[charaFace D 1]
+＠ネロ
+自ずと必要になってくるであろう。[r]何せ、次の遠征は連合首都への本格侵攻だからな！
+[k]
+
+＠ローマ兵
+はっ！
+[k]
+
+[charaFace D 0]
+＠ネロ
+うむうむ。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[communicationChara 98003003 1 5 0 5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+ん……皇帝陛下、敵襲のようだよ。[r]前方から敵集団。反応多数だ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

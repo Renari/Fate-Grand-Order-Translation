@@ -1,0 +1,88 @@
+＄01-00-01-05-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet G 7007001 1 バーサーク・ランサー]
+[charaSet H 6017001 1 バーサーク・アサシン]
+[charaFace A 15]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+く……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+そろそろいいでしょう。[r]念入りに、首と胴体は分けるように。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+お二人とも行って下さ……！
+[k]
+
+[se ad28]
+[wait se ad28]
+[bgmStop BGM_EVENT_5 0.4]
+＠ジャンヌ
+え？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+[line 2]何？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ガラスの[line 2]薔薇？
+[k]
+
+[se ad59]
+[wt 0.5]
+[seStop ad59 1]
+[bgm BGM_EVENT_4 0.1]
+＠F：？？？
+[line 2]優雅ではありません。
+[k]
+
+＠F：？？？
+この街の有様も。その戦い方も。[r]思想も主義もよろしくないわ。
+[k]
+
+＠F：？？？
+貴女はそんなに美しいのに、[r]血と憎悪でその身を縛ろうとしている。
+[k]
+
+＠F：？？？
+善であれ悪であれ、[r]人間ってもっと軽やかにあるべきじゃないかしら？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……サーヴァント、ですか。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]

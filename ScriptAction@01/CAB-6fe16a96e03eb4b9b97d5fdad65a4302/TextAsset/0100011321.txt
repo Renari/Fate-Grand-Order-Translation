@@ -1,0 +1,67 @@
+＄01-00-01-13-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1008001 1 ジークフリート]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 1022001 1 ジル]
+[charaSet H 6012001 1 サンソン]
+[charaFace H 4]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠サンソン
+ハ[line 3]そうか。[r]君にさえ敗れるのか、僕は。
+[k]
+
+[charaFace H 3]
+＠サンソン
+なら……邪悪は紛れもなく僕だった。[r]正義は、君たちにあったんだね。
+[k]
+
+[charaFace H 1]
+＠サンソン
+あの時と同じく王妃は微笑みながら[line 2][r]魔女の炎を受け入れた。
+[k]
+
+＠サンソン
+[#諦観:ていかん]ではなく、希望を抱いて。[r]……君に、どうか祝福がありますようにと。
+[k]
+
+[messageOff]
+[charaSpecialEffect H flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect H]
+[wt 0.5]
+[charaFadeout F 0.1]
+[charaFadein F 0.1 1]
+[charaFace F 4]
+＠アマデウス
+バカめ、正義がなんだって？[r]そんなものに拘っていたのかおまえは。
+[k]
+
+＠アマデウス
+……まったく辛気くさい。これだから、毎日人殺しを[r]考えなくちゃいけない仕事なんて無くすべきなんだ。
+[k]
+
+＠アマデウス
+じゃあな、サンソン。[r]次があるならイヤというほど鎮魂歌を聴かせてやるよ。
+[k]
+
+[charaFace F 3]
+＠アマデウス
+だっておまえ、実のところ[r]僕の鎮魂歌の大ファンだったりするんだろう？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_6 0.4]
+[wait fade]
+[soundStopAll]
+[end]

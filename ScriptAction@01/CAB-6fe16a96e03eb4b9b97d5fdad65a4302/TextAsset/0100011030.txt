@@ -1,0 +1,32 @@
+＄01-00-01-10-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20500 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 1008001 1 ジークフリート]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[fadein black 1]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+次の生体反応は強烈だな。[r]気を引き締めていこう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[soundStopAll]
+[end]

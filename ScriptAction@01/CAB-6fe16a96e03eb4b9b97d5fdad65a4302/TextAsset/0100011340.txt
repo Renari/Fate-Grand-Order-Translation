@@ -1,0 +1,107 @@
+＄01-00-01-13-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 1008001 1 ジークフリート]
+[charaSet G 98013000 1 ファヴニール]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+[se ad17]
+[wait se ad17]
+[wt 0.5]
+[charaFadeout G 0.1]
+[charaTalk F]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠ジークフリート
+幾重もの壁を突き破り、此処まで辿り着けた。
+[k]
+
+[charaFace F 1]
+＠ジークフリート
+……よくやるな、マスター。[r]そしてマシュ・キリエライト。
+[k]
+
+[charaFace F 0]
+＠ジークフリート
+邪竜は目の前だ。[r]こうして相対して[line 3]正直に告白すると。
+[k]
+
+[charaFace F 3]
+＠ジークフリート
+どうして勝てたのか、俺にも分からん。
+[k]
+
+[charaFace A 15]
+＠マシュ
+ちょ！？[r]いきなり不安なことを言わないで下さい！
+[k]
+
+[charaFace F 0]
+＠ジークフリート
+記憶に刻まれているのはただ一つ。
+[k]
+
+＠ジークフリート
+あれは勝利して当然の戦いではなく、無数の敗北から[r]わずかな勝ちを拾い上げるような戦いだった。
+[k]
+
+[charaFace F 5]
+＠ジークフリート
+慎重に策せ、大胆に動け、広い範囲で物事を見ろ、[r]深く一点に集中しろ。
+[k]
+
+＠ジークフリート
+海のように、空のように、光のように、闇のように。[r]矛盾する二つの行動を取れ。
+[k]
+
+[charaFace F 0]
+＠ジークフリート
+そうしなければ、あの[#邪悪なる竜:ファヴニール]は[r]絶対に倒せない。
+[k]
+
+[charaFace A 7]
+＠マシュ
+わ、わかりました！[r]やれるだけのことをやってみます！
+[k]
+
+[charaFace F 2]
+＠ジークフリート
+ああ、マスター。[r]……覚悟はいいか？
+[k]
+
+？1：行くぞ！
+
+？2：もちろん！
+
+？！
+
+[charaFace F 1]
+＠ジークフリート
+ふっ、大胆なマスターで何よりだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFadein G 0.1 1]
+[wt 0.5]
+[se ad17]
+[wait se ad17]
+＠ジークフリート
+再び土に還るがいい、邪竜……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

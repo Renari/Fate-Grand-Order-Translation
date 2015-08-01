@@ -1,0 +1,47 @@
+＄01-00-02-09-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20113 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 6010001 1 ステンノ]
+[charaSet F 6010001 1 骸骨兵]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 2]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+なんなのだ、一体！[r]洞窟の中には骨がいっぱいか！
+[k]
+
+[charaFace A 7]
+＠マシュ
+骨だけだと良いですが……。
+[k]
+
+＠Dr.ロマン
+反応多数。まだ来るぞ！[r]多分、骨が沢山来ているんじゃないかな。
+[k]
+
+[charaFace D 5]
+＠ネロ
+むむ、むむむむ！[r]剣を振り回す骨など、宝でもなんでもないぞ！
+[k]
+
+[charaFace A 2]
+＠マシュ
+指示をお願いします。[r]マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

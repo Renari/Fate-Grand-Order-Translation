@@ -1,0 +1,93 @@
+＄01-00-01-06-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20800 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 5009003 1 ダ・ヴィンチ]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……それでは、召喚サークルを確立させます。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationCharaLoop 5009003 1 5 0 0]
+＠ダ・ヴィンチ
+やあ、君たち。[r]十五世紀フランスの旅は堪能しているかな？
+[k]
+
+＠ダ・ヴィンチ
+では、早速だけど今回のレクチャーを始めよう。[r]今回はサーヴァントのカテゴリについて。
+[k]
+
+＠ダ・ヴィンチ
+召喚可能なほとんどのサーヴァントは[r]七つのクラスに分類される。
+[k]
+
+＠ダ・ヴィンチ
+セイバー、アーチャー、ランサー、ライダー、[r]バーサーカー、キャスター、アサシン。
+[k]
+
+＠ダ・ヴィンチ
+各クラスには色々と相性があってね。
+[k]
+
+＠ダ・ヴィンチ
+例えばセイバーはランサーに、ランサーはアーチャーに、[r]そしてアーチャーはセイバーに強い。
+[k]
+
+＠ダ・ヴィンチ
+ライダーはキャスターに、キャスターはアサシンに、[r]アサシンはライダーに強い。
+[k]
+
+＠ダ・ヴィンチ
+そしてバーサーカーは全てに強いが、[r]攻撃された際は全てに弱い。
+[k]
+
+＠ダ・ヴィンチ
+いわゆる三すくみだ。[r]敵サーヴァントと戦うときチェックしておきなさい。
+[k]
+
+＠ダ・ヴィンチ
+もちろん、一部のサーヴァントは[r]このカテゴリに入らないのだが、ね。
+[k]
+
+＠ダ・ヴィンチ
+その説明はいずれまた。[r]よし、サークル設置完了。では良い旅を！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[communicationCharaClear]
+[wait communicationChara]
+[scene 10500 0]
+[messageOff]
+[fadein black 0.5]
+[wt 0.4]
+[flashin once 1 0.4 FFFFFFBB 00000000]
+[se ad29]
+[wait se ad29]
+[wt 0.5]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

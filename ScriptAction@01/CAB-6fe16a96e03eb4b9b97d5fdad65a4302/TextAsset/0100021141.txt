@@ -1,0 +1,117 @@
+＄01-00-02-11-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21000 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 5019001 1 エルメロイ二世]
+[charaSet F 4015001 1 ？？？]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0 2]
+[charaFace E 4]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠エルメロイ二世
+敵軍前方でサーヴァントが召喚されたようだ。[r]あの宮廷魔術師の仕業[line 2]
+[k]
+
+[charaFace E 0]
+＠エルメロイ二世
+では、あるまいな。[r]ならば。おまえか？
+[k]
+
+[charaFace F 1]
+＠F：？？？
+どうかな？[r]僕は、ちょっと馬の早駆けをしていただけだよ。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+そろそろ来るかな、とは思ったけれど。[r]こんなに早いとは予想しなかったよ。
+[k]
+
+[charaFace E 1]
+＠エルメロイ二世
+ほう？
+[k]
+
+[charaFace F 1]
+＠F：？？？
+地中海の女神の噂、知ってる？[r]あそこには女神以外に二体の女怪がいるんだって。
+[k]
+
+＠F：？？？
+それで、ね。[r]ぴんと来たんだ。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+[#連鎖的な召喚]。[r]そういうこともあるのだとしたら、って。
+[k]
+
+[charaFace E 4]
+＠エルメロイ二世
+私は好かんな。[r]幸運に頼るような戦い方だ。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+まあ、そう言わないで。先生。[r]彼らの前方に隙を作ってくれたのは先生なんだし。
+[k]
+
+＠F：？？？
+早く準備をしようよ。[r]彼が、時間を作ってくれている間にね。
+[k]
+
+[charaFace E 0]
+＠エルメロイ二世
+……良いのか？
+[k]
+
+[charaFace F 3]
+＠F：？？？
+うん？
+[k]
+
+[charaFace E 4]
+＠エルメロイ二世
+連鎖的な召喚で現界したのであれば、[r]あれは恐らく[line 2]
+[k]
+
+[charaFace F 0]
+＠F：？？？
+うん。ダレイオス三世だろうね。[r]勇猛果敢、我が生涯に於ける好敵手たるペルシャ王。
+[k]
+
+[charaFace F 3]
+＠F：？？？
+もっとも、今の僕にとっては[r]そういう未来を知っている感じではあるけど。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+いいんだ。[r]彼とは、既に一度戦った。戦うことになる。
+[k]
+
+＠F：？？？
+また戦いたいとも思うよ。[r]でもね。今はいいんだ。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+今は、ネロ・クラウディウスだ。[r]あの子と話したい。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

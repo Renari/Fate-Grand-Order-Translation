@@ -1,0 +1,135 @@
+＄01-00-00-06-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10700]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 6002001 1 サーヴァント]
+[charaSet G 3006001 1 サーヴァント]
+[charaSet H 5021001 0 キャスター]
+[communicationCharaLoop 98003003 2 5 0 0]
+[charaFace H 0]
+[charaFadein H 0]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+……以上が我々、カルデアの事情です。
+[k]
+
+＠Dr.ロマン
+現在は[%1]がマスターとして[r]現地調査を行っています。
+[k]
+
+＠Dr.ロマン
+確認しますが、貴方はこの街で起きた聖杯戦争の[r]サーヴァントであり、唯一の生存者なのですね？
+[k]
+
+[charaFace H 4]
+＠キャスター
+負けてない、という意味ならな。オレたちの聖杯戦争は[r]いつの間にか違うモノにすり替わっていた。
+[k]
+
+＠キャスター
+経緯はオレにも分からねえ。街は一夜で炎に覆われ、[r]人間はいなくなり、残ったのはサーヴァントだけだった。
+[k]
+
+＠キャスター
+真っ先に聖杯戦争を再開したのはセイバーのヤツだ。[r][#奴:やっこ]さん、水を得た魚みてえに暴れ出してよ。
+[k]
+
+＠キャスター
+セイバーの手でアーチャー、ランサー、ライダー、[r]バーサーカー、アサシンが倒された。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠オルガマリー
+七騎のサーヴァントによるサバイバル……それが[r]この街で起きた聖杯戦争のルールだったわね。
+[k]
+
+[charaFadeout E 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+キャスターさんはその中で勝ち残った……[r]いえ、生き残ったサーヴァントというワケですね。
+[k]
+
+[charaFace H 0]
+＠キャスター
+ああ。そしてセイバーに倒されたサーヴァントは[r]さっきの二人よろしく、真っ黒い泥に汚染された。
+[k]
+
+＠キャスター
+連中はボウフラみてえに湧いてきやがった怪物どもと[r]一緒に何かを探しだし始めやがった。
+[k]
+
+＠キャスター
+んで、面倒な事に探しものにはオレも含まれている。[r]オレを仕留めないかぎり、聖杯戦争は終わらないからな。
+[k]
+
+[charaFadeout A 0]
+[communicationCharaLoop 98003003 2 5 0 5]
+＠Dr.ロマン
+残ったサーヴァントはセイバーと貴方だけ……[r]では貴方がセイバーを倒せば、
+[k]
+
+＠キャスター
+おう、この街の聖杯戦争は終わるだろうよ。[r]この状況が元に戻るかどうかまではわからねえがな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠オルガマリー
+なんだ。わたしたちを助けてくれたけど、[r]結局は自分のためだったのね。
+[k]
+
+＠オルガマリー
+貴方はセイバーを倒したい。けれど一人では勝ち目がない[r]からわたしたちに目を付けた……違って？
+[k]
+
+＠キャスター
+その通りだ。だが悪い話じゃあねえだろ？[r]なにしろ[line 3]そら、お客さんの登場だ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaSet F 98006300 1 ？？？]
+[charaDepth F 0]
+[charaFadein F 0.1]
+[se ad25]
+＠？？？
+ＧｕＯＯＯＯＯＯＯＯ！！！！！！
+[k]
+
+[charaFadeout F 0]
+[charaTalk E]
+[charaFadein F 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠オルガマリー
+ひぃ……！
+[k]
+
+[charaFadeout E 0]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+＠キャスター
+コイツらは無尽蔵に湧いてきやがる。[r]味方は多いに越した事はねえってこった！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

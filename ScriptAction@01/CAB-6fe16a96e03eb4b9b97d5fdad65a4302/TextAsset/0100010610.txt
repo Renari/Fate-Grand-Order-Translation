@@ -1,0 +1,171 @@
+＄01-00-01-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 98006300 1 正体不明人型]
+[charaTalk E]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace E 0]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠マリー・アントワネット
+[line 2]ふう。[r]はい、ここまで逃げれば大丈夫かしら？
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクター？
+[k]
+
+＠Dr.ロマン
+ああ。反応はもう消失している。
+[k]
+
+＠Dr.ロマン
+ついでに言うと、[r]そこからすぐ近くの森に霊脈の反応を確認した。
+[k]
+
+[charaFace A 13]
+＠マシュ
+わかりました。[r]ジャンヌさん、それから……マリーさん？
+[k]
+
+[charaFace E 5]
+＠マリー・アントワネット
+マリーさん、ですって！
+[k]
+
+[charaFace A 8]
+＠マシュ
+し、失礼しました。[r]ええと[line 2]。
+[k]
+
+[charaFace E 1]
+＠マリー・アントワネット
+失礼じゃないわ、とっても嬉しいわ！[r]いまの呼び方、耳が飛び出るくらい可愛いと思うの！
+[k]
+
+＠マリー・アントワネット
+お願い、素敵な異国のお方！[r]これからもそう呼んでいただけないかしら……！
+[k]
+
+[charaFace A 3]
+＠マシュ
+は、はぁ……。[r]ミス・マリー、とかマドモアゼル・マリー……では？
+[k]
+
+[charaFace E 2]
+＠マリー・アントワネット
+ダメ。ぜんぜんダメ。[r]マリーさん、がいいのっ！　羊さんみたいで！
+[k]
+
+？1：それはメリーさんでは……
+
+？2：よろしく、マリーさん。
+
+？！
+
+[charaFace E 1]
+＠マリー・アントワネット
+はい！　はいはいはい！[r]はじめまして、マリーさんです！
+[k]
+
+＠マリー・アントワネット
+話の早い[&殿方:女性]は魅力的よ。当ててみせるわ、[r][&貴方:貴女]、とてもおもてになるのではなくて！？
+[k]
+
+[charaFace A 11]
+＠マシュ
+……………マリーさん。[r]話をしていいでしょうか？
+[k]
+
+[charaFace E 3]
+＠マリー・アントワネット
+ああ、ごめんなさい。[r]わたしったらひとりで舞い上がって、はしたない。
+[k]
+
+[charaFace E 0]
+＠マリー・アントワネット
+それで、ご用事は何かしら？
+[k]
+
+[charaFace A 0]
+＠マシュ
+この近くの森に、強い霊脈が探知されました。[r]拠点とするため、そこに向かいたいのですが……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+皆さん、問題ありませんか？
+[k]
+
+[charaFace E 1]
+＠マリー・アントワネット
+もちろん構わないわ。[r]いいですか、アマデウス？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠アマデウス
+僕に意見は求めても無駄だってば。[r]君の好きにすればいい、マリア。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+わかりました。[r]問題はない、と思います。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+では、そこで腰を落ち着けて、[r]これから先のことを話し合いましょう。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20800 0]
+[charaFace G 0]
+[charaFadein G 0 1]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+[se ad25]
+[wt 0.5]
+[charaFadeout G 0.1]
+[wt 0.5]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……どうやら、霊脈に群がっている[r]モンスターたちがいるようですね。
+[k]
+
+[charaFace A 2]
+＠マシュ
+蹴散らします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,227 @@
+＄01-00-01-15-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20602 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 98025000 1 汎用シャドーサーヴァント]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 4]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ジャンヌさん、先ほどからどうしたんですか？
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+いえ、少し気になることがありまして……。[r]何でもありません、大したことではないので。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+それより、“竜の魔女”との対面です。[r]最早、何も邪魔はないはず。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+行きましょう！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20900 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+[se ad35]
+[wait se ad35]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……思っていたより、早かったですね。[r]なら、術式を組み替えるしかありませんか[line 2]
+[k]
+
+[charaTalk D]
+[charaFadeout E 0]
+[charaFadein E 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+[line 2]“竜の魔女”。
+[k]
+
+＠ジャンヌ・オルタ
+とうとう、此処まで辿り着いてしまったのですね。[r]ジルは[line 2]まだ生きていますが足止めされましたか。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+まあいいでしょう、こちらも準備は整っています。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+貴女に伝えるべきことを伝えろ。[r]……これはマリーの言葉です。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+それで私も一つだけ、[r]うかがいたい事がありました。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+今さら、問い掛けなど[line 2]
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+極めて簡単な問い掛けです。[r]貴女は、[#自分の家族を覚えていますか]。
+[k]
+
+＠ジャンヌ・オルタ
+……………………え？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+ジャンヌ……さん？
+[k]
+
+[charaFadeout A 0]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠ジャンヌ
+ですから、簡単な問い掛けだと申し上げたはず。
+[k]
+
+＠ジャンヌ
+戦場の記憶がどれほど強烈であろうとも、私は[r]ただの田舎娘としての記憶の方が、遥かに多いのです。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+私の闇の側面だとしても、[r]あの牧歌的な生活を忘れられるはずがない。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+いえ、忘れられないからこそ[line 2][r]裏切りや憎悪に絶望し、嘆き、憤怒したはず。
+[k]
+
+＠ジャンヌ・オルタ
+私、は……。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+[line 2]記憶が、ないのですね。
+[k]
+
+[charaFace E 4]
+＠ジャンヌ・オルタ
+それが……それが、どうした！
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+記憶があろうがなかろうが、[r]私がジャンヌ・ダルクである事に変わりはない！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+確かにその通りです。[r]貴女の記憶があろうがなかろうが、関係はない。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+けれど、これで決めました。[r]私は怒りではなく哀れみを以て“竜の魔女”を倒します。
+[k]
+
+＠ジャンヌ・オルタ
+[line 2]サーヴァント！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[se su2]
+[wait se su2]
+[messageOff]
+[flashin once 1 1 FFFFFF80 00000000]
+[wt 1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.5]
+[wait flash]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[charaTalk A]
+[charaFadeout F 0]
+[charaFadein F 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+これは……冬木の街にいたサーヴァント！[r]それもこんなに……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+通常のサーヴァントを召喚するほどの暇は[r]なかったですが、この程度ならば幾らでも量産できます。
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+屠れ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、来ます！
+[k]
+
+？1：やるぞ、マシュ！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

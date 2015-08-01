@@ -1,0 +1,494 @@
+＄01-00-02-15-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[scene 20701 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 1018001 1 アルテラ]
+[charaSet H 6011001 1 荊軻]
+[charaFace F 4]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠アルテラ
+……そう、か。
+[k]
+
+＠アルテラ
+世界には……。[r]私の剣でも、破壊されないものが……在る、か。
+[k]
+
+[charaFace F 0]
+＠アルテラ
+神の鞭と、呼ばれた……。
+[k]
+
+[charaFace F 4]
+＠アルテラ
+私の、この……。
+[k]
+
+＠アルテラ
+[#軍神:マルス]の剣、でも……。[r]そうか……。
+[k]
+
+[charaFace F 0]
+＠アルテラ
+それは……。
+[k]
+
+[charaFace F 1]
+＠アルテラ
+少し……嬉しい、な……。
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect F]
+[effect bit_talk_20 1]
+[se bas2]
+[wt 0.3]
+[effectStop]
+[wait effect]
+[wt 0.5]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠ネロ
+……消えた、か。アルテラ。[r]縁があれば、いつか違うカタチで戦う事もあろう。
+[k]
+
+[charaFace D 0]
+＠ネロ
+しかし……これで終わったのか？[r]そなたたち、聖杯とやらは手に入って[line 2]
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい。聖杯を入手しました。[r]これで、わたしたちの作戦は終了です。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ありがとうございました。[r]ネロ・クラウディウス。
+[k]
+
+[charaFace D 2]
+＠ネロ
+マシュ、なんだか足の先から薄くなっているぞ！[r]まさかおまえたちも消えるのか！？
+[k]
+
+[charaFace D 4]
+＠ネロ
+[%1]、フォウも……。[r]そうか。消える、か……。
+[k]
+
+？1：さよなら
+
+？2：もう行かなくては
+
+？！
+
+[charaFace D 1]
+＠ネロ
+……何となく、そんな気はしていたのだ。[r]余は勘が鋭いほうだからな。
+[k]
+
+[charaFace D 4]
+＠ネロ
+伯父上や神祖、アルテラたちと同じように[r]おまえたちも消えてゆくのだろうと。
+[k]
+
+[charaFace D 0]
+＠ネロ
+ブーディカも、そうか？[r]荊軻や呂布、スパルタクスも。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……はい。
+[k]
+
+＠マシュ
+この時代は修正されます。そしてきっと、[r]連合との戦いの記憶も、なかったことになるでしょう。
+[k]
+
+[charaFace D 4]
+＠ネロ
+寂しいな、それは。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そう、ですね……。
+[k]
+
+[charaFace D 3]
+＠ネロ
+もはや疑わぬ。余はその言葉を信じるが、[r]困ったな、これは。
+[k]
+
+[charaFace D 4]
+＠ネロ
+正直に言って残念だ。無念だ。[r]まだ、余は何の報奨も与えてはいないというのに。
+[k]
+
+＠ネロ
+おまえたちであれば、きっと、[r]余にとって、臣下ではなく、もっと別の[line 2]
+[k]
+
+[charaFace D 0]
+＠ネロ
+いや。やめておこう。[r][%1]たちの行く先にもきっとローマはあろう。
+[k]
+
+＠ネロ
+ローマとは世界に他ならぬ。[r]そう、神祖も余も確かに口にしたからな。
+[k]
+
+[charaFace D 1]
+＠ネロ
+だから、別れは言わぬぞ。[r]礼だけを言おう。
+[k]
+
+[effect bit_talk_06]
+[wt 0.5]
+＠ネロ
+[line 2]ありがとう。[r]そなたたちの働きに、全霊の感謝と薔薇を捧げる、とな！
+[k]
+
+[effectStop bit_talk_06]
+[wt 0.5]
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 4]
+[fadeout white 1]
+[effectStop bit_talk_07]
+[wait effect]
+[wait fade]
+[scene 10201]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[bgmStop BGM_EVENT_6 0.4]
+[bgm BGM_EVENT_2 0.1]
+[fadein white 1]
+[wait fade]
+[wt 0.5]
+＠Dr.ロマン
+おかえり、ふたりとも。[r]そしてお疲れ様。聖杯を見事に回収したね。
+[k]
+
+？1：あれで良かったのか？
+
+？2：いつの間に？
+
+？！
+
+[charaFadeout B 0]
+[charaTalk D]
+[charaFadein B 0.1 2]
+[charaSet D 5009001 0 ダ・ヴィンチ]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ダ・ヴィンチ
+それは私から説明するよ。[r]聖杯はその空間における魔力の使用方法を定める[#法:のり]だ。
+[k]
+
+＠ダ・ヴィンチ
+まあ、世界のルールと思っていい。それは本来カタチの[r]ないものだが、レフは結晶化して所有していた。
+[k]
+
+＠ダ・ヴィンチ
+我々はその仕組みを解析する事はできないが、[r]封印する事ぐらいはできる。
+[k]
+
+[charaFace D 1]
+＠ダ・ヴィンチ
+マシュの盾にちょっと細工して、[r]聖杯を仕舞うスペースを作らせてもらったワケ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+わたしの盾に、そんな機能が……？
+[k]
+
+[charaFace D 0]
+＠ダ・ヴィンチ
+ああ、聖遺物は聖遺物の中にって寸法さ。
+[k]
+
+＠ダ・ヴィンチ
+一つぐらいしか入らないから、[r]その度にこっちで中身を回収させてもらうよ……っと！
+[k]
+
+[charaFace A 3]
+＠マシュ
+あわわ……！
+[k]
+
+[charaDepth D 3]
+[charaMove D 2 1]
+[wait charaMove]
+[charaMove D 1 0.5]
+[charaMove A 1 0.5]
+[wait charaMove]
+[wt 0.5]
+[charaFace D 1]
+＠ダ・ヴィンチ
+はーい、きっちり納品、確認しました～♪[r]じゃあまた、次もはりきって探索してくれたまえ！
+[k]
+
+[charaFadeout D 0.4]
+[wt 0.5]
+[charaFadeout A 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+ともあれこれで二つ目だ。[r]我々の当初の目的であるレフの追跡も達成できた。
+[k]
+
+？1：でも、レフは―――
+
+？2：何も聞き出せなかった……
+
+？！
+
+[charaFace B 4]
+＠Dr.ロマン
+……ああ。アルテラの手で殺されてしまった。[r]その目的、意図を我々に明かさないまま。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……レフ教授はなぜ人類を裏切ったのか。[r]どうして人類を滅ぼそうと考えたのか……ですね？
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+そうだ。何もかも不明のままだ。[r]けれどまだ五つの特異点は残っている。
+[k]
+
+＠Dr.ロマン
+レフは“我ら御柱”と言った。つまり、まだ他にレフと[r]同じ役割を持った敵がいるという事だ。
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+それが何なのか、現段階ではわからない。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+今のボクらにできる事は一つずつ聖杯を回収し、[r]特異点を修復する事だけだ。
+[k]
+
+？1：次の聖杯も任せて
+
+？2：先は長いですね
+
+？！
+
+[charaFace B 1]
+＠Dr.ロマン
+ああ、いい返事だ。[r]頼りにしているよ、[%1]君。
+[k]
+
+＠Dr.ロマン
+そんなに時間はあげられないけど、[r]今夜はゆっくりと休んでほしい。
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+前回といい、かなりの距離を歩き詰めているだろ。[r]よくマッサージをしておかないと後にたたるからね。
+[k]
+
+[se ad8]
+[wait se ad8]
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.5]
+[scene 10310 0]
+[charaFace A 12]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+…………
+[k]
+
+？1：元気がないね、マシュ。
+
+？2：……もしかして、ネロのこと？
+
+？！
+
+[charaFace A 8]
+＠マシュ
+……はい。ネロさんとは突然の別れでしたから。[r]彼女をひとり、あの世界に残した事が申し訳なくて……
+[k]
+
+[charaFace A 4]
+＠マシュ
+たとえ無かった事になったとしても、[r]最後の瞬間、彼女はひとりきりになった。
+[k]
+
+＠マシュ
+尊敬していた先達たちを倒し、[r]死別した好敵手たちとも別れ[line 3]
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの広い帝国にただひとり、皇帝として残された。[r]……この先。誰に頼る事もできない、独りのままで。
+[k]
+
+？1：……今回の戦いは、辛かった？
+
+？2：……じゃあ、ネロも寂しいと思う？
+
+？！
+
+[charaFace A 6]
+[wt 0.5]
+[charaFace A 13]
+＠マシュ
+[line 3]いいえ。いいえ、それは違います。[r]……きっと、違うと思うんです。
+[k]
+
+＠マシュ
+確かに今回の戦いは激しいものでした。[r]何度も死にかけたし、何度であっても戦いは怖いです。
+[k]
+
+[charaFace A 1]
+＠マシュ
+でも[line 3][r]でも、楽しい旅でした。
+[k]
+
+＠マシュ
+いつも華やかだったネロさんのおかげも[r]あったのでしょうけど……わたしは、とても楽しかった。
+[k]
+
+？1：ネロもきっとそうだったと思うよ
+
+？2：ネロらしい、賑やかな帝国だったね
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……はい。[r]あの空と大地を忘れません。ずっと。
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 10310 0]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+ところで、先輩。[r]先ほどのドクターの話ですが。
+[k]
+
+？1：ロマンの話って、なに？
+
+？2：マッサージのこと？
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。疲れをとるケアのことです。[r]わたしがマッサージを行いましょうか？
+[k]
+
+＠マシュ
+効果的なマッサージ方法を習得しています。[r]東洋の、ツボ、というものも幾つか。
+[k]
+
+？1：お願いしようかな
+
+[charaShake A 0.1 0 3 0.1]
+[charaFace A 1]
+＠マシュ
+本当ですか！？
+[k]
+
+？2：遠慮しておく
+
+[charaFace A 7]
+＠マシュ
+そう言わず、ぜひ！
+[k]
+
+？！
+
+[charaFace A 13]
+＠マシュ
+……こほん。[r]ちょっと、試してみたいと思っていたんです。
+[k]
+
+＠マシュ
+はい。それだけです。[r]いえ、その……。
+[k]
+
+[charaShake A 0.1 5 0 0.8]
+[charaFace A 8]
+＠マシュ
+以前、試したことがあって。[r]その時、ひどく、痛がられてしまって……あ！
+[k]
+
+[charaFace A 3]
+＠マシュ
+も、もう、そんなことはないはずです。[r]あれから練習しましたから、イメージトレーニングで。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あれ？　先輩？
+[k]
+
+[charaFace A 13]
+＠マシュ
+どこへ行くんです？[r]あ、自分の部屋でマッサージを受けたいんですね？
+[k]
+
+[charaFace A 3]
+＠マシュ
+先輩……？
+[k]
+
+[messageOff]
+[charaFadeout A 0]
+[scene 10000 1]
+[wait scene]
+[bgmStop BGM_EVENT_2 1.5]
+[wait fade]
+[soundStopAll]
+[wt 1]
+プレゼントボックスに報酬が届いています。[r]ご確認ください。
+[k]
+
+[messageOff]
+[fadeout white 1]
+[wait fade]
+[end]

@@ -1,0 +1,73 @@
+＄01-00-02-04-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006200 1 雑魚エネミー煙状]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘終了しました。[r]では、ターミナルポイント、作成します[line 2]
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[wt 0.3]
+＠Dr.ロマン
+…………ん。あれ？
+[k]
+
+＠Dr.ロマン
+ダ・ヴィンチちゃん出てこないね。あれ？[r]ああ、これはもしかしたら、今回はアレなのかな。
+[k]
+
+＠フォウ
+フォウ？
+[k]
+
+＠Dr.ロマン
+シバの調整か何かで忙しくて、[r]ダ・ヴィンチちゃんに時間がないのかもしれない。
+[k]
+
+＠フォウ
+フォウフォウ……。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[se ad29]
+[wait fade]
+[wt 0.5]
+[scene 10500 0]
+[fadein black 0.5]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[wt 0.3]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+召喚サークル、確立完了しました。[r]これで、この時代でも戦力が確保できるはずです。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

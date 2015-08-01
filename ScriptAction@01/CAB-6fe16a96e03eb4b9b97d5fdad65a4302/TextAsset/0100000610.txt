@@ -1,0 +1,83 @@
+＄01-00-00-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10700]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 6002001 1 サーヴァント]
+[fadein black 1]
+[wait fade]
+[charaFace E 3]
+[charaFadein E 0.5 0]
+[wt 1]
+[charaFace A 15]
+[charaFadein A 0.5 2]
+＠オルガマリー
+ハァ、ハァ、ハ[line 3]ああもう、どういう事よ!?[r]なんでサーヴァントがいるの!?
+[k]
+
+＠Dr.ロマン
+そうか……聖杯戦争だ！[r]その街では聖杯戦争が行われていた！
+[k]
+
+＠Dr.ロマン
+本来なら冬木で召喚された七騎による殺し合いだけど、[r]そこはもう“何かが狂った”状況なんだ！
+[k]
+
+＠Dr.ロマン
+マスターのいないサーヴァントがいても不思議じゃない。[r]そもそも、サーヴァントの敵はサーヴァントだ！
+[k]
+
+[charaFace A 15]
+＠マシュ
+……じゃあ……わたしがいるかぎり、[r]他のサーヴァントに狙われる……？
+[k]
+
+[charaFace E 1]
+＠オルガマリー
+マシュは聖杯とは無関係でしょう！[r]アレはただの、理性を亡くした亡霊よ！
+[k]
+
+[charaFadeout A 0]
+[charaFadeout E 0]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：サーヴァント
+[line 6]見ツケタゾ。[r]新シイ獲物。聖杯ヲ、我ガ手ニ！
+[k]
+
+＠Dr.ロマン
+サーヴァント反応、確認！[r]そいつはアサシンのサーヴァントだ！
+[k]
+
+[charaFadeout F 0]
+[wt 0.1]
+[charaShadow F false]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……！　応戦します！[r]先輩、わたしを使ってください……！
+[k]
+
+？1：わかった、絶対に勝たせてみせる！！
+
+？2：すまない、なんとかしのいでくれ！
+
+？！
+
+[charaFace A 13]
+＠マシュ
+[line 3]はい。[r]あなたに勝利を、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

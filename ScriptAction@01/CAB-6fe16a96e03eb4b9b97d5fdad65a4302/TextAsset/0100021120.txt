@@ -1,0 +1,148 @@
+＄01-00-02-11-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 4015001 1 ？？？]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaTalk H]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace H 0]
+[charaFadein H 0 2]
+[fadein black 1]
+[wait fade]
+＠荊軻
+……以上。[r]既に、連合軍は明確な指揮の下にはない。
+[k]
+
+＠荊軻
+発生しているのは、[r]我が軍と偶発的に遭遇した独立部隊との戦いばかり。
+[k]
+
+[charaFace H 1]
+＠荊軻
+戦況は明るい。[r]そう言って良いだろう。
+[k]
+
+[charaFace D 1]
+＠ネロ
+うむ！[r]余の軍は真の力を取り戻した、と言う訳だな！
+[k]
+
+＠ネロ
+いいや、マシュたちもいるのだ。[r]最早、大逆者どもなど余の軍の敵ではないわ！
+[k]
+
+[charaFace H 4]
+＠荊軻
+油断は命取りになる、ネロ・クラウディウス。[r]いや。時には隙などなくとも命は消える。
+[k]
+
+[charaFace H 5]
+＠荊軻
+連合首都の守りは未だ固い。[r]それ故に、我が軍とぶつかる軍が脆弱とも言える。
+[k]
+
+[charaFace D 3]
+＠ネロ
+う、うむ。[r]荊軻は用心深いのだな。
+[k]
+
+[charaFace H 5]
+＠荊軻
+貴殿は忘れたか？[r]私は、そもそも暗殺を生業とするものだ。
+[k]
+
+[charaFace H 0]
+＠荊軻
+策は得意とするものであり、[r]同時に、最も警戒するものだ。
+[k]
+
+[charaFace D 4]
+＠ネロ
+ふうむ……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout H 0.1]
+[charaFadein E 0.1 2]
+＠ローマ兵
+恐れながら皇帝陛下に申し上げる！[r]前方に敵軍の影あり！　そして後方にも、敵軍！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+後方……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+確か、後方には呂布将軍が控えていた筈だね。[r]スパルタクスも。いけない、このまま放っておくと[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace H 5]
+[charaFadein H 0.1 2]
+＠荊軻
+まずいな。[r]これは。
+[k]
+
+[charaFace H 0]
+＠荊軻
+ひとたび戦いを始めれば、あの二名は、[r]敵を追って何処までも追撃しかねん……。
+[k]
+
+[charaFace D 5]
+＠ネロ
+だからこそ後方に配置したのだ。[r]来たるべき首都攻略戦のため……それが裏目に出たかっ。
+[k]
+
+[charaFace D 2]
+＠ネロ
+ここで将軍たちを迷子にさせる訳にはいかぬ！[r]すまぬマシュ、[%1]、頼まれてくれ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+了解です。[r]後方に迫る敵軍を阻めば良い、ということですね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+防御の戦闘であれば、比較的、得意分野です。[r]比較的……では、ありますが。
+[k]
+
+？1：急ごう！
+
+？2：無理はしないで
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

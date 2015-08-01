@@ -1,0 +1,273 @@
+＄01-00-02-13-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10800 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7005001 1 スパルタクス]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 98016000 1 ローマ兵]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaFadein F 0.1 1]
+[fadein black 1]
+[wait fade]
+[se ad16]
+[se ad33]
+[wt 2]
+[charaFadeout F 0.1]
+[charaTalk G]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠呂布
+[image berserker_language_1][line 2]ッ！！！
+[k]
+
+[seStop ad16 3]
+[charaFace D 2]
+＠スパルタクス
+ははは。はははははははははははは。[r]解放の時は来た。今、意思と肉体を以て圧制者に鉄槌を！
+[k]
+
+[se ad38]
+[wait se ad38]
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[charaFadein F 0.1 1]
+＠ローマ兵
+将軍たちが戻って来たぞ！[r]我らに勝機あり、皇帝陛下に栄光あれ！
+[k]
+
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 10800 0]
+[charaFace E 0]
+[charaFadein E 0.4 2]
+[charaFace H 0]
+[charaFadein H 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ブーディカ
+……なるほど、建国の王さまね。
+[k]
+
+[charaFace E 5]
+＠ブーディカ
+それであの調子ってワケかあ。[r]あんなに暗い顔じゃ兵の士気に関わるんだけどなあ。
+[k]
+
+＠荊軻
+皇帝ネロか？[r]さほど暗くは見えないが。
+[k]
+
+[charaFace H 1]
+＠荊軻
+今も、戦場を巡って兵を鼓舞している。[r]問題はないだろう。
+[k]
+
+[charaFace E 4]
+[charaFace H 0]
+＠ブーディカ
+明るく振る舞ってるけどさ。[r]いつもより、だいぶ光の量が落ちてるよ。
+[k]
+
+＠ブーディカ
+取りあえず、現状は人間の兵が相手ではあるし、[r]親玉は王宮に引っ込んでるからいいけど……。
+[k]
+
+[charaFace E 5]
+＠ブーディカ
+またあのでかいのが顔出した時、[r][#狼狽:うろた]えられたんじゃこっちが困るのよね。
+[k]
+
+[charaFace E 0]
+＠ブーディカ
+連合の士気はおかしいほど高い。[r]みんな命を捨てる覚悟の兵ばかりだった。
+[k]
+
+＠ブーディカ
+それどころか、民のひとりに至るまで、[r]兵士気取りでこっちの兵に襲い掛かってくる。
+[k]
+
+[charaFace E 5]
+＠ブーディカ
+それも神祖って奴のカリスマだったんだね。[r]まるで兵も民も光に集まる蛾みたいだった。
+[k]
+
+[charaFace H 5]
+＠荊軻
+敵の様子は、確かに。[r]これまでにも感じていたことだが。
+[k]
+
+＠荊軻
+連合の人間は盲目的だ。[r]統治、統率されているという証かも知れん。
+[k]
+
+[charaFace H 0]
+＠荊軻
+だが、兵の士気ならこちらも高いぞ。[r]ネロも……やはり、様子はいつもと変わらん。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+＠マシュ
+そう……でしょうか。
+[k]
+
+＠マシュ
+わたしにも少しだけわかります。[r]覇気というか、何か、雰囲気のようなものが。
+[k]
+
+[charaFace A 4]
+＠マシュ
+少し……。[r]かげっているような、気がします。
+[k]
+
+[charaFace A 12]
+＠マシュ
+よほどのショックだったのでしょうか。[r]建国王ロムルスが、連合の王であったこと……。
+[k]
+
+？1：ロムルス？
+
+？2：神話の人物だったような
+
+？！
+
+[se ad13]
+[wait se ad13]
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+そう。建国王ロムルス。[r][#七つの丘:セプテム・モンテス]にローマの都を打ち立てた大英雄だ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+まさしくローマの神祖と呼べる人物さ。[r]何せ、神の子だ。軍神マルスの子だそうだよ。
+[k]
+
+＠Dr.ロマン
+軍神マルスとは、すなわち、ギリシャ神話に於ける[r]軍神アレスに相当する神性な訳だけど[line 2]
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+いや、脱線はやめよう。[r]ともかくだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+実在かそうでないかはあまり関係がない。[r]説明を受けたように、英霊とは、人の夢見る英雄だ。
+[k]
+
+＠Dr.ロマン
+つまり、ね。[r]皇帝ネロもまた、ロムルスを夢見たんだろう。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ローマを作りたもうた輝ける英雄としてね。[r]それが、まさかの敵対者だった。ショックだろうね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk E]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠ブーディカ
+例えばあたしが、[r]ケルトの神々に裏切られるようなもんかな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+近いかな。あとはそうだな、[r]最愛の旦那さんに裏切られる感じとか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠ブーディカ
+あたしの旦那は最高の旦那さん。[r]世界がひっくり返っても裏切らないから。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+例えばの話だから……。[r]おっと、そろそろ君たちの出番のようだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+サーヴァントじゃないけど魔力反応だ。[r]怪物の類かな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠荊軻
+……私は、王宮への侵入経路を探る。
+[k]
+
+＠ブーディカ
+じゃ、あたしは兵と皇帝を守るよ。[r]マシュ、[%1]、任せていいかな。
+[k]
+
+？1：任せて
+
+[charaFace E 1]
+＠ブーディカ
+頼んだよ。[r]んじゃいっちょ、頼りない皇帝を助けちゃおう！
+[k]
+
+？2：あまり期待しないで
+
+[charaFace E 3]
+＠ブーディカ
+んーん、期待する。[r]マシュ、なんとかしてくれるんでしょ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。きっと。[r]先輩は、やる時はそれなりにやってくれる人です。
+[k]
+
+？！
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.5]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+では、マスター。[r]接近する敵性生物との戦闘を開始します。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

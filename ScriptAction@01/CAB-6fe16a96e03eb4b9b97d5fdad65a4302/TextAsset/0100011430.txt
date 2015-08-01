@@ -1,0 +1,83 @@
+＄01-00-01-14-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20602 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 1008001 1 ジークフリート]
+[charaSet F 98006100 1 雑魚エネミー瘴気付き]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+[charaFace A 5]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+この程度なら……！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+しかし、数が多いですね……！[r]このっ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 2]
+[charaFadein H 0.1 0]
+＠エリザベート
+そんなことより、この巨大ヒトデは何なのよ！[r]やだもー、ヘンな液が服に掛かる！　掛かるーっ！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+＠清姫
+汚らわしい。[r]マスター、わたくしの身をお守り下さいませ。
+[k]
+
+[charaFace A 15]
+＠マシュ
+サ、サーヴァントとしての役割をちゃんと[r]果たして下さいね！
+[k]
+
+[se ad19]
+[wait se ad19]
+[charaFadeout G 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠エリザベート
+へ？　この啼き声って……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[charaFadein F 0.1 1]
+[wt 0.5]
+[charaTalk F]
+[charaFadeout F 0]
+[charaFadein F 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+敵、視認しました！[r]今度はワイバーン……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠清姫
+まったく。[r]この狭い城内で、器用なことね！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,82 @@
+＄01-00-02-14-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 3010001 1 ロムルス]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaFace F 0]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+[wt 0.3]
+[se ad35]
+[wait se ad35]
+[wt 0.3]
+＠ロムルス
+……来たか、愛し子。
+[k]
+
+[charaFadeout F 0]
+[charaTalk D]
+[charaFadein F 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ネロ
+うむ、余は来たぞ！[r]誉れ高くも建国成し遂げた王、神祖ロムルスよ！
+[k]
+
+[charaFace F 1]
+＠ロムルス
+……良い輝きだ。[r]ならば、今一度呼び掛ける必要はあるか、[#皇帝]よ。
+[k]
+
+[charaFace D 0]
+＠ネロ
+いいや、必要はない。[r]今、そなたが口にした通りに[line 2]
+[k]
+
+[charaFace D 5]
+＠ネロ
+過去も、現在も、未来であっても。[r]余こそが、ローマ帝国第五代皇帝に他ならぬ！
+[k]
+
+[charaFace D 2]
+＠ネロ
+故にこそ、神祖ロムルスよ！[r]余は、余の剣たる強者たちでそなたに相対する！
+[k]
+
+[charaFace F 0]
+＠ロムルス
+許すぞ、ネロ・クラウディウス。[r][#私:ローマ]の愛、おまえの愛で見事蹂躙してみせよ。
+[k]
+
+＠ロムルス
+見るがいい。[r]我が槍、すなわち[line 2]
+[k]
+
+[charaFace F 2]
+＠ロムルス
+[line 2][#私:ローマ]が此処に在ることを！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+敵性サーヴァントが接近。想定クラスはランサー。[r]戦闘に突入します。マスター、指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

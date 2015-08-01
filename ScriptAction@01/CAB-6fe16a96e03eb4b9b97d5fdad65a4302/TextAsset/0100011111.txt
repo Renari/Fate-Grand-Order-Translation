@@ -1,0 +1,135 @@
+＄01-00-01-11-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 1008001 1 ジークフリート]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4006001 1 ゲオルギウス]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[fadein black 1]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+よし、これで可能な限りの戦力は揃った訳だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。[r]マスター。
+[k]
+
+？1：オルレアンを攻めよう
+
+？2：竜を倒そう
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、了解しましたマスター！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠エリザベート
+……ふん。[r]そういうコトなら手伝ってあげてもいいわよ、子イヌ。
+[k]
+
+[charaFace G 1]
+＠清姫
+あらエリザベート。[r]わたくしの[#想い人:マスター]に子イヌとは失敬ですよ。
+[k]
+
+[charaFace H 4]
+＠エリザベート
+……アンタいま、とんでもない変換しなかった……？[r]ま、まあいいけど。
+[k]
+
+[charaFace H 1]
+＠エリザベート
+わたしはそんな安いドラゴンじゃないし。[r]とっておきのマスターにいつか必ず出会うんだし！
+[k]
+
+[charaFace G 4]
+＠清姫
+あら。ヒン曲がっているのは頭の角だけじゃないのね。[r]見果てぬ夢を見ているなんて、頭の中は大丈夫？
+[k]
+
+[charaFace H 2]
+＠エリザベート
+見果てぬ夢じゃないってーの！[r]これは確信！　確信だから！
+[k]
+
+[charaFace H 0]
+＠エリザベート
+きっとわたし好みの、わたしを大好きになってくれる、[r]子ブタみたいなマスターと出会えるんだってば！
+[k]
+
+[charaFace G 1]
+＠清姫
+はいはい、今日も頭は日本晴れですねぇ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ゲオルギウス
+……賑やかで結構ですな、こちらの陣営は。[r]もちろん、助力させていただきます。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+おっと、もう出るのかい？[r]じゃあ僕も付き合うよ。ここまで来たら最後までだ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+[%1]さん。[r]いえ、マスター。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+今の私は力無きサーヴァントです。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+それでも、この世界を守りたいと願っています。[r]どうか、共に戦って下さい。
+[k]
+
+？1：もちろんだ
+
+？2：それが自分たちの役割だ
+
+？！
+
+[charaFace D 1]
+＠ジャンヌ
+ありがとうございます……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

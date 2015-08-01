@@ -1,0 +1,171 @@
+＄01-00-01-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98014000 1 兵士]
+[charaSet E 9001001 1 ？？？]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……ふう。お疲れ様でした。
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠兵士
+アンタたち、あいつら相手によくやるなあ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……慣れです。それより申し訳ありませんが、[r]一から事情をお聞かせ下さい。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ジャンヌ・ダルクが蘇ったというのは本当ですか？
+[k]
+
+＠兵士
+ああ。俺はオルレアン包囲戦と式典に参加したから[r]よく覚えている。
+[k]
+
+＠兵士
+髪や肌の色は異なるが、[r]あれは紛れもなくかつての聖女様だ。
+[k]
+
+＠兵士
+イングランドに捕らえられ、火刑に処されたと[r]聞いて俺たちは憤りに震えたものさ。
+[k]
+
+＠兵士
+だが[line 2]彼女は蘇った。[r]しかも、悪魔と取引して！
+[k]
+
+[charaFace A 6]
+＠マシュ
+悪魔、とは？[r]……先ほどの骸骨兵のような？
+[k]
+
+＠兵士
+あれじゃない。[r]あれだけなら俺たちでも対処できる。
+[k]
+
+[se ad19]
+[wait se ad19]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 15]
+＠マシュ
+……ッ!!
+[k]
+
+＠兵士
+くそ、やっぱりだ！[r]来たぞ、迎え討て！
+[k]
+
+＠兵士
+ほらほら立て立て！[r]ドラゴンが来たぞ！　抵抗しなきゃ食われちまうぞ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+君たちの周囲に大型の生体反応！[r]しかも、速い……!!
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠マシュ
+目視しました！[r]あれは、まさか[line 2]。
+[k]
+
+？1：ドラゴン！？
+
+？2：ワイバーン！？
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい。[r]あれは、ワイバーンと呼ばれる竜の亜種体です。
+[k]
+
+[charaFace A 2]
+＠マシュ
+間違っても、絶対に、十五世紀のフランスに[r]存在していい生物ではありません！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+来るぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、全力で対応を！[r]先ほどの骨々六助とはワケが違います！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：？？？
+兵たちよ、水を被りなさい！[r]彼らの炎を一瞬ですが防げます！
+[k]
+
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠兵士
+え……！？
+[k]
+
+[charaFace E 2]
+＠E：？？？
+そこの御方！[r]どうか、武器を取って戦って下さい！
+[k]
+
+＠E：？？？
+私と共に！[r]続いて下さい[line 2]！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+この人は……。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+おおう、サーヴァントだ！[r]しかし反応が弱いな。彼女は一体……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

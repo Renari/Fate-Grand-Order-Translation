@@ -1,0 +1,69 @@
+＄01-00-02-05-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006200 1 雑魚エネミー煙状]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘終了。[r]こちらの損傷は軽微です。
+[k]
+
+[charaFace A 13]
+＠マシュ
+先輩、お疲れさまでした。[r]疲れていませんか？
+[k]
+
+？1：マシュこそ、お疲れさま
+
+[charaFace A 3]
+＠マシュ
+は、はい。……ありがとうございます。[r]でも、味方の兵の方々のほうが心配です。
+[k]
+
+？2：ちょっと疲れた
+
+[charaFace A 0]
+＠マシュ
+無理は禁物です。[r]ネロさんに言って、休ませてもらいましょう。
+[k]
+
+？！
+
+＠Dr.ロマン
+いや、その疲れもあとちょっとの辛抱だ。[r]そろそろ目的地に到着するはずだ。見えてくるよ。
+[k]
+
+[charaFace A 7]
+[charaFace D 3]
+＠ネロ
+……本当に便利なものだな。[r]一国にひとり欲しくなるぞ、魔術師殿。
+[k]
+
+[charaFace D 0]
+＠ネロ
+おっと。魔術師殿の言う通りだ、[%1]。[r]長旅ご苦労だったな。既に、ガリアの地に入っているぞ。
+[k]
+
+[charaFace D 1]
+＠ネロ
+ガリア遠征軍の野営地とは目と鼻の先。[r]しばらくぶりに、ゆっくりと寝所で休めるぞ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

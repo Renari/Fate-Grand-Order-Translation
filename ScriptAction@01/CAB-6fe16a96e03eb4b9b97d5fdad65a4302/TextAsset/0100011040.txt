@@ -1,0 +1,150 @@
+＄01-00-01-10-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 1008001 1 ジークフリート]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaFace A 12]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵のラッシュはどうやら落ち着いたようですが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠エリザベート
+ぐぐぐぐぐぐ……！
+[k]
+
+＠清姫
+……むぅぅぅぅぅ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マシュ
+あの二人を放置していく訳にもいきませんね。
+[k]
+
+[charaFace F 4]
+＠アマデウス
+……だめ、もう限界。吐きそうです、はい。[r]あの連中の事は君たちに一任するよ……
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+＠ジークフリート
+戦えぬ役立たずは沈黙するより他ない。[r]……すまん。
+[k]
+
+？1：二人とも、やめるんだ
+
+？2：喧嘩は良くない
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠エリザベート
+あん？
+[k]
+
+＠清姫
+何か仰いまして？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+＠マシュ
+その、喧嘩はよくありま[line 2]。
+[k]
+
+[charaFace H 2]
+＠エリザベート
+引っ込んでなさいよ、[&子イヌ:子ジカ]！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+＠清姫
+無謀と勇気は違いますわよ、猪武者ですか？
+[k]
+
+？1：は虫類よりマシだ
+
+？2：ほ乳類の方が格上だ
+
+？！
+
+[charaFace A 14]
+＠マシュ
+マ、マスター？　マスターってば[r]ちょっと怒ってませんか？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠エリザベート
+……カッチーンと来たわ。
+[k]
+
+＠清姫
+来ましたわね。[r]その暴言、地獄の底で後悔しなさい。
+[k]
+
+[charaFace G 2]
+＠清姫
+エリザベート、行きますわよ！
+[k]
+
+[charaFace H 2]
+＠エリザベート
+ええ、そうね。そこらの雑魚ワイバーンを[r]倒したくらいで調子に乗らないで！
+[k]
+
+[charaFace H 5]
+＠エリザベート
+竜種の真の恐ろしさ、見せてあげるわ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠マシュ
+二人で手を組んじゃったじゃないですか！？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

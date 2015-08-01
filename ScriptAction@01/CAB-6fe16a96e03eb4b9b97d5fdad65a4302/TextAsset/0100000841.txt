@@ -1,0 +1,90 @@
+＄01-00-00-08-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10710]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 5021001 0 キャスター]
+[charaSet G 98006300 1 ？？？]
+[charaFace A 2]
+[charaFadein A 0]
+[charaFace F 0]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+[effect bit_talk_12 1]
+[shake 0.05 0 10 0.5]
+[se ad32]
+[wt 0.5]
+[se bac1]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+ハァ[line 3]ハァ[line 3]ハッ[line 3]！
+[k]
+
+[charaFadeout A 0]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠キャスター
+おう、そろそろ仕上げだ！[r]主もろとも燃え尽きな！
+[k]
+
+[charaFace F 0]
+[fowardEffect bit_talk_36 1]
+[se ad39]
+＠キャスター
+我が魔術は炎の檻、茨の如き緑の巨人。[r]因果応報、[#人事:じんじ]の[#厄:やく]を清める[#社:やしろ][line 3]
+[k]
+
+[charaFace F 2]
+＠キャスター
+倒壊するはウィッカー・マン！[r]オラ、善悪問わず土に還りな[line 3]！
+[k]
+
+[fowardEffectStop bit_talk_36]
+[voice NP_502100_2]
+[messageOff]
+[fowardEffect bit_talk_29]
+[flashin loop 1 1 FF000080 EE000040]
+[wt 2]
+[fowardEffectStop bit_talk_29]
+[charaFadeout F 0]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ぁ[line 3]あ、
+[k]
+
+[charaFace A 15]
+＠マシュ
+（守らないと……使わないと、みんな消える[line 3][r]　偽物でもいい。今だけでもいい。
+[k]
+
+＠マシュ
+　わたしが……わたしがちゃんと使わないと、[r]　みんな無くなってしまう[line 3]！）
+[k]
+
+[charaFace A 2]
+＠マシュ
+ああ、ああぁあああ[line 6]！！！！
+[k]
+
+[messageOff]
+[voice NP_800100_2]
+[charaEffect A bit_talk_14]
+[fadeout white 2]
+[wt 0.5]
+[charaEffectStop A]
+[wait charaEffect A]
+[flashout 0.7]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,311 @@
+＄01-00-02-13-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10800 0]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 3010001 1 ？？？]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[fadein black 1]
+[wait fade]
+[se ad16]
+[wt 2]
+＠ネロ
+うむ[line 3]要するに決戦である！
+[k]
+
+＠ネロ
+今こそ、余と、余の兵たる貴様たちの力を集める時。[r]この戦いを以てローマは再びひとつとなろう！
+[k]
+
+[seStop ad16 3]
+＠ネロ
+忌々しくも「皇帝」を僭称せしものどもよ、[r]今こそ、偽物のローマが潰える時だ！
+[k]
+
+[charaFace D 2]
+＠ネロ
+戦え、余の兵たちよ！[r]我が剣となって[#僭主:せんしゅ]どもを[#悉:ことごと]く打ち倒せ！
+[k]
+
+＠ネロ
+我が剣は原初の[#情熱:ほのお]にして、[r]剣戟の音は[#宙:ソラ]巡る星の如く。
+[k]
+
+＠ネロ
+聞き惚れよ。しかして[#称:たた]え、更に[#歓:よろこ]べ！[r]余の剣たちよ！
+[k]
+
+[se ad16]
+[wt 4]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+こちらにも彼女の声と歓声は聞こえたよ。[r]兵たちの士気は凄まじいな。
+[k]
+
+[seStop ad16 3]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+既に戦闘が開始されています。[r]ですが、サーヴァントの気配は未だありません。
+[k]
+
+＠マシュ
+わたしたちは王宮攻略作戦に参加します。[r]件の宮廷魔術師、見付けられると良いですが……。
+[k]
+
+？1：レフ・ライノールか
+
+[charaFace A 5]
+＠マシュ
+確証はありません。[r]ですが、その可能性は充分にあります。
+[k]
+
+？2：レフ教授……
+
+[charaFace A 5]
+＠マシュ
+所長を殺し、世界が終わったと述べた危険人物です。[r]同情の余地はありません、先輩。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+マシュ、[%1][&君:ちゃん]、充分注意したまえ。[r]聖杯の所有者と遭遇した場合、一体、何が起こるか。
+[k]
+
+＠Dr.ロマン
+前回は聖杯の力で竜種が召喚されていた。[r]今回、英霊召喚のみに費やされているとはかぎらない。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+それに[line 2]
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+待った。サーヴァントの反応を感知したぞ。[r]近いな、前方に見えるはずだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠E：？？？
+……勇ましきものよ。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+実に、勇ましい。[r]それでこそ、当代のローマを統べる者である。
+[k]
+
+＠ネロ
+む[line 2]
+[k]
+
+＠マシュ
+こちらも視認しました。[r]王宮入り口付近に、巨躯の人物が一名。
+[k]
+
+＠マシュ
+こちらへ向かって、声を……掛けてきました。[r]ネロさんにも聞こえたようです。
+[k]
+
+＠Dr.ロマン
+戦場で、かなりの距離があっても声が届く？[r]流石はサーヴァント。声帯も人間を超えているな。
+[k]
+
+[charaFace E 0]
+＠E：？？？
+そうか。[r]お前が、ネロか。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+何と愛らしく、何と美しく、何と[#絢爛:けんらん]たることか。[r]その細腕でローマを支えてみせたのも大いに頷ける。
+[k]
+
+[charaFace E 1]
+＠E：？？？
+さあ、おいで。
+[k]
+
+＠E：？？？
+過去、現在、未来。[r]すべてのローマがお前を愛しているとも。
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.5]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ネロ
+な……。
+[k]
+
+[charaFace D 5]
+＠ネロ
+何、と……。[r]あれは……い、いや……。
+[k]
+
+[charaFace D 4]
+＠ネロ
+そんなこと、が……あって、良い、のか……。[r]いや、いや……しかし……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ネロさん？[r]顔色が優れません、何か魔術を掛けられて[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+いいや、魔力の働きは感知されていない。[r]魔術やサーヴァントのスキルの類ではないはずだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠マシュ
+では、一体[line 2]
+[k]
+
+？1：あの男に心当たりが？
+
+[charaFace D 4]
+＠ネロ
+そ、れは……。
+[k]
+
+？2：何をそんなに怯えている？
+
+[charaFace D 3]
+＠ネロ
+怯えている……？[r]余が……な、何に、怯えるというのだ……？
+[k]
+
+[charaFace D 0]
+＠ネロ
+余は、ローマ皇帝であるぞ……。[r]そうだ、ローマ……。
+[k]
+
+？！
+
+[charaFace D 4]
+＠ネロ
+ローマ……。[r]あれは……[#あの御方]は……。
+[k]
+
+＠ネロ
+一瞥しただけ、でも……わかってしまう……。[r]あの御方こそ……。
+[k]
+
+[charaFace D 0]
+＠ネロ
+ローマ、だ……。
+[k]
+
+＠E：？？？
+お前には分かるはずだ。[r]ネロよ。
+[k]
+
+＠E：？？？
+さあ、来い。[r][#私:ローマ]へと帰ってくるがいい、愛し子よ。
+[k]
+
+＠E：？？？
+[#私:ローマ]だ。[r][#私:ローマ]こそが、連合帝国なるものの首魁である。
+[k]
+
+＠E：？？？
+お前も連なるがよい。[r]許す。お前のすべてを、[#私:ローマ]は許してみせよう。
+[k]
+
+＠E：？？？
+お前の内なる獣さえ、[#私:ローマ]は愛そう。[r]それができるのは、[#私:ローマ]ひとりだけなのだから。
+[k]
+
+＠E：？？？
+そうだ[line 2]
+[k]
+
+＠E：？？？
+私が、ローマだ。
+[k]
+
+[charaFace D 4]
+＠ネロ
+あ、ああ……。[r]そなたは……いいや、あなたは……。
+[k]
+
+＠ネロ
+あなただけは、有り得ぬと……。[r]余は……。
+[k]
+
+[charaFace D 3]
+＠ネロ
+思っていたのだ……。[r]信じていたのだ、信じたかったのだ……。
+[k]
+
+[charaFace D 0]
+＠ネロ
+しかし、あなたは余の前に立ちはだかるのか！[r]紛うことなき、ローマ建国王！
+[k]
+
+[charaFace D 2]
+＠ネロ
+神祖ロムルス……！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 10800 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[se ad16]
+[wt 3]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、敵の一団が接近中！[r]ネロさんを狙っているものと思われます！
+[k]
+
+？1：迎撃だ！
+
+？2：撃破しつつ、いったん退こう！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[seStop ad16]
+[soundStopAll]
+[end]

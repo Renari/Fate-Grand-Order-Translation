@@ -1,0 +1,254 @@
+＄01-00-02-14-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 4011001 1 ブーディカ]
+[charaSet F 98004000 1 レフ]
+[charaSet G 98017000 1 魔神フラウロス]
+[charaSet H 1018001 1 アルテラ]
+[charaFace A 7]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……不明の敵性生物、撃破です！[r]マスター！
+[k]
+
+？1：よし！
+
+？2：油断は禁物だ！？
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい！
+[k]
+
+[charaFadeout A 0]
+[charaTalk F]
+[charaFadein A 0.1 2]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+＠レフ
+……馬鹿な……。
+[k]
+
+＠レフ
+たかが英霊ごときに……。[r]我らの[#御柱:みはしら]が[#退:しりぞ]けられるというのか？
+[k]
+
+[charaFace F 2]
+＠レフ
+いや、計算違いだ。[r]そうだ、そうだろうとも。
+[k]
+
+＠レフ
+なにしろ神殿から離れて久しいのだ。[r]少しばかり[#壊死:えし]が始まっていたのさ。
+[k]
+
+[charaFace F 3]
+＠レフ
+しかし、私も未来焼却の一端を任された男だ。[r]万が一の事態を想定しなかった訳でもない。
+[k]
+
+[charaFace A 15]
+＠マシュ
+まだ、何か……？
+[k]
+
+＠Dr.ロマン
+気を付けて！　聖杯の活性化を感知した！[r]また何かが起きるぞ、マシュ、[%1]君！
+[k]
+
+[charaFace F 2]
+＠レフ
+……古代ローマそのものを生贄として、[r]私は、最強の大英雄の召喚に成功している。
+[k]
+
+＠レフ
+喜ぶがいい、皇帝ネロ・クラウディウス。[r]これこそ、真にローマの終焉に相応しい存在だ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ネロ
+ローマは世界だ。[r]そして、決して世界は終焉などせぬ！
+[k]
+
+[charaFace F 2]
+＠レフ
+誇りも、方向を誤れば愚直の極みでしかないか。[r]ならばその目で見るがいい、貴様たちの世界の終焉を！
+[k]
+
+[charaFace F 4]
+＠レフ
+さあ[#人類:せかい]の底を抜いてやろう！[r]七つの[#定礎:ていそ]、その一つを完全に破壊してやろう！
+[k]
+
+＠レフ
+[line 2]我らが王の、尊き御言葉のままに！
+[k]
+
+＠レフ
+来たれ！[r]破壊の大英雄アルテラよ！！！！！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[se su2]
+[wait se su2]
+[messageOff]
+[flashin once 1 1 FFFFFF80 00000000]
+[wt 1]
+[charaFace H 0]
+[charaFadein H 1 1]
+＠アルテラ
+[line 4]。
+[k]
+
+＠マシュ
+……………！
+[k]
+
+[charaFadeout H 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠レフ
+さあ、殺せ。破壊せよ。焼却せよ。[r]その力で以て、特異点もろともローマを灼き尽くせ！
+[k]
+
+＠レフ
+ははは！　終わったぞロマニ・アーキマン！[r]人理継続など夢のまた夢！
+[k]
+
+[charaFace F 2]
+＠レフ
+このサーヴァントこそ究極の蹂躙者！[r]アルテラは英霊ではあるが、その力は[line 2]
+[k]
+
+＠アルテラ
+[line 2]黙れ。
+[k]
+
+＠レフ
+え？
+[k]
+
+[messageOff]
+[se bac5]
+[wait se bac5]
+[capture]
+[specialEffect cutting]
+[charaFadeout F 0]
+[effect bit_talk_20 1]
+[charaFace H 0]
+[charaFadein H 0 1]
+[wait specialEffect]
+[charaEffect F bit_talk_35]
+[wt 1]
+[charaFadeout H 0.4]
+[effectStop]
+[wait effect]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……！！！
+[k]
+
+＠Dr.ロマン
+何だ……！？[r]レフ・ライノールの反応が消えているぞ！
+[k]
+
+[charaFace A 15]
+＠マシュ
+彼は……彼は、召喚したサーヴァントに両断されました。[r]真名はアルテラ、恐らくはセイバーです！
+[k]
+
+[charaFace A 6]
+＠マシュ
+聖杯はアルテラの手に！[r]吸い込まれて……え……吸収、している……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠アルテラ
+私は[line 2]
+[k]
+
+＠アルテラ
+フンヌの戦士である。
+[k]
+
+＠アルテラ
+そして、大王である。
+[k]
+
+[charaFace H 5]
+＠アルテラ
+この西方世界を滅ぼす、破壊の大王。
+[k]
+
+[charaFace H 2]
+＠アルテラ
+破壊の[line 2]
+[k]
+
+[fowardEffect bit_talk_36 1]
+[se ad39]
+[wait se ad39]
+＠ネロ
+何か、嫌な感じが……するぞ！[r]マシュ！　何かが来る、余にも分かる！
+[k]
+
+＠Dr.ロマン
+魔力反応、増大！[r]これは宝具の[line 2]それも、対城宝具クラスの解放だ！
+[k]
+
+＠マシュ
+マスター……！
+[k]
+
+？1：宝具使用だ、急げ！
+
+？！
+
+＠マシュ
+はい……！
+[k]
+
+[charaFace H 0]
+＠アルテラ
+おまえたちは言う。
+[k]
+
+[charaFace H 5]
+＠アルテラ
+私は、神の懲罰なのだと。
+[k]
+
+＠アルテラ
+[line 2]神の鞭、なのだと。
+[k]
+
+[fowardEffectStop bit_talk_36]
+[messageOff]
+[charaSpecialEffect H flash 1 0.5]
+[wt 1]
+[voice NP_101800_2]
+[wt 3]
+[fadeout white 1]
+[charaFadeout H 0.1]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

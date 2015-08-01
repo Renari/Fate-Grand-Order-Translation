@@ -1,0 +1,285 @@
+＄01-00-01-15-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 5002001 1 ジル]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[effect bit_talk_20 1]
+[fadein black 1]
+[wait fade]
+[wt 1]
+[charaFace F 4]
+[charaFadein F 0.4 1]
+[wt 1.5]
+[effectStop bit_talk_20]
+[wt 0.5]
+＠ジル
+……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+[line 2]やはり、そうだったのですね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ジル
+勘の鋭い御方だ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace H 2]
+[charaFadein H 0.1 2]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠エリザベート
+あ、此処に居た！
+[k]
+
+＠清姫
+いきなり逃げ出すとは……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠マシュ
+あの、ジャンヌさん。[r]一体[line 2]？
+[k]
+
+＠ジャンヌ
+聖杯を持っているのは、“竜の魔女”ではありません。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+いえ、そもそもあのサーヴァントは[r]英霊の座には決して存在しないサーヴァントです。
+[k]
+
+＠ジャンヌ
+私の闇の側面でない以上、[r]そう結論せざるを得ません。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……では、あの強力な力はどうやって[r]手に入れたのか。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+それは即ち、聖杯に他なりません。[r]つまり“竜の魔女”そのものが[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジル
+その通り。[r]“竜の魔女”こそが、[#我が願望]。
+[k]
+
+＠ジル
+即ち、聖杯そのものです。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+な……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[charaFace G 2]
+[charaFadein G 0.1 0]
+＠エリザベート
+え？　え？　え？　どゆこと？[r]竜って聖杯なの？　じゃあ[#私:アタシ]も！？
+[k]
+
+＠清姫
+このドラお馬鹿。ジャンヌ・ダルクが[r]聖杯を手にして悪事を働いていたのではなく。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+貴方は[line 2][#ジャンヌ・ダルク:わたし]を作ったのですね。[r]聖杯の力で。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ジル
+私は貴女を蘇らせようと願ったのです。[r]心から、心底から願ったのですよ。当然でしょう？
+[k]
+
+[charaFace F 4]
+＠ジル
+……しかし、それは聖杯に拒絶されました。[r]万能の願望器でありながら、それだけは叶えられないと！
+[k]
+
+[charaFace F 5]
+＠ジル
+だが、私の願望など貴女以外には無い！[r]ならば、新しく創造する……！
+[k]
+
+＠ジル
+私が信じる聖女を！　私が焦がれた貴女を！[r]そうして、造り上げたのです！
+[k]
+
+[charaFace F 2]
+＠ジル
+ジャンヌ・ダルク[line 2]“竜の魔女”を。[r]聖杯そのもので！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……そう。彼女は無論、最後まで[r]そのことを知らなかったのでしょうね。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+ジル。もし、私を蘇らせることができたとしても、[r]私は“竜の魔女”になど、決してなりませんでしたよ。
+[k]
+
+＠ジャンヌ
+確かに私は裏切られたのでしょう。[r]嘲弄もされたでしょう。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+無念の最後[line 2]と言えるかもしれません。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+けれど、祖国を恨むはずがない。憎むはずがない。[r]何故なら、この国には貴方たちがいたのですから。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ジル
+……お優しい。あまりにお優しいその言葉。[r]しかし、ジャンヌ。
+[k]
+
+[charaFace F 4]
+＠ジル
+その優しさ故に、貴女は一つ忘れておりますぞ。[r]たとえ、貴女が祖国を憎まずとも[line 2]。
+[k]
+
+[charaFace F 2]
+＠ジル
+私は、この国を、憎んだのだ……！[r]全てを裏切ったこの国を滅ぼそうと誓ったのだ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+ジル……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ジル
+貴女は[#赦:ゆる]すだろう。しかし、私は赦さない！[r]神とて、王とて、国家とて……！！
+[k]
+
+＠ジル
+滅ぼしてみせる。殺してみせる。[r]それが聖杯に託した我が願望……！
+[k]
+
+[charaFace F 2]
+＠ジル
+我が道を阻むな、ジャンヌ・ダルクゥゥゥッ！！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_BATTLE_4 0.1]
+[wt 1]
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+…………そう、そうですね。[r]確かにその通りだ。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+貴方が恨むのは道理で、聖杯で力を得た貴方が[r]国を滅ぼそうとするのも、悲しいくらいに道理だ。
+[k]
+
+＠ジャンヌ
+そして私は[line 2]それを止める。[r]聖杯戦争における裁定者、ルーラーとして。
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+貴方の道を阻みます。[r]ジル・ド・レェ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠ジル
+ならば、今の貴女は私の敵だ。
+[k]
+
+[charaFace F 2]
+＠ジル
+決着をつけよう。[r]救国の聖女、ジャンヌ・ダルク[line 4]！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+望むところ……！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、聖杯を確認しました。[r]指示をお願いします！
+[k]
+
+？1：これが最後の戦いだ
+
+？2：気合を入れろ
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい、これより聖杯を回収します！[r]マシュ・キリエライト[line 2]行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]

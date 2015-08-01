@@ -1,0 +1,232 @@
+＄01-00-02-07-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 連合兵]
+[charaSet F 1013001 1 カエサル]
+[charaSet G 4011001 1 ブーディカ]
+[charaSet H 7005001 1 スパルタクス]
+[fadein black 1]
+[wait fade]
+[se ad16]
+[se ad33]
+[wt 2]
+[charaFadein E 0.1 1]
+[wt 0.5]
+＠連合兵
+申し上げます、皇帝陛下。[r]敵軍の攻勢が増した[line 2]と、前線から早馬がありました。
+[k]
+
+＠連合兵
+[#僭称:せんしょう]皇帝ネロ率いる小部隊が、[r]驚異的な突破力をもって進撃しているとのことです。
+[k]
+
+＠連合兵
+恐らくは、皇帝陛下の仰っていた[r]「特別」な敵将が部隊にいるものと思われます。
+[k]
+
+[seStop ad16 3]
+[charaFadeout E 0]
+[charaTalk F]
+[charaFadein E 0.1 2]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+＠カエサル
+そうか。
+[k]
+
+＠連合兵
+は。
+[k]
+
+＠カエサル
+うむ。
+[k]
+
+＠連合兵
+は。如何いたしましょう。
+[k]
+
+[charaFace F 0]
+＠カエサル
+どうもせん。放っておけ。
+[k]
+
+＠連合兵
+は……。
+[k]
+
+[charaFace F 5]
+＠カエサル
+サーヴァントの相手はサーヴァントにしか務まらん。[r]まったく、面倒なことだ。
+[k]
+
+[charaFace F 4]
+＠カエサル
+神々の気紛れもここまで来ると笑えんな。[r]やれやれ。何が[line 2]
+[k]
+
+[charaFace F 0]
+＠カエサル
+[#セイバー]のクラスだか。[r]この私に、わざわざ剣を執れとはな。
+[k]
+
+＠連合兵
+そ、それは……。[r]皇帝陛下カエサル様、御自らがお出になると？
+[k]
+
+[charaFace F 5]
+＠カエサル
+阿呆。
+[k]
+
+＠連合兵
+はっ。
+[k]
+
+[charaFace F 0]
+＠カエサル
+私が出るのではない。[r]向こうが来るのだ。
+[k]
+
+[charaFace F 4]
+＠カエサル
+私は動かんぞ。[r]貴様らも、連中の相手はそれなりにしておけ。
+[k]
+
+＠連合兵
+し、しかし！[r]我らは真に正統なる連合ローマ帝国の兵士です！
+[k]
+
+＠連合兵
+ガリア支配は神々の意図なれば！[r]撤退などありえません！
+[k]
+
+[charaFace F 5]
+＠カエサル
+阿呆が。死に急ぐか。[r]サーヴァントに、人間は勝てん。死ぬだけだ。
+[k]
+
+＠連合兵
+で、ですが……。
+[k]
+
+[charaFace F 2]
+＠カエサル
+ならば、命令だ。[r]適度に戦え。貴様らの死を私は望まん。
+[k]
+
+＠連合兵
+……はっ。全力を以て！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.3]
+[charaFadeout F 0]
+[wt 0.5]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠カエサル
+と言っても、貴様たちは死ぬのだろうな。[r]自らの信ずるローマのために。
+[k]
+
+[charaFace F 3]
+＠カエサル
+まったく……。[r][#あの御方]の酔狂も大概だ。
+[k]
+
+[charaFace F 5]
+＠カエサル
+完璧な統治。完璧な統率。[r]しかし、それは意思のない群体でもあろうに。
+[k]
+
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20700 0]
+[charaFace G 2]
+[charaFadein G 0.4 2]
+[charaFace H 0]
+[charaFadein H 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait fade]
+[se ad16]
+[se ad33]
+[wt 2]
+＠ブーディカ
+露払いはあたしとスパルタクスでやる！[r]あんたたちは、ネロと一緒に本陣へ突っ切れ！
+[k]
+
+[seStop ad16 3]
+[charaFace H 1]
+＠スパルタクス
+ははははは。素晴らしい、此処にはすべてが在る。[r]圧制者の魔手と化した敵兵は幾百、幾千、幾万か。
+[k]
+
+[charaFace H 0]
+＠スパルタクス
+まさしく勝利の凱歌の時だ。劣勢ではない。優勢なのだ。[r]是より後の我が叫びはすべて、勝ち鬨の先触れと同じく。
+[k]
+
+[charaFace G 5]
+＠ブーディカ
+そっちじゃなくて、こっち！[r]ああもうスパルタクス！
+[k]
+
+[charaFace H 1]
+＠スパルタクス
+ははははは。叛逆の女王は私に味方した。[r]すなわち今こそ勝利は果たされる。強者の潰える時！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ネロ
+……うむ。頼んだぞ、ブーディカ。[r]色々な意味で頼んだからな。
+[k]
+
+[charaFadeout D 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ネロ
+しかし、あのスパルタクスの言葉も間違いではない！[r]今こそ「皇帝」のひとりを倒す時だ！
+[k]
+
+[charaFace D 2]
+＠ネロ
+偽なる「皇帝」に占領されたガリアを取り戻す！[r]ゆくぞ、マシュ、[%1]！
+[k]
+
+[charaFace A 2]
+＠マシュ
+はいっ。マスター！
+[k]
+
+？1：全力で行こう！
+
+？2：命を大事に！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい！　[#作戦:オーダー]、了解しました！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

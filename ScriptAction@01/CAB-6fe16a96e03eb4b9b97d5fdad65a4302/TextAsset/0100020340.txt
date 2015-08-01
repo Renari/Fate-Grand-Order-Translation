@@ -1,0 +1,41 @@
+＄01-00-02-03-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20402 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……暗くなってきましたね。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationChara 98003003 0 5 0 4]
+＠Dr.ロマン
+なのに敵さんはまだやる気のようだな。[r]さすが白兵戦の時代、みんな体力がハンパじゃない。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+でもここが踏ん張りどころだ、[r]気を抜かないようにね、[%1]君！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,368 @@
+＄01-00-02-09-5-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21101 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 6010001 1 ステンノ]
+[charaSet F 3005001 1 エリザベート]
+[charaSet G 7016001 1 タマモキャット]
+[charaSet H 7010001 1 カリギュラ]
+[charaTalk E]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace E 0]
+[charaFadein E 0 2]
+[fadein black 1]
+[wait fade]
+＠ステンノ
+というわけで、ね。[r]現界する時にこの子たちも引っ張ってきたの。
+[k]
+
+[charaFace E 4]
+＠ステンノ
+勇者への洞窟を完成させるためには、[r]私ひとりでは心許なかったものですから。
+[k]
+
+[charaFace E 1]
+＠ステンノ
+それで、この子たちにちょっと[r]テストプレイをしてもらったの。それだけよ？
+[k]
+
+[charaFace F 1]
+＠エリザベート
+ふん。なーんの面白みもないダンジョンだったけど。[r]あ、でも地下洞窟ライブって新しくない!?
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠タマモキャット
+あははははは！
+[k]
+
+[charaFace E 0]
+＠ステンノ
+貴方たち、エリザベートとはお知り合いなのね。[r]じゃあ、この子はどう？
+[k]
+
+[charaFace G 1]
+＠タマモキャット
+あははははは！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+いえ、その……初対面です。[r]サーヴァントであることはわかりますが[line 3]
+[k]
+
+[charaFace G 0]
+＠タマモキャット
+あははははは！[r]では自己紹介とあいなろう！
+[k]
+
+[charaFace G 1]
+＠タマモキャット
+我はタマモナインのひとつ、タマモキャット！
+[k]
+
+[charaFace G 0]
+＠タマモキャット
+語尾はワン。趣味は喫茶店経営。[r]好きなものはニンジンときた。
+[k]
+
+[charaFace G 1]
+＠タマモキャット
+うむ。我ながらブレブレなのだな。[r]だ、ワン。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ネロ
+喋ったぞ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+とってつけたように、だワン……！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……中立、か。敵対サーヴァントでなくて助かったな。[r]いや、味方でなくて助かったとも言えるのか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace G 1]
+[charaFadein G 0.1 0]
+＠タマモキャット
+笑っていたのは愉快だったからだ。[r]アタシは笑い上戸なのでな。
+[k]
+
+[charaFace A 3]
+＠マシュ
+あっ、は、はい。
+[k]
+
+[charaFace G 0]
+＠タマモキャット
+我はタマモナインのひとつ。タマモキャット！[r]ネコ言葉でイイカ？
+[k]
+
+[charaFace A 6]
+＠マシュ
+えっ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ネロ
+タマモナインとは何だ？
+[k]
+
+[charaFace G 0]
+＠タマモキャット
+そうか。イヌ言葉でイイカ？
+[k]
+
+[charaFace D 3]
+＠ネロ
+うむ？？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠ステンノ
+ふふ。思ったより楽しい反応ね。[r]その子と話すの、ちょっとしたコツがいるのよ。
+[k]
+
+[charaFace E 0]
+＠ステンノ
+タマモキャット、ありがとう。[r]でもどうして宝箱の中に入ってくれなかったのかしら？
+[k]
+
+[charaFace E 2]
+＠ステンノ
+最後の仕掛けのはずだったのだけれど。[r]キメラを倒して、手に入れた宝箱の中からばーん、って。
+[k]
+
+[charaFace G 2]
+＠タマモキャット
+では、報酬にニンジンをいただこう！
+[k]
+
+[charaFace E 4]
+＠ステンノ
+宝箱、食べてしまったの？[r]まあ、それは……ええ。それは仕方ないわね。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ネロ
+ふ、ふうむ。[r]会話が成立しておるようだな……。
+[k]
+
+[charaFace D 3]
+＠ネロ
+流石は神、というあたりか。[r]おかしな相手にまるで怯みもせぬとは。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+いやはや。そこそこ楽しくはあるけれど、[r]この島は骨折り損のくたびれもうけだったか。
+[k]
+
+？1：何を他人事みたいに……
+
+？2：そうですね
+
+？！
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+あっはっは。こういうこともあるさ！[r]気を落とさずに、まずは首都ローマにでも戻って[line 2]
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+と、言う訳にもいかないようだ！[r]諸君、サーヴァント反応だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠エリザベート
+ん？　　　　（←サーヴァント）
+[k]
+
+[charaFace G 1]
+＠タマモキャット
+なのだな。　（←サーヴァント）
+[k]
+
+[charaFadeout G 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ステンノ
+あら？　　　（←サーヴァント）
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクター？　（←デミ・サーヴァント）
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いや、ええとすまない言い方が悪かった！[r]君たち以外のサーヴァント反応だ、海から来るぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_2 0.4]
+[se ad36]
+[wt 1]
+[seStop ad36]
+[bgm BGM_EVENT_3 0.1]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠カリギュラ
+[fontSize x-large]余、の……！[fontSize -]
+[k]
+
+＠カリギュラ
+余の……！[r]振るまい、は、運命、で、ある！！
+[k]
+
+[charaFace H 2]
+＠カリギュラ
+捧げよ、その命！[r]捧げよ、その体！
+[k]
+
+[charaFadeout H 0]
+[charaTalk D]
+[charaFadein H 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ネロ
+伯父上……！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠エリザベート
+え、誰？　ネロの伯父さん？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠ステンノ
+まあ、随分と[#絡め取られている]ようね。[r]サーヴァントの扱いとは、そういうものでしょうけれど。
+[k]
+
+[charaFace E 4]
+＠ステンノ
+[line 2]けれど、趣味のよろしくないこと。
+[k]
+
+[charaFace H 1]
+＠カリギュラ
+美しい……。[r]美しい、な……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 3]
+[charaFadein F 0.1 2]
+＠エリザベート
+ビーチに突然現れて、突然のナンパ……！？[r]な、なによ、そりゃあ私は魅力的なアイドルだけどっ。
+[k]
+
+[charaFace F 2]
+＠エリザベート
+そんな野獣みたいな迫り方、最低よ！[r]どこの王侯貴族なのかしら、そちら！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaFadein H 0.1 1]
+＠カリギュラ
+美しい、な……美しい……！[r]おまえは美しい……！
+[k]
+
+[charaFace H 0]
+＠カリギュラ
+奪いたい、貪りたい、引き裂きたい。[r]女神が如きおまえの清らかさ美しさそのすべて……！
+[k]
+
+[charaFace H 5]
+＠カリギュラ
+余の全身で無茶苦茶に蹂躙してやりたいッッ！[r]余は、愛して、いる、ぞ、我が愛しき妹の子[line 2]
+[k]
+
+[charaFace H 2]
+＠カリギュラ
+[fontSize x-large][line 2]ネロォオオオオ！！[fontSize -]
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ネロ
+……そうだ。野獣だ。[r]最早、貴様は我が伯父上ではない！
+[k]
+
+[charaFace D 4]
+＠ネロ
+伯父上は既に死んだのだ。[r]無念の死であったろうと、余は今も思わずにはおれぬ。
+[k]
+
+[charaFace D 5]
+＠ネロ
+しかし、しかし！[r]死に迷い、余の前に姿を現すならば！
+[k]
+
+[charaFace D 2]
+＠ネロ
+引導を渡してくれる。[r]それが姪として、正しき皇帝としての使命と知れ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、サーヴァント戦闘になります。[r]指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

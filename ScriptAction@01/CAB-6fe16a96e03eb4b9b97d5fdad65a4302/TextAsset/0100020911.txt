@@ -1,0 +1,185 @@
+＄01-00-02-09-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 6010001 1 ステンノ]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 2]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+というか、だ！[r]余を放って話を進めるのも大概にせぬか！
+[k]
+
+[charaFace D 0]
+＠ネロ
+だが大雑把だが話は理解したぞ。[r]つまり、そこの女神は敵ではないのだな？
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい。その認識で合っています。
+[k]
+
+[charaFace D 1]
+＠ネロ
+ふむ。ならば話は簡単ではないか。[r]古き女神ステンノよ、我がローマへ来るがよい！
+[k]
+
+[charaFace D 0]
+＠ネロ
+余こそ、ローマだ。[r]ローマ帝国第五代皇帝ネロ・クラウディウス。
+[k]
+
+＠ネロ
+余は貴様を新たな神として受け入れよう。[r]共に、連合帝国を倒そうではないか。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠ステンノ
+まあ、とってもまぶしいのね、貴女って。[r]アポロンと良い勝負。でも、ごめんなさいね皇帝陛下。
+[k]
+
+[charaFace E 4]
+＠ステンノ
+私には戦う力はないの。[r]本当よ？
+[k]
+
+＠ステンノ
+サーヴァントというかたちになって、[r]多少のスキルや基本性能こそ得ているのだけれど……
+[k]
+
+[charaFace E 0]
+＠ステンノ
+妹のように、[r]雄々しく戦う力は持ち合わせてはいないのです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+えー？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠ステンノ
+持ち合わせてはいないのです♡[r]あんまりにも無粋だと後ろから刺しましてよ？
+[k]
+
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……すみません、そうですね。[r]どちらかというと獲物を刈り取る系だよね、この女神。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ステンノ
+でも、そうね。[r]せっかくここまで来てくれた勇者さまだもの。
+[k]
+
+[charaFace E 0]
+＠ステンノ
+ご褒美をあげなくちゃいけないわ。[r]昔なら、[#妹:メドゥーサ]をけしかけたのだけど[line 2]
+[k]
+
+？1：けしかけた？
+
+？2：何も聞こえなかった
+
+？！
+
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ネロ
+けしかけた？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+けしかけた、ですか？
+[k]
+
+[charaFace E 0]
+＠ステンノ
+こほん。ふふ、いいえ、なんでもありません。[r]それでは貴方たちには、女神の祝福をあげましょう。
+[k]
+
+＠ステンノ
+海岸沿いを歩いていくと、[r]洞窟への入口が見付かるわ。そのいちばん奥に、ね。
+[k]
+
+[charaFace E 5]
+＠ステンノ
+宝物を用意したの。[r]この時代には本来存在しない、とっておき。
+[k]
+
+[charaFace E 1]
+＠ステンノ
+楽しい貴方たちにさしあげますわ。[r]ふふ、こんなご褒美、滅多にしないのだけれど。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠ネロ
+ほう、女神の祝福か……。[r]それはまた……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+興味深いねえ。[r]もしかして、聖杯だったりして。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+それでは、カエサルの情報と食い違います。[r]可能性はゼロではないと思いますが……。
+[k]
+
+[charaFace D 1]
+＠ネロ
+どんな宝でも構わんぞ。[r]余には、多くのものを愛でてみせる器がある。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+話は決まったな。[r]では、早速その洞窟へ向かおう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

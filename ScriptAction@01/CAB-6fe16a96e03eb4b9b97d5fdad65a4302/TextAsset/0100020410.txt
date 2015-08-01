@@ -1,0 +1,154 @@
+＄01-00-02-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20900 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006200 1 雑魚エネミー煙状]
+[fadein black 1]
+[wait fade]
+[se ad13]
+[wait se ad13]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+おはようございます。皇帝陛下。[r]実はひとつ、大切なお願いがございます。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ネロ
+うむ、何でも言ってみるがよい。[r]余は寛大だぞ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+この時代に於ける我々の活動を安定させるために、[r]エトナ火山へと参りたいのです。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+我々にとって重要な霊脈が、[r]あの火山には存在しているんです。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ネロ
+エトナか。宮廷魔術師もエトナにはよく行っていたな。[r]ふむ、なぜだ？
+[k]
+
+？1：ターミナルポイントを設置する必要が
+
+？2：戦力の確保ができます
+
+？！
+
+＠ネロ
+なるほどな。[r]よくわからぬが、貴公たちの申し出は認めよう。
+[k]
+
+[charaFace D 1]
+＠ネロ
+貴公たちがエトナへと赴けば、それが[r]余のため、余のローマのためになるのであろう？
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい、陛下。[r]勿論です。
+[k]
+
+[charaFace D 0]
+＠ネロ
+あいわかった。[r]余は連合帝国の調査があるゆえ、同行できぬが[line 2]
+[k]
+
+＠ネロ
+好きにするがよい。[r]道中、連合の兵とまみえた時には油断するなよ。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ありがとうございます。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20700 0]
+[charaFadein C 0 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+[fadein black 0.5]
+[wait fade]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+……意外とあっさり到着できたね。[r]この一帯は、連合にとっては重要な地域じゃないのかな？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+いえ、ドクター。[r]どうやら霊脈には既に何かが群がっているようです！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 2]
+＠マシュ
+あれは[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.5]
+[charaFadeout F 0.1]
+[charaTalk B]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 0]
+＠Dr.ロマン
+死霊系の怪物か！？[r]自然発生してるとしたら、大した霊脈だぞ！
+[k]
+
+？1：蹴散らそう！
+
+？2：霊脈、確保！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+了解、マスター！[r]戦闘開始します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

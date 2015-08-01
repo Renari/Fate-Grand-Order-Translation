@@ -1,0 +1,109 @@
+＄01-00-00-01-1-0
+
+[soundStopAll]
+[scene 10000]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 98006300 1 ？？？]
+[fadein black 1]
+[wait fade]
+＠？？？
+キュウ……キュウ
+[k]
+
+＠？？？
+フォウ……[r]フー、フォーウ……
+[k]
+
+？1：……この鳴き声は……
+
+？2：……また、頬を舐められたような……
+
+？！
+
+＠？？？
+先輩。[r]起きてください、先輩。
+[k]
+
+＠？？？
+……起きません。[r]ここは正式な敬称で呼びかけるべきでしょうか……
+[k]
+
+＠？？？
+[line 3]マスター。[r]マスター、起きてください。起きないと殺しますよ。
+[k]
+
+＠[%1]
+………………、[line 6]
+[k]
+
+[messageOff]
+[wipeout circleIn 2 2]
+[wait wipe]
+[bgm BGM_EVENT_5 0.1]
+[scene 10710]
+[wipein circleIn 1 2]
+[wait wipe]
+[wipeout circleIn 1 2]
+[wait wipe]
+[wipein circleIn 1.5 2]
+[wait wipe]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+良かった。[r]目が覚めましたね先輩。無事で何よりです。
+[k]
+
+？1：マシュ、そっちこそ無事なのか!?
+
+[charaFace A 7]
+＠マシュ
+……………それについては後ほど説明します。[r]その前に、今は周りをご覧ください。
+[k]
+
+？2：いま、殺しますよ、とか言わなかった!?
+
+[charaFace A 11]
+＠マシュ
+……言い間違えました。[r]正しくは殺されますよ、でした。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……その、想定外のことばかりで混乱しています。[r]落ち着きたいところですが、今は周りをご覧ください。
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+Ｇｉ[line 3]ＧＡＡＡＡＡＡＡＡＡＡＡＡ！
+[k]
+
+[charaFadeout F 0]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+[line 3]言語による意思の疎通は不可能。[r][line 3]敵性生物と判断します。
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター、指示を。[r]わたしと先輩の二人で、この事態を切り抜けます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

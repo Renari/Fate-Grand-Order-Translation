@@ -1,0 +1,249 @@
+＄01-00-01-07-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20520 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 6013001 1 ファントム]
+[charaFace G 4]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+＠ファントム
+く……しかし、務めは果たしたぞ。[r]報われぬ、まったく報われぬ務めだったが。
+[k]
+
+[charaFace G 0]
+＠ファントム
+私の歌はここで途絶える。[r]されど、地獄はここから始まる。
+[k]
+
+[charaFace G 2]
+＠ファントム
+喝采せよ、聖女！[r]おまえの邪悪は、おまえ以上に成長した。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+[line 2]黙りなさい。[r]もう、喋るのも辛いでしょうに。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ファントム
+これは言葉ではない。これは歌だ。[r]おまえの先を[#嘆:なげ]き、[#憂:うれ]うためのな。
+[k]
+
+[charaFace G 0]
+＠ファントム
+“竜殺し”は諦めることだ。[r]そうして、果ての果てまで逃げろ。
+[k]
+
+[charaFace G 1]
+＠ファントム
+運が良ければ[line 2]逃げ延びられる可能性はある。
+[k]
+
+[charaFace G 2]
+＠ファントム
+来る。竜が来る。悪魔が来る。[r]おまえたちの誰も見たこともない、邪悪な竜が！
+[k]
+
+[messageOff]
+[se ad39]
+[flashin once 1 0.4 FFFFFFAA 00000000]
+[wt 1.5]
+[charaFadeout G 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アマデウス
+しつこいな、君。[r]コーダは終わりだ、おとなしく奈落に戻れ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+[messageOff]
+[charaSpecialEffect G flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect G]
+[wt 1]
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+邪悪な……竜？
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああ、やっと繋がった！！[r]全員、撤退を推奨する！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaFace 5]
+＠Dr.ロマン
+サーヴァントを上回る[line 2][r][#超極大の生命反応だ]！！
+[k]
+
+＠Dr.ロマン
+猛烈な速度でそちらにやってくるぞ！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……サーヴァントを上回る！？[r]そんな生命が、この世に存在するんですか！？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+あるところにはあるものさ！[r]だって世界は広いからね！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+っと、ゴメン、無駄口は後にする！[r]それだけじゃなかった、サーヴァントも三騎追随！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+……彼らでしょうね。[r]これは、困ったものですわ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アマデウス
+オケは終わったんだ。さっさと逃げよう。[r]今回は無駄骨だけど、まあ、人生なんてそんなものだし。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……でも。待って下さい。
+[k]
+
+＠マシュ
+サーヴァントを上回る生命反応が正しいのなら、[r]“[#竜殺し:ドラゴンスレイヤー]”はますます必要です。
+[k]
+
+[charaFace A 0]
+＠マシュ
+この街のどこかに居るんですよね？[r]そのサーヴァントを探してからでも[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いやいやいや。[r]時間がない、時間がないぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+けれど、ここでサーヴァントを見捨ててしまえば[r]機会は二度と訪れないかもしれません……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、指示を！
+[k]
+
+？1：“竜殺し”を探す
+
+？2：ここで逃げてもジリ貧だ、戦おう！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+わかりました！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マリー・アントワネット
+アマデウス、迎撃の準備をしましょう[r]……その、一緒に戦ってくれる？
+[k]
+
+[charaFace F 3]
+＠アマデウス
+いま、しましょうって命令しただろ、君。[r]いつものように、背筋を伸ばして笑顔でいればいい。
+[k]
+
+[charaFace F 2]
+＠アマデウス
+なに、僕に気を遣う事はない。[r]やばくなったらひとりで逃げるからな、僕は！
+[k]
+
+[charaFace E 3]
+＠マリー・アントワネット
+そうね。それでこそアマデウスだわ。[r]大丈夫、時間を稼ぐだけですもの。
+[k]
+
+[charaFace E 2]
+＠マリー・アントワネット
+わたしは死なないわ。まだ、ここではね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター！[r]サーヴァントの反応は他にありませんか！？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いまサーチしている、少し待ってくれ……！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+[line 2]よし。[r]わずかだが弱い反応が、その先の城から検出された！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+行きましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

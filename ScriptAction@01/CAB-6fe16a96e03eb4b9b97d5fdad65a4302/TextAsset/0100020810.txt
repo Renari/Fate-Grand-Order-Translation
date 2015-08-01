@@ -1,0 +1,340 @@
+＄01-00-02-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20803 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 1013001 1 カエサル]
+[charaSet G 4011001 1 ブーディカ]
+[charaSet H 7005001 1 スパルタクス]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 4]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+……ふむう。
+[k]
+
+＠ネロ
+さっきの農夫の言葉を覚えているか？[r]昨日にすれ違った旅の商人も似たことを申していた。
+[k]
+
+[charaFace D 0]
+＠ネロ
+古き神が現れた、ときたか。[r]本当であろうか？
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 3]
+＠Dr.ロマン
+何だろうねえ。ちょっと気になるフレーズだよね。[r]古き神というぐらいだから、神代のものかな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+正確には、この数日で四度です。[r]誰も、嘘を吐いているようには見えませんでした。
+[k]
+
+[charaFace A 0]
+＠マシュ
+曰く、地中海のある島に古き神が現れた。[r]ひどく具体的な噂話です。
+[k]
+
+[charaFace D 4]
+＠ネロ
+このガリアは地中海に面しているからな。[r]そこの噂を聞くのは、珍しいことでもないが……。
+[k]
+
+[charaFace D 0]
+＠ネロ
+しかし、こう何度も聞いてしまうと気になるな。[r]ローマへの帰還途中だというのに。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+う～ん、気になるねえ。[r]ボクとしてはとっても気になるところだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+[%1][&君:ちゃん]はどう思う？
+[k]
+
+？1：聖杯に関係しているかも
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+それは……どうでしょうか。[r]カエサルは、宮廷魔術師が所有していると言いました。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+レフ・ライノールかどうかは判明しないけど、[r]そいつが地中海に移動したってことも有り得ないかな？
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+そして、神を名乗っている。[r]ありそうな話だ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+いや、まあ、[r]本当の神さまなのかも知れないけどね。
+[k]
+
+？2：聞き間違いかな
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+いえ。確かに何度も聞いていますよ。[r]先輩、忘れてしまいましたか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+？！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+神の住まう島か。[r]いいねえ、ああ、とてもロマンチックじゃないか！
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+一世紀に降り立った古き神！[r]既に消え去ったはずの神霊が、再び地上へと……！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ドクター、質問です。[r]神霊の現界は現実に可能なのですか？
+[k]
+
+[charaFadeout A 0]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+難しいね。不可能と言い切ってもいいほどだ。[r]少なくともカルデアのシステムでは到底無理な芸当だ。
+[k]
+
+？1：神霊？
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+はい。神霊です。
+[k]
+
+？2：英霊じゃなくて、神霊？
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+はい、英霊とは異なるものです。[r]精霊よりも上位の存在である、とされています。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+世界の伝説に数多語られる神々なるもの。[r]時に、自然の具象として。時に、権勢の象徴として。
+[k]
+
+＠Dr.ロマン
+いわゆる神。神々。[r]神霊とは、彼らのことを指す言葉と思って構わない。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+彼らは既に地上から姿を消した。[r]もしくは、物理的な観点では最初から存在しなかったか？
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+西暦以降の魔術ではよくわかっていないんだ。[r]何せボクらの生きる現代では観測できないからね。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+困った時に神頼みをしても、[r]ほら、なかなか力を貸してくれないだろう？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……変な例えだったかな。[r]ともかく、彼らは[#いない]んだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ただ、幾つかの傍証はある。[r]それ故に、神霊は高次に存在すると予想されている。
+[k]
+
+＠Dr.ロマン
+少なくとも直接何かをすることはない。[r]いいや、できないんだ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+何にせよ無理な話さ。[r]世界はとっくに、人間と文明のものだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+もしも優しい神さまがいたとしても、[r]現実に、失われた未来を取り戻したりしない。
+[k]
+
+＠Dr.ロマン
+ボクたちしかいないんだ。[r]世界と未来を、救える可能性があるのは。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+で、だ。さっきの話に戻ろう。[r]神霊がサーヴァントとして現界できるかどうか。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+できない。[r]これが解答だ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+例えば[#向こう]がその気になったとしても、ね。[r]魔法の領域にまで到達した技術が仮にあっても、分が悪い。
+[k]
+
+＠Dr.ロマン
+原理的には、必ずしも[r]不可能ではないはずなんだけどね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠マシュ
+では、地中海の神とは[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+何処かの神さまって訳じゃないだろうね。[r]現界した神霊の可能性はごく低い。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+まあ、でも万が一ってこともあるかも知れないし？[r]神の座から堕ちた神なら、あるいは、だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ネロ
+埒が明かんな。[r]うむ、こうまで気になったからには、だ！
+[k]
+
+[charaFace D 0]
+＠ネロ
+確かめるのが良いだろう。[r]幸いにして、ここは地中海に面しているしな。
+[k]
+
+[se ad60]
+[wt 2]
+[seStop ad60]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠ローマ兵
+恐れながら皇帝陛下に申し上げます！[r]隊列後方が正体不明の怪物に襲われております！
+[k]
+
+＠ローマ兵
+なかなか押さえられず……！[r]このままでは！
+[k]
+
+[charaFace D 5]
+＠ネロ
+……むう。話の途中だというのに。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+魔力反応があるね。[r]聖杯の影響で出現した怪物、かもしれないぞ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+行きましょう、先輩！
+[k]
+
+？1：手早く片付けよう
+
+？2：慎重に、かつ手短に
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい、マスター。戦闘開始します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,402 @@
+＄01-00-01-08-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 6017001 1 バーサーク・アサシン]
+[charaSet C 98006100 1 ワイバーン]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98014000 1 兵士]
+[charaSet F 1022001 1 ？？？]
+[charaSet G 7002001 1 ランスロット]
+[charaSet H 6012001 1 サンソン]
+[charaFace B 0]
+[charaFadein B 0 0]
+[charaFace C 0]
+[charaFadein C 0 2]
+[fadein black 1]
+[wait fade]
+[wt 0.5]
+[se ad19]
+[wait se ad19]
+＠バーサーク・アサシン
+ワイバーン。まずは兵士をお食べなさい？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+たああああああああああああ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[messageOff]
+[charaEffect B bit_talk_12]
+[charaEffect C bit_talk_12]
+[shake 0.05 0 10 0.5]
+[se ad32]
+[wt 0.5]
+[charaEffectStop B]
+[charaEffectStop C]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[charaSet C 98014000 1 兵士]
+＠ジャンヌ
+はぁ、はぁ、はぁ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠C：兵士
+お、おい。[r]ありゃ、“竜の魔女”だろ……。
+[k]
+
+＠C：兵士
+それが何で竜と戦っているんだ？
+[k]
+
+＠E：兵士
+知らねえよ。[r]だが、丁度いい。共倒れしてくれればいいさ。
+[k]
+
+＠E：兵士
+あいつら、俺の故郷を焼き払いやがった。[r]どっちもくたばってしまえばいい……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠バーサーク・アサシン
+守っている相手に散々な言われようですね、聖女様。
+[k]
+
+＠バーサーク・アサシン
+彼らが呑気に見物できているのは[r]ワイバーンたちを貴女が引き付けているからですのに。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……放っておいて下さい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠バーサーク・アサシン
+ふふ、強情なこと。戦力不足が気になるのでしたら、[r]どうぞ、フランス軍に声を掛けてみるのはいかが？
+[k]
+
+＠バーサーク・アサシン
+ああ、失礼。[r]今の貴女は“竜の魔女”でした。
+[k]
+
+[charaFace B 0]
+＠バーサーク・アサシン
+聖女も無惨な火刑で地獄に堕ち、[r]そして復讐のために蘇った。
+[k]
+
+＠バーサーク・アサシン
+美しく、[#儚:はかな]く、そして[#滑稽:こっけい]な筋書きね。[r]貴女はまだ[#足掻:あがい]いているのに[line 2]。
+[k]
+
+[charaFace B 2]
+＠バーサーク・アサシン
+彼らは今度こそ、[r]貴女を敵と見なしているのだから！
+[k]
+
+[charaFace B 0]
+＠バーサーク・アサシン
+聞かせてくださらない、ジャンヌ・ダルク？[r]貴女はいま、どんな気分でいるのかを。
+[k]
+
+[charaFace B 1]
+＠バーサーク・アサシン
+死にたい？　それとも、殺したい？
+[k]
+
+＠バーサーク・アサシン
+あの兵士たちの胸に、杭のようにその旗を[r]突き立てたくてたまらないのではなくて？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……普通でしたら、悔しいと思うのでしょうね。[r]絶望にすがりたくなるのでしょうね。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+ですけど、生憎と私は[line 2]楽天的でして。[r]彼らは私を敵と憎み、立ち上がるだけの気力がある。
+[k]
+
+＠ジャンヌ
+それはそれで、いいかと思うのです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠バーサーク・アサシン
+……正気、貴女？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+さあ、フランスを救おうと立ち上がって時点で[r]正気ではない、とはよく言われましたが……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠バーサーク・アサシン
+そう、白かろうが黒かろうが、[r]どちらもイカれているということね……！
+[k]
+
+＠バーサーク・アサシン
+ワイバーン！
+[k]
+
+[se ad19]
+[wait se ad19]
+[charaFadeout B 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+く……！
+[k]
+
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaSet C 98006100 1 ワイバーン]
+[wt 0.3]
+[scene 20300 0]
+[charaFace F 2]
+[charaFadein F 0 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠F：？？？
+砲兵隊、[#撃:て]ぇぇぇぇっ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[charaFace B 0]
+[charaFadein B 0 0]
+[charaFace C 0]
+[charaFadein C 0 2]
+[wt 0.5]
+[se ad34]
+[shake 0.05 0 10 0.5]
+[charaEffect B bit_talk_32]
+[charaEffect C bit_talk_32]
+[wt 0.5]
+[charaEffectStop B]
+[charaEffectStop C]
+[wait charaEffect B]
+[wait charaEffect C]
+[wt 0.5]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+え……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠バーサーク・アサシン
+くっ……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+ジル……！
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout B 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300 0]
+[charaSet F 1022001 1 ジル]
+[charaFace F 2]
+[charaFadein F 0.4]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジル
+周囲の竜を優先しろ！　ありったけの砲を撃て！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+今だ……！
+[k]
+
+[charaFadeout D 0]
+[charaFadein D 0.1 2]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+＠バーサーク・アサシン
+おのれっ……！
+[k]
+
+[charaEffect B bit_talk_13]
+[se ad32]
+[shake 0.05 0 10 0.5]
+[charaFace B 0]
+＠バーサーク・アサシン
+く[line 2]さすがはルーラー。[r]力を奪われていてもこの[#膂力:りょりょく]……！
+[k]
+
+[charaFace B 2]
+＠バーサーク・アサシン
+撤退するわ。[r]ランスロット！　サンソン！
+[k]
+
+＠ジャンヌ
+待ちなさい！
+[k]
+
+[charaFadeout B 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[charaFace G 2]
+[charaFadein G 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ランスロット
+……Ａ……。[r]Ａ[line 8]ｕｒｒｒｒｒ！！
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……！？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+＠サンソン
+……どうやら、ジャンヌ・ダルクが[r]彼の琴線に触れたらしい。
+[k]
+
+[charaFace H 0]
+＠サンソン
+どうする、カーミラ？[r]彼に話を通すのは、それこそ骨だよ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠バーサーク・アサシン
+……撤退よ。[r]正気を失った黒騎士に付き合う義理はありません。
+[k]
+
+[charaFace B 2]
+＠バーサーク・アサシン
+ランスロット。精々時間を稼ぎなさい。[r]その命が燃え尽きる瞬間まで……！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout H 0.1]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠ランスロット
+……Ａｕｒｒｒｒｒｒｒｒｒｒｒｒｒｒ！！
+[k]
+
+[charaFadeout G 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300 0]
+[charaFace G 2]
+[charaFadein G 0.4 0]
+[charaFace D 2]
+[charaFadein D 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[effect bit_talk_13 1]
+[se ad32]
+[shake 0.05 0 10 0.5]
+[wait se ad32]
+＠ジャンヌ
+くっ……！[r]何故、私を……！？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+と、止めなきゃ！[r]マスター、千載一遇の機会です！
+[k]
+
+[charaFace A 7]
+＠マシュ
+騎士道に反しますが、[r]このままランスロットを仕留めます！
+[k]
+
+？1：よし、やろう……！
+
+？2：あれ、どう見ても騎士じゃないしね！
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

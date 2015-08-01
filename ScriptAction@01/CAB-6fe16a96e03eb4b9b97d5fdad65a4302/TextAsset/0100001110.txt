@@ -1,0 +1,163 @@
+＄01-00-00-11-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20200]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 5021001 1 キャスター]
+[charaSet G 1002001 1 セイバー]
+[charaFace E 4]
+[charaFadein E 0]
+[fadein black 1]
+[wait fade]
+＠オルガマリー
+これが大聖杯……[#超抜級:ちょうばつきゅう]の魔術炉心じゃない……[r]なんで極東の島国にこんなものがあるのよ……
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout E 0]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+資料によると、制作はアインツベルンという[r]錬金術の大家だそうです。
+[k]
+
+＠Dr.ロマン
+魔術協会に属さない、[#人造人間:ホムンクルス]だけで[r]構成された一族のようですが。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠キャスター
+悪いな、お喋りはそこまでだ。[r][#奴:やっこ]さんに気付かれたぜ。
+[k]
+
+[charaFadeout F 0]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠セイバー
+[line 6]。
+[k]
+
+[charaFadeout G 0]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+……なんて魔力放出……[r]あれが、本当にあのアーサー王なのですか……？
+[k]
+
+[charaFadeout A 0]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+間違いない。何か変質しているようだけど、[r]彼女はブリテンの王、聖剣の担い手アーサーだ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+伝説とは性別が違うけど、何か事情があって[r]キャメロットでは男装をしていたんだろう。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ほら、男子じゃないと王座にはつけないだろ？[r]お家事情で男のフリをさせられてたんだよ、きっと。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+宮廷魔術師の悪知恵だろうね。[r]伝承にもあるけど、マーリンはほんと趣味が悪い。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え……？　あ、ホントです。[r]女性なんですね、あの方。男性かと思いました。
+[k]
+
+[charaFadeout A 0]
+[charaTalk F]
+[charaFadein A 0.1 2]
+[charaFace F 5]
+[charaFadein F 0.1 0]
+＠キャスター
+見た目は華奢だが甘く見るなよ。アレは筋肉じゃなく[r]魔力放出でカッ飛ぶ化け物だからな。
+[k]
+
+＠キャスター
+一撃一撃がバカみてぇに重い。[r]気を抜くと上半身ごとぶっ飛ばされるぞ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ロケットの擬人化のようなものですね。[r]……理解しました。全力で応戦します。
+[k]
+
+[charaFace F 0]
+＠キャスター
+おう。ヤツを倒せばこの街の異変は消える。[r]いいか、[#それはオレもヤツも例外じゃない]。
+[k]
+
+＠キャスター
+その後はおまえさんたちの仕事だ。[r]何が起こるかわからんが、できる範囲でしっかりやんな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠セイバー
+[line 6]ほう。[r]面白いサーヴァントがいるな。
+[k]
+
+＠キャスター
+なぬ!?　テメエ、喋れたのか!?[r]今までだんまり決め込んでやがったのか!?
+[k]
+
+[charaFace G 0]
+＠セイバー
+ああ。何を語っても見られている。[r]故に[#案山子:カカシ]に徹していた。
+[k]
+
+[charaFace G 1]
+＠セイバー
+だが[line 3]面白い。その宝具は面白い。
+[k]
+
+[charaFace G 0]
+＠セイバー
+構えるがいい、名も知れぬ娘。[r]その守りが真実かどうか、この剣で確かめてやろう！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+来ます[line 3]マスター！
+[k]
+
+？1：ああ、一緒に戦おう！
+
+？2：ああ、負けるものか！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい！[r]マシュ・キリエライト、出撃します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

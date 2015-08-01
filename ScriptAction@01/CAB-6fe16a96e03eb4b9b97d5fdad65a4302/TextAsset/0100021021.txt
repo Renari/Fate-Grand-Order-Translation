@@ -1,0 +1,62 @@
+＄01-00-02-10-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+何だ、今の兵どもは[line 2][r]普段の連合兵とはいささか様子が異なっていたぞ？
+[k]
+
+[charaFace D 4]
+＠ネロ
+姿かたちは大差なかった、が……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……確かに、人間の兵士というよりも[r]サーヴァントのような気配ではありました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ですが、サーヴァントそのものではない？[r]ドクター、彼らは一体。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+思い当たるものは幾つかある。困ったな。[r]この手のものは、大抵の場合は宝具に依るものだ。
+[k]
+
+＠Dr.ロマン
+それも、並の宝具じゃない。[r]戦場に在ることで威力を発揮する類だろう。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+だとすれば[line 2]
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[soundStopAll]
+[end]

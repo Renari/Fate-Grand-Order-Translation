@@ -1,0 +1,373 @@
+＄01-00-02-06-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21000 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006200 1 雑魚エネミー煙状]
+[charaSet G 4011001 1 ？？？]
+[charaSet H 7005001 1 ？？？]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+皇帝ネロ・クラウディウスである！[r]これより[#謹聴:きんちょう]を許す！
+[k]
+
+＠ネロ
+ガリア遠征軍に参加した兵士の皆、[r]余と余の民、そして余のローマのための尽力ご苦労！
+[k]
+
+[charaFace D 0]
+＠ネロ
+是よりは余も遠征軍の力となろう。[r]一騎当千の将もここに在る！
+[k]
+
+[charaFace D 2]
+＠ネロ
+この戦い、負ける道理がない！[r][line 2]余と、愛すべきそなたたちのローマに勝利を！
+[k]
+
+[se ad16]
+[wt 2]
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+すごい歓声ですね。[r]これが、皇帝ネロ全盛期のカリスマでしょうか。
+[k]
+
+[seStop ad16 3]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+そうなんだろうね。しかし、不思議なものでもあるか。[r]こうまで人心を集めた皇帝が、晩年には……。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+……いや、止めよう。いけないな。[r]過去を生きる人間に未来を知らせない。それが方針だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein C 0.1 1]
+＠フォウ
+……キュー……
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+む。これは……。[r]この反応、マシュ、そこに[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.4 2]
+[charaFace H 0]
+[charaFadein H 0.4 0]
+＠G：？？？
+おや、思ったよりお早いお越しだったね、[r]ネロ・クラウディウス皇帝陛下。
+[k]
+
+＠G：？？？
+[line 2]んーと。そっちの[&初心そうな男の子:頑張ってる女の子]が[r]噂の客将かな？　見かけによらず強いんだってね。
+[k]
+
+[charaSet G 4011001 2 ブーディカ]
+[charaFace G 1]
+[charaFadein G 0]
+＠ブーディカ
+遠路はるばるこんにちは。[r]あたしはブーディカ。ガリア遠征軍の将軍を努めてる。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ブーディカ[line 2]？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠ブーディカ
+そう。ブーディカ、ブリタニアの[#元]女王ってヤツ。[r]で、こっちのでっかい[#男:の]が……。
+[k]
+
+[charaFace H 1]
+＠H：？？？
+戦場に招かれた闘士がまたひとり。[r]喜ぶがいい、此処は無数の圧制者に満ちた戦いの園だ。
+[k]
+
+＠H：？？？
+あまねく強者、圧制者が集う巨大な悪逆が迫っている。[r]叛逆の時だ。さあ共に戦おう。比類無き圧政に抗う者よ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+?
+[k]
+
+[charaFace A 6]
+＠マシュ
+……はっ。[r]言葉に戸惑いかけましたが、この気配は……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 3]
+[charaFadein G 0.1 2]
+＠ブーディカ
+え。え？　うわあ、珍しいこともあるんだぁ。[r]スパルタクスが誰かを見て喜ぶなんて、滅多にない。
+[k]
+
+[charaFace G 1]
+＠ブーディカ
+あ、ううん、訂正。他人を見て喜んでるのに[r]襲い掛からないなんて、滅多にないわ。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+（……ドクター。この巨大で筋肉な男性は）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+（フォオォウゥゥゥ……）
+[k]
+
+＠Dr.ロマン
+（う、うん。間違いなく[#筋肉:マッスル]だ）
+[k]
+
+＠Dr.ロマン
+（じゃなかった。サーヴァントだ。反応がそう言ってる。[r]　そこにいるのはサーヴァントだ。そうであってくれ）
+[k]
+
+＠Dr.ロマン
+（だが、どうやら敵対の意思はないらしい）
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+（彼が何を言っているかまったく翻訳できません。[r]　わたしたちを見て、圧政に抗う者、とは一体[line 2]）
+[k]
+
+＠Dr.ロマン
+（クラスはバーサーカーかなあ。[r]　きっとそうだな……ああ、多分……）
+[k]
+
+[charaSet H 7005001 0 スパルタクス]
+[charaFace H 1]
+[charaFadein H 0]
+＠スパルタクス
+叛逆の勇士よ、その名を我が前に示す時だ。[r]共に自由の青空の下で悪逆の帝国に反旗を翻し、叫ぼう。
+[k]
+
+[charaFace A 11]
+＠マシュ
+?
+[k]
+
+？1：[%1]です
+
+[charaFace A 6]
+＠マシュ
+名前を聞かれたんですか、今の？[r]そうなんですか？
+[k]
+
+？2：何を言ってるのかわからない
+
+[charaFace A 4]
+＠マシュ
+わかりませんね……。とても、とても、[r]屈託のない笑顔であるのはわかってしまうのですが……。
+[k]
+
+＠Dr.ロマン
+え、今の言葉を笑って言ってたの、全部？[r]きっと狂化スキルが凄いことになってるんだな。
+[k]
+
+？！
+
+＠Dr.ロマン
+とは言え、しかし、この時代にも[r]はぐれサーヴァントが存在するのが証明されたか。
+[k]
+
+＠Dr.ロマン
+何らかの理由でボクらに敵対するサーヴァントとは別に、[r]自由意思を持って、時代の側に立って戦う者もいる。
+[k]
+
+＠Dr.ロマン
+既にふたつの時代で確認されたからには、[r]きっと、すべての特異点の時代でもそうなんだろう。
+[k]
+
+＠Dr.ロマン
+正確には、冬木を数えれば三度目か[line 2]
+[k]
+
+＠Dr.ロマン
+何にせよこれは心強いな。[r]召喚という手段以外にも、こうして味方がいるのは。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ブーディカ
+えーっと。[r]姿の見えない魔術師殿ってのは、あんたかな？
+[k]
+
+＠Dr.ロマン
+これは失礼。[r]自己紹介をしておこう。ボクはロマン。そして……。
+[k]
+
+[charaFadeout G 0]
+[charaTalk G]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFadein G 0.1 0]
+＠マシュ
+マシュ・キリエライトです。[r]こちらは[%1]……総督、です。
+[k]
+
+[charaFace G 1]
+＠ブーディカ
+名前は聞いてるよ。ここにも届いてる。[r]お気に入りの客将なんだってね、皇帝陛下？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ネロ
+……。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+ネロ陛下？
+[k]
+
+[charaFace D 0]
+＠ネロ
+……ん。な、何か言ったか？[r]少し疲れたようだ。ブーディカ、客将たちを頼む。
+[k]
+
+[charaFace D 4]
+＠ネロ
+ガリアの戦況について教えてやってくれ。[r]余は頭痛がひどい。少しばかり[#床:とこ]につく。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 1]
+[charaFadein G 0.1 2]
+＠ブーディカ
+わかったよ。[r]この子たちはあたしに任せといて。
+[k]
+
+[charaFace D 0]
+＠ネロ
+では、頼んだぞ。[r][%1]も疲れているだろう、休むとよいぞ。
+[k]
+
+[charaFace G 4]
+＠ブーディカ
+……。
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout G 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21000 0]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+[se ad60]
+[wt 1.9]
+[seStop ad60]
+[charaFadeout G 0]
+[charaTalk E]
+[charaFadein G 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ローマ兵
+申し上げます！　敵斥候部隊を発見！
+[k]
+
+[charaFace G 5]
+＠ブーディカ
+……追撃は？
+[k]
+
+＠ローマ兵
+敵兵の速度に追い付けていません！[r]このままでは、離脱されてしまう可能性が！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[se ad13]
+[wait se ad13]
+[communicationChara 98003003 1 5 0 2]
+＠Dr.ロマン
+あっ、本当だ。野営地から離れる一団あり！[r]こちらの陣営の情報を持って行かれるぞ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+叩いておいた方がいいだろうね、[r]マシュ、[%1][&君:ちゃん]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+了解です、ドクター。
+[k]
+
+？1：行こう
+
+？2：時には、去る者も追わないとだね
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、先輩。[r]……行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,232 @@
+＄01-00-01-05-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_4 0.1]
+[scene 20523 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 4017001 1 ？？？]
+[charaSet G 7007001 1 バーサーク・ランサー]
+[charaSet H 1026001 1 バーサーク・セイバー]
+[charaFace F 1]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠F：？？？
+ええ、そう。嬉しいわ、これが正義の味方として[r]名乗りをあげる、というものなのね！
+[k]
+
+[charaFace F 4]
+＠F：？？？
+貴女が誰かは知っています。[r]貴女の強さ、恐ろしさも知っています。
+[k]
+
+[charaFace F 3]
+＠F：？？？
+正直に告白してしまうと、[r]今までで一番怖いと震えています。
+[k]
+
+[charaFace F 5]
+＠F：？？？
+それでも[line 3]貴女がこの国を侵すのなら、[r]わたしはドレスを破ってでも、貴女に戦いを挑みます。
+[k]
+
+＠F：？？？
+なぜなら、それは
+[k]
+
+[charaFadeout F 0.1]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠バーサーク・セイバー
+貴女、は……！？
+[k]
+
+[charaFadeout H 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：？？？
+まあ。わたしの[#真名:な]をご存じなのね。[r]知り合いかしら、素敵な女騎士さん？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk E]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠ジャンヌ・オルタ
+セイバー。[r]彼女は何者？
+[k]
+
+＠バーサーク・セイバー
+……。
+[k]
+
+[charaFace E 4]
+＠ジャンヌ・オルタ
+[line 2]答えなさい。
+[k]
+
+[charaFace H 5]
+＠バーサーク・セイバー
+この殺戮の熱に浮かされる[#精神:ココロ]でも分かる。[r]彼女の美しさは、私の目に焼きついていますからね。
+[k]
+
+＠バーサーク・セイバー
+ヴェルサイユの華と謳われた少女。[r]彼女は[line 3]マリー・アントワネット。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+マリー・アントワネット王妃!?
+[k]
+
+[charaFadeout A 0.1]
+[charaSet F 4017001 1 マリー・アントワネット]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠マリー・アントワネット
+はい！[r]ありがとう、わたしの名前を呼んでくれて！
+[k]
+
+[charaFace F 0]
+＠マリー・アントワネット
+そしてその名前があるかぎり、どんなに[r]愚かだろうとわたしはわたしの役割を演じます。
+[k]
+
+[charaFace F 4]
+＠マリー・アントワネット
+我が愛しの国を荒らす竜の魔女さん。[r]無駄でしょうけど質問をしてあげる。
+[k]
+
+[charaFace F 5]
+＠マリー・アントワネット
+貴女はこのわたしの前で、[r]まだ狼藉を働くほど邪悪なのですか？
+[k]
+
+＠マリー・アントワネット
+革命を止められなかった愚かな[#王妃:わたし]以上に、[r]自分は愚かな魔女であると公言するの？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……黙りなさい。[r]貴女如きがこの戦いに関わる権利はありません。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マリー・アントワネット
+あら、どうして？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace F 0]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠ジャンヌ・オルタ
+宮殿で蝶よ花よと愛でられ、何もわからぬままに[r]首を断ち切られた王妃に、我々の憎しみが理解できると？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠マリー・アントワネット
+そうね、それはわからないわ。[r]だから余計に貴女を知りたいの、竜の魔女。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……なに？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠マリー・アントワネット
+わからないことは、わかるようにする。[r]それがわたしの流儀です。
+[k]
+
+＠マリー・アントワネット
+だから今の貴女を見過ごせない。[r]ああ、ジャンヌ・ダルク。憧れの聖女！
+[k]
+
+[charaFace F 4]
+＠マリー・アントワネット
+今のわたしにわかるのは、[r]貴女はただ八つ当たりしているだけということ。
+[k]
+
+＠マリー・アントワネット
+理由は不明、真意も透明。何もかも消息不明だなんて、[r]日曜日にでかける少女のようでしてよ？
+[k]
+
+[charaFace F 5]
+＠マリー・アントワネット
+そんな貴女に向ける礼はありません。[r]わたしはそこの、
+[k]
+
+[charaFace F 2]
+＠マリー・アントワネット
+何もかも分かりやすいジャンヌ・ダルクと共に、[r]意味不明な貴女の心を、その体ごと手に入れるわ！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFadein F 0.1 2]
+[charaFace A 6]
+[charaFadein A 0.1 0]
+＠マシュ
+な……
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+え、えっと……はい？
+[k]
+
+[charaFace F 3]
+＠マリー・アントワネット
+あ、しまった。しっぱいしっぱい。[r]えっと、誤解なさらないでくださいね？
+[k]
+
+[charaFace F 1]
+＠マリー・アントワネット
+今のは単に、『王妃として私の足下に跪かせてやる』[r]という意味ですから。
+[k]
+
+＠Dr.ロマン
+……壊れていく……[r]ボクの中のアントワネット像が壊れていく……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+[line 3]茶番はそこまでだ。[r]いいでしょう。ならば。貴女は私の敵です。
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+サーヴァント、まずはあの鬱陶しいお姫様を。[r]雑兵はとっととあの連中を始末なさい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

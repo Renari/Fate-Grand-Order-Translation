@@ -1,0 +1,248 @@
+＄01-00-02-10-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 3009001 1 レオニダス]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaTalk A]
+[charaFace H 0]
+[charaFadein H 0 0]
+[charaFace A 13]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵軍、撃破しました。[r]味方の損害は軽微。先輩、お疲れさまでした。
+[k]
+
+[charaFace H 1]
+＠荊軻
+改めて、礼を言おう。[r]預かり物の兵たちを失わずに済んだようだ。
+[k]
+
+＠荊軻
+私はアサシン、[#荊軻:けいか]。[r]君たちと同じくネロ・クラウディウスの客将をしている。
+[k]
+
+[charaFace H 4]
+＠荊軻
+数多の「皇帝」を手に掛けられると聞いて[r]参上したが、気付けばこうして将軍扱いをされている。
+[k]
+
+[charaFace H 0]
+＠荊軻
+もっとも……。[r]私は斥候や暗殺が主な行動でね。
+[k]
+
+＠荊軻
+戦場を実際に駆け抜けるのは、彼の役目だ。[r]呂布[line 2]ん、敵を追ったままどこかへ行ったか。
+[k]
+
+[charaFace H 1]
+＠荊軻
+……ん。[r]そのうち戻って来るだろう。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+[wt 1]
+＠Dr.ロマン
+荊軻。中国に於ける伝説の暗殺者か。[r]なるほど、皇帝暗殺にこだわりがあるのも頷ける。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace H 3]
+[charaFadein H 0.1 0]
+＠荊軻
+ん[line 2]？
+[k]
+
+[charaFadeout H 0.4]
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20700 0]
+[charaFace H 0]
+[charaFadein H 0.4 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠荊軻
+マシュに[%1]、[r]君たちは異なる時代からの来訪者か。
+[k]
+
+＠荊軻
+そちらの事情は概ね把握した。[r]さりとて、こちらのやることは特に変わらない。
+[k]
+
+[charaFace H 5]
+＠荊軻
+群がる「皇帝」どもを屠るだけだ。[r]私も、呂布も。
+[k]
+
+[charaFace H 1]
+＠荊軻
+既に、サーヴァントの「皇帝」を三体は殺している。[r]君たちとは競争だな。
+[k]
+
+[charaFace A 12]
+＠マシュ
+そ、そうですね。[r]競争……。
+[k]
+
+？1：負けないぞ
+
+[charaFace H 1]
+＠荊軻
+どうかな？
+[k]
+
+？2：こっちはまだ二体か……。
+
+[charaFace H 1]
+＠荊軻
+そう落ち込むな。[r]挽回の機会はまだある。
+[k]
+
+？！
+
+[charaFace H 0]
+＠荊軻
+首都ローマに帰還し次第、[r]ネロによる連合への本格侵攻が始まるだろう。
+[k]
+
+＠荊軻
+そこで、競争だ。[r]敵将たる「皇帝」の首の数。
+[k]
+
+[charaFace H 1]
+＠荊軻
+私たちと君たちのどちらがより多く手にするか[line 2][r]ああ。少し、楽しみができた。
+[k]
+
+[charaFace A 8]
+＠マシュ
+そ、そうですね。[r]楽しみ……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+（……無理です、先輩。話合わせられませんっ）
+[k]
+
+？1：大丈夫。こっちもだ。
+
+？2：頑張るしかない
+
+？！
+
+[charaFace A 14]
+＠マシュ
+（も、もう、先輩っ）
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[wt 0.5]
+[scene 20900 0]
+[charaSet G 98004000 1 レフ]
+[charaFace G 5]
+[charaFadein G 0 1]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+＠レフ
+[line 2]呂布の排除に失敗した、か。
+[k]
+
+＠H：？？？
+……如何する。レフ・ライノール。
+[k]
+
+[charaFace G 3]
+＠レフ
+何、所詮どうということはないさ。[r]私には聖杯がある。忘れるなよ、既に言っただろう？
+[k]
+
+＠レフ
+私は、真にサーヴァントを召喚できるのだ。[r]自在に。それが如何に強力無比な英霊であろうとも！
+[k]
+
+[charaFadeout G 0.1]
+[messageOff]
+[se su2]
+[wait se su2]
+[flashin once 1 1 FFFFFF80 00000000]
+[wt 1]
+[charaFace G 3]
+[charaFadein G 1 0]
+[charaSet F 4015001 0 ？？？]
+[charaFace F 0]
+[charaFadein F 1 2]
+＠F：？？？
+……サーヴァント・ライダーか。[r]ふうん。それが、僕のクラスという訳か。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+それで？[r]僕は何をすればいい、マスター？
+[k]
+
+[charaFace G 3]
+＠レフ
+速やかにネロ・クラウディウスを抹殺するんだ。[r]この時代を破壊し、これ以後の人類定礎を斬り崩せ。
+[k]
+
+＠H：？？？
+……軍勢を貸し与える。好きに、使え。
+[k]
+
+[charaFace F 0]
+＠F：？？？
+わかったよ。[r]要は、戦争をすればいいってことだね？
+[k]
+
+＠H：？？？
+……然り。
+[k]
+
+[charaFace F 3]
+＠F：？？？
+戦争。戦争か。戦争、ね。[r]僕はきっと、[#それ]がとても得意なんだろうな。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+わかった。[r]それじゃあ、軍勢、借りるね[line 2]？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

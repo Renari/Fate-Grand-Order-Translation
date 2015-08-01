@@ -1,0 +1,259 @@
+＄01-00-02-11-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 7011001 1 ダレイオス三世]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵性サーヴァントを撃破しました。[r]マスター、お疲れさまでした。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 1]
+＠Dr.ロマン
+サーヴァント戦闘にもかなり慣れてきたね。[r]これまでの経験が生きているようだ。二人とも、見事だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+いいえ、ドクター。[r]マスターの指示が的確なのだと思います。
+[k]
+
+[se ad55]
+[wt 0.9]
+[seStop ad55]
+[se bac2]
+[wait se bac2]
+[charaFadeout A 0]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠ローマ兵
+客将[%1]様、マシュ様、申し上げます！[r]皇帝陛下からの伝令です！
+[k]
+
+＠ローマ兵
+後方にて敵の奇襲あり、しかる後に[r]スパルタクス将軍及び呂布将軍が戦線を離脱！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+＠マシュ
+！
+[k]
+
+＠Dr.ロマン
+しまった……！[r]敵は、二正面作戦を仕掛けていたのか！
+[k]
+
+[charaFace A 7]
+＠ローマ兵
+将軍二名は敵軍勢を撃破したものの、[r]そのまま残存勢力を追って離脱した模様です！
+[k]
+
+＠ローマ兵
+そこに、左右からの更なる別部隊の奇襲あり。[r]ブーディカ将軍が虜囚となって敵の手に落ちました！
+[k]
+
+＠Dr.ロマン
+これは……。[r]ううん、まずいことになったな……。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[charaFadeout A 0]
+[charaFadeout E 0]
+[scene 20700 0]
+[charaFace A 0]
+[charaFadein A 0.4 2]
+[charaFace D 4]
+[charaFadein D 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ネロ
+……。
+[k]
+
+＠ネロ
+…………。
+[k]
+
+＠ネロ
+……………………。
+[k]
+
+[charaFace A 12]
+＠マシュ
+[line 2]ネロさん。
+[k]
+
+[charaFace D 3]
+＠ネロ
+ん？　いや、少し考え事をしていたのだと思う。[r]そして、今こそ余は決断したぞ。
+[k]
+
+[charaFace A 11]
+＠マシュ
+（思う……？）
+[k]
+
+[charaFace D 0]
+＠ネロ
+先の戦いで我が軍は劣勢へと陥った。[r]これは、厳然たる事実として余も受け止めよう。
+[k]
+
+[charaFace D 4]
+＠ネロ
+敵将たる「皇帝」どもと渡り合える、余の将軍たち。[r]うち二人が戦線を離脱、一人が敵の手に落ちた。
+[k]
+
+＠ネロ
+先の二人については仕方がない。[r]いや、余の采配の誤りだ。
+[k]
+
+[charaFace D 0]
+＠ネロ
+時間は些かかかるかも知れぬが、[r]いずれ呂布とスパルタクスは戻ると余は信じよう。
+[k]
+
+[charaFace D 2]
+＠ネロ
+故に、今は[line 2][r]ブーディカを助け出す！
+[k]
+
+[charaFace D 0]
+＠ネロ
+幸いにして、敵拠点の砦を荊軻が発見した。[r]一気呵成に攻め入って拠点を砕き、ブーディカを救うぞ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+ふむ……。
+[k]
+
+[charaTalk A]
+[communicationCharaClear]
+[wait communicationChara]
+[communicationCharaLoop 98003003 0 5 0 3]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクター、何か？
+[k]
+
+＠Dr.ロマン
+何か、気になってね。[r]ブーディカを捕らえたのはサーヴァントのはずだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+ただの人間にできることじゃない。[r]だが、何故、彼らは砦などに立て籠もっている？
+[k]
+
+＠Dr.ロマン
+連合首都との距離もそう遠くない。[r]なら、そちらへ戻ったほうが遙かに有利だろうに。
+[k]
+
+[charaFace A 7]
+＠マシュ
+敵は、こちらを誘い込んでいる。[r]そういうことでしょうか。
+[k]
+
+＠Dr.ロマン
+ただこちらの軍を滅ぼしたいだけなら、[r]さっき言った方法のほうがきっと[#まし]なはずだ。
+[k]
+
+＠Dr.ロマン
+こちらにはサーヴァントが最低二体いる、と[r]向こうだってわかっていて良いはずだ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+だからこそ、呂布とスパルタクスを[r]ああも見事に切り離してみせたんだからね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……はい。人間とサーヴァント。[r]その決定的な違いを把握した敵と思われます。
+[k]
+
+＠Dr.ロマン
+さあ、[%1][&君:ちゃん]。[r]決断の時だ。
+[k]
+
+？1：ブーディカを助ける
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+うん。君ならそう言うと思ったよ。[r]なるほどね。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ちょっと、甘いな。[r]これは戦争だ。戦略的観点が必要だよ。
+[k]
+
+？2：罠なら、踏み潰せばいい
+
+[charaFace A 12]
+＠マシュ
+……先輩。[r]考え方がバーサーカーじみてきています。
+[k]
+
+[charaFace A 7]
+＠マシュ
+確かに今回はバーサーカーの現界が多いですが、[r]あまり、影響を受けるのは良くないと思います。
+[k]
+
+？！
+
+[charaFace A 13]
+＠マシュ
+ですが……。[r]わたしは、先輩の考え方が嫌いではありません。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[wt 0.5]
+[charaTalk D]
+[charaFadein D 0.1 0]
+[charaFace D 1]
+＠ネロ
+わかってくれるか、[%1]。[r]ならば、共に征こう。目標は敵軍拠点、砦ひとつ！
+[k]
+
+[charaFace D 2]
+＠ネロ
+一気呵成に攻め落とす！[r]余の手足たる兵たちよ、心してかかるがよい！
+[k]
+
+[se ad16]
+[wt 2]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[seStop ad16]
+[soundStopAll]
+[end]

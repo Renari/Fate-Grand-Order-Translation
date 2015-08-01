@@ -1,0 +1,233 @@
+＄01-00-01-14-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4006001 1 ゲオルギウス]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 1008001 1 ジークフリート]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 5]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+“竜の魔女”と決着をつけに行ってきます。
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター、わたしたちも向かいましょう！
+[k]
+
+[charaFace A 2]
+＠マシュ
+この場は他のサーヴァントに任せ、[r]“竜の魔女”を追跡すべきです！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ジークフリート
+そうだな。ここは任せて欲しい。[r]清姫とエリザベートを連れて行け。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠清姫
+承りましたわ。[r]よろしくお願いいたしますね、マスター。
+[k]
+
+[charaFace H 4]
+＠エリザベート
+それはいいけど。[r]ねえ、どうして[#私:アタシ]たちなの？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠ジークフリート
+（宝具を使われると耳が痛くて……）[r]（清姫は敵味方関係なく炎を吐くし……）
+[k]
+
+[charaFace C 4]
+＠ゲオルギウス
+（両者共に宝具が……）
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アマデウス
+（エリザベートのあれは世界最低の宝具だ、[r]と断言したい）
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 2]
+[charaFace H 4]
+[charaFadein H 0.1 0]
+＠エリザベート
+? ? ?
+[k]
+
+＠清姫
+はて……？
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+コホン。い、行きましょう二人とも！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 20602 0]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaSet F 5002001 1 ジル]
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0 2]
+[charaFace F 4]
+[charaFadein F 0 0]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait fade]
+＠ジル
+ファヴニールは滅び、[r]ワイバーンたちもこのままでは……。
+[k]
+
+＠ジャンヌ・オルタ
+わかっています。[r]新たなサーヴァントを召喚しましょう。
+[k]
+
+[charaFace F 1]
+＠ジル
+おお！
+[k]
+
+[charaFace E 1]
+＠ジャンヌ・オルタ
+ジル、その間は貴方に守りを任せます。[r]頼みますね。
+[k]
+
+[charaFace F 0]
+＠ジル
+かしこまりました。我が宝具『[#螺湮城教本:プレラーティーズ・スペルブック]』 で[r]時間を稼ぎましょう。
+[k]
+
+＠ジル
+何、その間にゆっくりと[r]強力なサーヴァントを召喚するとよろしい。
+[k]
+
+[charaFace F 1]
+＠ジル
+アーサー王などいかがでしょう？
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+イングランドの騎士が召喚に応じるとは思えませんが……[r]やるだけはやってみます。
+[k]
+
+＠ジャンヌ・オルタ
+では、武運を。
+[k]
+
+[charaFace F 0]
+＠ジル
+ええ、ジャンヌ。[r]どうかその栄光が、[#穢:けが]されることありませんように。
+[k]
+
+[charaFadeout F 0.4]
+[wt 0.7]
+[charaFadeout E 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_1 0.1]
+[scene 20602 0]
+[wipein rightToLeft 0.4 1]
+[charaTalk D]
+[charaFace H 0]
+[charaFadein H 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[wait wipe]
+＠ジャンヌ
+急ぎましょう！　遅れてしまえば、[r]また新たなサーヴァントが召喚されてしまいます！
+[k]
+
+[charaFace H 5]
+＠エリザベート
+わ、わかってるってば！[r]でもほら、この城ちょっと見所あるっていうか。
+[k]
+
+[charaFace H 3]
+＠エリザベート
+なんていうの、趣味が、ほら？
+[k]
+
+？1：ああ、最低だ！
+
+？2：ああ、最悪だ！
+
+？！
+
+[charaFadeout D 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠清姫
+ですわね、[#血腥:ちなまぐさ]いったらもう。[r]片付けもせず、洗浄もせず、何とだらしない。
+[k]
+
+[charaFace G 5]
+＠清姫
+こんな城を好ましく思うのは、[r]血に餓えた野蛮人くらいのものですわ。
+[k]
+
+[charaFace H 3]
+＠エリザベート
+……そ、そうよね！[r]よくないわよね、こういうの！
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、敵です！[r]迅速に片付けます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

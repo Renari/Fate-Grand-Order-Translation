@@ -1,0 +1,228 @@
+＄01-00-00-08-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10710]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 5021001 1 キャスター]
+[charaSet G 98006300 1 ？？？]
+[charaFace A 4]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+………………。
+[k]
+
+[charaFadeout A 0]
+[charaTalk E]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠オルガマリー
+ちょっと、キミ。[%1]。[r]キリエライト、見るからに落ちこんでいるわよ。
+[k]
+
+＠オルガマリー
+アナタ、一応マスターなんでしょ。[r]何かケアしてあげなさいよ。
+[k]
+
+？1：マシュ、どうかした？
+
+[charaFace A 3]
+＠マシュ
+……！　いえ、特に変化はありません、[r]わたしは平常運転です、マスター！
+[k]
+
+[charaFace A 12]
+＠マシュ
+ですが……変化がない、というのが問題で……
+[k]
+
+？2：……やっぱり……アレ？
+
+[charaFace A 3]
+＠マシュ
+……………はい。[r]わたしから宣言するのは情けないのですが……
+[k]
+
+？！
+
+[charaFace A 4]
+＠マシュ
+………その。わたしは先輩の指示のもと、[r]試運転には十分な経験を積みました。
+[k]
+
+＠マシュ
+なのに……わたしはまだ宝具が使えません。
+[k]
+
+＠マシュ
+使い方すら分からない、[r]欠陥サーヴァントのようなのです……
+[k]
+
+[charaFadeout E 0]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……
+[k]
+
+[charaFadeout C 0]
+[communicationChara 98003003 0 5 0 4]
+＠Dr.ロマン
+ああ、そこを気にしていたのか。[r]マシュは責任感が強いからなあ……
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+でもそこは一朝一夕でいく話じゃないと思うよ？[r]だって宝具だし。
+[k]
+
+＠Dr.ロマン
+英霊の奥の手を一日二日で使えちゃったら、[r]それこそサーヴァントたちの面目が立たないというか、
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠キャスター
+あ？　そんなのすぐに使えるに決まってんじゃねえか。[r]英霊と宝具は同じもんなんだから。
+[k]
+
+＠キャスター
+お嬢ちゃんがサーヴァントとして戦えるのなら、[r]もうその時点で宝具は使えるんだよ。
+[k]
+
+＠キャスター
+なのに使えないってコトぁ、[r]単に魔力が詰まってるだけだ。
+[k]
+
+＠キャスター
+なんつーの、やる気？　いや弾け具合？[r]とにかく、大声をあげる練習をしてねえだけだぞ？
+[k]
+
+[charaFace A 2]
+＠マシュ
+そうなんですか!?[r]そーうーなーんーでーすーかー！？
+[k]
+
+[charaFadeout F 0]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+ファーーーーー!?
+[k]
+
+[charaFadeout C 0]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+＠オルガマリー
+ちょっと、いきなり大声ださないで！[r]鼓膜が破れかけたわよ、本気で！
+[k]
+
+[charaFace A 3]
+＠マシュ
+ぁ……申し訳ありません、所長。[r]でも、大声をあげればいいとキャスターさんが……
+[k]
+
+[charaFadeout E 0]
+[charaFace F 3]
+[charaFadein F 0.1 0]
+＠キャスター
+いや、モノの例えだったんだが……[r]まあ、ともあれやる気があるのは結構だ。
+[k]
+
+[charaFace F 0]
+＠キャスター
+[%1]。お嬢ちゃんがこう言ってるんだ。[r]少しばかり寄り道して構わねえな？
+[k]
+
+？1：寄り道って、どんな？
+
+？2：純真なマシュをからかわない[&でくれ:で]
+
+？！
+
+＠キャスター
+なに、ただの特訓だ。すぐに終わる。[r]今のオレはキャスターだぜ？　治療なら任せておけ。
+[k]
+
+＠キャスター
+まずは……ちょい、ちょいと。[r]厄寄せのルーンを刻んでだな……よし出来た。
+[k]
+
+[charaFadeout A 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠オルガマリー
+え？　なにしてるのアナタ。[r]なんでわたしのコートにルーンを刻んでいるの？
+[k]
+
+[charaFace F 1]
+＠キャスター
+アンタなら狙われても自分でなんとかできるだろ。[r]ほら、来たぜ。
+[k]
+
+[charaFadeout E 0]
+[charaFadeout F 0]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[se ad25]
+＠？？？
+Ｇｒｒｒｒｒｒ……[r]Ｚｕａａａａａａａａａ……！
+[k]
+
+[charaFadeout G 0]
+[charaTalk E]
+[charaFadein G 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠オルガマリー
+意味が分からないんですけどーーー！？
+[k]
+
+[charaFadeout E 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+しょ、所長、わたしの後ろに！[r]先輩も、戦闘準備お願いします……！
+[k]
+
+[charaFadeout A 0]
+[charaFadeout G 0]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠キャスター
+よしよし、こんだけ集まれば十分だ。
+[k]
+
+[charaFace F 0]
+＠キャスター
+つまるところ、宝具ってのは英霊の本能だ。[r]なまじ理性があると出にくいんだよ。
+[k]
+
+[charaFace F 1]
+＠キャスター
+なーんで、お嬢ちゃんにはまず精も根も使い果たして[r]もらうって寸法さ！　冴えてるな、オレ！
+[k]
+
+？1：これ治療じゃない、ただの荒療治だ！
+
+？2：もしかしてバカなんですかー！？
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

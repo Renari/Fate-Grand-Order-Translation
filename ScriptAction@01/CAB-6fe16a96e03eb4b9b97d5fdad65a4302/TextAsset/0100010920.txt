@@ -1,0 +1,209 @@
+＄01-00-01-09-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 1008001 1 ジークフリート]
+[charaFace F 3]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+＠アマデウス
+……ガラにもない話をしちゃったな。[r]じゃ、僕らも出立しようか。
+[k]
+
+？1：付いていかなくていいの？
+
+？2：マリーの事、いまも好きなの？
+
+？！
+
+[charaFace F 0]
+＠アマデウス
+まさか。彼女に向ける情熱はもうない。[r]彼女は僕の運命にとって、特別な分岐だっただけさ。
+[k]
+
+[charaFace F 3]
+＠アマデウス
+……そうだな。もし僕にまっとうな人生があったのなら、[r]その分岐はあのプロポーズだ。
+[k]
+
+[charaFace F 0]
+＠アマデウス
+君たちの言う人類史の礎石と同じだよ。
+[k]
+
+＠アマデウス
+ヴォルフガング・アマデウス・モーツァルトという男は、[r]どんな選択をしようとこうなるだろう。
+[k]
+
+＠アマデウス
+たとえ何があろうとも。どんな恋人に出会い、[r]どんな友人を得て、どんな幸福を掴もうとも。
+[k]
+
+[charaFace F 4]
+＠アマデウス
+僕はこんなふうに音楽に身を捧げて、[r]人間としての徳をすべて切り捨てるクズになった。
+[k]
+
+[charaFace F 0]
+＠アマデウス
+でも、ただひとつ。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+そんな僕の運命をもし変える人間がいたのなら、[r]それは彼女だったのでは、とも思うんだ。
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFadein F 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……アマデウスさん。それは、マリーさんを愛している、[r]という事ではないのですか？
+[k]
+
+[charaFace F 1]
+＠アマデウス
+ああ、うん。愛してるよ。ただもう恋はしてないだけ。[r]それがなにか？
+[k]
+
+[charaFace A 0]
+＠マシュ
+……わかりません。[r]前にアマデウスさんはこう言いました。人間は汚いと。
+[k]
+
+[charaFace A 11]
+＠マシュ
+そんな貴方の言い分では、[r]マリーさんも例外なく汚いものだと思うのですが……
+[k]
+
+[charaFace F 3]
+＠アマデウス
+え？　汚いもの、大好きだけど？[r]音楽は美しいものだ。人間は汚いものだ。
+[k]
+
+[charaFace F 5]
+＠アマデウス
+君、そんな違いも知らなかったのか？[r]ただのカテゴリの話だろ、こんなの？
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……え？[r]だって、人間は美しいものしか愛さない、と……
+[k]
+
+[charaFace F 3]
+＠アマデウス
+美しいものしか愛せないんじゃないよ。[r]人間は、美しいものだって愛せるって話だよ。
+[k]
+
+[charaFace A 4]
+＠マシュ
+あの……その違いが、わたしには難解なのですが……。
+[k]
+
+[charaFace F 4]
+＠アマデウス
+んー、こいつは言葉で言っても伝わらないからなあ。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+でもまあ、いずれわかるよ。[r]これからも[%1]君と旅を続けるんだろう？
+[k]
+
+＠アマデウス
+ならきっとわかる。そういう人間的な事についてなら、[r][&彼:彼女]は理想的な先輩だから。
+[k]
+
+[charaFace A 7]
+＠マシュ
+は、はい……！[r]理想的な先輩、というのは全面的に理解できます！
+[k]
+
+？1：マシュ……！
+
+？2：たまに信頼が重いですよ？
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠ジークフリート
+……すまない。君たちがいま素晴らしい話を[r]しているのは理解できる。できるのだが……。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace G 4]
+＠ジークフリート
+敵がやってきたようだ。[r]すまない……空気を読めない男で、本当にすまない……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ……フォウ、フォウ！
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+[line 3]は!?[r]しまった、ボクがするべき事をジークに奪われた！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+でもボクが放心しちゃった気持ちもわかってほしい。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+ほら。同じタイプだと思っていたダメ人間がですよ、[r]実は深い人生観を持ってる偉人だったらそりゃ驚くよね？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠アマデウス
+んー、そこは安心していいよドクター。[r]僕も貴方にはシンパシー感じてるから。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+基本、人間的……というか、ひとりの成人として[r]ろくでなしでしょ、僕たちって。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+うん、ありがとうアマデウス！[r]こんなに嬉しくない[#慰:なぐさ]めは初めてだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+いいから、戦闘のモニターお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

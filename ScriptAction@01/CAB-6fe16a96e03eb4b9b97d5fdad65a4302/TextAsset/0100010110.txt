@@ -1,0 +1,376 @@
+＄01-00-01-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 98014000 1 兵士]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……ふう。[r]無事に転移できましたね、先輩。
+[k]
+
+＠マシュ
+前回は事故による転移でしたが、今回はコフィンによる[r]正常な転移です。身体状況も問題ありません。
+[k]
+
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠フォウ
+フィーウ！[r]フォーウ、フォーウ！
+[k]
+
+[charaFace A 6]
+＠マシュ
+フォウさん!?[r]また付いて来てしまったのですか!?
+[k]
+
+＠フォウ
+フォーウ……ンキュ、キャーウ……
+[k]
+
+？1：フォウもレイシフトできるのか……？
+
+？2：マシュのコフィンに忍び込んだのか……？
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……そのようです。[r]先輩かわたしのコフィンに忍びこんだのでしょう。
+[k]
+
+[charaFace A 1]
+＠マシュ
+幸い、フォウさんに異常はありません。
+[k]
+
+＠マシュ
+わたしたちどちらかに固定されているのですから、[r]わたしたちが帰還すれば自動的に帰還できます。
+[k]
+
+？1：……そういう事なら問題ないか……
+
+？2：フォウのためにも無事に帰らないとね
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。わたしたちは運命共同体です。
+[k]
+
+[se ad15]
+[wait se ad15]
+[charaFadeout C 0.1]
+[charaFadeout A 0]
+[wt 0.5]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+[line 2]マスター。時間軸の座標を確認しました。[r]どうやら１４３１年です。
+[k]
+
+＠マシュ
+現状、百年戦争の真っ只中という訳ですね。[r]ただ、この時期はちょうど戦争の休止期間のはずです。
+[k]
+
+？1：休止？
+
+？2：戦争に休みがあるの？
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。百年戦争はその名の通り、百年間継続して戦争を[r]行っていた訳ではありません。
+[k]
+
+＠マシュ
+この時代の戦争は[r]比較的のんびりしたものでしたから。
+[k]
+
+[charaFace A 0]
+＠マシュ
+捕らえられた騎士が金を払って釈放されるなど[r]日常茶飯事だったそうで……先輩？
+[k]
+
+？1：空を見て
+
+？2：……
+
+？！
+
+[charaFace A 6]
+＠マシュ
+何が……え？
+[k]
+
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[se ad13]
+[wait se ad13]
+[communicationChara 98003003 0 5 0 0]
+＠Dr.ロマン
+よし、回線が繋がった！[r]画像は粗いけど映像も通るようになったぞ！
+[k]
+
+＠Dr.ロマン
+って、どうしたんだい二人とも？[r]そろって空を見上げちゃったりして。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクター、映像を送ります。[r]あれは、何ですか？
+[k]
+
+[charaFadeout A 0.7]
+[communicationCharaClear]
+[wait communicationChara]
+[messageOff]
+[wipeout downToUp 0.7 2]
+[wait wipe]
+[wt 0.5]
+[scene 20320 0]
+[wipein downToUp 0.4 2]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wait wipe]
+＠Dr.ロマン
+これは[line 2]
+[k]
+
+＠Dr.ロマン
+光の輪……いや、衛星軌道上に展開した[r]何らかの魔術式か……？
+[k]
+
+＠Dr.ロマン
+なんにせよとんでもない大きさだ。[r]下手をすると北米大陸と同サイズか……？
+[k]
+
+＠Dr.ロマン
+ともあれ、[r]１４３１年にこんな現象が起きたという記録はない。
+[k]
+
+＠Dr.ロマン
+間違いなく未来消失の理由の一端だろう。[r]アレはこちらで解析するしかないな……
+[k]
+
+＠Dr.ロマン
+キミたちは現地の調査に専念してくれていい。[r]まずは霊脈を探してくれ。
+[k]
+
+＠マシュ
+ドクターの言う通りです。
+[k]
+
+＠マシュ
+周囲の探索、この時代の人間との接触、[r]召喚サークルの設置……やるべきことは山ほどあります。
+[k]
+
+＠マシュ
+一つずつこなしていくしかありません。[r]まずは街を目指して移動しましょう、先輩。
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[wt 0.5]
+[scene 20300 0]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+＠マシュ
+先輩、止まって下さい。[r]確認……どうやらフランスの斥候部隊のようです。
+[k]
+
+＠マシュ
+どうしましょう。[r][#接触:コンタクト]を試みますか？
+[k]
+
+？1：そうしよう
+
+？2：危なくないかな？
+
+[charaFace A 13]
+＠マシュ
+見たところヒューマノイドです。[r]話し合えばきっと平和的に解決します。
+[k]
+
+？！
+
+[charaFace A 1]
+＠マシュ
+ヘイ、エクスキューズミー。[r]こんにちは。わたしたちは旅の者ですが[line 2]
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFadein D 0.4 0]
+＠兵士
+……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+?
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ？
+[k]
+
+＠兵士
+ヒッ……！[r]敵襲！　敵襲ー！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[se ad33]
+[wt 1.5]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[se ad13]
+[wait se ad13]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ヤッホー、手が空いたから様子を観に……[r]って、何でまわりを武装集団に取り囲まれてるんだい!?
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠マシュ
+……すみません、わたしの失敗です。[r]挨拶はフランス語でするべきでした。
+[k]
+
+？1：そういう問題だったのか!?
+
+？2：そもそも言葉伝わってるの!?
+
+？！
+
+[charaFace A 7]
+＠マシュ
+もちろんです。[r]そしてこうなっては戦闘回避は困難だと進言します。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+いきなり荒事か！[r]しかもフランスの精鋭！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+ま、まあ、とりあえず落ち着こう！[r]その世界は隔離された状態だ。
+[k]
+
+＠Dr.ロマン
+何が起きようとタイムパラドックスは発生しないから、[r]彼等とここで戦闘になっても問題はないだろうけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター。何かアイデアを。[r]こういう時のためのフランスジョークとか知らないんですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+知るもんか、ぼっちだからね！[r]でもちょっと待って、考えさせて……！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+小粋な冗談を思いつけばいいんだろう？[r]その帽子ドイツんだ、みたいな！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠兵士
+どこからともなく軽薄な声がする……！[r]総員、構えろ！　こいつら怪しすぎるぞ！
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+すみません、先輩。[r]ドクターに期待したわたしが間違っていました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+やはり現地人を傷つけるのはマズいと思います。[r]抑えるために、攻撃しましょう！
+[k]
+
+？1：マシュも何を言っているんだ!?
+
+？2：ロマンと同レベルだ！
+
+？！
+
+[charaFace A 6]
+＠マシュ
+な、何かおかしかったですか！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ええい、仕方ない！　こうなったら峰打ちだ！[r]極力流血はナシの方向で！　峰打ちで行こう！
+[k]
+
+？1：盾で？
+
+？2：どうやって……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+な、何とかします！[r]ファイアー！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いや、燃やすのも論外だよ!?
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

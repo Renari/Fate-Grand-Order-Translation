@@ -1,0 +1,295 @@
+＄01-00-01-10-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4017001 1 マリー・アントワネット]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4006001 1 ゲオルギウス]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaTalk G]
+[charaFace H 4]
+[charaFadein H 0 0]
+[charaFace G 4]
+[charaFadein G 0 2]
+[fadein black 1]
+[wait fade]
+＠清姫
+や、やられました……。[r]きゅぅ。
+[k]
+
+＠エリザベート
+や、やるじゃないの……。[r]きょ、今日はこの辺にしておいてあげるわ……。
+[k]
+
+[charaFadeout G 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+落ち着いたところで、お話を聞きたいのですが、[r]よろしいですか？
+[k]
+
+[charaFace H 5]
+＠エリザベート
+……何よ。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+＠清姫
+負け蛇、すなわち[#敗蛇:はいじゃ]に追い打ちする気？
+[k]
+
+[charaFace A 8]
+＠マシュ
+負け蛇って……。ええと、貴女たちの他に[r]サーヴァントを見たことはありますか？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 0]
+[charaFadein H 0.1 0]
+＠エリザベート
+頭がおかしくなったサーヴァントたちは見たけど？[r]コイツみたいに。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠清姫
+一緒にしないで戴けますか。[r]わたくしは、言語をきちんと理解できるバーサーカーです。
+[k]
+
+[charaFace H 2]
+＠エリザベート
+何よ。
+[k]
+
+[charaFace G 2]
+＠清姫
+何ですか。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠アマデウス
+……あー、思い出した。生前、よく見たよアレ。[r]猫の喧嘩。もううるさいったらないの。
+[k]
+
+[charaFace F 2]
+＠アマデウス
+見ていろ、今に頭をくっつけてフギャグゴゲゲオゴゴ！[r]みたいな鳴き声を上げるからな！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+[charaFace H 2]
+[charaFadein H 0.1 0]
+＠エリザベート
+あげないわよ！？[r]でもそれシャミセン、シャミセンって言うのよね！
+[k]
+
+[charaFace G 2]
+＠清姫
+何度も申し上げますが、[r]一緒にしないで戴けますか！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+ともかく！　“竜の魔女”やカーミラたち以外に[r]サーヴァントを見てはいないのですね？
+[k]
+
+[charaFace A 14]
+＠マシュ
+マスター。[r]……どうやら、こちらは骨折り損のようです。
+[k]
+
+？1：外れか……
+
+[charaFadeout A 0]
+[charaTalk G]
+[charaFadein A 0.1 2]
+[charaFace G 5]
+[charaFadein G 0.1 0]
+＠清姫
+エリザベートはともかくですね、[r]わたくしを外れとは不遜にも程がありませんか？
+[k]
+
+？2：残念だ
+
+[charaFadeout A 0]
+[charaTalk H]
+[charaFadein A 0.1 2]
+[charaFace H 5]
+[charaFadein H 0.1 0]
+＠エリザベート
+ちょっと何よ残念って！[r]アタシに出会っておいて、残念！？
+[k]
+
+？！
+
+？1：聖人を探している
+
+？2：聖人以外に用はない
+
+？！
+
+[charaFadeout H 0]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠清姫
+……む。臆せず切り返すとはなかなかですね。[r]それにしても聖人？
+[k]
+
+＠清姫
+この国に広く根付いた教えの聖人ならば、[r]ひとり心当たりがありますが。
+[k]
+
+[charaFace A 6]
+＠マシュ
+本当ですか！？
+[k]
+
+＠清姫
+ええ、エリザベートと出会う前に遭遇しました。
+[k]
+
+[charaFace G 4]
+＠清姫
+危うく戦闘するところでしたが、わたくしが[#本来の][r]バーサーカーであることに気付き、剣を収めてくれました。
+[k]
+
+[charaFace G 0]
+＠清姫
+彼の[#真名:な]はゲオルギウス。[r]こちらでは有名な聖人なのでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+ゲオルギウス！　聖ジョージとも言われる聖人か。[r]……うん、彼ならば文句なしだろう。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+どこに行ったか分かりますか？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace G 4]
+[charaFadein G 0.1 0]
+＠清姫
+それは残念。[r]わたくしと逆方向、西側へ向かいました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+西側なら……ジャンヌさんたちが向かっているはずですね。[r]通信開始します！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout G 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20500 0]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジャンヌ
+……ええ、大丈夫です。[r]こちらもサーヴァントを探知できました。
+[k]
+
+＠ジャンヌ
+今、コンタクトするところです。
+[k]
+
+[charaFadeout D 0]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠ゲオルギウス
+そちらで止まって下さい。[r]何者ですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+＠マリー・アントワネット
+わたしはサーヴァント、クラスはライダー。[r]真名をマリー・アントワネットと申します。
+[k]
+
+[charaFace E 0]
+＠ゲオルギウス
+……なるほど、狂化されてはいないようですね。
+[k]
+
+[charaFace C 0]
+＠マリー・アントワネット
+ええ、彼らと戦う側です。[r]それからこちらが[line 2]。
+[k]
+
+[charaFace E 1]
+＠ゲオルギウス
+なるほど。かの聖女ですか。[r]……名は伏せておいた方がよろしいでしょうね。
+[k]
+
+[charaFace E 4]
+＠ゲオルギウス
+この街も、あの邪竜と魔女に一度襲撃されています。[r]私がどうにか退散させましたが、次は不可能でしょう。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ジャンヌ
+……では、私たちと共に来て戴けませんか？
+[k]
+
+＠ジャンヌ
+“[#竜殺し:ドラゴンスレイヤー]”に掛かった呪いを[r]退散させなければならないのです。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+ですが、複数の呪いが絡み合っているため、[r]私と貴方が揃っていなければ……。
+[k]
+
+[charaFace E 0]
+＠ゲオルギウス
+なるほど、事情は理解しました。
+[k]
+
+[charaFace E 1]
+＠ゲオルギウス
+……街の人間は既に避難を開始しています。[r]それが終わり次第、出発しましょう。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+ありがとうございます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

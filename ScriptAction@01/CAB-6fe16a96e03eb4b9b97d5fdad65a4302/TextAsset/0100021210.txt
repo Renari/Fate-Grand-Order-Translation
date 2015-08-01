@@ -1,0 +1,273 @@
+＄01-00-02-12-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20400 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 1005001 1 ネロ]
+[charaSet E 5019001 1 ？？？]
+[charaSet F 4015001 1 ？？？]
+[charaSet G 7003001 1 呂布]
+[charaSet H 6011001 1 荊軻]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 15]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+サーヴァント反応、近いです。[r]警戒してください。もうすぐそこにいます。
+[k]
+
+＠Dr.ロマン
+こちらで観測できている反応はふたつだ。[r]複数サーヴァントとの戦闘になるぞ。注意したまえ！
+[k]
+
+[charaFace D 2]
+＠ネロ
+どこだ、ブーディカ！[r]返事をしろ！
+[k]
+
+＠ネロ
+よもやまだ死んではいまい！[r]わかるぞ、余にはわかる。貴様は死なぬ！
+[k]
+
+＠F：？？？
+……ううん。[r]それは、随分と勝手な物言いじゃないかな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+[charaFace F 1]
+[charaFadein F 0.4 2]
+＠F：？？？
+でも、安心していいよ。[r]彼女は無事だ。今は、彼の魔術ですやすや眠ってる。
+[k]
+
+[charaFace E 4]
+＠E：？？？
+拘束の魔術だ。[r]すやすや眠る、とは違う。
+[k]
+
+[charaFace F 3]
+＠F：？？？
+でも、彼女、寝てたよ？[r]すやすや。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ネロ
+……貴様ら。[r]のこのこ顔を出すとは、驚いたぞ。
+[k]
+
+＠ネロ
+両名共に、この砦の将と見た。[r]許す。自らの名をこの皇帝ネロへと告げてみよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠F：？？？
+名乗らせてくれるのかい？[r]ううん、そうだな。どういう風に言おうかな。
+[k]
+
+[charaFace F 3]
+＠F：？？？
+僕は名前が複数あるんだ。[r]悩むね。ううん。
+[k]
+
+[charaFace F 1]
+＠F：？？？
+[line 2]よし、こうしよう。
+[k]
+
+[charaSet F 4015001 2 アレキサンダー]
+[charaFace F 0]
+[charaFadein F 0]
+＠アレキサンダー
+僕は、アレキサンダー。[r]正確には、アレキサンダー三世という。
+[k]
+
+＠アレキサンダー
+で、彼が[line 2]
+[k]
+
+[charaSet E 5019001 0 エルメロイ二世]
+[charaFace E 0]
+[charaFadein E 0]
+＠エルメロイ二世
+ロード・エルメロイ二世。[r]故あって、いや、縁あって彼の軍師をしている。
+[k]
+
+[charaFace E 4]
+＠エルメロイ二世
+まっとうな英霊ではない。[r]英霊としては他の名になるのだろう。
+[k]
+
+[charaFace E 0]
+＠エルメロイ二世
+故に、私の名前は忘れてくれて構わんよ。
+[k]
+
+[charaFace F 3]
+＠アレキサンダー
+そういう訳にはいかないさ。[r]僕たちは、彼女にとっては敵将なんだ。
+[k]
+
+[charaFace F 1]
+＠アレキサンダー
+ね、ローマ皇帝さん？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadeout F 0]
+[charaFadein F 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ネロ
+無論だ。……何だ？[r]この期に及んで、敵対せぬとでも言うつもりか。
+[k]
+
+[charaFace F 0]
+＠アレキサンダー
+うん。
+[k]
+
+[charaFace D 0]
+＠ネロ
+な、なんと？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+敵対しない……？[r]あなたたちは、敵性サーヴァントではないのですか。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠エルメロイ二世
+私は[#はぐれ]だ。マスターを持たん。[r]アレキサンダーは別だがな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 0]
+＠アレキサンダー
+マスターと相性が合わなかったのかもね。僕。[r]だから僕は、僕の意思でここにいる。
+[k]
+
+[charaFace F 0]
+＠アレキサンダー
+ここで、待っていたんだ。[r]きみが来るのを。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+＠ネロ
+余の……ことを？[r]待っていた？
+[k]
+
+[charaFace F 3]
+＠アレキサンダー
+うん。ちょっと、興味が湧いたからね。[r]あれこれとちょっかいをかけたのは、そのためだ。
+[k]
+
+＠アレキサンダー
+話がしたかったんだ。[r]きみとね。
+[k]
+
+[charaFace F 0]
+＠アレキサンダー
+できれば[line 2][r]こうして、戦場の真ん中で。
+[k]
+
+[charaFace F 1]
+＠アレキサンダー
+ありがとう、ロード・エルメロイ二世。[r]僕の我が儘を見事に叶えてくれた。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠エルメロイ二世
+何を言う。[r]半分以上はおまえの采配だ。
+[k]
+
+[charaFace D 0]
+＠ネロ
+…………？
+[k]
+
+[se ad16]
+[wt 2]
+[seStop ad16 3]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩！　皇帝陛下！[r]敵兵がこちらに来ています、陛下を狙っている模様！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ネロ
+くっ、挟撃か！？
+[k]
+
+[charaFadeout D 0]
+[charaTalk F]
+[charaFadein D 0.1 2]
+[charaFace F 1]
+[charaFadein F 0.1 0]
+＠アレキサンダー
+ああ、安心して。僕らは何もしないよ。[r]でも[line 2]
+[k]
+
+[charaFace F 4]
+＠アレキサンダー
+もう連合の兵たちは止まらないだろうね。[r]彼らは、君の存在に気付けば半ば自動的に襲い掛かる。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+来ます！
+[k]
+
+？1：迎撃！
+
+？2：ネロを守るんだ！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+了解、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

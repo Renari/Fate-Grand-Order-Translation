@@ -1,0 +1,163 @@
+＄01-00-01-08-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 4017001 1 マリー・アントワネット]
+[charaSet C 98014000 1 指揮官]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98014000 1 兵士]
+[charaSet F 1022001 1 ジル]
+[charaSet G 7002001 1 ランスロット]
+[charaSet H 6012001 1 サンソン]
+[charaFace G 4]
+[charaFadein G 0 1]
+[fadein black 1]
+[wait fade]
+＠ランスロット
+……Ａ……アー……サー……。
+[k]
+
+[charaFadeout G 0]
+[charaTalk D]
+[charaFadein G 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠ジャンヌ
+アーサー？[r]……それは、貴方の王アーサーのことですか？
+[k]
+
+＠ジャンヌ
+[line 2]残念ですが、私はジャンヌ・ダルク。[r]貴方が求めた王、アーサーではありません。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……。[r]ああ、そうか。
+[k]
+
+？1：何？
+
+？2：どうしたの？
+
+？！
+
+＠マシュ
+ランスロットがジャンヌさんに[#拘:こだわ]った理由が分かりました。[r]ジャンヌさんは、アーサー王に似ているんですね。
+[k]
+
+[charaFace A 13]
+＠マシュ
+顔形ではなく、魂が[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠ランスロット
+王……よ……私は……どうか……。
+[k]
+
+[messageOff]
+[charaSpecialEffect G flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect G]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ジャンヌさん、行きましょう。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+はい！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠ジル
+ジャンヌ！[r]お待ちを！　貴女は確かにジャンヌ・ダルク！
+[k]
+
+[charaFace F 1]
+＠ジル
+“竜の魔女”ではない、[r]正真正銘の聖女……！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace B 4]
+[charaFadein B 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+……。
+[k]
+
+＠マリー・アントワネット
+……返答しなくていいのですか？
+[k]
+
+＠ジャンヌ
+私が返答すれば、ジルの立場が危うくなります。[r]現状、彼らに頼ることもないでしょう。
+[k]
+
+＠ジャンヌ
+何より、かつて共に戦った人々に憎まれるのは[r]さすがに堪えますから。
+[k]
+
+＠マリー・アントワネット
+でも……本当に彼らは、憎んでいるのでしょうか。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+[line 2]行きましょう。
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout B 0.4]
+[wt 0.3]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠指揮官
+元帥。[r]今のは一体……。
+[k]
+
+[charaFace F 4]
+＠ジル
+わからん。[r]わからんが……もう一度“竜の魔女”について調べ直せ。
+[k]
+
+＠ジル
+シャルル七世を討ったのが、本当にジャンヌ・ダルク[r]だったのか。悪質な偽物なのか。
+[k]
+
+[charaFace F 0]
+＠ジル
+あるいは……ジャンヌ・ダルクはこの世界に[r]二人存在するのか。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

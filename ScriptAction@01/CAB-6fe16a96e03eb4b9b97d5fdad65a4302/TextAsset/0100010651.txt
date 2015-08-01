@@ -1,0 +1,164 @@
+＄01-00-01-06-5-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 5009003 1 ダ・ヴィンチ]
+[charaSet H 4019001 1 バーサーク・ライダー]
+[charaFace H 0]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠バーサーク・ライダー
+……そう。ここまでね。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 4]
+[charaFadein D 0 1]
+＠ジャンヌ
+マルタ。貴女は[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠バーサーク・ライダー
+手を抜いた？[r]んな訳ないでしょ、バカ。
+[k]
+
+＠バーサーク・ライダー
+これでいい、これでいいのよ。[r]まったく、聖女に虐殺させるんじゃないってえの。
+[k]
+
+[charaFace H 0]
+＠バーサーク・ライダー
+……いい、最後に一つだけ教えてあげる。[r]“竜の魔女”が操る竜に、貴女たちは絶対勝てない。
+[k]
+
+＠バーサーク・ライダー
+あの竜種を超える方法はただ一つ。[r]リヨンに行きなさい。かつてリヨンと呼ばれた都市に。
+[k]
+
+＠バーサーク・ライダー
+竜を倒すのは聖女ではない、姫でもない。[r]竜を倒すのは、古来から“[#竜殺し:ドラゴンスレイヤー]”と相場が決まっているわ。
+[k]
+
+[charaFace H 4]
+＠バーサーク・ライダー
+タラスク、ごめん。[r]……次は、もうちょっと真っ当に召喚されたいものね。
+[k]
+
+[messageOff]
+[charaSpecialEffect H flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect H]
+[wt 0.5]
+[charaFadeout D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……聖女マルタですら、逆らえないなんて。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+召喚されたサーヴァントであることに加え、[r]狂化されてしまっていては、仕方ないかもしれません。
+[k]
+
+＠マシュ
+本来なら、ああやって話すことすら不可能だったはず。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それでも彼女が会話を成立させたのは、[r]そのたぐい希なる[#克己心:こっきしん]が故でしょう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠マリー・アントワネット
+ええ。とても穏やかで、同時に激しい人でした。[r]わたしにはわかります。
+[k]
+
+＠マリー・アントワネット
+あの人は鉄の聖女。なんであれ、最後は拳で解決する[r][#金剛石:アダマント]のような人です。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠アマデウス
+うんうん。タラスクは説教で沈めたっていうけど、[r]ホントはアレだな。力ずくで従えたに違いない。
+[k]
+
+＠アマデウス
+それはともかく、[r]彼女のおかげで目的地が定まったんだ。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+旅は急げというだろう？[r]さあ、リヨンに向かって出発しよう。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠マシュ
+……意外です。アマデウスさんはその、徒歩の移動が[r]嫌いなタイプだと思ったのですが……
+[k]
+
+＠マリー・アントワネット
+あら。アマデウスは無類の旅好きよ？[r]子供の頃から色々な国を渡り歩いていたものね？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠アマデウス
+……まあ、旅行に慣れているのは事実かな。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠マリー・アントワネット
+うふふ、ワクワクしてきたわ。[r]リヨンに何があるのかしら。誰がいるのかしら！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠マリー・アントワネット
+ほら、ジャンヌ。[r]一緒に行きましょう？
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+……はい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

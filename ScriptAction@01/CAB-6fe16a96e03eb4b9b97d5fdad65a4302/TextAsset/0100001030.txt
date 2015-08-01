@@ -1,0 +1,231 @@
+＄01-00-00-10-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20110]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 5021001 1 キャスター]
+[charaSet G 98006300 1 ？？？]
+[charaFace F 0]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+＠キャスター
+そろそろ大聖杯だ。[r]ここが最後の一休みになるが、やり残しはないな？
+[k]
+
+？1：もちろん、準備万端だ。
+
+[charaFace F 1]
+＠キャスター
+そりゃ頼もしい。[r]ここ一番で[#胆:ハラ]を決めるマスターは嫌いじゃない。
+[k]
+
+[charaFace F 0]
+＠キャスター
+まだまだ新米だが、[r]おまえには航海者に一番必要なものが備わっている。
+[k]
+
+＠キャスター
+運命を掴む天運と、それを前にした時の決断力だ。
+[k]
+
+＠キャスター
+その向こう見ずさを忘れるなよ？[r]そういうヤツにこそ、星の加護ってヤツが与えられる。
+[k]
+
+？2：いったんベースに戻ってもいい？
+
+[charaFace F 1]
+＠キャスター
+おう、不安材料があるなら戻れ戻れ。[r]穴熊攻めだ、物資はたっぷり仕入れねえとな。
+[k]
+
+？！
+
+[charaFadeout F 0]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠オルガマリー
+なにを言っているんだか。[r]進むにしろ戻るにしろ、その前に休憩が必要でしょう。
+[k]
+
+＠オルガマリー
+ドクター、きちんとバイタルチェックはしているの？[r][%1]の顔色、通常より良くないわよ。
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout E 0]
+[communicationChara 98003003 1 5 0 5]
+＠Dr.ロマン
+え！？　あ……うん、これはちょっとまずいね。[r]突然のサーヴァント契約だったからなあ……。
+[k]
+
+＠Dr.ロマン
+使われていなかった[#魔術回路:しんけい]がフル稼働して、[r]脳に負担をかけている。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+マシュ、キャンプの用意を。[r]温かくて蜂蜜のたっぷり入ったお茶の出番だ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+了解しましたドクター。[r]ティータイムにはわたしも賛成です。
+[k]
+
+[charaFadeout A 0]
+[charaTalk F]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠キャスター
+お、決戦前の腹ごしらえかい？[r]んじゃオレはイノシシでも狩ってくるか。
+[k]
+
+[charaFadeout A 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠オルガマリー
+いないでしょ、そんな生き物。[r]そもそも肉はやめて肉は。どうせなら果物にしてよね。
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wt 0.3]
+[scene 20110]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+……満足です。所長がドライフルーツを隠し持って[r]いるなんて、改めてその周到さに舌を巻きました。
+[k]
+
+[charaFadeout A 0]
+[charaTalk E]
+[charaFadein A 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠オルガマリー
+たまたま所持していただけよ。[r]頭痛には柑橘系が効くのよ。それより[line 3]
+[k]
+
+[charaFace E 3]
+＠オルガマリー
+……………。[r]…………………………。
+[k]
+
+？1：……あの、なんですか所長？
+
+？2：……おかわりですか、所長？
+
+[charaFace E 1]
+＠オルガマリー
+一杯で十分よ！　それと、わたしは紅茶より[r]珈琲派だと覚えておきなさい！
+[k]
+
+[charaFace E 3]
+＠オルガマリー
+い、いえ、そうじゃなくて。[r]そういうコトじゃなくて……ああもう！
+[k]
+
+？！
+
+[charaFace E 0]
+＠オルガマリー
+こ、ここまでの働きは及第点です。[r]カルデア所長として、あなたの功績を認めます。
+[k]
+
+＠オルガマリー
+……ふん。なによその顔。[r]どうせまぐれだろうけど、今は貴方しかいないのよ。
+[k]
+
+＠オルガマリー
+その調子でうまくやれば褒めてあげてもいいってコト。[r]三流でも一人前の仕事はできるんだって分かったし。
+[k]
+
+[charaFadeout A 0]
+[communicationCharaLoop 98003003 0 5 0 2]
+＠Dr.ロマン
+なんと。[%1][&君:ちゃん]を一人前と[r]認めてくれるなんて、何か甘いものでも食べました？
+[k]
+
+[charaFace E 3]
+＠オルガマリー
+ロマニ。無駄口を叩く余裕があるなら、[r][%1]に補給物資の一つでも送りなさい。
+[k]
+
+[charaFace E 0]
+＠オルガマリー
+本人が頑張ってるのに、[r]装備不足で失敗するなんて可哀想じゃない。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+おや。可哀想、とはお優しい。[r]これはもしや、所長にもようやく心の雪解けが？
+[k]
+
+[charaFace E 3]
+＠オルガマリー
+バ……！　あ、哀れでみじめって意味よ！[r]そんなコトも分からないの!?
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+いやあ、いつ見てもいいものですね、少年少女の交流[r]というものは。少女と言うには所長はちょっとアレですが。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 0]
+＠マシュ
+そうでしょうか。所長は確かに年上ですが、趣味嗜好は[r]たいへん近しいものを感じます。親愛を覚えます。
+[k]
+
+[charaFace E 1]
+＠オルガマリー
+なに言ってるのアンタ!?[r]アンタたちなんてわたしの道具だって言ってるでしょう!?
+[k]
+
+[charaFadeout A 0]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+＠？？？
+[line 6]（うんうん）
+[k]
+
+[charaFace E 0]
+＠オルガマリー
+ほら見なさい、こんな黒っぽくて怪物っぽいのさえ[r]同意してるじゃない！
+[k]
+
+[wt 2]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 4]
+＠オルガマリー
+え[line 3]あひぃいいい!?[r]マシュ、早く排除して！　食べられる、食べられる！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,261 @@
+＄01-00-01-10-5-1
+
+[soundStopAll]
+[scene 20500 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 4017001 1 マリー・アントワネット]
+[charaSet D 6012001 1 サンソン]
+[charaSet E 98007000 1 ジャンヌ・オルタ]
+[charaFace C 2]
+[charaFadein C 0 2]
+[charaFace D 2]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+[wt 0.5]
+[fadeout white 2]
+[wait fade]
+[wt 0.3]
+[scene 20500 0]
+[wait fade]
+[fadein white 1]
+[wait fade]
+[bgm BGM_EVENT_6 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠サンソン
+そんな、バカな……!?[r]どうして僕が打ち負ける……!?
+[k]
+
+[charaFace D 2]
+＠サンソン
+あの時から何人も殺して、[r]何倍も強くなったのに、どうして……!?
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+＠マリー・アントワネット
+哀しいわね、シャルル＝アンリ・サンソン。[r]再会した時に言ってあげれば良かった。
+[k]
+
+＠マリー・アントワネット
+あの時、既にあなたとの関係は終わっていたって。
+[k]
+
+[charaFace C 5]
+＠マリー・アントワネット
+だって、本当に[line 3][r]あなたの刃は錆び付いていたんだもの。
+[k]
+
+＠マリー・アントワネット
+あなたはこの間違ったフランスで多くの人間を[r]殺してきた。殺人者としての切れ味を増していった。
+[k]
+
+[charaFace C 4]
+＠マリー・アントワネット
+でも、処刑人と殺人者は違うのよ、サンソン。[r]人を殺すのが巧くなれば巧くなるほど[line 3]
+[k]
+
+[charaFace C 5]
+＠マリー・アントワネット
+罪人を救うという、[#処刑人:あなた]の刃は錆び付いていく。
+[k]
+
+＠マリー・アントワネット
+あなたは竜の魔女についた時点で、[r]もうわたしの知っているサンソンではなかったのね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠サンソン
+違う……うそだ、そんなはずは……！[r]ずっと君が来ると信じていた！　だから腕を磨き続けた！
+[k]
+
+[charaFace D 5]
+＠サンソン
+もう一度君に会って、もっと巧く首を[#刎:は]ねて[line 3][r]もっともっと、最高の瞬間を与えられたら！
+[k]
+
+[charaFace D 3]
+＠サンソン
+そうすればきっと、[r]きっと君に許してもらえると思ったから……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠マリー・アントワネット
+……もう。本当に哀れで、可愛い人なんだから。[r]わたしはあなたを恨んではいない。
+[k]
+
+[charaFace C 0]
+＠マリー・アントワネット
+はじめからあなたは、[r]わたしに許される必要なんてなかったのに。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠サンソン
+ぁ……ああ、あ[line 3]
+[k]
+
+[messageOff]
+[charaSpecialEffect D erasure 0 0.5]
+[wt 0.5]
+[se ba5]
+[wait charaSpecialEffect D]
+[wt 0.5]
+[se ad17]
+[wait se ad17]
+[charaFace E 1]
+[charaFadein E 0 1]
+＠ジャンヌ・オルタ
+……これで三人。[r]見込んだ者ほど早く脱落するとは、皮肉ですね。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace C 0]
+[charaFadein C 0 1]
+＠マリー・アントワネット
+ええ。案外、最後まで残るのは貴女が一番嫌っている[r]吸血鬼ふたりなのかもしれませんわね。
+[k]
+
+[charaFace C 1]
+＠マリー・アントワネット
+ごきげんよう、“竜の魔女”さん。[r]ずいぶんと遅い到着でしたのね？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+[#彼女:わたし]は逃げたのですね。[r][line 2]なんて無様。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠マリー・アントワネット
+いいえ、違うわ。[r]彼女は希望を持って行ったのよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+サーヴァント一騎、仲間に入れた程度で？[r]馬鹿馬鹿しい。
+[k]
+
+[charaFace E 0]
+＠ジャンヌ・オルタ
+馬鹿馬鹿しいといえば、[r]貴女が残っているのもまた下らない。
+[k]
+
+[charaFace E 3]
+＠ジャンヌ・オルタ
+そこまでして、[r]民を守る使命に酔いしれたいのですか？
+[k]
+
+[charaFace E 2]
+＠ジャンヌ・オルタ
+他ならぬ、その民に殺された貴女が。[r]ギロチンに掛けられ、嘲笑と共に首を刎ねられた女が！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠マリー・アントワネット
+ああ、幻滅です。[r]魔女というのはそんな理屈もわからないの？
+[k]
+
+[charaFace C 4]
+＠マリー・アントワネット
+確かにわたしは処刑されたわ。[r]嘲笑もあったし、蔑みもあったわ。
+[k]
+
+[charaFace C 5]
+＠マリー・アントワネット
+でも[line 2]だからといって、[r]殺し返す理由にはなりません。
+[k]
+
+[charaFace C 2]
+＠マリー・アントワネット
+わたしは民に乞われて王妃になった。[r]民なくして王妃は王妃とは呼ばれない。
+[k]
+
+＠マリー・アントワネット
+だからあれは当然の結末だった。[r]彼らが望まないなら、望まなくとも退場する。
+[k]
+
+＠マリー・アントワネット
+それが国に仕える人間の[#運命:さだめ]。[r]わたしの処刑は、次の笑顔に繋がったと信じている。
+[k]
+
+[charaFace C 1]
+＠マリー・アントワネット
+いつだって、[#フランス万歳:ヴィヴ・ラ・フランス]！[r]星は輝きを与えて、それでよしとすればいい。
+[k]
+
+[charaFace C 0]
+＠マリー・アントワネット
+そして、今の言葉で確信したわ。[r]ねえ[line 2]“竜の魔女”。
+[k]
+
+＠マリー・アントワネット
+[#本当の貴女は何者なの]？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠ジャンヌ・オルタ
+……黙れっ！
+[k]
+
+[se ad17]
+[wait se ad17]
+[charaFadeout E 0.1]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠マリー・アントワネット
+[line 2]宝具展開。[r]『[#愛すべき輝きは永遠に:クリスタル・パレス]』！！
+[k]
+
+[flashin once 0.6 0.4 FFFFFF80 00000000]
+[flashout 0.4]
+[se ad17]
+[wt 1]
+＠マリー・アントワネット
+……さよなら、ジャンヌ。[r]ええ、会えて良かったわ。
+[k]
+
+[charaFace C 0]
+＠マリー・アントワネット
+フランスを救った聖女の手助けができるなら……[r]ううん、“友達”の手助けができるなら。
+[k]
+
+[charaFace C 1]
+＠マリー・アントワネット
+わたしは喜んで輝き、散りましょう。
+[k]
+
+＠マリー・アントワネット
+星のように、花のように。[r][#泡沫:ほうまつ]の夢のように。
+[k]
+
+[charaFace C 2]
+＠マリー・アントワネット
+それがサーヴァント。[r]それがマリー・アントワネットの生き方だから[line 2]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

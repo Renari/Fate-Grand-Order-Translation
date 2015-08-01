@@ -1,0 +1,78 @@
+＄01-00-01-14-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20602 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 5002001 1 ジル]
+[charaSet G 7013001 1 清姫]
+[charaSet H 3005001 1 エリザベート]
+[charaTalk E]
+[charaFace A 5]
+[charaFadein A 0 2]
+[charaFace E 5]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠ジル
+……っ！
+[k]
+
+[charaFace A 15]
+＠マシュ
+くっ、さすがに強い……。[r]トドメを刺せませんでした！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace G 2]
+[charaFadein G 0.1 2]
+＠清姫
+このサーヴァントは我々が抑えます。[r]マスター、貴方たちは先へ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFace H 2]
+[charaFadein H 0.1 2]
+＠エリザベート
+そうね、ラスボスとの決着をつけてきなさい！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠マシュ
+応援、感謝します……！[r]ジャンヌさん！
+[k]
+
+＠ジャンヌ
+……。
+[k]
+
+？1：ジャンヌ！
+
+？2：どうした？
+
+？！
+
+[charaFace D 2]
+＠ジャンヌ
+……ご、ごめんなさい。[r]何でもありません！
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+行きます、お二人ともありがとうございます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

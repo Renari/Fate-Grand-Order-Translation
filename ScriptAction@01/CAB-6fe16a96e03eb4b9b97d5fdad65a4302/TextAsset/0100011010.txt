@@ -1,0 +1,313 @@
+＄01-00-01-10-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 1008001 1 ジークフリート]
+[charaSet F 5015001 1 アマデウス]
+[charaSet G 7013001 1 ？？？]
+[charaSet H 3005001 1 ？？？]
+[charaTalk A]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ジャンヌさんたちは、[r]もうそろそろ到着するようです。
+[k]
+
+[charaFace A 13]
+＠マシュ
+わたしたちも頑張りましょう。[r]間もなく、ティエールです。
+[k]
+
+[charaFace F 1]
+＠アマデウス
+ティエール……確か、刃物の街だったね。[r]街の様子を見るに、崩壊している訳ではないようだ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドクター、サーヴァントの反応はありますか？
+[k]
+
+[se ad13]
+[wait se ad13]
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 5]
+＠Dr.ロマン
+ただいま確認中だ。[r]……よし、ティエールに二騎のサーヴァントがいる。
+[k]
+
+＠Dr.ロマン
+早速コンタクトしてみて[line 2]。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[se bac33]
+[wait se bac33]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マシュ
+……今、街から炎が上がりましたね。
+[k]
+
+[charaFace F 4]
+＠アマデウス
+この雑音……イヤだ。イヤだぞぅ……[r]かつてない悪音、かつてない悪魔の予感がする！
+[k]
+
+[charaFace F 2]
+＠アマデウス
+ああ、救いの手を差し伸べてくれ[#女神:ミューズ]たち！[r]ロクでもない予感がして震えが止まらない……！
+[k]
+
+？1：とにかく急ごう
+
+？2：とにかく確認してみよう
+
+？！
+
+[charaFace A 2]
+＠マシュ
+わ、わかりました！[r]皆さん、ついてきてください！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[scene 20500 0]
+[fadein black 0.5]
+[wait fade]
+[se ad33]
+[wait se ad33]
+[wt 0.5]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20500 0]
+[charaFace G 0]
+[charaFadein G 0.4 2]
+[charaFace H 2]
+[charaFadein H 0.4 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠H：？？？
+このっ！　この、この、このっ！[r]ナマイキ！　なのよ！　極東の！　ド田舎リスが！
+[k]
+
+[charaFace G 1]
+＠G：？？？
+うふふふふ。生意気なのはさて、どちらでしょう。[r][#出来損:できそこ]ないが真の竜であるこのわたくしに[line 2]
+[k]
+
+[se bac33]
+[wait se bac33]
+[charaFace H 0]
+＠G：？？？
+勝てるとお思いで。エリザベートさん？
+[k]
+
+[charaSet H 3005001 0 エリザベート]
+[charaFace H 5]
+[charaFadein H 0.1]
+＠エリザベート
+うーーーーっ！　ムカつくったらありゃしないわ！[r]カーミラの前に、まずはアンタを血祭りにしてあげる！
+[k]
+
+[charaFace H 2]
+＠エリザベート
+この泥沼ストーカー！
+[k]
+
+[charaFace G 4]
+＠G：？？？
+ストーカーではありません。[r]「隠密的にすら見える献身的な後方警備」です。
+[k]
+
+[charaFace G 3]
+＠G：？？？
+この清姫、愛に生きる女です故。
+[k]
+
+[charaFace H 2]
+＠エリザベート
+アンタの愛は人権侵害なのよ！
+[k]
+
+[charaSet G 7013001 2 清姫]
+[charaFace G 5]
+[charaFadein G 0.1]
+＠清姫
+血液拷問フェチのド変態に言われたくありませんね。
+[k]
+
+[charaFace G 0]
+＠清姫
+どうせ貴女のことです、[r]アレしながらナニしてたんでしょう……？
+[k]
+
+[charaFace H 5]
+＠エリザベート
+アレって何よ！？　ナニって何よ！？[r]わ、訳のわからないこと言わないで頂戴！！
+[k]
+
+[charaFace G 4]
+＠清姫
+……え？[r]エリザベート、貴女まさか[line 2]。
+[k]
+
+[charaFace H 2]
+＠エリザベート
+ああああああ！[r]うるさいうるさいうるさい！　とりあえず[line 2]殺す！
+[k]
+
+[charaFace G 2]
+＠清姫
+返り討ちにさせていただきます！
+[k]
+
+＠二人
+たあああああああああああああ！！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠アマデウス
+そこまで！　そこまでーっ！　それ以上は許せない、[r]声という声、音という音への冒涜だっ！
+[k]
+
+？1：聖人かな？
+
+？2：聖人じゃないよね
+
+？！
+
+＠アマデウス
+まさか！　それこそ僕の怒りの日だ！[r]あれが聖人だったら世界の宗教は引っ繰り返る！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+と、ともかく止めないと……！[r]あの、お二人とも！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace H 2]
+[charaFadein H 0.1 0]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+＠エリザベート
+あん？　何よ！
+[k]
+
+[charaFace G 2]
+＠清姫
+わたくし、いま忙しいのです。[r]一昨日に来てください、ほんと。
+[k]
+
+[charaFace H 5]
+＠エリザベート
+ハ。すぐに忙しくなくなるわよ。[r]次の聖杯戦争までね！
+[k]
+
+[charaFace G 5]
+＠清姫
+……ふん。[r]エリマキトカゲ。
+[k]
+
+[charaFace H 2]
+＠エリザベート
+アオダイショウ！
+[k]
+
+[charaFace G 2]
+＠清姫
+メキシコドクトカゲ。
+[k]
+
+＠エリザベート
+ヒャッポダ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFace A 5]
+[charaFadein A 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マシュ
+あー、もー！
+[k]
+
+[charaFace F 4]
+＠アマデウス
+ぐ、ぐぐう……耳が死ぬ……この糞どもが……あ、いや、[r]違う違う、それは禁止、マリアとの約束だった。
+[k]
+
+[charaFace F 0]
+＠アマデウス
+それより、マシュ君。
+[k]
+
+[charaFace A 0]
+＠マシュ
+何ですか！？
+[k]
+
+[charaFace F 3]
+＠アマデウス
+喜ばしいことに敵だ。[r]この街を守るためにも、まずはこちらを片付けよう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace G 5]
+[charaFadein G 0.1 2]
+[charaFace H 2]
+[charaFadein H 0.1 0]
+＠エリザベート
+ブラックマンバ！
+[k]
+
+[charaFace G 2]
+＠清姫
+カナヘビ！
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace F 2]
+[charaFadein F 0.1 0]
+＠アマデウス
+さあ行こう！　敵を蹴散らした後に来れば、[r]あれも終わっているだろうからね！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

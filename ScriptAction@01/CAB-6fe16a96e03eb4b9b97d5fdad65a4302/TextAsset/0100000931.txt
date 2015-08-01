@@ -1,0 +1,87 @@
+＄01-00-00-09-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20110]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98004000 1 レフ]
+[charaSet E 98005000 1 オルガマリー]
+[charaSet F 5021001 2 キャスター]
+[charaSet G 2001001 0 サーヴァント]
+[charaSet H 2001001 1 アーチャー]
+[charaShadow H true]
+[charaFace H 0]
+[charaFadein H 0 1]
+[fadein black 1]
+[wait fade]
+＠アーチャー
+考えたな花の魔術師……！　まさかその宝具に、[r]そんな使い[#途:みち]があったとは……！
+[k]
+
+[messageOff]
+[se ba5]
+[charaSpecialEffect H darkEnemyErasure 1 3]
+[wait charaSpecialEffect H]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠キャスター
+おう、未練なく消えろ消えろ。[r]聖剣攻略はオレとお嬢ちゃんでやってやる。
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFadein F 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……信頼していただけるのは嬉しいのですが、[r]わたしに防げるのでしょうか。
+[k]
+
+＠マシュ
+……その、音に聞こえたアーサー王の聖剣が。[r]わたしには過ぎた役割のようで、指が震えています。
+[k]
+
+＠キャスター
+そこは[#根性:ガッツ]で乗り切るしかねえわな。[r]だがまあ、オレの見立てじゃ相性は抜群にいい。
+[k]
+
+[charaFace F 5]
+＠キャスター
+その盾が壊される事はない。負けるとしたら、[r]盾を支えるお嬢ちゃんがヘマをした場合だろうよ。
+[k]
+
+＠キャスター
+お嬢ちゃんが盾から手を離せば、[r]その後ろにいるマスターは一瞬で蒸発する。
+[k]
+
+＠キャスター
+いいか。聖剣に勝つ、なんて考えなくていい。[r]アンタは、アンタのマスターを護る事だけ考えろ。
+[k]
+
+[charaFace F 3]
+＠キャスター
+得意だろ、そういうの？
+[k]
+
+[charaFace F 0]
+＠キャスター
+まあなんだ。セイバーを仕留めるのは[r]オレに任せて、やりたい事をやれって話さ。
+[k]
+
+[charaFace A 6]
+[wt 0.2]
+[charaFace A 13]
+＠マシュ
+……はい。[r]そのアドバイスは、たいへん力になるようです。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

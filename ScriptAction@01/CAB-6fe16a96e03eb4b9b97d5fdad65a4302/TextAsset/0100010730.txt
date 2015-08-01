@@ -1,0 +1,42 @@
+＄01-00-01-07-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20520 0]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 4017001 1 マリー・アントワネット]
+[charaSet F 5015001 1 アマデウス]
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0 0]
+[charaFace A 2]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+更に敵です！
+[k]
+
+[charaFace E 4]
+＠マリー・アントワネット
+ああ、やっぱり！[r]急いで戻ってきたけど、こっちにもゾロゾロですのね！
+[k]
+
+[charaFace E 2]
+＠マリー・アントワネット
+助太刀なんていらないでしょうけど、[r]わたしの気持ちが治まりません！
+[k]
+
+＠マリー・アントワネット
+お手伝いします、[%1]さん！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
