@@ -1,0 +1,107 @@
+{
+	"battleId": 1, 
+	"enemy": [
+		{
+		    "stageId": 0, 
+		    "userCommand": [
+		        {
+		            "atk": 100,
+		            "type": 0,
+		            "lv": 1, 
+		            "userSvtId": 1
+		        } 
+		    ], 
+		    "userSvt": [
+		        {
+		            "id": 100, 
+		            "level": 10,
+		            "adjustAtk": 100, 
+		            "adjustHp": 99999, 
+		            "maxtpturn": 9,
+		            "nexttpturn": 99,
+		            "svtId": 1,
+	            	"AbilityIdlist" :[ 1 ]
+		        }
+		    ]
+		}
+	], 
+	"player": {
+		"userCommand": [
+	        {
+	            "atk": 10,
+	            "type": 0,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 20,
+	            "type": 0,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 20,
+	            "type": 0,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 25,
+	            "type": 1,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 30,
+	            "type": 1,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 30,
+	            "type": 1,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 25,
+	            "type": 2,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 30,
+	            "type": 2,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        },
+	        {
+	            "atk": 30,
+	            "type": 2,
+	            "lv": 1, 
+	            "svtId":100,
+	            "userSvtId": 1
+	        }
+		], 
+		"userSvt": [
+		    {
+	            "id": 1, 
+	            "adjustAtk": 100, 
+	            "adjustHp": 99999, 
+	            "svtId": 100,
+	            "svtname": "テストアバター１",
+	            "AbilityIdlist" :[ 1, 2, 3]
+		    }
+		]
+	}, 
+	"seed": 194704911, 
+	"turn": 0
+}

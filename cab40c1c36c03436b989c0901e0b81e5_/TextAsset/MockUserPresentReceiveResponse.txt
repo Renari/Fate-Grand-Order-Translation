@@ -1,0 +1,91 @@
+{
+    "response": [
+        {
+            "resCode": "00",
+            "success": {
+            	"presentError" : {
+            	
+            		"101":1
+            	}
+            },
+            "fail": {},
+            "nid": "present_receive"
+        }
+    ],
+    "cache": {
+        "replaced": {
+        	
+        	"userPresentBox":[
+        		{
+        			"receiveUserId": 1,
+        			"presentId": 2,
+        			"isAuto": false,
+        			"messageRefType": 1,
+        			"messageId": 1,
+        			"message": "祖国からの贈り物です",
+        			"expireAt": 1425536324,
+        			"fromType": 1,
+        			"fromId": 1,
+        			"giftType": 1,
+        			"objectId": 100500,
+        			"num": 1,
+        			"status": 0,
+        			"updatedAt": 1422857924,
+                    "createdAt": 1422857924
+        		},
+        		{
+        			"receiveUserId": 1,
+        			"presentId": 3,
+        			"isAuto": false,
+        			"messageRefType": 1,
+        			"messageId": 1,
+        			"message": "事前登録報酬です",
+        			"expireAt": 1425536324,
+        			"fromType": 1,
+        			"fromId": 1,
+        			"giftType": 2,
+        			"objectId": 1,
+        			"num": 1,
+        			"status": 0,
+        			"updatedAt": 1422944324,
+                    "createdAt": 1422944324
+        		},
+        		{
+        			"receiveUserId": 1,
+        			"presentId": 4,
+        			"isAuto": false,
+        			"messageRefType": 1,
+        			"messageId": 1,
+        			"message": "祖国からの贈り物です",
+        			"expireAt": 1425536324,
+        			"fromType": 1,
+        			"fromId": 1,
+        			"giftType": 2,
+        			"objectId": 2,
+        			"num": 1,
+        			"status": 0,
+        			"updatedAt": 1422944324,
+                    "createdAt": 1422944324
+        		},
+        		{
+        			"receiveUserId": 1,
+        			"presentId": 5,
+        			"isAuto": false,
+        			"messageRefType": 1,
+        			"messageId": 1,
+        			"message": "事前登録報酬です",
+        			"expireAt": 1425536324,
+        			"fromType": 1,
+        			"fromId": 1,
+        			"giftType": 1,
+        			"objectId": 100100,
+        			"num": 1,
+        			"status": 0,
+        			"updatedAt": 1422944324,
+                    "createdAt": 1422944324
+        		}
+        	]
+        },
+        "updated": {}
+    }
+}

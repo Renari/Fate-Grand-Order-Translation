@@ -1,0 +1,824 @@
+{
+	"userGame": [{
+                "userId": 1,
+                "name": "default",
+                "realName": "真名",
+                "birthDay": 1395718979,
+                "actRecoverAt": 1399004646,
+                "actMax": 30,
+                "lv": 1,
+                "exp": 0,
+                "coin": 10,
+                "costMax": 50,
+                "loginCount": 0,
+                "friendMax": 20,
+                "magicMax": 10,
+                "orderCnt": 0,
+                "chalicePoint": 0,
+                "svtMax": 10,
+                "freeStone": 0,
+                "chargeStone": 0,
+                "mainDeckId": 0,
+                "updatedAt": 1395721446,
+                "createdAt": 1395721446
+            }],
+	"mstArea": [{
+            "id": 1,
+            "x": 10,
+            "y": 20,
+            "worldId": 0 
+        }],
+	"mstWar": [{
+            "id": 11,
+            "age": "AC 1500",
+            "name": "聖杯戦争1",
+            "areaId": 1,
+            "imageId": 1,
+            "iconImageId":1,
+            "priority": 1
+        }, {
+            "id": 12,
+            "age": "AC 2000",
+            "name": "聖杯戦争2",
+            "areaId": 1,
+            "imageId": 2,
+            "iconImageId":2,
+            "priority": 2
+        }],
+	"mstSpot": [{
+            "id": 1101,
+            "warId": 11,
+            "priority":1,
+            "imageId":1,
+            "x": 0,
+            "y": 0
+        }, {
+            "id": 1102,
+            "warId": 11,
+            "priority":1,
+            "imageId":2,
+            "x": 100,
+            "y": 100
+        }, {
+            "id": 1103,
+            "warId": 11,
+            "priority":1,
+            "imageId":3,
+            "x": -400,
+            "y": -100
+	    }, {
+		    "id": 1104,
+		    "warId": 11,
+		    "priority":1,
+		    "imageId":4,
+		    "x": -210,
+		    "y": -275
+        }, {
+            "id": 1201,
+            "warId": 12,
+            "priority":1,
+            "imageId":1,
+            "x": 200,
+            "y": 200
+        }, {
+            "id": 1202,
+            "warId": 12,
+            "priority":1,
+            "imageId":1,
+            "x": 300,
+            "y": 300
+        }],
+	 "mstQuest": [{
+	    "id": 110101,
+	    "name": "メインクエスト",
+	    "detail": "クエスト詳細",
+	    "type": 1,
+	    "actConsume": 3,
+	    "spotId": 1101,
+	    "startStageId": 1,
+	    "rewardId": 1,
+	    "priority": 1,
+	    "imageId": 1,
+	    "forceOperation": 1,
+	    "afterClear": 1,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+	}, {
+	    "id": 110102,
+	    "name": "クエスト2",
+	    "detail": "クエスト詳細",
+	    "type": 2,
+	    "actConsume": 3,
+	    "spotId": 1101,
+	    "startStageId": 4,
+	    "rewardId": 2,
+	    "priority": 2,
+	    "imageId": 2,
+	    "forceOperation": 2,
+	    "afterClear": 0,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+	    
+	}, 
+	{
+	    "id": 110106,
+	    "name": "クエスト6",
+	    "detail": "クエスト詳細",
+	    "type": 3,
+	    "actConsume": 3,
+	    "spotId": 1102,
+	    "startStageId": 4,
+	    "rewardId": 2,
+	    "priority": 1,
+	    "imageId": 2,
+	    "forceOperation": 0,
+	    "afterClear": 0,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+	},
+	{
+	    "id": 110107,
+	    "name": "クエスト7",
+	    "detail": "クエスト詳細",
+	    "type": 1,
+	    "actConsume": 3,
+	    "spotId": 1103,
+	    "startStageId": 4,
+	    "rewardId": 2,
+	    "priority": 1,
+	    "imageId": 2,
+	    "forceOperation": 0,
+	    "afterClear": 0,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+	},
+	{
+	    "id": 110103,
+	    "name": "フリークエスト",
+	    "detail": "クエスト詳細",
+	    "type": 2,
+	    "actConsume": 10,
+	    "spotId": 1101,
+	    "startStageId": 9,
+	    "rewardId": 3,
+	    "priority": 3,
+	    "imageId": 3,
+	    "forceOperation": 0,
+	    "afterClear": 0,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+	}, {
+	    "id": 110104,
+	    "name": "絆クエスト",
+	    "detail": "クエスト詳細",
+	    "type": 3,
+	    "actConsume": 3,
+	    "spotId": 1101,
+	    "startStageId": 0,
+	    "rewardId": 4,
+	    "priority": 4,
+	    "imageId": 4,
+	    "forceOperation": 0,
+	    "afterClear": 1,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+    }, {
+	    "id": 210101,
+	    "name": "絆クエスト1201",
+	    "detail": "クエスト詳細",
+	    "type": 3,
+	    "actConsume": 3,
+	    "spotId": 1201,
+	    "startStageId": 0,
+	    "rewardId": 4,
+	    "priority": 4,
+	    "imageId": 4,
+	    "forceOperation": 0,
+	    "afterClear": 1,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+	}, {
+	    "id": 110105,
+	    "name": "限界突破クエスト",
+	    "detail": "クエスト詳細",
+	    "type": 4,
+	    "actConsume": 3,
+	    "spotId": 1101,
+	    "startStageId": 0,
+	    "rewardId": 5,
+	    "priority": 5,
+	    "imageId": 5,
+	    "forceOperation": 0,
+	    "afterClear": 0,
+	    "displayHours": 0,
+	    "intervalHours": 0,
+	    "openedAt": 946652400,
+	    "closedAt": 1893423600
+	}],
+	"mstQuestRelease": [{
+            "questId": 110101,
+            "type": 1,
+            "targetId": 0,
+            "value": 0,
+            "openLimit": 0,
+            "closedImageId": 0,
+            "imagePriority": 0
+        }, {
+            "questId": 110102,
+            "type": 10,
+            "targetId": 1,
+            "value": 2,
+            "openLimit": 0,
+            "closedImageId": 0,
+            "imagePriority": 0
+        }, {
+            "questId": 110103,
+            "type": 11,
+            "targetId": 1001,
+            "value": 0,
+            "openLimit": 0,
+            "closedImageId": 0,
+            "imagePriority": 0
+        }, {
+            "questId": 110104,
+            "type": 1,
+            "targetId": 110103,
+            "value": 0,
+            "openLimit": 0,
+            "closedImageId": 0,
+            "imagePriority": 0
+        }, {
+            "questId": 110105,
+            "type": 1,
+            "targetId": 110103,
+            "value": 0,
+            "openLimit": 0,
+            "closedImageId": 1,
+            "imagePriority": 1
+        }, {
+            "questId": 110105,
+            "type": 2,
+            "targetId": 1,
+            "value": 5,
+            "openLimit": 0,
+            "closedImageId": 2,
+            "imagePriority": 2
+       	}, {
+            "questId": 110107,
+            "type": 2,
+            "targetId": 9,
+            "value": 1,
+            "openLimit": 3600,
+            "closedImageId": 1,
+            "imagePriority": 0
+    	}, {
+            "questId": 210101,
+            "type": 1,
+            "targetId": 110104,
+            "value": 0,
+            "openLimit": 0,
+            "closedImageId": 0,
+            "imagePriority": 0
+        },{
+        	"questId": 110106,
+            "type": 1,
+            "targetId": 110104,
+            "value": 0,
+            "openLimit": 0,
+            "closedImageId": 0,
+            "imagePriority": 0
+        }],
+        
+       "userItem": [{
+	        "userId": 1,
+	        "itemId": 2,
+	        "num": 2,
+	        "updatedAt": 1395721446,
+            "createdAt": 1395721446
+	    }, {
+	        "userId": 1,
+	        "itemId": 3,
+	        "num": 30,
+	        "updatedAt": 1395721446,
+            "createdAt": 1395721446
+	    }, {
+	        "userId": 1,
+	        "itemId": 4,
+	        "num": 10,
+	        "updatedAt": 1395721446,
+            "createdAt": 1395721446
+        }, {
+	        "userId": 1,
+	        "itemId": 5,
+	        "num": 20,
+	        "updatedAt": 1395721446,
+            "createdAt": 1395721446
+	    }, {
+	        "userId": 1,
+	        "itemId": 6,
+	        "num": 3,
+	        "updatedAt": 1395721446,
+            "createdAt": 1395721446
+    	}, {
+	        "userId": 1,
+	        "itemId": 7,
+	        "num": 5,
+	        "updatedAt": 1395721446,
+            "createdAt": 1395721446
+    	}, {
+	        "userId": 1,
+	        "itemId": 8,
+	        "num": 30,
+	        "updatedAt": 1395721446,
+            "createdAt": 1395721446
+	}],
+        
+        "userQuest": [{        
+	       "userId": 1,
+		   "questId": 110101,
+		   "clearNum": 0,
+		   "useEternalKey": true,
+	       "keyExpireAt": 1395721446,
+	       "keyCountRemain": 1,
+	       "isNew": false,
+	       "updatedAt": 1395721446,
+	       "createdAt": 1395721446
+        }],
+        
+        "userSvt": [{
+	        "id": 1,
+	        "userId": 1,
+	        "svtId": 1,
+	        "limitCount": 1,
+	        "rank": 1,
+	        "lv": 10,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+	     }, {
+	       	"id": 2,
+	        "userId": 1,
+	        "svtId": 2,
+	        "limitCount": 2,
+	        "rank": 1,
+	        "lv": 10,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+	        }, {
+	       	"id": 3,
+	        "userId": 1,
+	        "svtId": 3,
+	        "limitCount": 3,
+	        "rank": 1,
+	        "lv": 30,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+	        }, {
+	       	"id": 4,
+	        "userId": 1,
+	        "svtId": 4,
+	        "limitCount": 4,
+	        "rank": 1,
+	        "lv": 40,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+	        }, {
+	       	"id": 5,
+	        "userId": 1,
+	        "svtId": 5,
+	        "limitCount": 1,
+	        "rank": 1,
+	        "lv": 50,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+	        }, {
+	       	"id": 6,
+	        "userId": 1,
+	        "svtId": 6,
+	        "limitCount": 4,
+	        "rank": 1,
+	        "lv": 11,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+	        }, {
+	       	"id": 7,
+	        "userId": 1,
+	        "svtId": 7,
+	        "limitCount": 4,
+	        "rank": 1,
+	        "lv": 12,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+	        }, {
+	       	"id": 8,
+	        "userId": 1,
+	        "svtId": 4,
+	        "limitCount": 4,
+	        "rank": 1,
+	        "lv": 22,
+	        "exp": 0,
+	        "friendship": 0,
+	        "friendshipRank": 1,
+	        "scenarioId": 1,
+	        "adjustHp": 10,
+	        "adjustAtk": 10,
+	        "abilityId1":1,
+	        "abilityId2":2,
+	        "abilityId3":3,
+	        "treasureDeviceId1":1,
+	        "treasureDeviceId2":2,
+	        "treasureDeviceId3":3,
+	        "updatedAt": 1395721446,
+	        "createdAt": 1395721446
+        }],
+        
+        "mstSvtGroup": [{
+            "id": 1,
+            "svtId": 1
+        }, {
+            "id": 1,
+            "svtId": 2
+        }, {
+            "id": 1,
+            "svtId": 3
+        }, {
+            "id": 1,
+            "svtId": 4
+        }, {
+            "id": 1,
+            "svtId": 5
+        }, {
+            "id": 1,
+            "svtId": 6
+        }, {
+            "id": 1,
+            "svtId": 7
+        }],
+        
+         "mstEvent": [{
+            "id": 1001,
+            "type": 1,
+            "name": "レイドボス",
+            "detail": "レイドボスイベント",
+            "bannerId":1,
+            "bannerOrder":1,
+            "noticeAt": 1356966000,
+            "startedAt": 1356966000,
+            "endedAt": 1420038000,
+            "finishedAt": 1356966000,
+            "updatedAt": 1356966000,
+            "createdAt": 1356966000
+        }, {
+            "id": 2001,
+            "type": 2,
+            "name": "PvP",
+            "detail": "PvPイベント",
+            "bannerId":2,
+            "bannerOrder":2,
+            "noticeAt": 1356966000,
+           "startedAt": 1356966000,
+            "endedAt": 1420038000,
+            "finishedAt": 1356966000,
+            "updatedAt": 1356966000,
+            "createdAt": 1356966000
+        }, {
+            "id": 3001,
+            "type": 3,
+            "name": "ポイント制",
+            "detail": "ポイント制イベント",
+            "bannerId":3,
+            "bannerOrder":3,
+            "noticeAt": 1356966000,
+            "startedAt": 1356966000,
+            "endedAt": 1356966000,
+            "finishedAt": 1356966000,
+            "updatedAt": 1356966000,
+            "createdAt": 1356966000
+        }],
+        "mstStage": [{
+            "id": 1,
+            "name": "クエスト1-1",
+            "questId": 110101,
+            "nextStageId": 2,
+            "priority": 1,
+            "npcId": 1
+        }, {
+            "id": 2,
+            "name": "クエスト1-2",
+            "questId": 110101,
+            "nextStageId": 3,
+            "priority": 2,
+            "npcId": 2
+        }, {
+            "id": 3,
+            "name": "クエスト1-3",
+            "questId": 110101,
+            "nextStageId": 0,
+            "priority": 3,
+            "npcId": 3
+    	}, {
+            "id": 3,
+            "name": "クエスト1-4",
+            "questId": 110101,
+            "nextStageId": 0,
+            "priority": 4,
+            "npcId": 3
+        }, {
+            "id": 4,
+            "name": "クエスト2-1",
+            "questId": 110102,
+            "nextStageId": 5,
+            "priority": 4,
+            "npcId": 4
+        }, {
+            "id": 5,
+            "name": "クエスト2-2",
+            "questId": 110102,
+            "nextStageId": 6,
+            "priority": 5,
+            "npcId": 5
+        }, {
+            "id": 6,
+            "name": "クエスト2-2",
+            "questId": 110102,
+            "nextStageId": 0,
+            "priority": 6,
+            "npcId": 6
+        }, {
+            "id": 7,
+            "name": "クエスト3-1",
+            "questId": 110103,
+            "nextStageId": 8,
+            "priority": 7,
+            "npcId": 7
+        }, {
+            "id": 8,
+            "name": "クエスト3-2",
+            "questId": 110103,
+            "nextStageId": 9,
+            "priority": 8,
+            "npcId": 8
+        }, {
+            "id": 9,
+            "name": "クエスト3-3",
+            "questId": 110103,
+            "nextStageId": 0,
+            "priority": 9,
+            "npcId": 9
+	    }, {
+		    "id": 10,
+		    "name": "クエスト4-1",
+		    "questId": 110104,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 11,
+		    "name": "クエスト4-2",
+		    "questId": 110104,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 12,
+		    "name": "クエスト4-3",
+		    "questId": 110104,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 13,
+		    "name": "クエスト5-1",
+		    "questId": 110105,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 14,
+		    "name": "クエスト5-2",
+		    "questId": 110105,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 15,
+		    "name": "クエスト5-3",
+		    "questId": 110105,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 16,
+		    "name": "クエスト6-1",
+		    "questId": 110106,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 17,
+		    "name": "クエスト6-2",
+		    "questId": 110106,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 18,
+		    "name": "クエスト6-3",
+		    "questId": 110106,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 19,
+		    "name": "クエスト7-1",
+		    "questId": 110107,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 20,
+		    "name": "クエスト7-2",
+		    "questId": 110107,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+	    }, {
+		    "id": 21,
+		    "name": "クエスト7-3",
+		    "questId": 110107,
+		    "nextStageId": 9,
+		    "priority": 8,
+		    "npcId": 8
+        }],
+        
+        "mstItem": [{
+            "id": 1,
+            "name": "お金",
+            "detail": "詳細1",
+            "type": 1,
+            "value": 0,
+            "battleAllowNum": 0,
+            "imgId": 1
+        }, {
+            "id": 2,
+            "name": "魔法石",
+            "detail": "詳細2",
+            "type": 2,
+            "value": 10,
+            "battleAllowNum": 5,
+            "imgId": 2
+        }, {
+            "id": 3,
+            "name": "行動力半回復",
+            "detail": "詳細3",
+            "type": 3,
+            "value": 50,
+            "battleAllowNum": 10,
+            "imgId": 3
+        }, {
+            "id": 4,
+            "name": "行動力全回復",
+            "detail": "詳細4",
+            "type": 3,
+            "value": 100,
+            "battleAllowNum": 5,
+            "imgId": 4
+        }, {
+            "id": 5,
+            "name": "魔力小回復",
+            "detail": "詳細5",
+            "type": 4,
+            "value": 3,
+            "battleAllowNum": 10,
+            "imgId": 5
+        }, {
+            "id": 6,
+            "name": "魔力中回復",
+            "detail": "詳細6",
+            "type": 4,
+            "value": 5,
+            "battleAllowNum": 5,
+            "imgId": 6
+        }, {
+            "id": 7,
+            "name": "魔力大回復",
+            "detail": "詳細7",
+            "type": 4,
+            "value": 10,
+            "battleAllowNum": 3,
+            "imgId": 7
+        }, {
+            "id": 8,
+            "name": "進化素材",
+            "detail": "詳細8",
+            "type": 5,
+            "value": 0,
+            "battleAllowNum": 0,
+            "imgId": 8
+        }, {
+            "id": 9,
+            "name": "鍵アイテム",
+            "detail": "詳細9",
+            "type": 6,
+            "value": 0,
+            "battleAllowNum": 0,
+            "imgId": 9
+        }]
+}

@@ -1,0 +1,279 @@
+{
+    "updated": {
+      "mstAi": [
+        {
+          "vals":[],
+          "avals":[0,0],
+          "id":99000600,
+          "idx":1,
+          "actNum": 1,
+          "priority": 1,
+          "probability": 0,
+          "cond":0,
+          "aiActId":1002,
+          "infoText":""
+        },
+        {
+          "vals":[],
+          "avals":[99000600,0],
+          "id":99000600,
+          "idx":2,
+          "actNum": 2,
+          "priority": 1,
+          "probability": 0,
+          "cond":0,
+          "aiActId":1005,
+          "infoText":""
+        }
+      ],
+      "userGame": [
+        {
+          "stone": 62,
+          "friendKeep": 32,
+          "svtKeep": 50,
+          "svtEquipKeep": 50,
+          "userId": 1001318,
+          "name": "Akaino0715a",
+          "birthDay": 0,
+          "actMax": 48,
+          "actRecoverAt": 1436965481,
+          "carryOverActPoint": 0,
+          "genderType": 2,
+          "lv": 24,
+          "exp": 100085,
+          "qp": 100900,
+          "costMax": 54,
+          "friendCode": "509751325",
+          "favoriteUserSvtId": 1017325,
+          "commandSpellRecoverAt": 1437058800,
+          "userEquipId": 1125,
+          "freeStone": 62,
+          "chargeStone": 0,
+          "mana": 0,
+          "mainDeckId": 4226,
+          "activeDeckId": 4226,
+          "tutorial1": 1942,
+          "tutorial2": 0,
+          "updatedAt": 1436964771,
+          "createdAt": 1436879626
+        }
+      ],
+      "tblUserGame": [
+        {
+          "userId": 1001318,
+          "friendPoint": 50,
+          "updatedAt": 1436964771,
+          "createdAt": 1436879626
+        }
+      ]
+    },
+    "replaced": {
+      "battle": [
+        {
+          "battleInfo": {
+            "userSvt": [
+              {
+                "skillId2": 0,
+                "skillId3": 0,
+                "skillLv2": 1,
+                "skillLv3": 1,
+                "treasureDeviceId": 601701,
+                "treasureDeviceLv": 1,
+                "deathRate": 440,
+                "equipTargetId1": 0,
+                "id": 1009825,
+                "svtId": 601700,
+                "lv": 1,
+                "limitCount": 0,
+                "exp": 0,
+                "hp": 1675,
+                "atk": 1568,
+                "skillId1": 22350,
+                "skillLv1": 1,
+                "individuality": [
+                  601700,
+                  2,
+                  105,
+                  201,
+                  301,
+                  304,
+                  1000
+                ]
+              },
+              {
+                "skillId2": 2000,
+                "skillId3": 0,
+                "skillLv2": 1,
+                "skillLv3": 1,
+                "treasureDeviceId": 800100,
+                "treasureDeviceLv": 1,
+                "deathRate": 245,
+                "equipTargetId1": 0,
+                "id": 1017325,
+                "svtId": 800100,
+                "lv": 1,
+                "limitCount": 0,
+                "exp": 0,
+                "hp": 1854,
+                "atk": 1261,
+                "skillId1": 1000,
+                "skillLv1": 1,
+                "individuality": [
+                  800100,
+                  2,
+                  107,
+                  201,
+                  300,
+                  303,
+                  1000
+                ]
+              },
+              {
+                "skillId2": 0,
+                "skillId3": 0,
+                "skillLv2": 1,
+                "skillLv3": 1,
+                "treasureDeviceId": 401401,
+                "treasureDeviceLv": 1,
+                "deathRate": 350,
+                "equipTargetId1": 1017500,
+                "id": 1017347,
+                "svtId": 401400,
+                "lv": 1,
+                "limitCount": 0,
+                "exp": 0,
+                "hp": 1625,
+                "atk": 1314,
+                "skillId1": 28550,
+                "skillLv1": 1,
+                "individuality": [
+                  401400,
+                  2,
+                  103,
+                  202,
+                  301,
+                  305,
+                  1000
+                ]
+              },
+              {
+                "id": 1017500,
+                "svtId": 9400340,
+                "lv": 1,
+                "limitCount": 0,
+                "exp": 0,
+                "hp": 0,
+                "atk": 500,
+                "skillId1": 990067,
+                "skillLv1": 1,
+                "individuality": []
+              },
+              {
+                "skillId2": 23150,
+                "skillId3": 25450,
+                "skillLv2": 10,
+                "skillLv3": 10,
+                "treasureDeviceId": 701601,
+                "treasureDeviceLv": 5,
+                "criticalRate": 100,
+                "starRate": 0,
+                "tdRate": 1200,
+                "deathRate": 0,
+                "aiId": 99000600,
+                "chargeTurn": 5,
+                "actPriority": 500,
+                "maxActNum": 2,
+                "hpGaugeType": 1,
+                "npcSvtType": 1,
+                "displayType": 1,
+                "id": 1,
+                "svtId": 701600,
+                "lv": 1,
+                "limitCount": 4,
+                "exp": 0,
+                "hp": 99999,
+                "atk": 1504,
+                "skillId1": 39450,
+                "skillLv1": 10,
+                "individuality": [
+                  701600,
+                  2,
+                  106,
+                  201,
+                  301,
+                  303,
+                  1000,
+                  2002
+                ]
+              }
+            ],
+            "myUserSvt": [],
+            "myUserSvtEquip": [],
+            "enemyUserSvt": [],
+            "dataVer": 421,
+            "appVer": "1.0.0",
+            "userEquipId": 1125,
+            "myDeck": {
+              "svts": [
+                {
+                  "uniqueId": 1,
+                  "name": null,
+                  "npcId": 0,
+                  "id": 1,
+                  "userSvtId": 1017325,
+                  "isFollowerSvt": false
+                },
+                {
+                  "uniqueId": 2,
+                  "name": null,
+                  "npcId": 0,
+                  "id": 2,
+                  "userSvtId": 1017347,
+                  "isFollowerSvt": false
+                },
+                {
+                  "uniqueId": 3,
+                  "name": null,
+                  "npcId": 0,
+                  "id": 3,
+                  "userSvtId": 1009825,
+                  "isFollowerSvt": true
+                }
+              ]
+            },
+            "enemyDeck": [
+              {
+                "svts": [
+                  {
+                    "dropInfos": [],
+                    "enemyScript": {
+                      "appear": 1
+                    },
+                    "roleType": 2,
+                    "uniqueId": 4,
+                    "name": "タマモキャット",
+                    "npcId": 99000005,
+                    "id": 1,
+                    "userSvtId": 1,
+                    "isFollowerSvt": false
+                  }
+                ]
+              }
+            ]
+          },
+          "id": 3412,
+          "battleType": 1,
+          "questId": 93999910,
+          "questPhase": 1,
+          "userId": 1001318,
+          "followerId": 1001072,
+          "followerType": 2,
+          "rankingEventId": 0,
+          "seed": 1313168721,
+          "status": 1,
+          "result": 0
+        }
+      ]
+  }
+}
+                        

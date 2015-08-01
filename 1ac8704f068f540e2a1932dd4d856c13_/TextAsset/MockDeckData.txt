@@ -1,0 +1,560 @@
+{
+  "mstSvt": [{
+  		"id":1,
+  		"name":"テスト名前1",
+  		"nameRuby":"てすとなまえ1",
+  		"classId":1,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,1,2],
+  		"scenarioId":1,
+  		"cost":3
+  	}, {
+  		"id":2,
+  		"name":"テスト名前2",
+  		"nameRuby":"てすとなまえ2",
+  		"classId":2,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,2,1],
+  		"scenarioId":1,
+  		"cost":5
+  		}, {
+  		"id":3,
+  		"name":"テスト名前3",
+  		"nameRuby":"てすとなまえ3",
+  		"classId":3,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,2,3],
+  		"scenarioId":1,
+  		"cost":7
+  		}, {
+  		"id":4,
+  		"name":"テスト名前4",
+  		"nameRuby":"てすとなまえ4",
+  		"classId":4,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,1,3],
+  		"scenarioId":1,
+  		"cost":9
+	}, {
+  		"id":5,
+  		"name":"テスト名前5",
+  		"nameRuby":"てすとなまえ5",
+  		"classId":5,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,3,1],
+  		"scenarioId":1,
+  		"cost":11
+	}, {
+  		"id":6,
+  		"name":"テスト名前6",
+  		"nameRuby":"てすとなまえ6",
+  		"classId":6,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,2,1],
+  		"scenarioId":1,
+  		"cost":9
+	}, {
+  		"id":7,
+  		"name":"テスト名前7",
+  		"nameRuby":"てすとなまえ7",
+  		"classId":1,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,1,2],
+  		"scenarioId":1,
+  		"cost":20
+	}, {
+  		"id":8,
+  		"name":"テスト名前8",
+  		"nameRuby":"てすとなまえ8",
+  		"classId":1,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,2,3],
+  		"scenarioId":1,
+  		"cost":3
+	}, {
+  		"id":9,
+  		"name":"テスト名前9",
+  		"nameRuby":"てすとなまえ9",
+  		"classId":1,
+  		"type":1,
+  		"limitMax":5,
+  		"friendshipId":1,
+  		"genderType":1,
+  		"attri":1,
+  		"cardIds":[1,2,3,1,3],
+  		"scenarioId":1,
+  		"cost":3
+  	}],
+			
+  "mstClass": [{
+            "id": 1,
+            "name": "セイバー",
+            "antiClassId": 2,
+            "supportType1": 1,
+            "supportValue1": 125,
+            "supportType2": 0,
+            "supportValue2": 0
+        }, {
+            "id": 2,
+            "name": "ランサー",
+            "antiClassId": 3,
+            "supportType1": 2,
+            "supportValue1": 125,
+            "supportType2": 0,
+            "supportValue2": 0
+        }, {
+            "id": 3,
+            "name": "アーチャー",
+            "antiClassId": 4,
+            "supportType1": 3,
+            "supportValue1": 125,
+            "supportType2": 0,
+            "supportValue2": 0
+        }, {
+            "id": 4,
+            "name": "ライダー",
+            "antiClassId": 5,
+            "supportType1": 5,
+            "supportValue1": 2,
+            "supportType2": 0,
+            "supportValue2": 0
+        }, {
+            "id": 5,
+            "name": "キャスター",
+            "antiClassId": 6,
+            "supportType1": 4,
+            "supportValue1": 150,
+            "supportType2": 0,
+            "supportValue2": 0
+        }, {
+            "id": 6,
+            "name": "バーサーカー",
+            "antiClassId": 7,
+            "supportType1": 6,
+            "supportValue1": 120,
+            "supportType2": 5,
+            "supportValue2": 1
+        }, {
+            "id": 7,
+            "name": "アサシン",
+            "antiClassId": 1,
+            "supportType1": 7,
+            "supportValue1": 125,
+            "supportType2": 8,
+            "supportValue2": 90
+        }, {
+            "id": 99,
+            "name": "その他",
+            "antiClassId": 0,
+            "supportType1": 0,
+            "supportValue1": 0,
+            "supportType2": 0,
+            "supportValue2": 0
+   		}],
+   
+   "mstEquip": [{
+	        "id": 1,
+	        "name": "EquipName1",
+	        "detail": "EquipDetail1",
+	        "abilityId1": 1,
+	        "abilityId2": 2,
+	        "abilityId3": 3,
+	        "abilityCond1": 1,
+			"abilityCond2": 2,
+			"abilityCond3": 3,
+			"skillId": 1,
+			"limitLv": 10,
+			"imageId": 1
+	    }, {
+	        "id": 2,
+	        "name": "メイン装備名称2",
+	        "detail": "メイン装備詳細2",
+	        "abilityId1": 4,
+	        "abilityId2": 5,
+	        "abilityId3": 6,
+	        "abilityCond1": 4,
+			"abilityCond2": 5,
+			"abilityCond3": 6,
+			"skillId": 2,
+			"limitLv": 25,
+			"imageId": 2
+	    }, {
+	        "id": 3,
+	        "name": "EquipName3",
+	        "detail": "EquipDetail3",
+	        "abilityId1": 7,
+	        "abilityId2": 8,
+	        "abilityId3": 9,
+	        "abilityCond1": 7,
+			"abilityCond2": 8,
+			"abilityCond3": 9,
+			"skillId": 3,
+			"limitLv": 10,
+			"imageId": 3
+	   }],
+   
+   
+   "mstAbility": [{
+	        "id": 1,
+	        "name": "Ability1",
+	        "detail": "AbilityDetail1"
+	    }, {
+	        "id": 2,
+	        "name": "Ability2",
+	        "detail": "AbilityDetail2"
+	    }, {
+	        "id": 3,
+	        "name": "Ability3",
+	        "detail": "AbilityDetail3"
+        }, {
+	        "id": 4,
+	        "name": "Ability4",
+	        "detail": "AbilityDetail4"
+	   }],
+   
+   "mstSubEquip": [{
+	        "id": 1,
+	        "name": "サブ装備1",
+	        "detail": "サブ装備詳細1",
+	        "abilityId": 4,
+	        "sellCoin": 1
+	    }, {
+	        "id": 2,
+	        "name": "サブ装備2",
+	        "detail": "サブ装備詳細2",
+	        "abilityId": 2,
+	        "sellCoin": 1
+	    }, {
+	        "id": 3,
+	        "name": "サブ装備3",
+	        "detail": "サブ装備詳細3",
+	        "abilityId": 3,
+	        "sellCoin": 1
+	    }, {
+	        "id": 4,
+	        "name": "サブ装備4",
+	        "detail": "サブ装備詳細4",
+	        "abilityId": 4,
+	        "sellCoin": 1
+	    }],
+    
+	"mstSkill": [{
+	        "id": 1,
+	        "name": "スキル1",
+	        "detail": "スキル詳細1",
+	        "type": 1,
+	        "value": 1
+	    }, {
+	        "id": 2,
+	        "name": "スキル2",
+	        "detail": "スキル詳細2",
+	        "type": 2,
+	        "value": 1
+	    }, {
+	        "id": 3,
+	        "name": "スキル3",
+	        "detail": "スキル詳細3",
+	        "type": 3,
+	        "value": 1
+	    }],
+    
+    "mstSvtLimit": [{
+	        "svtId": 1,
+	        "limitCount": 1,
+	        "rarity": 1,
+	        "type": 1,
+	        "value": 1,
+	        "lvMax": 50,
+	        "imageId": 1,
+	        "image2dId": 1,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 1,
+			"leaderSkillId": 1
+	    }, {
+	        "svtId": 2,
+	        "limitCount": 2,
+	        "rarity": 2,
+	        "type": 2,
+	        "value": 2,
+	        "lvMax": 30,
+	        "imageId": 2,
+	        "image2dId": 2,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 2,
+			"leaderSkillId": 2
+	    }, {
+	        "svtId": 3,
+	        "limitCount": 3,
+	        "rarity": 3,
+	        "type": 1,
+	        "value": 1,
+	        "lvMax": 80,
+	        "imageId": 3,
+	        "image2dId": 3,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 1,
+			"leaderSkillId": 1
+	    }, {
+	        "svtId": 4,
+	        "limitCount": 4,
+	        "rarity": 4,
+	        "type": 1,
+	        "value": 1,
+	        "lvMax": 999,
+	        "imageId": 4,
+	        "image2dId": 4,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 3,
+			"leaderSkillId": 3
+		}, {
+	        "svtId": 5,
+	        "limitCount": 1,
+	        "rarity": 1,
+	        "type": 1,
+	        "value": 1,
+	        "lvMax": 100,
+	        "imageId": 5,
+	        "image2dId": 5,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 2,
+			"leaderSkillId": 2
+		}, {
+	        "svtId": 6,
+	        "limitCount": 4,
+	        "rarity": 1,
+	        "type": 1,
+	        "value": 1,
+	        "lvMax": 100,
+	        "imageId": 1,
+	        "image2dId": 1,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 2,
+			"leaderSkillId": 2
+		}, {
+	        "svtId": 7,
+	        "limitCount": 4,
+	        "rarity": 1,
+	        "type": 1,
+	        "value": 1,
+	        "lvMax": 100,
+	        "imageId": 2,
+	        "image2dId": 2,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 2,
+			"leaderSkillId": 2
+		}, {
+	        "svtId": 8,
+	        "limitCount": 4,
+	        "rarity": 1,
+	        "type": 1,
+	        "value": 1,
+	        "lvMax": 100,
+	        "imageId": 3,
+	        "image2dId": 3,
+	        "hpBase": 100,
+	        "hpMax": 1000,
+	        "atkBase": 10,
+	        "atkMax": 100,
+	        "treasureDeviceId1": 1,
+			"treasureDeviceId2": 2,
+			"treasureDeviceId3": 3,
+			"hpDelta": 50,
+			"atkDelta": 5,
+			"skillId": 2,
+			"leaderSkillId": 2
+	    }],
+    
+    "mstAccessary": [{
+	        "id": 1,
+	        "rarity": 1,
+	        "name": "アクセサリー1",
+	        "detail": "アクセサリー1詳細",
+	        "adjustAtk": 1,
+	        "adjustHp": 1,
+	        "abilityId": 1,
+	        "skillId": 1,
+	        "limitLv": 1,
+	        "limitSvtId": 1,
+	        "sellCoin": 1
+	    }, {
+	        "id": 2,
+	        "rarity": 2,
+	        "name": "アクセサリー2",
+	        "detail": "アクセサリー2詳細",
+	        "adjustAtk": 1,
+	        "adjustHp": 1,
+	        "abilityId": 1,
+	        "skillId": 1,
+	        "limitLv": 1,
+	        "limitSvtId": 1,
+	        "sellCoin": 1
+	    }, {
+	        "id": 3,
+	        "rarity": 1,
+	        "name": "アクセサリー3",
+	        "detail": "アクセサリー3詳細",
+	        "adjustAtk": 1,
+	        "adjustHp": 1,
+	        "abilityId": 1,
+	        "skillId": 1,
+	        "limitLv": 1,
+	        "limitSvtId": 1,
+	        "sellCoin": 1
+	    }, {
+	        "id": 4,
+	        "rarity": 1,
+	        "name": "アクセサリー4",
+	        "detail": "アクセサリー4詳細",
+	        "adjustAtk": 1,
+	        "adjustHp": 1,
+	        "abilityId": 1,
+	        "skillId": 1,
+	        "limitLv": 1,
+	        "limitSvtId": 1,
+	        "sellCoin": 1
+	    }, {
+	        "id": 5,
+	        "rarity": 1,
+	        "name": "アクセサリー5",
+	        "detail": "アクセサリー5詳細",
+	        "adjustAtk": 1,
+	        "adjustHp": 1,
+	        "abilityId": 1,
+	        "skillId": 1,
+	        "limitLv": 1,
+	        "limitSvtId": 1,
+	        "sellCoin": 1
+        }, {
+	        "id": 6,
+	        "rarity": 1,
+	        "name": "アクセサリー6",
+	        "detail": "アクセサリー6詳細",
+	        "adjustAtk": 1,
+	        "adjustHp": 1,
+	        "abilityId": 1,
+	        "skillId": 1,
+	        "limitLv": 1,
+	        "limitSvtId": 1,
+	        "sellCoin": 1
+	    }],
+    
+	"mstTreasureDevice": [{
+	        "id": 1,
+	        "name": "宝具名1",
+	        "detail": "宝具詳細1",
+	        "type": 1,
+	        "value": 1
+	    }, {
+	        "id": 2,
+	        "name": "宝具名2",
+	        "detail": "宝具詳細2",
+	        "type": 1,
+	        "value": 1
+	    }, {
+	        "id": 3,
+	        "name": "宝具名3",
+	        "detail": "宝具詳細3",
+	        "type": 1,
+	        "value": 1
+	    }, {
+	        "id": 4,
+	        "name": "宝具名4",
+	        "detail": "宝具詳細4",
+	        "type": 1,
+	        "value": 1
+	    }, {
+	        "id": 5,
+	        "name": "宝具名5",
+	        "detail": "宝具詳細5",
+	        "type": 1,
+	        "value": 1
+	    }]
+}

@@ -1,0 +1,98 @@
+{
+    "updated": {
+		"mstSvtLimit":[
+			{
+				"svtId": 300500,
+				"limitCount": 0,
+				"rarity": 5
+			}
+		],
+		"mstTreasureDevice":[
+			{
+				"id": 106,
+				"ruby": "エクスカリバー",
+				"name": "約束された勝利の剣",
+				"detail": "計算結果を？倍したダメージを与える"
+			}
+		],
+		"mstSvtTreasureDevice":[
+			{
+				"svtId": 300500,
+				"num": 1,
+				"treasureDeviceId": 106,
+				"motion": 50
+			}
+		],
+		"mstServantCard":[
+			{
+				"svtId": 300500,
+				"cardId": 1,
+				"motion": 10,
+				"normalHit": 3,
+				"singleHit": 3,
+				"trinityHit": 3,
+				"unisonHit": 3,
+				"grandHit": 3,
+				"normalDamage":[ 10, 30, 60],
+				"singleDamage":[ 10, 30, 60],
+				"trinityDamage":[ 10, 30, 60],
+				"unisonDamage":[ 10, 30, 60],
+				"grandDamage":[ 10, 30, 60]
+			},{
+				"svtId": 300500,
+				"cardId": 2,
+				"motion": 20,
+				"normalHit": 3,
+				"singleHit": 3,
+				"trinityHit": 3,
+				"unisonHit": 3,
+				"grandHit": 3,
+				"normalDamage":[ 10, 30, 60],
+				"singleDamage":[ 10, 30, 60],
+				"trinityDamage":[ 10, 30, 60],
+				"unisonDamage":[ 10, 30, 60],
+				"grandDamage":[ 10, 30, 60]
+			},{
+				"svtId": 300500,
+				"cardId": 3,
+				"motion": 30,
+				"normalHit": 3,
+				"singleHit": 3,
+				"trinityHit": 3,
+				"unisonHit": 3,
+				"grandHit": 3,
+				"normalDamage":[ 10, 30, 60],
+				"singleDamage":[ 10, 30, 60],
+				"trinityDamage":[ 10, 30, 60],
+				"unisonDamage":[ 10, 30, 60],
+				"grandDamage":[ 10, 30, 60]
+			},{
+				"svtId": 300500,
+				"cardId": 4,
+				"motion": 40,
+				"normalHit": 3,
+				"singleHit": 3,
+				"trinityHit": 3,
+				"unisonHit": 3,
+				"grandHit": 3,
+				"normalDamage":[ 10, 30, 60],
+				"singleDamage":[ 10, 30, 60],
+				"trinityDamage":[ 10, 30, 60],
+				"unisonDamage":[ 10, 30, 60],
+				"grandDamage":[ 10, 30, 60]
+			}
+		],
+        "mstSvt": [
+            {
+                "id": 300500,
+                "name": "エリザベート＝バートリー",
+                "classId": 2,
+                "attri": 1,
+                "cardIds": [ 1, 1, 2, 2, 3 ],
+                "twmotionId": 50,
+                "headupY": 2.2
+                
+            }
+        ]
+    }
+}

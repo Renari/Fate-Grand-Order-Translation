@@ -1,0 +1,81 @@
+{
+    "updated": {
+		"mstSvtLimit":[
+			{
+				"svtId": 100100,
+				"limitCount": 0,
+				"rarity": 5,
+				"weaponGroup": 2,
+				"criticalweight": 10
+			},
+			{
+				"svtId": 100100,
+				"limitCount": 1,
+				"rarity": 5,
+				"weaponGroup": 2,
+				"criticalweight": 10
+			},
+			{
+				"svtId": 601000,
+				"limitCount": 0,
+				"rarity": 5,
+				"weaponGroup": 6,
+				"criticalweight": 10
+			},
+			{
+				"svtId": 601000,
+				"limitCount": 1,
+				"rarity": 5,
+				"weaponGroup": 6,
+				"criticalweight": 10
+			},
+			{
+				"svtId": 601000,
+				"limitCount": 2,
+				"rarity": 5,
+				"weaponGroup": 6,
+				"criticalweight": 10
+			},
+			{
+				"svtId": 401900,
+				"limitCount": 0,
+				"rarity": 5,
+				"weaponGroup": 6,
+				"criticalweight": 10
+			},
+			{
+				"svtId": 401900,
+				"limitCount": 1,
+				"rarity": 5,
+				"weaponGroup": 6,
+				"criticalweight": 10
+			},
+			{
+				"svtId": 401900,
+				"limitCount": 2,
+				"rarity": 5,
+				"weaponGroup": 6,
+				"criticalweight": 10
+			}
+		],
+		"mstTreasureDevice":[
+			{
+				"id": 1,
+				"ruby": "エクスカリバー",
+				"name": "約束された勝利の剣",
+				"detail": "計算結果を？倍したダメージを与える",
+				"funcId":[ 90 ]
+			}
+		],
+		"mstSvtTreasureDevice":[
+			{
+				"svtId": 100100,
+				"num": 1,
+				"treasureDeviceId": 1,
+				"motion": 50,
+				"damage":[10,10,10,10,10,10],
+				"cardId": 2
+			}
+		]
+    }
+}

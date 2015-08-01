@@ -1,0 +1,44 @@
+{
+    "updated": {
+		"mstSvtLimit":[
+			{
+				"svtId":  200100,
+				"limitCount": 0,
+				"rarity": 5,
+				"weaponGroup": 3,
+				"criticalweight": 10
+			},{
+				"svtId": 200100,
+				"limitCount": 1,
+				"rarity": 5,
+				"weaponGroup": 3,
+				"criticalweight": 10
+			},{
+				"svtId": 200100,
+				"limitCount": 2,
+				"rarity": 5,
+				"weaponGroup": 3,
+				"criticalweight": 10
+			}
+		],
+		"mstTreasureDevice":[
+			{
+				"id": 2001001,
+				"ruby": "てすと",
+				"name": "テストですよ",
+				"detail": "お試し宝具です",
+				"funcId":[ 90 ]
+			}
+		],
+		"mstSvtTreasureDevice":[
+			{
+				"svtId": 200100,
+				"num": 1,
+				"treasureDeviceId": 2001001,
+				"motion": 50,
+				"damage":[10,10,10,10,10,10],
+				"cardId": 2
+			}
+		]
+    }
+}
