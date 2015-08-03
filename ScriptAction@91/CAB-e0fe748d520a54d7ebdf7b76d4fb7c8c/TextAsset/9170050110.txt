@@ -1,0 +1,271 @@
+＄91-70-05-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21000]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7005001 1 スパルタクス]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006000 1 雑魚エネミー]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠スパルタクス
+マスター！　圧制者ではないが、[r]いずれ圧制者となるべき宿命を持つ者よ！
+[k]
+
+[charaFace D 0]
+＠スパルタクス
+うむ。戸惑っているな。[r]わかっている。どうやらここはローマ軍の野営地らしい。
+[k]
+
+＠スパルタクス
+そして我らはただいま、見世物になっているようだ。[r]やはり戦いは避けられぬ運命というものか。
+[k]
+
+？1：一体何が……？
+
+？2：ここはどこ……？
+
+？！
+
+[charaFace D 1]
+＠スパルタクス
+気にするな、今の我らは運命共同体。
+[k]
+
+[charaFace D 0]
+＠スパルタクス
+もしも、君が圧制者となったならば。[r]いずれ君の首は斬らねばならぬだろうが[line 2]。
+[k]
+
+[charaFace D 1]
+＠スパルタクス
+いや、マスターである時点で斬らねばならない[r]かもしれないが……それまでは共に歩もう。
+[k]
+
+[charaFace D 4]
+＠スパルタクス
+あるいは……いや、君がマスターであるかぎりは無駄か。[r]悲しいかな、それはまさに宿命だ。
+[k]
+
+？1：何があったの？
+
+？2：聞いて下さい
+
+？！
+
+[charaFace D 0]
+＠スパルタクス
+では、修羅と遭遇するとしよう。[r]まさに此よりは地獄。うむ、この血も滾るというもの。
+[k]
+
+[charaFace D 2]
+＠スパルタクス
+そしてこの筋肉も、臓器も、皮膚も、私を構成する[r]あらゆるものが、歓喜に震えている……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あ、あの……マスター、マスター。[r]はい。目を白黒させているところ申し訳ありません。
+[k]
+
+[charaFace A 0]
+＠マシュ
+[line 2]大変唐突ですが。[r]わたしたち、虜囚の身のようです。
+[k]
+
+？1：何で！？
+
+？2：どうして！？
+
+？！
+
+[charaFace A 12]
+＠マシュ
+き、気付いたらこうなっていたとしか……。[r]ほら、フォウさんにも可愛らしい足枷が。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+[charaFace A 0]
+＠マシュ
+どうもわたしたちは、今から闘わされるようですね。[r]いわゆる剣闘士[line 2]グラディエーターとして。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠スパルタクス
+さあ、圧制者の傀儡よ。[r]出てきなさい。幾らでも相手になってあげよう。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+そして更に困ったことに。[r]スパルタクスさんが、ノリノリでして……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+脱出方法を考える、というよりは[r]ともかく闘った方がよさそうです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠スパルタクス
+ほう、まずは小手調べという訳か。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター、指示をお願いします。[r]では、行きます……！
+[k]
+
+[se bac5]
+[wait se bac5]
+[messageOff]
+[charaEffect E bit_talk_12]
+[wait charaEffect E]
+[messageOff]
+[charaSpecialEffect E enemyErasure 0 2]
+[se ad26]
+[wait charaSpecialEffect E]
+[charaFace A 6]
+＠マシュ
+……あれ？
+[k]
+
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠スパルタクス
+終わりである。何という悲しき脆さ。[r]そして何故誰も、彼らを讃えぬのだ。
+[k]
+
+[charaFace D 0]
+＠スパルタクス
+彼らは我らの前に立ち、[r]怖じ惑うことなく斬りかかってきた。
+[k]
+
+＠スパルタクス
+それは勇気。[r]圧制者では持ち得ぬ、偉大にして崇高なる信念だ。
+[k]
+
+[charaFace D 2]
+＠スパルタクス
+讃えよ！　讃えよ、戦士を！[r]私ではなく、彼らを讃えよ！！
+[k]
+
+[se ad6]
+[wt 1]
+[seStop ad6 2]
+[charaFace A 12]
+＠マシュ
+……マスター。指示はもう少し待って下さい。
+[k]
+
+[se ad23]
+[wait se ad23]
+[charaFace D 0]
+＠スパルタクス
+ほほう。次か。[r]来い！
+[k]
+
+[charaFace A 6]
+＠マシュ
+ラ、ライオン！？[r]マスター、指示を。今度こそ闘いに[line 2]！
+[k]
+
+[se bac9]
+[wait se bac9]
+[charaFace A 8]
+＠マシュ
+[line 2]なりませんでした。
+[k]
+
+[charaFace A 0]
+＠マシュ
+冷静に考えると、スパルタクスさんはそもそもから[r]剣闘士として名を挙げた人間。
+[k]
+
+＠マシュ
+この程度の修羅場なら、一人で問題ないようです。
+[k]
+
+[charaFace D 4]
+＠スパルタクス
+[line 2]臭う、臭うぞ。[r]これは焦りの臭いだ。そして同時に憤怒の臭い。
+[k]
+
+＠スパルタクス
+我々を生きては帰さぬという、憎悪が臭うぞ。[r]ならば。既に準備万端であろう！
+[k]
+
+[charaFace D 2]
+＠スパルタクス
+怪物だ！　お前たちが圧政によって封じていた[r]怪物を解き放つがいい！
+[k]
+
+＠スパルタクス
+何故ならそれは、彼らにとっても自由だからだ！[r]利害が対立している以上、私は彼らを打ち倒す！
+[k]
+
+＠スパルタクス
+しかし全てが終わったとき、私は泣こう！[r]彼らの手を取り、その運命に血の涙を流そう！
+[k]
+
+[charaFace A 12]
+＠マシュ
+……今度こそ、わたしの出番……ですよね……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……。
+[k]
+
+[se ad23]
+[wait se ad23]
+[charaFadeout C 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[wt 0.7]
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠スパルタクス
+ふむ。獣の頭を持った戦士か。[r]よろしい。では互いの自由を求めて闘おうではないか！
+[k]
+
+[charaFace D 2]
+＠スパルタクス
+ふはははははははははははははは[line 2]！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

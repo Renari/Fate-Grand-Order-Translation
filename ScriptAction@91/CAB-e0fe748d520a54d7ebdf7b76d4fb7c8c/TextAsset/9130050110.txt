@@ -1,0 +1,243 @@
+＄91-30-05-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr．ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3005001 2 エリザベート]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+失礼します。[r]先輩宛に旧時代的なお手紙が届いています。
+[k]
+
+？1：誰からだろう？　読んでみて
+
+？2：手紙……、届くんだ、ここ
+
+？！
+
+[charaFace A 6]
+＠マシュ
+代わりに読むんですか？[r]では……はあ。ツアーライブのお知らせ、だそうです。
+[k]
+
+？1：ライブ……、誰の？
+
+？2：ああ……、うん、もういいや
+
+？！
+
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+＠Dr．ロマン
+なんだって！？　誰？　誰が来るんだい！？[r]マギ☆マリ！？　もしかしてマギ☆マリ！？
+[k]
+
+[charaFace B 1]
+＠Dr．ロマン
+いやー、ついに僕の信仰心が二次元NETアイドルを[r]現実世界に降臨させちゃったのかな！？
+[k]
+
+[charaFadeout A 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout C 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+えーと、登場アイドルは……、期待の超新人[#竜娘:ドラむす][r]アイドラ☆エリザちゃん……、だそうです。
+[k]
+
+[charaFace B 3]
+＠Dr．ロマン
+よし撤収。[r]みんな、おつかされさまー
+[k]
+
+[charaFace A 6]
+＠マシュ
+え！？
+[k]
+
+＠Dr．ロマン
+どうでもいーわー、現実のアイドルとかほんと[r]どうでもいーわー、スキャンダルとかほんと
+[k]
+
+＠Dr．ロマン
+少年のようなボクの心をどろどろに混ぜかえすわー[r]バーチャルネットアイドルは僕を裏切らないわー
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[se ad55]
+[wt 1]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[seStop ad55 1]
+＠エリザベート
+ここにいたのね子イヌ！！[r]もうお知らせは読んだかしら？　読んだかしら!?
+[k]
+
+[charaFace D 1]
+＠エリザベート
+もちろん読んだわよね！！　[#朝飯前:クイック]な反応よ！！[r]血色もいいみたいだし、パーフェクト！！
+[k]
+
+[charaFace D 0]
+＠エリザベート
+さあ、それじゃ出かけるわよ！！[r]アイドラ☆エリザ、ツアーライブ2015
+[k]
+
+[charaFace D 1]
+＠エリザベート
+特設会場にはもう徹夜組まで出てるらしいから[r]急がなきゃ♪　行くわよ、チーフAD兼スポンサー！！
+[k]
+
+＠エリザベート
+エリちゃんフェスティバルINどこかの時代[r]『[#血の輪舞:ブルート・ロンド]』の開幕ね！！
+[k]
+
+[se ad55]
+[charaFadeout D 0.1]
+[wt 0.5]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[seStop ad55 1]
+＠マシュ
+あ、先輩……！！[r]スポンサーってなんですか！？
+[k]
+
+＠フォウ
+フォウ！！
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.5]
+[scene 20302]
+[charaTalk A]
+[charaFadein C 0 0]
+[charaFace A 4]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[se ad2]
+[wt 2]
+[wait fade]
+＠マシュ
+…………。
+[k]
+
+＠フォウ
+……フォーウ
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠エリザベート
+ありえない……、ありえないわ！？[r]会場は哀れな[#生贄:スレイブ]どもで押すな引くなの大賑わい、
+[k]
+
+＠エリザベート
+乱舞するサイリウムに、鮮血！！惨劇！！大虐殺！！の[r]スペシャルライブイベントのはずでしょ！？
+[k]
+
+？1：いや、そのですね……
+
+？2：[%1]Ｓの資金不足です！！
+
+？！
+
+[seStop ad2 2]
+[se ad16]
+[wt 2]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0]
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+＠フォウ
+フォウ！？
+[k]
+
+[charaFace D 3]
+＠エリザベート
+え！？　もしかしてファンのみんなが[r]開演時間を間違えちゃってたりしてたとか？
+[k]
+
+＠エリザベート
+今日が[#私:アタシ]のお誕生日だからサプライズを[r]仕掛けてたってわけかしら！？　かしら！？
+[k]
+
+[charaFace D 1]
+＠エリザベート
+まあ、別に今日は誕生日じゃないけど、そういう事なら[r]アニバーサリー誕生日にしてあげようじゃない！
+[k]
+
+[charaFace D 0]
+＠エリザベート
+えーと、今日はツアーライブ初日が大成功した[r]記念日……っと（メモメモ）
+[k]
+
+[charaFace D 1]
+＠エリザベート
+これでよし、さあ、子イヌ！！[r]エリちゃんツアーライブ2015！！　華麗に開幕ね！！
+[k]
+
+？1：いや、そのですね……
+
+？2：エリちゃん、立派になって……
+
+？！
+
+[charaFadeout C 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+……いえ、先輩これは！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 1]
+[wt 0.3]
+＠Dr.ロマン
+どう見ても敵襲です。[r]本当にありがとうございました。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠エリザベート
+そうよね！　[#敵意:ヘイト]ばっちりだものね！[r]うすうす気づいてたわよバカーーー！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

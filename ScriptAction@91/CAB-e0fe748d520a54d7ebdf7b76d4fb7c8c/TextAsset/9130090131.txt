@@ -1,0 +1,35 @@
+＄91-30-09-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3009001 1 レオニダス]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠レオニダス
+ぜえ、ぜえ、ぜえ……。
+[k]
+
+＠レオニダス
+過去屈指の難敵でした……幽霊とは触れると[r]ひんやりするのですね。勉強になりました……。
+[k]
+
+＠レオニダス
+マスター、ありがとうございます。[r]お陰で私も幽霊を克服することができたようです。
+[k]
+
+＠レオニダス
+あらゆる外敵、難敵、絶望からマスターをお守りすること[r]と、決して勝利を絶やさぬことを誓いましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

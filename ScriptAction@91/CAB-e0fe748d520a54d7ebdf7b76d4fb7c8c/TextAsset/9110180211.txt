@@ -1,0 +1,87 @@
+＄91-10-18-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20302]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 2 フォウ]
+[charaSet C 1018001 2 アルテラ]
+[charaSet D 1003001 0 ブリュンヒルデ]
+[charaSet E 1008001 0 ジークフリート]
+[charaSet F 98003003 0 Dr.ロマン]
+[charaTalk D]
+[charaFace C 0]
+[charaFadein C 0]
+[charaFace D 3]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ブリュンヒルデ
+……あら……私は……今まで、何を……？
+[k]
+
+[charaFace D 0]
+＠ブリュンヒルデ
+もしかして、戦っていたのですか？[r]私？　貴女と？
+[k]
+
+＠アルテラ
+そうだ。
+[k]
+
+[charaFace D 4]
+＠ブリュンヒルデ
+そ、そうだったのですね。[r]なぜかしら……。
+[k]
+
+[charaFace D 0]
+＠ブリュンヒルデ
+不思議です。[r]私、殿方を襲うことはあっても、女性はあまり。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+言葉だけ聞くとすごいけど、う、うん、[r]英霊ブリュンヒルデが狙う相手は男性が多いはずだよね。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+宝具もそういう感じのものだったはずだし[line 2][r]と、ともかく、勘違いが解けて良かった良かった！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+そ、そうですね。[r]ささやかなボタンの掛け違いでした！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠アルテラ
+ふむ……。
+[k]
+
+＠ブリュンヒルデ
+あら……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFadein B 0.1 1]
+＠フォウ
+フォウ、フォーウ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

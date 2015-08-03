@@ -1,0 +1,47 @@
+＄91-10-18-03-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20110]
+[charaSet C 1018001 1 アルテラ]
+[charaSet D 98006000 0 ？？？]
+[charaFadein C 0]
+[fadein black 1]
+[wait fade]
+＠アルテラ
+……これで、いい。
+[k]
+
+＠アルテラ
+これで幾度目になるだろう、[r]私が、こうして私を破壊するのは。
+[k]
+
+[charaFace C 1]
+＠アルテラ
+だが、今回は少し趣が違った。[r]悪くない。
+[k]
+
+＠アルテラ
+そう、人のように言うのであれば、[r]楽しかった[line 2]かな。
+[k]
+
+[charaFace C 0]
+＠アルテラ
+ではな、マスター。[r]目覚めた時、おまえは忘れるかも知れないが。
+[k]
+
+＠アルテラ
+付き合って貰って、すまない。[r]いや……。
+[k]
+
+[charaFace C 1]
+＠アルテラ
+……ありがとう。[r]私ははじめて、私以外の意思で、私の記憶を否定できた。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_1 0.4]
+[wait fade]
+[soundStopAll]
+[end]

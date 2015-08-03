@@ -1,0 +1,166 @@
+＄91-10-02-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20900]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1002001 1 セイバーオルタ]
+[charaSet E 98007000 1 ジャンヌオルタ]
+[charaFace E 4]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠ジャンヌオルタ
+っ……あーはいはい、私の負け私の負け！
+[k]
+
+[charaFace E 0]
+＠ジャンヌオルタ
+ホントはマスターちゃんへの恨みなんてないし、[r]潔く消えてあげる。
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+＠マシュ
+敵サーヴァント、消滅を確認……[r]……ふう。とにかく強敵でした……
+[k]
+
+＠セイバーオルタ
+……悪に落ちた者同士の共感、か。[r]確かに、それは否定できないな。
+[k]
+
+＠セイバーオルタ
+私は暴威、本能による統括を良しとし、[r]オマエは恐怖、理性による支配を良しとした。
+[k]
+
+＠セイバーオルタ
+生前、理想に縛られた英霊ほど私たちのように[r]乖離した人格を持つのだろうな。
+[k]
+
+？1：セイバー……
+
+？2：今のジャンヌとキミは違うよ
+
+？！
+
+[charaFace D 4]
+＠セイバーオルタ
+それは貴様がそう信じているだけの話だ。[r]だが[line 3]サーヴァントはマスターに従うもの。
+[k]
+
+＠セイバーオルタ
+貴様がそう信じているかぎりは、[r]私も自分を決めつける愚は犯すまい。
+[k]
+
+[charaFace D 5]
+＠セイバーオルタ
+それで、どうか。[r]少しは技量はあがったか、[%1]。
+[k]
+
+？1：もちろん！
+
+？2：ほんの少しだけ、だけど
+
+？！
+
+[charaFace D 1]
+＠セイバーオルタ
+それはよかった。[r]ではカルデアに戻るがいい。
+[k]
+
+＠セイバーオルタ
+私やジャンヌはこんなカタチでしか役に立たない女だ。[r]次の機会があれば、また強敵を用意してやる。
+[k]
+
+[charaFadeout D 0.1]
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[fadeout white 1]
+[effectStop]
+[wait effect]
+[wait fade]
+[charaFace B 2]
+[charaFadein B 0 1]
+[wait fade]
+[fadein white 1]
+[scene 10202]
+[wt 0.5]
+＠Dr.ロマン
+うわあ、帰ってきた!?[r]一体なにがあったんだ二人とも!?
+[k]
+
+[charaFace A 4]
+＠Dr.ロマン
+通信は途絶えるし、冬木とフランスの人理定礎の値が[r]一瞬だけもとのマイナスに戻るしさ!?
+[k]
+
+？1：まあ、色々あったんですよ
+
+[charaFadeout B 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩の言う通りです。[r]とにかく色々あったので、うまく説明できません……
+[k]
+
+？2：疲れたので部屋に帰らせて……
+
+[charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ……
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+そ、そうなの？　……仕方ないな、[r]二人とも疲れきってるし、無事なのは確かだし。
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+じゃあ今回のレイシフトは終わりにするけど……[r]なーんか怪しいなあ……
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+キミたち、ボクにナイショで歓楽地にでも[r]行ってきた……なーんて、そんなワケないか！
+[k]
+
+＠Dr.ロマン
+大聖杯にレイシフトしたら過去の強敵と戦えるなんて[r]ボーナスステージみたいな話、あるワケないしね！
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ……
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,112 @@
+＄91-60-12-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20500]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6012001 0 サンソン]
+[charaSet E 6012001 1 サンソン（？）]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 4]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠サンソン
+はあ、はあ、はあ……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+サンソンさん……。
+[k]
+
+[charaFace D 2]
+＠サンソン
+……わかっている。わかっているんだ。[r]そんなこと、わかっている！
+[k]
+
+[charaFace D 4]
+＠サンソン
+でも、処刑と殺人は違う！[r]否、違わなければならない！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaShadow E true]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+＠サンソン（？）
+[line 2]では、その違いを説明できるかい？
+[k]
+
+[charaFace D 5]
+＠サンソン
+……ッ！？[r]お前は[line 2]僕、か？
+[k]
+
+＠サンソン（？）
+僕が、お前なのか？
+[k]
+
+＠サンソン（？）
+お前はサーヴァントとなり、[r]お前の意志で誰かを殺すのか？
+[k]
+
+＠サンソン（？）
+それとも、マスターに従い[line 2]法に則って、[r]誰かを処刑するのか？
+[k]
+
+[charaFace D 4]
+＠サンソン
+僕は……。[r]僕は……。
+[k]
+
+？1：サンソンはもう殺さない
+
+？2：サンソンは処刑人だ
+
+？！
+
+[charaFace D 0]
+＠サンソン
+マスター……。
+[k]
+
+＠サンソン（？）
+かつてこの男はフランスで大いに惑い、[r]そして数多の人間を殺したじゃないか。
+[k]
+
+＠サンソン（？）
+また同じ道を辿らないとどうして言えるのかな？
+[k]
+
+？1：自分がマスターである限り
+
+？！
+
+[charaFace D 1]
+＠サンソン
+……マスター……。
+[k]
+
+[charaFace E 2]
+＠サンソン（？）
+そこまで言うなら、マスター。[r]その覚悟を試させて貰おう。
+[k]
+
+＠サンソン（？）
+“[#サンソン:かれ]”が、本当に乗り越えられるのかを[line 2]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

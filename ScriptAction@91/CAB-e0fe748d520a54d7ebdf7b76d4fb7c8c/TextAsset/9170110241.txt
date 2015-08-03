@@ -1,0 +1,121 @@
+＄91-70-11-02-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7011001 2 ダレイオス三世]
+[charaSet E 4015001 1 アレキサンダー]
+[charaSet F 4002001 0 イスカンダル]
+[charaTalk D]
+[charaFace F 4]
+[charaFadein F 0]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ダレイオス三世
+…………。
+[k]
+
+＠イスカンダル
+何だ何だ。突然、借りてきた猫のようになりおって。[r]こんなものか？　ちと物足りんなあ。
+[k]
+
+？1：残念だけどここまでだ
+
+？2：も、もう無理
+
+？！
+
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……もう、先輩の魔力が尽きかけています。[r]これ以上の戦闘を、行うのは……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ダレイオス
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠イスカンダル
+……そうか。[r]まあ、実のところ余もこのあたりが限界でな。
+[k]
+
+＠イスカンダル
+流石に正式な召喚でもない上に、[r]聖杯もなく、強引に限界した訳でもあって[line 2]
+[k]
+
+[effect bit_talk_06]
+[charaFace F 0]
+＠イスカンダル
+ま、こうなるわな。[r]ダレイオス三世、余に立ちはだかった[#巨:おお]いなる壁よ。
+[k]
+
+＠イスカンダル
+魔力供給の尽きかけたおぬしには、最早、[r]この声は届かんかも知れんが[line 2]
+[k]
+
+＠イスカンダル
+次に見える時こそ、[r]互いに[line 2]
+[k]
+
+[charaSpecialEffect F flashErasure 1 3]
+[wt 1]
+[se ba5]
+[effectStop bit_talk_06]
+[wait charaSpecialEffect F]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ダレイオス
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァント・イスカンダル、消滅を確認。[r][line 2]戦闘終了です。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ふう、大人しく行ってくれたか。[r]話のわかる相手でよかったよ。ああ、良かったぁ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+……そうですね。[r]これ以上の戦闘は、もう。
+[k]
+
+？1：もう……駄目……
+
+？2：倒れ……る……
+
+？！
+
+[charaFace A 6]
+＠マシュ
+あっ、先輩っ！？[r]ドクター、早く、レイシフトをお願いしますっ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[soundStopAll]
+[end]

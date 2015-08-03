@@ -1,0 +1,270 @@
+＄91-30-01-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20800 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3001001 0 クー・フーリン]
+[charaSet E 98006100 0 キメラ]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+[se ad20]
+[charaSpecialEffect E enemyErasure 1 2]
+[wait charaSpecialEffect E]
+[wt 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠クー・フーリン
+なんだ、合成獣でも心臓は一つみてぇだな。[r]見かけ倒しってとこか。
+[k]
+
+[charaFace A 13]
+＠マシュ
+いや、十分強敵でしたよ……。[r]マスター、お怪我はありませんか。
+[k]
+
+？1：うん、大丈夫
+
+？2：ところで何でこんなところに
+
+？！
+
+[charaFace D 5]
+＠クー・フーリン
+……なるほどな、そういう事か。[r]おい、少し下がってな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠クー・フーリン
+[line 3]このあたりか。[r]……よっ、と。
+[k]
+
+[se ad54]
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+あれは、ルーン魔術……かな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[se ad14]
+[wt 2]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+先輩、岩陰の下に洞窟が……！！
+[k]
+
+[charaFace D 0]
+[seStop ad14 3]
+＠クー・フーリン
+魔術で隠してやがんだよ。[r]こりゃあ廃棄された工房だな。
+[k]
+
+[charaFace D 5]
+＠クー・フーリン
+三流は後始末も三流で困るぜ。[r]引き払うなら後始末ぐらいしとくもんだろうに。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+なるほど、廃棄した工房の実験動物かなにかが[r]放し飼いになってたってわけか……。
+[k]
+
+＠Dr.ロマン
+猪退治のはずが、妙なことになっちゃったけど[r]とりあえずは一件落着かな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+キメラとイノシシの遺骸はどうしましょうか？[r]さすがにこのままにしておくのは……。
+[k]
+
+[charaFace D 1]
+＠クー・フーリン
+おう。なんなら鍋にでもして喰っちまうか？[r]一仕事あとだ、腹もすいてきたことだしな！
+[k]
+
+？1：シシ鍋、いいね！
+
+？2：キメ鍋、いいの！？
+
+？！
+
+＠クー・フーリン
+あー、食える食える、筋肉ならなんでも食える。[r]あと焼けばとりあえずなんとかなる。
+[k]
+
+[charaFace D 5]
+＠クー・フーリン
+まあ、滅菌できたところで傷んでいたらハラを[r]くだすが、そん時はそん時だ！
+[k]
+
+＠クー・フーリン
+おーし、今夜は豪勢にいくか！[r]ささっとさばいてカルデアの連中にも分けてやろうぜ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーーウ！！
+[k]
+
+[charaFadeout D 0.7]
+[charaFadeout C 0.7]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20802 0]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.4 0]
+[charaFace A 6]
+[charaFadein A 0.4 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+……それにしても、料理も見事な手際ですね。[r]なんというか、多彩な英霊なのですね。
+[k]
+
+[charaFace D 1]
+＠クー・フーリン
+昔はよく出先でやったもんさ。[r]おっ、キメラってのもなかなかイケるじゃねぇか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！！（モキュモキュ）
+[k]
+
+[charaFace A 1]
+＠マシュ
+フォウさんも美味しいですか？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+君たち意外と怖いもの知らずというか、[r]なんというか……、
+[k]
+
+＠Dr.ロマン
+[#合成獣:キメラ]なんて何が入っているか[r]わからないのに、よく食べられるね。
+[k]
+
+？1：以外と美味しい！！
+
+？2：こういうのでいいんだよ、こういうので
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠クー・フーリン
+……ちょっとまて
+[k]
+
+＠クー・フーリン
+[#合成獣:キメラ]ってことは、[r]犬の素材とか使ってねぇだろうな？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+どうだろうね、いろんな生き物を掛け合わせて[r]つくるから[#合成獣:キメラ]なわけだし
+[k]
+
+＠Dr.ロマン
+いくらかは入ってるかもしれないね。[r]でも、それがどうしたんだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠クー・フーリン
+先に言え、馬鹿野郎！！[r]なんてこった、オレはもう帰るぞ！！
+[k]
+
+[charaFace A 6]
+＠マシュ
+え！？　もういいんですか？
+[k]
+
+＠クー・フーリン
+いらねぇよ！！　じゃあな！！[r]ちきしょうー！！　なんてこった！！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.5]
+[charaFadeout A 0]
+？1：どうしたんだろ？
+
+？2：あ、もしかして……
+
+？！
+
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ああ、クランの猛犬か……。[r]彼、生前の誓いで犬は口にできないんだよ、たしか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+たしか殺した番犬の代わりになって[line 2][r]とかでしたっけ？　ああ、それで……（もぐもぐ）
+[k]
+
+？1：美味しいのに……
+
+？2：悪いことしちゃったね
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！！
+[k]
+
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

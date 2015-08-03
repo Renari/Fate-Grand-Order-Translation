@@ -1,0 +1,140 @@
+＄91-20-05-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10902 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2005001 1 アタランテ]
+[charaSet E 6005001 1 ジャック]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace E 4]
+[charaFadein E 0 0]
+[charaShadow E true]
+[fadein black 1]
+[wait fade]
+＠ジャック
+あ……う……。[r]ひどいよね……ひどい……。
+[k]
+
+＠アタランテ
+[line 2]そうだな、私は酷いのだろう。[r]私はそれでも、汝を救いたかったよ。
+[k]
+
+[charaFace D 4]
+＠アタランテ
+本当に、本当に、救いたかったよ。[r]どんなに壊れても、汝たちを救いたかったよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.2]
+[charaShadow E false]
+[charaFace E 1]
+[charaShadow E true]
+[charaFadein E 0.1 1]
+＠ジャック
+……そう。[r]ふふ、へん、な、おかあ、さん……。
+[k]
+
+＠ジャック
+わたしたちは、いつだって、[r]すくわれて、いたのに[line 2]。
+[k]
+
+[messageOff]
+[charaSpecialEffect E darkEnemyErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[bgmStop BGM_EVENT_3 0.5]
+[bgm BGM_EVENT_2 0]
+[charaTalk A]
+[charaFadein D 0.1 2]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+＠マシュ
+ふぅ……倒せました。
+[k]
+
+[charaFace D 0]
+＠アタランテ
+……いいや、倒せてない。
+[k]
+
+＠アタランテ
+彼女はこのロンドンがある限り、何度でも[r]蘇り続けるだろう。
+[k]
+
+＠アタランテ
+正しい歴史に修正しない限りはな。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え、でも彼女は[line 2]。
+[k]
+
+＠アタランテ
+ジャックは特別だ。正しい歴史に戻れば、[r]正しく昇華する。
+[k]
+
+[charaFace D 4]
+＠アタランテ
+……そう信じたいものだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.5]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠アタランテ
+マスター。私は、私の望みは、この世界で[r]虐げられている全ての子供を救うことだ。
+[k]
+
+＠アタランテ
+どう思う？
+[k]
+
+？1：正しい願いだ
+
+？2：難しい願いだ
+
+？！
+
+[charaFace D 1]
+＠アタランテ
+ありがとう、笑わないでいてくれて。
+[k]
+
+＠アタランテ
+難しいかもしれない。[r]いや、不可能に近いのだろう。
+[k]
+
+[charaFace D 0]
+＠アタランテ
+それでも……。[r]やはり私はこの夢を諦めきれない。
+[k]
+
+＠アタランテ
+それが永遠の鎖となって、[r]自分を縛り付けようとも[line 2]。
+[k]
+
+＠アタランテ
+私は戦い続けるのだろう。[r]……行こう、マスター。
+[k]
+
+[charaFace D 1]
+＠アタランテ
+まずは子供たちが生きるべき、世界を救わなくてはな。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

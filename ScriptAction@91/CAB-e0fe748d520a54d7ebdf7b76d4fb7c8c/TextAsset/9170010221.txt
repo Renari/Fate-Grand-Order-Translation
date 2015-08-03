@@ -1,0 +1,168 @@
+＄91-70-01-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20110]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7001001 2 ヘラクレス]
+[charaSet E 98013000 0 ドラゴン]
+[se ad18]
+[wait se ad18]
+[charaFace D 2]
+[charaFadein D 0]
+[charaFace E 0]
+[charaFadein E 0]
+[fadein black 1]
+[wait fade]
+[charaSpecialEffect E enemyErasure 0 2]
+[se ad]
+[wait charaSpecialEffect E]
+[wt 0.5]
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+すごい……、これがヘラクレスさんの本当の力……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+まずいぞ、案の定だ。制御が全く効かない！！[r]このままだと[%1][&君:ちゃん]が！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠マシュ
+先輩ッ！！！
+[k]
+
+＠ヘラクレス
+[image berserker_language_2][line 2]ッ！！[r][image berserker_language_2][line 2]ッ！！
+[k]
+
+[messageOff]
+[charaFadeout A 1.5]
+[charaFadeout D 1.5]
+[wipeout rollFlashRight 1.5 1]
+[fadeout white 1]
+[wait wipe]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[scene 10202]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[wipein rollFlashRight 1 1]
+[fadein white 1]
+[wait wipe]
+[wait fade]
+＠Dr.ロマン
+とまあ、そんなピンチを乗り越えて[r]なんとか脱出に成功したってわけさ。
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk F]
+[charaFadein B 0.1 2]
+[charaSet F 5009001 1 ダ・ヴィンチ]
+[charaDepth F 0]
+[charaFadein F 0.1 0]
+＠ダ・ヴィンチ
+いや、なんかいい話だったね……みたいな顔してるけど、[r]死ぬとこだったんじゃないか？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+とにかく……、疲れました……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+それにしても、よくあの状態のバーサーカーを[r]制御できたね。いやー、大したもんだ。
+[k]
+
+？1：いやその……、あの後
+
+？2：実は気を失っちゃって
+
+？！
+
+[charaFace B 0]
+＠Dr.ロマン
+じゃあ、「狂化」を発動した段階で[%1][&君:ちゃん][r]からの魔力供給が切れてたんだね。
+[k]
+
+＠Dr.ロマン
+それでバーサーカーも[r]燃料切れを起こして停止した、と……
+[k]
+
+[charaFace A 12]
+＠マシュ
+いえ、実際あのあとヘラクレスさんだけで[r]周囲の魔物を掃討しつくしていたので
+[k]
+
+＠マシュ
+それも考えづらいのですが……。
+[k]
+
+[charaFace B 3]
+＠Dr.ロマン
+うーん、じゃあもしかしたらまだ本来の[r]「狂化」ランクまで届かなかった……とか？
+[k]
+
+＠Dr.ロマン
+いやいや、そんな馬鹿な……、[r]いくらオリンポスの大英霊っていっても、ねぇ？
+[k]
+
+？1：そうなのかな
+
+？2：とにかく助かったよ
+
+？！
+
+[charaFadeout B 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ヘラクレス
+…………（ニッ）
+[k]
+
+[charaFace A 6]
+＠マシュ
+え？　いま、ヘラクレスさん……？
+[k]
+
+[charaFace D 2]
+＠ヘラクレス
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+うわっ！？　びっくりした！？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

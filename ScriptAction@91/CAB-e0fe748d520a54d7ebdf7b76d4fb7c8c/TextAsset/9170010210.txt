@@ -1,0 +1,133 @@
+＄91-70-01-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20110]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7001001 1 ヘラクレス]
+[charaSet E 98013000 1 ドラゴン]
+[charaFace A 4]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+すみません、マスター。[r]こんなことになってしまって……。
+[k]
+
+？1：マシュのせいじゃないよ
+
+？2：まだまだこれからさ！！
+
+？！
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ただの怪物退治のはずが、まさか生き残りをかけた[r]サバイバルになっちゃうとはね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ヘラクレス
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+流石のヘラクレスも三日三晩暴れ通しで[r]ガス欠かな……。
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[wait communicationChara]
+[wipeout rollFlashRight 1.5 1]
+[wait wipe]
+[wt 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[scene 10202]
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[wipein rollFlashRight 1 1]
+[wait wipe]
+＠マシュ
+迷宮……ですか？
+[k]
+
+＠Dr.ロマン
+うん、冬木の地下迷宮……大空洞があった場所だね。[r]その迷宮の奥から妙な反応を観測してね。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+特異点の残滓か、時空の乱れか。[r]どちらにせよ放置しておけるものじゃない。
+[k]
+
+[charaFace A 7]
+＠マシュ
+禍根は小さいうちに処理、ですね。[r]早速出発しましょう、先輩。
+[k]
+
+[messageOff]
+[se ad12]
+[effect bit_talk_07]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 4]
+[fadeout white 1]
+[effectStop]
+[wait effect]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+[scene 20110]
+[communicationCharaLoop 98003003 1 5 0 4]
+[fadein white 0.5]
+[wait fade]
+＠Dr.ロマン
+で、まんまと罠だったわけさ……。[r]レフ教授の残した置き土産なんだろうな、クソ。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+特異点どころか、なんにもありゃしない。[r]脱出しようにも出口まで邪魔者がぎっしりだ。
+[k]
+
+＠Dr.ロマン
+しかも魔術的に閉じられた空間のようで外からの[r]干渉が効かない。通信が精いっぱいだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[se ad23]
+[wait se ad23]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……！！　また来ました！！[r]行きますよヘラクレスさん！！
+[k]
+
+[charaFace D 2]
+＠ヘラクレス
+[image berserker_language_1][line 2]ッ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

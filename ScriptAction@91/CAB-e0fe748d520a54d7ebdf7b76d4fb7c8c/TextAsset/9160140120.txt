@@ -1,0 +1,157 @@
+＄91-60-14-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20502]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6014001 1 マタ・ハリ]
+[charaSet E 98006000 1 市民]
+[charaSet F 98014000 0 兵士]
+[charaSet G 98006000 1 王様]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠マタ・ハリ
+ふぅ。終わりました。[r]ええと……うん、あの兵士さんね。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFadein D 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠兵士
+くっ……。貴様たち、何者だ……。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+まあまあ、負けたのだからいいじゃない。[r]大丈夫、みんな生きているでしょう？
+[k]
+
+＠マタ・ハリ
+さあ、お話を聞かせて頂戴。[r]たっぷりとね？
+[k]
+
+[charaFace D 3]
+＠マタ・ハリ
+大丈夫、痛いことなんてしないわ。[r]だってわたし、痛いのイヤだもの。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+それともあなた、痛いのは好き？[r]それなら、痛くしてあげるけど。
+[k]
+
+＠兵士
+い、いや……俺は……いいです……。
+[k]
+
+[charaFace D 0]
+＠マタ・ハリ
+ほら、膝を貸してあげるわ。[r]さあ、あなたの話を[line 2]聞かせて、ね？
+[k]
+
+＠兵士
+は、はい……。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……あの、凄いですね。何というか……人が心を[r]奪われる瞬間というものを目の当たりにしました。
+[k]
+
+[charaFadeout A 0]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠マタ・ハリ
+坊や。いい子でちゅね～。[r]さ、ママに色んなことを教えて頂戴。
+[k]
+
+[charaFadeout D 0]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+そして何かもう、状況が危険です先輩！[r]このままですと、危ない世界に突入しちゃいます！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.4]
+[wt 0.3]
+[scene 20502]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マタ・ハリ
+情報を得たわ。[r]王様のところに行きましょう。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+門番にゴーレムがいるようですので、[r]それは皆で頑張りましょう。えいえい、おーっ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+マタ・ハリさん。[r]あの骨抜きになってしまった方は……。
+[k]
+
+[charaFace D 0]
+＠マタ・ハリ
+大丈夫よ。わたしがいなくても、きっと新しい[r]趣味の合致する方を見つけられるわ。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+うふふふふ。[r]マスターはどんな趣味なのかしら？
+[k]
+
+[charaFace A 3]
+＠マシュ
+さ、さあ行きましょうマスター！[r]さあさあ！
+[k]
+
+[charaFace D 3]
+＠マタ・ハリ
+うふふふふ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[scene 20602]
+[charaTalk A]
+[charaFace D 0]
+[charaFace A 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+ゴーレム発見。[r]行きます、マスター！
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+はい、がんばりましょ～。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

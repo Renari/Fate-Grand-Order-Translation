@@ -1,0 +1,74 @@
+＄91-90-01-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20901]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 9001001 2 ジャンヌ]
+[charaSet E 98006200 1 雑魚エネミー]
+[charaSet F 5014001 0 メフィストフェレス]
+[charaTalk F]
+[charaFace D 5]
+[charaFadein D 0]
+[charaFace F 1]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+＠メフィストフェレス
+はひひひひ！[r]我が役割はこれにてあっという間に終了ですか！？
+[k]
+
+＠メフィストフェレス
+ま、いいってことです！　もしいれば[r]そちらの私によろしくお願いしますね？
+[k]
+
+＠メフィストフェレス
+お茶目なメフィストフェレスを、どうぞヨロシクゥ！[r]また会いましょゥ！
+[k]
+
+[messageOff]
+[charaSpecialEffect F flashErasure 0 3]
+[wt 1]
+[se ad52]
+[wait charaSpecialEffect F]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……巻き込んでしまってごめんなさい、マシュさん、[r]マスター。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+どうやら私は貴方たちと共に戦うことに加えて、[r]もう一つ……何者かと戦わなければならないようです。
+[k]
+
+＠ジャンヌ
+これは、私が信じたものを試す戦い。
+[k]
+
+＠ジャンヌ
+お願いします、マスター。[r]どうか、付き合っていただけますか？
+[k]
+
+？1：もちろんだ
+
+？2：約束する
+
+？！
+
+[charaFace D 1]
+＠ジャンヌ
+……ありがとうございます、マスター。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

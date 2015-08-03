@@ -1,0 +1,74 @@
+＄91-50-07-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 5007001 0 シェイクスピア]
+[charaSet E 98006000 1 市民]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 15]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+倒しました……！
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+おお、勝利を讃えなければ！[r]……かくして、戦いに勝った二人に夢の終わりが訪れる。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え[line 2]？
+[k]
+
+[messageOff]
+[fadeout black 0]
+[scene 20700]
+[fadein black 0]
+＠マシュ
+あ、あれ？[r]街が……消えちゃいました！？
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+お見事でした、マスター。[r]そしてその盾であり、剣であるマシュ・キリエライト。
+[k]
+
+＠シェイクスピア
+最早、夢は終わりです。[r]貴方たちは見事な物語を紡いだ。
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+さあ、続きに向かって歩き出しましょう。[r]うたかたの夢、そして幻は貴方たちの糧となったはず。
+[k]
+
+[charaFace D 3]
+＠シェイクスピア
+……無論、吾輩にとっても。
+[k]
+
+[charaFace A 12]
+＠マシュ
+一体……どこから、どこまで夢だったんですか……？
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+[line 2]ふふふ。それは秘密ですとも。[r]脚本家は己のメソッドをそう簡単には明かしません。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

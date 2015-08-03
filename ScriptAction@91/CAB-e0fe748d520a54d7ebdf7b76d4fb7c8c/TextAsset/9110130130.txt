@@ -1,0 +1,240 @@
+＄91-10-13-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1013001 1 カエサル]
+[charaSet E 1013001 1 ？？？]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 2]戦闘終了。[r]推定・連合ローマ兵が撤退していきます。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠カエサル
+追うぞ。[r]巣に戻るなら、探す手間が省ける。
+[k]
+
+[charaFace A 6]
+＠マシュ
+探す、ですか？　何を[line 2]
+[k]
+
+[charaFace D 2]
+＠カエサル
+先に行くぞ。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.3]
+[charaFadeout A 0.4]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+待って下さい[line 2]あっ、は、早い……！
+[k]
+
+？1：あれで意外と俊敏だよね、彼
+
+？2：さすがはセイバークラスだ
+
+？！
+
+[charaFace A 12]
+＠マシュ
+は、はい……いえ、その[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+キミたちも追い掛けるんだ！[r]彼が何をするのか分からないが、放置はいけない！
+[k]
+
+？1：了解！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はいっ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 20400]
+[charaFadein A 0.1 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+追い付きました。[r]カエサルさんは、そこに[line 2]
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠カエサル
+やっと来たか。[r]丁度いい、私の、我が愚かさとの対面を見るがいい。
+[k]
+
+[charaFace A 6]
+＠マシュ
+対面……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ……？？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaShadow E true]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠？？？
+……私は、ローマの勲たる将軍である。
+[k]
+
+＠？？？
+ガリアを平定せし将軍である。[r]ブリタニアへ遠征果たした将軍である。
+[k]
+
+＠？？？
+名将ポンペイウスを屠る者である。[r]ローマを統べるただひとり、皇帝の源となる男である。
+[k]
+
+＠？？？
+ローマの残酷の中で踊り、[r]そして、戦場にあっても踊る者である。
+[k]
+
+＠？？？
+私は戦い続けよう。[r]ローマが在る限り、私の踊りは続くのだから。
+[k]
+
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠カエサル
+いいや、その醜い踊りはここで終わる。[r]貴様の逃避はここまでだ。
+[k]
+
+[charaFace D 2]
+＠カエサル
+何が将軍だ。[r]何が皇帝の源か。笑止千万だろうが！
+[k]
+
+＠カエサル
+貴様は逃避しているだけだ！[r]この、豚が！
+[k]
+
+＠カエサル
+愛した[#ひとりの女:クレオパトラ]の願いさえ果たせず、[r][#愛し子:カエサリオン]を後継とせなんだ自らから！
+[k]
+
+＠？？？
+私は……！[r]私は、カエサル！　ローマ皇帝の源である！
+[k]
+
+＠カエサル
+そうだ、貴様は私だ！[r]醜くも未だローマにしがみつく我が半身！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.2]
+[charaShadow E false]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そうか、そういうことか……！[r]第二の聖杯の影響、その残滓こそが「あれ」なんだ！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+だからこそ連合残党を率いている訳か、[r]つまり「あれ」は、カエサルの影みたいなものだ！
+[k]
+
+＠Dr.ロマン
+その存在を感じ取って、[r]彼はキミたちをここまで導いたんだ[line 2]！
+[k]
+
+？1：それならそうと言えばいいのに
+
+？2：それは確かに言い難いかもね
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+…………はい。
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠カエサル
+すまんな、美しき友らよ。[r]我が醜き逃避の半身、ここにて屠りたい。
+[k]
+
+＠カエサル
+……いや、我が身に戻したい。[r]力を貸してくれ。
+[k]
+
+？1：了解！
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、先輩！
+[k]
+
+[charaFadeout A 0]
+[charaShadow E true]
+[charaFace E 5]
+[charaFadein E 0.1 0]
+＠？？？
+オオ……オオオオ……！[r]私は……！　私は、カエサル！　私は！
+[k]
+
+[charaFace D 2]
+＠カエサル
+黙れ豚め！[r]その醜さ、我が美しさの前に花弁が如く散れ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[charaShadow E false]
+[soundStopAll]
+[end]

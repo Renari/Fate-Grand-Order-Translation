@@ -1,0 +1,76 @@
+＄91-10-05-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 2 フォウ]
+[charaSet C 1005001 2 ネロ]
+[charaSet D 98006100 1 ゴーレム]
+[charaTalk C]
+[charaFadein A 0 2]
+[charaFace C 1]
+[charaFadein C 0 0]
+[fadein black 1]
+[wait fade]
+＠ネロ
+よい準備運動になったな。[r]どうだ？　余の剣さばき、衰えていなかろう？
+[k]
+
+[charaFace A 0]
+＠マシュ
+はい、以前より格段に向上しています。[r]それは頼もしいのですが……
+[k]
+
+[charaFace C 1]
+＠ネロ
+ふっふっふ、そうであろう、そうであろう！[r]マシュは素直よな！　余は好きだぞ！
+[k]
+
+[charaFace C 1]
+＠ネロ
+では探索を開始する。[r]余の直感では……うむ、この方角にあるとみた！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.4]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ああ、またひとりでずんずんと……！[r]追いかけましょう、先輩！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.5]
+[scene 20110 0]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[se ad25]
+[wt 1]
+[charaFadeout D 0]
+[charaFadein D 0.1 0]
+[charaFace C 5]
+[charaFadein C 0.1 2]
+＠ネロ
+今度は獣人か！　……む。[r]何やら火薬の匂いが気になるが、まあよい！
+[k]
+
+[charaFace C 2]
+＠ネロ
+いくぞ[%1]！[r]こやつらを打ち倒し、財宝を手に入れるのだ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

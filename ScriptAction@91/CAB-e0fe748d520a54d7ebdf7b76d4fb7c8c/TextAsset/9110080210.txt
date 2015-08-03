@@ -1,0 +1,180 @@
+＄91-10-08-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10310]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1008001 1 ジークフリート]
+[charaSet E 98014000 1 兵士]
+[charaSet F 98006000 1 魔物]
+[charaFace D 4]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ジークフリート
+マスター、マシュ・キリエライト。[r]すまないがまた頼みがある。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+まさか、またファヴニールが[line 2]？
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+いや、あの竜は先の戦いで完全に滅んだ。[r]安心して欲しい。
+[k]
+
+＠ジークフリート
+ただ、竜が蘇ったことで俺が失った宝具が浮上した。[r]もう一度フランスに行き、確保しなければ[line 2]。
+[k]
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 4]
+[fadeout white 1]
+[effectStop]
+[wait effect]
+[wait fade]
+[charaFace A 0]
+[charaFadein A 0 1]
+[wait fade]
+[fadein white 0.5]
+[scene 20300]
+＠マシュ
+到着しました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……確かにジークフリートさんの言う通り、[r]強い魔力が感知されています。
+[k]
+
+[charaFadeout A 0]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+こちらでも確認できたよ。[r]最短ルートを確保するから少し待っていて。
+[k]
+
+？1：宝具とは？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジークフリート
+……『ラインの黄金』を聞いたことはないか？
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+『ラインの黄金』[r]……ジークフリートが手に入れた財宝だね。
+[k]
+
+＠Dr.ロマン
+その時代の人間が全て報酬として貰ったとしても、[r]なお尽きぬ財宝の山だとか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ジークフリート
+それはさすがに大仰だが、俺が一生遊んで暮らし、[r]俺の子が遊んで暮らし[line 2]
+[k]
+
+＠ジークフリート
+俺のひ孫が老人になるまで贅沢に遊び続けても、[r]まだまだ余るほどではあったな。
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+……恐らくファヴニールが復活した余波だろう。[r]『ラインの黄金』もまた召喚されてしまった。
+[k]
+
+＠ジークフリート
+あの黄金は、魔性を纏っている。[r]こちらで確保しなければ、すぐに動き出すだろう。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+動き出す、とはどういうことでしょうか？
+[k]
+
+＠ジークフリート
+ふむ。例えば……見つけた人間がいたとする。[r]一目見て、その財宝に圧倒された人間は虜になる。
+[k]
+
+＠ジークフリート
+だが、虜になった人間は当然その財宝を浪費する。[r]浪費すれば、彼が所有した財宝が知れ渡る。
+[k]
+
+＠ジークフリート
+やがて、周囲を巻き込み[line 2]血で血を洗う戦いが起きる。[r]戦いは続けば続くほど拡大し、止められなくなる。
+[k]
+
+＠ジークフリート
+最終的にこの国には虐殺と処刑、[r]裏切りと不信が蔓延するだろう。
+[k]
+
+[charaFace D 4]
+＠ジークフリート
+『ラインの黄金』とはそういうものだ。[r]そんなものを召喚してしまって、申し訳ないな……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+わかりました。では、防がなければなりません。[r]目的地に向けて急ぎましょう！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ルートが出た、急ごう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[charaFadeout D 0.1]
+[wt 0.5]
+[scene 20800]
+[charaFace F 0]
+[charaFadein F 0 1]
+[fadein black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 1]
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0 1]
+＠ジークフリート
+……黄金に惹かれて、魔性の物が集まり始めているな。[r]突破するぞ、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

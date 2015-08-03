@@ -1,0 +1,203 @@
+＄91-30-10-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20900]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3010001 0 ロムルス]
+[charaSet E 3010001 0 ローマ兵]
+[charaSet F 3010001 0 セネカ]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 13]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘終了です。[r]敵性体、すべて撃破しました。
+[k]
+
+[charaFace D 4]
+＠ロムルス
+……ローマは潰えぬ。[r]たとえ、歴代ローマ皇帝の悉くが地に這おうとも。
+[k]
+
+[charaFace D 0]
+＠ロムルス
+過去、現在、未来、ローマは輝き続けよう。[r][#私:ローマ]にはそれが見えるのだ。
+[k]
+
+＠ロムルス
+見よ、天の神々。[r][#私:ローマ]のローマを。いいや[line 2]
+[k]
+
+[charaFace D 1]
+＠ロムルス
+[#私:ローマ]より続く、ネロのローマを。[r]美しい。この一瞬の美しさは、すなわち、無限である。
+[k]
+
+[charaFace A 13]
+＠マシュ
+…………はい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+理解できるようなできないような、ううん、[r]つまり彼はどういうことを言ってるんだろうね？？
+[k]
+
+？1：ローマだよ
+
+？2：ローマだよ
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……そう、ですね。先輩。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+えっ。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+いや。いやいや、今、マシュ考えるのやめたよね？[r]あと[%1][&君:ちゃん]さっきから何か[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ロムルス
+ローマ……。
+[k]
+
+？1：ローマ……。
+
+？！
+
+[charaFace A 13]
+＠マシュ
+はい。ローマ、ですね。[r]何となく[line 2]わたしもわかってきました。
+[k]
+
+[charaFadeout D 0]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いやいやいや！　待って！[r]ボクよく分かってないんだけど、ええと！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ドクター。歴史がどうあっても、少なくとも、[r]今この時のネロさんは輝いていますよね。
+[k]
+
+＠マシュ
+だから、それでいい。[r]そういうことを……彼は言っているように思います。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+あ、そういう……。[r]こと……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ロムルス
+ローマ……。
+[k]
+
+[charaFadeout A 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ……。
+[k]
+
+＠ローマ兵
+こちらです、セネカさま！[r]先ほどから玉座の間で何やら異様な気配が漂い！！
+[k]
+
+＠セネカ
+陛下の寝所の守りを固めて下さい。[r]それから、兵四名、私と共に玉座へ！
+[k]
+
+＠ローマ兵
+はっ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+おっといけない、見付かりそうだ！[r]それじゃあ強制レイシフトで逃げるとしよう！！
+[k]
+
+？1：ローマ！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+はい、先輩！[r]ローマ！
+[k]
+
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ロムルス
+[line 2]ローマは、永遠である！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

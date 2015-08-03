@@ -1,0 +1,207 @@
+＄91-20-01-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10720]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2001001 1 エミヤ]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠エミヤ
+では最後に、マスターとしての心構えについて。[r]サーヴァントとの付き合い方のコツを教えよう。
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ここまで襲われてまだ続けるんだ！[r]筋金入りだなキミ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エミヤ
+何を言う。カルデアの人間が教えないから[r]私が出張っているんじゃないか。
+[k]
+
+[charaFace D 4]
+＠エミヤ
+[%1]がマスターになった経緯は聞いたよ。
+[k]
+
+＠エミヤ
+魔術師でもない、何の経験もない人間が[r]事故に巻きこまれてマスターになったのだろう？
+[k]
+
+[charaFace D 5]
+＠エミヤ
+他に人材がいないとはいえ、無茶にすぎる。[r]せめて心構えぐらいは教えてやるべきだ。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+……すみません、先輩。エミヤ先輩の言う通りです。[r]カルデアに残された大人はダメな人ばかりで……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ボクだって済まないと思ってるからね！[r]メディカルチェックはつねに全力だし！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エミヤ
+まあいい。とにかくサーヴァントの話だ。[r]サーヴァントは過去の英霊を使役する。
+[k]
+
+＠エミヤ
+基本、サーヴァントは契約者であるマスターより[r]優れた能力を持つ。これはわかるな？
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+そうですね。[r]自分より弱い使い魔と契約する理由はありませんから。
+[k]
+
+＠エミヤ
+ああ。しかし、だからといってマスターはサーヴァントを[r]敬いすぎてもいけないし、恐れすぎてもいけない。
+[k]
+
+＠エミヤ
+彼らは確かに偉業をなした英雄だが、[r]それは契約において重要な事じゃない。
+[k]
+
+＠エミヤ
+マスターとサーヴァントは契約上では主従関係だが、[r]精神的には対等である事が望ましい。
+[k]
+
+[charaFace D 5]
+＠エミヤ
+いいか。神の如きサーヴァントがいたとしても、[r]その成り立ちは[&おまえ:君]と同じものなんだ。
+[k]
+
+＠エミヤ
+現代を生きるものとして、[r]先達たちが残した[#知恵:もの]を使う[line 3]
+[k]
+
+＠エミヤ
+文明がそうであるように、サーヴァントも同じだ。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+私たち英霊だって、かつて人間だった頃に多くのものに[r]助けられたから、君というマスターと契約している。
+[k]
+
+＠エミヤ
+ようは、こうして召喚され、頼りにされるのは[r]英霊にとってそう悪い事ではない、という事だ。
+[k]
+
+＠エミヤ
+たとえ話だが、[&おまえ:君]が残したものが、[r]次の時代の人間の助けになったらどう思う？
+[k]
+
+？1：……それは、ちょっと嬉しいな
+
+？2：自分が生きた証っぽいですね
+
+？！
+
+[charaFace D 1]
+＠エミヤ
+そうだ。だからサーヴァントも同じなんだよ。
+[k]
+
+＠エミヤ
+自分が残したもの、自分が為し得た事が次の世代に[r]活かされる[line 3]そこに意義を感じない英霊はいない。
+[k]
+
+＠エミヤ
+善にしろ悪にしろね。[r]だからサーヴァントとは精神的に対等なのさ。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+サーヴァントがマスターに力を貸すのは、[r]人として当然の義務なんだから。
+[k]
+
+＠エミヤ
+それがこの星に生きるという事。キミの人生も、[r]いつか必ず、未来の誰かの利益に繋がっている。
+[k]
+
+＠マシュ
+………未来の、誰か……
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……あー、エミヤ氏。ご高説中済まないが、その……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エミヤ
+……はあ。[r]まあいいさ、伝えなくていけない事は伝えた。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+で、次はなにかね？[r]ゴーレムか？　骸骨か？　ワイバーンでも驚かないぞ？
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+いやあ、それが[line 3][r]本来、この領域にはいないハズなんだけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+じょ、女性兵士の大軍です！　意味がわかりません！[r]ゴリラの如きウーマン……つまり、ゴリウーです！
+[k]
+
+＠マシュ
+まっすぐにエミヤ先輩に向かって来ます！
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠エミヤ
+こんなところでも女難の相……だと……!?[r]ええい、何か作為的なものを感じるなぁ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

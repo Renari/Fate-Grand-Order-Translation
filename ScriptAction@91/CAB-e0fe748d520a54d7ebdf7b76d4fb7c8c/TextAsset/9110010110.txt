@@ -1,0 +1,158 @@
+＄91-10-01-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10710]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1001001 1 アルトリア]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠アルトリア
+ここが聖杯戦争の発端となった土地、フユキ……
+[k]
+
+[charaFace D 4]
+＠アルトリア
+ひどいものです。[r]この炎は十年や二十年では消えないでしょう。
+[k]
+
+＠アルトリア
+呪いが土地そのものに染みついている。[r]ここはもう人間の住める場所ではありません。
+[k]
+
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+そのようだね。[r]似たような街はアメリカにもあるらしいよ。
+[k]
+
+＠Dr.ロマン
+地上には火災、地下にはガスが充満して、[r]あと五十年は燃え続ける見込みだとか。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+まあ、それは人間の都市開発による事故で、[r]こっちは魔術的な災害だけど。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠アルトリア
+魔術的な災害……[r]貴方はどう思いますか、マスター？
+[k]
+
+？1：きっと聖杯のせいだ
+
+[charaFace D 4]
+＠アルトリア
+聖杯が原因、なのですね。……私としては否定したい[r]ところですが、どうしようもない事実なのですね。
+[k]
+
+？2：特異点になったからだ
+
+[charaFace D 0]
+＠アルトリア
+聖杯が原因ではなく、[r]特異点になった事でこの都市の在り方が変化した？
+[k]
+
+？！
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……あの。[r]この街の聖杯を守っていたのは貴女です、セイバー。
+[k]
+
+＠マシュ
+正確に言えば貴女の別の側面、ですが。[r]そのあたりの記憶はないのですか？
+[k]
+
+[charaFace D 4]
+＠アルトリア
+……申し訳ありません。
+[k]
+
+[charaFace D 0]
+＠アルトリア
+サーヴァントとして召喚された英霊は、[r]その時点で元のカタチとは独立したもの。
+[k]
+
+＠アルトリア
+契約が解除され座に戻ればすべての体験は[r]統合された記録として蓄積されるのですが……
+[k]
+
+＠アルトリア
+今の私はセイバーのクラスの、[r]騎士たちの王として自らを律した頃の私なのです。
+[k]
+
+＠アルトリア
+[%1]、マシュ。貴方たちが見た[r]黒い鎧の私は、私とは別人と考えてください。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん。そこが英霊召喚システムの[r]長所でもあり短所でもある。
+[k]
+
+＠Dr.ロマン
+ひとりの英霊の様々な側面を利用できる反面、[r]同じ英霊で争う事も起こりえるんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠アルトリア
+ですがご安心を。黒く堕ちた私が別のクラスでいた以上、[r]この私は何があっても変化する事はありません。
+[k]
+
+＠アルトリア
+この剣は貴方の目的のために振るいます。[r]間違っても貴方たちに襲いかかる事はありません。
+[k]
+
+？1：それは頼もしい。
+
+？2：もちろん、信頼している。
+
+？！
+
+[charaFace D 1]
+＠アルトリア
+はい。感謝しますマスター。[r]ではさしあたって、その信頼に応えると致しましょう。
+[k]
+
+[charaFace D 0]
+[wt 0.2]
+[se ad25]
+[wait se ad25]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 7]
+＠マシュ
+今のうなり声は……！[r]敵性反応です、先輩！
+[k]
+
+＠アルトリア
+いい戦闘経験になりそうですね。[r]マシュ、付いて来なさい。戦い方を教えてあげます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

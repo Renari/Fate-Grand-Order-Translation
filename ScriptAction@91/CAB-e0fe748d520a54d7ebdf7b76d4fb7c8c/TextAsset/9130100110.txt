@@ -1,0 +1,554 @@
+＄91-30-10-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10800]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3010001 0 ロムルス]
+[charaSet E 1005001 1 ネロ]
+[charaSet F 98016000 1 ブッルス]
+[charaSet G 98014000 1 ローマ市民]
+[charaSet H 98014000 1 セネカ]
+[charaDepth E 1]
+[charaFace D 0]
+[charaFadein D 0 4]
+[charaFace E 1]
+[charaFadein E 0 1]
+[charaTalk E]
+[fadein black 1]
+[wait fade]
+[se ad5]
+[wt 3]
+[seStop ad5 3]
+＠ネロ
+うむ、うむ！[r]今日も余のローマは賑わいに満ちているな！
+[k]
+
+＠ネロ
+かの連合帝国の脅威も今は既になく、[r]余のローマ、愛するローマ市民には笑顔が戻った。
+[k]
+
+＠ネロ
+実に喜ばしいことだ。[r]余はすこぶる機嫌が良い。そうとも[line 2]
+[k]
+
+[charaFace E 4]
+＠ネロ
+[%1]とマシュに二度と会えぬのは[r]寂しくも思うが、余はローマ皇帝であるからな！
+[k]
+
+[charaFace E 1]
+＠ネロ
+市民たちの笑顔あればこそ、[r]余は無限の愛を以てローマに君臨し、統治するのみ！
+[k]
+
+＠ネロ
+我が才は限りなく、愛もまた同じく。[r]薔薇の喝采は首都ローマに絶えず響くであろう！
+[k]
+
+＠ネロ
+余は楽しい！[r]今日は如何なる歌を謳おうか？
+[k]
+
+＠ローマ市民
+ああっ、あそこにおられるは皇帝陛下！[r]アポロンの如き輝き、ヴィーナスが如き美しさ！
+[k]
+
+＠ローマ市民
+皇帝万歳！[r]ネロ・クラウディウス陛下万歳！
+[k]
+
+[charaFace E 0]
+＠ネロ
+うむうむ。[r]良いぞ、喝采を許す！
+[k]
+
+＠ネロ
+ひとつだけ付け加えるならそうだな、[r]余はミューズが如き芸術の才にも溢れているぞ？
+[k]
+
+[charaFace E 1]
+＠ネロ
+ならば謳おう！[r]童女よこれへ、花を持て！
+[k]
+
+＠ネロ
+インペリウムの誉れは此処に！[r]首都の、いいやローマの全土に余の美声を響かせよう！
+[k]
+
+＠ローマ市民
+お、おおーっ！！[r]こ、皇帝陛下がお歌いになられるぞーっ！！
+[k]
+
+＠ローマ市民
+有り難い、ありがたくはあるが耐えろーっ！！[r]気を抜けば持って行かれるぞッ！！
+[k]
+
+[charaFace E 1]
+＠ネロ
+ふふ、道行く人々ですらこのノリの良さだ！[r]余は楽しい、これこそがローマであるな！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20602]
+[fadein black 0.5]
+[charaFace E 1]
+[charaFadein E 0 1]
+[wait fade]
+＠ネロ
+……ふう。[r]よき[#歌の時間:リサイタル]であった。
+[k]
+
+[charaFace E 4]
+＠ネロ
+しかし、駆け付けてきた楽団の者たち、[r]ちと演奏の音が大き過ぎはしなかったか？？
+[k]
+
+＠ネロ
+あれでは余の美声が掻き消されてしまって、[r]肝心の歌が市民たちに届き難かったのではないか？
+[k]
+
+[charaFace E 1]
+＠ネロ
+余の前で張り切るのは仕方ないが、[r]楽団の者たちには些か我慢を覚えてもらわねばな。
+[k]
+
+[charaFace E 0]
+＠ネロ
+さてと、午前中は歌に費やしてしまった。[r]午後は政務に励むとしよう[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk F]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠ブッルス
+皇帝陛下。[r]畏れながら申し上げる。
+[k]
+
+[charaFace E 0]
+＠ネロ
+おお、我が騎士ブッルス。[r]如何した？
+[k]
+
+＠ブッルス
+連合帝国に支配されていた各属州より、[r]生死不明であった総督や長官から連絡が届いております。
+[k]
+
+＠ブッルス
+ご多忙の所、申し訳ありません。[r]書簡にお目を通して戴ければ幸いであります。
+[k]
+
+[charaFace E 1]
+＠ネロ
+うむ、ブッルス。[r]そなたのもたらしたものは吉報に他ならぬぞ！
+[k]
+
+＠ネロ
+臣下たちの書簡をこれへ持て。[r]あれらの安否は余も気に懸けておったところだ。
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[charaFadein E 0.4 1]
+[wt 0.5]
+[charaFace E 4]
+＠ネロ
+（……マシュたちの言葉が正しければ、[r]　偽りの連合帝国にまつわる事柄のすべて、いずれ）
+[k]
+
+＠ネロ
+（影も形もなく消えてゆくのであろうな。[r]　だが、うむ。今はいい。書簡に目を通すべきだ）
+[k]
+
+＠ネロ
+（余の愛する臣下たち。[r]　如何にして、苛烈な連合より生き延びたのか）
+[k]
+
+[charaFace E 0]
+＠ネロ
+（目にするべきであろう。[r]　余は、既に、母さえこの手に掛けた身[line 2]）
+[k]
+
+＠ネロ
+（余は、皇帝として在り続けるのみだ。[r]　余の愛は、きっと、臣下や市民たちに届くはず）
+[k]
+
+[charaFace E 1]
+＠ネロ
+（……そうであろう、神祖ロムルス）
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.5]
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+[charaFace F 0]
+[charaFadein F 0.4 2]
+＠ブッルス
+[line 2]陛下？
+[k]
+
+[charaFace E 4]
+＠ネロ
+すまぬ、少し歌い疲れてしまったようだ。[r]だが案ずることはない。
+[k]
+
+[charaFace E 0]
+＠ネロ
+書簡をこれへ。[r]総督たちの言葉、間違いなく聞き届けようぞ！
+[k]
+
+[messageOff]
+[charaFadeout E 0.5]
+[charaFadeout F 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20900]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 0.5]
+[wait fade]
+＠セネカ
+……皇帝陛下。[r]些か、ご無理が過ぎるのではありませんか。
+[k]
+
+＠セネカ
+既に夜も更けております。[r]お早く、寝所でお休みになるべきでしょう。
+[k]
+
+＠ネロ
+ん、セネカか。[r]ふふ。そう言ってくれるな。
+[k]
+
+[charaFace E 4]
+＠ネロ
+滞っていた政務が山ほどあるのだ。[r]余が二、三人もいればさほど時を掛けずに済むが。
+[k]
+
+[charaFace E 0]
+＠ネロ
+そういう訳にもいかぬ。[r]余はローマにただひとりであるのだからな！
+[k]
+
+[charaFace E 1]
+＠ネロ
+ふふ。だが、良い。[r]そなたがそう言ってくれるのは嬉しいぞ。
+[k]
+
+＠ネロ
+かつて、母が存命の頃は[line 2]
+[k]
+
+＠セネカ
+陛下。
+[k]
+
+[charaFace E 0]
+＠ネロ
+ん……。[r]いや、すまぬ。今のは忘れよ。
+[k]
+
+[charaFace E 4]
+＠ネロ
+気付けば、いつもの頭痛もぶり返してきた。[r]これでは政務に勤しむのもままならん。
+[k]
+
+＠ネロ
+確かに、余は些か疲れているらしい。[r]そろそろ休むぞ。
+[k]
+
+[charaFace E 1]
+＠ネロ
+……添い寝を頼めるか、家庭教師どの？
+[k]
+
+＠セネカ
+お戯れを。[r]しかし、お気を変えて下さって良かった。
+[k]
+
+＠セネカ
+どうかお休みください。[r]我らがローマ皇帝、貴女は世界にただひとり。
+[k]
+
+＠セネカ
+ご無理は禁物です。[r]貴女のご無理は、ローマの無理にも繋がりましょう。
+[k]
+
+[charaFace E 0]
+＠ネロ
+うむ。そうであろうな[line 2]
+[k]
+
+[messageOff]
+[charaFadeout E 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20900]
+[charaFace C 0]
+[charaFadein C 0 0]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……誰もいません。[r]ネロさんは、寝室へ移動したようですね。
+[k]
+
+＠フォウ
+フォウっ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 1]
+[wt 0.3]
+＠Dr.ロマン
+い、いやあ、凄いな皇帝特権スキルＥＸ！[r]見事にキミたち、気配遮断っぽいことしてたよ？
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+しかもロムルス本人だけじゃなくて[r]マシュや[%1][&君:ちゃん]まで気配が消えてた。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+どういうスキルを使ったんだろう？[r]ええと、どうかお答え戴けますか[line 2]神祖さま。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ロムルス
+……。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ロムルスさん？
+[k]
+
+＠ロムルス
+……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あの[line 2]
+[k]
+
+？1：ネロが心配？
+
+[charaFace A 0]
+＠マシュ
+……そうですね。ロムルスさんにとって、[r]ネロさんは「子孫」のようなものでしょうから。
+[k]
+
+？2：ローマ？
+
+[charaFace A 6]
+＠マシュ
+え、先輩？
+[k]
+
+？！
+
+＠ロムルス
+すべてのローマは、我が子である。[r]ネロ・クラウディウス。愛しき我が子のひとり。
+[k]
+
+[charaFace D 4]
+＠ロムルス
+その小さき体にて、[r]遙かローマのすべてを支えんとする儚き娘よ。
+[k]
+
+[charaFace D 0]
+＠ロムルス
+[#私:ローマ]は其処に、愛を見た。[r]それは神々の愛ではなく、しかして人の愛でもない。
+[k]
+
+＠ロムルス
+あれこそ……[r]ローマ皇帝の在るべき愛のかたちのひとつ。
+[k]
+
+[charaFace D 4]
+＠ロムルス
+その道行きの先が、[r]たとえ、冥界へと続いていようとも[line 2]
+[k]
+
+[charaFace A 12]
+＠マシュ
+……はい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん。これから数年で皇帝ネロの権勢は崩れ、[r]彼女は臣下だけでなく市民からも支持を失ってしまう。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+流石に、本人には言えないことだけど、[r]哀しいかな、歴史ではそういことになっているんだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ロムルス
+あらゆる人があの娘を否定しようとも、[r]あらゆる神があの娘を否定しようとも、構わぬ。
+[k]
+
+＠ロムルス
+[#私:ローマ]は、あの娘を認めよう。[r]ネロ・クラウディウスは、良い。
+[k]
+
+＠ロムルス
+あれは[line 2][r]実に良き[#ローマ皇帝]である。
+[k]
+
+[charaFace D 0]
+＠ロムルス
+故に、疾く去るが良い。[r]我が神威に惹かれて集いし「皇帝」たちよ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え[line 2]
+[k]
+
+＠マシュ
+いま、何と？[r]彼女の様子を見に来ただけではないのですか？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+待った。何かいるぞ[line 2][r]ひどく高い魔力反応、でもサーヴァント反応と違う！
+[k]
+
+＠Dr.ロマン
+もっと朧気な存在だ。ゴースト系の怪物か？[r]自然発生するにしては魔力が高すぎる！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ロムルス
+アウグストゥス[line 2]！
+[k]
+
+＠ロムルス
+ティベリウス、クラウディウス！[r]おお、トラヤヌス！　ハドリアヌス、セウェルス！
+[k]
+
+[charaFace A 6]
+＠マシュ
+古代ローマ帝国、歴代皇帝の名前……？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そうか、なるほど！[r]そこに出現しかけてるのは「皇帝」たちの亡霊か！
+[k]
+
+＠Dr.ロマン
+神祖ロムルスの存在に惹き付けられて、[r]連鎖して召喚されかけていた「皇帝」たちだよ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+ひどく敵意ある魔力を感じます。[r]先輩、戦闘になります！
+[k]
+
+？1：戦闘態勢だ！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！[r]戦闘指示をお願いします！
+[k]
+
+？2：ローマ！
+
+[charaFace A 6]
+＠マシュ
+え！？[r]せ、先輩！？
+[k]
+
+？！
+
+[charaFace D 0]
+＠ロムルス
+当世より過去の皇帝たちよ！[r]当世より未来の皇帝たちよ！
+[k]
+
+[charaFace D 2]
+＠ロムルス
+お前たちは去るがいい！[r]お前たちはローマではあるが、当世はネロの時代！
+[k]
+
+＠ロムルス
+仮初めの連合は既にない！[r]故に、おお、虚ろに集いし我が子たちよ！
+[k]
+
+＠ロムルス
+[line 2]我が槍を見よ！
+[k]
+
+[charaFace D 0]
+＠ロムルス
+[#私:ローマ]の持つ槍こそ、ローマである。[r]故に、お前たちは[line 2]
+[k]
+
+[charaFace D 2]
+＠ロムルス
+槍を通じて[#私:ローマ]へと還るがいい。[r]おお、おお、マグナ・ウォルイッセ・マグヌム！！
+[k]
+
+＠ロムルス
+[fontSize x-large][line 2]ローマ！！！[-]
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

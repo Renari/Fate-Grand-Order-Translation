@@ -1,0 +1,49 @@
+＄91-20-01-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20110]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2001001 0 エミヤ]
+[charaSet E 7001000 0 ヘラクレス]
+[charaShadow E true]
+[charaTalk A]
+[charaFace D 2]
+[charaFadein D 0]
+[charaFace A 2]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+周辺の敵性勢力、掃討しました。[r]……残るは奥にいるサーヴァントだけです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 1.5]
+[charaFadeout E 0.1]
+[wt 0.2]
+[charaShadow E false]
+[fadein D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エミヤ
+黒化しているとはいえ、その実力は本物に迫るだろう。[r]一度や二度で倒れるサーヴァントじゃない。
+[k]
+
+[charaFace D 5]
+＠エミヤ
+最後まで油断せず仕留める事だ。[r]行くぞ、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

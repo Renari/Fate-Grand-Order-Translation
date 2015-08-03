@@ -1,0 +1,178 @@
+＄91-70-15-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20300]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7015001 0 エイリーク]
+[charaSet E 98006000 1 雑魚エネミー]
+[charaSet F 98006000 1 ？？？]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠エイリーク
+ウゥ……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……エイリークさん？[r]どうしました？
+[k]
+
+[charaFace D 2]
+＠エイリーク
+ウゥゥゥゥゥ……！！[r]ウ、ガ、グッ、ギッ……！！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！？[r]フォウ、フォウ、フォウ！
+[k]
+
+[charaFace D 5]
+＠エイリーク
+ギィ[line 2]！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[communicationChara 98003003 1 5 0 2]
+＠Dr.ロマン
+は、離れるんだ皆！[r]エイリークはバーサーカー！
+[k]
+
+＠Dr.ロマン
+暴走した可能性がある！[r][%1][&君:ちゃん]もマシュも、距離を取れ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠マシュ
+エイリークさん！
+[k]
+
+[charaFace D 4]
+＠エイリーク
+……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+[charaFace D 2]
+＠エイリーク
+……お、お前、たちが、我が、夫を、使役する、[r]不埒者、か。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+え……！？
+[k]
+
+[charaFace D 0]
+＠エイリーク
+我が名はグンヒルド。普段ならば、聖杯如きに我が夫を[r]召喚した無礼をその命で償わせるところだが[line 2]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+グ、グンヒルド……！？[r]確か、エイリーク・ブラッドアクスの奥方じゃないか！？
+[k]
+
+＠Dr.ロマン
+確か妖術を使って彼の敵を呪い殺したとか、[r]死後もなお、彼のために戦い続けたとか……！
+[k]
+
+＠Dr.ロマン
+で、でもどうやって連絡を！？[r]というか、どこから！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エイリーク
+そちらの事情は把握している。[r]今回は特別に我が夫を使わせてやろう。
+[k]
+
+[charaFace D 4]
+＠エイリーク
+だが、我が夫は未だその力を十全に発揮できておらぬ。[r]その理由は、武器の[#“血斧”:ブラッドアクス]にある。
+[k]
+
+[charaFace D 0]
+＠エイリーク
+かの斧こそ、魔獣の血肉で形成された血塗れの斧。
+[k]
+
+＠エイリーク
+今一度、何頭かの魔獣の血を吸わせれば本来の力を[r]遺憾なく発揮できるだろう。
+[k]
+
+[charaFace A 12]
+＠マシュ
+魔獣……ですか。[r]でも、そんなのどこに……。
+[k]
+
+[charaFace D 2]
+＠エイリーク
+案ずるな。[r]今、[#召喚する]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+せ、生体反応があった！？[r]戦闘準備だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠マシュ
+り、理不尽な……！？
+[k]
+
+[charaFace D 5]
+＠エイリーク
+ウギギギギ…………コロス……マジュウ……！！
+[k]
+
+[se ad19]
+[wait se ad19]
+[charaFace A 15]
+＠マシュ
+き、来ます……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

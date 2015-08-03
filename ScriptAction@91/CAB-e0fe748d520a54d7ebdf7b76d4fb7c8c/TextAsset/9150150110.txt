@@ -1,0 +1,185 @@
+＄91-50-15-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5015001 1 アマデウス]
+[charaSet E 98021000 1 町人]
+[charaFace D 2]
+[charaFadein D 0.4 4]
+[fadein black 1]
+[wait fade]
+＠町人
+オラ、出ていきな一文無し！[r]金が出来るまでこいつは預かっておくぜ！
+[k]
+
+[se ad35]
+[charaMove D 1 0.5]
+[wait charaMove]
+[charaShake D 0.05 2 0 1]
+＠アマデウス
+あいたたた……なんて乱暴な親父なんだ……[r]酒は安モノだし……ポークカツレツはないし……
+[k]
+
+[charaFace D 4]
+＠アマデウス
+ああ、でも旅行鞄を取られたのはまずかった。[r][#質:しち]に流されたら事だ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……マスター。[r]前方で転がっているのはアマデウスさんです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+酒場から、こう、ピンボールのように[r]弾き出されてきたようですが……
+[k]
+
+？1：何かあったのか？
+
+？2：大丈夫ですか、クズ？
+
+？！
+
+[charaFace D 3]
+＠アマデウス
+おや。恥ずかしいところを見られてしまったな。[r]君たちも昼食かい、[%1]、マシュ？
+[k]
+
+[charaFace D 4]
+＠アマデウス
+それならそこの酒場は止めておくといい。[r]肉と魚はうまいが、酒がひどい。
+[k]
+
+[charaFace D 2]
+＠アマデウス
+なにより接客態度が最悪だ！　手持ちが足りなかった[r]ぐらいで投げ飛ばすとか、短気にも程がある！
+[k]
+
+[charaFace A 6]
+＠マシュ
+アマデウスさん、[r]お金がないのにお店に入ったんですか？
+[k]
+
+[charaFace D 1]
+＠アマデウス
+うん、入るよ？[r]だって僕、天才音楽家だし。
+[k]
+
+＠アマデウス
+あらゆるものは出世払いでいいんだって、[r]神さまに認められているからね。
+[k]
+
+[charaFace D 2]
+＠アマデウス
+なのにここの親父ときたら、音楽の素養がまるでない！[r]そもそも店にピアノの一台もないとはどういう事か！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そりゃあこの時代の酒場にピアノはないだろう。[r]親父さんからすればキミの方が横暴だよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠アマデウス
+横暴なもんか。仕方ないから手持ちのフルートで、[r]即興とはいえこの僕が一曲サービスしたんだぜ？
+[k]
+
+[charaFace A 1]
+＠マシュ
+そ、それは羨ましいですね。アマデウスさんの曲なら、[r]一食分と言わず一日分の食事代が賄えると思います。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ふーん。ちなみにアマデウス君、[r]どんな曲を吹いたんだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠アマデウス
+うん。題をつけるのなら、[r]“今にもお腹を[#下:くだ]しそうなフーガ”だね。
+[k]
+
+[charaFace D 1]
+＠アマデウス
+僕の宝具からもわかるように、効果はテキメンだ。[r]面白いぞ、トイレの前はもう長蛇の列さ！
+[k]
+
+[charaFace A 11]
+＠マシュ
+先輩、最悪です！[r]この人は野放しにしてはいけない系のサーヴァントです！
+[k]
+
+[charaFace D 3]
+＠アマデウス
+ははは、そう褒めないでくれ、照れるじゃないか。[r]しかし本当にいいところに来てくれた、ふたりとも。
+[k]
+
+[charaFace D 0]
+＠アマデウス
+親父に復讐したのはいいが、肝心の商売道具をブン取られて[r]しまってね。急いで金を稼がないといけない。
+[k]
+
+[charaFace D 1]
+＠アマデウス
+ちょっとそこまでお付き合いいただけるかな？[r]なに、簡単な用心棒というヤツだ。
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20300 0]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……街の外までやってきました。[r]ここに何があるんですか、アマデウスさん？
+[k]
+
+[charaFace D 1]
+＠アマデウス
+ああ。このあたりに商人の荷馬車を襲う兵士崩れが[r]出没するらしくてね。退治すれば[#金一封:きんいっぷう]だ。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 2]
+＠アマデウス
+ほら、言ってるそばからやってきた。[r]頼むよマスター。豪快に懲らしめてやってくれたまえ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

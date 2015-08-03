@@ -1,0 +1,114 @@
+＄91-20-01-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20110]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2001001 2 エミヤ]
+[charaFace A 1]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+や……やりました、先輩！[r]わたしの勝利です！
+[k]
+
+？1：やった[&な:ね]、マシュ！
+
+？2：バーサーカー如きで[&オレ:わたし]を止める事はできない
+
+？！
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠エミヤ
+ああ、見事な戦闘だった。[r]これで半人前からは卒業だな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+おや。一人前になった、じゃないのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠エミヤ
+それを私が告げていいのかねドクター？[r]もうしばらく[&彼:彼女]には苦労をしてもらうんだろう？
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+そうだねぇ。ボクから見てももう立派なマスター[r]なんだけど、マギ☆マリがうるさくて……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+?　ネットアイドルが先輩の成長に[r]意見を申し立てるのですか？
+[k]
+
+[charaFadeout A 0]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+言うとも。“最近はその子の話ばかり、つまらないわ！”[r]とか、拗ねちゃって困るぐらい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+……それはあからさまな客殺し商売かと。[r]ドクター、ネットにかまけるのも程ほどに。
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エミヤ
+ともあれ、私からの課題はこれで終わりだ。[r]今後は遠慮なく指令を出してくれ、マスター。
+[k]
+
+[charaFace D 3]
+＠エミヤ
+さしあたっては本当のバーサーカーと戦うのはどうかな？[r]我が剣戟の極地、改めてお見せしよう。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+アーチャーとバーサーカーの宝具対決か！[r]それは燃えるな、今度こそ勝ってくれよアーチャー君！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エミヤ
+それはそちらのマスター次第だな。
+[k]
+
+＠エミヤ
+頼むぞ[%1]。かつてのオレでは果たせなかった[r]大英雄越えを、[&おまえ:君]の手で果たさせてくれ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

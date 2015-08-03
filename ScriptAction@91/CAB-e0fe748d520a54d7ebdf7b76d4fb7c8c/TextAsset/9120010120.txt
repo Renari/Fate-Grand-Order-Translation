@@ -1,0 +1,100 @@
+＄91-20-01-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10720]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2001001 0 エミヤ]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠エミヤ
+では次の話だ。今度はクラスごとの特徴を解説しよう。[r]まずはアーチャークラスだな。
+[k]
+
+＠エミヤ
+アーチャーは文字通り弓を主武装にする英霊だ。
+[k]
+
+＠エミヤ
+白兵戦ではセイバー、ランサーに劣るが、[r]遠距離からの攻撃、後方支援に優れている。
+[k]
+
+＠エミヤ
+また、単独行動という特別なスキルも持っている。
+[k]
+
+＠エミヤ
+マスターとの繋がりを解除しても、[r]ある程度自由行動ができる、というものだ。
+[k]
+
+[charaFace A 14]
+＠マシュ
+マスターとの繋がりを解除する……[r]それではサーヴァントの体を保てません。
+[k]
+
+＠マシュ
+魔力提供がなくなるのはもちろん、現世に留まる[r][#要石:かなめいし]がなくなって座に戻るのでは？
+[k]
+
+[charaFace D 1]
+＠エミヤ
+ああ、普通ならね。その“世界からの強制力”を[r]緩和させるのがスキル・単独行動だ。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+狙撃手は標的が的に入るまで、三日三晩、[r]狙撃ポイントから動かないのもザラだからね。
+[k]
+
+＠エミヤ
+万が一マスターと離ればなれになっても、[r]数日は自律できるためのスキルと思ってくれ。
+[k]
+
+[charaFace D 5]
+＠エミヤ
+重要なのはアサシンの“気配遮断”とは違うこと。[r]あくまで単独行動ができるだけで気配は隠せない。
+[k]
+
+＠エミヤ
+隠密行動をするのなら、それに応じたスキルか[r]マスターの[#魔術:バックアップ]が必要になる。
+[k]
+
+[se ad25]
+[wait se ad25]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+アーチャー、[%1][&君:ちゃん]への[r]レクチャー中すまない。言うまでもないと思うが……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エミヤ
+ああ、敵襲だろう？　つくづく目のいい連中だ。[r]まったく、青空教室とはいかないものだな。
+[k]
+
+[charaFadeout D 0]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+（……アーチャーさんの声がよく通るので居場所を[r]　伝えてしまっている……のは言わぬが花でしょうか）
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

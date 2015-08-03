@@ -1,0 +1,72 @@
+＄91-30-06-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3006001 1 弁慶]
+[charaSet E 98025000 1 シャドウサーヴァント]
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0 0]
+[charaFace D 1]
+[charaFadein D 0 2]
+[fadein black 1]
+[wait fade]
+＠弁慶
+ははははは！　愉快愉快！
+[k]
+
+＠シャドウサーヴァント
+オマ、オマエ、オマエモ、[r]ニセモノノ、クセニ……！！
+[k]
+
+[charaFace D 0]
+＠弁慶
+……。
+[k]
+
+[messageOff]
+[charaSpecialEffect E darkEnemyErasure 0 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+おーい、どうしたんだー？[r]おーい、おーいってば。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……はあ。[r]ドクターと無線が通じました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+これで帰還しましょう。
+[k]
+
+[charaFace D 1]
+＠弁慶
+うむ。充分な鍛錬になったからな！[r]……ありがとう、マスター殿。
+[k]
+
+＠弁慶
+これからも引き続き、[r]拙僧は貴方にお仕え申し上げよう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

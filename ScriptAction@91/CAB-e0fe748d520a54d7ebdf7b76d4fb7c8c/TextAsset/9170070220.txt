@@ -1,0 +1,133 @@
+＄91-70-07-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10952]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7007001 1 ヴラド三世]
+[charaSet E 98014000 1 女性]
+[charaSet F 98006100 1 雑魚エネミー]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ヴラド三世
+他愛ない。[r]雲散霧消したか。
+[k]
+
+＠女性
+あ、あの。[r]ありがとう……ございます。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+もう安全ですが、まだ夜です。[r]気を付けてお帰り下さい。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.5]
+[charaFace D 2]
+[charaFadein D 0.1]
+＠ヴラド三世
+[line 2]待て。
+[k]
+
+＠女性
+は、はい？
+[k]
+
+[charaFace D 0]
+＠ヴラド三世
+余の名はヴラド三世。[r]この名を胸に刻み、後の生を生きるがよい。
+[k]
+
+[se ad59]
+[wt 0.5]
+[seStop ad59 2]
+[charaFace D 1]
+＠ヴラド三世
+……ふむ。これで少なくとも彼女は[r]余をドラキュラとは思うまい。
+[k]
+
+[charaFace D 0]
+＠ヴラド三世
+さて、続けよう。[r]ロマン、何か発見したか？
+[k]
+
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+ええと……ロンドンの北端に、[r]前回の悪魔と酷似した反応があるけど[line 2]。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+けど、あの悪魔たちには妙な違和感があったんだよね。[r]姿かたちこそ悪魔だったけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……そうですね。フォルムこそ人々が思い描く通りの[r]悪魔でしたが、悪魔と呼べるほどの力はなかった。
+[k]
+
+[charaFace D 4]
+＠ヴラド三世
+となれば、あれは何だ。[r]自然発生した魔獣か、さもなくば[line 2]。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 10912]
+[charaFadein D 0.1 1]
+[fadein black 0.5]
+[wait fade]
+＠ヴラド三世
+さもなくば。[r][#魔術的な何かか]。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[se ad23]
+[wait se ad23]
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.7]
+[charaFadeout F 0.1]
+[charaFadein F 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+見てください、何かの魔法陣のようです。[r]召喚、あるいは合成……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ヴラド三世
+いずれにせよ、これでハッキリした。……余の名前に[r]泥を塗ったのは、ブラム・ストーカーではなく[line 2]。
+[k]
+
+＠ヴラド三世
+どこぞの魔術師、ということだな。[r]……ともあれ捻り潰してくれよう、字義通りの意味でな！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

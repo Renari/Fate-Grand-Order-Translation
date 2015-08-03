@@ -1,0 +1,109 @@
+＄91-10-13-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1013001 1 カエサル]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠カエサル
+……こんなところか。[r]厭になるな。
+[k]
+
+[charaFace D 1]
+＠カエサル
+今こうして剣を振るっていても、懐かしさに昂ぶる。[r]剣の戦いなど面倒の極みであるというのに。
+[k]
+
+[charaFace D 5]
+＠カエサル
+私は、英霊となって尚も逃避しているらしい。[r]実に情けない！
+[k]
+
+？1：何をそんなに怒っている？
+
+？2：権謀術数は、もうないのに？
+
+？！
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、先輩の疑問は正統なものです。[r]カエサルさん、あなたは何に[#憤:いきどお]っているのですか。
+[k]
+
+[charaFace A 0]
+＠マシュ
+既にあなたは英霊であり、[r]古代ローマの血塗られた権謀術数とは無縁です。
+[k]
+
+＠マシュ
+それなのに……。[r]わたしたちと共に再びローマへと至って、何を。
+[k]
+
+[charaFace D 5]
+＠カエサル
+何度も言っている。[r]逃避のためだ。
+[k]
+
+＠カエサル
+耳良い言葉で述べるなら、精算だ。[r]ああ、ドクターとやらの疑問への回答でもあるな。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+この連合ローマ残党のことかい？[r]何故だかまだ残っている……
+[k]
+
+[communicationCharaFace 2]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+っとと、言ってるそばからまた敵襲だ！[r]もしかしてここは連合残党の勢力範囲とかなのか！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠カエサル
+そうだな。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ええー！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+戦闘になります、マスター！[r]指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

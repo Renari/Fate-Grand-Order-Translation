@@ -1,0 +1,380 @@
+＄91-60-13-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21400]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6013001 0 ファントム]
+[charaSet E 5002001 2 ジル]
+[charaSet F 98006200 1 ？？？]
+[charaTalk D]
+[charaFace E 2]
+[charaFadein E 0]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ファントム
+クリスティーヌ[r]おお　クリスティーヌ　我が愛　我が歌姫[line 2]
+[k]
+
+＠ジル
+ジャンヌ！！[r]おお、ジャンヌ！　我が聖処女よおおぉ！！
+[k]
+
+＠ファントム
+微睡むきみへ　私は唄う[r]愛しさ込めて[line 2]
+[k]
+
+＠ジル
+供物をうずたかく積み上げましょうぞ！[r]嘲りと冒涜を込めて！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……このふたり一緒にしたの誰？[r]スピーカーがハウリングを起こしちゃうんだけど！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+この地下通路全体もそうですね……。[r]とても、その、反響がひどくて、何というかっ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ファントム
+私と唄おう　もう一度　もう一度[r]クリスティーヌ　クリスティーヌ　私の歌姫
+[k]
+
+＠ジル
+神の御前では皆等しく[#僕しもべ]の一人！[r]さあ、共に冒涜を！　ほほほ！　ほほほほほほ！！
+[k]
+
+？1：うるさい！
+
+？2：クリスティーヌー！
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ、フォーウ！！[r]キュゥ……ゥ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+あっ、ああっ、先輩！[r]フォウさんがみるうちに弱っていきます……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+なんだろう、ボクも気分がちょっと……。[r]精神汚染スキルって感染とかしないよねえ確か。
+[k]
+
+＠Dr.ロマン
+でも今日はダブル精神汚染スキルだから、[r]なんか、伝染とかそういう感じになったりして？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+困ります。
+[k]
+
+？1：とりあえず用件を済ませよう
+
+？2：早く帰りたい
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、先輩……。[r]この地下通路の一番奥まで行きさえすれば、きっと、
+[k]
+
+＠マシュ
+ファントムさんは満足してくれるはずです。[r]ここに来るだけでいい、とおっしゃっていましたし。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+キュ……ゥ……ウゥ……。[r]フォウ……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+フォウさん、だ、大丈夫[line 2]じゃないですよね！[r]先輩どうしましょう、こ、このままでは。
+[k]
+
+？1：あいつ結構丈夫だよ
+
+？2：（フォウに）どうだ？
+
+？！
+
+＠フォウ
+フォウ、フォーウ！[r]フォウ……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+胸を張って……これは、ええと、[r]まだ行けるということ……なんでしょうか。
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+……了解しました。[r]フォウさんがそう言うなら、わたしも頑張ります！
+[k]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+よし……あの、おふたりとも！[r]愛しい方への想いは伝わりましたから、先を！
+[k]
+
+＠マシュ
+先を急ぎましょう！[r]ファントムさんはこの先に用があるのですよね？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace E 4]
+[charaFadein E 0.1 2]
+＠ファントム
+クリスティーヌ[line 2]
+[k]
+
+＠ジル
+おお、ジャンヌ[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+あの[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace E 1]
+[charaFadein E 0.1 2]
+＠ファントム
+クリスティーヌ　クリスティーヌ
+[k]
+
+＠ジル
+おお、ジャンヌ！　聖処女よ！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+ええと、聞こえてますよね？[r]いえ、ですから、いちいち立ち止まらずに……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+[charaFace E 2]
+[charaFadein E 0.1 2]
+＠ファントム
+クリスティーヌ　クリスティーヌ[r]クリスティーヌ　クリスティーヌ
+[k]
+
+＠ジル
+ジャンヌ！　ジャンヌ！　ジャンヌ！[r]ジャンヌ！　ジャンヌ！　ジャンヌ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠ファントム
+クリスティーヌ　クリスティーヌ　クリスティーヌ[r]クリスティーヌ　クリスティーヌ　クリスティーヌ
+[k]
+
+＠ジル
+ジャンヌ！　ジャンヌ！　ジャンヌ！　ジャンヌ！[r]ジャンヌ！　ジャンヌ！　ジャンヌ！　ジャンヌ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+…………………。
+[k]
+
+？1：マシュさん、あの、落ち着いて
+
+？2：そんな敵性サーヴァントを見る目で！？
+
+？！
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん、間違いなく敵だ！！
+[k]
+
+？1：ドクターまで！
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+え？
+[k]
+
+？2：……確かに二人とも反英雄ぽいし、やるか！
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+え、なに言ってるの[%1][&君:ちゃん]。[r]違う違う、そうじゃない！
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaFace 0]
+＠Dr.ロマン
+魔力反応が感知されたよ！[r]奥からどんどん湧いてくる、気を付けて！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……はい。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+マシュ、あれ、何か……怒ってる？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+いいえ。先輩、指示をください。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+怒ってるよねえ……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+指示を。
+[k]
+
+？1：は、はい。ええと、迎撃態勢で。
+
+？2：戦闘……してくれますか。
+
+？！
+
+＠マシュ
+はい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein F 0.1]
+＠？？？
+オオオオオオオオオオオオオオオオオオ[r]オオオオオオオオオオオオ[line 2]
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+[charaFace E 3]
+[charaFadein E 0.1 2]
+＠ファントム
+クリスティーヌ　クリスティーヌ　クリスティーヌ[r]クリスティーヌ　クリスティーヌ　クリスティーヌ
+[k]
+
+＠ジル
+ジャンヌ！　ジャンヌ！　ジャンヌ！　ジャンヌ！[r]ジャンヌ！　ジャンヌ！　ジャンヌ！　ジャンヌ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaShake F 0.05 0 2 2]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+オオオオオオオ[r]オオオ[line 2]
+[k]
+
+[charaFadeout F 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+二人の勢いに敵が押し負けてる！[r]今だ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,149 @@
+＄91-20-05-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20110 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2005001 1 アタランテ]
+[charaSet E 2009201 2 アルテミス]
+[charaSet F 2009101 1 オリオン]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠アタランテ
+もうそろそろのはずだが……。[r]おっと。良かった、ここだ。
+[k]
+
+[se ad7]
+[wait se ad7]
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 2]
+[charaFace A 6]
+[charaFadein A 0.1 0]
+＠マシュ
+それが女神像ですか？
+[k]
+
+[charaFace D 1]
+＠アタランテ
+ああ、手作りだ。[r]似ているだろう？
+[k]
+
+？1：あとはオリオン君がいれば
+
+？2：オリオン君が足りない
+
+？！
+
+[charaFace D 3]
+＠アタランテ
+あ、あいつを作れというのか……。[r]ううむ。アレは私がもっとも嫌うタイプの人間だからな。
+[k]
+
+[charaFace D 2]
+＠アタランテ
+だらしがなく、色香に溺れ、反省もしない。[r]己の享楽を考えて、他者のことなど見向きもしない。
+[k]
+
+[charaFace D 0]
+＠アタランテ
+……楽しそうではあったのだが。[r]あの楽しさは、私の夢とは離れすぎている。
+[k]
+
+[charaFace D 2]
+＠アタランテ
+男としては全く好みの範疇ではない。[r]イアソンと二択なら、どうにか考えるレベルだ。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そ、そこまで……。
+[k]
+
+[charaFace D 0]
+＠アタランテ
+では、マシュに問おう。もしも世界にイアソンと[r]オリオンしかいない場合、伴侶としてどちらを選ぶ？
+[k]
+
+[charaFace A 3]
+＠マシュ
+え！？[r]そ、それはその。ええと、あの……。
+[k]
+
+[charaFace D 1]
+＠アタランテ
+それ見たことか……………………え？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+＠？？？
+ふふふ、人の彼氏を捕まえて随分と色々[r]言ってくれるじゃない……アタランテちゃん？
+[k]
+
+[charaFace A 6]
+[charaTalk D]
+[charaFadein A 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠アタランテ
+……ひっ！？
+[k]
+
+＠マシュ
+い、今の声は……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[se ad29]
+[wait se ad29]
+[bgmStop BGM_EVENT_2 0.5]
+[bgm BGM_EVENT_3 0]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠アルテミス
+やっほー！
+[k]
+
+[charaFace F 1]
+＠オリオン
+どうも、恥ずかしながら帰って参りました……。[r]マシュちゃん、折角だから茶ぁしばきに行かない？
+[k]
+
+[se bac8]
+[wait se bac8]
+[charaFace E 2]
+＠アルテミス
+ふふふ、たとえ真実を言われても[r]抗議をするのが愛の証！
+[k]
+
+[charaFace E 1]
+＠アルテミス
+という訳で戦いましょう。[r]勝ったら、以降私の祝福は与えてあげないからね！
+[k]
+
+＠アルテミス
+[#太陽神:にいさん]の方はどうだか知らないけれど！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠アタランテ
+そんな無茶な－！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

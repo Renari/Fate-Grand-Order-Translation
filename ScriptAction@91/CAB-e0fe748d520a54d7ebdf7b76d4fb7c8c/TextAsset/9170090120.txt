@@ -1,0 +1,139 @@
+＄91-70-09-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21510]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7009001 0 アステリオス]
+[charaSet E 98006000 1 子供]
+[charaSet F 98006000 1 ？？？]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠アステリオス
+ふぅ。みんな、だいじょうぶ？
+[k]
+
+[charaFace A 13]
+＠マシュ
+フォウさん、マスター共に問題ありません。[r]アステリオスは無事ですか？
+[k]
+
+＠アステリオス
+もんだいなし。[r]すすもう。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21510]
+[charaTalk A]
+[charaFace A 12]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+長いですね。どこまでも続いているような[r]気がします……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ……。
+[k]
+
+＠アステリオス
+ますたぁ、だいじょうぶ？
+[k]
+
+？1：まだ大丈夫
+
+？2：何とか
+
+？！
+
+＠アステリオス
+ほんとうか？[r]むり、するなよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+そうです。無理をしないで下さいね。[r]……ひとまず、もう少しだけ歩きましょう。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21510]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠アステリオス
+……ん。やっぱり……。
+[k]
+
+＠マシュ
+どうしました？
+[k]
+
+＠アステリオス
+こっちを、ひだりにいこう。
+[k]
+
+[charaFace A 6]
+＠マシュ
+道がわかるんですか？
+[k]
+
+＠アステリオス
+うん。なれてる。[r]ここは、らびりんす……ぼくが、そだった、ばしょだ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ラヴィリンス……！？[r]た、確かにここはちょっと記憶にありますが……。
+[k]
+
+[charaFace D 4]
+＠アステリオス
+だから、でぐちも、しってる。[r]ただ……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ただ？
+[k]
+
+[charaFace D 0]
+＠アステリオス
+……おそってくるのは、さけられない。
+[k]
+
+[se ad57]
+[wt 3]
+[seStop ad57 3]
+[charaFace A 7]
+＠マシュ
+どうやら、またエネミーのようですね。[r]マスター、指示をお願いします。
+[k]
+
+[charaFace D 2]
+＠アステリオス
+ますたぁ、よろしく。[r]ぼく、いくよ……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

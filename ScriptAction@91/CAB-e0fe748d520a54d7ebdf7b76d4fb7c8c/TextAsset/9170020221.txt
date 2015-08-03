@@ -1,0 +1,252 @@
+＄91-70-02-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7002001 0 ランスロット]
+[charaSet E 98015000 1 シャドーサーヴァント]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 15]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+な、なんとか……、勝ちました。
+[k]
+
+＠ランスロット
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あの強敵と戦って息も上がっていないだって……？[r]湖の騎士……、大した奴だ……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠フォウ
+フォーウ……。
+[k]
+
+？1：で、何でこんな事してるんだっけ？
+
+？2：もうマイルームに帰りたいんですけど……
+
+？！
+
+＠マシュ
+いや、ドクターがランスロットさんの顔が見たい[r]なんて言わなければ……あっ！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+マシュ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ランスロット
+…………。
+[k]
+
+[charaFace A 8]
+＠マシュ
+す、すみません……。
+[k]
+
+？1：ごめん、気になってたから……
+
+？2：ぶっちゃけ見せてください！！
+
+？！
+
+[se ar3]
+＠ランスロット
+…………！！（カチャ）
+[k]
+
+[wait se ar3]
+[charaFace A 6]
+＠マシュ
+……え？　見せてくれるんですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ええええええええ！？[r]ボクらの苦労は一体……。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも、ついにあの湖の騎士の素顔が……！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+…………！！（ゴクリ）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+うおおおおおおおお！！、……おおっ！！？？
+[k]
+
+[messageOff]
+[communicationCharaClear]
+[fadeout white 0.5]
+[wait fade]
+[wt 2]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[fadein white 0.5]
+[wait fade]
+＠マシュ
+…………なんというか。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+…………なぜかな、兜を取ったのに[r]ぼんやりして全然輪郭も中身もはっきりしない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ランスロット
+…………。
+[k]
+
+？1：これって、もしかして？
+
+？2：はっきりしてよ！！
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、これは『[#己が栄光の為でなく:フォー・サムワンズ・グローリー]』[r]の効果かな……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+自らのステータスと姿を隠ぺいする能力、[r]でしたか？
+[k]
+
+[charaFace A 4]
+＠マシュ
+それにしても、兜を脱いで間近で見ても[r]はっきりしないなんて……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+なんか、その……、疲れたね。
+[k]
+
+？1：がっかりです！！
+
+？2：帰ってご飯にしよう……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+そ、そうですね……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+あー、もうなんか徒労って言葉が[r]ぴったりの一日でしたね？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ドクターが言わないでください！！[r]……ランスロットさんも失礼しました。
+[k]
+
+＠ランスロット
+…………。
+[k]
+
+？1：いつか本当の顔をみせてね
+
+？2：いつか見れる日が来るよね
+
+？！
+
+[charaFace A 13]
+＠マシュ
+フフ……、そうですね。[r]なんだか、そんな気もします。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

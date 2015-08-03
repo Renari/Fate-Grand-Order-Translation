@@ -1,0 +1,59 @@
+＄91-20-02-02-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20201]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2002001 1 ギルガメッシュ]
+[charaSet E 98025000 0 シャドウサーヴァント]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ギルガメッシュ
+亡者どもも懲りぬな。[r]飛んで火に入るなんとやらだが[line 3]む？
+[k]
+
+[charaFadeout D 0]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+！　気をつけてくれ、特大の魔力反応だ！[r]まだ炉心が生きていたのか!?
+[k]
+
+＠Dr.ロマン
+とにかく、Ａ級サーヴァントクラスのヤツが来るぞ！[r][%1][&君:ちゃん]、マシュ、気をつけて！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ギルガメッシュ
+ほう、死してなお現世に執念を残すのは[r]人間だけではないと見える。
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+これは夢の残骸。大いなる発展の夢、[r]輝かしい世界を目指したモノたちの断末魔だ。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+よかろう、[#我:オレ]が手を下す価値がある。[r][%1]よ、気を改めろよ？
+[k]
+
+＠ギルガメッシュ
+さきほどの医師の言葉通りだ。[r]貴様がこやつを見事倒したのなら褒美をやろう。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

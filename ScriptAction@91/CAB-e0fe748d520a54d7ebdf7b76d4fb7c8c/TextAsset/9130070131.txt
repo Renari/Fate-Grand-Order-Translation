@@ -1,0 +1,65 @@
+＄91-30-07-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20700 0]
+[charaSet A 3007001 2 クー・フーリン]
+[charaSet B 3001001 0 クー・フーリン？]
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠クー・フーリン
+……決着付かず、か。
+[k]
+
+[charaFace B 4]
+＠クー・フーリン？
+お互いの宝具のことを考えりゃ、[r]いいとこどっちも死んで終わりかと思ったが。
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+[bgm BGM_EVENT_2 0.5]
+[charaFace B 1]
+＠クー・フーリン？
+意外とやるもんだ。[r]流石、やんちゃな頃のオレだ。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン
+年季の入った俺もなかなかだったぜ。[r]次は、仕留めてやるよ。
+[k]
+
+[charaFace B 0]
+＠クー・フーリン？
+あん？　こっちの台詞だろ。
+[k]
+
+？1：ええと、つまり？
+
+？2：どういうこと？
+
+？！
+
+[charaFace A 4]
+＠クー・フーリン
+あ……。[r]まあ、その、何だ。
+[k]
+
+[charaFace A 1]
+＠クー・フーリン
+夢ン中で、いい経験を積んだってこった。[r]次にお前さんが目覚めた時には、いいことがあるぜ。
+[k]
+
+＠クー・フーリン
+じゃあな、マスター。[r]付き合ってくれてありがとよ[line 2]
+[k]
+
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

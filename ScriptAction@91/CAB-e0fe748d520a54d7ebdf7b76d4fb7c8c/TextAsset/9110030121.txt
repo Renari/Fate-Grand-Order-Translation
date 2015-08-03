@@ -1,0 +1,96 @@
+＄91-10-03-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1003001 1 セイバー・リリィ]
+[charaFace D 4]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠セイバー・リリィ
+ふう。戦っているうちに街を出てしまいました。[r]門は……閉じられてしまいましたか。
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+仕方ないさ、街の人間も身を守る事で精一杯なんだ。[r]ボクらは所詮、都合のいい流れ者にすぎない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠セイバー・リリィ
+ええ。今はこうして[%1]さんたちと[r]旅ができるだけで幸運です。
+[k]
+
+[charaFace D 0]
+＠セイバー・リリィ
+わたしはまだまだ未熟者ですが……[r]どうか共に戦うことで、多くの事を教えてほしい
+[k]
+
+＠セイバー・リリィ
+貴方となら、わたしは挫ける事なく、[r]理想を目指して戦える気がするのです。
+[k]
+
+？1：もちろんだ
+
+[charaFace D 1]
+＠セイバー・リリィ
+良かった……[r]ありがとうございます、マスター。
+[k]
+
+？2：王様になったらご褒美をください
+
+[charaFace D 3]
+＠セイバー・リリィ
+ご、ご褒美ですか？[r]はい、わたしにできる事なら何でも、喜んで[line 3]
+[k]
+
+[charaFadeout D 0]
+[charaTalk C]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFace D 0]
+＠セイバー・リリィ
+むむ。フォウくんは反対のようです……王になれば[r]思う存分、お返しができると思ったのですが……
+[k]
+
+？！
+
+[charaFadeout D 0]
+[charaFadeout C 0]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ごめん、そろそろ移動しよう。いつまでも[r]ここにいると城門の兵士たちがやってきそうだ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠セイバー・リリィ
+そうですね。[r]いらぬ不安を与えてはいけません。
+[k]
+
+[charaFace D 1]
+＠セイバー・リリィ
+修行を続けましょう、マスター。[r]わたしも善い王になるよう、精進します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

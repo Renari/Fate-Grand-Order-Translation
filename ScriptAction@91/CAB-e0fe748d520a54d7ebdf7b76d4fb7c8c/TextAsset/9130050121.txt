@@ -1,0 +1,184 @@
+＄91-30-05-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20302]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3005001 1 エリザベート]
+[fadein black 1]
+[communicationCharaLoop 98003003 1 5 0 0]
+[wait fade]
+＠Dr.ロマン
+さりげなく人間以外も混ざっていたね……[r]森の獣たちも生命の危機を感じたのか……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エリザベート
+……勝った、勝ったけど[r]戦いに勝って、ライブに負けたわ……。
+[k]
+
+＠エリザベート
+あ、アイドルになれないなら[r]普通のドラ[#娘:むすめ]に戻るしかないじゃない……。
+[k]
+
+？1：いや、そのですね……
+
+？2：ドラ娘って新しいですね。
+
+？！
+
+＠エリザベート
+どうせ[#私:アタシ]は暗い牢獄で、誰にも気づかれず[r]顧みられず、ちやほやされず、幽閉系アイドルとして
+[k]
+
+＠エリザベート
+ひっそりと朽ちていくしかないんだわ……。[r]ああっ……、こんな時代に誰がしたのかしら。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+レフ・ライノールかな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout C 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+あ、あのエリザベートさん、気を落とさずに……。
+[k]
+
+＠エリザベート
+慰めはいらないわ……[#私:アタシ]なんか……。[r]って、いま気づいたけど……、
+[k]
+
+[charaFace D 0]
+＠エリザベート
+[line 2]あなた、結構いい線行ってるわね？
+[k]
+
+[charaFace A 6]
+＠マシュ
+はい？　いい……線？
+[k]
+
+[charaFace D 1]
+＠エリザベート
+キャラも子イヌ系みたいで地味だし、かぶってない、[r]これは……、いけるかも！？
+[k]
+
+[charaFace A 14]
+＠マシュ
+地味って……、そんな。
+[k]
+
+＠エリザベート
+ねえ、あなた、アイドルとか興味ない？[r]あるでしょ？　あるわよね！　やるわよね！！
+[k]
+
+＠エリザベート
+そう、これよ！！　アイドルデュオよ！！[r]１人は[#私:アタシ]のために！　みんなも[#私:アタシ]のために！！
+[k]
+
+[charaFace D 4]
+＠エリザベート
+えーと、ユニット名はどうしようかしら[r]子イヌ！！　何かいいのないの！！
+[k]
+
+？1：え、エリ☆マシュとか……。
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+マギ☆マリのパクリじゃないか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+？2：ドラって♪鮮血盾娘！！　とか。
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout C 0]
+？！
+
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠エリザベート
+なんかいまいちピンと来ないわね……。[r]んー、槍と盾だからそーねー……！！
+[k]
+
+[charaFace D 1]
+＠エリザベート
+[#矛盾:ムジュン]！！　これだわ！！　矛盾、色っぽい！！[r]『ムジュン☆ドラスティック！！』
+[k]
+
+[charaFadeout A 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ
+[k]
+
+？1：び、微妙……。
+
+？2：矛盾とか難しい言葉よく知ってましたね。
+
+？！
+
+＠エリザベート
+それじゃあさっそくレッスン開始ね！！[r]行くわよ、マシュ！！　一緒に夜空に輝く
+[k]
+
+＠エリザベート
+『アイドル☆さーばんと』の星を目指しましょう！！
+[k]
+
+[charaFadeout C 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+せ、先輩、なんとかしてください……。
+[k]
+
+？1：あ、うん、がんばってね……
+
+？2：Ｓとして全力でフォローするぞ！！
+
+？！
+
+[charaFace A 6]
+＠マシュ
+！！？？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

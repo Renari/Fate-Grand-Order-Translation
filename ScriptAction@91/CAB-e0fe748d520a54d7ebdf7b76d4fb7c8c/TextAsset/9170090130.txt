@@ -1,0 +1,213 @@
+＄91-70-09-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21510]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7009001 1 アステリオス]
+[charaSet E 98006000 1 子供]
+[charaSet F 7009001 1 ？？？]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠アステリオス
+ますたぁ、つかれた？
+[k]
+
+？1：少し……
+
+？2：うん
+
+？！
+
+[charaFace D 4]
+＠アステリオス
+ますたぁが、よければ……。[r]よくないと、おもうけど。
+[k]
+
+[charaFace D 3]
+＠アステリオス
+てを、つなごうか？
+[k]
+
+？1：そうしよう
+
+？2：いいの？
+
+？！
+
+[charaFace D 0]
+＠アステリオス
+いいなら、ぼくはいい。[r]うん。……これで、よし。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21500]
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+アステリオスさん、大丈夫ですか？
+[k]
+
+＠アステリオス
+なにが？
+[k]
+
+＠マシュ
+いえ。地上に出るというよりは、[r]どんどん地下に向かっているので……。
+[k]
+
+＠アステリオス
+うん。[r]それで、ただしい。
+[k]
+
+[charaFace A 7]
+＠マシュ
+なるほど……。
+[k]
+
+[charaFace D 4]
+＠アステリオス
+……ねえ、ますたぁ。[r]ますたぁは、ぼくが、こわい？
+[k]
+
+？1：どこが？
+
+？2：何が？
+
+？！
+
+[charaFace D 1]
+＠アステリオス
+……こわくないなら、いいんだ。[r]ぼくは、うれしい。
+[k]
+
+[se ad19]
+[wait se ad19]
+[charaFace D 2]
+＠アステリオス
+……！！[r]この、こえは……。
+[k]
+
+[charaFadeout D 0.4]
+[charaFace A 6]
+＠マシュ
+アステリオスさん！？
+[k]
+
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaShadow F true]
+[wt 0.5]
+[fadein black 0.5]
+[wait fade]
+＠子供
+やだ、こわいよ……やめて……！
+[k]
+
+[se bac5]
+[messageOff]
+[flashin once 0.1 2 FF000080 00000000]
+[wait flash]
+[flashout 0.7]
+[wait flash]
+[wait se bac5]
+＠子供
+たすけ、て……！
+[k]
+
+[se bac5]
+[messageOff]
+[flashin once 0.1 2 FF000080 00000000]
+[wait flash]
+[flashout 0.7]
+[wait flash]
+[wait se bac5]
+[se ad46]
+[wait se ad46]
+＠？？？
+……ひひひひひ。[r]うまい、うまい、うまい。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+……っ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠アステリオス
+おまえ、は……。[r]ぼく、なのか……？
+[k]
+
+[charaFadeout A 0.1]
+[charaSet F 7009001 0 アステリオス（？）]
+[charaFace F 0]
+[charaShadow F true]
+[charaFadein F 0.1]
+＠アステリオス（？）
+そうだ、よ。[r]それいがいの、なにに、みえる？
+[k]
+
+[charaFace D 2]
+＠アステリオス
+……やめろ。
+[k]
+
+[charaFace F 1]
+＠アステリオス（？）
+おまえが、やった、こと、なのに？
+[k]
+
+＠アステリオス
+……ぼくが、やった、ことだからだ。[r]ぼくのことは、ぼくが、しまつをつける。
+[k]
+
+＠アステリオス（？）
+ひ、ひ、ひ。[r]なにを、いっている。
+[k]
+
+[charaFace F 2]
+＠アステリオス（？）
+おまえが、のぞんだ、ことのくせに！[r]おまえが、くいたくて、くったくせに！
+[k]
+
+＠アステリオス（？）
+おれは、みのたうろす！[r]それいがいの、なにものでも、ない……！
+[k]
+
+[charaFace D 0]
+＠アステリオス
+[line 2]ぼくは、あすてりおす。
+[k]
+
+[charaFace D 2]
+＠アステリオス
+ぼくのなを、よんでくれるひとがいるかぎり。[r]ぼくは、おまえを、きょぜつする……！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

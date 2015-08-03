@@ -1,0 +1,312 @@
+＄91-50-19-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10800 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5019001 1 エルメロイ]
+[charaSet E 98006000 1 魔物]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠エルメロイ
+そういえば、面と向かっての挨拶はまだだったな。[r]私はロード・エルメロイⅡ世。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+中華は三国時代にその人ありと[#謳:うた]われた天才軍師、[r]諸葛亮孔明の霊基にされた、ただの人間だよ。
+[k]
+
+？1：ロード？
+
+[charaFace D 5]
+＠エルメロイ
+なに、知らんのか？　アニムスフィアの当主は[r]どんなマニュアルを作っていたんだ……
+[k]
+
+？2：Ⅱ世？
+
+[charaFace D 0]
+＠エルメロイ
+ああ。私はもとは田舎の三流貴族の出身だ。[r]故あって、師の後を継いだのでⅡ世と名を変えた。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+失礼します、エルメロイⅡ世。[r]ロードというのは、あの魔術協会における[#君主:ロード]？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+そうだ。魔術協会の中心、時計塔を運営する十二の貴族。[r]私はその一つの代表だよ。最下位の十二位だがね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+という事は、オルガマリー所長とは知り合いだった？[r]あ、いや、そもそもキミは何時の時代の人間だい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠エルメロイ
+私も[%1]と同じ、二十一世紀の人間だよ。[r]気がつけばこうして疑似サーヴァントになっていた。
+[k]
+
+[charaFace A 6]
+＠マシュ
+疑似サーヴァント……わたしと同じ、[r]英霊に力を預けられた人間、ですか？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+……結果は同じようなものだが、原理はまるで違うな。[r]君と同じ存在はいまのところいない。
+[k]
+
+＠エルメロイ
+デミ・サーヴァントなぞ、本来なら不可能な技術だ。[r]吸血鬼たちに[#混血:ダンピール]が生まれないようにな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+さすがは時計塔の魔術師、そのあたりの不可能性は[r]正しく理解しているんだね。
+[k]
+
+＠Dr.ロマン
+その通り。マシュは極めて特殊な成功例だ。[r]偶然から生まれたものだから再現性はないんだよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エルメロイ
+それを聞いて安心した。カルデアがそんなふざけた[r]組織だったのなら、即座に解体を提案していた。
+[k]
+
+[charaFace A 11]
+＠マシュ
+……………。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+……む。すまない、失言だった。[r]レディ、君に罪はない。今の発言は訂正したい。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+＠マシュ
+い、いえ、デミ・サーヴァントが非人道的な[r]試みだったのは否定できません。
+[k]
+
+[charaFace A 13]
+＠マシュ
+貴方の嫌悪感は正しいものです、ロード・エルメロイ。[r]それが正義と道徳から生じているものなら尚更です。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それより、あの、話の続きをいいですか？[r]疑似サーヴァントとは何でしょう？
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+ああ、すまない。ではそちらの質問に答えよう。
+[k]
+
+＠エルメロイ
+疑似サーヴァントとは英霊に憑依された人間だ。[r]これは何らかの理由でサーヴァントになれないもの……
+[k]
+
+＠エルメロイ
+高次元の生命である神霊や、[r]カルデアの召還式では霊基が作りづらい英霊だな……
+[k]
+
+＠エルメロイ
+そういったものがサーヴァントとして召喚されるために、[r]人間の体を[#霊基:うつわ]にして顕現するケースがある。
+[k]
+
+[charaFace D 4]
+＠エルメロイ
+これが疑似サーヴァントだ。[r]人間の体を触媒にした、強引な英霊召還方式だよ。
+[k]
+
+？1：？？
+
+？2：？？？？？
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああ、[%1][&君:ちゃん]が混乱している！[r]無理もない、かなり特殊なケースだからね。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ようはオバケに乗り移られた人間ってコト。
+[k]
+
+＠Dr.ロマン
+で、乗り移られた人間の精神は[r]その英霊のものに書き換えられるんだけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エルメロイ
+私は逆だ。諸葛亮孔明の役割だけを請け負った。[r]中華の合理性と西洋の合理性は相容れないからな。
+[k]
+
+＠エルメロイ
+人理を護るという大目的において、[r]我々の利害は一致した。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+その過程においてどちらが主導権を握るかを軍師殿と[r]論議した結果、現代に[#聡:さと]い私が残る事になった。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+なるほど。諸葛亮孔明らしい発想だ。[r]死せる孔明、生ける仲達を走らす、というヤツだね。
+[k]
+
+＠Dr.ロマン
+重要なのは自分が考案した[#計:さく]であって、[r]自分が活躍する事ではない……
+[k]
+
+＠Dr.ロマン
+ようは、孔明の計を十全に使える人間がいるのなら[r]彼は表に出る必要はない、と判断したのか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠エルメロイ
+そういう事だ。数分しか話さなかったが、あれは史実[r]以上の化け物だな。人間と話している気がしなかった。
+[k]
+
+？1：……それで闘えるのか？
+
+？2：……ただの人間ってこと？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ
+[k]
+
+[charaFace D 0]
+＠エルメロイ
+ただの人間ならとっくに時代焼却で消えている。
+[k]
+
+＠エルメロイ
+私は英霊に憑依され、一体化する事で[r]この一時だけではあるがサーヴァントと同じになった。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+付いてきたまえ。その証拠をお見せしよう。
+[k]
+
+[charaFadeout C 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20300 0]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[fadein black 0.5]
+[wait fade]
+＠エルメロイ
+このあたりでいいな。[r]敵寄せをする。戦闘の準備を。
+[k]
+
+＠エルメロイ
+私がサーヴァントとして闘えるかどうか、[r]直に確かめてもらおう。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+こちらも君のマスターとしての将来性を計る。[r]一石二鳥とはこの事だな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[se ad25]
+[wait se ad25]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠魔物
+ゴォォオオオオオオ[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+い、いきなり興奮状態です！[r]何をしたんですかエルメロイさん!?
+[k]
+
+＠エルメロイ
+なに、活きが良い方が試し甲斐があるのでな。[r]性的興奮を促すフェロモンを使わせてもらった。
+[k]
+
+[charaFace D 2]
+＠エルメロイ
+レディ、君も気をつけて戦いたまえ。[r]敵はそれこそ無我夢中だ。手加減はしないように。
+[k]
+
+[charaFace A 14]
+＠マシュ
+マスター！[r]この人、合理的にも程があると思います！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[soundStopAll]
+[end]

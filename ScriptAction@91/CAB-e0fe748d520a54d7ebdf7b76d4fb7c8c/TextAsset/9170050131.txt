@@ -1,0 +1,85 @@
+＄91-70-05-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7005001 1 スパルタクス]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006000 1 雑魚エネミー]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠スパルタクス
+勝利……だ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+疲れました……。
+[k]
+
+？1：お疲れ様
+
+？2：よくがんばったね
+
+？！
+
+[charaFace A 1]
+＠マシュ
+ありがとうございます。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠スパルタクス
+さあ、次は……む。[r]これはどうしたことだ？
+[k]
+
+＠スパルタクス
+ローマ兵たちが消えている。[r]野営地もない。
+[k]
+
+[charaFace D 4]
+＠スパルタクス
+むぅ。……何だというのだ。困った。圧制者が[r]居なくなってしまったではないか。
+[k]
+
+＠スパルタクス
+圧制者を倒し、自由を取り戻す。[r]なのに、消えてしまっては取り戻しようが……。
+[k]
+
+[charaFace D 0]
+いや、これこそが真の自由[line 2]なのだろうか。[r]マスター、君はどう思う？
+[k]
+
+？1：それは――
+
+？！
+
+[charaFace D 4]
+＠スパルタクス
+いや、まだ世界に圧制者は無数にいる。[r]それら全てに打ち勝つまで、私の闘いは終わらない。
+[k]
+
+[charaFace D 2]
+＠スパルタクス
+そう、決して[line 2]。[r]それまでは、君にも地獄の底まで付き合って貰おう。
+[k]
+
+＠スパルタクス
+我がマスターよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

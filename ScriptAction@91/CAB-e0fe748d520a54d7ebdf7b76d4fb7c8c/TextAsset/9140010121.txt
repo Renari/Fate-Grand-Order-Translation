@@ -1,0 +1,117 @@
+＄91-40-01-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20500]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4001001 0 メドゥーサ]
+[charaSet E 98014000 2 若者]
+[charaSet F 98006000 0 先生]
+[charaTalk F]
+[charaFace E 0]
+[charaFadein E 0]
+[charaFace F 0]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+＠先生
+……！？（カチーン）
+[k]
+
+＠若者
+ああっ！？　先生がなぜか石に！？[r]くそっ、おぼえてろー！！！！
+[k]
+
+[charaFadeout E 0.7]
+[charaFadeout F 0.7]
+[wt 1]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠メドゥーサ
+ふぅ……、ついカッとなってしまいました。[r][%1]、すみませんでした。
+[k]
+
+？1：気にしてないよ
+
+？2：そういう時ってあるよね
+
+？！
+
+[charaFace D 1]
+＠メドゥーサ
+フフ……、貴方は優しいのですね。[r]お気遣い、感謝します。
+[k]
+
+＠メドゥーサ
+それに私のような者にも普通に接してくれています。
+[k]
+
+[charaFace D 4]
+＠メドゥーサ
+私に近づく者たちは皆、恐怖に顔を歪ませたまま[r]石くれになっていったものですが……。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+メドゥーサさん……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ゴルゴンの女怪メドゥーサか……。[r]ところで、お姉さん達なんだけど、一体どんな……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ドクター！！
+[k]
+
+[charaFace D 1]
+＠メドゥーサ
+姉様たちはそれはもう可愛らしいですよ。[r]粗暴な私とはまるで正反対ですから。
+[k]
+
+？1：メドゥーサも可愛いよ！
+
+[charaFace A 11]
+？2：仲良し姉妹なんだね
+
+[charaFace A 13]
+？！
+
+[charaFace D 0]
+＠メドゥーサ
+……！
+[k]
+
+[charaFace D 3]
+＠メドゥーサ
+……ありがとうございます、[%1]。[r]貴方と過ごす時間はとても好ましいものです。
+[k]
+
+[charaFace D 1]
+＠メドゥーサ
+不束者ですが、これからもよろしくお願いしますね。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

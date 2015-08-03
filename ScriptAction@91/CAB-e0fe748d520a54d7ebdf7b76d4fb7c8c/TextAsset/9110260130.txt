@@ -1,0 +1,197 @@
+＄91-10-26-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20502]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1026001 0 デオン]
+[charaSet E 98006200 0 ロベスピエール・ゴースト]
+[charaTalk A]
+[charaFadein D 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……戦闘が続くかと思いましたが、[r]もう、このあたりの区域には敵の姿はないようですね。
+[k]
+
+[charaFace D 5]
+＠デオン
+いや、どうかな。
+[k]
+
+＠デオン
+この感じは……近いよ。[r]巧妙に姿を消しているようではある、けれど。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFace D 2]
+＠デオン
+出て来るがいい！[r]王家の百合の威光の下に！
+[k]
+
+＠デオン
+いにしえのパリの夜に顕れた者！[r][line 2]邪悪へ堕ちし、亡霊の如き貴様！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+＠E：？？？
+……王家に……死を……。
+[k]
+
+＠E：？？？
+……市民に……自由を……。
+[k]
+
+＠E：？？？
+……最早、我ら市民、白百合の王家を必要とせず……。
+[k]
+
+＠E：？？？
+……すなわち、是より……。
+[k]
+
+＠E：？？？
+……革命が、パリに、もたらされる……。
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+＠マシュ
+！？
+[k]
+
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+強力な魔力反応だ！　何だ、サーヴァントと違うぞ、[r]性質はさっきのゴーストに近い！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠デオン
+……私は、知っている。
+[k]
+
+＠デオン
+これほどまでの決意の気迫。[r]王家への断罪を望み、市民の自由と安寧を求めた男。
+[k]
+
+＠デオン
+いつかの日、いつかの夜、[r]暗がりの中で互いに刃を交わしたこともある。
+[k]
+
+[charaFace D 4]
+＠デオン
+キミは……。[r]そうか、キミが、私を呼んだのかい。
+[k]
+
+[charaFace D 2]
+＠デオン
+[line 2]マクシミリアン・ロベスピエール。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+な……！[r]ロベスピエール！？
+[k]
+
+？1：誰？
+
+？2：世界史の有名人だ…！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、先輩。マクシミリアン・ロベスピエールは[r]それは世界初のテロリストにして革命扇動者ですが[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+で、でも、ちょっと待ってくれ、[r]サーヴァントじゃないみたいだぞ、そこにいるのは！
+[k]
+
+＠Dr.ロマン
+第一の聖杯の影響の残滓が……[r]修正されゆくパリに在って亡霊を召喚したのか！
+[k]
+
+＠Dr.ロマン
+時代も何も無茶苦茶だけど、そうだった、[r]聖杯ならそういうことだって可能にしてしまうんだ[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein E 0.1 1]
+＠ロベスピエール・ゴースト
+……王家に……死を……。
+[k]
+
+＠ロベスピエール・ゴースト
+……死を……死を、死を……。
+[k]
+
+＠ロベスピエール・ゴースト
+……革命、に、逆らうすべてに……死を……。
+[k]
+
+＠ロベスピエール・ゴースト
+……ああ、嗚呼、すべてに、あらゆるすべてに……。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠ロベスピエール・ゴースト
+[fontSize x-large]……粛正と、死を……！！[-]
+[k]
+
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠デオン
+最早、自らの正義さえ見失ったのかい。[r]ロベスピエール。
+[k]
+
+＠デオン
+キミの生涯を指して邪悪と断ずることはすまい。[r]けれど、今のキミが、すべてに死を望むのであるならば。
+[k]
+
+[charaFace D 2]
+＠デオン
+フランスの騎士が、キミを倒そう。[r][line 2]白百合の剣を以て！
+[k]
+
+[charaFadeout D 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター、戦闘指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

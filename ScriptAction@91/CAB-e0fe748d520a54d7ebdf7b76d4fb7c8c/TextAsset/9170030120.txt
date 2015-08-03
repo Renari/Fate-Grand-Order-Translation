@@ -1,0 +1,52 @@
+＄91-70-03-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21002]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7003001 0 呂布]
+[charaFace A 12]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+とりあえず、終わりましたか。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いや！！　後方からも反応アリだ！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠呂布
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+って、既に蹴散らし始めてる！？　いつのまに！？[r]さすがは『天下無双』ってところか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、私達も！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

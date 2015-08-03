@@ -1,0 +1,234 @@
+＄91-20-02-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20210]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2002001 1 ギルガメッシュ]
+[charaSet E 98025000 1 シャドウサーヴァント(素手)]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ギルガメッシュ
+これが大聖杯とやらの末路か。[r][line 3]フン。酷い結末を迎えたものよ。
+[k]
+
+＠ギルガメッシュ
+話を聞いたかぎり、首尾良くいけば[r]多少なり成果の残る儀式であったろうに。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……あの。[r]ギルガメッシュさんは、大聖杯をご存じなんですか？
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+[line 6]。
+[k]
+
+[charaFace A 8]
+＠マシュ
+す、すみません……[r]わたしなんかが話しかけるのは不遜、でした……
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+よい。貴様はデミ・サーヴァントであろう。[r]ならば許す。だが次からは王と呼べ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+は、はい！[r]でで、では、今後は英雄王と呼称します！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+おやおや。おっかない古代ウルクの王が、[r]マシュには優しいんだね。
+[k]
+
+＠Dr.ロマン
+あれかな。なにか思うところがあるのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ギルガメッシュ
+魔術師。いや、ドクターを名乗っていたな。[r]では医師とだけ呼ぼう。
+[k]
+
+＠ギルガメッシュ
+未来の医師よ。[r]貴様らカルデアとは何だ。
+[k]
+
+＠ギルガメッシュ
+デミ・サーヴァントだけではない。[r]そこな未熟者も無理がすぎる。
+[k]
+
+[charaFace D 5]
+＠ギルガメッシュ
+未完成の戦士と[r]半人前にすらなっていないマスター。
+[k]
+
+＠ギルガメッシュ
+このような組み合わせで、[r]本当に人理を保障する気があったのか？
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+これは手厳しい。けどボクだって断腸の思いなんだ。[r]そうだよね、[%1][&君:ちゃん]？
+[k]
+
+？1：他にマスターがいないんだ
+
+？2：半人前でも戦うしかないんだ
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 12]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+センパ……いえ、マスターの言う通りです。[r]わたしたちに不満があるのはわかります。
+[k]
+
+[charaFace A 4]
+＠マシュ
+ですがカルデアにはもう他に戦える人がいません。
+[k]
+
+[charaFace A 7]
+＠マシュ
+わたしたちはこの戦いで[r]成長するしかないのです、英雄王。
+[k]
+
+[charaFace D 3]
+＠ギルガメッシュ
+やむを得ず戦う、か。ものは言いようだが、[r]その覚悟があるのならこれ以上は問えぬな。
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+人間とは自分に益がある事にのみ[r]才覚を発揮する生き物だ。
+[k]
+
+＠ギルガメッシュ
+[%1]。マシュ。この戦いのどこに[r]己の益があるのか、せいぜい見極めるがいい。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+だがその前に、[#我:オレ]の益を保障してもらおうか。[r]そうでなければ我は貴様らの敵に回るぞ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+て、敵ですか!?[r]せせ先輩、英雄王さんの益って何でしょう!?
+[k]
+
+[charaFace A 14]
+＠マシュ
+財宝？　やっぱり財宝でしょうか？[r]でも、わたしたちに彼を満足させられる財宝なんて……！
+[k]
+
+？1：うん、こっちが欲しいぐらいだ！
+
+？2：助けて、ドクター！
+
+？！
+
+＠ギルガメッシュ
+そう取り乱すな。貴様らに財など求めぬ。[r]貴様らに求めるのは、アレだ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[se ad25]
+＠魔物
+FUUUUuuuuuuu[line 6]
+[k]
+
+[charaFadeout E 0]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+影のサーヴァント……！？[r]囲まれています、マスター！
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ギルガメッシュ
+[#我:オレ]が呼び寄せた亡者どもだ。[r][%1]。こやつらで貴様の真価を計る。
+[k]
+
+＠ギルガメッシュ
+勝利は当然だが、圧倒的に勝てとは言わん。[r]せめて面白く勝て。それが貴様に求めるものだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+なんだ、ようはマスターの腕試しか。[r]そういう事なら遠慮はいらないな。
+[k]
+
+＠Dr.ロマン
+[%1]君、マシュ！[r]キミたちの力をそこの王様に見せつけてあげなさい。
+[k]
+
+＠Dr.ロマン
+ああ、もちろん英雄王への指示も忘れずにね。[r]キミは今、彼のマスターなんだから。
+[k]
+
+？1：は、はい……！
+
+？2：もちろん、バリバリ命令します！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ギルガメッシュ
+まったく、口の減らぬ医師よ。[r]アレが上司では気苦労が多かろう、[%1]。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+だが真実を口にする。[r]いかに未熟であろうと貴様は我と契約した[&男:女]。
+[k]
+
+＠ギルガメッシュ
+[#我:オレ]を[#畏:おそ]れ、[#敬:うやま]いながら、[r]契約者としての責務を果たすがいい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

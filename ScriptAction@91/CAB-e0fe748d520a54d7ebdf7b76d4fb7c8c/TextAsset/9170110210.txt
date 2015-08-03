@@ -1,0 +1,107 @@
+＄91-70-11-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7011001 1 ダレイオス三世]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+[se ad16]
+[wt 2]
+[seStop ad16 2]
+[se bac10]
+[shake 0.05 0 5 0.5]
+[wait se bac10]
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ!
+[k]
+
+[se bac10]
+[shake 0.05 0 2 0.5]
+[wait se bac10]
+[wt 0.7]
+[se bac10]
+[shake 0.05 0 2 0.5]
+[wait se bac10]
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+うわあ、こないだより凄い勢いだダレイオス三世！[r]今回も一世紀ローマの戦場跡に来ちゃったけど！
+[k]
+
+＠Dr.ロマン
+じ、自家発電なのかなあ！[r]マスターとしてどうなの、何か感じない！？
+[k]
+
+？1：う～ん
+
+？2：勢い、前より凄いよね
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+以前の時よりも攻撃速度が上昇しています！[r]明らかに、彼は猛っています！
+[k]
+
+[charaFace A 14]
+＠マシュ
+魔力消費に注意してください、先輩。[r]バーサーカーの全力は著しくマスターを消耗させます！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ！　キュウー！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+と、取りあえず！[r]前回と同じ方法を取ってみよう！！
+[k]
+
+＠Dr.ロマン
+このままじゃ[%1][&君:ちゃん]が保たない、[r]倒れてしまう前に敵勢力を殲滅するんだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、ドクター！[r]先輩！
+[k]
+
+？1：マシュ、戦闘態勢！
+
+？2：ダレイオスの討ち漏らしを叩く！
+
+？！
+
+＠マシュ
+了解です、マスター！[r]戦闘開始します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[soundStopAll]
+[end]

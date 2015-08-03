@@ -1,0 +1,78 @@
+＄91-40-19-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20300]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 98006100 1 ？？？]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘終了、いえ[line 2]まだ来ます！[r]後続の群れを確認！
+[k]
+
+[charaFace D 2]
+＠マルタ
+ったくキリがないわね、もう！[r]うざいってのよ！
+[k]
+
+[charaFace A 6]
+＠マシュ
+え？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ん？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ？？
+[k]
+
+？1：マルタさん、今[line 2]
+
+？2：気のせい気のせい
+
+？！
+
+[charaFadeout C 0.1]
+[charaFace D 1]
+[charaFadein D 0.1]
+＠マルタ
+何かありましたか、皆さま？[r]さあ、もう少しだけ頑張りましょうね。ファイッ！
+[k]
+
+？1：ファイッ！
+
+？2：やっぱり気のせいだ
+
+？！
+
+[charaFace A 2]
+＠マシュ
+え、ええと、はい。戦闘続行ですね！[r]先輩、指示を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

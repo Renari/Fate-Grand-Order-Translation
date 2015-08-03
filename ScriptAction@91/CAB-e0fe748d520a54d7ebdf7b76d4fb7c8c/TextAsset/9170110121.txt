@@ -1,0 +1,180 @@
+＄91-70-11-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7011001 1 ダレイオス三世]
+[charaSet E 4015001 1 アレキサンダー]
+[charaSet F 4002001 0 イスカンダル]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……敵性体、残存ありません。[r]戦闘終了です。
+[k]
+
+[charaFace A 1]
+＠マシュ
+お疲れさまでした、先輩。[r]ダレイオスさんも大人しくなってくれましたね。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ダレイオス三世
+…………。
+[k]
+
+[charaFace A 0]
+＠マシュ
+あの、ダレイオスさん。[r]あなたは一体、なぜこの時代に？
+[k]
+
+＠マシュ
+怪物たちが発生する原因に気付いて、[r]もしくは何かを感じて、わたしたちをここへ？
+[k]
+
+？1：古代ローマなのにねえ
+
+？2：因縁の相手がいる、とか？
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい。[r]何か、彼と関係のある事象がきっと[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+あー……。うん。ああ、そうだね。[r]まあ、関係のある事象ではある。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+いま、解析が一通り終了したんだけどね。[r]さっきの骸骨兵やゴーストの発生源は、何と！
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+[line 2]そこの、ダレイオス陛下の存在でした！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+え……。
+[k]
+
+？1：どういうこと？
+
+？2：あ、宝具か！
+
+？！
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うん。ええとね、彼の持っている宝具、[r]あの凄い巨象の「[#不死の一万騎兵:アタナトイ・テン・サウザンド。]」。
+[k]
+
+＠Dr.ロマン
+あれは、史実にも存在したペルシャ軍の精鋭一万と[r]ダレイオス三世の不屈の勇猛が宝具に昇華されたものだ。
+[k]
+
+＠Dr.ロマン
+後年成立した「不死」という伝説に伴って、[r]実際、不滅性や不死性が備わっている訳なんだけど……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+不死[line 2]あっ。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そういうこと。[r]彼の宝具の特性が、骸骨兵やゴーストを招いたんだ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+この場所は、ネロのローマ軍と連合ローマ軍が[r]激突してからまだ間もない戦場跡だからね。
+[k]
+
+＠Dr.ロマン
+そりゃあもうポコポコ湧くわけだよ、[r]不死系の怪物がさ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+なるほど……そういう……[r]こと……だったん、ですね……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォ、フォウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+と、とんだ自家発電だよね……。[r]まあ、そ、それでも……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダレイオス三世
+[image berserker_language_1][line 2]ッ!！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+彼、満足してるみたいだし……。[r]まあ、いいか……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ!！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+…………。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

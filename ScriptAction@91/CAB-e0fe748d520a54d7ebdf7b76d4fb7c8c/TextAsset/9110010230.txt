@@ -1,0 +1,68 @@
+＄91-10-01-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1001001 1 アルトリア]
+[charaFace A 4]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+はあ……はあ……はあ……[r]双子の悪魔、だったんですね……でも、これで、
+[k]
+
+[se ad21]
+[wait se ad21]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+＠マシュ
+なんで……!?[r]セイバーさん、嘘つきですか!?
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠アルトリア
+え？　あ……申し訳ありません、一言足りなかった。[r]悪魔は先ほどので終わり、という意味です。
+[k]
+
+[charaFace D 1]
+＠アルトリア
+倒すべき敵、という意味なら今度こそ終わりです。[r]あとは彼等を従えていた竜種がいるだけですから。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+[line 3]竜種……だと？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠アルトリア
+さあ、知恵と勇気を示す時ですマスター、マシュ！[r]大丈夫、貴方たちなら乗り越えられます！
+[k]
+
+[charaFace A 14]
+＠マシュ
+こ、根拠のない信頼って、[r]時に竜の一撃なみに重いんですね、先輩！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

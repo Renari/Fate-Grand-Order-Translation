@@ -1,0 +1,114 @@
+＄91-10-26-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20502]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1026001 2 デオン]
+[charaSet E 98006200 0 ロベスピエール・ゴースト]
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠デオン
+[line 2]終わりだ、哀しき亡霊！
+[k]
+
+[messageOff]
+[se bac4]
+[charaEffect E bit_talk_12]
+[wait charaEffect E]
+＠ロベスピエール・ゴースト
+……あ、ああ、ぁ、ああああああああああああ……。
+[k]
+
+＠ロベスピエール・ゴースト
+……消えてゆく、なにもかも……。
+[k]
+
+＠ロベスピエール・ゴースト
+……フランスよ、自由よ……どこ、へ……。
+[k]
+
+＠ロベスピエール・ゴースト
+……消える、のだ……。
+[k]
+
+[charaFace D 0]
+＠デオン
+いいや、消えることはないよ。[r]ロベスピエール。
+[k]
+
+＠デオン
+たとえフランス王家が潰えても。[r]キミたち、革命者が倒れたとしても。
+[k]
+
+＠デオン
+フランスは消えることはないんだ。[r]姿を変えて、形を変えて、フランスは在り続けるだろう。
+[k]
+
+＠デオン
+世界が在る限り。[r]だから、私はキミにこう言おう。
+[k]
+
+[charaFace D 1]
+＠デオン
+[line 2][#フランス万歳:ヴィヴ・ラ・フランス]、と。
+[k]
+
+＠ロベスピエール・ゴースト
+……嗚呼、ヴィヴ・ラ……。
+[k]
+
+＠ロベスピエール・ゴースト
+……フラ、ン、ス……。
+[k]
+
+[messageOff]
+[se ba6]
+[charaSpecialEffect E enemyErasure 0 2]
+[wait charaSpecialEffect E]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout D 0]
+[charaFace A 0]
+[charaFadein A 0.1]
+＠マシュ
+[line 2]魔力反応、完全に消失しました。
+[k]
+
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ……。
+[k]
+
+？1：お疲れさま、デオン
+
+？2：これで、ゆっくり眠れそうだね
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠デオン
+……ああ。
+[k]
+
+＠デオン
+キミのおかげで彼を送ることができた。[r]ありがとう、マスター。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,248 @@
+＄91-40-06-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4006001 0 ゲオルギウス]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+先生、質問です。ではトカゲとドラゴンの境界は[r]どこにあるのでしょうか？
+[k]
+
+[charaFace D 1]
+＠ゲオルギウス
+たいへん良い質問です。[r]それを語るにはまず幻想種の[line 2]
+[k]
+
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.3]
+[wipein rightToLeft 0.4 1]
+[charaFace B 4]
+[charaFadein B 0.4 1]
+＠Dr．ロマン
+で、何でこんなことになってるのかな？
+[k]
+
+？1：先生って……
+
+？2：なんでだろ……
+
+？！
+
+[charaFadeout B 0.1]
+[charaTalk D]
+[charaFadein B 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ゲオルギウス
+そこ！　私語は慎んでください。[r]いま大事なところですので。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+あ、はい、……でも、そろそろ出かけないと……[r]例の次元の歪みとやらに。
+[k]
+
+[charaFace D 1]
+＠ゲオルギウス
+そうですね、それでは事前予習はこのくらいにして[r]あとは実地で講義するとしましょう。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠Dr.ロマン
+今回の目的は、前回のレイシフトの影響で[r]不安定になっているとある空間の修正だ。
+[k]
+
+＠Dr.ロマン
+歴史を修正した際に消え去るはずの歪みが、[r]微少ながら残ってしまっている。
+[k]
+
+[charaFace B 4]
+＠Dr.ロマン
+調べてみたら、どうやら幻想種、いわゆるドラゴンが[r]かなりの数、その歪みに逃げ込んだらしい。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+このままだと、歪みが広がって[r]大規模な次元崩壊が起こるかもしれないんだ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+本来なら歴史の修正にともない消滅する歪みが、[r]ドラゴンの魔力で維持されている、という事ですね。
+[k]
+
+[charaFace D 0]
+＠ゲオルギウス
+幻想種……、中でも竜種であるドラゴンは[r]息をするだけで魔力を生成しますからね。
+[k]
+
+＠ゲオルギウス
+その莫大な魔力を放出することによって次元の[r]歪みを維持する事程度はやってのけるでしょう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+それではさっそく行きましょう、先輩。[r]ドクター、転送の方、お願いします。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠Dr.ロマン
+OK、イレギュラーな転送だけど、準備は万全だ。[r][%1][&君:ちゃん]、竜退治、頼んだよ。
+[k]
+
+＠フォウ
+フォウ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout B 0]
+[charaFadeout C 0]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait effect]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[scene 20301 0]
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[fadein white 0.5]
+[wait fade]
+[wt 0.2]
+＠マシュ
+ここが次元の歪み……。
+[k]
+
+＠フォウ
+フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+どうやら無事に転送できたみたいだね。[r]それにしてもこれは……、ちょっとした異世界だね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ゲオルギウス
+珍しい現象ですが、[r]たしかに周囲の構造物から竜の因子を感じます。
+[k]
+
+＠ゲオルギウス
+記録がてら一枚、頂いておきましょう。
+[k]
+
+[se ad41]
+[wait se ad41]
+[charaFace A 6]
+＠マシュ
+カメラ……ですか？
+[k]
+
+[charaFace D 1]
+＠ゲオルギウス
+ええ、マスターに譲っていただいたものです。[r]私の時代には無かったものですが、
+[k]
+
+＠ゲオルギウス
+目に映るものを瞬時に絵に出来るとは[r]実に素晴らしい[#秘蹟:ひせき]です。
+[k]
+
+＠ゲオルギウス
+はじめはただ絵に収めるばかりでしたが、[r]最近は構図にも凝っていまして
+[k]
+
+[charaFace D 1]
+＠ゲオルギウス
+ほら見てください、この新しいレンズ。[r]いや、写真というのは、なかなかに奥深く深淵です。
+[k]
+
+？1：喜んでもらえてうれしいよ
+
+？2：秘蹟って……
+
+？！
+
+＠ゲオルギウス
+素晴らしい贈り物をありがとうございました。[r]このお礼は我が剣にて返させて頂くとしましょう。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+っと、楽しんでいるところすまないが、[r]来たぞ！！　反応は三体！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ゲオルギウス
+マスター、くれぐれも油断なきよう。[r]それでは参りましょう！！
+[k]
+
+＠フォウ
+フォウ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

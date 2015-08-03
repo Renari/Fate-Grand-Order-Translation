@@ -1,0 +1,143 @@
+＄91-70-13-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 98006000 1 雑魚エネミー]
+[charaSet F 98006000 1 ？？？]
+[charaFace D 3]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠清姫
+ま・す・た・ぁ。
+[k]
+
+？1：！？
+
+？2：はい！？
+
+？！
+
+[charaFace D 1]
+＠清姫
+もう、そんな素っ頓狂な声を出さずとも。[r]あなたの清姫ですよ。マスター。
+[k]
+
+[charaFace D 0]
+＠清姫
+……ええ、わたくしも今目が覚めたところです。[r]こちらはどこでしょうね？
+[k]
+
+＠清姫
+ともかく、歩いてみましょう。[r]ほら、マシュさんもいらっしゃいますし。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……ドクターと連絡は取れませんね。[r]ひとまず、歩いてみましょうか。
+[k]
+
+[charaFace D 1]
+＠清姫
+そうですね。あてどもなく歩き回る。[r]これもまた、旅の醍醐味[line 2]みたいですよ。
+[k]
+
+[charaFace D 0]
+＠清姫
+はい。実はわたくし、[r]旅らしい旅をした事がありませんので。
+[k]
+
+＠清姫
+安珍様をただひたすらに追いかけたあの顛末は、[r]とてもとても旅と呼べるものではありませんもの。
+[k]
+
+＠清姫
+さて、歩きましょう。[r]果たしてどんなものが待っているのかしら。
+[k]
+
+[charaFace D 3]
+＠清姫
+少しだけ、胸をときめかせてもいいですよね。[r]ふふふふふっ。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.3]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+……エネミーです！[r]清姫さん、戦闘態勢を！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠清姫
+……。[r]……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……あのう、清姫さん？
+[k]
+
+＠清姫
+ああ、[#浪漫諏:ろまんす]に期待した途端にこの仕打ち。[r]神様仏様、わたくし何かしましたか？
+[k]
+
+＠清姫
+……あ、はい。若干心当たりあります。[r]主に生前の振る舞いで。
+[k]
+
+[charaFace D 5]
+＠清姫
+むぅ。わたくしはいいのですが、マスターに[r]迷惑を掛けてしまうのは戴けないですね……。
+[k]
+
+？1：旅はまだ始まったばかり
+
+？2：気楽にいこう
+
+？！
+
+[charaFace D 1]
+＠清姫
+ありがとうございます、[#旦那様:マスター]！
+[k]
+
+[charaFace A 8]
+＠マシュ
+……エリザベートさんがいたら、[r]ツッコミを入れてくれるのに、と思いました。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

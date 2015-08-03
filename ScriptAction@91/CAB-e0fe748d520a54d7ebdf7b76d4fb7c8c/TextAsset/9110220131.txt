@@ -1,0 +1,92 @@
+＄91-10-22-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20900]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1022001 1 ジル]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ジル
+獲った……！
+[k]
+
+[se ba6]
+[wait se ba6]
+[se ad44]
+[wait se ad44]
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+よし、消滅確認。[r]その剣を回収すれば、元に戻るだろう。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジル
+ええ、確かに回収しました。
+[k]
+
+[charaFace D 1]
+＠ジル
+……マスター。[r]ジャンヌ・ダルクとこの剣の伝説をご存じですか？
+[k]
+
+[charaFace D 1]
+＠ジル
+彼女は常に旗を振って我らを鼓舞し、[r]最前線に飛び込んでいましたが[line 2]。
+[k]
+
+＠ジル
+剣は決して抜きませんでした。
+[k]
+
+[charaFace D 1]
+＠ジル
+血に塗れることを恐れるのか、と私は問いました。[r]すると彼女は不思議そうにこう答えました。
+[k]
+
+[charaFace D 0]
+＠ジル
+“いいえ、だって旗を振った時点で、[r]　私の手は貴方たちと一緒です”
+[k]
+
+＠ジル
+“ただ、お恥ずかしいことに剣を使うのは[r]　不得手なので。ごめんなさい”
+[k]
+
+[charaFace D 1]
+＠ジル
+彼女は剣を抜くことはなく。[r]しかして、その罪を我らと共有してくれた。
+[k]
+
+[charaFace D 0]
+＠ジル
+[line 2]ならば、この剣を抜くのは彼女以外に許されない。
+[k]
+
+＠ジル
+いつか彼方の世界で、剣を抜くときもありましょう。[r]それまでは、この剣をしっかりと守らなくては。
+[k]
+
+[charaFace D 1]
+＠ジル
+……さて。[r]私事に付き合っていただき、感謝します。
+[k]
+
+＠ジル
+これからも、共に戦いましょう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

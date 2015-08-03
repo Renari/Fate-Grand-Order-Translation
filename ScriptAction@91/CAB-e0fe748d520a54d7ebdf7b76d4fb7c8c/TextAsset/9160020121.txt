@@ -1,0 +1,221 @@
+＄91-60-02-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20115]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6002001 1 ハサン]
+[charaSet E 98016000 0 人さらい]
+[charaSet F 98006000 1 子供]
+[charaSet G 1005001 1 ネロ]
+[charaTalk A]
+[charaFadein E 0]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+盗賊団、[#潰走:かいそう]しました。[r]残ったのは貴方だけです。投降してください。
+[k]
+
+＠人さらい
+く、クソッ！！　こうなったら……！！[r]おい、コイツが目にはいらねぇか！！
+[k]
+
+＠子供
+うわぁあああん！！
+[k]
+
+[charaFace A 15]
+＠マシュ
+人質！？　なんて卑劣な……！！
+[k]
+
+？1：卑怯だぞ！！
+
+？2：なんてやつだ！！
+
+？！
+
+＠人さらい
+ケッ、好きなだけわめいてろ！！[r]じゃあな……！！　オラッ！！　行くぞ！！
+[k]
+
+[charaFadeout A 0]
+[charaFadeout E 0]
+[fadeout black 0]
+[se bac23]
+[scene 10000]
+[fadein black 0]
+＠人さらい
+なんだ！？　松明が消え……！？
+[k]
+
+＠ハサン
+『[#妄想心音:サバーニーヤ]』
+[k]
+
+[voice NP_600200_2]
+＠人さらい
+なっ！？　ぐ、ぐぇっ……。
+[k]
+
+＠ハサン
+愚か。あまりにも愚か。[r]子供を盾にした事ではない。子供をさらった事でもない。
+[k]
+
+＠ハサン
+才能の在り無しさえ計れぬ者が暗殺者を育てようとは、[r]これほど愚かな事はない。
+[k]
+
+＠ハサン
+その子供に殺し屋は務まらぬ。[r]酬われぬ場に幼子を置かんとするその能無しぶり[line 3]
+[k]
+
+＠ハサン
+もはや生きるに能わず。[r]永劫の闇の中に消え去るが良し。
+[k]
+
+[fadeout black 0]
+[wait fade]
+[scene 20115]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 14]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+ハサンさん！！
+[k]
+
+＠子供
+ふえーん！！　怖かったよぅ……！！
+[k]
+
+？1：よしよし、怖かったね。
+
+？2：ハサンのおじさんが助けてくれたぞ
+
+？！
+
+＠子供
+…………おじさんが？
+[k]
+
+[charaFace D 4]
+＠ハサン
+[line 3]。[r]主殿、主命は果たしました故、私めはこれにて。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.7]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+ハサンさん……[r]今回の依頼、あまり気が乗らなかったのでしょうか……
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+……まあ、彼もある意味、さっきの盗賊たちと[r]近い分類のサーヴァントだからなあ……
+[k]
+
+＠Dr.ロマン
+ボクらの思う人助けと、彼が思う人助けは[r]別のものなのかもしれないね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠子供
+……あの、お姉ちゃん。[r]さっきのおじさんとトモダチ？
+[k]
+
+[charaFace A 13]
+＠マシュ
+は、はい。[r]トモダチ……のようなものです。
+[k]
+
+＠子供
+ならお礼を言っておいて。[r]白い顔のおじさん、ありがとうって。
+[k]
+
+＠子供
+うまく言えないんだけど、あのおじさん……[r]すごく、すごく怒ってくれたみたいだから……
+[k]
+
+[charaFace A 1]
+＠マシュ
+[line 3]はい、わかりました。[r]かならず伝えておきますね。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 10202]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaFace B 0]
+[charaFadein B 0 1]
+[fadein black 0.5]
+[wait fade]
+＠Dr.ロマン
+あ、[%1][&君:ちゃん]、ネロ陛下がこの間の[r]お礼がしたいってさ。今繋ぐから。
+[k]
+
+＠ネロ
+おおっ！！　[%1]！！[r]先日の件は実に良くやってくれた、褒めて遣わすぞ！
+[k]
+
+？1：だってさ、ハサン……、ハサン？
+
+？2：ハサンのおかげですよ
+
+？！
+
+＠ネロ
+うむ、そのハサンとやらには実に助かっておる！！
+[k]
+
+＠ネロ
+あれから毎日のように、盗賊やら人さらいやらを[r]ひっ捕らえてきてくれてな。
+[k]
+
+＠ネロ
+おかげで、我が愛するローマの犯罪率は[r]うなぎ下がりだぞ！！　余は嬉しい！！
+[k]
+
+[charaFace B 2]
+＠Dr.ロマン
+え！？　あれから毎日……？
+[k]
+
+[charaFadeout B 0.1]
+[charaTalk A]
+[charaFadein B 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+そういえば、あれからハサンさん見かけませんね。[r]まさか、あの後ずっと犯罪者狩りを……！？
+[k]
+
+[charaFace B 4]
+＠Dr.ロマン
+……ますます分からないな……[r]あのハサン、もしかして根は善人なのか……？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

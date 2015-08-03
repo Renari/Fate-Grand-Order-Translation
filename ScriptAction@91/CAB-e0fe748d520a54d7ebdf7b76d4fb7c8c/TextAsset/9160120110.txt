@@ -1,0 +1,260 @@
+＄91-60-12-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20500]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6012001 1 サンソン]
+[charaSet E 98021000 1 市民]
+[charaSet F 98014000 1 兵士]
+[charaFace D 0]
+[charaFadein D 0]
+[se ad4]
+[fadein black 1]
+[wait fade]
+＠サンソン
+……。
+[k]
+
+＠市民
+ギロチンだ！　ギロチンにかけろ！
+[k]
+
+＠市民
+首を刎ね、これまでの悪事を思い知らせてやれ！
+[k]
+
+＠サンソン
+……。
+[k]
+
+＠市民
+ギロチンを！　ギロチンを！　ギロチンを！[r]殺せ！　殺せ！　殺せ！
+[k]
+
+[wt 1]
+[seStop ad4 0.5]
+[messageOff]
+[fadeout black 0]
+[wait fade]
+[wt 0.5]
+[se ad7]
+[wait se ad7]
+[scene 10400 0]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 0.4]
+＠サンソン
+……やあ。[r]魘されていたようだけど、どうしましたか？
+[k]
+
+？1：今、夢を……
+
+？！
+
+＠サンソン
+もしかして僕の夢？[r]そうか、僕もちょうど過去を思い返していたところです。
+[k]
+
+[charaFace D 0]
+＠サンソン
+……僕の人生は、あなたが見たことの繰り返しだ。[r]後悔はない。もちろんない。
+[k]
+
+＠サンソン
+だってそうだろう。後悔しながら剣を振るう処刑人など、[r]駄馬にも劣る代物だ。
+[k]
+
+＠サンソン
+罪人が心置きなく死出の旅に出られるよう、[r]一瞬の苦痛も与えず天へと送る。
+[k]
+
+＠サンソン
+処刑人は如何なるときでも、国家の刃である。[r]そうでなければ、やっていけません。
+[k]
+
+＠サンソン
+何故なら、いついかなる時代でも法は歪みを許容する。[r]悪人を無罪にしてしまうなら、それはそれで問題ない。
+[k]
+
+＠サンソン
+それは法の抜け穴をすり抜けただけ。[r]誰かが諦めなければ、いつか悪は罰せられるでしょう。
+[k]
+
+[charaFace D 4]
+＠サンソン
+だが[line 2]法は罪無き人間を罰することがあります。[r]フランス革命時は特にそれが顕著でね。
+[k]
+
+？1：無実の人間を殺した？
+
+？！
+
+[charaFace D 0]
+＠サンソン
+その通り。
+[k]
+
+[charaFace D 4]
+＠サンソン
+……彼らに罪があるとすれば、それは生まれたこと。
+[k]
+
+＠サンソン
+ただ処刑するべき人間に仕えたというだけで、[r]その子供は死んだんです。
+[k]
+
+[charaFace D 0]
+＠サンソン
+そうして考えると、まだ抜け道があるとはいえ、[r]罪なき人間を明白に裁くことが稀になったことは
+[k]
+
+＠サンソン
+歓迎すべきなのでしょうね。
+[k]
+
+[charaFace D 4]
+＠サンソン
+……ああ、済まない。[r]眠りの邪魔をしたようです。
+[k]
+
+[charaFace D 1]
+＠サンソン
+今度はいい夢が見られるよう祈ります。[r]じゃあ、おやすみ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 1.5]
+[scene 20500]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[fadein black 0.5]
+[wait fade]
+＠サンソン
+ああ、マスターにマシュですか。[r]どうしました？
+[k]
+
+[charaFace D 4]
+＠サンソン
+……そうですね、確かにここはおかしい。[r]フランス……に見えますが、僕の育ったパリではない。
+[k]
+
+[charaFace A 12]
+＠マシュ
+場所は特定できません。[r]ドクターとの通信も使えないようです。
+[k]
+
+＠マシュ
+レイシフトの際に、[r]別の時代へと飛ばされたのかもしれません。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ひとまず、街で事情を聞いてみましょう。
+[k]
+
+＠マシュ
+何か特異点があって、[r]それを修正すれば帰還できる可能性があります。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+[charaFace D 0]
+＠サンソン
+おや、君もいたのか。[r]……そうだね、マシュの言う通りです。
+[k]
+
+＠サンソン
+ひとまず進みましょうか、マスター。[r]何か見つかるかもしれない。
+[k]
+
+[messageOff]
+[charaFadeout C 0.4]
+[charaFadeout D 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20500]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 1]
+[charaFadein E 0 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠市民
+た、助けて……。
+[k]
+
+＠兵士
+黙れ！[r]汝は罪人だ！　処刑執行する！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠サンソン
+何を言っている……止めるんだ、君。[r]法廷も通さずに処刑を決めるなど、ありえない！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 0]
+＠マシュ
+サンソンさん！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠兵士
+なんだおまえは。[r]町民の分際で我々に逆らうのか!?
+[k]
+
+＠兵士
+まったくこれだから無教養のバカどもは！[r]王の名の下に、貴様たちを処刑する。
+[k]
+
+＠サンソン
+……何だって……！？
+[k]
+
+＠兵士
+弁解は無用にして不要。[r]我々が裁断する！
+[k]
+
+[charaFace D 1]
+＠サンソン
+……そうか。それは幸いした。[r]弁解は無用だ、話し合いの余地はないと言ったね、君。
+[k]
+
+[charaFace D 2]
+＠サンソン
+[#それこそ話が早くて助かる]。[r]君たちと話しているだけで魂が汚れそうだ。
+[k]
+
+＠サンソン
+マスター、戦闘の許可を。[r]この兵士たちに、本当の罪の所在を問いただします。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[soundStopAll]
+[end]

@@ -1,0 +1,152 @@
+＄91-70-06-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 98013100 0 ？？？]
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0 0]
+[charaFace A 15]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……撃破、しました！[r]戦闘終了。大型の竜種の消滅を確認！
+[k]
+
+＠坂田金時
+夜食前のいい運動になったな、マスター！[r]西洋[#羆:ひぐま]も悪くねぇ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+竜種を相手にこの余裕っぷりとはね。[r]凄いな……流石、雷神の子といったとこか。
+[k]
+
+＠Dr.ロマン
+いや、この場合は赤龍の子と考えるべきか？[r]ただの英霊じゃあないのは多分、間違いないし[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠坂田金時
+オレは[#ただのオレ]だぜ。[r]しっかし、残念だったな。
+[k]
+
+＠マシュ
+何がです？
+[k]
+
+[charaFace D 4]
+＠坂田金時
+オレのクラスだよ、クラス。[r]なーんでバーサーカーなんかで呼んじまうかな。
+[k]
+
+[charaFace D 0]
+＠坂田金時
+ライダーのクラスで現界してりゃ、オレの[r]ゴールデンベアー号とさっきので大激突だったのによ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+えっ、何それ！？[r]ゴールデンベアー号って何？
+[k]
+
+？1：自動車かな？
+
+？2：ロボットかな？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠坂田金時
+惜しいな大将。[r]自動車ってのもロボットってのも、惜しい。
+[k]
+
+[charaFace D 0]
+＠坂田金時
+何せゴールデンベアー号は変形するんだぜ？[r]自動車形態と[line 2]
+[k]
+
+[charaFace D 1]
+＠坂田金時
+[line 2]熊形態、にな。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+な、何それ！　見たい！[r]ぜひとも見たい、変形宝具って凄くないか！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠フォウ
+フォウフォウ、フォーウ！！
+[k]
+
+＠坂田金時
+おう、分かってるじゃねえか青リス！[r]ベアー号さえあればニコラ・テスラにも吠え面……
+[k]
+
+[charaFace D 1]
+＠坂田金時
+いや、“私もそれ欲しい！”なんて、[r]ガキみたいに悔しがらせてやれたんだがなァ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+フォウさんも大はしゃぎですね……。[r]先輩は[line 2]
+[k]
+
+？1：見たい、超見たい！
+
+？2：トランスフォーーーム！
+
+？！
+
+[charaFace A 8]
+＠マシュ
+……大喜びですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠坂田金時
+ま、そのうち見せる機会もあるかもな。[r]ンなことよりさっさと帰って一杯やるとしようや！
+[k]
+
+＠坂田金時
+熊退治の祝いだ！[r]ドクター、とっておきのいい酒用意しておけよ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[soundStopAll]
+[end]

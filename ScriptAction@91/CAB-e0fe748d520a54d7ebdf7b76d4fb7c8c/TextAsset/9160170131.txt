@@ -1,0 +1,116 @@
+＄91-60-17-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20602]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6017001 1 カーミラ]
+[charaSet E 98006000 1 ？？？]
+[charaTalk A]
+[charaFace C 0]
+[charaFadein C 0 0]
+[charaFace A 7]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+[se ad45]
+＠マシュ
+仕留めました！[r]扉が開きます……！
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠カーミラ
+……上出来です。[r]これであなたたちは脱出できるわ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+カーミラさん？
+[k]
+
+＠カーミラ
+いいのよ。[r]お行きなさい。そしてカルデアに戻るのです。
+[k]
+
+＠カーミラ
+この場所はあくまで、私の心象世界でしかないわ。
+[k]
+
+[charaFace D 0]
+＠カーミラ
+私の末路が定められている以上、[r]ここから逃れられるはずはない。
+[k]
+
+＠カーミラ
+だって幽閉から逃れるということは、[r]私の人生、私の運命全てを否定するということだもの。
+[k]
+
+[charaFace D 5]
+＠カーミラ
+でも[line 2]あなたは違う。あなたは助けてあげなきゃ。[r]確率が千分の一でも、マスターだけは。
+[k]
+
+[charaFace D 0]
+＠カーミラ
+……安心なさい。[r]これは夢、ただの悪夢。目が覚めれば全て忘れる。
+[k]
+
+＠カーミラ
+もしも、の話なんて無粋なのです。
+[k]
+
+[charaFace D 4]
+＠カーミラ
+あなたのような人と、[#過去の自分:エリザベート]の頃に[r]出会っていればなんて。
+[k]
+
+＠カーミラ
+あなたのような光に手を伸ばしていたら。[r]私は[line 2]。
+[k]
+
+[messageOff]
+[wipeout circleIn 2 2]
+[wait wipe]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[wt 0.5]
+[scene 10400]
+[charaFace D 0]
+[charaFadein D 0 1]
+[wipein circleIn 2 2]
+[wait wipe]
+＠カーミラ
+[line 2]あら、起きましたの。マスター。
+[k]
+
+＠カーミラ
+……何でしょう、豆鉄砲を喰らったような顔をして。[r]おかしいな夢を見た？
+[k]
+
+[charaFace D 1]
+＠カーミラ
+そう。夢なんて、忘れてしまいなさい。[r]第一、まだ夜でしてよ。
+[k]
+
+＠カーミラ
+朝が来るまでまだ時間はあるわ。[r]もう一度眠りなさい。
+[k]
+
+＠カーミラ
+そして、今度こそ[line 2]楽しい夢を。[r]おやすみなさい、マスター。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

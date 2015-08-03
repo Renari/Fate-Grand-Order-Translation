@@ -1,0 +1,263 @@
+＄91-60-14-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20400]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6014001 0 マタ・ハリ]
+[charaSet E 98021000 1 市民]
+[charaSet F 98014000 1 兵士]
+[charaSet G 98006000 1 王様]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠マタ・ハリ
+ここが調査の手掛かりになりそうなの？
+[k]
+
+＠マシュ
+はい。それで、マタ・ハリさんに[r]聞き込み調査をお願いしたくて。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+あら、それは[#慧眼:けいがん]ね。[r]きちんと聞き込みさせていただくわ。
+[k]
+
+[charaFace D 4]
+＠マタ・ハリ
+でも、マスター。[r]生憎と、私一人ではどうにもなりませんわ。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+ですから、きちんと[r]私を守って下さいね、うふふ。
+[k]
+
+？1：もちろんだ
+
+？2：頑張ろう
+
+？！
+
+[charaFace D 0]
+＠マタ・ハリ
+期待しておりますわ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+では、聞き込みの方お願いします。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+ええ、そうね。[r]ちょっと待って頂戴な。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20400]
+[charaFace D 0]
+[charaFace A 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マタ・ハリ
+……あの人がいいかしら。[r]じゃあ、行ってくるわね。
+[k]
+
+[charaFace D 5]
+＠マタ・ハリ
+わたしが酒場に入ったら、夜まで待っていて。[r]必ず、襲撃があるから。
+[k]
+
+[charaFace A 7]
+＠マシュ
+は、はい。わかりました。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20500]
+[charaFadeout A 0.5]
+[charaFace D 1]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マタ・ハリ
+こんにちは、ご機嫌いかが？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠市民
+え？[r]あ、ああ。どちら様？
+[k]
+
+[charaFace D 0]
+＠マタ・ハリ
+旅芸人よ。地元の方でしょう、あなた？
+[k]
+
+＠市民
+おお、生まれも育ちもこの街よ。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+じゃあこの街のこと、お話を聞かせて頂戴。[r]しばらくの間、ここで稼ぎたいの、わたし。
+[k]
+
+[charaFace D 3]
+＠マタ・ハリ
+だとしたら、色々なコトをしっておかなきゃ[r]ダメでしょう？
+[k]
+
+[charaFace D 0]
+＠マタ・ハリ
+もちろん、お酒は奢ってあげるわ。[r]あなたが美味しいお店を知っていれば、だけど。
+[k]
+
+＠市民
+ああ、もちろんだ。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+それじゃ、行きましょう。[r]ふふふ、昼間からお酒ってちょっと不健全かしら。
+[k]
+
+[charaFace D 3]
+＠マタ・ハリ
+でも、不健全なのは楽しいわよね。[r]……そうでしょう？
+[k]
+
+＠市民
+お……おお、そうだな！[r]よし、飲みに行くか！
+[k]
+
+[charaFadeout E 0.4]
+[charaFadeout D 0.4]
+[wt 0.7]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……鮮やかな手練手管です。一瞬で三十代前半、[r]独身男性と思わしき人物が陥落しました。
+[k]
+
+＠マシュ
+あそこまで露出度の高い服装でありながら、[r]なにひとつ不自然さを感じさせない勢いで。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+さ、さすがフランス・イギリス・ロシアの将校から外務省の[r]高官まで、悉くを骨抜きにしたという伝説のスパイ……。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+本気になれば、この街をあっさり歓楽……[r]いや、陥落できるんじゃなかろうか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ともかく後を追い、夜まで待ちましょう。
+[k]
+
+＠マシュ
+マタ・ハリさんは諜報はともかく戦闘能力は乏しい[r]のですから、そこはわたしたちがフォローしないと。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[charaFadeout A 0.4]
+[wt 0.3]
+[scene 20502]
+[charaFace D 1]
+[charaFadein D 0 2]
+[charaFadein E 0 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マタ・ハリ
+あははは、楽しいわね。[r]どうしたの、あなた？
+[k]
+
+＠マタ・ハリ
+まだ飲み足りないのかしら？[r]それとも、楽しみたいことがあるのかしら。
+[k]
+
+[charaFace D 3]
+＠マタ・ハリ
+お酒を飲み過ぎると、萎えるって言いますものね。
+[k]
+
+＠市民
+……アンタ、何者だ？[r]旅芸人とか、出鱈目だろう。
+[k]
+
+[charaFace D 0]
+＠マタ・ハリ
+さあ、何者でしょう？[r]そんなことより、控えていた兵士さんを呼び出して頂戴。
+[k]
+
+＠市民
+……！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠マタ・ハリ
+壮観ね。サーヴァントでも、わたしは所詮アサシンだから、[r]これは御しきれないかも。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+……でも。[r]今のわたしは一人じゃないのよ、残念ながらね。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+？1：いくぞ！
+
+？！
+
+[charaFace D 2]
+＠マタ・ハリ
+ええ、マスター。このマタ・ハリを信じてくれる[r]あなたのために、全力を尽くします！
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+うふふふふ、サーヴァントって楽しいわ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

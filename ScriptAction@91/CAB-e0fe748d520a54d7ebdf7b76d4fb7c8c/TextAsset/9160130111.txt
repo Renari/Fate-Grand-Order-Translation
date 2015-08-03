@@ -1,0 +1,166 @@
+＄91-60-13-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 21400]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6013001 1 ファントム]
+[charaSet E 5002001 1 ジル]
+[charaSet F 98006000 0 ？？？]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……戦闘終了です。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うるさいだけで……。[r]ジル元帥は戦闘に参加してくれなかったね……。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+ていうか[%1][&君:ちゃん]の契約英霊に[r]ジル元帥っていたっけ。どうだっけ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ファントム
+さあ　帰ろう[r]クリスティーヌ　もうきみは　此処にいない
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、もういいの？[r]気が済んだの？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ファントム
+クリスティーヌ　我が愛　我が歌姫[r]きみは　いずこ[line 2]
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+もしかして、生前の彼が恋した歌姫クリスティーヌの[r]痕跡か何かを求めて、このパリの地下へ？
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+でも、時代がずれてるよねえ。[r]ああ、精神汚染でそれすらわからないのかな。
+[k]
+
+＠Dr.ロマン
+そう考えると……少し、悲しいね。[r]ちょっと理解できるなあその寂しさっていうか[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+帰りましょう。[r]ドクター、レイシフトをお願いします。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[communicationCharaLoop 98003003 0 5 0 4]
+＠Dr.ロマン
+無理矢理いい話にして締めようと思ったのに、[r]つ、つれないねマシュ。
+[k]
+
+？1：まだ怒ってらっしゃる……？
+
+[charaFace A 7]
+＠マシュ
+いいえ、先輩。[r]怒ってません。
+[k]
+
+？2：か、帰ろうか！
+
+＠マシュ
+はい。
+[k]
+
+？！
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+それじゃあ帰ろうね！　うんうん！[r]っていうか、ジル元帥どこいったんだろう？？
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[wt 2]
+[scene 21400]
+[charaFace E 2]
+[charaFadein E 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ジル
+おお、浅ましきは人の欲得！！[r]斯様な暗がりにもこれほどの悪徳を[line 2]ん？
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFadein E 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.4 0]
+＠フォウ
+フォ……フォウ（弱っている）
+[k]
+
+[charaFace E 0]
+＠ジル
+これは何と愛らしい小動物でしょう！！[r]冒涜の祭壇へ捧げられる生贄に相応しいほどの愛らしさ！
+[k]
+
+＠フォウ
+フォ……ウ……（弱っている）
+[k]
+
+[charaFace E 4]
+＠ジル
+このような暗がりで震えているとは、奇遇ですな。[r]私も統べてに裏切られ、暗がりで震える獣のようなもの。
+[k]
+
+[charaFace E 1]
+＠ジル
+さあ、共に行きましょう。[r]このマントの中は暖かいですぞ、ほうら。
+[k]
+
+＠フォウ
+…………（弱っている）
+[k]
+
+[charaFace E 3]
+＠ジル
+ほほほほっ、何とも愛らしい！[r]おお、おお、震えている震えている！
+[k]
+
+＠フォウ
+……（弱っている）
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

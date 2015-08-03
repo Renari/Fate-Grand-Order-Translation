@@ -1,0 +1,109 @@
+＄91-10-05-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 2 フォウ]
+[charaSet C 1005001 2 ネロ]
+[charaSet D 98003003 2 Dr.ロマン]
+[charaTalk A]
+[charaFadein B 0 0]
+[charaFace A 15]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+て、敵ゴーレム軍団、沈黙しました……[r]戦闘、終了します……
+[k]
+
+＠フォウ
+キュウゥウウ……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんて原始的な戦いだったんだ。[r]押し寄せる城門をひたすら物理でぶん殴る……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ネロ
+う、うむ、さすがにこれはやりすぎた。[r]余もいささか反省した……
+[k]
+
+[charaFace C 0]
+＠ネロ
+だがこれだけの材料があれば、とりあえず建物は建つ！[r]人類初のコンクリート技術を見せてやろう！
+[k]
+
+？1：どんなポーズのネロを作るの？
+
+＠ネロ
+む……それがだな……
+[k]
+
+？2：どうせならマシュの像も作ってほしい
+
+[charaFadeout C 0]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、先輩、それは結構です……！
+[k]
+
+？！
+
+[charaFadeout A 0]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠ネロ
+……すまぬ。巨像を作るのは見送りだ。[r]このゴーレムども、素材はいいのだが……
+[k]
+
+[charaFace C 4]
+＠ネロ
+どうも色気がない。[r]石から聞こえる声がみな筋肉質でな。
+[k]
+
+＠ネロ
+これでは美しい彫像は彫れぬ。[r]今回、コロッセオ風味は諦めた。
+[k]
+
+[charaFace C 1]
+＠ネロ
+だが劇場の改築はする、安心するがよい。[r]マスターの苦労は無駄にはしないぞ。
+[k]
+
+[charaFace C 2]
+＠ネロ
+さあ、ここからが本番だ！[r]急ぎ資材を集めローマに凱旋する！
+[k]
+
+＠ネロ
+余の劇場を、さらに強固で頑丈で堅牢な要塞……
+[k]
+
+[charaFace C 1]
+＠ネロ
+そう、たとえヘラクレスであろうと途中で帰れぬ、[r]最強の劇場にしあげるのだっっっっっ！
+[k]
+
+[charaFadeout C 0]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+だめだこの皇帝、何も反省していない……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

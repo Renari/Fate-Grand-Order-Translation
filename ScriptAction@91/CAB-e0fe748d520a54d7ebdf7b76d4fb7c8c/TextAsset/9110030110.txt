@@ -1,0 +1,292 @@
+＄91-10-03-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1003001 1 セイバー・リリィ]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠セイバー・リリィ
+戦時中ですが、街はいたって平和そのものです。[r]大通りには多くの出店もあって、目が飽きませんね。
+[k]
+
+？1：ご機嫌だね、セイバー
+
+[charaFace D 1]
+＠セイバー・リリィ
+はい。ここは敵地の中ですが、[r]人々の営みを楽しむのはいい事です。
+[k]
+
+[charaFace D 4]
+＠セイバー・リリィ
+……その、この時代の争いはフランスとイギリス間に[r]起きたものなので、そこは心苦しいのですが。
+[k]
+
+？2：何か買って食べる？
+
+[charaFace D 1]
+＠セイバー・リリィ
+ふふ。お心遣い、ありがとうございます。
+[k]
+
+＠セイバー・リリィ
+でも気持ちだけで十分です。[r]今はこの空気だけで胸がいっぱいですから。
+[k]
+
+？！
+
+[charaFadeout D 0]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+そうか、見た目が幼いからつい忘れていた。[r]君は王様だったね。なら街の治安が一番の関心事か。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠セイバー・リリィ
+あ……そ、そうですよね。王様になるのですから、[r]きちんと街の流れを理解しないといけませんでした……
+[k]
+
+[charaFace D 4]
+＠セイバー・リリィ
+すみません、観光気分で。[r]わたしはまだまだ未熟です……
+[k]
+
+[charaFadeout D 0]
+[charaTalk C]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ご、ごめん、そんなつもりじゃなかったというか……[r]うーん、やりづらい。すごくやりづらい。
+[k]
+
+＠Dr.ロマン
+彼女は真面目で素直で良い子なんだけど、[r]ボクらは他の側面も見ているからなあ……
+[k]
+
+？1：フユキにいた黒いセイバーの事？
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+確かに身体情報などは一致していますが、[r]このセイバーさんとあのセイバーさんは別人ですよ。
+[k]
+
+？2：あのセイバーとリリィは関係ない
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+その通りです。たとえ同一人物であっても、[r]彼女と黒いセイバーは別人です。ぜったい。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠セイバー・リリィ
+わたしと似た人、ですか？[r]気になります。それはどんな人だったんですか？
+[k]
+
+[charaFadeout A 0]
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うう、まっすぐな笑顔が痛い……彼女、自分の側面が[r]あんなに怖いとは夢にも思ってなさそうだぞ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk D]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠セイバー・リリィ
+?　見たコトのない使い魔ですね。[r]むむ……どこかで見覚えがあるような……
+[k]
+
+＠フォウ
+フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさんは“別の自分のコトなんて気にするな”と[r]言っています。
+[k]
+
+[charaFace D 4]
+＠セイバー・リリィ
+そうですか……でも、確かによくありませんね。[r]ズルもいいところです。
+[k]
+
+＠セイバー・リリィ
+その人がもし未来のわたしならアドバイスをもらって、[r]ちょっと楽をしようなんて考えてしまいました。
+[k]
+
+[charaFace A 12]
+＠マシュ
+アドバイス、ですか。[r]セイバーさんはまだ修行中なんですよね？
+[k]
+
+[charaFace D 0]
+＠セイバー・リリィ
+はい。こうして選定の剣に選ばれましたが、[r]それまでは兄の従者でしたので。
+[k]
+
+＠セイバー・リリィ
+今はこうしてひとりの剣士として腕を磨き、[r]見聞を広めている最中です。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうか。騎士見習いならぬ、王様見習いなワケだ。[r]見たところ、もう実力は申し分なさそうだけど……
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+……なあ、[%1][&君:ちゃん]。彼女のコトで[r]前から気に入っていた質問、していいかな？
+[k]
+
+？1：どうぞ、お任せしますドクター
+
+？2：自爆したいのなら止めません、ドクター
+
+？！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+では遠慮なく。[r]……ゴホン。セイバー、率直に質問するんだけど……
+[k]
+
+＠Dr.ロマン
+君、その服装、どうしたの？[r]スカートとか、短すぎない？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+……！　ドクター、なぜ誰もが思っていたけれど[r]あえてスルーしていた事を口にするんです!?
+[k]
+
+[charaFace D 3]
+＠セイバー・リリィ
+こ、この服装、ですか？[r]たしかに、はい……わたしも、ちょっと気になります。
+[k]
+
+＠セイバー・リリィ
+こういう女性らしい服装は慣れていないもので……[r]でも、正体を隠すにはこれがいいとマーリンが。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+マーリン！　アーサー王に仕えた魔術師、[r]ブリテンの守護者マーリンか！
+[k]
+
+＠Dr.ロマン
+そんなすごい人物が、そんな趣味に走ったドレスを[r]押しつけてきたのかい!?
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠セイバー・リリィ
+はい。わたしは自分の魔力で鎧を編むことができる[r]のですが、それに頼っていてはいけない、と。
+[k]
+
+[charaFace D 0]
+＠セイバー・リリィ
+いろいろと無茶ができる今ぐらいは自由に、[r]身を軽くして戦うべきだと、マーリンは言ったのです。
+[k]
+
+＠マシュ
+……なるほど。さすがはキングメーカーとして名高い[r]マーリンですね。
+[k]
+
+＠マシュ
+たしかに今のセイバーさんを見て、いずれブリテンを[r]統べる騎士王になると予測する人は少ないです。
+[k]
+
+[charaFace D 3]
+＠セイバー・リリィ
+そ、そうですか。わたしなんかが……い、いえ、[r]弱気はいけません。もちろん、そうなるよう努力します。
+[k]
+
+[se ad33]
+[bgmStop BGM_EVENT_2 0.4]
+[wait se ad33]
+[bgm BGM_EVENT_3 0.1]
+＠町民
+城門が破られるぞー！[r]みんな逃げろー！
+[k]
+
+[charaFace A 7]
+[charaFace D 5]
+＠セイバー・リリィ
+むっ。城門の方で騒ぎがあったようです。[r]剣戟の音からして敵襲でしょう。
+[k]
+
+[charaFace D 4]
+＠セイバー・リリィ
+残念ですが休憩はここまでですね。[r]行きましょう、[%1]さん。
+[k]
+
+[charaFace D 0]
+＠セイバー・リリィ
+たとえ時代が違い、いつか争う事になる国であっても[r]この営みは何人も侵してはならない。
+[k]
+
+＠セイバー・リリィ
+セイバー・リリィ、[r]ひとりの英霊として貴方の指示に従います！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

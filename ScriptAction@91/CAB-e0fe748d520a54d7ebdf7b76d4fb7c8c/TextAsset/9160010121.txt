@@ -1,0 +1,238 @@
+＄91-60-01-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10800]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 0 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 6001001 2 小次郎]
+[charaSet E 98014000 1 司会者]
+[charaSet F 98006100 0 デーモンソード]
+[charaSet G 5009001 1 ダ・ヴィンチ]
+[charaTalk D]
+[charaFace F 0]
+[charaFadein F 0]
+[charaFace D 5]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠小次郎
+む。バーサーカーの如き不死身ぶり。[r]これは、ただの獣ではなかったかな？
+[k]
+
+＠司会者
+なんと、あれだけの攻撃を受けても倒れません！！[r]さすが我らのチャンプ『デーモンソード』！！
+[k]
+
+[charaFadeout D 0]
+[charaFadeout F 0]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+まだ人間の兵士だって言い張るのか！[r]あとでネロ陛下に抗議してやるっ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠デーモンソード
+ウゴアアアアアアーーッ！！
+[k]
+
+[charaFadeout D 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター、危ない！！
+[k]
+
+[charaFadeout A 0]
+[charaFace D 5]
+[charaFadein D 0.1]
+[se bac5]
+[effect bit_talk_12 0]
+＠小次郎
+秘剣[line 2]ツバメ返し！！
+[k]
+
+＠デーモンソード
+ゴアアアアアアアアア……！！
+[k]
+
+[messageOff]
+[se ad24]
+[charaSpecialEffect F enemyErasure 0 2]
+[wait charaSpecialEffect F]
+＠司会者
+…………！！[r]な、何という事でしょう！！
+[k]
+
+＠司会者
+あの、100戦無敗のデーモンソードが[r]ついに破られました！！
+[k]
+
+[charaFadeout D 0]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠小次郎
+命の予備は今ので打ち止めか。[r]……はあ。
+[k]
+
+＠小次郎
+もしやの強敵と期待したが、これではあせたな秘剣開眼[r]にはほど遠いな。
+[k]
+
+＠小次郎
+やれやれ。あの日のツバメを上回る難物に、[r][#拙:それがし]はいつ出会えたものやら。
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いやいやいやいや、あなたのところのツバメ[r]絶対おかしいですよね、幻想種？　幻想種なの？
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[se ad6]
+[wt 1]
+[seStop ad6 3]
+＠司会者
+ここに新たなチャンピオンが誕生いたしました！！[r]その名も東洋の戦士『ＳＡＭＵＲＡＩ』！！
+[k]
+
+＠司会者
+会場の皆さん、新チャンピオンの誕生に[r]どうか盛大な拍手をお願い致します！！
+[k]
+
+[se ad6]
+[wt 1]
+[seStop ad6 3]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+なんだか凄いことになっちゃいましたね、先輩。
+[k]
+
+？1：SAMURAIって凄い
+
+？2：そうだね、SAMURAIだね
+
+？！
+
+[charaFace D 3]
+＠小次郎
+ともあれこの歓声は悪くない。[r]雅さにかけるが、万雷の喝采もいいものだ。
+[k]
+
+[charaFace D 1]
+＠小次郎
+[%1]殿にも手間をかけさせた。[r]どれ、勝利を肴に一杯といこう。
+[k]
+
+＠小次郎
+米の一俵もでるのであろう？[r]いやあ、武芸で金を得られるとは、よい街だなここは！
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 10400]
+[charaFace G 4]
+[charaFadein G 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ダ・ヴィンチ
+[line 2]その後、連勝に連勝を重ねた東方の剣士は[r]ローマ史に輝く偉大な剣闘士として
+[k]
+
+＠ダ・ヴィンチ
+長らく民たちの間で語り継がれた……。
+[k]
+
+[charaFace G 0]
+＠ダ・ヴィンチ
+[line 2]とまあ、かのローマ剣闘士の歴史に[r]しっかり記述が残っちゃってるわけだが
+[k]
+
+＠ダ・ヴィンチ
+なにかいう事はあるかい、小次郎クン？
+[k]
+
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFadein G 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠小次郎
+いや、つい興が乗ってしまってな。許せ。
+[k]
+
+？1：凄かったね、ツバメ返し100人抜き
+
+？2：陛下もご満悦だったことですし
+
+？！
+
+[charaFadeout D 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+小次郎さん大人気でしたからね。[r]グッズとかも凄い売れ行きでしたし。
+[k]
+
+＠マシュ
+ネロ陛下も大はしゃぎでした。[r]自分もでる、百人目は余だー！　とか言い出して。
+[k]
+
+[charaFace A 13]
+＠マシュ
+でも、歴史の変更がよくこのくらいの[r]誤差で済んだというべきでしょうか。
+[k]
+
+[charaFace G 2]
+＠ダ・ヴィンチ
+いやあ、全然よくないでしょ。[r]ロマニ、この修正どうするの？
+[k]
+
+[charaFadeout G 0.1]
+[charaFace B 4]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+ああ……歴史を戻しに行ったはずが、歴史を[r]変えてしまったなんて……どうしよう、フォウくん？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+『残業、全力で』とフォウさんは言っています。[r]ドクター、優勝賞品のウナギの蒲焼きはいりますか？
+[k]
+
+[charaFace B 2]
+＠Dr.ロマン
+いらないよ、ローマに返してきてくれ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

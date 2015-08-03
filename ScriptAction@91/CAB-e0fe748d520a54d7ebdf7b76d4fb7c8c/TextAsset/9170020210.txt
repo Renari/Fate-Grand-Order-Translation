@@ -1,0 +1,130 @@
+＄91-70-02-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10202]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 0 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7002001 1 ランスロット]
+[charaSet E 98013000 1 雑魚エネミー]
+[charaSet F 98006000 1 獣人]
+[charaTalk A]
+[charaFace B 0]
+[charaFadein B 0]
+[charaFace A 6]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ランスロットさんの素顔……ですか？
+[k]
+
+＠Dr.ロマン
+うん、彼、いつも暑苦しい兜かぶっているだろう？[r]素顔、気になるじゃない？
+[k]
+
+？1：気になるなる
+
+？2：イケメンかな？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ？
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+そりゃもうなんたって、騎士といえばランスロット！[r]世界じゃご婦人方には、大人気の英霊だしね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 4]
+[charaFadein A 0.1]
+＠マシュ
+はぁ……。[r]でも、どうやって兜を脱がせるのですか？
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+作戦その１　『戦闘中に、つい手が滑って！！』[r]さあ、張り切っていってみよう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0.5]
+[charaFadeout B 0.5]
+[wt 0.5]
+[scene 20300]
+[communicationChara 98003003 1 5 0 0]
+[fadein black 0.5]
+[wait fade]
+＠Dr.ロマン
+それじゃ、訓練用の模擬戦闘プログラムを[r]起動するよ。準備はいいかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠ランスロット
+…………。
+[k]
+
+＠マシュ
+（何かだましているようで少し気が引けますが……）[r]……了解ですドクター、いつでもどうぞ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+トレーニング用の疑似サーヴァント体だから[r]危険はないよ、安心してくれ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+（まあ、パラメーターは最高値に設定しておくけど）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+それではいきますよ、マスター。
+[k]
+
+？1：よし、がんばって見よう！！
+
+？2：うっかり兜を引っ張るんだっけ？
+
+？！
+
+[charaFace A 6]
+＠マシュ
+先輩！！　しーっ、しーっ！！
+[k]
+
+[se ad1]
+[wait se ad1]
+[charaFace D 2]
+＠ランスロット
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,136 @@
+＄91-60-17-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20602]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6017001 0 カーミラ]
+[charaSet E 98006300 1 ？？？]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠カーミラ
+……私も少しだけ反省したわ。まったく知らない[r]というのは、有事の際に肝を冷やすのね。
+[k]
+
+[charaFace D 3]
+＠カーミラ
+そして言っておきますが。もし今の私の痴態を[r]お笑いでしたら[#鋼鉄の処女:アイアンメイデン]でしてよ、マスター。
+[k]
+
+[charaFace A 12]
+＠マシュ
+うーん、出口は見当たりませんね……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+[charaFace A 6]
+＠マシュ
+フォウさん？[r]あの、先を走らないで……！
+[k]
+
+＠フォウ
+フォウ、フォウ！
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.3]
+[scene 20602]
+[charaFace A 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠フォウ
+フォウ！
+[k]
+
+[charaFace A 2]
+＠マシュ
+マスター、傍に来て下さい！[r]敵です！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠カーミラ
+ゴーレムではありませんね。[r]そう……ようやくらしい相手、ということ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+[line 2]許さない。
+[k]
+
+＠？？？
+[line 2]許さないわ。おまえなんて、絶対に許さない。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaSet E 98006300 0 少女]
+[charaFadein E 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠カーミラ
+城に染みついた亡霊……弱者がさらに弱くなった底辺の[r]分際で、私の前に立つのではなくてよ。
+[k]
+
+＠少女
+なんですって……ただ貴族という事だけで……[r]わたしを殺しておいて……よくも……よくも……！
+[k]
+
+[charaFace D 0]
+＠カーミラ
+そう。ただ貴族という事だけが私の在り方。[r]生憎と呵責に苛まれるほど人格者でもないの。
+[k]
+
+[charaFace D 4]
+＠カーミラ
+私は邪悪、どうしようもない邪悪。[r]救済はなく、絶望に巻き付かれて死んだ滑稽な怪物よ。
+[k]
+
+＠カーミラ
+でもね。邪悪を後悔して、[r]目の前のことを見失うほど愚かではないの。
+[k]
+
+[charaFace D 0]
+＠カーミラ
+私を呪うのは正しい筋道ですが、[r]この方たちを招き入れたのは失策です。
+[k]
+
+＠カーミラ
+私だけで満足するのなら可哀想と言えたものを、[r]生者すべてが憎いのなら私とあなたは同類です。
+[k]
+
+[charaFace D 2]
+＠カーミラ
+であれば[line 3]同類同士、容赦なく潰してあげる。
+[k]
+
+＠カーミラ
+相手が亡霊であれ、[r]私の指は容赦なく血税を絞りあげるわよ？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

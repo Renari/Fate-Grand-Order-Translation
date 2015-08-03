@@ -1,0 +1,167 @@
+＄91-70-16-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20800]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7016001 1 タマモキャット]
+[charaSet E 2006001 1 ダビデ]
+[charaSet F 7009001 0 アステリオス]
+[charaFace A 4]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘、終了しました。[r]ものすごい乱戦でしたが……
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠タマモキャット
+ザンネン、牛は逃げ出した。[r]トモダチになりたかったのにナー。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……アステリオスさんはエウリュアレさんを[r]探しに来ただけだったのかも……
+[k]
+
+[charaFace A 4]
+＠マシュ
+まあ、ここにいたのはステンノさんですから、[r]人違いではあるのですが……
+[k]
+
+[charaFace D 1]
+＠タマモキャット
+しかし川は制圧した。[r]では狩りの時間だな！　鮭を一匹だけいただこう！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20800]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠タマモキャット
+敵ながらあっぱれな鮭だった。[r]きらめく[#玉:ぎょく]のような水に濡れた鱗……たまらん。
+[k]
+
+？1：すごいな、みごとな一本釣りだった。
+
+[charaFace D 3]
+＠タマモキャット
+ふふ、そう褒めるなご主人、嬉しくなる！[r]サーモンハンティングはネコの基本故な！
+[k]
+
+？2：一匹だけでいいの？
+
+[charaFace D 1]
+＠タマモキャット
+うん。必要な分だけをいただく。[r]それが野生の掟なのだぞ？
+[k]
+
+？！
+
+[charaFace D 0]
+＠タマモキャット
+ではいよいよ本命だ！[r]牧場で牛を狙う！　ジャガイモもいただこう！
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20300]
+[charaFace A 6]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+驚きました……[r]森を抜けたところにこんな平原があったなんて……
+[k]
+
+[charaFace A 7]
+＠マシュ
+！　マスター、危ない！
+[k]
+
+[se ad32]
+[messageOff]
+[charaEffect A bit_talk_13]
+[wt 0.5]
+[charaEffect A bit_talk_14]
+[wait se ad32]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[charaFadeout E 0.1]
+[charaTalk E]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFadein E 0.1 0]
+＠ダビデ
+悪いね、今のは最初で最後の警告だよ。[r]本来なら四回まで待つけど、今回は特別だ。
+[k]
+
+＠ダビデ
+キミたち、羊泥棒だね？[r]ここはボクが丹精込めて育てている牧場だ。
+[k]
+
+＠ダビデ
+わかるかな。心労ばっかりの王座にいたボクの心を[r]いやしてくれたもの。それが牧場経営の夢だ。
+[k]
+
+＠ダビデ
+その夢を荒らすものは一言で言うと殺すよ。[r]家に帰れば妻も大勢いる、稼ぎも維持しないとね。
+[k]
+
+[charaFace A 14]
+＠マシュ
+誤解です、わたしたちはただ狩りに来ただけで[line 3][r]あ、いえ。誤解ではないのでしょうか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠タマモキャット
+ははははは！[r]ここで会ったが一回目、初めましてだな投石王！
+[k]
+
+＠ダビデ
+いや、そのあだ名はちょっと。なんか、株を売り抜け[r]ようとして失敗する人みたいじゃない？
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+とにかくニンジンをいただこう！[r]その前に、巨大化とかしておくべきか？　逸話的に。
+[k]
+
+＠ダビデ
+結構、ゴリアテ退治は二度とごめんだ。[r]美しい[#獣:ひと]よ、こらしめたらボクの妻にしてあげよう！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、サーヴァントとの二連戦です！[r]もうこれ狩りなんかじゃありませんよね!?
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

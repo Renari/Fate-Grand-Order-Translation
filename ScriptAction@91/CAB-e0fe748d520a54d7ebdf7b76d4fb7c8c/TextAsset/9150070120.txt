@@ -1,0 +1,178 @@
+＄91-50-07-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 5007001 0 シェイクスピア]
+[charaSet E 98006000 1 市民]
+[charaTalk D]
+[charaFace A 4]
+[charaFadein A 0]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠シェイクスピア
+おお、何ともはや勇ましいお姿でした。[r]背後に佇むマスターもまた、威風堂々。
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+いやあ、やはり聖杯戦争はいいですな。[r]史劇、悲劇、喜劇、全てに相通ずる戦いだ！
+[k]
+
+＠マシュ
+それは……良かったです。
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+ほら、市民の皆様も拍手喝采です。
+[k]
+
+[se ad6]
+[wt 1]
+＠市民
+お嬢ちゃん、かっこよかったぜー！
+[k]
+
+＠市民
+素敵、抱いて！
+[k]
+
+＠市民
+少女の背後で指示をする人間は、[r]王か皇帝か将軍か……？
+[k]
+
+[charaFace A 3]
+＠マシュ
+わ、わわ。[r]わわわわわわ……。
+[k]
+
+[charaFace A 11]
+＠マシュ
+い、行きましょうマスター！
+[k]
+
+[seStop ad6 2]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 1]
+[scene 20500]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1]
+[charaFace D 4]
+[charaFadein D 0.1]
+[fadein black 0.5]
+[wait fade]
+＠シェイクスピア
+もう少しあの場で、[r]台詞を練り上げたかったのですが……。
+[k]
+
+[charaFace A 14]
+＠マシュ
+勘弁してください……！
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+いやいや、言葉を吟味するのは重要ですぞ。[r]次は頑張って戴きたい。
+[k]
+
+[charaFace A 6]
+＠マシュ
+は、はい。[r]次[line 2]ですか？
+[k]
+
+＠シェイクスピア
+然様。[r]よろしいですか。マシュ殿、マスター。
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+お二人こそが、この劇の主人公なのです。[r]この街を救うため、乙女とその主人は立ち上がったのです。
+[k]
+
+＠シェイクスピア
+乙女は鋼鉄の騎士、しかしてその心は脆く。[r]主人は脆弱なる人間、しかしてその心は鋼のよう。
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+手に手を取り合うことで、[r]二人は勇なき者から勇ある者へと姿を変える。
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+そして二人の前に立ちはだかるは[line 2]。
+[k]
+
+[se ad19]
+[wait se ad19]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 4]
+＠シェイクスピア
+人理を超越した魔性の獣たち。[r]言葉は通じず相容れることもない。
+[k]
+
+＠シェイクスピア
+人の敵を宿命付けられた悲しき[#存在:エネミー]たち。[r]彼らにトドメを刺すことで、二人はまた進むのです。
+[k]
+
+[charaFace D 5]
+＠シェイクスピア
+それは全身全霊、[r]傷ついた魂の癒しである眠りすらも拒む修羅の道。
+[k]
+
+＠シェイクスピア
+されど、悔やみはない、絶望もない、諦観もない。
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+たとえ敵が宇宙の骨組を構成する偉大なる存在[r]だったとしても[line 2]。
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+貴方がたは、前に進む！
+[k]
+
+[charaFace A 12]
+＠マシュ
+……あの、一つだけ質問が。
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+はい、何でしょう？
+[k]
+
+＠マシュ
+このエネミー、まさかあなたが召喚している[r]のでは[line 2]？
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+……さあ！　戦闘のお時間ですぞ、マスター！
+[k]
+
+[charaFace A 14]
+＠マシュ
+答えて下さい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,197 @@
+＄91-70-10-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7010001 1 カリギュラ]
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaSet F 98016000 1 ローマ兵 or 連合兵]
+[charaFace C 0]
+[charaFadein C 0]
+[fadein black 1]
+[wait fade]
+＠フォウ
+フォウ、フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩、今日の予定なのですが[line 2]フォウさん？[r]って、な、なんですか、この部屋は！？
+[k]
+
+＠マシュ
+壁一面にポスター……！？[r]これはネロさんのポスターですか！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+あ、マシュ、いいところに来てくれたよ[r]バーサーカー……、いや、カリギュラが！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠カリギュラ
+余の……、美しき、姪を……。[r]我が、美しき、宝を……、。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠マシュ
+ぜ、全部ネロ皇帝のポスター……。[r]い、一体これは何がどうなって……。
+[k]
+
+[charaFace B 4]
+＠Dr.ロマン
+いや、急に[%1][&君:ちゃん]の部屋に来るなり[r]この有り様だよ……。こっちが理由を聞きたいよ。
+[k]
+
+？1：ネロ皇帝が好きなの？
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠カリギュラ
+ネロ……、我が、愛しき、妹の子、よ……。
+[k]
+
+？2：インペラトール！！！
+
+[charaFace A 6]
+＠マシュ
+先輩も何言ってるんですか！？
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ダ・ヴィンチ
+あー、お楽しみ中のところすまないが、[r]ローマ市街で概念兵士たちが暴れてるらしいよ。
+[k]
+
+＠ダ・ヴィンチ
+放置しておくと色々とやばいんじゃない？[r]歴史の[#辻褄:つじつま]が合わなくなるかもだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk B]
+[charaFadein E 0.1 2]
+[charaFace B 2]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+あー、もう、こんな時に！！[r][%1][&君:ちゃん]いけるかい？
+[k]
+
+？1：問題ない
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター、急ぎましょう！！
+[k]
+
+？2：ローマの平和を乱す者は許さん！！
+
+[charaFadeout E 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+は、はい……。急にどうしました、先輩？
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠カリギュラ
+我が……、姪の、都……。[r]荒らす……、不逞の、者ども……。
+[k]
+
+[charaFace B 2]
+＠Dr.ロマン
+え！？　君もくるのかい！？
+[k]
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 4]
+[fadeout white 1]
+[effectStop]
+[wait effect bit_talk_07]
+[wait se ad12]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+[scene 10800]
+[charaFace F 0]
+[charaFadein F 0 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+[se ad33]
+[wait se ad33]
+[fadein white 0.5]
+[wait fade]
+[wt 0.7]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+あそこです、マスター！！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠カリギュラ
+余の、姪が愛するローマを蹂躙せしその罪[line 2][r]万死に値するッッ！！
+[k]
+
+＠カリギュラ
+[line 2]ネロォオオオオ！！！！
+[k]
+
+[charaFace A 1]
+＠マシュ
+カリギュラさんもやる気ですね！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+いや、これそういう感じじゃ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[communicationCharaClear]
+[wait fade]
+[soundStopAll]
+[end]

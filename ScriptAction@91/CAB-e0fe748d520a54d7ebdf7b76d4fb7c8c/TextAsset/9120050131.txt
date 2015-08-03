@@ -1,0 +1,87 @@
+＄91-20-05-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20110 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2005001 1 アタランテ]
+[charaSet E 2009201 2 アルテミス]
+[charaSet F 2009101 1 オリオン]
+[charaTalk E]
+[charaFace F 1]
+[charaFadein F 0 2]
+[charaFace E 4]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠アルテミス
+う、負けちゃった。[r]まだ私の愛が足りなかったのね……！
+[k]
+
+＠オリオン
+え……これ以上愛があるの？　マジで？[r]俺もう君の愛で潰れる寸前なんですけど……？
+[k]
+
+[charaFace E 1]
+＠アルテミス
+まあ、負けたものはしょうがないわね。[r]引き続き祝福してあげるわ！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アタランテ
+ありがとうございます、女神様。[r]引き続き、この女神像を大切にさせていただきます。
+[k]
+
+[charaFace E 0]
+＠アルテミス
+さ、それじゃオリオン帰るわよ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 2]
+＠オリオン
+マシュちゃん、せめてその胸で抱き締めて……[r]ぷぎゅる！？
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 0 3]
+[charaSpecialEffect F flashErasure 2 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[wait charaSpecialEffect F]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠アタランテ
+ふぅ。思わぬ妨害があったが、[r]どうにか潜り抜けられたか……。
+[k]
+
+[charaFace D 1]
+＠アタランテ
+ありがとう、マスター。[r]汝のお陰だ。
+[k]
+
+＠アタランテ
+さあ、帰還しよう。[r]何だったら、あのキマイラの肉も持って帰るか？
+[k]
+
+＠アタランテ
+携帯食料だけでは物足りないだろう。[r]……要らないか。そうか……。
+[k]
+
+[charaFace D 4]
+＠アタランテ
+じゃあ、猪の皮も……駄目か……。[r]むぅ、難しい。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

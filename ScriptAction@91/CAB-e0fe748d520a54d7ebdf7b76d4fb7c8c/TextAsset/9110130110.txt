@@ -1,0 +1,216 @@
+＄91-10-13-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1013001 1 カエサル]
+[charaFace D 1]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+[se ad16]
+[wt 2]
+[seStop ad16 3]
+＠カエサル
+[line 2]懐かしい。
+[k]
+
+[charaFace D 0]
+＠カエサル
+そう、一語で言ってのけるのは簡単ではあるが[r]私はそうしない。何故かわかるか？
+[k]
+
+？1：（首を横に振る）
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、先輩。[r]私にも彼の意図は把握できません。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーゥ……。
+[k]
+
+？2：（首を縦に振る）
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 8]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩は、彼の言葉の意図が把握できるのですね。[r]私には……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーゥ……。
+[k]
+
+？！
+
+[charaFace D 1]
+＠カエサル
+ガリアやブリタニアで私は武勇を馳せた。[r]それは事実であるし、戦記のひとつを書き起こしもした。
+[k]
+
+＠カエサル
+若かった。そう言うこともできるな。[r]だが、それだけではない。
+[k]
+
+[charaFace D 0]
+＠カエサル
+私は逃避したのだ。ローマに渦巻く権謀術数よりも[r]剣の[#勲:いさお]に没頭した方が幾らか気分は良かった。
+[k]
+
+＠カエサル
+裏切りに裏切りを、陰謀に陰謀を重ね、[r]そうして権力の階段を昇るのは簡単だ。私には。
+[k]
+
+＠カエサル
+何せ[line 2]
+[k]
+
+[charaFace D 1]
+＠カエサル
+この私は愛と美の女神の末裔であり、[r]妖精の女とさえ子を成してみせた男だからな。
+[k]
+
+＠カエサル
+我が美貌は女を自在に我が物にできる。[r]加えて、知の冴え。権謀術数に於いて私は最強だ。
+[k]
+
+[charaFace D 5]
+＠カエサル
+だが、しかし。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……。
+[k]
+
+？1：美貌？
+
+？2：美貌って言ったよね
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ。
+[k]
+
+[charaFace D 5]
+＠カエサル
+これでなかなかに陰謀というものは胆力を要する。[r]初めは何も感じぬが、徐々にな。徐々に。
+[k]
+
+＠カエサル
+瑞々しい葡萄を口にする間に、女と戯れている間に、[r]我が陰謀にて政敵はたちまち死ぬが[line 2]
+[k]
+
+＠カエサル
+これを幾度も続けていくと、[r]何かが病む。何かが穢れていくようにも思える程に。
+[k]
+
+[charaFace D 0]
+＠カエサル
+だからこそ、[r]時に、私は戦場へと逃避した。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……今、理解しました。[r]ユリウス・ガイウス・カエサル。
+[k]
+
+＠マシュ
+貴方は、自らの逃避の精算を[r]今ここで果たそうというのですね。
+[k]
+
+[charaFace D 5]
+＠カエサル
+そうだ。[r]私は[line 2]待て、敵だ。私たちに気付いたか。
+[k]
+
+[se ad16]
+[wt 1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+生体反応多数、接近！[r]これはあれだな、連合ローマ兵の残党か！？
+[k]
+
+＠Dr.ロマン
+修正されてゆくはずのローマに、[r]どうしてまだ連合の兵士なんかが残ってるんだ？？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[seStop ad16 3]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠カエサル
+理由は後で教えてやる。[r]それよりも[%1]、さっさと蹴散らせ。
+[k]
+
+[charaFace D 1]
+＠カエサル
+私は指揮をしてやる。[r]名将だからな。
+[k]
+
+？1：カエサルも戦って！
+
+？2：セイバーなのに後衛にいるつもり？
+
+？！
+
+[charaFace D 4]
+＠カエサル
+セイバー、そう、セイバー。セイバーな。[r]私がセイバーのクラスというのがそもそも間違いだ。
+[k]
+
+＠カエサル
+……まったく。[r]美しい者の隣でなければ剣など抜かんぞ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+なぜ、私を見て……。
+[k]
+
+[charaFace D 5]
+＠カエサル
+自らの美を理解せんのは罪にも等しいぞ？[r]まあ、ともかくは剣を抜こう。やれやれ[line 2]
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,193 @@
+＄91-70-02-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7002001 1 ランスロット]
+[charaSet E 98006300 1 雑魚エネミー]
+[charaFace A 1]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ふぅ……、風が気持ちいいですね、先輩。
+[k]
+
+？1：そうだね、ところで……
+
+？2：そうだね、ちなみに……
+
+？！
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 3]
+＠Dr.ロマン
+なんで楽しいピクニックにわざわざ[r]バーサーカーを連れてきてるのかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ランスロット
+…………。
+[k]
+
+＠マシュ
+ドクター。ランスロットさんはバーサーカーですが、[r]話せばそれなりに理解してくれる
+[k]
+
+＠マシュ
+理性あるバーサーカーですから大丈夫ですよ。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+話せばわかるバーサーカーって……[r]それってもうバーサーカーじゃ無いんじゃ……。
+[k]
+
+？1：わかるの？
+
+？2：確かにそんな気がするね
+
+？！
+
+＠マシュ
+ええ……、なんとなくわかるんです。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ランスロット
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+＠Dr.ロマン
+うわっ！？　やっぱり話通じてないだろ、これ！？
+[k]
+
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2]
+[bgm BGM_EVENT_3]
+[charaFadein E 0.1 1]
+＠マシュ
+いえ、これは！？　[line 2]先輩、敵襲です。[r]私の後ろへ！！　迎撃しま……
+[k]
+
+＠マシュ
+あれ？　私の盾は……？
+[k]
+
+？1：そういえばどこに……
+
+？2：ごめん、お弁当の下敷きに……
+
+？！
+
+＠マシュ
+しまった、お弁当の下敷きにしたままでした！？[r]先輩っ、危ない！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[wt 0.5]
+[messageOff]
+[flashin once 0.4 2 FF000080 00000000]
+[se ad32]
+[wait se ad32]
+[charaEffect D bit_talk_12 2]
+[wait flash]
+[flashout 0.7]
+[wait flash]
+[charaEffectStop D]
+[wait charaEffect D]
+＠ランスロット
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+＠マシュ
+ランスロットさん！！
+[k]
+
+[se ad33]
+[wait se ad33]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+割り箸で[line 2]、[r]受け止めた……、だと……！？
+[k]
+
+＠マシュ
+[#騎士は徒手にて死せず:ナイト・オブ・オーナー][r]ランスロットさん、さすがです！！
+[k]
+
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+だけどさすがに割り箸じゃ、長くは持たないぞ！？
+[k]
+
+？1：なにか武器になるものはないか！？
+
+？2：いや、それよりマシュの盾をですね……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ん？……なんだいフォウ、そこの道端？[r]あれは丸太！！　でかしたフォウ！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠マシュ
+ランスロットさん、これを！！！
+[k]
+
+[se ad7]
+[wait se ad7]
+[charaFace D 2]
+＠ランスロット
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+おお！　丸太に触っただけで[r]あっという間に宝具級の武装になったぞーー！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[communicationCharaClear]
+[wait fade]
+[soundStopAll]
+[end]

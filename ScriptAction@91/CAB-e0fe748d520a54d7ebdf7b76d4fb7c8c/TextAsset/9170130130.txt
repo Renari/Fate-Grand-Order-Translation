@@ -1,0 +1,193 @@
+＄91-70-13-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20800]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7013001 1 清姫]
+[charaSet E 98006000 1 雑魚エネミー]
+[charaSet F 98015000 1 ？？？]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠清姫
+……コホン。[r]マスター、少々目線を外していただけますか？
+[k]
+
+＠清姫
+いえ、あまり見られたものでもないので。[r]ええ、ありがとうございます。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 2]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[scene 20113]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0 0]
+[fadein black 0.5]
+[wait fade]
+＠清姫
+あら、こんな広い洞窟が……。[r]神秘的ですね。
+[k]
+
+＠マシュ
+……この手の洞窟ですと、ドラゴンが財宝を[r]守っている、というのが相場ですが……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+さすがにドラゴンはいないようですね。[r]ただ、何かの気配があります。
+[k]
+
+＠マシュ
+マスター、気を付けて下さい。
+[k]
+
+[charaFace D 5]
+＠清姫
+マシュさんの言う通りですね。[r]わたくしの後ろにお下がりください。
+[k]
+
+[charaFace D 1]
+＠清姫
+安心して下さい。[r]どんな魔物であろうとも、お守りします。
+[k]
+
+＠？？？
+[line 2]それはどうかしら。[r]ねえ、[#清姫:わたくし]。一つ聞いていい？
+[k]
+
+[charaFace D 5]
+＠清姫
+え……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaSet F 7013001 0 清姫（？）]
+[charaDepth F 0]
+[charaShadow F true]
+[charaFadein F 0.7 1]
+＠清姫（？）
+あなた、本当にサーヴァントである資格があると思うの？
+[k]
+
+＠清姫（？）
+惚れた相手を憎み、恨み、怒りで殺したあなたが？[r]本当に次こそはマスターを守ろうと誓えるの？
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFadein F 0.1 0]
+[charaFadein D 0.1 2]
+[charaFace D 5]
+＠清姫
+わた、くし……！？
+[k]
+
+＠清姫（？）
+不可能、不可能よ。[r]何故ならあなたは獣だもの。
+[k]
+
+＠清姫（？）
+綺麗な自分を見せず、醜い自分を露わにして。[r]それでも己を愛せなんて、贅沢でしょう。
+[k]
+
+＠清姫（？）
+戦士が愛する者に自身が惨たらしく殺戮を[r]繰り広げる様を見せつける？
+[k]
+
+＠清姫（？）
+人は隠すことによって、愛を訴える。[r]あなたはそれを欺瞞だというけれど[line 2]
+[k]
+
+＠清姫（？）
+これが欺瞞なら、あなたは人間に獣を愛せと[r]強制しているのではないかしら。
+[k]
+
+＠清姫（？）
+だってそうでしょう。[r]あなたは、本性を剥き出しにして、浅ましくも[line 2]。
+[k]
+
+＠清姫（？）
+彼に迫ったのですから。
+[k]
+
+[charaFace D 4]
+＠清姫
+違う……わたくしは……そんな……。
+[k]
+
+＠清姫（？）
+さあ、マスター。[r]こんな者など、見捨ててしまいなさい。
+[k]
+
+＠清姫（？）
+彼女はいつか、あなたの他愛ない嘘で本性を[r]剥き出しにし、喉元を食い破る。
+[k]
+
+＠清姫（？）
+そんな女、放り捨てた方が賢明ですよ？
+[k]
+
+？1：イヤだ
+
+？2：断る
+
+？！
+
+[charaFace D 0]
+＠清姫
+マスター……！
+[k]
+
+＠清姫（？）
+そう。あなたは優しいのですね。[r]まるで、あの安珍様のよう。
+[k]
+
+＠清姫（？）
+では、この清姫の醜く浅ましい姿を見て、[r]なおそう言えるか[line 2]試して差し上げましょう！
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+マスター、退がってください！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠清姫
+……マスター……わたくしが、守ります！[r]本当です、嘘ではありません！
+[k]
+
+？1：信じている
+
+？2：分かっている
+
+？！
+
+[charaFace D 2]
+＠清姫
+……はい！[r]行きますわよ、[#偽者:わたくし][line 2]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

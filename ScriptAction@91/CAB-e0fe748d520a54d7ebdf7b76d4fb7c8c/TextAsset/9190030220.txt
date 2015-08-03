@@ -1,0 +1,310 @@
+＄91-90-03-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20401]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98007000 0 ジャンヌ・オルタ]
+[charaSet E 98006000 1 幽霊]
+[charaSet F 98021000 1 市民]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 0]
+[charaFace D 1]
+[charaFadein D 0 2]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ・オルタ
+あっけない。あらかた片付きましたね。[r]根性なしにも程があるわ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+＠市民
+い、今のは……あんたたち一体……。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+あなたたちには関わりのないことです。[r]消えなさい。
+[k]
+
+＠市民
+ひっ……！
+[k]
+
+[charaFace F 0]
+[charaFadeout F 0.1]
+[wt 0.5]
+[charaFadeout D 0]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+さて、隙間を埋める作業に戻りましょう。[r]次は[line 2]軍の野営地です。
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20301]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 2]
+[charaFace A 13]
+[charaFadein A 0 0]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+市民に犠牲がなくて幸いでしたね。
+[k]
+
+＠ジャンヌ・オルタ
+……？[r]ああ、市民に犠牲がなかったのですか。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+意外でした。[r]二割くらいは食われるものかと。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……あの、ジャンヌ・オルタさん。[r]彼らを助けようとして、あれほど一生懸命だったのでは？
+[k]
+
+＠ジャンヌ・オルタ
+特にそんなつもりはありません。[r]犠牲になるならば致し方ないでしょう？
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+それは彼らの運命です。[r]現実は、もっと凄惨に命を落とすかもしれないし、
+[k]
+
+＠ジャンヌ・オルタ
+そもそも彼らは生きていたところで[line 3][r]何を為すでもない。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+いえ、むしろ彼らは足を引っ張る側です。安寧に生きる[r]ことを一番に考える者は、常に突出する者を咎める。
+[k]
+
+[charaFace A 14]
+＠マシュ
+そんな……。
+[k]
+
+？1：間違っている
+
+？！
+
+＠ジャンヌ・オルタ
+……私はこの件に対して、既に回答を得ているわ。[r]余計な口出しはしないで頂戴。
+[k]
+
+[charaFadeout D 0.7]
+[wt 0.7]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 0 5 0 3]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+……オルタさんは、間違っているでしょうか？
+[k]
+
+＠Dr.ロマン
+確かに、しばしば英雄あるいは天才と呼ばれる者は[r]その突出した才故に、咎められることがある。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そしてそれを是とするのは、[r]まさしく彼らのような名もなき市民だ。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+……とはいえ、それは仕方ない側面でもある。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+固定観念というのは、[r]人間を形成する要素でも意外に大事なものでね。
+[k]
+
+＠Dr.ロマン
+だってそれがないと、[r]自己という概念が定まらないじゃないか。
+[k]
+
+＠Dr.ロマン
+自分の立ち位置を安定させてこそ、[r]人間は落ち着けるんだから。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+だけど、ジャンヌ・ダルクにとっては[line 2][r]少なくとも、[#彼女:オルタ]にとっては害悪だろう。
+[k]
+
+＠Dr.ロマン
+そういう人間たちの思念で、焼き殺されたような[r]ものだからね。彼女は。
+[k]
+
+[charaFace A 13]
+＠マシュ
+ドクターがそんなことを言うのは、少し意外です。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+そうかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ・オルタ
+無駄話はそこまで。[r]……そろそろ、次の場所に到着します。
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[scene 21001]
+[charaSet E 98014000 0 兵士]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0 2]
+[charaDepth E 0]
+[charaFadein E 0]
+[fadein black 0.5]
+[wait fade]
+＠兵士
+止まれ！[r]ここは[line 2]。
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+黙れ！
+[k]
+
+＠兵士
+ひっ……！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.5]
+[charaFace D 0]
+＠ジャンヌ・オルタ
+裂け目と思しきものは、野営地の真ん中です。[r]急ぎましょう。
+[k]
+
+[charaFace A 7]
+[charaFadein A 0.1 0]
+＠マシュ
+はい！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 21001]
+[charaSet E 98014000 1 指揮官]
+[charaDepth E 0]
+[charaFadein E 0]
+[fadein black 0.5]
+[wait fade]
+＠指揮官
+素晴らしい！　この軍勢があれば、[r]我らはイングランドを容易く押し戻せるだろう。
+[k]
+
+[charaFadeout E 0]
+[charaTalk F]
+[charaFadein E 0.1 0]
+[charaSet F 98006300 2 魔術師]
+[charaDepth F 0]
+[charaFadein F 0]
+＠魔術師
+……お褒めにあずかり恐悦至極。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 0]
+[charaFace D 4]
+[charaFadein D 0.1 2]
+＠マシュ
+な……！？
+[k]
+
+＠ジャンヌ・オルタ
+[line 2]フン、意図的な裂け目でしたか。[r]ですが、やるべきことに違いはありません。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+そこの方々、申し訳ありませんがとっとと[r]退がって下さい。その裂け目を、打ち壊しますので。
+[k]
+
+＠指揮官
+な[line 2]何者だ、貴様は！？
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+うるさいわね。[r]私の正体なんて貴方には関わりのない事でしょう。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+それより。イングランドを倒すのに、[r]悪魔の力を借りるなど正気の沙汰ですか？
+[k]
+
+＠指揮官
+う、うるさい！[r]おい、誰かこいつらを摘まみ出せ！
+[k]
+
+[charaSet G 8001000 1 兵士]
+＠兵士
+う……。
+[k]
+
+＠指揮官
+これは命令だ！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+……ふん、では裂け目の前に兵士たちを[r]倒しましょう。
+[k]
+
+[charaFace A 14]
+＠マシュ
+こ、殺してはダメです！
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+……ホント、面倒臭いことを言うのね。[r]わかったわよ、出来る範囲で努力してあげる……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,264 @@
+＄91-40-14-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4014001 1 牛若丸]
+[charaFace D 1]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠牛若丸
+ふぁ……おはようございます！[r]主どの、いかがなさいました？
+[k]
+
+？1：ここはどこだろう
+
+？！
+
+[charaFace D 4]
+＠牛若丸
+そう言えば……おかしいですね。[r]レイシフトに失敗したのでしょうか？
+[k]
+
+[charaFace D 0]
+＠牛若丸
+マシュどのとフォウどのは……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+＠マシュ
+こちらです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+[charaFace D 1]
+＠牛若丸
+マシュどの、フォウどの！[r]良かった、ご無事で！
+[k]
+
+[charaFace D 4]
+＠牛若丸
+怪我はありませんか？[r]御身に何かあれば、主どのが悲しみます。
+[k]
+
+＠フォウ
+ンー、キュ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+問題ありません。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……どうやら、レイシフトの際に事故があったようです。[r]ドクターに帰還要請を出すので、しばらくお待ち下さい。
+[k]
+
+[messageOff]
+[charaFadeout A 0.7]
+[charaFadeout D 0.7]
+[wipeout rightToLeft 0.4 2]
+[wait wipe]
+[wt 0.3]
+[scene 21100 0]
+[wipein rightToLeft 0.4 2]
+[wait wipe]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+いや、済まないみんな。原因は不明だけど、[r]こちらでも信号をしっかり捕捉している。
+[k]
+
+＠Dr.ロマン
+跳躍した先の詳細も不明だけど、空間は安定している。
+[k]
+
+＠Dr.ロマン
+ひとまず待っていてくれ。[r]修理完了次第、すぐにレイシフトで帰還させるから。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠牛若丸
+わかりました！[r]主どの。念のため、危険がないか見回りに行ってきます！
+[k]
+
+[charaFace A 6]
+＠マシュ
+待って下さい。念のため、全員で行動しましょう。[r]マスターもよろしいですね？
+[k]
+
+？1：問題ない
+
+？2：それでいこう
+
+？！
+
+[charaFace D 1]
+＠牛若丸
+はい！
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[charaFadeout D 0.4]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[bgmStop BGM_EVENT_2 0.5]
+[bgm BGM_EVENT_1 0]
+[scene 20800 0]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 12]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+マスター、牛若丸さん、足下大丈夫ですか？
+[k]
+
+[charaFace D 0]
+＠牛若丸
+だ、大丈夫で……ひゃっ！？
+[k]
+
+[charaShake D 0.05 2 2 0.5]
+[se ad7]
+[wait se ad7]
+[charaFace D 4]
+＠牛若丸
+す、すいません。ありがとうございます！[r]くう。鞍馬天狗に育てられた身で転げるとは……。
+[k]
+
+[charaFace D 0]
+＠牛若丸
+それにしても、この森[line 2][r]我が国とは様相が違いますね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+そうですね。あの海岸からも察するに……[r]ここは孤島ではないでしょうか？
+[k]
+
+＠牛若丸
+マシュ殿の仰る通りでしょう。[r]大陸と地続きである可能性は低いと思います。
+[k]
+
+[charaFace D 4]
+＠牛若丸
+これが遭難なら、[r]木を切って筏を作るべきでしょうが……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+レイシフトで帰還するなら、[r]筏の必要はなさそうですね。
+[k]
+
+[charaFace D 0]
+＠牛若丸
+残念。こう見えて伐採は得意なのですが[line 2]。
+[k]
+
+[charaFace A 6]
+＠マシュ
+どうしました？
+[k]
+
+[charaFace D 2]
+＠牛若丸
+[line 2]お静かに。魔性の気配がします。
+[k]
+
+[charaFace A 7]
+＠マシュ
+……確かに。[r]フォウさん、お静かにですよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+キュッ。
+[k]
+
+[charaFace D 1]
+＠牛若丸
+……。[r]す、すいません。
+[k]
+
+[charaFace D 3]
+＠牛若丸
+フォウさんの可愛さに、ちょっと胸が[r]締め付けられました。
+[k]
+
+[charaFace D 0]
+＠牛若丸
+気配が[line 2]接近を始めています。[r]主どの、奇襲を仕掛けますか？
+[k]
+
+？1：そうしよう
+
+？2：わかった
+
+？！
+
+[charaFace D 2]
+[bgmStop BGM_EVENT_1 0.5]
+[bgm BGM_EVENT_3 0]
+＠牛若丸
+はい、では私が回り込みます。[r]マシュさんが迎え討って下さい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.5]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+凄い……アサシン並みの『気配遮断』です。[r]では、迎撃します。マスター、退がってください。
+[k]
+
+[se ad21]
+[wait se ad21]
+[charaFace A 2]
+＠マシュ
+……来ます！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠牛若丸
+追い込みました！[r]いきます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

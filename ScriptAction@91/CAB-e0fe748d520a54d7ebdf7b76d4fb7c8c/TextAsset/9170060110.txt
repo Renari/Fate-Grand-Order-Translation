@@ -1,0 +1,293 @@
+＄91-70-06-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 98013100 0 ？？？]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠坂田金時
+退屈だ。うっかり眠っちまうほど退屈だ。[r]だが、そう悪くない夜だな、これは。
+[k]
+
+＠坂田金時
+街の喧騒も悪かないが、[r]夜の森の静けさってのも別の味わいがあるもんだ。
+[k]
+
+[charaFace D 4]
+＠坂田金時
+具体的にいうと、なんだ。アレだよ、アレ。[r]ほら、癒やし系とかセラピー的な何か？
+[k]
+
+[charaFace D 0]
+＠坂田金時
+まあいいや、面倒くせえ。なあ、大将。[r]アンタはどっちが好みだ？
+[k]
+
+＠坂田金時
+夜の女か、森の女か。[r]派手目な女か、慎ましやかで大人しいお嬢様か。
+[k]
+
+？1：街の夜
+
+[charaFace D 3]
+＠坂田金時
+そいつは意外だな。オレの予想も外れたか。
+[k]
+
+[charaFace D 0]
+＠坂田金時
+でもまあ、なんだ。[r]アンタの時代の街ぁ、オレも好きだぜ。
+[k]
+
+＠坂田金時
+うまいこと世界を救った暁にはいい店を教えてやる。[r]ゴールデンとはいかないが中々にプラチナな店だ。
+[k]
+
+＠坂田金時
+前に現界で見付けたお気に入りでよ。[r]あそこはいい。酒も食い物も、なかなかのもンだった。
+[k]
+
+？2：森の夜
+
+[charaFace D 1]
+＠坂田金時
+やっぱりなあ！　そんな気がしてたんだ相棒！[r]女の趣味[line 3]じゃなかった、気が合うなオレたちは！
+[k]
+
+[charaFace D 0]
+＠坂田金時
+とはいえ、アンタは都会育ちだろ？[r]山育ちのツラじゃねえのは見りゃわかる。
+[k]
+
+＠坂田金時
+オレは山で育った。森は、言ってみりゃあ庭だ。[r]よく駆け回ったもんだぜ。
+[k]
+
+？！
+
+[charaFace D 4]
+＠坂田金時
+しかし……。[r]空の輪っか、ありゃあ邪魔だな。
+[k]
+
+＠坂田金時
+せっかくの夜の風情を壊しやがる。[r]無粋の極みだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい。空の「輪」については、現在も[r]正体は判明していません。不明の現象です。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクターとダ・ヴィンチさんが[r]解析作業を進めてはいますが[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationChara 98003003 1 5 0 4]
+＠Dr.ロマン
+わからないんだよね、これが。さっぱりだ。[r]あのソロモンはあれが宝具だと言っていたけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ、フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠坂田金時
+気に入らねえ。[r]ったく、夜の空に在るのは星と月だけで充分だ。
+[k]
+
+＠坂田金時
+星も、月も。ついでに[r]お天道様も邪魔だってツラで浮かんでやがる。
+[k]
+
+＠坂田金時
+何様だか知らねえが[line 2]
+[k]
+
+[charaFace D 0]
+＠坂田金時
+っと。無駄話してる場合じゃねえな。[r]無粋なのは他にもいたようだ。
+[k]
+
+＠坂田金時
+月を肴にとは言うがよぉ。アレか？[r]化け物でも酒受けが欲しいってかぁ？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+はい？
+[k]
+
+？1：何かいるのかな？
+
+？2：何も気配は感じないけど──
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、先輩。魔力反応も気配もありません。[r]静かな森そのものです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+こっちにも感知されてる反応はないね。[r]そりゃ、野生動物っぽい動体反応ぐらいはあるけど、
+[k]
+
+＠Dr.ロマン
+キミたちの驚異になりそうなものは[r]特に見当たらないな[line 2]
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[se ad17]
+[bgm BGM_EVENT_3 0.1]
+＠？？？
+[fontSize x-large]ＧＡＡＡＡＡＡＡＡＡ[line 2]！！[-]
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+え！？　何！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+南西の遠方より、不明生物の咆哮を確認！[r]魔力反応の感知範囲外からのものですが、これは……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+間違いありません！[r]竜種の咆哮！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+な、なるほど、それでか！[r]英霊・坂田金時の今夜の「散歩」の理由は！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠坂田金時
+……チッ。予想よりでけぇじゃねえか。[r]面倒くせえ仕事が更に面倒くさくなったぜ。
+[k]
+
+[charaFace D 0]
+＠坂田金時
+第二の特異点、だったか。[r]この時代で吠え盛る野郎を感じてな。
+[k]
+
+＠坂田金時
+こりゃ、アレだな。[r][line 3]熊だ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+くま？
+[k]
+
+＠坂田金時
+山で吠え盛るでかい獣って言や、熊しかいねえ。[r]南蛮の熊は随分と五月蠅く鳴くもんだ！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+いやあー熊はどうだろうか！[r]まあ、でも、認識としてはそう間違ってないのか？
+[k]
+
+＠Dr.ロマン
+幻想種の頂点、竜種。[r]ある意味では生態系のトップとも言える訳で……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠坂田金時
+おう、任せな。熊退治と洒落込むぜ。[r]行くぜ大将、まずは露払いだ！
+[k]
+
+＠マシュ
+[line 2]高速で接近する魔力反応、複数！[r]この速度、この魔力、恐らくはワイバーンです！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+竜種が存在していることで、[r]連鎖的に出現したのかな、厄介なことに数が多いぞ！
+[k]
+
+？1：熊退治だ！
+
+？2：ワイバーン退治だ！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+はい、マスター！[r][line 2]戦闘態勢に入ります！
+[k]
+
+＠坂田金時
+おう、シャツの袖はめくっとけよ？[r]返り血で汚れるのは[#風流:イキ]じゃねえからな！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[soundStopAll]
+[end]

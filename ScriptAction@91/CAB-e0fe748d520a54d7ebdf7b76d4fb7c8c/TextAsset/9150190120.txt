@@ -1,0 +1,74 @@
+＄91-50-19-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20300 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5019001 1 エルメロイ]
+[charaSet E 98006000 1 魔物]
+[fadein black 1]
+[wait fade]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+敵性反応、いまだ拡大中！[r]すごい数だ、そんなにお嫁さんに飢えていたのか！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1]
+＠マシュ
+ドクター、感心している場合ではありません！[r]なんとかしてください！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+ごめん、こっちはスキャンする事しかできなくて……[r]まあ、現場の判断でなんとか乗り切ってくれたまえ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 15]
+[charaFadein A 0.1]
+＠マシュ
+了解、頼れるのは先輩だけという事ですね！
+[k]
+
+？1：すまない、行くぞマシュ！
+
+？2：いつも通りだ、行くぞマシュ！
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠エルメロイ
+ほう。凡人ながらも気骨はなかなか。[r]策はないがやる気だけはあるとみた。
+[k]
+
+[charaFace D 1]
+＠エルメロイ
+フン[line 3]実に悪くない。
+[k]
+
+＠エルメロイ
+かつての私を思い出すじゃあないか。[r]これなら[#俺]も本腰を入れてもいい。
+[k]
+
+[charaFace D 2]
+＠エルメロイ
+所詮はヤツに至るまでの過程だが、[r]こいつは実の在る契約になりそうだ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[soundStopAll]
+[end]

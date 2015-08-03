@@ -1,0 +1,89 @@
+＄91-70-16-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7016001 1 タマモキャット]
+[charaSet E 98006200 1 魔物]
+[charaSet F 7009001 0 アステリオス]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠タマモキャット
+よし、海岸は制圧したワン。[r]では上陸だ、川で鮭を捕まえ、森で獣をいただく！
+[k]
+
+[charaFadeout D 0.7]
+[wt 1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+キャットさんが森に入っていきました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ここまできたら一蓮托生です。[r]追いかけましょう、先輩！
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[scene 20800]
+[charaFace F 2]
+[charaFadein F 0 1]
+[fadein black 0.5]
+[wait fade]
+＠アステリオス
+でて、いけ……！[r]このかわは、ボクの、なわばり……！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFadein F 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠タマモキャット
+バカめ、自然は誰のものでもない。[r]焼き肉において、肉は早い者勝ちの理論に似て。
+[k]
+
+[charaFace D 5]
+＠タマモキャット
+……ん？　肉は早い者勝ち……[r]肉……肉……肉……よみがえる松阪牛の記憶……
+[k]
+
+[charaFace D 1]
+＠タマモキャット
+じゅるり。おまえ、もしや五つ星の牛サンか？
+[k]
+
+＠アステリオス
+じゃあく！　おまえ、じゃあく！[r]でもちょっとだけ、えうりゅあれもそういうトコ、ある！
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+……ちょっと目を離しただけでこのトラブルでした。[r]マスター、どうしますか？
+[k]
+
+？1：よし、タマモキャットに加勢するぞ！
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

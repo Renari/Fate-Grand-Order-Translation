@@ -1,0 +1,173 @@
+＄91-10-08-02-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1008001 1 ジークフリート]
+[charaSet E 98015000 1 ハーゲン]
+[charaFace A 12]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+彼らは大丈夫でしょうか……？
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジークフリート
+『ラインの黄金』がこの国から消えれば、[r]記憶も合わせて消去され、元に戻るはずだ。
+[k]
+
+＠ジークフリート
+死人が出る前に、急ぐとしよう。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20110]
+[fadein black 0.5]
+[wait fade]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+目的地までもう少しだ。[r]だが、その周囲に複数の生体反応がある。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0 1]
+＠マシュ
+広いですね。[r]……マスター、退がって下さい。
+[k]
+
+＠マシュ
+ドクターの言っていた生体反応が接近してきます！
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジークフリート
+これを倒せば終わりだな。[r]……何？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：？？？
+……久しぶりだな、我が友よ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein E 0.1 0]
+[charaFadein D 0.1 2]
+＠ジークフリート
+お前は……！？
+[k]
+
+＠E：？？？
+驚くことはないだろう。[r]この『ラインの黄金』を手に入れたのはお前だけではない。
+[k]
+
+＠E：？？？
+俺もまた、お前を殺害して獲得したのだ。[r]このハーゲンがな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+ハーゲン……確か、ジークフリートを背後から[r]討ったという……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+『ラインの黄金』を触媒として召喚されて[r]しまったようですね。
+[k]
+
+＠ハーゲン
+その通り。もっとも、俺はこいつに頼まれただけだ。[r]なあ、我が友よ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠ジークフリート
+……俺を友と思うのならば、そこを退いてくれ。[r]ハーゲン。
+[k]
+
+＠ハーゲン
+断る。この宝は俺のものだ。[r]お前を殺し、俺が手に入れた。
+[k]
+
+＠ハーゲン
+クリームヒルトのようなあばずれに渡すものか。[r]お前のように、死を選んだ臆病者に渡すものか……！
+[k]
+
+＠ハーゲン
+この金は！　この財宝は！[r]何もかも全て、俺のものだ……！！
+[k]
+
+[charaFace D 4]
+＠ジークフリート
+[line 2]何と言おうと、言い訳にしかなるまい。
+[k]
+
+＠ジークフリート
+確かに俺は臆病者だ。[r]踏み留まって、打開するべきだったのだろう。
+[k]
+
+＠ジークフリート
+あの悲劇は俺の画策したものではないが……。[r]それでも、俺に責任があるのは間違いない。
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+……しかし、だ。[r]『ラインの黄金』は回収させて貰う。
+[k]
+
+＠ジークフリート
+我欲ではない。[r]それが正しいと信じるからだ。
+[k]
+
+＠ハーゲン
+[line 2]ハハ。何が正しいのかも分からぬままに[r]剣を振るっていた男がよく言う！
+[k]
+
+[charaFace D 4]
+＠ジークフリート
+お前の言う通りだ。俺は生前、[r]何が正しいのかも分からぬままに剣を振るってきた。
+[k]
+
+[charaFace D 5]
+＠ジークフリート
+……だが、最近の俺はようやく俺の正しさを[r]見据えることができるようになってきてな。
+[k]
+
+[charaFace D 2]
+＠ジークフリート
+俺の望み、果たさせて貰うぞ[line 2]ハーゲン！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

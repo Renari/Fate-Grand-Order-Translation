@@ -1,0 +1,113 @@
+＄91-50-05-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 5005001 0 アンデルセン]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠アンデルセン
+悪くない。[r]この発想はなかった。むしろ遅すぎたか。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ミスター・アンデルセン？
+[k]
+
+[charaFace D 0]
+＠アンデルセン
+[%1]。マシュ。[r]次だ。次に行こう。
+[k]
+
+[charaFace D 1]
+＠アンデルセン
+たしかローマ帝国でも暴れたんだったな？[r]我が心の憧れ、イタリア半島へＧＯだ！
+[k]
+
+？1：好きで暴れたワケでは……
+
+？2：肉体労働はイヤだって……
+
+？！
+
+[charaFace D 2]
+＠アンデルセン
+能書きはいい、それでも俺の編集者か！[r]いいから次の観察対象を見に行くぞ！
+[k]
+
+[charaFace A 8]
+＠マシュ
+……作家としての琴線に触れたようですね。[r]観念してお付き合いしましょう。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 10800]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[fadein black 0.5]
+[wait fade]
+＠アンデルセン
+いたな！　ごきげんよう、くらえ！
+[k]
+
+[se bac23]
+[wait se bac23]
+[messageOff]
+[charaFadeout D 0.1]
+[charaSet E 98014000 2 兵士]
+[charaFadein E 0.1 2]
+[charaMove E 0 1.5]
+[wt 1]
+[charaEffect E bit_talk_13]
+[se bac9]
+[charaShake E 0.05 0 3 0.5]
+＠兵士
+ごはっ!?
+[k]
+
+＠兵士
+なんという怪しいヤツ！　とくにその子供が怪しい！[r]顔から悪質さがにじみ出ている！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アンデルセン
+おお、なんてケンカっ早い！[r]さすがはローマ兵士、頭は常時ヴァカンス状態だな！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+ミスター、お言葉ですが出会った瞬間に泥玉を[r]投げつけられたら、誰だって怒ると思います！
+[k]
+
+＠アンデルセン
+なに、展開にマキをいれてやっただけだ！[r]頼むぞ[%1]、今回も峰打ちでな！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,114 @@
+＄91-20-02-01-4-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20210]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2002001 1 ギルガメッシュ]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+[wt 0.5]
+＠ギルガメッシュ
+こんなところか。いつか在ったかもしれぬ[r]聖杯戦争を生き抜いた気分はどうだ？
+[k]
+
+？1：今のが聖杯戦争……？
+
+？2：十分に堪能しました……
+
+？！
+
+[charaFace D 1]
+＠ギルガメッシュ
+よしよし。[#我:オレ]も少しは愉しめた。[r]貴様らの[#足掻:あが]く様はよい暇潰しになる。
+[k]
+
+＠ギルガメッシュ
+それこそが[#我:オレ]の益と知っておけ。[r]あくまで、今のところはだがな。
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ふーん。英雄王は人間嫌いなのかい？
+[k]
+
+＠Dr.ロマン
+[%1][&君:ちゃん]もそうだけど、[r]人間には守るべき価値はないと？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ギルガメッシュ
+阿呆か貴様。好きも嫌いもないわ。[r]単に、人間には価値がないだけの話だからな。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+はい……？
+[k]
+
+[charaFace D 0]
+＠ギルガメッシュ
+貴様らも覚えておけ。人間に価値はない。[r]だが、人間が作るものには価値がある。
+[k]
+
+[charaFace D 1]
+＠ギルガメッシュ
+[#我:オレ]が愛するのは成果だけだ。[r]それをゆめ忘れず、考える事だな。
+[k]
+
+[charaFadeout D 0.4]
+[wait fade]
+[wt 0.5]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+……なるほど、そういう王のワケか。[r]コイツはまた付き合い辛い英霊だなあ。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+でも強力なサーヴァントである事は確かだ。[r]彼の力は最後まで頼りになる。
+[k]
+
+＠Dr.ロマン
+大変だろうけど、がんばってね[%1][&君:ちゃん]。[r]英雄王の手綱は任せたよ。
+[k]
+
+？1：は、はあ……
+
+？2：自信ないなあ……
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+ファ、ファイトです、先輩！[r]わたしも及ばずながらフォローしますね！
+[k]
+
+＠フォウ
+フォウ、フォウ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

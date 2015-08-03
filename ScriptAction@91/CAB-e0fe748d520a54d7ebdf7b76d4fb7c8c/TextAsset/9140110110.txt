@@ -1,0 +1,397 @@
+＄91-40-11-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20800]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4011001 1 ブーディカ]
+[charaSet E 98006000 2 ？？？]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ブーディカ
+～～～～♪
+[k]
+
+＠ブーディカ
+～～♪[r]～～～～～～♪♪♪
+[k]
+
+＠ブーディカ
+……ん？　どうかした？
+[k]
+
+[charaFace D 3]
+＠ブーディカ
+あ。ごめん、鼻歌聞こえてた？[r]久しぶりに、故郷の森を歩いてるものだから。
+[k]
+
+＠ブーディカ
+つい、ね。[r]楽しくなってきちゃった。
+[k]
+
+[charaFace D 0]
+＠ブーディカ
+それより、[%1]。[r]大丈夫かな。歩き詰めだけど、疲れてない？
+[k]
+
+？1：大丈夫だよ
+
+[charaFace D 1]
+＠ブーディカ
+うん、そっか。[r]キミが元気で何より！
+[k]
+
+？2：そっちこそ、大丈夫？
+
+[charaFace D 1]
+＠ブーディカ
+あはは、あたしはサーヴァントだよ？[r]体力なら任せておいて。
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+あ……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+（いつもはわたしが言っていることですが、[r]　今日は、先を越されてしまいましたね[line 2]）
+[k]
+
+[charaFace A 11]
+＠マシュ
+（い、いえ。べつに。[r]　そこに重要な意味などありませんが）
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ？
+[k]
+
+[charaFace A 6]
+＠マシュ
+はい、何でしょうかフォウさん。[r]急にすり寄ってくるなんて。
+[k]
+
+＠フォウ
+フォウ、フォ、フォーウ。[r]キュウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+慰めてるんじゃないかなあ。[r]ほら、ブーディカのお姉さん度数はすごいから、
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+どうしても[%1][&君:ちゃん]は[&弟:妹]な[r]ポジションに納まる訳だから。うんうん。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+必然的に、マシュは寂しくなるよね。[r][line 2]という風に、フォウは言ってるんじゃないかな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……ありがとうございます、フォウさん。[r]でも、気遣っていただかなくても平気です。
+[k]
+
+＠マシュ
+わたしも、ブーディカさんも、[r]等しく先輩のサーヴァントの立場です。
+[k]
+
+＠マシュ
+寂しい[line 2]なんて、[r]そんな風に感じることはありません。
+[k]
+
+＠マシュ
+先輩のことを気遣ってくれる方が増えるのは、[r]むしろ、喜ばしいことですから。
+[k]
+
+＠フォウ
+フォーウ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ブーディカ
+そうだ。[r]実は、レイシフトする前に……。
+[k]
+
+＠ブーディカ
+カルデアの居住区に残ってたキッチンを借りて、[r]おべんと、作っておいたんだよね。
+[k]
+
+＠ブーディカ
+良かったら、さ。[r]食べる？
+[k]
+
+[charaFace D 3]
+＠ブーディカ
+日本のオニギリってのをね、作ってみたの。[r]はじめてだから口に合うかわかんないけど[line 2]
+[k]
+
+[charaFace D 1]
+＠ブーディカ
+もし、キミがお腹空いてたら。[r]どう？
+[k]
+
+？1：いただきます
+
+？2：そういえば、お腹空いた
+
+？！
+
+＠ブーディカ
+そう？　良かった！[r]じゃあ[line 2]このあたりで休憩、しよっか。
+[k]
+
+[charaFace D 0]
+＠ブーディカ
+ね。マシュ、どうかな？[r]休憩してもいい？
+[k]
+
+[charaFace A 0]
+＠マシュ
+あっ、はい、問題ないと思います。[r]先輩の体力的にも、休息が必要であるはずです。
+[k]
+
+[charaFace D 1]
+＠ブーディカ
+やった♪　なら、さっそくゴハン、ゴハン！[r]あのあたりの芝生なんていいんじゃない？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ！
+[k]
+
+[charaFace A 13]
+＠マシュ
+そうですね。[r]特に、シート類を広げずとも済みそうな[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+いいなあピクニックみたいで！　いいなあ！[r]こっちはぼっち飯だよ、ウウ……じゃなくて！！
+[k]
+
+[communicationCharaFace 2]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠Dr.ロマン
+魔力反応、多数確認だ！[r]休憩前に本命を発見したかも知れないぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ブーディカ
+あーもうっ。[r]せっかく、久しぶりの森の休息だったのに。
+[k]
+
+＠ブーディカ
+いいところで邪魔するんだから、[r]ほんと、悪い[#妖精:ゴブリン]ってのは意地悪ったらない！
+[k]
+
+[charaFace A 2]
+＠マシュ
+前方から複数の群れが来ます、先輩！[r]気を付けてくださいっ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+……ゲッゲッゲ。[r]ウマソウ、オンナ、ウマソウ、ゲッゲッゲ。
+[k]
+
+＠？？？
+オトコ、コロス……。[r]オンナ、ス、ニ、モッテカエル、ゲッゲッゲ。
+[k]
+
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+！！！
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+うまそう女ゲッゲッゲ……な、なんてことだ、[r]古代ケルトの妖精はプリミティブとは聞いていたが！
+[k]
+
+＠Dr.ロマン
+な、なんだかもうプリミティブに過ぎて、[r]ボクには変な意味に聞こえてきてしまうほどだぞ！？
+[k]
+
+＠Dr.ロマン
+で、でも実際どうなんだ、変な意味なのか！？[r]どうなんだ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein C 0.1 1]
+＠フォウ
+フォ、フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクター？　フォウさんも……？[r]何を、そんなに反応しているんですか？？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ブーディカ
+休息を邪魔してくれた上に、[r]あたしの故郷、ブリタニアの森を穢したな[line 2]
+[k]
+
+＠ブーディカ
+せっかく、[%1]に膝枕でもして[r]いい子いい子してあげようと思ってたのに[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+えっ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ブーディカ
+聖杯の影響だか知らないけど、[r]妙に大きく膨らんだ[#妖精:ゴブリン]たちめ！
+[k]
+
+＠ブーディカ
+フツーの[#妖精:ゴブリン]ってのは、[r]確か、もー少しくらい小さかったはずなのに！
+[k]
+
+＠ブーディカ
+変な妖精め、アンタたちなんかには[r]絶対[line 2]
+[k]
+
+＠ブーディカ
+絶対、負けない！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+！！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+！！！！
+[k]
+
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+えっ、あっ、わざとやってるんじゃないよね！？[r]ブーディカさん、その負けちゃう系フラグ[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ブーディカ
+え、なに？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクター、何を言ってるのですか？
+[k]
+
+？1：い、いいから戦闘だ！
+
+？2：絶対負けない！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！[r]戦闘態勢に入ります！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

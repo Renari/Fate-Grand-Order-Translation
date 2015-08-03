@@ -1,0 +1,137 @@
+＄91-70-01-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20523]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7001001 1 ヘラクレス]
+[charaSet E 98013000 1 女の子]
+[charaSet F 98006000 1 獣人]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+よし、こちらはもう大丈夫ですね。[r]あっ！！　あそこの女の子！！
+[k]
+
+[charaFadeout A 0.1]
+＠女の子
+うえぇ～ん……、お母さーん！！
+[k]
+
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+まずいぞ、バーサーカーは子供なんて目に入らない！[r]何とか止めないと！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+＠女の子
+うわ～ん！！
+[k]
+
+？1：止まれ、ヘラクレス！！
+
+？2：それはダメだ！！
+
+？！
+
+[charaFace D 2]
+＠ヘラクレス
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[messageOff]
+[charaFadeout D 0]
+[fadeout black 0]
+[scene 10000]
+[fadein black 0]
+[se bac7]
+[flashin once 0.1 1.2 FF4040FF 00000000]
+[wait flash]
+[wt 1]
+＠Dr.ロマン
+こ、怖くてモニターを正視できない……[r][%1]君、今の女の子、やっぱり……
+[k]
+
+＠マシュ
+いえ、ドクター違います。[r]彼が狙ったのは後ろの……！！
+[k]
+
+[fadeout black 0]
+[scene 20523]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[fadein black 0]
+＠獣人
+グギェ……。
+[k]
+
+[messageOff]
+[charaSpecialEffect F enemyErasure 0 2]
+[se ba6]
+[wait charaSpecialEffect F]
+＠少女
+うえ～ん、怖かったよう……。
+[k]
+
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+よしよし、もう大丈夫ですよ。[r]さあ、安全なところへ逃げましょう。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+……ほう。女の子が助かってよかった。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+そうか。バーサーカーは敵意の大きいものを[r]優先的に狙うのか。だから[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ドクター残りの生存者は？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああ、もう周囲には敵性反応だけだよ。[r]むしろさっきよりピンチだよ。
+[k]
+
+？1：なら思う存分暴れていいぞ！！
+
+？2：やっちゃえ、バーサーカー！！
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[communicationCharaClear]
+[wait fade]
+[soundStopAll]
+[end]

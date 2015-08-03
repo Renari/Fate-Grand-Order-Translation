@@ -1,0 +1,97 @@
+＄91-70-13-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20113]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7013001 2 清姫]
+[charaSet E 98006000 1 雑魚エネミー]
+[charaSet F 7013001 0 清姫（？）]
+[charaTalk F]
+[charaFace D 5]
+[charaFadein D 0]
+[charaShadow F true]
+[charaFace F 0]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+＠清姫（？）
+[line 2]ふん。きっと後悔するでしょう。[r]わたくしの言葉なんだから、真実に決まっているのに。
+[k]
+
+[messageOff]
+[charaSpecialEffect F darkEnemyErasure 0 3]
+[se ba6]
+[wait charaSpecialEffect F]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠清姫
+……ふぅ。[r]マスター、一つお尋ねしてよろしいですか？
+[k]
+
+[charaFace D 4]
+＠清姫
+……どうか、この質問に嘘はつかないで下さいませ。[r]マスター[line 2]わたくしは、醜いですか？
+[k]
+
+？1：どこが？
+
+？2：何が？
+
+？！
+
+[charaFace D 0]
+＠清姫
+え？[r]いや、その……[#転身:かわり]ますでしょう、わたくし。
+[k]
+
+[charaFace D 4]
+＠清姫
+醜い龍の姿に。[r]それが醜くないか、と思ったのですが……。
+[k]
+
+？1：頼もしい
+
+？2：格好良い
+
+？！
+
+[charaFace D 0]
+＠清姫
+[line 2]まあ、なんて酷い。[r]嘘をついておりません、この人……！
+[k]
+
+[charaFace D 1]
+＠清姫
+あは、あはははは！[r]頼もしいとか格好良いとか……！
+[k]
+
+＠清姫
+乙女に対する褒め言葉じゃありません！[r]もう、なんてひどいマスターなのかしら！
+[k]
+
+[charaFace D 0]
+＠清姫
+でも、いいです。[r]わたくし、嘘が嫌いですが[line 2]。
+[k]
+
+＠清姫
+あの[#偽者:わたくし]が言った言葉は、[r]嘘に変えてみせましょう。
+[k]
+
+[charaFace D 1]
+＠清姫
+かつて嘘を許さず、紅蓮の焔で愛を焼いた[r]女の意地[line 2]見せて差し上げます。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

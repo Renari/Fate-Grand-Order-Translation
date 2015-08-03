@@ -1,0 +1,93 @@
+＄91-70-03-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21002]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7003001 0 呂布]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……なんとか撃退しましたか。[r]それにしても、凄まじい戦いぶりでしたね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ……、確かにこいつは『天下無双』だ[r]看板に偽りなし、って感じだけど……。
+[k]
+
+？1：ありがとう！！
+
+？2：信じてたよ！！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0.1]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠呂布
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+『虎狼』……、『呂布奉先』か……。
+[k]
+
+＠Dr.ロマン
+そういえば、彼は一人の女性のために生涯を捧げた。[r]っていう逸話もあったね……。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+さてさて、どっちが本当の彼なのか……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+本当の自分……。
+[k]
+
+[messageOff]
+[wipeout downToUp 0.4 2]
+[wait wipe]
+[charaFadeout A 0]
+[wt 0.5]
+[scene 20322]
+[charaFadein D 0.1 1]
+[wipein downToUp 0.4 2]
+[wait wipe]
+＠呂布
+…………。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

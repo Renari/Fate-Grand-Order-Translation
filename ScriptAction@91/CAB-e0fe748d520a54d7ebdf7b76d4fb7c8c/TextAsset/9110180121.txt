@@ -1,0 +1,93 @@
+＄91-10-18-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20702]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 2 フォウ]
+[charaSet C 1018001 1 アルテラ]
+[charaFace C 1]
+[charaFadein C 0]
+[fadein black 1]
+[wait fade]
+＠アルテラ
+……大したものだ、マスター。
+[k]
+
+＠アルテラ
+少し、見直したぞ。[r]立ち竦みでもするかと思っていたが。
+[k]
+
+[charaFace C 0]
+＠アルテラ
+私は、お前の在り方をみくびっていたようだ。[r][%1]、世界を救おうとする者よ。
+[k]
+
+＠アルテラ
+……そろそろ、戻れ。[r]ここは、お前が居続けるには相応しくない。
+[k]
+
+＠アルテラ
+私だけでいい。[r]ここは[line 2]
+[k]
+
+[charaFace C 4]
+＠アルテラ
+[line 2]この暗がりは、[#私のもの]だから。
+[k]
+
+[charaFadeout C 0.4]
+[messageOff]
+[wipeout circleOut 1.5 1]
+[wait wipe]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400 0]
+[wipein circleIn 1.5 1]
+[wait wipe]
+[charaFace A 0]
+[charaFadein A 0.7 1]
+[wt 0.3]
+＠マシュ
+おはようございます、先輩。
+[k]
+
+＠マシュ
+予定時刻を過ぎても出てこないので、[r]様子を見に来たのですが[line 2]
+[k]
+
+[charaFace A 13]
+＠マシュ
+寝坊、していたんですね。[r]大丈夫ですか、夢にうなされていたようでしたが。
+[k]
+
+？1：悪い夢じゃなかったよ
+
+？2：ちょっとガチで戦ってたから
+
+？！
+
+[charaFace A 12]
+＠マシュ
+そう……ですか？[r]良ければ、後で詳しく……いえ、何でもありません。
+[k]
+
+[charaFace A 1]
+＠マシュ
+朝食の準備が整っています。[r]行きましょう、先輩。
+[k]
+
+[charaFadeout A 0]
+[charaTalk B]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

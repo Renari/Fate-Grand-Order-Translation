@@ -1,0 +1,73 @@
+＄91-60-12-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20500]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6012001 2 サンソン]
+[charaSet E 6012001 0 サンソン（？）]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0]
+[charaShadow E true]
+[charaFace E 0]
+[charaFadein E 0]
+[fadein black 1]
+[wait fade]
+＠サンソン（？）
+……ふん。[r]マスターはそこまでの覚悟なんですね。
+[k]
+
+＠サンソン（？）
+ならば、いいでしょう。[r]まだ信の刃を置けるかどうかは見定めますが[line 2]。
+[k]
+
+＠サンソン（？）
+ひとまず、処刑人としての本領を発揮しましょう。
+[k]
+
+[messageOff]
+[wipeout circleIn 2 2]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.2]
+[charaShadow E false]
+[wt 0.5]
+[scene 10400]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 1]
+[charaFadein D 0 1]
+[wipein circleIn 2 2]
+[wait wipe]
+＠サンソン
+やあ。[r]夢を見ていたのかい？
+[k]
+
+＠サンソン
+……そうだろうね。[r]僕もまた、夢を見ていましたから。
+[k]
+
+[charaFace D 0]
+＠サンソン
+……未だ悩みは尽きない。[r]否、僕の煩悶は死して尚付きまとう。
+[k]
+
+＠サンソン
+それでも、あのとき自分を信じてくれたあなたに。[r]僕は力を捧げよう。
+[k]
+
+[charaFace D 1]
+＠サンソン
+それだけが、今の僕にできることだから[line 2]
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

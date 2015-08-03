@@ -1,0 +1,185 @@
+＄91-70-16-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7016001 1 タマモキャット]
+[charaSet E 98006300 1 魔物]
+[charaSet F 7009001 0 アステリオス]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠タマモキャット
+ご主人、狩りに行くぞっ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ひゃっ!?[r]キャ、キャットさん、いきなり驚かさないでください！
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+うむ、それはすまなんだ、ナンマンダブ。[r]だが溢れる野性は止められぬ故な。そこんとこ分かれ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+そ、それにしても唐突すぎるかと……[r]先輩も何か注意してあげてください。
+[k]
+
+？1：お腹がすいた？
+
+＠タマモキャット
+それも理由の一つと言っておこう！
+[k]
+
+？2：爪を研ぎたい？
+
+＠タマモキャット
+それは常に研ぎたいと言っておこう！
+[k]
+
+？！
+
+[charaFace D 1]
+＠タマモキャット
+だがやはりご主人は話がわかるナ！[r]これは、もしや狩りに行くしかないのではないか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ？
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+お、ナイスデザイン。そのリス、可愛いナー。[r]アタシの肉球に乗ってもいいぞ。いや乗れ。
+[k]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFace D 1]
+＠タマモキャット
+わははははははは！[r]くすぐったい、くすぐったい！　[line 3]隙あり！
+[k]
+
+＠フォウ
+フォウ!?[r]ンー、キャキャーーーーウ！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.2]
+[charaFace D 0]
+＠タマモキャット
+ふはは、この可愛いのは預かった！[r]むぎゅっとされたくなければマシュも狩りに行くぞ！
+[k]
+
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ああ、フォウさんが人質に……!?[r]先輩、キャットさんはああ見えて頭脳派です！
+[k]
+
+？1：うん。たまに賢いよ、キャット
+
+？2：……まあ、ネコと名乗ってるだけだし……
+
+？！
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 4]
+[fadeout white 1]
+[scene 21100]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠タマモキャット
+見覚えのある海岸だなご主人。[r]ここは、いずこの邪神の国か？
+[k]
+
+？1：女神さまがいた島だ
+
+[charaFadeout D 0.1]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ステンノさんがいた島ですよ。[r]覚えていませんか？
+[k]
+
+＠タマモキャット
+うむ。とんと記憶にございませぬ。
+[k]
+
+？2：邪神さまがいた島だ
+
+＠タマモキャット
+やっぱりなー。そんな気はしてたワン。[r]だってこの島、ほんと陰の気で満ちてるし。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+？！
+
+＠マシュ
+でも先輩、本当になぜこの島に？[r]なにかアテがあるのですか？
+[k]
+
+＠タマモキャット
+いや、みなまで言うなマシュザエモン。[r]この島は野生の宝庫。ニンジンには事欠かぬ。
+[k]
+
+＠タマモキャット
+その証拠に、ほれ。[r]団体さんでお出迎えときたぞ？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠魔物
+NeeeeeeeeCoooooooooo！
+[k]
+
+[charaFace A 7]
+＠マシュ
+て、敵ですか!?[r]ドクター、敵性反応のチェックをしてください！
+[k]
+
+＠Dr.ロマン
+“ただいま　この回線は使われておりません[r]　お昼休みなため　任務外の労働はお断りしております”
+[k]
+
+[charaFace A 14]
+＠マシュ
+もうっ！[r]今回はみなさんゆるみっぱなしですね！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

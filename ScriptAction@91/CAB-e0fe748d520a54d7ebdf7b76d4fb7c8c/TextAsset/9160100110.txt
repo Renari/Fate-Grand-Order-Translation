@@ -1,0 +1,395 @@
+＄91-60-10-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10202]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6010001 0 ステンノ]
+[charaSet E 98006300 1 ？？？]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 6]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……宝探し、ですか？
+[k]
+
+＠ステンノ
+いいえ、少し違うわ。[r]今回のお願いは以前のそれとは趣旨を変えているの。
+[k]
+
+＠ステンノ
+アナタたちにお願いしたいのは、[r]宝物を隠した場所を荒らす不埒者を退治すること。
+[k]
+
+＠ステンノ
+場所は、そう、以前の私が現界していた場所よ。[r]一世紀の[line 2]カタチのある島。
+[k]
+
+[charaFace A 0]
+＠マシュ
+記憶しています。[r]地中海にある、小さな島ですね。
+[k]
+
+[charaFace D 1]
+＠ステンノ
+ええ。あそこにね、[r]幾つか宝物を隠しておいたの。
+[k]
+
+＠ステンノ
+また、こうして英霊として召喚されることがあったら[r]取りに行けば良いと思って。
+[k]
+
+[charaFace D 4]
+＠ステンノ
+なのに、いざ島の様子を覗いてみれば、[r]平和だった楽園はもう過去のもの。
+[k]
+
+＠ステンノ
+きっと、あの一世紀に[r]不埒者が宝物を掘り返してしまったのね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+なる……ほど？
+[k]
+
+[charaFace D 0]
+＠ステンノ
+わたしの感じるところでは、[r]不埒者たちは不死系の怪物たちに違いないわ。
+[k]
+
+[charaFace D 1]
+＠ステンノ
+ねえ、どうでしよう皆さまがた。[r]追い払ってくれるだけでいいの。
+[k]
+
+＠ステンノ
+お願いされてくださらない？[r]ドクター・ロマニ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 2]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+え、ええーっボク？　ボクに振るのその話？[r]コホン。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+麗しき女神ステンノのお願いとあれば、[r]引き受けざるを得ないと言いたいところだけども[line 2]
+[k]
+
+＠Dr.ロマン
+第二の特異点修正の折にも、[r]キミ、無理難題をふっかけてきたよねえ……。
+[k]
+
+＠Dr.ロマン
+今回も……。[r]そういうアレじゃないのかなあ……。
+[k]
+
+[charaFace D 4]
+＠ステンノ
+あら、残念。[r]お願いできないの？
+[k]
+
+[charaFace D 0]
+＠ステンノ
+ねえ、[%1]。私のマスター。[r]私のお願い、アナタは聞いてくれるわよね？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォウフォーウ。フォウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクターの言う通りです、先輩。[r]彼女には悪いですが、わたしたちには任務があります。
+[k]
+
+[charaFace A 7]
+＠マシュ
+きちんと返答を。[r]先輩は彼女のマスターなんですからっ。
+[k]
+
+？1：女神さま、喜んで！
+
+？2：不埒者は許せないよね！
+
+？！
+
+[charaFace A 6]
+＠マシュ
+せ、先輩！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠Dr.ロマン
+よーしそうと決まればボクも協力するよ！！[r]レイシフト準備！　はい完了！　調子がいいぞお！
+[k]
+
+＠フォウ
+フォウ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクターまで！[r]まさか、ステンノさんの所有する魅了スキル！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ステンノ
+ふふ、スキルだなんて言わないでくださる？[r]これは私の在りようなのだもの。
+[k]
+
+＠ステンノ
+私は女神。どんな勇者をも[r]虜にするよう望まれ、生まれ落ちた現象よ。
+[k]
+
+＠ステンノ
+だから、ね。[r]アナタには悪いけど。
+[k]
+
+＠ステンノ
+付き合って頂戴な。[r]楽しいイベントになるだろうから、がんばって。
+[k]
+
+[charaFace A 12]
+＠マシュ
+楽しい、と、がんばって、という言葉が[r]相反しているような気が[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+レイシフト開始！[r]そーれ！
+[k]
+
+＠ステンノ
+いってらっしゃい、ふたりとも♪
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+ああっ[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[effectStop]
+[wait fade]
+[scene 21100]
+[charaFace A 12]
+[charaFadein A 1]
+[fadein black 1]
+[wait fade]
+[se ad37]
+[wt 2]
+[seStop ad37 2]
+＠マシュ
+……来てしまいました。[r]ここは、確かに以前も訪れた地中海の島……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+先輩の様子は……。
+[k]
+
+？1：あれ？　どうして島に？
+
+？2：カルデアにいたはずじゃ？
+
+？！
+
+[charaFace A 13]
+＠マシュ
+正気に戻られたようですね。[r]良かった。
+[k]
+
+[charaFace A 0]
+＠マシュ
+わたしたちは一世紀、第二の特異点の修正の折に[r]訪れた「カタチのある島」に来ています。
+[k]
+
+＠マシュ
+ステンノさんの「お願い」を、[r]先輩とドクターが引き受けてしまったためです。
+[k]
+
+[charaFace A 12]
+＠マシュ
+後は……説明する必要はありますか？
+[k]
+
+？1：思い出せた、大丈夫
+
+？2：そういえばそうでした……
+
+？！
+
+[charaTalk B]
+[charaFadeout A 0.1]
+[charaFadein A 0.1 2]
+[communicationChara 98003003 0 5 0 1]
+[wt 0.3]
+＠Dr.ロマン
+さあ、キミたち。出発だ！[r]ステンノさまのお言葉によれば宝物を隠したのは洞窟！
+[k]
+
+＠Dr.ロマン
+以前にも入ったあの洞窟だね、[r]場所はわかるよね。じゃあ行ってらっしゃい！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……。
+[k]
+
+[charaFace A 12]
+＠マシュ
+……ドクターはまだ魅了が効いているようですね。[r]これは、洞窟に行くしかない流れ……でしょうか……。
+[k]
+
+？1：仕方ない
+
+？2：サッとすませよう
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、先輩。[r]すぐに済ませてしまいましょう。
+[k]
+
+＠マシュ
+それから、気を付けてくださいね。[r]戦闘になる予感がします。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[scene 20110]
+[charaFace C 0]
+[charaFadein C 0 1]
+[fadein black 0.5]
+[wait fade]
+＠フォウ
+フォウ、フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+言っているそばから敵性反応のようです！[r]先輩、下がってください！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 0]
+[charaFadein E 0.4 0]
+＠？？？
+ゲッゲッゲ……。[r]ここから先を通すわけにはいかん……。
+[k]
+
+＠マシュ
+この魔力の感じは、不死系の怪物……？[r]ステンノさんのおっしゃった情報通りですね[line 2]
+[k]
+
+＠？？？
+すべては美しき女神ステンノさまのため……。[r]ステンノさまのお言葉通り、宝物は必ず守ろうぞ！
+[k]
+
+＠？？？
+我ら、一命を賭して侵入者を排除するまでのこと！[r]我ら、[#不死:アンデッド]系の怪物ですけどー！
+[k]
+
+[charaFace A 14]
+＠マシュ
+！？
+[k]
+
+[charaFace A 14]
+＠マシュ
+掘り返す不埒者というか……。[r]不埒者を排除する、守護者であるような物言い！
+[k]
+
+？1：あれ？　じゃあ不埒者って
+
+[charaFace A 15]
+＠マシュ
+き、きっとそうです！
+[k]
+
+？2：良かった、不埒者はいなかったんだ！
+
+[charaFace A 14]
+＠マシュ
+いえ、そうではなく[line 2]
+[k]
+
+？！
+
+[charaFace A 14]
+＠マシュ
+[#わたしたちが不埒者]なんです！[r]やっぱり、やっぱりステンノさんの悪ふざけでした！
+[k]
+
+＠？？？
+かえれー、かえれー。[r]宝物はくれてやらんぞ、かえれー！
+[k]
+
+＠？？？
+うおー！　ステンノさま、うおおーーーー！[r]不埒者は許さんぞー！！
+[k]
+
+[charaFace A 15]
+＠マシュ
+不死系の怪物にまで通用する魅了……[r]いえ、これが、愛されるために生まれた女神の力！
+[k]
+
+＠マシュ
+先輩、来ます！[r]戦闘は回避できません！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[soundStopAll]
+[end]

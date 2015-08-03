@@ -1,0 +1,293 @@
+＄91-40-19-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10802]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4019001 0 マルタ]
+[charaSet E 98006200 1 ？？？]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 5]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠マルタ
+………………。
+[k]
+
+＠マシュ
+……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……。
+[k]
+
+＠マシュ
+……はい、フォウさん。[r]でも今は少しだけ、静かにしていてくださいね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 5]
+[charaFadein D 0.1]
+＠マルタ
+………………。
+[k]
+
+？1：……マルタさん、機嫌悪い？
+
+？2：何だろうこの空気
+
+？！
+
+[charaFace A 12]
+＠マシュ
+はい……。マルタさん、張り詰めていますね。[r]この時代に来てからというもの、ずっと。
+[k]
+
+＠マシュ
+この時代、第二の特異点である古代ローマ時代に[r]何かがある[line 2]とおっしゃったのは彼女なのですが。
+[k]
+
+＠マシュ
+喜ばしい事態ではないようです。[r]前回のように、竜種にまつわる事柄なのでしょうか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうだとしたら、妙だよねえ。[r]前回は割とノリノリだったような？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+？1：個人的な因縁かな？
+
+[charaFace A 7]
+＠マシュ
+確かに[line 2][r]一世紀は彼女が生きていた時代ではありますね。
+[k]
+
+？2：何だろう？
+
+[charaFace A 4]
+＠マシュ
+わたしには、わかりません[line 2]
+[k]
+
+？！
+
+[charaFace D 4]
+＠マルタ
+……本来。
+[k]
+
+＠マルタ
+本来、有り得てはならないことです。[r]すべての魂は神の御心の下にあるのですから。
+[k]
+
+＠マルタ
+天国へも地獄へも行かず、[r]地上をさまよう。
+[k]
+
+＠マルタ
+そんなことがあって良いはずがないのよ、[r]だって、すべての……。
+[k]
+
+＠マルタ
+原罪は、既に……。
+[k]
+
+[charaFace A 6]
+＠マシュ
+マルタさん？
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+魂[line 2][r]あ、魔力反応を感知！　前方から大量に！！
+[k]
+
+＠Dr.ロマン
+この魔力の在り方は間違いない、[r]ゴースト系の怪物だ。襲ってくるぞ、気を付けて！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+？1：マシュ、戦闘態勢！
+
+[charaFace A 2]
+＠マシュ
+はい、マスター！
+[k]
+
+？2：マルタさん、戦闘です！
+
+[charaFace D 0]
+＠マルタ
+………………。
+[k]
+
+？！
+
+[charaFace D 5]
+＠マルタ
+…………チッ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+えっ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+舌打ち！？　聖女さまが！？[r]え、な、何かボク変なこと言ってしまいましたか！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠マルタ
+有り得ない、つってんのにさぁ……。[r]なんでこーポコポコ湧いて出てくるのかしらね。
+[k]
+
+＠マルタ
+魂は、ぜんぶ、[r]神の御許にって言ってんでしょうが……？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウッ。
+[k]
+
+？1：き、聞こえない聞こえない
+
+？2：マルタさーん！
+
+？！
+
+[charaFadeout C 0.1]
+[charaFace A 15]
+[charaFadein A 0.1]
+＠マシュ
+ぜ、前回のあれは夢ではなかったんですね、[r]マルタさんの様子が何だか[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああっ、そうか、確かにそうなんだ！[r]魂が地上をさ迷うってのは、本来なら[#有り得ない]！
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+神の御許へ、なるほどね。うん。うん。[r]まあ実際のとこゴースト系怪物っていうのは、まあ、
+[k]
+
+＠Dr.ロマン
+何かしらの魔術的要因があって初めて在るもので、[r]本来の意味で[#自然発生]するものじゃない。
+[k]
+
+＠Dr.ロマン
+自然のシステムとしてはね。[r]でも待てよ、それを言ったら英霊だって[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠？？？
+オオオ、オオ、オォオオ[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein E 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠マルタ
+……だから。
+[k]
+
+＠マルタ
+有り得ない、つってんのにさぁ。[r]どうして出てくるのかなあ、よりにもよって[line 2]
+[k]
+
+[charaFace D 2]
+＠マルタ
+……この、私の前に！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+聖女マルタの魔力反応、増大！[r]せ、先輩、宝具の真名解放が来そうですよ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+マスターの指示もなしに！？[r]キ、キレてる！　だめだ[%1][&君:ちゃん]！
+[k]
+
+＠Dr.ロマン
+怪獣タラスクなんて暴れさせたらローマが危ない！[r]彼女をちゃんと制御しつつ、せ、戦闘だ！
+[k]
+
+＠Dr.ロマン
+すみやかにゴーストの群れを排除！[r]いいね！
+[k]
+
+？1：マシュ、戦闘態勢！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠マシュ
+はい、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

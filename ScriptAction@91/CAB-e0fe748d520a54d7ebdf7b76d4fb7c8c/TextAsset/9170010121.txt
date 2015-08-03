@@ -1,0 +1,153 @@
+＄91-70-01-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10202]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7001001 1 ヘラクレス]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ヘラクレス
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+あ、[%1][&君:ちゃん]、[r]この間のバーサーカーの理由がわかったよ。
+[k]
+
+[charaFace A 0]
+＠マシュ
+……この間？[r]ああ、女の子を助けた時のヘラクレスさんですね。
+[k]
+
+[charaFace B 5]
+＠Dr.ロマン
+うん、それさ。おかしいと思っていろいろ調べたら[r]どうもヘラクレスにかかっている「狂化」は
+[k]
+
+＠Dr.ロマン
+わりと弱いモノらしいんだ。[r]理性をほんの僅か残しうるレベルのね。
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+だからあの時、彼は残っていた理性のおかげで[r]女の子への攻撃をせずに済んだってわけさ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 0]
+[charaFadein A 0.1]
+[charaFadein B 0.1]
+＠マシュ
+そうなのですか。でもなぜヘラクレスさんの[r]「狂化」はそんなに弱いものなのですか？
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+うん、「狂化」ってのはもともと弱いサーヴァントを[r]無理やり強化するスキルなんだけど
+[k]
+
+＠Dr.ロマン
+ヘラクレス程のサーヴァントともなると[r]「狂化」させるだけでも膨大な魔力を消費する。
+[k]
+
+＠Dr.ロマン
+つまり、普段は「狂化」のランクを下げて消費を[r]抑えた状態で現界してるってわけ。
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+まあ、[%1][&君:ちゃん]の魔力が[r]それほどでもないのも関係してるんだけどね。
+[k]
+
+[charaFace A 7]
+＠マシュ
+つまり、ヘラクレスさんは本来の狂化状態よりも[r]かなり弱体化しているという事ですか？
+[k]
+
+[charaFace B 0]
+＠Dr.ロマン
+それでも凡百の英霊とは比べ物にならないけどね。
+[k]
+
+[charaFace B 4]
+＠Dr.ロマン
+というか、本来の「狂化」をさせたらと思うと[r]空恐ろしいね。
+[k]
+
+？1：そうだったんだ……
+
+？2：今よりもっと強くなるのか
+
+？！
+
+[charaFadeout B 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ヘラクレス
+…………。
+[k]
+
+＠マシュ
+…………。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……でも多分ヘラクレスさんは、本来の狂化状態でも[r]きっとあの女の子を助けていたと思いますよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 2]
+[charaFadein B 0.1]
+＠Dr.ロマン
+いやいや、さすがにそれはないでしょ。[r]バーサーカーだよ、バーサーカー。
+[k]
+
+？1：そうだね、きっとそうだよ
+
+？2：ヘラクレスならきっとね
+
+？！
+
+[charaFace B 4]
+＠Dr.ロマン
+そうかなぁ……。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ええ、きっと……！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+…………。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

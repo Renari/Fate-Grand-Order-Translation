@@ -1,0 +1,107 @@
+＄91-40-14-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 21230 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4014001 1 牛若丸]
+[charaSet E 98006200 1 汎用魔物]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠牛若丸
+うむ、大体は片付いたな。[r]主どの！　主どの！
+[k]
+
+？1：手を振ってやる
+
+？2：グッジョブ
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠牛若丸
+マシュどの！　主どのが、褒めてくれました！
+[k]
+
+[charaFace A 1]
+＠マシュ
+良かったですね、牛若丸さん！
+[k]
+
+＠牛若丸
+はい！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+おうい。君たち、幽霊船から出ている反応はまだ完全に[r]消失した訳じゃないぞ。
+[k]
+
+＠Dr.ロマン
+早く仕留めてくれないと、帰還ができない。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠牛若丸
+え、そうなんですか？[r]でも[line 2]。
+[k]
+
+[charaFace A 14]
+＠マシュ
+もう、何も残ってないような……。
+[k]
+
+[bgmStop BGM_EVENT_1 1]
+[se ad42]
+[wait se ad42]
+[bgm BGM_EVENT_5 0.5]
+[charaFace D 2]
+＠牛若丸
+死体から靄が……！？
+[k]
+
+[charaFace A 7]
+＠マシュ
+なるほど、この船を動かしていた怨霊が[r]不安定にさせていた原因ですね……！
+[k]
+
+[charaFace D 0]
+＠牛若丸
+[line 2]では、マシュどの。今度こそ始末しましょう。
+[k]
+
+[bgmStop BGM_EVENT_5 0.5]
+[bgm BGM_EVENT_3 0]
+[charaFace D 4]
+＠牛若丸
+悪は必衰するが定め。[r]それが鬼ならば、尚のこと……。
+[k]
+
+[charaFace D 2]
+＠牛若丸
+汝の怨念。この牛若丸が[line 2]斬る！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

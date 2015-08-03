@@ -1,0 +1,95 @@
+＄91-30-01-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20800 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3001001 0 クー・フーリン]
+[charaFace A 6]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+森にイノシシの魔物……ですか？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、なんだか最近このあたりの森で[r]目撃されてるらしくてね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout A 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠クー・フーリン
+で、オレの出番ってわけか？[r]オレは別に狩人ってわけじゃねぇんだがな。
+[k]
+
+[charaFace D 5]
+＠クー・フーリン
+だいたいもっと向いてるヤツがいるだろ。[r]フィンのとこの一番槍とか、知らねえか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+いやぁ、彼、嫌がると思うよ、イノシシは……[r]数ある英雄譚の中でもトップランクのトラウマだし……
+[k]
+
+？1：それってディル[line 2]
+
+？2：それならアタ[line 2]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ストップです先輩。[r]誰しも苦手なものはあるのです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFace D 5]
+＠クー・フーリン
+仕方ねえなあ……[r]いいぜ、[#こいつ:ゲイボルグ]も鈍ってたとこだしよ。
+[k]
+
+[se ad58]
+[bgmStop BGM_EVENT_2 0.5]
+[bgm BGM_EVENT_3 0]
+[wt 2]
+[charaFace D 1]
+＠クー・フーリン
+っと、早速お出ましか。せっかちだねぇ
+[k]
+
+[seStop ad58 2]
+[charaFadeout C 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+イノシシではありません、はぐれホムンクルスです。[r]マスター、戦闘準備を……！
+[k]
+
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

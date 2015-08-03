@@ -1,0 +1,481 @@
+＄91-40-15-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 4015001 1 アレキサンダー]
+[charaSet E 98018100 1 海賊]
+[charaSet F 98018100 1 海賊]
+[charaSet G 98018100 1 海賊]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……[#叙事詩:イリアス]の英雄と会ってみたい、ですか？
+[k]
+
+＠アレキサンダー
+うん。そう。[r]お願いできるかい？
+[k]
+
+＠アレキサンダー
+君たちの召喚システムであれば、[r]かの大英雄と[#見:まみ]える事もできるんだろう？
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+最高の叙事詩に描かれたギリシャの大英雄！[r]その槍、その戦車、その肉体はまさしく最強の一語！
+[k]
+
+[charaFace D 3]
+＠アレキサンダー
+大好きなんだ。[r]この前、[#家庭教師:アリストテレス]からイリアスを貰って[line 2]
+[k]
+
+[charaFace A 6]
+＠マシュ
+（この前？）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ、フォウフォウ。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+あ、違う違う。[#生前]の話。[r]この姿形でいるせいか、ついつい間違えてしまうね。
+[k]
+
+＠アレキサンダー
+知っているだろうけど、[r]僕はイリアスが大好きなのさ。[r]そこに描かれた英雄もね。
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+いや、うん。いいよ、イリアスは！[r]実に読ませるんだ、まったく飽きが来ない！
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+いずれ戦場に赴く時にでさえ[r]僕は、肌身離さずこれを持ち歩きたいよ[line 2]
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+（いずれ？）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ、フォウフォウ？
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+あ、もう。また間違えた。[r]あはは、ごめんよ、どうしても感覚が抜けなくて。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+この姿、少年の頃の僕の感情や性格が強くて、[r]記憶も引っ張られてしまいそうなんだ。
+[k]
+
+＠アレキサンダー
+気を付けることにする。[r]それで、どうかな[line 2]マスター？
+[k]
+
+？1：イリアスの英雄か
+
+？2：アキレウス、か
+
+？！
+
+[charaFadeout B 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、先輩。[r]叙事詩イリアスの主人公である英雄アキレウス。
+[k]
+
+[charaFace A 12]
+＠マシュ
+古代ギリシャ屈指の大英雄のひとりです。[r]ですが、今は[line 2]
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+いないのか。[r]そっか。それはいい！
+[k]
+
+[charaFace A 6]
+＠マシュ
+はい？[r]いないのに、それでいいのですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 3]
+[charaFadein C 0.1 2]
+＠Dr.ロマン
+……あー、なるほど。[r]少年であっても冒険心は変わらないのか。[r]イヤな予感がしてきたよ、ボクは。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+うん、その通りだドクター。[r]探しに行く楽しみができてしまったじゃないか！
+[k]
+
+[charaFace D 2]
+＠アレキサンダー
+さあ、大英雄を求めていざ征かん！
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+アルゴー号が出現していた時代があったんだろう？[r]なら、その時代に赴けば彼が見付かるかも知れない。
+[k]
+
+＠アレキサンダー
+覚えてるかい？[r]僕がローマで君たちと出会った時も[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+……確かに、おっしゃる通りです。[r]あなたの存在に導かれるように連鎖して、他の英霊が。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠Dr.ロマン
+あの時はリアルタイムでは解析できなかったけど、[r]確かにそうだ。
+[k]
+
+[charaFace C 2]
+＠Dr.ロマン
+あの巨体のバーサーカーこそ、キミの！
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+好敵手……となる運命の相手、[r]と今の僕には感じられる相手だね。
+[k]
+
+＠アレキサンダー
+そう、ダレイオス三世。[r]あれは[#連鎖的な召喚]によって導かれたものだ。
+[k]
+
+[charaFace C 3]
+＠Dr.ロマン
+ふむふむ、なるほどね。悪くない考えかも知れないぞ。[r]特異点の修正は果たしているとはいえ[line 2]
+[k]
+
+[charaFace C 0]
+＠Dr.ロマン
+大航海時代にはまだ、連鎖的な召喚が行われる[r]可能性があるかも知れない！
+[k]
+
+？1：話は決まったね！
+
+？2：出発だ！
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、マスター。[r]ですが、第三の特異点の時代ということは[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 1]
+[charaFadein C 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠アレキサンダー
+よーしドクター、早速頼むよ！[r]いざ征かん！　イリアスの英雄を求めて！
+[k]
+
+＠Dr.ロマン
+うん、ボクも興味が湧いてきた。[r]なんにせよ実験は楽しいからね！
+[k]
+
+[charaFace C 2]
+＠Dr.ロマン
+では出撃だ、マシュ、[%1][&君:ちゃん]！[r]レイシフトに備えてくれたまえ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadein B 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠フォウ
+フォーウ、フォウフォウ！
+[k]
+
+＠マシュ
+は、はい、ドクターっ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0]
+[charaFadeout B 0]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait effect]
+[scene 21100 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[fadein white 0.5]
+[wait fade]
+[se ad37]
+[wt 2]
+＠アレキサンダー
+…………？？？
+[k]
+
+[seStop ad37 3]
+[charaFace D 4]
+＠アレキサンダー
+ん？？？
+[k]
+
+＠アレキサンダー
+なん……だ？？[r]この……あれ？　この、視界に広がるものは……？
+[k]
+
+[charaFace A 4]
+＠マシュ
+（やっぱり……）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ、フォウ？
+[k]
+
+[charaFace D 3]
+＠アレキサンダー
+何だ、これ……？？
+[k]
+
+？1：彼、どうしちゃったんだろう
+
+？2：海を見てぽかんとしてるね
+
+？！
+
+[charaFadeout B 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+は、はい[line 2][r]彼にとって海は特別な存在のはずなんです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+地の果て、オケアノス。[r]生前の彼がやがて求めることになる、果ての領域。
+[k]
+
+[charaFace A 4]
+＠マシュ
+ともすれば、彼が晩年まで世界を蹂躙し続けたのは[r][#世界の果て:オケアノス]を目にしようとしたため、とさえ[line 2]
+[k]
+
+[charaFace A 0]
+＠マシュ
+そんな彼にとって、[r]海を目にするというのは、特別な……。
+[k]
+
+[charaFace D 4]
+＠アレキサンダー
+……何だか、靄がかかっているみたいだ。
+[k]
+
+[charaFace D 2]
+＠アレキサンダー
+ちゃんと見えないし、聞こえない。[r]ねえ、この向こうに広がってる光景はどんなもの？
+[k]
+
+[charaFace D 4]
+＠アレキサンダー
+聞こえてくるのはどんな音？[r]何か、音もちゃんと聞こえないんだ。
+[k]
+
+[charaFace D 3]
+＠アレキサンダー
+陸ならちゃんと見えるし、[r]君たちの声は聞こえるんだけどなぁ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あれ？？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+もしかすると、アレかな。幼い彼は半ば自動的に[r]「見ない」ことを選んでいるのかも知れないね。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+見ない、聞かない、か。[r]征服王イスカンダルとしての彼であればともかく[line 2]
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+いまだ幼いアレキサンダー少年としては、[r]「まだそれを目にしたくない」のかも知れないね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+？1：[line 2]ロマンチックだね
+
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……はい。そう、ですね。
+[k]
+
+？2：少し、悲しいね
+
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……はい。同時に、彼らしいとも思います。
+[k]
+
+？！
+
+[charaFace D 0]
+＠アレキサンダー
+うーん、何なのかなあ。[r]ブケファロスでちょっと走ってみようかな？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ、フォウフォウ！[r]……キュウ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+い、いえ、それは[line 2]
+[k]
+
+[charaFace D 1]
+＠アレキサンダー
+はは。冗談さ。[r]それより二人とも、お客さんみたいだよ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+あ、確かに……人間の集団が接近してはいますが、[r]魔力反応などはありませんね。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+それはね。[r]だって、ほら見て。これはあれだ[line 2]夜盗や山賊？
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠海賊
+だぁれが山賊だ！！[r]俺たちゃ正真正銘の海賊よォ！
+[k]
+
+[charaFace E 0]
+＠海賊
+手頃な島があったんで補給に寄ってみたら、[r]こりゃいい！　別嬪な嬢ちゃんに身なりのいいガキ！
+[k]
+
+[charaFace E 0]
+＠海賊
+身代金をがっぽりいただけそうだ！[r]いくぜおめえらァ！！
+[k]
+
+＠海賊
+海賊の誉れと本領[line 2][#略奪]の時間だ！！
+[k]
+
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+＠海賊たち
+うおー！！！！
+[k]
+
+[wt 0.5]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaTalk D]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠アレキサンダー
+ん、何？　かいぞく？
+[k]
+
+＠マシュ
+え、ええと山賊の亜種と認識してください！[r]先輩、敵性集団が接近中！
+[k]
+
+？1：戦闘準備！
+
+？2：人間相手だから追い払う程度で！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！[r][line 2]戦闘開始します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

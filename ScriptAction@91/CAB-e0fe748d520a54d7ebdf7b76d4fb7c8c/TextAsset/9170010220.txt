@@ -1,0 +1,244 @@
+＄91-70-01-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20110]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7001001 0 ヘラクレス]
+[charaSet E 98013000 1 ドラゴン]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 15]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+はぁ……、はぁ……。
+[k]
+
+＠ヘラクレス
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+だ、大丈夫かい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+はい、なんとか……、[r]ですがこのままではいずれ消耗して……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+言いにくいけど……、一つ手がなくはないんだ。
+[k]
+
+？1：どんなの？
+
+？2：おしえて
+
+？！
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+バーサーカーさ……、[r]以前、言ったよね。ヘラクレスの「狂化」は
+[k]
+
+＠Dr.ロマン
+まだ、本当の意味での「狂化」じゃない、[r]その上があるって……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ヘラクレス
+…………。
+[k]
+
+[charaFace A 7]
+＠マシュ
+本来の「狂化」ですか……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ……、彼が本来の「狂化」で[r]力を取り戻せばこの窮地から
+[k]
+
+＠Dr.ロマン
+脱出できるかもしれない……。
+[k]
+
+？1：よしやろう！！
+
+？2：なにか、問題があるみたいだね
+
+？！
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+言っただろう、ヘラクレス程の英霊を[r]本来の「狂化」でパワーアップさせるには
+[k]
+
+＠Dr.ロマン
+莫大な魔力必要だって……、[r]並の魔術師じゃ死んでしまうレベルの魔力がね。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+それにヘラクレスはもともと狂乱の逸話の多い英霊だ。[r]しかも狂乱の度に何かしらの悲劇を起こしてる。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……わたしは反対です。[r]先輩にそんな危険は犯させられません。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+だけど、もうマシュも限界だろう……。[r]他に方法が……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ヘラクレス
+…………。
+[k]
+
+？1：よし、やろう！！
+
+？2：ダメでもともとさ！！
+
+？！
+
+[charaFace A 4]
+＠マシュ
+…………………。
+[k]
+
+？1：で、どうやればいいですか？
+
+？2：やり方を教えてよ。
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+やり方は簡単だよ、ただ念じればいい。[r]もともとの召喚の詠唱をすこし変えるだけさ。
+[k]
+
+＠Dr.ロマン
+[line 2]汝、狂乱にその身を焦がせ……ってね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ヘラクレス
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[messageOff]
+[se ad18]
+[wait se ad18]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaTalk E]
+[wt 2]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+まずいぞ、いよいよ敵さん、最大戦力の投入だ。[r]幻想種、しかも竜種。
+[k]
+
+＠Dr.ロマン
+僕からは強制はしない。[%1][&君:ちゃん][r]君が決めてくれ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+…………。
+[k]
+
+？1：――汝、狂乱にその身を焦がせ
+
+？！
+
+[charaFadeout D 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩っ！！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+……………！！
+[k]
+
+[flashin once 0.6 0.4 FF4040FF 00000000]
+[se ad39]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠ドラゴン
+ゴアアアアアアアア！！！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ヘラクレス
+[image berserker_language_2][line 2]！！！！！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

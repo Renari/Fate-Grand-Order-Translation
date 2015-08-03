@@ -1,0 +1,598 @@
+＄91-90-01-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 5014001 1 船員]
+[charaSet F 98006000 1 漂流者]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+これで全員のはず……！？
+[k]
+
+[se ad14]
+[wt 1]
+[seStop ad14 3]
+[charaFadeout D 0]
+[charaTalk C]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+[se ad36]
+[wait se ad36]
+[charaFadeout C 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+船が動き出しました！
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+どうやら、この船そのものが魔力を持っていたようです。[r]下手に止めると、海の真ん中で立ち往生ですね。
+[k]
+
+＠ジャンヌ
+……危害を加える様子はなさそうです。[r]ひとまず、このまま進みましょう。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wt 0.3]
+[scene 21230]
+[charaFace A 0]
+[charaFace D 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジャンヌ
+……広いですね、海とは。
+[k]
+
+[charaFace A 13]
+＠マシュ
+そうですよね。[r]わたしも、少し前に初めてこの海を体感しました。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+ああ、大航海時代の話ですね。
+[k]
+
+[charaFace A 1]
+＠マシュ
+ええ。[r]不可能を不可能のままにしない、人間の業。
+[k]
+
+＠マシュ
+それは凶悪な力でもありますが、[r]未知を既知とする希望でもありました。
+[k]
+
+[messageOff]
+[charaFadeout A 0]
+[charaFadeout D 0]
+[fadeout black 0]
+[wait fade]
+[scene 20320]
+[fadein black 0]
+[wait fade]
+＠ジャンヌ
+[line 2]そう、確かに人間とはそういうもの。
+[k]
+
+＠ジャンヌ
+大航海時代の人間が、凶悪であるが故に未知を開拓[r]した者たちならば……。
+[k]
+
+＠ジャンヌ
+私を火刑に処した者たちは、善を全うしようとしたが[r]故に残酷さを露わにした。
+[k]
+
+＠ジャンヌ
+人の悪を許すことはできる。[r]だが[line 2]人の善を許すことは、できるのだろうか。
+[k]
+
+[messageOff]
+[fadeout black 0]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[scene 21230]
+[charaFace A 7]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 0]
+[wait fade]
+＠マシュ
+マスター！　ジャンヌさん！[r]船が一隻、前方に見えます！
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+あれは……漂流しているのでしょうか？[r]帆がボロボロです。
+[k]
+
+＠マシュ
+乗員が手を振ってますね。[r]船は接近しているようですから、声を掛けてみます。
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[charaFadeout A 0.5]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230]
+[charaFace A 7]
+[charaFadein A 0 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+何があったんですか！？
+[k]
+
+＠船員
+助けてくれ！[r]この船はもうすぐ沈んでしまう！
+[k]
+
+＠船員
+そちらの船に移らせてくれ！
+[k]
+
+＠マシュ
+マスター、船が止まりました。どうやら、是が非でも[r]この船に移らせるつもりのようです。
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 21230]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジャンヌ
+……わかりました。[r]では、板を渡します。急いで下さい！
+[k]
+
+＠漂流者
+ありがとう、ありがとう……！
+[k]
+
+[charaFadeout D 0]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+女性と子供を優先して下さい！[r]まだ大丈夫です！
+[k]
+
+[se ad45]
+[wait se ad45]
+[charaFadeout A 0]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……っ。
+[k]
+
+＠ジャンヌ
+おかしいですね……。[r]この程度で沈むほどの船ではないようですが。
+[k]
+
+[charaFadeout D 0]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+そちらの人間は、これで全部ですか！？
+[k]
+
+＠船員
+いや、まだだ！[r]まだ、後二人残っている！
+[k]
+
+＠船員
+おい、二人とも！
+[k]
+
+[charaFadeout A 0]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+え……？[r]嘘、そんな、まさか……！
+[k]
+
+＠ジャンヌ
+な[line 2]何故、何故あなたがそこに！？
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+ジャンヌさん？
+[k]
+
+＠ジャンヌ
+どうして、ここに居るんですか！？[r]母さん……！
+[k]
+
+[charaFace A 6]
+＠マシュ
+え……！？
+[k]
+
+＠船員
+いやいや、驚くにはまだ早いなァ！
+[k]
+
+[se su2]
+[wait se su2]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaSet E 5014001 0 メフィストフェレス]
+[charaDepth E 0]
+[charaFadein E 0.7 1]
+＠メフィストフェレス
+[line 2]どうもどうも、お久しぶりでございますな！[r]かれこれ数日くらいでしょうか？
+[k]
+
+[charaFace E 2]
+＠メフィストフェレス
+全員、一時停止！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+＠マシュ
+……！？[r]皆さん、一体……。
+[k]
+
+[charaFace E 0]
+[charaFadeout A 0.1]
+[charaFadein E 0.1 1]
+＠メフィストフェレス
+ああ、彼らはただの[#脇役:モブ]ですから。[r]騒がれても困りますし、放っておいてください。
+[k]
+
+＠メフィストフェレス
+[line 2]では、ジャンヌ・ダルク。[r]私を除けば、こちらの船の乗客は残り二人。
+[k]
+
+[charaFace E 2]
+＠メフィストフェレス
+一人はジャンヌ。[r]あなたの母親デース！
+[k]
+
+＠メフィストフェレス
+わざわざフランスからはるばる起こしくださり、[r]ありがとうございました！　[#感謝:メルシィ]！
+[k]
+
+[charaFace E 1]
+＠メフィストフェレス
+なんてね。ケヒヒヒヒ！　そしてもう一人。[r]こちらもあなたにとって、非常に重要な方ですよ？
+[k]
+
+[charaFace E 2]
+＠メフィストフェレス
+では、ご紹介しましょう。
+[k]
+
+＠メフィストフェレス
+イングランドの命によって、[r]あなたを火刑へと導いた薄汚い聖職者。
+[k]
+
+＠メフィストフェレス
+金を積まれ、あなたの魂を焔で灼いたどうしようもない[r]人間のクズ。
+[k]
+
+[charaFace E 1]
+＠メフィストフェレス
+あなたが火刑になるとき、あなたを嘲笑っていた男。[r]そう、もうお分かりですね！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+ピエール・コーション……！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠メフィストフェレス
+イグ・ザク・トリー！[r]はい、お母さんとピエールちゃんだけ解除しましょうね～。
+[k]
+
+＠メフィストフェレス
+痛くないでちゅよ～バブバブバブ～。
+[k]
+
+[charaFadeout E 0.1]
+[charaSet F 98012000 2 ピエール・コーション]
+[charaTalk F]
+[charaFadein E 0.1 0]
+[charaDepth F 1]
+[charaFadein F 0.1 2]
+＠ピエール・コーション
+……ひっ、ひっ、ひっ……。[r]引っ張らないで、痛い、痛い、痛い……！
+[k]
+
+[charaSet G 98012000 2 母親]
+＠母親
+……ああ、ジャンヌ……。
+[k]
+
+[charaFace E 0]
+＠メフィストフェレス
+そしてその船ですが、限度はあと一名。[r]それ以上乗せると、[#必ず沈む]。
+[k]
+
+＠メフィストフェレス
+さあ、ジャンヌ・ダルク。[r]選択して下さい。
+[k]
+
+＠メフィストフェレス
+あなたが救うのは、あなたを愛し続けた母親か？[r]それとも[line 2]あなたを蔑み続けたこの老人か？
+[k]
+
+[charaFace E 2]
+＠メフィストフェレス
+さあ、さあ、さああああああああ！！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+[line 2]何だ。そんなの決まっているでしょう。
+[k]
+
+＠メフィストフェレス
+はひ？
+[k]
+
+[se bac1]
+[wait se bac1]
+[fadeout black 0.1]
+[wait fade]
+[scene 21250]
+[fadein black 0.1]
+[wait fade]
+[se bac2]
+[wait se bac2]
+[charaFace D 5]
+＠ジャンヌ
+私がこちらに移れば、問題ありません。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaFadein E 0.1 0]
+＠メフィストフェレス
+……まったく躊躇いありませんね。[r]さすがと言えばさすが。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……お母さん、恐らく貴女は私からすれば[r]幻なのでしょう。
+[k]
+
+＠ジャンヌ
+でも、一目会えて良かった。[r]さ、行ってください。
+[k]
+
+＠母親
+そ、そんな……。
+[k]
+
+[charaFace D 5]
+[charaFadeout E 0.1]
+[charaFadein F 0.1 0]
+＠ジャンヌ
+ピエール・コーション司教。[r]……ともかく、さっさと行ってください。
+[k]
+
+＠ピエール・コーション
+……。[r]……。
+[k]
+
+＠ピエール・コーション
+わ、私は間違ってない。[r]おまえは、魔女だ……！
+[k]
+
+＠ジャンヌ
+[line 2]それで構いませんよ、まったく頑固者です。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 0]
+＠マシュ
+ジャンヌさん！[r]待って、待ってください！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+いいえ。これが正しい。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠メフィストフェレス
+……あのピエール・コーションを何故許せるのです？
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+母の哀しみはいつか癒える。[r]私の憎悪もいつか消える。
+[k]
+
+＠ジャンヌ
+悪と戦うのは天ではなく、我々ですが……。[r]悪を裁くのは法であり天であって、決して己ではない。
+[k]
+
+＠ジャンヌ
+私は彼を許せないでしょう。[r]しかし、それと救済は別問題です。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+可能であるなら、私は彼を救いますよ。[r]何度でも、です。
+[k]
+
+＠メフィストフェレス
+しかし、最後の捨て台詞を聞いたでしょう？[r]彼はまったく反省していませんよ？
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+彼の反省、彼の後悔、彼の悔悛などに期待してはいません。[r]人間は所詮、自分以外の何者にもなれない。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……さあ、メフィストフェレス。[r]船が沈むのでしょう？
+[k]
+
+＠ジャンヌ
+あなたも向こうに渡りなさい。いくらサーヴァントでも、[r]海の真ん中に放置されては辛いでしょう。
+[k]
+
+[charaFace E 1]
+＠メフィストフェレス
+何とまあ、呆れたほどに面白い御方だ！
+[k]
+
+＠メフィストフェレス
+しかし、わがはいを召喚した主にとっては、[r]まったくもって興醒めでしょうなあ！
+[k]
+
+＠メフィストフェレス
+今頃、怒りで腸を煮えくり返らせているかも[r]しれませんね！
+[k]
+
+[charaFace E 0]
+＠メフィストフェレス
+それでは、貴女の選択が[#間違っていた][r]ことを証明してあげましょう！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+え……！？
+[k]
+
+[charaFadeout D 0]
+[charaFadeout E 0]
+[se ad15]
+[wait se ad15]
+[flashin once 0.6 0.4 FF000080 00000000]
+[voice NP_501400_2]
+[shake 0.05 0 10 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+こ、これは…………！？[r]メフィストフェレスの……宝具……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ジャンヌ
+な[line 2]！？
+[k]
+
+[charaFace E 2]
+＠メフィストフェレス
+こんなお遊びで本気して貰っちゃ困りますねェ！[r]所詮、紛い物ですよ。
+[k]
+
+[charaFace E 1]
+＠メフィストフェレス
+ああ、いや。実のところ、彼らは本物と限りなく近い[r]紛い物ですけれど。
+[k]
+
+＠メフィストフェレス
+少なくとも、貴女の母親はまったく同じ反応ですしぃ？[r]ピエール・コーションも必ずああ言いますよぅ？
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+メフィストフェレス……！！
+[k]
+
+[charaFace E 2]
+＠メフィストフェレス
+[line 2]ほ、ほ、ほ！[r]いいですね、いいですね、その表情！
+[k]
+
+[charaFadeout D 0]
+[charaFadeout E 0]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠マシュ
+くっ……こっちの船が沈み始めました。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ジャンヌさんと合流します、マスター、フォウさん、[r]わたしに掴まってください！
+[k]
+
+[se bac1]
+[charaFadeout A 0.4]
+[wait se bac1]
+[se bac2]
+[wait se bac2]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠メフィストフェレス
+ふふん。この二人も来ましたか。[r]なーらーばー……カモン、シャドウサーヴァント！
+[k]
+
+[se su2]
+[charaFadeout E 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+シャドウサーヴァント……！[r]貴方の雇い主とやらは、一体何者……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィストフェレス
+ま、それはそれこれはこれ。[r]では、レェェェッツ……プレイ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

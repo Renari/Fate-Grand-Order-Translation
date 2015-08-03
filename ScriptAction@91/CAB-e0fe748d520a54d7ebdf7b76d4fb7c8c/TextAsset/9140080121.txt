@@ -1,0 +1,215 @@
+＄91-40-08-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21230]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4008001 1 黒髭]
+[charaSet E 98018100 0 絵描き海賊]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠絵描き海賊
+はい、『フランシス・BBA百選』[r]こちらの方で完売でーす。
+[k]
+
+？1：ギリギリだったね
+
+？2：ついに手に入れたぞ！！
+
+？！
+
+[charaFadeout E 0.4]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+＠マシュ
+……さ、最後の一冊だったみたいですね。[r]黒髭氏のところへ戻りましょうか。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+いや、その、なんだろうね、これ……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.4 0]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+あ、フォウ……、いたんだ？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[wait fade]
+[wt 0.5]
+[scene 21231]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_6 0.1]
+[charaFace D 5]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠黒髭
+……よぉ、どうやらやってくれたみてぇだな。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+黒髭さん！？　ひどい傷……！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠黒髭
+なに、海賊やってんだ……、こんな事もあらぁな。[r]首がつながってるだけまだましってもんだ。
+[k]
+
+？1：船長……ッ！！　その傷じゃ……！！
+
+？2：黒髭……ッ！！　死ぬな……！！
+
+？！
+
+＠黒髭
+なんだ、いっぱしの顔するようになったじゃねぇか。[r]なに、悔いはねぇよ。俺は海賊として死ねる。
+[k]
+
+[charaFace D 5]
+＠黒髭
+これほどの宝はねぇさ……。ただ願わくば……。[r]俺が生涯追い求めた宝……、一目見たかったぜ……。
+[k]
+
+[charaFace D 1]
+＠黒髭
+じゃあな！！　まったくいい人生だったぜ！！[r]さらばだ！！　ガハハハハハハハ……！！
+[k]
+
+[messageOff]
+[charaSpecialEffect D flashErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect D]
+[charaFadein A 0.1 1]
+[charaFace A 4]
+＠マシュ
+黒髭氏……。
+[k]
+
+？1：黒髭氏……
+
+？2：え？　そういう流れ？
+
+？！
+
+[charaFace A 8]
+＠マシュ
+[line 2]これが黒髭氏が追い求めた画集です。[r]これを胸にせめて安らかにお眠りください。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[se ad29]
+[flashin once 1 0.4 FFFFFF80 00000000]
+[charaFadein D 0.7 1]
+[wait se ad29]
+[bgmStop BGM_EVENT_6 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 1]
+＠黒髭
+おほっ！？　これが噂の会場限定BBA画集！？[r]新刊！　出た！！　新刊出た！！　これで勝つる！！
+[k]
+
+＠黒髭
+これ、吾輩大勝利の予感ですぞ！！[r]いや、正直ドレイクBBAとか超リスペクトだし
+[k]
+
+[charaFace D 3]
+＠黒髭
+まあ拙者の場合、BBA好きとは言っても、[r]いわゆる海賊としてのフランシス・ドレイクでなく
+[k]
+
+＠黒髭
+星の開拓者として見ている[r]ちょっと変わり者ですのでｗｗｗ
+[k]
+
+＠黒髭
+フェルディナンド・マゼランの影響がですねｗｗｗ[r]デュフｗｗｗ　つい本音が、失敬、失敬ｗｗｗ
+[k]
+
+＠黒髭
+これがあるからパイケットはやめられませんなｗｗｗ[r]なんていうか、これが黒髭とBBAのEternalだしｗｗｗ
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+…………。
+[k]
+
+＠Dr.ロマン
+帰ろうか……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+帰りましょう……。
+[k]
+
+？1：来年も来ようね
+
+[charaFace A 6]
+＠マシュ
+えっ！？
+[k]
+
+？2：疲れた……
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ……。
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

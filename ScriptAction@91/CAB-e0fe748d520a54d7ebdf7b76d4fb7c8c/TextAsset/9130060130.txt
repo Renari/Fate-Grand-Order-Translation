@@ -1,0 +1,134 @@
+＄91-30-06-01-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3006001 1 弁慶]
+[charaSet E 98025100 1 シャドウサーヴァント]
+[charaFace D 2]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠弁慶
+うむ、これで終わりだ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[messageOff]
+[se bac5]
+[charaEffect F bit_talk_12]
+[charaShake F 0.05 10 0 0.5]
+[wt 0.5]
+[charaSpecialEffect E darkEnemyErasure 1 3]
+[wt 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠弁慶
+ふぅ。実に良い汗を掻いた……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+[se ad31]
+＠マシュ
+ドクター？[r]ドクター？
+[k]
+
+[charaFace A 14]
+＠マシュ
+……むぅ、連絡が取れません。
+[k]
+
+[seStop ad31 2]
+[charaFadeout A 0.1]
+[charaFace A 14]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠弁慶
+少々物足りないが、そろそろ終わりかな？
+[k]
+
+[charaFace A 0]
+＠マシュ
+そうした方が良さそうですね。[r]レイシフト帰還の準備をしましょう。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+＠マシュ
+……え？[r]この反応は……！！
+[k]
+
+[se ad29]
+[wait se ad29]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaSet E 98025000 1 シャドウサーヴァント]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+＠シャドウサーヴァント
+ケケケケケ……！[r]ソノ、ナマエヲ、ヨコセ……！！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+くっ……これはトレーニング用の霊体がこちらの予想を[r]上回る速度で成長しています！
+[k]
+
+[charaFace A 2]
+＠マシュ
+今の彼らは、シャドウサーヴァントと同等……いえ、[r]それ以上、サーヴァントに匹敵する力を持ち始めています！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠弁慶
+[line 2]ほう、サーヴァントか。[r]では、手合わせするが道理だな！
+[k]
+
+[charaFace A 6]
+＠マシュ
+え！？[r]ここは撤退すべきでは……！
+[k]
+
+[charaFace D 0]
+＠弁慶
+禍根は残さないに限るぞ、マシュ殿！[r]こやつが成長し、後々災いをもたらさぬともかぎらぬ！
+[k]
+
+＠弁慶
+物事は確実に、出来るうちに片付けておくものよ！[r]少なくとも、拙僧の[#得物:ぶき]はそう唸っておるからな！
+[k]
+
+[charaFace A 14]
+＠マシュ
+……わかりました！[r]マスター、改めて指示をお願いします！
+[k]
+
+[charaFace D 1]
+＠弁慶
+[line 2]さあ、来い。牛若丸が家来、武蔵坊弁慶。[r]この薙刀喰ろうて、冥土の土産といたせ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

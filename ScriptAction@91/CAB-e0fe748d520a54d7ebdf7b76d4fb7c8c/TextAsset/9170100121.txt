@@ -1,0 +1,70 @@
+＄91-70-10-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10800]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7010001 0 カリギュラ]
+[charaSet E 5009001 1 ダ・ヴィンチ]
+[charaSet F 98016000 1 ローマ兵 or 連合兵]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+ふう……、なんとか撃退できましたね。[r]市街への被害も最小限で済んだ模様です。
+[k]
+
+[charaFace D 1]
+＠カリギュラ
+我が、美しき、姪の愛した、都……。[r][#永遠:とわ]に、その美しさを、讃えよ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+いや、その、なんていうか……。[r]親バカ？　いや、叔父だから叔父バカかな？
+[k]
+
+？1：ネロ皇帝を愛してるんだね。
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ちょっと変わった愛情表現ですが、[r]ネロさんをとても大事に思っているんですね。
+[k]
+
+？2：ローマは永遠なり！！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+い、いや、先輩？　大丈夫ですか？[r]さっきの戦闘でどこか打ったとか……。
+[k]
+
+？！
+
+＠カリギュラ
+美しい、……美しい……！[r]月さえ陰る、我がローマの誇り、お前は美しい……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,180 @@
+＄91-50-21-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2]
+[scene 20800 0]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 0 フォウ]
+[charaSet C 5021001 0 クーフーリン]
+[charaSet D 98006000 0 人狼]
+[charaSet E 98006000 0 Dr.ロマン]
+[charaTalk A]
+[charaFadein B 0 0]
+[charaFace A 13]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+清涼な水と汚染されていない空気……[r]ここは穏やかな森ですね。
+[k]
+
+＠フォウ
+フォウ、フォーウ♪
+[k]
+
+＠マシュ
+フォウさんもそう感じますか？[r]木々の葉のざわめきや、小鳥の鳴き声はあっても、
+[k]
+
+＠マシュ
+何故だか静けさのようなものを思います。[r]人が、いないからでしょうか。
+[k]
+
+？1：落ち着くよね
+
+？2：こういうの、いいね
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい、先輩。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠クーフーリン
+森ってのはいいもんだ。[r]ま、動物や植物は全力で生命を謳歌してる訳だが。
+[k]
+
+＠クーフーリン
+人の喧噪やらあれこれに関わらず、[r]森は、森それだけで成立してるってのがいい。
+[k]
+
+[charaFace C 0]
+＠クーフーリン
+本来は人の領域ならざるものだ。[r]大地の殆どを人間は支配してるつもりになっているがね。
+[k]
+
+＠クーフーリン
+動物、植物、妖精、神々。[r]人間なんざ、それらに比べりゃ森じゃ[#おまけ]だ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+招かれざる客ということなのでしょうか、[r]わたしたちは[line 2]
+[k]
+
+[charaFace C 4]
+＠クーフーリン
+うん？[r]いや、そこまで固っ苦しいもんじゃないんだが……
+[k]
+
+[bgmStop BGM_EVENT_1 0.5]
+[bgm BGM_EVENT_5 0]
+[charaFace C 0]
+＠クーフーリン
+……よくねえな。ここいらの森は気むずかしそうだ。[r]気になって来てみりゃ、随分と雰囲気が荒れてやがる。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+こっちじゃ特に何も感知していないけど……[r]クーフーリン、本当に、ここに歪みがあるのかい？
+[k]
+
+＠Dr.ロマン
+第二の特異点、キミたちが修正した一世紀[line 2][r]その同時代のアイルランド北東部がここなんだけど。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+確かに、時代の修正が妙に滞ってるみたいな[r]計測結果はあるんだけどね。でも、ここが歪み？？
+[k]
+
+＠Dr.ロマン
+数値を見るかぎり、[r]そこは穏やかな森だけど……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠クーフーリン
+そっちの都合は知らねえが、[r]森ってのを甘く見ないほうがいいぜ。
+[k]
+
+＠クーフーリン
+森は人間が在る前から在るもんだ。[r]下手すりゃ神々と同じかそれ以上に古くから在る。
+[k]
+
+＠クーフーリン
+人間なんざ手玉に取るのはお手の物さ。[r]そら、見てみろよ。
+[k]
+
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠人狼
+ＧＵＵＵＵＵＵＵ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+獣人型の怪物！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、な、何も感知してないよこっち！[r]あ、でも魔力反応がうっすら……あるような……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠クーフーリン
+森の一部、ってことじゃねえのかな。[r]何にせよ歓迎ムードって感じじゃあないだろうが。
+[k]
+
+[se ad25]
+＠人狼
+ＧＵＵＵＵＵＵＵ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩、来ます！
+[k]
+
+？1：戦闘準備！
+
+？！
+
+＠マシュ
+了解です、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

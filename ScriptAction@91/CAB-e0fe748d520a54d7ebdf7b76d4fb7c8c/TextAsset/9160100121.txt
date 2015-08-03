@@ -1,0 +1,122 @@
+＄91-60-10-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20110]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6010001 1 ステンノ]
+[charaSet E 98014000 1 ？？？]
+[charaSet F 4001001 1 メドゥーサ]
+[charaDepth D 1]
+[charaFace F 4]
+[charaFadein F 0]
+[fadein black 1]
+[wait fade]
+＠メドゥーサ
+……負けました。[r]降参です、どうぞ宝物をお持ち帰りください。
+[k]
+
+[charaFadeout F 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ、フォーウ♪
+[k]
+
+＠マシュ
+宝箱ですね。[r]中身は、一体何なのでしょう？
+[k]
+
+[se ar3]
+[wait se ar3]
+[charaFadeout A 0.4]
+[charaFadeout C 0.4]
+[wt 1]
+[charaTalk D]
+[charaFace D 1]
+[flashin once 0.6 0.4 FFFFFF80 00000000]
+[charaFadein D 0.7 1]
+[charaBackEffect D bit_talk_21]
+[se su5]
+[wt 1]
+[charaBackEffectStop D]
+＠ステンノ
+クリアおめでとう♪[r]見事、私の課した試練を果たしましたね勇者たち♪
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+！？
+[k]
+
+＠フォウ
+フォ、フォウ！？
+[k]
+
+[charaFace A 4]
+＠マシュ
+……そ、そうですか。[r]わたしたちと一緒にレイシフトしていたんですね。
+[k]
+
+＠マシュ
+それで、わざわざこうして[r]先回りして、宝箱の中に……潜んで……。
+[k]
+
+？1：グダグダだ！
+
+[charaFace A 8]
+＠マシュ
+…………はい。
+[k]
+
+？2：女神さまー！！
+
+[charaFace A 6]
+＠マシュ
+……あっ先輩、また……。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ステンノ
+と言う訳で、宝物は私でした。[r]喜んでも良くてよ、[%1]。ほうら、嬉しいでしょう？
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+うおー！　嬉しいですとも！！[r]うおーステンノさまー！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+はぁ……。
+[k]
+
+＠フォウ
+フォーウ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[soundStopAll]
+[end]

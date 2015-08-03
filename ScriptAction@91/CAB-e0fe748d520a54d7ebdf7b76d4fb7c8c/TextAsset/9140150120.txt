@@ -1,0 +1,295 @@
+＄91-40-15-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21100 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98018100 1 海賊たち]
+[charaSet D 4015001 1 アレキサンダー]
+[charaSet E 98018100 1 海賊]
+[charaSet F 98018100 1 海賊たち]
+[charaSet G 98018000 1 Dr.ロマン]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠海賊
+こ、こいつら強すぎる！[r]だめだあ、敵わねえ……逃げろ逃げろ！！
+[k]
+
+[charaFace C 0]
+[charaFadein C 0 0]
+[charaFace F 0]
+[charaFadein F 0 2]
+＠海賊たち
+うわあーー！！
+[k]
+
+[se ad55]
+[charaMove C -3 0]
+[charaMove E -3 0]
+[charaMove F 3 0]
+[wait charaMove]
+[charaFadeout C 0.4]
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[seStop ad55 2]
+[wt 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 4]
+[charaFadein D 0.1]
+＠アレキサンダー
+なんだ、心底がっかりだ。[r]最後まで正真正銘の夜盗だなんて。
+[k]
+
+[charaFace D 2]
+＠アレキサンダー
+いいよ、逃げるがいい、殺しはしない！
+[k]
+
+＠アレキサンダー
+逃げ去るならその程度！[r]堂々たる略奪なら、凱歌と共に立ち去ると知れ！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+流石は未来の征服王、[r]おっしゃることがとてもワイルドです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+うんうん、ワイルドだねえ……。
+[k]
+
+？1：こう言える少年、そういないね
+
+？2：ワイルドだ
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+＠？？？
+や、俺もそう思うぜ。[r]なるほど、未来の征服王ときたか[line 2]
+[k]
+
+[charaSet C 2001001 1 ？？？]
+[charaFace C 1]
+[charaFadein C 0.1]
+＠？？？
+手練れの海賊を蹴散らすガキがいるってんで、[r]食客になったよしみで顔を出してみりゃ、なーるほど。
+[k]
+
+[charaFace C 0]
+＠？？？
+ただのガキじゃあないらしい。[r]面白い。しかも、何だ、お前の持ってるその本[line 2]
+[k]
+
+[charaFadeout C 0]
+[charaTalk D]
+[charaFadein C 0.1 0]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アレキサンダー
+イリアスがどうかしたかい？[r]僕の愛読書だよ。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+それと、君は誰かな。[r]さっきの連中よりは[#強そう]だ。
+[k]
+
+＠アレキサンダー
+……名を尋ねても？
+[k]
+
+[charaFace C 4]
+＠？？？
+おいおい、愛読書ってンなら一目でわからんか？[r]ま、宝具も出さずにそれは難しいか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ、フォーウ！！[r]フォウ？？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+アレキサンダーさん、彼は[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アレキサンダー
+わかってる。サーヴァントだ。[r]それで、名前は？
+[k]
+
+[charaFace C 0]
+＠？？？
+おまえさんは名乗らんのか？[r]尋ねておいて自己紹介もなしってのは、どうだかな。
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+それもそうだ。[r]不作法を詫びるよ、僕はアレキサンダー。
+[k]
+
+＠アレキサンダー
+未来の征服王ということになってる。[r]自覚は薄いけどね。僕は、そうなる前の僕なんだ。
+[k]
+
+[charaFace C 1]
+＠？？？
+アレキサンダー、ね。[r]おうおう、雷ジジイが好きそうな響きだこと。
+[k]
+
+＠？？？
+面倒だが覚えてやったぜ。
+[k]
+
+[charaSet C 2001001 1 アキレウス]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠アキレウス
+俺は[#アキレウス]。[r]そこのイリアスであれこれ書かれたギリシャの男だ。
+[k]
+
+[charaFace C 1]
+＠アキレウス
+こっちは覚えるまでもなかろう？
+[k]
+
+[charaFace D 3]
+＠アレキサンダー
+……！！！[r]きみが！　アキレウス！
+[k]
+
+[charaFace D 4]
+＠アレキサンダー
+ああ、なんてことだろう、こんな[line 2]
+[k]
+
+[charaFace D 3]
+＠アレキサンダー
+こんなに早く[#見:まみ]えるなんて！[r]マシュ、[%1]！！
+[k]
+
+？1：な、なに？
+
+？2：え、何か興奮してる？
+
+？！
+
+[charaFace D 1]
+＠アレキサンダー
+昂ぶりを抑えきれないや！[r]あはは、ごめん、こんな風に舞い上がるなんて！
+[k]
+
+[charaFace D 0]
+＠アレキサンダー
+僕は、彼と今すぐにでも[line 2]
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 1]
+＠アレキサンダー
+戦いたい！[r]ね、いいよね、マスター！！
+[k]
+
+[charaFace C 2]
+＠アキレウス
+ハッ、だろうと思ったぜ。[r]ケンカ好きは匂いで分かる。
+[k]
+
+[charaFace C 0]
+＠アキレウス
+なにしろ同類、同じ悪たれ小僧だ。
+[k]
+
+＠アキレウス
+海賊どもの食客なんざ自分でもどうかと思ったが、[r]こういう飛び入りがあるからバカにできねぇ。
+[k]
+
+[charaFace C 2]
+＠アキレウス
+来な、遊んでやるよ赤毛の小僧！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠海賊
+うおーお付き合いしますぜ用心棒のダンナァ！！[r]海賊の誇りを見せてやるぜ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFadein E 0.1 0]
+[charaFace C 2]
+[charaFadein C 0.1 2]
+＠アキレウス
+うお、戻ってきたのかテメェら!?
+[k]
+
+[charaFace C 2]
+＠アキレウス
+まあしょうがねえか、勝ち目があれば[r]たかってくるのは海賊の性分だしな！
+[k]
+
+[charaFace E 0]
+＠海賊
+うおー、その通りだぜダンナ！
+[k]
+
+[charaFace E 0]
+＠海賊
+オレたちゃその名も黒蠅海賊団！[r]金の匂いにはあらがえねぇのさ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaFadein C 0.1 0]
+[charaFadein B 0.1 2]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+止められません、先輩！[r]対サーヴァント戦闘[line 2]開始されます！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠アレキサンダー
+はははははは！[r]いいよ、存分に全員でやろうよ！
+[k]
+
+[charaFace D 2]
+＠アレキサンダー
+いざ征かん、始まりの[line 2]蹂躙制覇！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

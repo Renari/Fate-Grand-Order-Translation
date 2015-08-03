@@ -1,0 +1,250 @@
+＄91-10-26-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20502]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1026001 1 デオン]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠デオン
+ありがとう[line 2]
+[k]
+
+＠デオン
+私の我が儘に付き合わせてしまってごめんよ。[r]でも、ありがとう。
+[k]
+
+[charaFace D 5]
+＠デオン
+何かがこの時代、この場所で起きている。[r]そう私の中の何かが叫ぶんだ。
+[k]
+
+＠デオン
+だから、キミたちに無理を言って、[r]こうして……古き時代のパリへ来てしまった。
+[k]
+
+＠デオン
+本当は何もないと良いのだけれど、[r]それだと、ううん。
+[k]
+
+[charaFace D 4]
+＠デオン
+キミたちは徒労になってしまうね。[r]すまない、連日の戦いで疲れているだろうに。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+いいえ、お気になさらず。[r]先輩も寝付けない夜だったようですし。
+[k]
+
+？1：そう、何だか寝付けなくて
+
+？2：目が冴えてるんだよね
+
+？！
+
+[charaFace A 7]
+＠マシュ
+何か、関係があるのかも知れませんね。[r]デオンさんの感じているものと。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.5]
+＠Dr.ロマン
+そうだね。何せ、マスターとサーヴァントは[r]魔力で繋がっているんだ。そういうこともあるのかも。
+[k]
+
+＠Dr.ロマン
+例として記録されている事柄でいえば、[r]無意識下での「夢」での記憶の共有だったりするね。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+他にも何か、あってもおかしくはない。[r]面白い事例だよ、これは。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+はい。彼、いえ、彼女[line 2]いえ、ええと[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠デオン
+はは。どちらでもいいよ？[r]私は男である時もあれば、女である時もあったんだし。
+[k]
+
+＠デオン
+好きな代名詞を用いてくれて構わない。[r]ねえ、[%1]は私はどちらだと思う？
+[k]
+
+？1：女、かな？
+
+[charaFace D 0]
+＠デオン
+ふふ……。[r]そういう風に見えているんだね。
+[k]
+
+？2：男、かな？
+
+[charaFace D 0]
+＠デオン
+へえ……。[r]そういう風に見えているんだね。
+[k]
+
+？！
+
+[charaFace D 1]
+＠デオン
+私は、フランス王家を守る白百合の騎士。[r]性別なんて大したものじゃない。
+[k]
+
+＠デオン
+時に、サーベルを持つ[#竜騎士:ドラグーン]にもなろう。[r]時に、ドレスを纏った淑女にも。
+[k]
+
+＠デオン
+王家の百合を守るためなら、[r]僕は、サーベルでもドレスでも自在に扱うまでだ。
+[k]
+
+＠デオン
+生前も、今でもね。[r]英霊となろうともそれは変わらない。
+[k]
+
+[charaFace D 0]
+＠デオン
+それに……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+?
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 4]
+[charaFadein D 0.1]
+＠デオン
+僕は、罪を犯してしまった。[r]バーサーク・セイバーとしての現界を覚えている。
+[k]
+
+＠デオン
+キミたちと……そして、あろうことか[r]王家の百合の象徴たる[#あの御方]に刃を向けた。
+[k]
+
+＠デオン
+その償いをしたいと思うんだ。[r]だから、すまない。マスター・[%1]。
+[k]
+
+[charaFace D 3]
+＠デオン
+サーヴァントである以前に、私は今、[r]フランス王家を守る者として行動してしまっている。
+[k]
+
+＠デオン
+許して欲しい。[r]どうか、この一晩だけでいい。
+[k]
+
+＠デオン
+私に機会を与えて欲しい。[r]マスター。
+[k]
+
+？1：気にしないで
+
+？2：いいよ、眠れない夜だから
+
+？！
+
+[charaFace D 1]
+＠デオン
+……ありがとう、マスター。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1]
+＠フォウ
+フォウ！　キューゥ！！
+[k]
+
+[charaFace A 2]
+＠マシュ
+魔力反応を検知しました、先輩！[r]前方の街路に、複数体！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+デオンの杞憂は正解だったようだね、成る程な！[r]そもそも何かがあるからレイシフトできるんだろうし！
+[k]
+
+＠Dr.ロマン
+複数の魔力反応はキミたちへ接近しているぞ！[r]戦闘になりそうだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩！
+[k]
+
+？1：戦闘態勢！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+はい、マスター！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠デオン
+パリの夜更けに出でた不気味の者たち[line 2][r]白百合の剣が、お相手しよう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

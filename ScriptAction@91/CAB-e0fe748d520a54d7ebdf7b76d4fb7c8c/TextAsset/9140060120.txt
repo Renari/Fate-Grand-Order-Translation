@@ -1,0 +1,152 @@
+＄91-40-06-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20301]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4006001 2 ゲオルギウス]
+[charaSet E 98013100 1 レッドドラゴン]
+[charaFace A 1]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+やりましたね、マスター！！
+[k]
+
+？1：さすが竜殺し！！
+
+？2：これで終わりかな？
+
+？！
+
+＠ゲオルギウス
+いえ、これはドラゴンといっても[r]下級のワイバーンと呼ばれる種類のものです。
+[k]
+
+＠ゲオルギウス
+さすがにこの種の飛竜に異空間を維持するほどの[r]魔力の生成は不可能です。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+確かに倒したのに空間に異常はないね。[r]えーと、反応の方は……、な、なんだこれ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ゲオルギウス
+……来ましたよ、皆さん。[r]カメ……いえ、戦闘の用意を。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadein E 0.7 1]
+[charaTalk E]
+[se ad17]
+[wait se ad17]
+[wt 0.5]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+凄い反応だ……、普通のドラゴン、[r]いやドラゴンに普通も何もないけど
+[k]
+
+＠Dr.ロマン
+通常の竜種の三倍近くの反応だぞ！？[r]一体どうなってるんだ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠マシュ
+突然変異とか……、そういった類の物でしょうか？
+[k]
+
+＠ゲオルギウス
+いえ、そんな生易しいものではなさそうです。[r]この感じ、おそらく取り込んだのでしょう。
+[k]
+
+？1：取り込んだ？
+
+？2：食べたってこと？
+
+？！
+
+[charaFace D 0]
+＠ゲオルギウス
+ええ、同種を食べる竜は私も初見です。[r][line 3]能力は高くとも知性は最低級のものでしょう。
+[k]
+
+[charaFace D 1]
+＠ゲオルギウス
+とはいえ、希少種には違いなく。[r]一枚、頂いておきましょう。
+[k]
+
+[se ad41]
+[wait se ad41]
+[wt 0.5]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そういうのいいですから！？[r]それにしても、他のドラゴンを食べたって……
+[k]
+
+＠Dr.ロマン
+存在そのものが魔力の塊であるドラゴンを[r]喰らうドラゴンって……滅茶苦茶だぞコイツ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+ゲオル先生！！　どう対処しましょう！！
+[k]
+
+？1：ゲオル先生って……
+
+？2：どうしましょう！！
+
+？！
+
+[charaFace D 1]
+＠ゲオルギウス
+落ち着いてください。落ち着くのですマシュ。[r]ゲオル先生ではありません。ゲオルギウス先生です。
+[k]
+
+[charaFace D 0]
+＠ゲオルギウス
+そしてどのような竜であろうと[r]我らの手で滅ぼされなかった竜はおりません。
+[k]
+
+[charaFace D 2]
+＠ゲオルギウス
+即ち、竜とは滅ぼされるべくして竜となるのです。[r]汝、竜なり、罪ありき！！
+[k]
+
+[charaFace A 2]
+＠マシュ
+行きます、マスター！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

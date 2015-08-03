@@ -1,0 +1,158 @@
+＄91-10-08-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10310]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1008001 1 ジークフリート]
+[charaSet E 98014000 1 兵士]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ジークフリート
+ああ、マスター。マシュ・キリエライト。[r]少し話があるのだが……今は大丈夫か？
+[k]
+
+？1：構わない
+
+？2：問題ない
+
+？！
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、構いませんが。
+[k]
+
+[charaFace D 4]
+＠ジークフリート
+……そうか。[r]さて、何から話せばいいか……。
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+俺が“[#竜殺し:ドラゴンスレイヤー]”であることは知っているな？
+[k]
+
+[charaFace A 0]
+＠マシュ
+もちろんです。[r]あの邪竜ファーヴニルを倒したのですね？
+[k]
+
+＠ジークフリート
+ああ、そしてその後に血を浴び[line 2][r]不死身の肉体を手に入れた。
+[k]
+
+＠ジークフリート
+とはいえ、その際にただ一箇所だけ血を浴びなかった[r]場所がある。それが背中だ。
+[k]
+
+[charaFace D 4]
+＠ジークフリート
+……まあ、気付いてはいたのだが。
+[k]
+
+？1：どうして浴びなかった？
+
+？2：何故そのままに？
+
+？！
+
+[charaFace D 4]
+＠ジークフリート
+色々あった、とだけ言っておこう。[r]……いかんな、どうも俺は説明が下手だ。
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+つまり、俺は[#邪悪なる竜:ファヴニール]の血を浴びたせいか[line 2][r][#あの竜]と、共感している。
+[k]
+
+＠ジークフリート
+言うなれば、マスターとサーヴァントとの[r]関係のようなものだ。
+[k]
+
+＠ジークフリート
+とはいえ、それは極々弱いものに過ぎない。[r]精々、互いの生存を確認できる程度だ。
+[k]
+
+[charaFace D 4]
+＠ジークフリート
+フランスでの戦いの折り、[r]確かにファヴニールは滅ぼしたつもりだったが……。
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+どうやら、蘇ったらしい。
+[k]
+
+[charaFace A 6]
+＠マシュ
+な……あのファヴニールがですか！？
+[k]
+
+＠ジークフリート
+マスター、頼む。[r]フランスへ戻り、今度こそあの竜を滅ぼす。
+[k]
+
+＠ジークフリート
+俺を連れて行ってくれないか？
+[k]
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[fadein white 0.5]
+[scene 20300]
+[communicationChara 98003003 1 5 0 5]
+[wt 0.3]
+＠Dr.ロマン
+よし、モニターを開始するよ。[r]……多数の生体反応が確認された。
+[k]
+
+＠Dr.ロマン
+言うまでもなく、人間じゃないな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+見て下さい、マスター！[r]ワイバーンがそこら中に居ます……！
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ジークフリート
+あのときの戦いで生き延び、復活したのか。[r]それとも生まれ変わったのか。
+[k]
+
+[charaFace D 0]
+＠ジークフリート
+……いずれにせよ、滅ぼすしかなさそうだな。[r]まずはワイバーンどもを打ち払う。行くぞ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

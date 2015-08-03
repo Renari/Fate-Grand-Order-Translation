@@ -1,0 +1,147 @@
+＄91-60-01-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10800]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6001001 1 小次郎]
+[charaSet E 98006000 1 司会者]
+[fadein black 1]
+[wait fade]
+＠司会者
+皆さん、お待たせいました！！[r]此度の挑戦者ははるか東方からやって来た
+[k]
+
+＠司会者
+『ＳＡＭＵＲＡＩ』と呼ばれる謎多き戦士！！[r]「コジュロー・ササゥキ」とその一行です！！
+[k]
+
+[se ad6]
+[wt 1]
+[seStop ad6 3]
+[charaFace A 4]
+[charaFadein A 0.1]
+＠マシュ
+何でこんな事に……。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+陛下にうまく乗せられたね。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+ちょっとコロシアムに遊びに来ないか？[r]とか言われてノコノコやってきたらこの有様だよ！
+[k]
+
+＠Dr.ロマン
+余興で命がけの剣闘に参加しろとか[r]さすが歴史に名高い暴君ですね！！
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+そんなわけでたまたま参加させられた[r]極東のＳＡＭＵＲＡＩから一言どうぞ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠小次郎
+ふむ、コロシアムか。[r]なかなか赴きのある会場ではないか。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+そして予想外に馴染んでいるね小次郎クン!?[r][#物見遊山:ものみゆさん]気分なのかい!?
+[k]
+
+？1：落ち着いてるね
+
+？2：怖くないの？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠小次郎
+なに、剣の道を歩んでいればこのような事もあろうさ。[r]行住坐臥、一切これ全て修行と先人も申している。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+涼やかに笑ってるよ……[r]ＳＡＭＵＲＡＩってスゴイ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠小次郎
+ん？　いやいや、それは違うぞ浪漫殿。[r]私は武士でも侍でもない。ただの棒振り無頼にすぎぬ。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+えええええええ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠小次郎
+刀以外にも[#鍬:くわ]を持つ事もあった故な。[r]百姓仕事も乙なものだぞ？
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+うほあ……それはそれで、どうやって英霊に[r]なれたんだって話だけど……。
+[k]
+
+＠司会者
+それでは第一試合、[r]『ＳＡＭＵＲＡＩ.ｓ』ＶＳ『不死兵団』！！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+いやいや、対戦相手おかしいでしょ！？[r]不死！？　ゾンビなの！？　スケルトンなんで！？
+[k]
+
+？1：今回はドクターに任せておこうか
+
+？2：ロマン、ノリノリだね
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+はい。普段の二倍増しの通信量です。ドクターは[r]小次郎さん……いえ、サムライに興味があったのかと。
+[k]
+
+[charaFace D 5]
+＠小次郎
+ふむ……、では、いざ尋常に……、勝負！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

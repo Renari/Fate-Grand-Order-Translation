@@ -1,0 +1,236 @@
+＄91-40-11-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20800]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4011001 1 ブーディカ]
+[charaTalk B]
+[charaFace D 3]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+「……くそっ……」
+[k]
+
+＠Dr.ロマン
+「……あたしたちを、つかまえて……」
+[k]
+
+＠Dr.ロマン
+「……こんなところまで連れてきて、[r]　い、一体、お前たち、何をするつもりなんだ……」
+[k]
+
+？1：ゲッゲッゲ、お前の想像通りさ
+
+？2：ゲッゲッゲ、口では言えないことさ
+
+？！
+
+＠Dr.ロマン
+「……そ、そんな……」
+[k]
+
+＠Dr.ロマン
+「……くっ……。[r]　そ、そんなことをされるくらいなら、一思いに」
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ドクター。先輩。[r]何を、しているんですか。
+[k]
+
+＠マシュ
+戦闘で息の上がったブーディカさんに[r]「恥ずかしそうに俯いて」と指示したかと思えば、
+[k]
+
+＠マシュ
+妙な言葉を述べたりして……。[r]何です？　どんな意味があるのですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+い、いや、あはは！[r]なんでもないよ、その、ちょっと試してみたくて！
+[k]
+
+？1：すいませんでした
+
+？2：つい、出来心で
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ブーディカ
+あはは。あたしは楽しかったよ？[r]ともあれ[line 2]
+[k]
+
+[charaFace D 1]
+＠ブーディカ
+付き合ってくれてありがとね。[r]あたしの[#故郷:ブリタニア]の森の、悪い[#妖精:ゴブリン]退治。
+[k]
+
+[charaFace D 0]
+＠ブーディカ
+キミたちが修正したネロの時代に、[r]なーんか、引っ掛かるものがあったからさ。
+[k]
+
+＠ブーディカ
+こうして訪ねてみたわけだけど、[r]厭な予感、的中だね。
+[k]
+
+[charaFace A 13]
+＠マシュ
+信じていました。[r]ブーディカさんの感じたものは、正しいと。
+[k]
+
+[charaFace D 1]
+＠ブーディカ
+ありがと、マシュ。[r]キミ、やっぱりいい子。あとで頭撫でてあげる。
+[k]
+
+[charaFace A 3]
+＠マシュ
+い、いえ……。
+[k]
+
+[charaFace D 4]
+＠ブーディカ
+でも、あんな風にヘンに膨らんだ[#妖精:ゴブリン]なんて[r]ほんと、初めて。たくさんいるし。襲ってくるし。
+[k]
+
+＠ブーディカ
+森の妖精っていうのは、[r]必ずしもそういうものじゃないんだけどね。
+[k]
+
+＠ブーディカ
+見掛けることだって、[r]そうそうあるもんじゃないのに。うーん。
+[k]
+
+＠ブーディカ
+これも、聖杯の影響の名残なのかな？[r]厄介なもんだね、聖杯。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+あー、うん、そうだねえ。記録を掘り返しても、[r]あれこれ面倒ばっかり引き起こしてるのは確かだな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+人の願いというものは……[r]それほどまでに、災いを呼びやすいのでしょうか。
+[k]
+
+＠マシュ
+万能の願望器たる聖杯は災厄の源となりやすい。[r]そう仮定した場合、願う、という行為そのものに、
+[k]
+
+＠マシュ
+災いを惹き付ける性質がある、[r]とも考えられます。仮定の上での仮定、ですが[line 2]
+[k]
+
+[charaFace D 4]
+＠ブーディカ
+そうだね。[r]マシュの言う通りかも知れない。
+[k]
+
+[charaFace D 0]
+＠ブーディカ
+けど、あたしは[r]そんな風には思いたくないかな。
+[k]
+
+＠ブーディカ
+願いっていうのは、ほんとは、[r]そんなに大仰なものなんかじゃないと思うんだ。
+[k]
+
+＠ブーディカ
+もっとささやかで、[r]それでいて、暖かいものだと思う。
+[k]
+
+＠ブーディカ
+たとえば……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+たとえば？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ？？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ブーディカ
+大好きな誰かと一緒に[r]おいしいゴハンを食べたいな、とかね。
+[k]
+
+＠ブーディカ
+そういうコト。[r]あたしの言いたいこと[line 2]わかるかな？
+[k]
+
+？1：はっ、お弁当！
+
+？2：休憩の続きをしよう！
+
+？！
+
+[charaFace D 1]
+＠ブーディカ
+あはは、正解！[r]さ、座って座って。おべんと出すよ～！
+[k]
+
+＠ブーディカ
+[%1]はあたしの隣ね。[r]ほら、マシュもおいで！　キミもあたしのとなり！
+[k]
+
+[charaFace A 1]
+＠マシュ
+は、はいっ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

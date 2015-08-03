@@ -1,0 +1,259 @@
+＄91-10-05-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20900]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 2 フォウ]
+[charaSet C 1005001 2 ネロ]
+[charaSet D 98003003 2 Dr.ロマン]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠ネロ
+機は熟した。余は、ついにかねてから計画していた[r]大事業に取りかかろうと思う。
+[k]
+
+[charaFace C 4]
+＠ネロ
+しかし、もとより完璧なものに手を加え、かつ[r]良い物にするには並々ならぬ才能と英断が必要だ。
+[k]
+
+＠ネロ
+そうは思わぬか、[%1]よ。[r]余の苦悩、貴様ならわかってくれると思う。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+（……先輩、先輩。[r]　赤セイバーさんが話しかけているのは先輩ですよ）
+[k]
+
+[charaFadeout A 0]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+（前振りのない質問で頭が痛いのはわかる。[r]　ここは適当に相づちでもしておくんだ）
+[k]
+
+？1：あ、はい。わかります。
+
+？2：あ、いえ。ぜんぜんわかります。
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ネロ
+うむ！　やはり貴様は話が早いな！[r]おかげで余も決心がついた！
+[k]
+
+[charaFace C 2]
+＠ネロ
+我が宝具にして、我が芸術家生命をかけた魔天[line 3][r][#黄金劇場:ドムス・アウレア]の改築に乗り出すぞ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout C 0.1]
+[wt 0.5]
+[scene 20300 0]
+[charaFace C 0]
+[charaFadein C 0 1]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_2 0.1]
+[wait fade]
+＠ネロ
+というワケで、最後の材料を求めて平原にやってきた。[r][#此度:こたび]もよろしく頼むぞ、[%1]よ。
+[k]
+
+＠ネロ
+先立つものはなんとやら。[r]黄金劇場の改築には資金が必要となる。
+[k]
+
+[charaFace C 1]
+＠ネロ
+材料費、人経費、そして余のデザイン費！[r]今回はその中から材料費をなんとかしようと思う。
+[k]
+
+[charaFadeout C 0]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+やれやれ……自分の宝具をお金の力で強化する、[r]なんて英霊はそうはいないだろうね。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+前の財宝集めもこれが目的だったのか。[r]でも皇帝陛下、そんなんで宝具は強化されるのかい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠ネロ
+なるとも。余が魔力で作りあげる黄金劇場は、[r]元になる劇場あってのもの。
+[k]
+
+＠ネロ
+宝具を発動させる時のイメージの問題だな。[r]原典である劇場を豪華に作り直し、その姿を脳裏に刻む。
+[k]
+
+[charaFace C 1]
+＠ネロ
+すると、宝具によって展開される劇場もその豪華さに[r]合わせてさらに[#絢爛:けんらん]になる、という算段なのだ！
+[k]
+
+[charaFadeout C 0]
+[charaTalk A]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……なるほど。[r]宝具・黄金劇場は彼女の想像力によるもの。
+[k]
+
+[charaFace A 13]
+＠マシュ
+その元になる劇場が大規模になればなるほど、[r]赤セイバーさんが描くイメージもリアルになるのですね。
+[k]
+
+？1：もう十分にリアルだと思うけど……
+
+＠ネロ
+ふふ、そう褒めるな[%1]。[r][#愛:う]いヤツめ、後でもっと褒めるがよい。
+[k]
+
+？2：あんまり無茶しても疲れるよ？
+
+[charaFace C 5]
+＠ネロ
+ばかもの！　見栄と無理は同じもの、[r]己が得意技で思いっきり背伸びしなくてどうするっ！
+[k]
+
+？！
+
+[charaFace C 0]
+＠ネロ
+とにかく、もうじきここに最後の材料が現れる。[r]みな、戦闘準備をせよ。中々の強敵だぞ？
+[k]
+
+[charaFace A 6]
+＠マシュ
+……？[r]材料が現れる、ですか？
+[k]
+
+[charaFace A 12]
+＠マシュ
+わたしたちは、その、何を作らされるのですか？
+[k]
+
+[charaFace C 1]
+＠ネロ
+決まっていよう。[r][#闘技場:コロッセオ]的なものだ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ？
+[k]
+
+[charaFace C 0]
+＠ネロ
+うむ。新たなる黄金劇場。それは劇場と闘技場を[r]組み合わせた、まったく新しい剣戟空間である。
+[k]
+
+[charaFace C 3]
+＠ネロ
+……まあ、劇場の中で拳闘もないのでな。[r]入り口をコロッセオ風にするだけなのだが。
+[k]
+
+[charaFace C 0]
+＠ネロ
+貴様ら、コロッセオの意味を知っているか？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+ええっと、確か……思い出しました。[r]巨像の前、という意味でした。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、コロッサスから生まれた言葉だったね。
+[k]
+
+＠Dr.ロマン
+ローマの闘技場の前には豪華な巨像が置かれ、[r]訪れる観客たちを[#睥睨:へいげい]したとか。
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+[line 3]あ。[r]そうだ、ネロ帝の頃の闘技場には[line 3]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠ネロ
+そう、余の巨像があったのだ！[r]高さ31メートルもの、それは美しい巨像がなっ!
+[k]
+
+[charaFace C 4]
+＠ネロ
+まあ、そのコロッセオが出来た時には[r]余の劇場は壊されていたのだが、それは言うまい。
+[k]
+
+[charaFace C 0]
+＠ネロ
+つまり、今回の標的は[line 3]
+[k]
+
+[se ad57]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout C 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、敵です！[r]なんて、コト[line 3]ゴーレムの大軍がやってきます！
+[k]
+
+[seStop ad57 3]
+[charaFadeout A 0]
+[communicationCharaFace 98003003]
+＠Dr.ロマン
+ネロ、まさかキミ[line 3]！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ネロ
+うむ、余の後援者たちを使ってな、[r]巨像の材料になるゴーレムどもをここに追い込んだ！
+[k]
+
+[charaFace C 2]
+＠ネロ
+さあ、やるぞ[%1]！[r]春のゴーレム狩りだ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

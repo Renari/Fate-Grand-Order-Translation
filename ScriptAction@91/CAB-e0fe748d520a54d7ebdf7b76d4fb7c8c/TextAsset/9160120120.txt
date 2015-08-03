@@ -1,0 +1,134 @@
+＄91-60-12-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20500]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6012001 0 サンソン]
+[charaSet E 98021000 1 市民]
+[charaSet F 98014000 1 兵士]
+[charaSet G 98006000 1 子供]
+[charaSet H 98014000 1 兵士]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠サンソン
+よいでしょう。ひとまず彼らは戦闘不能です。[r]今の内に市民を解き放ちましょう。
+[k]
+
+？1：悪人だったら？
+
+？2：有罪だったら？
+
+？！
+
+[charaFace D 0]
+＠サンソン
+……たとえそうだとしても。[r]法は法。少なくとも、処刑であるなら場を整えるべきです。
+[k]
+
+[charaFace D 4]
+＠サンソン
+助けておきながら無罪とは信じない……[r]我ながら矛盾している、そう思いますが。
+[k]
+
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20500]
+[charaFace F 0]
+[charaFadein F 0 0]
+[charaFace E 1]
+[charaFadein E 0 2]
+[se bac5]
+[wait se bac5]
+[fadein black 0.5]
+[wait fade]
+＠市民
+うぐっ……！
+[k]
+
+[charaFadeout E 0.4]
+[wt 0.5]
+[charaFadein H 0.1 2]
+＠兵士 
+よし、これで処刑は全て完了したな？
+[k]
+
+＠兵士 
+まだだ。[r]この子供が残っている。
+[k]
+
+＠子供
+うぅ……。
+[k]
+
+[charaFadeout H 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠サンソン
+[line 2]そこまでだ。
+[k]
+
+＠兵士
+……何故我らを止める？
+[k]
+
+[charaFace D 2]
+＠サンソン
+……ッ！[r]当たり前だろう！
+[k]
+
+＠サンソン
+そんなものは法でも処刑でもない！[r]一方的で、理不尽な、ただの虐殺だ！
+[k]
+
+＠兵士
+[line 2]お前だって、それに加担していたじゃないか。[r]シャルル＝アンリ・サンソン。
+[k]
+
+[charaFace D 0]
+＠サンソン
+……え……！？
+[k]
+
+＠兵士
+そうだ。[r]今更お前に言われたくはない。
+[k]
+
+＠兵士
+王の名の下に。[r]政府の名の下に。
+[k]
+
+＠兵士
+どれだけの人間を殺した？[r]どれだけの人間に罰を与えた？
+[k]
+
+＠兵士
+……その中には、無実の者も沢山いただろうに。
+[k]
+
+[charaFace D 4]
+＠サンソン
+やめろ……やめろ！！
+[k]
+
+＠兵士
+おぉぉぉぉおおおおおおまええええええがああああ[r]わああああるうううううういいいいいいいい！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

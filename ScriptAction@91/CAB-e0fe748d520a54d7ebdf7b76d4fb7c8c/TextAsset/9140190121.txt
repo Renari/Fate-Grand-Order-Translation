@@ -1,0 +1,125 @@
+＄91-40-19-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 98006100 1 ？？？]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵勢力、完全撃破を確認しました！[r]やりましたね、先輩。
+[k]
+
+[charaFace D 2]
+＠マルタ
+[line 2]は。百年早いわトカゲども。[r]たかがワイバーン、私とタラスクに敵うつもり？
+[k]
+
+＠マルタ
+どーせ、卵から孵りたてのヒヨコでしょうに、[r]ぴーぴー喚いてうるさいったらない。
+[k]
+
+[charaFace A 6]
+＠マシュ
+！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+せ、聖女さま！？
+[k]
+
+？1：アーアー聞こえない
+
+？2：……。
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠マルタ
+……コホン。[r]これで、愛知らぬ哀れな魂たちは還りました。
+[k]
+
+＠マルタ
+神の愛は等しく。[r]ええ、かつてのタラスクと同じようにして。
+[k]
+
+？1：は、はい
+
+？2：ですよね
+
+？！
+
+＠マルタ
+どうしても言うことを聞かずに殺戮を選ぶ竜には、[r]ええ、実力行使あるのみです♡
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+お、おお……テリブル……。[r]いえ、感服いいたしました聖女さま！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+聖女マルタは、聖女であると同時に[r]極めて優秀な竜殺しの達人でもあるのですね。
+[k]
+
+[charaFace A 1]
+＠マシュ
+把握しました。[r]先輩、彼女は頼りになるサーヴァントですね。
+[k]
+
+[charaFace D 4]
+＠マルタ
+いいえ、そんな。[r]私はただの[line 2]
+[k]
+
+[charaFace D 3]
+＠マルタ
+[line 2]ただの、素敵なドラゴンスレイヤーです♡
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あれ[line 2]！？[r]自分でドラゴンスレイヤーって言っちゃった！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ、フォウフォウ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

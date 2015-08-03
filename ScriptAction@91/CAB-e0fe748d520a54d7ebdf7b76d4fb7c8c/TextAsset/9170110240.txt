@@ -1,0 +1,148 @@
+＄91-70-11-02-4-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7011001 1 ダレイオス三世]
+[charaSet E 4015001 1 アレキサンダー]
+[charaSet F 4002001 0 ？？？]
+[charaFace A 6]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+倒し……た……？[r]いえ、これは、何かが違います[line 2]先輩！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+アレキサンダーの魔力反応は消失していない！[r]いや、いったん消えたは消えたんだけど、何だこれ！
+[k]
+
+＠Dr.ロマン
+完全な同位置に[#新たに現界]したのか！？[r]そこにいるのは、別のサーヴァントだよ多分！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+別の……？[r]いえ、この雰囲気は……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+＠？？？
+[fontSize x-large]わははははは！！！[-]
+[k]
+
+＠？？？
+愉快愉快、年若き余とかつての好敵手がぶつかるか！[r]いやさ痛快、しかし見えた結果ではあったな！
+[k]
+
+＠？？？
+足りぬ足りぬ！[r]ブケファロスに頼り切った若輩で何を成す！
+[k]
+
+＠？？？
+相手は万夫不当の巨王！[r]誰あろう、アケメネス最後の将たるダレイオス三世よ！
+[k]
+
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダレイオス三世
+[image berserker_language_1][line 2]ッ！！
+[k]
+
+＠？？？
+おお、おお！[r]そうか、余と[#見:まみ]えてそれほど嬉しいか！！
+[k]
+
+＠？？？
+おぬしを倒し得る者などそうはいるまい、[r]たとえ、若き日の余であろうとも！
+[k]
+
+＠？？？
+死して英霊と化し！[r]見事、一万の騎兵と同化してみせたダレイオス王！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠？？？
+おぬしを倒すのは[line 2][r]やはり、この征服王イスカンダルでなくてはな！
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+……っ！？
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+イスカンダル！！[r]アレキサンダーの後年の姿……紛う事なき征服王！
+[k]
+
+＠Dr.ロマン
+と、とんでもない大英雄が出て来たぞ！？[r]聖杯の影響、そんなに濃くこの土地に残ってたのか！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaSet F 4002001 0 イスカンダル]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠イスカンダル
+いやさ、聖杯なんぞではあるまいよ！[r]余を無理矢理に呼びつけたのは、誰あろう！
+[k]
+
+＠イスカンダル
+そなたに他ならん！[r]なあ、ダレイオス、我が生涯最大なりし好敵手！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk D]
+[charaFadein F 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ！！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+＠マシュ
+駄目です、彼はもう止まりません！[r]イスカンダル王、どうか[line 2]
+[k]
+
+＠イスカンダル
+構うな構うな！！[r]余はそのために来たのだ、存分にやろうではないか！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFace F 1]
+＠イスカンダル
+わははははは！！[r]愉快愉快、再び、刃交えてみせようぞ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_3 0.4]
+[soundStopAll]
+[end]

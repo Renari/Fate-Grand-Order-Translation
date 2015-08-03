@@ -1,0 +1,93 @@
+＄91-30-06-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10310]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3006001 1 弁慶]
+[charaSet E 98025000 1 シャドウサーヴァント]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠弁慶
+おお、マスター殿。[r]少々相談があるのですが……。
+[k]
+
+？1：何か？
+
+？！
+
+[charaFace D 4]
+＠弁慶
+うむ。実は待機する、というのが拙僧あまり[r]性に合わなくてな。
+[k]
+
+[charaFace D 0]
+＠弁慶
+鍛錬するに適した場所を探しているのだが[line 2]。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+鍛錬だけ、ですか……？[r]それでは模擬戦闘用のカリキュラムはいかかでしょう？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0]
+[charaFadeout D 0]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait effect]
+[scene 20300 0]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[fadein white 0.5]
+[wait fade]
+[wt 0.2]
+＠マシュ
+それでは。[r]今からトレーニング用の疑似サーヴァント体を召喚します。
+[k]
+
+＠マシュ
+シャドウサーヴァントと同じようなものですが、[r]安全性は極めて高いです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+召喚サークルを利用した投影のようなものさ。[r]じゃ、今からそちらに何体か召喚させるよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠弁慶
+うむ、来い！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

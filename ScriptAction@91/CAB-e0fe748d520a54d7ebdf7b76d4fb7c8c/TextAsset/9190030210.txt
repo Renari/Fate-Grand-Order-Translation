@@ -1,0 +1,152 @@
+＄91-90-03-02-1-0
+
+[soundStopAll]
+[scene 10000]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98007000 1 ジャンヌ・オルタ]
+[charaSet E 98006300 1 幽霊]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ・オルタ
+産まれた屍の責任を取る必要はない。[r]私の生を求める咆吼に巻き込まれたのは運が悪いだけ。
+[k]
+
+＠ジャンヌ・オルタ
+けれど、それによって産まれた亡霊には。[r]責任を取らなければなるまい。
+[k]
+
+＠ジャンヌ・オルタ
+その行為は歓喜であり。[r]その行為は義務である。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 1]
+[bgm BGM_EVENT_2 0.1]
+[scene 20301]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 2]
+[charaFace A 12]
+[charaFadein A 0 0]
+[fadein black 0]
+[wait fade]
+＠マシュ
+あの……。[r]もしかして、また幽霊退治ですか？
+[k]
+
+[charaFace D 3]
+＠ジャンヌ・オルタ
+あら、そう警戒しないでマシュ。[r]つられて敵対したくなってしまうでしょう？
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+安心なさい。今回は違います。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+時代修正の際、現実の歴史とズレが生じた部分から、[r]エネミーが漏れ出ています。
+[k]
+
+＠ジャンヌ・オルタ
+放置しておいても自然修正するものですが、[r]被害者は現実の歴史として固定化されてしまいます。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+何しろ、いくら死んだところでとうに足らぬ存在。[r]歴史は彼らを元通りにするほど、寛容ではありません。
+[k]
+
+？1：責任を取るつもり？
+
+？2：つぐない？
+
+？！
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+……そう見えますか？[r]私としてはそんなつもりはありません。
+[k]
+
+＠ジャンヌ・オルタ
+私が幕を開けたのだから、[r]幕を閉じるのも私の仕事。
+[k]
+
+＠ジャンヌ・オルタ
+それだけです。[r]では、向かいましょう。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_5 0.1]
+[wt 0.5]
+[scene 20401]
+[communicationChara 98003003 1 5 0 2]
+[fadein black 0.5]
+[wait fade]
+＠Dr.ロマン
+おおおおお！？[r]これはまた酷いな……！
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そこら中にエネミーの反応がある。[r]さっさと始末してしまった方がいい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠マシュ
+了解しました。[r]ドクター、索敵お願いします。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+ああ、それは不要です。
+[k]
+
+[charaFace A 6]
+＠マシュ
+はい？
+[k]
+
+[charaFace D 2]
+＠ジャンヌ・オルタ
+[line 2]さあ、この旗の下に集え！[r]醜悪な怪物たちよ！
+[k]
+
+[se ad25]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+＠マシュ
+わ、わ、わ。[r]エネミーが大量に集まってきました！？
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+さあ、救いを与えましょう！[r]貴方たちは一人残らず、私がこの世界に孕ませた存在。
+[k]
+
+＠ジャンヌ・オルタ
+[line 2]それ故に。私は貴方たちを殺害する義務がある。[r]来なさい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,82 @@
+＄91-40-01-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20500]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4001001 0 メドゥーサ]
+[charaSet E 98014000 1 若者]
+[charaSet F 98006000 0 先生]
+[charaFace E 0]
+[charaFadein E 0]
+[fadein black 1]
+[wait fade]
+＠若者
+な、なんて馬鹿力だ……、この女……。[r]ち、ちくしょう！！　先生！！　先生を呼べ！！
+[k]
+
+[charaFadeout E 0]
+[charaTalk F]
+[charaFadein E 0.1 2]
+[charaFace F 0]
+[charaFadein F 0.4 0]
+＠先生
+どぅーれー……、[r]なんだ貴様ら、女子供相手に情けない。
+[k]
+
+＠若者
+それが、この[#デカ女]とんでもねぇ[#怪力]でして。
+[k]
+
+[charaFadeout E 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠メドゥーサ
+……（ムッ）
+[k]
+
+＠先生
+ちっ、女ひとりにいいようにやられやがって[r]まあ、たしかに女は小さくて可憐でなくちゃな。
+[k]
+
+＠先生
+こんな[#デカ女]こっちから願い下げだぜ。
+[k]
+
+＠メドゥーサ
+……（イラッ）
+[k]
+
+[charaFadeout F 0]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠若者
+へっ！！　先生がいりゃ百人力だぜ！！[r]おい、野郎ども！！　やっちまうぞ！！
+[k]
+
+[charaFace D 0]
+＠メドゥーサ
+……マスター。[r]私、ちょっと本気を出してもよいでしょうか？
+[k]
+
+[charaFace D 5]
+＠メドゥーサ
+いえ、怒ってはいません、怒ってはいませんが……[r]ちょっと、魔眼が[#疼:うず]いているだけで。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、助太刀に……！！[r]あ、これいらないですね、流れ的に。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

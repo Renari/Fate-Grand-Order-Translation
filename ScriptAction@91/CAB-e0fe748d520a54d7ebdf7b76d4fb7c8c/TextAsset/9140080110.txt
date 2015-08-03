@@ -1,0 +1,340 @@
+＄91-40-08-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10310]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4008001 1 黒髭]
+[charaSet E 98018100 0 海賊仲間]
+[charaSet F 98014000 2 海賊スタッフ]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠黒髭
+一大事ですぞ[%1]氏！！　一大事！！[r]お[#家:いえ]の一大事でござるぞ、殿！！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+黒髭氏……９９％の確率で下らない用件だと[r]推測できますが、一体何の騒ぎですか？
+[k]
+
+[charaFace D 3]
+＠黒髭
+デュフ、相変わらずマシュ氏はきつうございますな！[r]然れどもそこがまた『乙』である！　ヒョウゲ！
+[k]
+
+[charaFace A 0]
+＠マシュ
+……あのですね。[r]こう見えて、先輩は忙しいのです。
+[k]
+
+＠マシュ
+今日も契約したサーヴァント育成に[r]余念がないのですから。ですよね、先輩？
+[k]
+
+？1：なにかあったの？
+
+？2：それよりマシュ、黒髭氏っていうのさ……
+
+？！
+
+[charaFace D 0]
+＠黒髭
+いやいや。聖杯騒ぎですっかり忘れておりましたが[r]実は今日は人類史におけるとてつもなく重要な催し、
+[k]
+
+＠黒髭
+即ち歴的ターニングイベントがあるのを[r]思い出したのでござるのですよこれが。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace B 3]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+今日？　んー、何かあったかなぁ……。[r]とくにカルデアのデータには無いみたいだけど。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠黒髭
+そう！！　カリブの全海賊が一斉に集う[r]海賊の海賊による海賊の祭典！！
+[k]
+
+＠黒髭
+パイレーツマーケット！！[r]通称『パイケット』の開催日なのですぞ！！
+[k]
+
+＠黒髭
+はい、マシュ氏、[%1]氏！[r]大きな声で復唱！
+[k]
+
+＠黒髭
+[fontSize x-large]パ・イ・ケ・ッ・ト！[-]
+[k]
+
+[wt 1]
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠フォウ
+フォ～ウ……
+[k]
+
+＠マシュ
+……それでドクター、例の特異点の話なのですが。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 0]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+ああ、あれね。観測精度を上げて調べなおしたら、[r]あの時代にはね[line 2]。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠黒髭
+んんｗｗｗ　心地よいほどの塩対応。[r]逆にたぎってまいりましたぞ！！
+[k]
+
+[charaFace D 0]
+＠黒髭
+まあまあ、物は試し、呉越同舟、毒くわばそれまで。
+[k]
+
+[charaFace D 1]
+＠黒髭
+ここは拙者とともに、人類史に芽吹いた[r]新しき文化の祭典に臨もうではありませんか！！
+[k]
+
+？1：まあ、見るだけなら……
+
+[charaFace A 12]
+＠マシュ
+先輩がそうおっしゃるのでしたら……。
+[k]
+
+？2：それは見逃せませんぞ！！
+
+[charaFace A 6]
+＠マシュ
+先輩！？
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout A 0]
+[charaFadeout D 0]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait effect]
+[scene 21230 0]
+[charaFace A 6]
+[charaFadein A 0 1]
+[fadein white 0.5]
+[wait fade]
+[wt 0.2]
+＠マシュ
+すごい……何十もの船を繋げて、一つの会場を[r]作っている、なんて……なんて暇な人たち……
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠黒髭
+んんｗｗｗ　懐かしきカリブの海よ！！[r]あれですな、あえて言おうというやつでござる。
+[k]
+
+[charaFace D 3]
+＠黒髭
+カリブよ、拙者は帰ってきた！！[r]なんつってｗｗｗ　デュフフｗｗｗ　オウフｗｗｗ
+[k]
+
+[charaFadeout D 0.1]
+[charaFace D 3]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFadein E 0.4 2]
+＠海賊仲間
+待ってましたぞ！！　黒髭氏！！[r]何年かに一度、よきところで開かれるこの祭典！！
+[k]
+
+＠海賊仲間
+名高きパイケット戦士である黒髭氏と[r]ご一緒出来るとは光栄の極みですなｗｗｗ
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 2]
+[charaFace A 4]
+＠マシュ
+あの……、黒髭氏、こちらの方々は？
+[k]
+
+[charaFace D 1]
+＠黒髭
+無論、この日のためにネットで集めた同志ですぞ！！[r]今日のためにあらゆる布石を打ってきたこの黒髭に
+[k]
+
+＠黒髭
+こんなイベント単独攻略余裕なんだよねｗｗｗ[r]とかいう慢心は決してない、と思っていただきたい！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+で、ここは結局何をするところなんだい？[r]見たところバザーのようだけれど……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠黒髭
+拙者たち海賊が誇る数々の冒険譚の記録や航海図[r]古今東西の財宝、さらに伝説の宝の地図[line 2]
+[k]
+
+[charaFace D 1]
+＠黒髭
+即ち、この世の全てがここにある！　どどん！[r]どう？　なんか面白そうな気がしてキタキタ？
+[k]
+
+？1：フリーマーケットみたいなものかな？
+
+？2：黒髭氏のお目当ては？
+
+？！
+
+＠黒髭
+さっすが、我がマスターだか船長だかＣＥＯだか[r]運命の人だかなんだかですな、話が早い！！
+[k]
+
+＠黒髭
+今回の目玉は、あの伝説の海賊[r]『フランシス・ドレイク』のラフ画集でござる！！
+[k]
+
+＠黒髭
+あ、ラフといっても、裸婦のことでござるぞ？[r]適当に描いて、適当に売る方じゃないですぞｗｗｗ
+[k]
+
+[charaFace D 3]
+＠黒髭
+いや、BBAのラフ画集なんて拙者まったく[r]まーったく、１００％欲しくは無いんですがな、
+[k]
+
+＠黒髭
+まあその、とりあえずコレクション的な意味で？[r]抑えておく？　みたいな？　デュフフｗｗｗ
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+ちなみに本人に許可はとってるんだろうか……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[se ad9]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[seStop ad9 2]
+＠海賊スタッフ
+[line 2]只今より、第88回『パイレーツマーケット』を[r]開催します。会場の皆様は走らずに落ち着いて[line 2]。
+[k]
+
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠黒髭
+…………。
+[k]
+
+[charaFace A 0]
+＠マシュ
+始まったみたいですね。[r]……？　どうしました、　黒髭氏？
+[k]
+
+[charaFace D 2]
+＠黒髭
+馬鹿野郎！！　ここでは船長と呼べぃ！！[r]野郎ども！！　準備はいいか！！
+[k]
+
+[se ad16]
+＠海賊仲間
+おおーっ！！！
+[k]
+
+[seStop ad16 2]
+[charaFace D 5]
+＠黒髭
+よーし、いいか、俺たちはカリブの海賊[r]誇りも命も全ては海においてきた！！
+[k]
+
+＠黒髭
+いつも通り、奪い、犯し、殺す。[r]ただそれだけだ！！　行くぞ野郎ども！！
+[k]
+
+[charaFace D 2]
+＠黒髭
+まずは、先頭きって突っ込んでくる[r]夜襲組の始末からだ！！　ぬかるんじゃねぇぞ！！
+[k]
+
+[charaFace A 6]
+＠マシュ
+な、何が起きて……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あ、後方から凄い勢いで迫ってくる集団が……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠黒髭
+ヤイサホー！！　蹴散らせぇい！！！[r]戦いは祭りだ！！　祭りに参加しない手はねぇぜ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

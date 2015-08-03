@@ -1,0 +1,72 @@
+＄91-40-08-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21230]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4008001 1 黒髭]
+[charaSet E 98018100 2 敵海賊]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠黒髭
+よーし、ここは片付いたな！！[r]ん？　新手か！！
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠敵海賊
+おぅ、久しぶりだなぁ、黒髭……。[r]前回はよくもうちの船長に恥をかかせてくれたなぁ！
+[k]
+
+[charaFace D 2]
+＠黒髭
+ハッ、てめぇの顔なんざ知らねぇよ、アホンダラ！！[r]おい、マシュ！！　[%1]！！
+[k]
+
+＠黒髭
+先に行け！！[r]俺はこいつらを血祭りにあげてからいく！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+は、はあ……、あの、これってバザーですよね？
+[k]
+
+？1：すまない、船長！！
+
+？2：死ぬなよ、黒髭！！
+
+？！
+
+[charaFace D 5]
+＠黒髭
+あぁん……？　誰にモノ言ってやがる！！[r]俺ァ、泣く子も黙るカリブの悪魔『黒髭』様よぉ！！
+[k]
+
+＠黒髭
+ションべんくせぇ餓鬼に心配されるほど[r]落ちぶれちゃいねぇなあ！　さっさと行きやがれ！！
+[k]
+
+[charaFace A 15]
+＠マシュ
+と、とにかく行きましょうマスター！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

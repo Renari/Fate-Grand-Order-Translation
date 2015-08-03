@@ -1,0 +1,155 @@
+＄91-70-02-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7002001 0 ランスロット]
+[charaSet E 98015000 1 シャドーサーヴァント]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ランスロット
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFace A 13]
+＠マシュ
+み、見事な戦いぶりでしたね……。[r]（だめです、戦闘中も戦闘後も隙がありません！）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+（湖の騎士どんだけー）[r]ほんとに狂化してるんだよね、この人？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+流石は音に聞こえし『[#無窮:むきゅう]の武錬』[r]といったところでしょうか。
+[k]
+
+＠マシュ
+狂化しているとはいえ、[r]その武が劣化することは無いという事でしょうね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+まだだ！！　まだあきらめるんじゃないマシュ！！[r]次のシャドウサーヴァントは凄いぞ！！
+[k]
+
+＠Dr.ロマン
+（ええい、パラメーター設定振り切ってやる）[r]（いくら湖の騎士でも、これなら隙ができ……）
+[k]
+
+[se ad49]
+[wait se ad49]
+[communicationCharaFace 2]
+＠Dr.ロマン
+……あっ。
+[k]
+
+[se ad9]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 1]
+[seStop ad9 3]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+あの……、ドクター、これは一体？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ごめん……、操作を間違えちゃった。[r]とんでもないレベルの疑似サーヴァントを
+[k]
+
+＠Dr.ロマン
+呼び出しちゃったかも？
+[k]
+
+？1：呼び出しちゃったか
+
+？2：出しちゃったじゃないよ
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ！！！
+[k]
+
+[charaFadeout C 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あ、しかもこれ命に関わるレベルの[r]シャドウサーヴァントだ……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 14]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ドクター！！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+が、がんばってね！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+あとで覚えていてくださいね！！[r]とにかく行きますよ、ランスロット！！
+[k]
+
+[charaFace D 2]
+＠ランスロット
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

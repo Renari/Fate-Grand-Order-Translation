@@ -1,0 +1,143 @@
+＄91-70-07-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10952]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7007001 1 ヴラド三世]
+[charaSet E 98014000 1 女性]
+[charaSet F 98006100 1 雑魚エネミー]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ヴラド三世
+ふん。[r]塵も残さず消え失せるがいい、浅ましき獣たちめ。
+[k]
+
+＠女性
+……。
+[k]
+
+＠ヴラド三世
+娘。
+[k]
+
+＠女性
+は、はい！？
+[k]
+
+[charaFace D 1]
+＠ヴラド三世
+良いか。この獣はもうそなたを悩ませることはない。[r]家に帰り、安眠を貪るがいい。
+[k]
+
+＠女性
+は、はい。[r]あの[line 2]あなたの、お名前は？
+[k]
+
+[charaFace D 0]
+＠ヴラド三世
+ヴラド三世。覚えておけ。
+[k]
+
+[se ad59]
+[wt 0.5]
+[seStop ad59 2]
+＠ヴラド三世
+ふむ。これでこの歴史は是正されたと考えていいのか？
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+あ、ええ。[r]多分[line 2]大丈夫かなと思います。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ヴラド三世
+素晴らしい。[r]では、帰還しよう。
+[k]
+
+[messageOff]
+[se ad12]
+[effect bit_talk_07]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 4]
+[fadeout white 1]
+[effectStop]
+[wait effect]
+[wait fade]
+[scene 10400]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein white 0.5]
+[wait fade]
+＠ヴラド三世
+付き合わせて済まなかったな。
+[k]
+
+[charaFace A 13]
+＠マシュ
+い、いえ。[r]大丈夫です。
+[k]
+
+[charaFace D 0]
+＠ヴラド三世
+うむ。今宵は大人しく、ゆるりと休むがいい。[r]では、余も霊体化する。
+[k]
+
+[se ad52]
+[charaFadeout D 0.7]
+[wait se ad52]
+[wt 0.7]
+[charaFadeout A 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+その、先輩。
+[k]
+
+＠マシュ
+……ああやって歴史を是正しても、[r]ドラキュラの名が歴史から消える確率は……。
+[k]
+
+？1：低い？
+
+？2：あまりない？
+
+？！
+
+[charaFace A 8]
+＠マシュ
+……はい。
+[k]
+
+[charaFace A 0]
+＠マシュ
+でも、ヴラドさんにとっては[line 2]これこそが[r]聖杯に託すべき望みのようですし。
+[k]
+
+[charaFace A 13]
+＠マシュ
+もしかすると、何か起きるかもしれません。
+[k]
+
+＠マシュ
+少なくとも、ヴラド三世という人物の認識が[r]変革するような[line 2]そんな、奇跡が。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

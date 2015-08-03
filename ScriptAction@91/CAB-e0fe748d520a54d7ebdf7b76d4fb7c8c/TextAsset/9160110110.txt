@@ -1,0 +1,140 @@
+＄91-60-11-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10310]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6011001 0 荊軻]
+[charaSet E 98014000 1 中世兵士]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠荊軻
+ああ、主とマシュか。丁度良かった。[r]一つ、君たちに頼みがある。
+[k]
+
+＠マシュ
+はい、何か？
+[k]
+
+＠荊軻
+鍛錬に付き合って欲しい。[r]模擬戦闘を行いたいのだが、設定が少々複雑でね。
+[k]
+
+[charaFace D 4]
+＠荊軻
+ロマンに手順は教わり、暗記はしたのだが……[r]どうもイヤな予感がする。
+[k]
+
+＠荊軻
+こういう時の私の勘はまず外れない。[r]間違いなく殺す、いや壊す。あの装置そのものを。
+[k]
+
+[charaFace A 12]
+＠マシュ
+な、なるほど。素晴らしい直感です。[r]そしてよく相談してくれました。
+[k]
+
+[charaFace A 1]
+＠マシュ
+設定の細かい調整はわたしにお任せください。[r]これからもドシドシ引き受けますから。
+[k]
+
+[charaFace D 1]
+＠荊軻
+おお、ありがたいな。
+[k]
+
+[charaFace A 0]
+＠マシュ
+では、どのように？
+[k]
+
+[charaFace D 0]
+＠荊軻
+王を討つ、その訓練をしたい。
+[k]
+
+＠マシュ
+了解しました。かつてのあなたのような状況を[r]想定して、問題ありませんね？
+[k]
+
+[charaFace D 1]
+＠荊軻
+無論だ。[r]そうでなくてはな。
+[k]
+
+[se ad1]
+[wait se ad1]
+[charaFace A 7]
+＠マシュ
+では、模擬戦闘を開始します。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20900]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 4]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠荊軻
+知っての通り、[r]私はかつて始皇帝の暗殺に失敗した。
+[k]
+
+[charaFace D 1]
+＠荊軻
+それでもなお、[r]私を召喚し使役してくれる主には感謝の至りだ。
+[k]
+
+[charaFace D 0]
+＠荊軻
+ただ、それに甘える訳にもいかぬ。[r]せめて仮想でも、成功させておかねばな。
+[k]
+
+[charaFace D 4]
+＠荊軻
+この[#匕首:あいくち]で仕留めるには、[r]まだ距離が足りぬか。
+[k]
+
+[charaFace D 0]
+＠荊軻
+では、一歩足を進めよう。
+[k]
+
+[charaTalk D]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFadeout D 0.1]
+[charaFadein D 0.1 2]
+＠荊軻
+……当然。兵士たちが殺到する。
+[k]
+
+＠荊軻
+始皇帝のときは、全員武器も持たぬ文官だったが、[r]あんな上手い状況がそうそう出来上がるはずもあるまい。
+[k]
+
+[charaFace E 5]
+＠荊軻
+では、まず彼らを仕留めよう。[r]可能な限り迅速にな。ここから先は速度が全てだ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

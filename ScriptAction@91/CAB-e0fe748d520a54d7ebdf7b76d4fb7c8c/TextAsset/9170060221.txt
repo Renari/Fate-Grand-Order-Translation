@@ -1,0 +1,159 @@
+＄91-70-06-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 98006000 1 ？？？]
+[charaTalk A]
+[charaFace D 1]
+[charaFadein D 0 0]
+[charaFace A 15]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……撃破、できました……。[r]戦闘終了です……先輩、お疲れさまでした……。
+[k]
+
+＠坂田金時
+ハッ、鉄みてぇな筋肉しやがって！[r]おかげでギンギンに歯応えあったじゃねえか！
+[k]
+
+＠坂田金時
+楽しかったぜオタク！[r]じゃあな、南蛮の鬼もどき！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+凄い余裕だ、ゴールデン格好いいぞ[line 2][r]じゃなくて、ううん、倒せたのは喜ばしいんだけども。
+[k]
+
+[communicationCharaClear]
+[charaTalk A]
+[wait communicationChara]
+[communicationCharaLoop 98003003 0 5 0 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……はい、ドクター。[r]どういった理由で悪魔が森に……。
+[k]
+
+？1：ワンダリング悪魔？
+
+？2：悪魔って、フワッと出てくるもの？
+
+？！
+
+[charaFace A 0]
+＠マシュ
+いいえ、先輩。[r]悪魔は自然発生するものではないはずです。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+そう、少なくとも西暦以降の世界ではそうだろうね。[r]いや、古代や神代なら違うとも言い切れないんだけど。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+でも現に、ああして出現していたんだ。[r]であるからには、うん[line 2]
+[k]
+
+＠Dr.ロマン
+悪魔が発生するプロセスがこの森に存在していた、[r]ってことなんだよねえ。うーん。
+[k]
+
+[charaFace A 12]
+＠マシュ
+何かが……いや、誰かが……。[r]悪魔を召喚した、ということでしょうか？
+[k]
+
+[charaFace A 7]
+＠マシュ
+一体、誰が[line 2]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠坂田金時
+ま、難しいことはドクターに任せるぜ。[r]せっかくだ、オレはここで一杯やってから帰らぁ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+え、一杯？
+[k]
+
+？1：お酒持ってきたの？
+
+？2：月見酒？
+
+？！
+
+＠坂田金時
+そういうこった。[r]どうだ、大将も付き合ってくか？
+[k]
+
+＠坂田金時
+今度こそ、もう何もいやしねえし、[r]嗅いだはずの匂いもどこへとやら消えちまった。
+[k]
+
+＠坂田金時
+たまには星やら月やら見ながら[r]のんびりするのもいいもんだ。
+[k]
+
+＠坂田金時
+どうだ、大将？
+[k]
+
+[charaFace A 7]
+＠マシュ
+先輩はこの後も任務が控えていますし、[r]アルコールの摂取はいけません。いけません、が。
+[k]
+
+[charaFace A 13]
+＠マシュ
+……確かに、周囲に敵対的な気配はありません。[r]少しの休息は、良いかもしれないですね。
+[k]
+
+？1：じゃ、休んでいこう！
+
+[charaFace D 1]
+＠坂田金時
+おうよ！[r]話がわかるじゃねーか！
+[k]
+
+？2：さっき、良さそうな芝生があったよ
+
+[charaFace D 1]
+＠坂田金時
+お、アンタも気付いたか。[r]オレも目を付けてたんだよな、あそこ。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウフォウ、フォーウ♪
+[k]
+
+＠坂田金時
+よーしよし、お前も嬉しいか。[r]んじゃま、ちょっくら月見酒と洒落込むか！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

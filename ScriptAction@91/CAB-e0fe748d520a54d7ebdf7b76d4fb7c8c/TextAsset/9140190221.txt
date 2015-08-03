@@ -1,0 +1,145 @@
+＄91-40-19-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10802]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 98006200 1 ？？？]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠マルタ
+……まったく。
+[k]
+
+＠マルタ
+試練なんて充分間に合ってんの。[r]世界の有様を見れば、それくらいわかるでしょうに。
+[k]
+
+＠マルタ
+男であれ悪魔であれ空気読めないヤツに居場所はないわ。[r]さっさと地獄へ帰りなさいっての。
+[k]
+
+＠マルタ
+悪魔の出番なんてのは[r]もう、どの時代にだってありはしないのよ。
+[k]
+
+[charaFace D 5]
+＠マルタ
+……原罪はぜんぶ、[r][#あの人]が持って行ってくれたんだから。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……マルタさん……。
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+よし、戦闘終了だ。[r]聖女マルタも大人しくなってくれたようだし、ふう。
+[k]
+
+＠Dr.ロマン
+めでたし、めでたしかな。[r]ああ怖かった……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォーウ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+あの悪魔の竜種並の強さもすごい怖かったけど、[r]うん、ボクは聖女マルタもちょっと怖かったよ実際。
+[k]
+
+＠Dr.ロマン
+ああ、暴走とかしないでくれて[r]本当に良かった……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠マルタ
+はい？[r]私が、何か？
+[k]
+
+[charaFace D 1]
+＠マルタ
+貴方たちのおかげで、迷える魂も悪魔も去りました。[r]これもすべて神の御心でしょう。
+[k]
+
+＠マルタ
+そう、本来であれば、[r]英霊などという形で私が在るのも自然ならざること。
+[k]
+
+＠マルタ
+ですが……。[r]少なくとも、世界を救わんとする貴方たちとなら。
+[k]
+
+＠マルタ
+私が仮初めに在ること。[r]復活ならざる復活を経て、ここにいることも。
+[k]
+
+＠マルタ
+……きっと、意味があるものと信じられます。[r]ありがとう。[%1]、マシュ・キリエライト。
+[k]
+
+[charaFace A 1]
+＠マシュ
+いいえ、聖女マルタ。こちらこそ、[r]力を貸してくださってありがとうございます。
+[k]
+
+？1：うん、ありがとう
+
+？2：これからもよろしく
+
+？！
+
+＠マルタ
+……はい。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+（あれ、ボクの名前入ってなかった？　今？）
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+（フォウ、フォーウ）
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

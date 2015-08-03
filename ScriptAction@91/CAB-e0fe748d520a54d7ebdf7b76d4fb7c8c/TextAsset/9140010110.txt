@@ -1,0 +1,268 @@
+＄91-40-01-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21100]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4001001 1 メドゥーサ]
+[charaSet E 98014000 0 若者]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠メドゥーサ
+はぁ……。
+[k]
+
+？1：どうしたの？
+
+？2：なにかあった？
+
+？！
+
+[charaFace D 0]
+＠メドゥーサ
+あ、[%1]でしたか。[r]実はその……、お見合いの話が来ておりまして……。
+[k]
+
+？1：へぇ……、って、お見合い！？
+
+？2：どこからですか！？
+
+？！
+
+[charaFace D 4]
+＠メドゥーサ
+実は私には姉が二人おりまして、その姉様たちから[r]お見合いの話を持ちかけられたのです。
+[k]
+
+？1：そ、そうなんだ……
+
+？2：ちなみにお相手は？
+
+？！
+
+[charaFace D 1]
+＠メドゥーサ
+ああ、別に二人とも本気でお見合いを[r]進めようとは思っていないのでしょう。
+[k]
+
+＠メドゥーサ
+私の反応を見て楽しもうとかそのあたりだとは[r]思うのですが……。
+[k]
+
+？1：断れないの？
+
+？2：断ろう！！
+
+？！
+
+[charaFace D 4]
+＠メドゥーサ
+ええ……、ですが断るにも姉様たちが出した[r]条件がありまして……。
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20500]
+[charaFace A 11]
+[charaFadein A 0 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……で、先輩がメドゥーサさんの[r]恋人のふりをするというわけですか。
+[k]
+
+＠フォウ
+フォウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+はいはい、マシュも元気だして。あくまで演技だよ、[r]実際に腕を組んだりキスしたりするワケじゃ……
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+あれ、あるのか？[r]それぐらいしないと恋人じゃないしな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……！
+[k]
+
+[charaFace D 3]
+＠メドゥーサ
+い、いえ、どうでしょう。[r]私もその、そういうのは不慣れですので……
+[k]
+
+[charaFace A 8]
+＠マシュ
+……ふう。[r]ですよね、メドゥーサさんにかぎってそんな。
+[k]
+
+[charaFace D 4]
+＠メドゥーサ
+そう安心されるのもそれはそれで不本意ですが……[r]単に、『恋人同士』という関係に不慣れなだけで……。
+[k]
+
+[charaFace D 0]
+＠メドゥーサ
+ともあれ、申し訳ありません[%1]。[r]私のために余計な手間をかけさせてしまって。
+[k]
+
+？1：[&よろしくお願いします。:というか私、女なんですけど？]
+
+[charaFace D 1]
+＠メドゥーサ
+[&ええ、こちらこそよろしく。:ええ、私は気にしません。むしろ……。]
+[k]
+
+？！
+
+[charaFace A 11]
+＠マシュ
+……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+それじゃ、証拠映像の撮影はボクに任せてくれ。[r]マシュはサポートの方よろしくね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+……はい、わかりました。
+[k]
+
+[charaFadeout A 0.7]
+[charaFadeout D 0.7]
+[messageOff]
+[fadeout black 0.7]
+[wait fade]
+[wt 0.5]
+[scene 20500]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[fadein black 0.7]
+[wait fade]
+＠メドゥーサ
+フフ、こういうのもたまには良いものですね。[r]いえ、貴方には申し訳ないのですが。
+[k]
+
+？1：そんなことないよ
+
+？2：むしろバッチコイです
+
+？！
+
+＠メドゥーサ
+そうですか、貴方も物好きなのですね。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[wipein rightToLeft 0.4 1]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+[wait wipe]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+まあまあ、マシュもそろそろ機嫌を直して……。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[communicationCharaClear]
+[wait communicationChara]
+[wait wipe]
+[wt 0.3]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wipein rightToLeft 0.4 1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wait wipe]
+＠若者
+よー、ねーちゃん、いい体してんじゃねーか。[r]ちょっくら俺らに付き合ってくんねーかなぁ？
+[k]
+
+[charaFadeout E 0]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠メドゥーサ
+……？　[%1]、[r]彼らは誰のことを言っているのでしょうか？
+[k]
+
+？1：あなたですよ、メドゥーサさん
+
+？2：うーん、この典型的な……
+
+？！
+
+＠若者
+ヒヒヒ…、そんなガキと遊ぶより俺らと遊ぶ方が[r]全然楽しいぜぇ～。
+[k]
+
+[charaFace D 1]
+＠メドゥーサ
+すみませんが、私はいま[%1]と[r]楽しく思える時間を過ごしておりますので。
+[k]
+
+＠メドゥーサ
+速やかに視界から消え去ってくれると[r]助かるのですが……。
+[k]
+
+＠若者
+なんだと～？　お高くとまりやがって……[r]おい、野郎ども少し痛い目見せてやんな！！
+[k]
+
+[charaFace D 4]
+＠メドゥーサ
+……はあ。慣れているとはいえ、[r]こういつも通りだと頭が痛くなります。
+[k]
+
+[charaFace D 0]
+＠メドゥーサ
+申し訳ありません、[%1]。[r]少々、荒事の時間をいただきます。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

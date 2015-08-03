@@ -1,0 +1,192 @@
+＄91-20-12-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20110 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98002000 1 フォウ]
+[charaSet C 98003003 1 Dr.ロマン]
+[charaSet D 2012000 1 エウリュアレ]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠エウリュアレ
+なんだか変なヘビもいたわね。[r]ヘビなんて十分に間に合っているのに、もう。
+[k]
+
+[charaFace A 6]
+＠マシュ
+?　間に合っているんですか？
+[k]
+
+[charaFace D 3]
+＠エウリュアレ
+あ[line 3]コホン。いいえ、何でもないのよマシュ。[r]それより、この洞窟って浅いのね。もう行き止まり？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+まーガチの迷宮だったら流石に反対してますよ女神さま。[r]お姉さまが試練を手加減してくれて本当に良かった……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠エウリュアレ
+ふうん。
+[k]
+
+[charaFace D 0]
+[charaMove D -2 1]
+[wt 1]
+＠エウリュアレ
+……あった。そういうことなのね、[#私:ステンノ]。
+[k]
+
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+どうしました？
+[k]
+
+[charaFace D 3]
+＠エウリュアレ
+……なんでもないわ。[r]確認できたから、もういいの。帰りましょ？
+[k]
+
+＠マシュ
+??
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォウ？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+え、なに？　何かあったの？
+[k]
+
+？1：何かあったの？
+
+？2：何か、見てたよね？
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠エウリュアレ
+何でもないったら[line 2][r]ああ、もう。[%1]まで一緒になってー。
+[k]
+
+[charaFace D 0]
+＠エウリュアレ
+あなたたちは気にしないでいいの。[r]ちょっと、ね。見付けて当然のものを見付けただけよ。
+[k]
+
+[charaFace D 4]
+＠エウリュアレ
+[#私:ステンノ]が私に残したメッセージ。[r]もしくは、[#私:ステンノ]があの子に残したメッセージ。
+[k]
+
+[charaFace D 0]
+＠エウリュアレ
+何でもないのよ。[r]本当にね。
+[k]
+
+＠エウリュアレ
+もしも何かの偶然や、奇跡があって、[r]同じ時代に私やあの子が現界することがあったら。
+[k]
+
+[charaFace D 4]
+＠エウリュアレ
+そんなことは有り得ないだろうけど、[r]有り得たとして……でも、すれ違ってしまったら。
+[k]
+
+＠エウリュアレ
+そんな時のための、[r][#私:ステンノ]からの、一言だけのメッセージ。
+[k]
+
+＠エウリュアレ
+[#私:エウリュアレ]は変わらずにいてね。[r][#あなた:メドゥーサ]も、きっと。
+[k]
+
+[charaFace D 3]
+＠エウリュアレ
+……って、何を言わせてるのよ。[r]生意気な人間ね。[%1]！
+[k]
+
+[charaFace D 1]
+[se ad29]
+[charaEffect D bit_talk_28 1]
+[wt 2]
+？1：すいませんでした、女神さま
+
+？2：立ち入ってごめんなさい、女神さま
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩、また！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 2]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ある程度の耐性があるはずなのに、[r]簡単に引っ掛かっちゃうんだから凄いなあ女神さま。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠エウリュアレ
+当然でしょう？[r]私は女神。私たちは、誰からも愛される存在。
+[k]
+
+＠エウリュアレ
+だから、愛していればいいの。[r]せいぜい焦がれなさい。
+[k]
+
+＠エウリュアレ
+私や私の内側を覗き込もうだなんて、[r]やめなさい。[line 2][#美しい蛇:メドゥーサ]に噛まれるわよ？
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_1 0.4]
+[wait fade]
+[soundStopAll]
+[end]

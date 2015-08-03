@@ -1,0 +1,167 @@
+＄91-10-01-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1001001 1 アルトリア]
+[charaFace A 4]
+[charaFadein A 0 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+[line 6]。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+まさかこんな荒野で、これといった理由もなく、[r]最強の幻想種と殴り合いをする事になるなんて……
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+マシュ、[%1][&君:ちゃん]、[r]本当にお疲れさま……心労、察するよ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠アルトリア
+何を落ちこんでいるのです。[r]二人とも、ここは勝ち鬨をあげる時ですよ。
+[k]
+
+＠アルトリア
+貴方たちは自らの手で[r]限界のない事を証明したのです。
+[k]
+
+[charaFace D 1]
+＠アルトリア
+仕えるサーヴァントとして、[r]これ以上に誇らしい事はありません。
+[k]
+
+？1：そ、そうなんですか？
+
+？2：セイバーが、誇らしい？
+
+？！
+
+[charaFace D 0]
+＠アルトリア
+はい。私たちサーヴァントは[r]自らの強さに………興味はないのです。
+[k]
+
+[charaFace A 14]
+＠マシュ
+（いま、あまり、と小声で言いましたよ先輩）
+[k]
+
+[charaFace D 3]
+＠アルトリア
+コホン。マシュ、そこは黙っているように。
+[k]
+
+[charaFace D 0]
+＠アルトリア
+英霊はある意味、その終わり[line 3]最終形が[r]見えている存在。それぞれの強さはもう判っている。
+[k]
+
+＠アルトリア
+ですが貴方たちは違う。[r]その時代に生きている人間が最終的にどこに行くのか。
+[k]
+
+＠アルトリア
+どれだけの成長をして、どれほどの成果を出すのか。[r]私たち英霊には想像もできない事です。
+[k]
+
+[charaFace D 1]
+＠アルトリア
+だから、私は誇らしいのです。[r]貴方のようなマスターに出会えたことが。
+[k]
+
+＠アルトリア
+……不思議ですね。[r]前にもこんな事があった気がします。
+[k]
+
+[charaFace D 1]
+＠アルトリア
+私もいつか、[r]貴方のような“誰か”に出会うのかもしれません。
+[k]
+
+＠アルトリア
+……未熟なままでも自分を奮い立たせられる、[r]敬愛できるマスターに。
+[k]
+
+[charaFace D 0]
+＠アルトリア
+ですが、今はその時ではありません。[r]私にできる事は貴方を最後の戦いまで導くこと。
+[k]
+
+＠アルトリア
+カルデアのマスター、[%1]殿。[r]聖剣は貴方を認めました。
+[k]
+
+＠アルトリア
+私も今まで以上に貴方の力になります。[r]どうか、これからもよろしくお願いします。
+[k]
+
+[charaFace A 1]
+＠マシュ
+セイバーさん……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+アーサー王のお済み付きをもらっちゃったよ……[r]しかも宝具のパワーアップも付いてきちゃったよ……
+[k]
+
+？1：これからもよろしく、セイバー
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠アルトリア
+はい。威力を増した我が宝具、[r]ぜひ強敵への切り札にしてください。
+[k]
+
+？2：……次からは無茶は控えてくれ、セイバー
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠アルトリア
+そ、そうですか……[r]結果よければ、と思ったのですが、
+[k]
+
+[charaFace D 1]
+＠アルトリア
+マシュの疲労ぶりから見て、無茶にも程があった[r]ようですね。ええ、次は気をつけましょう！
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 2]
+[wt 1]
+＠Dr.ロマン
+わかってない……この王様わかってないぞ！
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[communicationCharaClear]
+[wait communicationChara]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,146 @@
+＄91-20-01-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10720]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003003 1 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2001001 1 エミヤ]
+[communicationCharaLoop 98003003 1 5 0 3]
+[fadein black 1]
+[wait fade]
+＠Dr.ロマン
+謎のアマゾネス族大移動。[r]後に、この事件はそう語られるのであった。まる。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠エミヤ
+…………。もしやドクター、[r]先ほどの敵は貴方が誘導したものでは？
+[k]
+
+[charaFadeout D 0]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+エー、シラナーイ。[r]ボクにそんな事できるワケないじゃなーい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠マシュ
+ともあれ、これ以上の襲撃はなさそうです。[r]エミヤ先輩、お話の続き、結構ですよ？
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠エミヤ
+……はあ。[r]いや、いい。今ので興が削がれたよ。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+確かにあれこれ言葉で教えるのは野暮だったな。[r][%1]には優秀なスタッフがついている。
+[k]
+
+[charaFace D 1]
+＠エミヤ
+マシュ・キリエライト嬢が[#近衛:ガード]をしているんだ。[r]滅多なコトでは倒れまい。
+[k]
+
+＠エミヤ
+旅は長いだろうしね。この先は言葉ではなく経験で、[r]一人前のマスターとして成長するだろう。
+[k]
+
+？1：出来る範囲でがんばります
+
+[charaFace D 0]
+＠エミヤ
+結構。あまり急ぎすぎず、自分のペースでな。[r]体と生活リズムを壊しては[#元:もと]の[#子:こ]もない。
+[k]
+
+？2：優秀なのはマシュだけですよ
+
+[charaFace A 3]
+＠マシュ
+……………
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+[%1][&君:ちゃん]はどうしてそう、[r]時に臓腑を抉るような冷たさを発揮できるんだい？
+[k]
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+あの、エミヤ先輩。[r]いえ、サーヴァント・アーチャー。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ふと疑問に思ったのですが、[r]貴方はなぜそこまで親身になってくれるのでしょう？
+[k]
+
+＠マシュ
+他のサーヴァントたちは先輩の技量を気にしますが、[r]貴方のように思想までは考慮しないというのに。
+[k]
+
+[charaFace D 3]
+＠エミヤ
+なに。私と契約した以上、マスターとして一人前に[r]なってもらわないとこちらが困る。
+[k]
+
+＠エミヤ
+これも営業、広報のようなものだよ。[r]私と契約したマスターは大成する、という触れ込みさ。
+[k]
+
+[charaFace D 1]
+＠エミヤ
+そうしておけば次の召喚時に、[r]せいぜい高値をふっかけられるだろう？
+[k]
+
+[charaFace A 11]
+＠マシュ
+……えっと。[r]つまり、引いてはエミヤ先輩の利益になる、と？
+[k]
+
+＠マシュ
+情けは人のためならず、という事でしょうか？
+[k]
+
+[charaFace D 3]
+＠エミヤ
+ああ、その解釈で問題ない。
+[k]
+
+[charaFace D 5]
+＠エミヤ
+だいたい、未熟な[&少年:少女]を未熟なまま[r]放逐したとあっては私の沽券に関わる。
+[k]
+
+＠エミヤ
+マスターを成長させ、己の評価も高める。[r]それが歴戦のサーヴァントというものだよ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

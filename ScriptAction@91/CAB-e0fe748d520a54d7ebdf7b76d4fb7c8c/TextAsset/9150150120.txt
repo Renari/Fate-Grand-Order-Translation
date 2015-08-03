@@ -1,0 +1,95 @@
+＄91-50-15-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5015001 1 アマデウス]
+[charaSet E 98018100 1 山賊]
+[charaSet F 98006100 1 ワイバーン]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 1]
+[wait fade]
+＠山賊
+どういう事だ、コイツら暴れ牛みてぇに強えぞ!?[r]一人や二人じゃ話にならねえ、アレ連れてこい！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.5]
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+あ、暴れ牛という喩え方は[r]どうかと思いますよね、マスター！
+[k]
+
+[charaFace D 3]
+＠アマデウス
+いやあ、それだけ大きな盾を振り回していれば[r]誰だってそう思うよ？　くわえて胸のサイズが[line 3]
+[k]
+
+[charaFace A 7]
+＠マシュ
+ムッシュ・アマデウス。その先を口にすると、[r]敵味方のカテゴリに変化が生じると進言します。
+[k]
+
+[charaFace D 4]
+＠アマデウス
+おおっと、怖い怖い。[r]もっと[#辱:はずかし]めたいところだけど、こっちも戦闘中だ。
+[k]
+
+[charaFace D 2]
+＠アマデウス
+[%1]君、物取りの連中はまだ諦めてないぞ。[r]この後にくるのが本命[line 3]
+[k]
+
+[se ad19]
+[wait se ad19]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠海賊
+よぉし、縄を解け！　行けパトリシア！[r]標的はヤツラだ、食い殺していいぞ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ワイバーン
+キシャーーーーーーーーー！
+[k]
+
+[charaFadeout F 0.1]
+[charaTalk A]
+[charaFadein F 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+の、野良ワイバーン……！[r]ああ見えて中々のブリーダーがいると見ました！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠アマデウス
+うん、これには僕もビックリだ。そして呆れた。[r]才能をドブに捨てているにも程がある！
+[k]
+
+＠アマデウス
+飛竜を飼い慣らせる才能があるなら、[r]なんでそっちで生計を立てないかな、あの馬鹿共は！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

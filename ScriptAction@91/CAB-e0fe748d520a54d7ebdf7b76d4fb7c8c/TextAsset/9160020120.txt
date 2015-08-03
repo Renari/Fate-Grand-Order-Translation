@@ -1,0 +1,86 @@
+＄91-60-02-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20800]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6002001 0 ハサン]
+[charaSet E 98016000 1 人さらい]
+[charaSet F 98016000 1 子供達]
+[charaTalk A]
+[charaFace D 5]
+[charaFadein D 0]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+マスター、敵集団を無力化しました。[r]この大木に縄で縛っておきますね。
+[k]
+
+＠ハサン
+子供の姿は見当たりませんな……[r]本拠地はまた別か。
+[k]
+
+＠ハサン
+主殿、私めが先導します。[r]追い詰められた敵は窮鼠と化すやもしれませぬ、
+[k]
+
+＠ハサン
+[line 2]急がれよ。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20115]
+[fadein black 0.5]
+[wait fade]
+＠子供達
+ふえーん……、おうちに帰りたいよう……。
+[k]
+
+[charaFadein E 0.1 1]
+＠人さらい
+オラッ、きりきり歩け、クソガキどもが！！[r]ベソベソ泣いてんじゃねえ！
+[k]
+
+＠人さらい
+何が不満なんだ？　食うに困ったテメェらを[r]オレたちが食わせてやろうってんじゃねえか。
+[k]
+
+＠人さらい
+せいぜい仲良くやろうや？[r]使いっ走りの殺し屋として大事に育ててやるからよ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk D]
+[charaFadein E 0.1 0]
+[charaFace D 5]
+[charaFadein D 0.1 2]
+＠ハサン
+[line 6]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+そこまでです！！　子供達を解放しなさい！！
+[k]
+
+＠人さらい
+チッ！！　しゃらくせぇ！！[r]まとめて始末してやらぁ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

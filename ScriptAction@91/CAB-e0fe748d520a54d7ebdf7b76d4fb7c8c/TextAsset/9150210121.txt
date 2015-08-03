@@ -1,0 +1,99 @@
+＄91-50-21-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2]
+[scene 20800 0]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 0 フォウ]
+[charaSet C 5021001 0 クーフーリン]
+[charaSet E 98006000 0 Dr.ロマン]
+[charaTalk A]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+撃破確認。[r]戦闘終了です、先輩。
+[k]
+
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠クーフーリン
+……やれやれ。[r]こんなとこで、オレの仕事は終了だな。
+[k]
+
+[charaFace C 4]
+＠クーフーリン
+さっさと帰るとするか。[r]悪いな、付き合って貰っちまってよ。
+[k]
+
+？1：アルスターを見ていかない？
+
+？2：知人を覗いたりしないの？
+
+？！
+
+[charaFace C 3]
+＠クーフーリン
+やめとくわ。[r]会いたい奴がいないでもないが、まあ[line 2]
+[k]
+
+[charaFace C 0]
+＠クーフーリン
+何せ、今のオレは魔術師だからな。[r]こんな姿で戻ったら、どうなるか知れたもんじゃねえ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+そうだね、ドルイドはケルト文化圏に於いて[r]かなり重要な位置をを占める存在ではあるからなぁ。
+[k]
+
+＠Dr.ロマン
+死んだはずの英雄クーフーリンが[r]ドルイドになって帰ってきた、なんてことになったら、
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+大騒ぎどころじゃすまないぞ。[r]国のひとつやふたつ滅んだり興ったりしそうだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠クーフーリン
+そういうことだ。[r]だから、まあ、これで終わりだ。
+[k]
+
+[charaFace C 1]
+＠クーフーリン
+懐かしい空気も吸えたしな。[r]いいぜ、もう、さっさと帰ろうぜ？
+[k]
+
+？1：了解！
+
+？2：じゃ、帰ろう！
+
+？！
+
+[charaFace A 1]
+＠マシュ
+はい、先輩！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

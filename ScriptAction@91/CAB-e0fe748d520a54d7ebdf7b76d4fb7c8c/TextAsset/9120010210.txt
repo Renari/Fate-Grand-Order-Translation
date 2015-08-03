@@ -1,0 +1,169 @@
+＄91-20-01-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 20110]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2001001 0 エミヤ]
+[charaSet E 98006000 0 魔物]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0]
+[charaFace A 0]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+炎上都市の大空洞に到着しました。[r]エミヤ先輩、ここに何かあるのですか？
+[k]
+
+＠エミヤ
+ああ。以前、[#この]冬木に来た時に気配を感じてね。[r]その時からタイミングを計っていた。
+[k]
+
+？1：タイミング……？
+
+？2：気配……？
+
+？！
+
+[charaFace D 5]
+＠エミヤ
+個人的に思い入れのある強敵[line 3][r]いや、越えられない壁というヤツかな。
+[k]
+
+[charaFace D 0]
+＠エミヤ
+[%1]。私の宝具がまだ使用できないのは[r][&おまえ:君]も知っているだろう。
+[k]
+
+＠エミヤ
+これは意図的に封印していたものだ。[r]マスターとして[&おまえ:君]が相応しい力量になるまで、な。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+ああ、そうだったのか。道理でおかしいと思った。[r]キミの宝具は心象世界を具現化するものだ。
+[k]
+
+＠Dr.ロマン
+宝具の発動に必要となる触媒はない。[r]キミ自身がそこにいればいいんだから。
+[k]
+
+＠Dr.ロマン
+なのに宝具が使えなかったのは、[r][%1][&君:ちゃん]の成長を待っていたんだね。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エミヤ
+お節介だと重々承知しているが、[r]何事にも順序というものがある。
+[k]
+
+＠エミヤ
+宝具に頼り切りになるような[r]マスターにはなってほしくなかったのだが……
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+＠マシュ
+[%1]先輩はマスターとして成長した。[r]もう宝具を預けるに足る、と判断したのですね？
+[k]
+
+？1：ようやくアーチャーの宝具が使えるのか！
+
+[charaFace D 3]
+＠エミヤ
+ああ、今までよく頑張ったな。[r]だが、その前にもう一仕事こなしてもらうぞ。
+[k]
+
+？2：ありがたいけど過保護すぎる！
+
+[charaFace D 4]
+＠エミヤ
+そこはもう諦めてくれ。どうもオレは、[r]気に入った相手には情を入れすぎる悪癖がある。
+[k]
+
+？！
+
+[charaFace D 0]
+＠エミヤ
+[#結果:すがた]は違えどここは大聖杯だ。[r]冬木における聖杯戦争……
+[k]
+
+＠エミヤ
+その最強のサーヴァントがこの奥で眠っている。[r][&おまえ:君]にはヤツを倒してもらおう。
+[k]
+
+＠エミヤ
+あのサーヴァントを乗り越えられるのなら、[r]私から言うべき事は何もない。
+[k]
+
+[charaFace A 6]
+＠マシュ
+この奥……先輩、それってまさか……
+[k]
+
+？1：……何だったっけ？
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+おいおい、しっかりしてくれよ。[r]バーサーカーだよ、バーサーカー！
+[k]
+
+＠Dr.ロマン
+真っ黒ででっかくて、意思をもった嵐みたいなヤツさ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+？2：……バーサーカーだ
+
+[charaFace A 8]
+＠マシュ
+……はい。[r]あの時のわたしたちでは歯が立たなかった相手です。
+[k]
+
+[charaFadeout A 0.1]
+？！
+
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠エミヤ
+知っているのなら話は早い。[r]では万全の状態で戦いを[line 3]
+[k]
+
+[se ad23]
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠魔物
+GuRuuuuuuuuuuuu[line 3]！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠エミヤ
+と、その前に軽い準備運動だ。[r]蹴散らすぞ、[%1]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

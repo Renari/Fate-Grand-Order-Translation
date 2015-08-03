@@ -1,0 +1,49 @@
+＄91-70-11-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7011001 1 ダレイオス三世]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……敵勢力、まだ多数残存しています。[r]継戦です、マスター！
+[k]
+
+[se bac10]
+[shake 0.05 0 5 0.5]
+[wait se bac10]
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダレイオス三世
+[image berserker_language_1][line 2]ッ!！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+ええと、あと一息になりました！！
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

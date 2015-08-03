@@ -1,0 +1,78 @@
+＄91-60-14-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20900]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6014001 1 マタ・ハリ]
+[charaSet E 98006000 1 市民]
+[charaSet F 98006000 1 兵士]
+[charaSet G 98006000 1 王様]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠王様
+う、ワシは……一体……。[r]おまえたちは……？
+[k]
+
+＠マタ・ハリ
+王様。お疲れ様でした。[r]うふふ、私の名はマタ・ハリ。
+[k]
+
+＠王様
+マタ・ハリ……？[r]奇妙な……名前だ……。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+ええ。ほら、この目を見て下さらない？[r]私の目は、太陽。
+[k]
+
+＠マタ・ハリ
+陽の目を持つ女[line 2]それが、私の名前よ。[r]さあ、全てを告白しなさい。
+[k]
+
+＠王様
+ああ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout D 0.5]
+[wt 0.5]
+[scene 20402]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 1]
+[charaFadein A 0 2]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……ふぅ、これで調査は完了しそうですね。[r]ありがとうございました、マタ・ハリさん。
+[k]
+
+＠マタ・ハリ
+いいのよ。マスターたちのお役に立てて[r]何よりかしら。
+[k]
+
+[charaFace D 1]
+＠マタ・ハリ
+さ、マスター。[r]折角ですし、飲み直してから帰りましょうか。
+[k]
+
+[charaFace D 3]
+＠マタ・ハリ
+え、ダメ？[r]あら、残念。ふふふふふ……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,98 @@
+＄91-30-09-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3009001 0 レオニダス]
+[charaSet E 98006000 1 雑魚エネミー]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠レオニダス
+いい汗かいてますね。[r]では、続けて行きましょう！
+[k]
+
+＠マシュ
+はい。[r]次のトレーニングエネミーを召喚します。
+[k]
+
+＠レオニダス
+さあ、バッチこーい！
+[k]
+
+[se ad31]
+[charaFace A 12]
+＠マシュ
+調子が少しおかしいようですね。[r]調べてみま[line 2]。
+[k]
+
+[seStop ad31 1]
+[se bac36]
+[wait se bac36]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace A 6]
+＠マシュ
+な、何事[line 2]！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 1]
+[charaFadeout E 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠レオニダス
+ほう。[r]お喜び下さい、マスター！
+[k]
+
+＠レオニダス
+どうやら、トレーニングエネミーも[r]筋肉マシマシのようです！
+[k]
+
+？1：よ、喜ぶとこ？
+
+？2：あまり嬉しくない！
+
+？！
+
+[charaFace A 15]
+＠マシュ
+こ、故障です！
+[k]
+
+＠マシュ
+どうやら呼び寄せてはいけないものを[r]うっかり召喚してしまったようです！
+[k]
+
+[charaFace A 14]
+＠マシュ
+マスター、直ちに避難してください！
+[k]
+
+＠レオニダス
+何を仰るマシュ殿！[r]これは絶好の機会！
+[k]
+
+＠レオニダス
+さあ、マスター……マッスル行きますぞ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

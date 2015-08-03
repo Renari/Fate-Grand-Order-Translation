@@ -1,0 +1,271 @@
+＄91-60-10-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10202]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6010001 1 ステンノ]
+[charaSet E 98006100 1 ？？？]
+[charaSet F 4001001 0 メドゥーサ]
+[charaTalk A]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 12]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+不埒者退治？[r]……あの。流石に、二度目は。わたしたちでも、その。
+[k]
+
+＠ステンノ
+もう、勘違いなさらないで。前回とは違うのです。[r]今回のお願いは以前のそれとは趣旨を変えてみたの。
+[k]
+
+＠ステンノ
+具体的にはね[line 2]
+[k]
+
+[charaFace A 8]
+＠マシュ
+……趣旨を変えてみた。[r]前回、その言葉の意味をきちんと理解すべきでした。
+[k]
+
+[charaFace A 7]
+＠マシュ
+つまり、あなたは再び、[r]思い付いた遊びにわたしたちを巻き込みたいと？
+[k]
+
+[charaFace D 1]
+＠ステンノ
+あら、素敵。[r]アナタは頭の回転が良いのね、マシュ。
+[k]
+
+[charaFace A 12]
+＠マシュ
+いえ、その……。[r]魅了スキルが効いていませんから……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+本当にわたしを言いくるめるつもりなら、[r]前回と同じロジックではなくて、もう少し手を[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+承知しました女神ステンノ！[r]このロマニ・アーキマン、一命を賭して勤め上げます！
+[k]
+
+[charaFace A 6]
+＠マシュ
+あっ。
+[k]
+
+[charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォーウフォウ！！
+[k]
+
+[charaFace A 4]
+＠マシュ
+フォウさんまで……。
+[k]
+
+？1：女神さまー！！
+
+[charaFace A 14]
+＠マシュ
+……また、先輩まで……。
+[k]
+
+？2：やれやれ
+
+[charaFace A 1]
+＠マシュ
+……あ、今回は大丈夫なんですね！？
+[k]
+
+？！
+
+[charaFace A 0]
+＠マシュ
+……それで、ステンノさん。[r]今回もまた「カタチのある島」で不埒者退治ですか？
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ステンノ
+ええ、そうよ。[r]でも今度は本当に趣向を凝らしているの、楽しんでね♪
+[k]
+
+[charaFadeout D 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 0]
+＠Dr.ロマン
+楽しい！　既にボクは楽しいですとも女神サマ！[r]さーやるぞマシュ、[%1][&君:ちゃん]！　いざ！
+[k]
+
+[charaFace A 14]
+＠マシュ
+（ええー）
+[k]
+
+＠Dr.ロマン
+レイシフト開始！！[r]行ってらっしゃい一世紀！！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ステンノ
+気を付けてね、ふたりとも。[r]今度は、すこうし、大変なクエストかもしれなくてよ？
+[k]
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 4]
+[fadeout white 1]
+[effectStop]
+[wait effect]
+[wait fade]
+[scene 21100]
+[charaFace A 4]
+[charaFadein A 0 1]
+[fadein white 1]
+[wait fade]
+[se ad37]
+[wt 2]
+[seStop ad37 3]
+＠マシュ
+……また、来てしまいました。[r]これまでに何度も訪れた、地中海の島……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+周囲にサーヴァント反応は……。[r]感じられませんね。ですが、油断できません。
+[k]
+
+＠マシュ
+前回の例もありますから、[r]ステンノさんがいる可能性も考慮しないと。
+[k]
+
+？1：さくさく済ませよう
+
+？2：洞窟だよね。早く行こう
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい、先輩。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein A 0.1 2]
+[communicationChara 98003003 0 5 0 1]
+[wt 0.3]
+＠Dr.ロマン
+さあ、キミたち。出発だ！[r]ステンノさまのお言葉によれば宝物を隠したのは洞窟！
+[k]
+
+＠Dr.ロマン
+以前にも入ったあの洞窟だね、[r]場所はわかるよね。じゃあ行ってらっしゃい！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+＠マシュ
+一語一句同じ言葉を……。[r]ドクター、すっかり魅了スキルに……。
+[k]
+
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout C 0.5]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[scene 20110]
+[charaFace E 0]
+[charaFadein E 0 1]
+[fadein black 0.5]
+[wait fade]
+＠？？？
+ゲッゲッゲ……。[r]ここから先を通すわけにはいかん……。
+[k]
+
+＠？？？
+すべては美しき女神ステンノさまのため……。[r]ステンノさまのお言葉通り、宝物は必ず守ろうぞ！
+[k]
+
+[charaFadeout E 0.1]
+[charaTalk A]
+[charaFadein E 0.1 0]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+＠マシュ
+…………。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+…………。
+[k]
+
+＠？？？
+我らの気迫を前にして言葉もないと見える！[r]ゲッゲッゲ、ならば帰れ！　帰ってしまうがいい！
+[k]
+
+＠？？？
+かえれー、かえれー。[r]宝物はくれてやらんぞ、かえれー！
+[k]
+
+＠？？？
+うおー！　ステンノさま、うおおーーーー！[r]不埒者は許さんぞー！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 4]
+[charaFadein A 0.1]
+＠マシュ
+……また、同じ……。
+[k]
+
+？1：やろう、マシュ！
+
+？2：彼らの頑張りを無駄にはできない！
+
+？！
+
+[charaFace A 7]
+＠マシュ
+そ、そうですね。[r]了解です、マスター。戦闘指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,756 @@
+＄91-40-17-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4017001 1 マリー・アントワネット]
+[charaSet E 1005001 1 ネロ]
+[charaFace D 1]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠マリー・アントワネット
+せーのっ、ヴィヴ・ラ・フランス！♪
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+ヴィヴ・ラ・フラ[line 2]ンス！！
+[k]
+
+＠マリー・アントワネット
+ヴィヴ・ラ・フランス♪
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォフォーウ♪
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+ヴィヴ・ラ・フラ[line 2]ンス！！[r]マリーちゃーーん！！
+[k]
+
+？1：何これ？
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+……ええと、ですね。
+[k]
+
+？2：ヴィヴ・ラ・フランス！
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩まで……。
+[k]
+
+？！
+
+[charaFace A 11]
+＠マシュ
+大切な話があるからマリーさんをカルデアに[r]召喚して欲しい[line 2]とドクターがおっしゃった時には、
+[k]
+
+＠マシュ
+何か、特異点の修正に関する事柄なのかと[r]思ったのですが……。
+[k]
+
+[charaFace A 14]
+＠マシュ
+まさか、大切な話というのが「ファンです」と[r]伝えるということだったとは、思いもしませんでした。
+[k]
+
+[charaFace A 13]
+＠マシュ
+ですが……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+[charaFadein B 0.1 2]
+＠マリー・アントワネット
+さん、はい♪[r]ヴィヴ・ラ・フランス♪
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォフォーウ♪
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+ヴィヴ・ラ・フラ[line 2]ンス！！[r]マリーちゃん最高！！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+とても楽しそうなので、[r]しばらく放っておくことにします。
+[k]
+
+[charaFadeout A 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 10400 0]
+[charaFace D 1]
+[charaFadein D 0 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マリー・アントワネット
+ヴィヴ・ラ・フランス♪
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォフォーウ♪
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+ヴィヴ・ラ・フラ[line 2]ンス！！[r]マリーちゃーん！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+……。
+[k]
+
+[wt 0.7]
+[charaFadeout A 0.1]
+[charaFace D 0]
+[charaFadein D 0 1]
+＠マリー・アントワネット
+よーっし、盛り上がってきたわね♪[r]でもちょっとだけ物足りないのは、人数かしら。
+[k]
+
+[charaFace D 4]
+＠マリー・アントワネット
+ねえ、ドクター。[r]もっと人が沢山いて賑やかな時代には行けないの？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk B]
+[charaFadein D 0.1 0]
+[charaFace B 0]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+行けますとも！[r]第二の特異点こと修正中のローマあたりでしたら、
+[k]
+
+[charaFace B 1]
+＠Dr.ロマン
+敵性サーヴァントもいないでしょうし、[r]安全に、マリー殿下をご案内できますともー！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+えっ。せ、先輩、ドクターがあんなことを[line 2]
+[k]
+
+？1：たまにはいいんじゃない？
+
+[charaFace A 11]
+＠マシュ
+そ、そうですか？[r]……了解です。たまには、そうですね。
+[k]
+
+？2：マリーちゃーーん！
+
+[charaFace A 14]
+＠マシュ
+先輩？？
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 1]
+[charaFadein B 0.1 2]
+＠Dr.ロマン
+よーし！　それじゃあ張り切って[r]レイシフト準備しちゃおうかな～！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout B 0]
+[charaFadeout D 0]
+[scene 10000 0]
+[fadein black 0.5]
+[wait fade]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait effect]
+[scene 10800 0]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.4 1]
+[fadein white 0.5]
+[wait fade]
+[se ad5]
+[wt 2]
+＠マリー・アントワネット
+ああ、とってもいいところね[line 2]
+[k]
+
+[seStop ad5 3]
+＠マリー・アントワネット
+ここが古代ローマ帝国、[r]以後のあらゆる欧州王家が夢見た繁栄の大帝国。
+[k]
+
+[charaFace D 0]
+＠マリー・アントワネット
+建物も立派だし、行き交う人もたくさんね！[r]それに何より、ええ、ええ、人々の笑顔！
+[k]
+
+[charaFace D 1]
+＠マリー・アントワネット
+ここはとってもいいところね。[r]連れてきてくれてありがとう、ドクター♪
+[k]
+
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 0.3]
+＠Dr.ロマン
+いえいえ、マリー殿下のためならばっ。[r]しかし一点だけ誤算が……。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+レイシフト処理を行うのにはオペレーターが必要、[r]つまりそれはボク、つまりボクはご同行できない……。
+[k]
+
+＠Dr.ロマン
+……ロマニ・アーキマン、一生の不覚っ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォウフォウ♪
+[k]
+
+[charaFace A 13]
+＠マシュ
+連合による戦乱も幕を引いて、[r]活気に満ちていますね。良かった[line 2]
+[k]
+
+？1：ネロは元気かな
+
+[charaFace A 13]
+＠マシュ
+きっと、お元気かと思います。[r]歴史としてではなくて、彼女という個人を想像すると、
+[k]
+
+[charaFace A 12]
+＠マシュ
+わたしにはそう思えます。これからの[r]彼女には、多くの困難が待っていますが……。
+[k]
+
+？2：ネロに挨拶は……しないほうがいい？
+
+[charaFace A 0]
+＠マシュ
+はい。修正されつつあるローマですから、[r]ネロさんにはわたしたちの記憶がないかも知れません。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠マリー・アントワネット
+あら？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ？
+[k]
+
+＠マリー・アントワネット
+あら、あら？[r]むこうにとっても素敵なお城があるわ。
+[k]
+
+[charaFace D 0]
+＠マリー・アントワネット
+わたしの時代のそれとは違うのね。[r]ええ、街並みもそうだけれど、お城だってそう。
+[k]
+
+＠マリー・アントワネット
+中がどんな風なのか見てみたいわ。[r]ふふ、行ってみましょうか。
+[k]
+
+＠フォウ
+フォーウ♪
+[k]
+
+[charaFace D 1]
+＠マリー・アントワネット
+ふふ。ほら、おいでフォウ。[r]一緒にお城を見学してしまいましょう♪
+[k]
+
+[charaFadeout C 0.4]
+[charaFadeout D 0.4]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+えっ。
+[k]
+
+＠マシュ
+……あっ、あっ、先輩、マリーさんが[r]どんどん進んで行ってしまいます。追いましょう！
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20602 0]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_1 0.1]
+[wait fade]
+＠マリー・アントワネット
+ふうん、こんな風なのね。[r]華美なようで質実剛健というのかしら。
+[k]
+
+＠マリー・アントワネット
+華やかさの中に力強さを感じます。[r]これは自国の文化への信頼と誇りから来ているのね。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.4 2]
+＠マシュ
+や、やっと追い付きました……。[r]まさか、難なく城内に上がり込んでしまうなんて。
+[k]
+
+？1：さすがはフランス王妃
+
+？2：すごいよね
+
+？！
+
+[charaFace A 12]
+＠マシュ
+はい……。[r]笑顔ひとつで城の衛兵をやり過ごして……。
+[k]
+
+＠マシュ
+高貴の気配、というものなのでしょうか。[r]城という存在へ上がるのに、とても自然というか。
+[k]
+
+＠マシュ
+言葉、表情、仕草ひとつ取っても、[r]彼女のそれは優美に過ぎて、わたしも……。
+[k]
+
+[charaFace A 3]
+＠マシュ
+わたしが衛兵だったとしても、[r]彼女を城へ上げてしまうかも知れません。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+流石はフランス最後の王妃[line 2][r]ラスト・クイーン……素晴らしいことだよ……。
+[k]
+
+＠Dr.ロマン
+願わくば、本物のヴェルサイユ宮殿を歩く彼女を、[r]噴水庭園で微笑む彼女を目にしたかった……。
+[k]
+
+＠Dr.ロマン
+特異点のいずれかが十八世紀フランスなら、[r]本当に、目にできるんだけどなあ……。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+特異点以外の時代には、悲しいかな仕様上の問題で[r]ちゃんとレイシフトできないからね。残念。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+特異点以外のすべての時代を焼却、[r]なんてされていなければ……うう……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マリー・アントワネット
+あら？[r]こっちには何があるのかしら。
+[k]
+
+[charaFace D 1]
+＠マリー・アントワネット
+もしかして、玉座かしら。[r]ふふ、古代ローマ皇帝の玉座だなんて、素敵！
+[k]
+
+＠マリー・アントワネット
+おいでなさいな、フォウ。[r]一緒に覗いてみましょう！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォーウ♪
+[k]
+
+[charaFadeout D 0.4]
+[charaFadeout C 0.4]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+＠マシュ
+あっ。
+[k]
+
+？1：また行っちゃった！
+
+？2：追おう、マシュ！
+
+？！
+
+[charaFace A 14]
+＠マシュ
+はい、先輩！[r]後を追います！　ああっ、意外と足が速い！
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20900 0]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0 2]
+[charaFace E 0]
+[charaFadein E 0 0]
+[fadein black 0.5]
+[wait fade]
+＠ネロ
+…………？
+[k]
+
+＠マリー・アントワネット
+（にこにこ）
+[k]
+
+[charaFace E 3]
+＠ネロ
+そなた……？
+[k]
+
+＠マリー・アントワネット
+（にこにこ）
+[k]
+
+[charaFace E 0]
+＠ネロ
+そなた、うむ。もしや異国の王族か？[r]余ほどではないがなかなかの[#王気:オーラ]を感じるぞ。
+[k]
+
+[charaFace E 1]
+＠ネロ
+我が玉座の前に姿を見せるからには、[r]そういうことなのだろうな。うむ、拝謁を許そう。
+[k]
+
+[charaFace E 0]
+＠ネロ
+しかし、いずこの王族だ？[r]謁見の予定をセネカは言っていなかったが……。
+[k]
+
+[charaFace D 1]
+＠マリー・アントワネット
+はじめまして、皇帝陛下。[r]わたし、マリーです。
+[k]
+
+＠ネロ
+うむ。皇帝ネロ・クラウディウスである。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+（ああっ、ネロさんがちょうどいてしまいました！）
+[k]
+
+＠Dr.ロマン
+（白百合の王妃マリーと薔薇の皇帝ネロ、[r]　ああ、絵になるなあ！　画像記録しておいてマシュ！）
+[k]
+
+[charaFace A 14]
+＠マシュ
+（そ、それどころではないですっ）
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 3]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠マリー・アントワネット
+あの、お願いがあるのですけれど、[r]よろしいです？
+[k]
+
+[charaFace E 1]
+＠ネロ
+マリーというのはいずこの王族の姫だったか……。[r]ん？　余に頼み事とな。なんだ？
+[k]
+
+＠マリー・アントワネット
+その玉座に[line 2]
+[k]
+
+[charaFace D 1]
+＠マリー・アントワネット
+古代ローマ皇帝の玉座に、[r]一度、わたしも座ってみたいのです♪
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ♪
+[k]
+
+[charaFadeout C 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠ネロ
+な[line 2]
+[k]
+
+[charaFace E 0]
+＠ネロ
+こ、この玉座が欲しい、とな？[r]それはつまり[line 2]皇帝の座を望むということか！？
+[k]
+
+[charaFace D 0]
+＠マリー・アントワネット
+?
+[k]
+
+＠ネロ
+いずこの姫かは知らぬが、[r]なるほど見事に正々堂々とした叛逆であるな！
+[k]
+
+[charaFace E 1]
+＠ネロ
+良いだろう！[r]ここは余が度量を見せるべき場面と心得たぞ！
+[k]
+
+＠ネロ
+許す、剣を持て！[r]真に欲するのであれば奪い取ってみせよ！
+[k]
+
+[charaFace E 2]
+＠ネロ
+余も神祖ロムルスより続くローマを統べる者、[r]簒奪者には、自らの力を以て皇帝の威を示すまで！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 15]
+[charaFadein A 0.4 2]
+＠マシュ
+ま、待ってくださいネロさん[line 2][r]あの、わたしたちは戦いに来た訳では！
+[k]
+
+＠マシュ
+（それに、ネロさんは正真正銘のこの時代の[#人間]！[r]　英霊と戦って無事でいる訳もありませんっ）
+[k]
+
+[charaFace E 0]
+＠ネロ
+む？　そなたたち[line 2][r]どこかで会ったか？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+あれ[line 2]ああ、そうか、時代の修正が進んで、[r]ボクたちのことは忘れてしまったのかな。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ネロ
+いや、名前だけはわかるぞ。[r]マシュと、[%1]だったか？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+あれ？　覚えてたり忘れてたり？[r]これは、明日には思い出してたりするのかも？
+[k]
+
+[charaFace E 2]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠ネロ
+マリーの供の者か。[r]良い、そなたたちも来るがいい！
+[k]
+
+[charaFace E 2]
+＠ネロ
+不思議と、今朝から頭の痛みも消えている！[r]万全の余に敵う者などいるものか！
+[k]
+
+[charaFace A 6]
+＠マシュ
+待って[line 2][r]え、あれ……これは……？
+[k]
+
+？1：どうしたの
+
+？2：マシュ？
+
+？！
+
+[charaFace A 14]
+＠マシュ
+ネロさんから高い魔力を感じます！[r]生前の彼女は、魔術師ではなかったはずなのに！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+あ、あれ、こっちも感知したよ！[r]何だこれ、サーヴァント級の魔力反応だよ！？
+[k]
+
+＠Dr.ロマン
+どういうことだ！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠マリー・アントワネット
+ええと？　はい？[r]なんです？？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああっ、マリーさま事態がおわかりでない！[r]実はですね、これから皇帝ネロとの決闘なのです！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マリー・アントワネット
+まあ、そうなのですか[line 2][r]では、がんばってくださいね。[%1]。
+[k]
+
+[charaFace A 6]
+＠マシュ
+えっ、丸投げですか！？
+[k]
+
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠ネロ
+さあゆくぞ！[r]万雷の喝采を此処に！
+[k]
+
+[charaFace A 15]
+＠マシュ
+ああっ、もう止められません！[r]戦闘開始です[line 2]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

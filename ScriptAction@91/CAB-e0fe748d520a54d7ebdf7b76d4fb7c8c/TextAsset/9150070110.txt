@@ -1,0 +1,134 @@
+＄91-50-07-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 5007001 0 シェイクスピア]
+[charaSet E 98006000 1 市民]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠シェイクスピア
+ふむ……マスター、少々よろしいですか？[r]この街には何かが足りません。何だと思います？
+[k]
+
+？1：笑顔
+
+？2：幸せ
+
+？！
+
+[charaFace D 1]
+＠シェイクスピア
+イグザクトリィ！　然様、世界は一つの舞台であり、[r]行き交う男女は役者なのです。
+[k]
+
+[charaFace D 4]
+＠シェイクスピア
+なのに、この街には笑顔がない、幸福がない。[r]何故なのか、それは[line 2]。
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+演劇がないからです！[r]という訳でここは一つ、我々で即興劇といきましょう。
+[k]
+
+[charaFace A 6]
+＠マシュ
+そ、即興劇ですか？[r]……しかも我々……我々とは、まさか……
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+それは無論、吾輩と、マシュ・キリエライトと、[r]そしてマスター、[%1]殿です。
+[k]
+
+[charaFace A 3]
+＠マシュ
+む、無理です！[r]劇なんて見たことも演じたこともありません！
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+おや、そうなのですか？
+[k]
+
+[charaFace A 12]
+＠マシュ
+は、はい。勉強不足で申し訳ありません……[r]でも、わたしには必要がなかったというか……
+[k]
+
+[charaFace D 1]
+＠シェイクスピア
+ははは、何を仰る。[r]たった今、必要になったではございませんか！
+[k]
+
+[charaFace D 2]
+＠シェイクスピア
+今の貴女に必要なのは愛、言葉、そして詩！[r]燃え立つ激情こそが、貴女には必要です！
+[k]
+
+[charaFace A 4]
+＠マシュ
+うぅ、そんな……。
+[k]
+
+[charaFace D 0]
+＠シェイクスピア
+ああ、それから盾と武器も必要です。[r]何しろほら、まことに唐突ですが[line 2]。
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0]
+[charaFadeout A 0]
+＠市民
+モンスターだ！[r]モンスターが出たぞ[line 2]！！
+[k]
+
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠シェイクスピア
+何故か唐突にモンスターが出現しましたので！
+[k]
+
+[charaFace A 6]
+＠マシュ
+な、何でですか[line 2]！？
+[k]
+
+？1：と、ともかく戦おう
+
+？2：皆を守ろう！
+
+？！
+
+[charaFace D 1]
+＠シェイクスピア
+おお、勇ましい台詞！[r]しかし、できればもう少し表現を複雑にして貰いたい。
+[k]
+
+[charaFace D 3]
+＠シェイクスピア
+『貴様たちの弔いの鐘が鳴っているぞ！　天国か、[r]はたまた地獄へか！』……とか、いかがでしょう。
+[k]
+
+[charaFace A 14]
+＠マシュ
+あの、すいません。[r]戦いに参加してください……！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

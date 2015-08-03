@@ -1,0 +1,219 @@
+＄91-10-05-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_1 0.1]
+[scene 20900]
+[charaSet A 8001001 2 マシュ]
+[charaSet B 98002000 2 フォウ]
+[charaSet C 1005001 2 ネロ]
+[charaSet D 98006100 0 ゴーレム]
+[charaSet E 98018100 0 海賊]
+[charaSet F 98003003 0 Dr.ロマン]
+[charaFadein C 0 1]
+[fadein black 1]
+[wait fade]
+＠ネロ
+そういうワケで、[r]新たに英霊となったネロ・クラウディウスである。
+[k]
+
+[charaFace C 1]
+＠ネロ
+うむ！　余ほどの天才であれば[r]英霊として扱われると信じていたぞ！　当然だな！
+[k]
+
+[charaFadeout C 0]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+……ローマでの別れが台無しだ。[r]さすがは皇帝さま、この自信満々さはブレないね……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠マシュ
+そうですね。でも、わたしはこの再会は嬉しいです。[r]改めて、これからもよろしくお願いしますネロさん。
+[k]
+
+？1：うん、これからもよろしく、皇帝陛下
+
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 1]
+[charaFadein C 0.1 0]
+＠ネロ
+うむ！　しかし皇帝である前に余は貴様のサーヴァント。[r]これからは赤セイバーと呼ぶがよい！
+[k]
+
+？2：英霊になってもちんまいですね
+
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 2]
+[charaFadein C 0.1 0]
+＠ネロ
+バ、バカもの、ちんまいのではない、[r]余は完成されているのだ！　背丈もこれで問題ない。
+[k]
+
+[charaFace C 3]
+＠ネロ
+……も、問題ないぞ、あるものかっ！[r]余は、ぜんぜん悔しく思ってないからなっ！
+[k]
+
+？！
+
+[charaFace C 3]
+＠ネロ
+おっと、雑談に花を咲かせている場合ではなかったな。
+[k]
+
+[charaFace C 0]
+＠ネロ
+コホン。[r]人理を継続せんとするカルデアの魔術師たちよ。
+[k]
+
+＠ネロ
+今は過ぎ去りし過去、有り得なかった戦いとなったが、[r]余はその尽力を忘れてはいない。
+[k]
+
+[charaFace C 1]
+＠ネロ
+改めて感謝する。大儀であった。[r]前回は本当に世話になったな、[%1]よ。
+[k]
+
+[charaFace C 2]
+＠ネロ
+うむ[line 3]そして今回も世話になるぞ！[r]さあ、船を出せ！　余とマスターの出立だ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[charaFadeout C 0.4]
+[charaFadeout A 0.4]
+[wt 0.5]
+[scene 20320 0]
+[fadein black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_1 0.4]
+[bgm BGM_EVENT_2 0.1]
+[se ad37]
+[wt 1]
+＠ネロ
+うむ、うむ。[r]天気快晴にして波高し。この分ならすぐに到着するな！
+[k]
+
+？1：[line 3]ハッ!?
+
+？2：[line 3]ファ!?
+
+？！
+
+[charaFace C 0]
+＠ネロ
+何を驚いている。ここまで来れば観念し、[r]おとなしく余の望みを叶えよ。
+[k]
+
+[charaFace C 1]
+[seStop ad37 2]
+＠ネロ
+マシュを見よ。もう完全に場に溶け込み、[r]死んだ魚のような目で看板で[#黄昏:たそが]れているではないか。
+[k]
+
+[charaFace A 15]
+＠マシュ
+……先輩……ネロさん……いえ、赤セイバーさんは、[r]以前にも増して……強引……です……
+[k]
+
+＠マシュ
+わたしたちが状況を把握するより先に船に乗せて……[r]こんな……ところまで……うっ
+[k]
+
+＠フォウ
+フォウ、フォーウ！
+[k]
+
+[charaFace A 13]
+＠マシュ
+ああ……酔い止め、ありがとうございますフォウさん……[r]赤セイバーさんの操舵はホントにひど……うっ
+[k]
+
+[charaFace C 0]
+＠ネロ
+む、見えてきたぞ、[r]あれが今回の目的地、神秘の眠る孤島である！
+[k]
+
+＠ネロ
+なんでも、ばみゅーだ？　とらいあんぐる？
+[k]
+
+[charaFace C 1]
+＠ネロ
+そんな名前の海域だが、気にするな。[r]さあ乗り込むぞ、[%1]、マシュ！
+[k]
+
+？1：なんでですか!?
+
+？2：理由を述べよ！
+
+？！
+
+＠ネロ
+神秘の眠る島とくれば決まっていよう[line 3][r]宝探しだ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[wait fade]
+[wt 0.5]
+[scene 21100 0]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.5]
+[se ad23]
+＠ゴーレム
+[fontSize large]GoAAAAAAAAAAAAAA[line 3]！[fontSize -]
+[k]
+
+[charaFadeout D 0]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0.1 2]
+＠海賊
+ヒャッハー！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠ネロ
+手厚い歓迎、ご苦労！
+[k]
+
+[charaFace C 5]
+＠ネロ
+だが邪魔だ、[r]あと五割増し美形になって出直してくるがよい！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！　もうワケがわかりません！[r]とりあえず応戦します！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

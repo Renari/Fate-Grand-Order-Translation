@@ -1,0 +1,208 @@
+＄91-70-11-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7011001 1 ダレイオス三世]
+[charaFace D 2]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+[se ad16]
+[wt 2]
+[seStop ad16 2]
+＠ダレイオス三世
+[image berserker_language_1][line 2]ッ!
+[k]
+
+＠マシュ
+[line 2]そして、巨王は立ち上がりました。
+[k]
+
+＠マシュ
+それは勇猛の古代ペルシャ王。[r]アケメネス朝最後の王。
+[k]
+
+＠マシュ
+逆臣バガアスを粛正し、国を正し、[r]運命の相手たる征服王イスカンダルと激突した巨王。
+[k]
+
+＠マシュ
+世界最高の戦闘王に立ちはだかった、[r]大いなる壁。無限の勇猛を称えた、巨大な男。
+[k]
+
+＠マシュ
+その名はダレイオス三世。[r]彼を倒し得るのは世界にただひとり、イスカンダルのみ。
+[k]
+
+＠ダレイオス三世
+[image berserker_language_2][line 2]ッ!！
+[k]
+
+＠マシュ
+故に彼は無敵でした。[r]並み居る敵兵をものともせず、打ち砕きます。
+[k]
+
+＠マシュ
+左翼から敵大隊、接近。[r]けれど。
+[k]
+
+[se bac10]
+[shake 0.05 0 5 0.5]
+[wait se bac10]
+＠ダレイオス三世
+[image berserker_language_1][line 2]ッ!！
+[k]
+
+＠マシュ
+絶対無敵。[r]ただ、敵兵は打ち砕かれてゆきます。
+[k]
+
+＠マシュ
+右翼から敵大隊、接近。[r]当然[line 2]
+[k]
+
+[se bac10]
+[shake 0.05 0 5 0.5]
+[wait se bac10]
+＠ダレイオス三世
+[image berserker_language_1][line 2]ッ!！
+[k]
+
+＠マシュ
+究極無敵。[r]ただ、敵兵は薙ぎ払われるのみです。
+[k]
+
+＠マシュ
+強大なり、ダレイオス三世。[r]勇壮なり、ダレイオス三世。
+[k]
+
+＠マシュ
+その猛進は止まることがありません。それは、[r]まるでかつての生前に戦った征服王を彷彿とさせて。
+[k]
+
+？1：あの、マシュさん？
+
+？2：なぜナレーション的なアレを？
+
+？！
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠マシュ
+あっ、先輩……。[r]その、ドクターが台本のようなものを送信して……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+やることがなさそうだから、[r]取りあえずこれを朗読していなさい、と。
+[k]
+
+？1：……。
+
+？2：参戦しない？
+
+？！
+
+[charaFace A 4]
+＠マシュ
+え、ええと、協力しようにも、[r]ダレイオスさんはずっとあの様子で[line 2]
+[k]
+
+[se bac10]
+[shake 0.05 0 5 0.5]
+[wait se bac10]
+[charaFadeout A 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ダレイオス三世
+[image berserker_language_1][line 2]ッ!！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+周囲の骸骨兵を薙ぎ払っていて、その、[r]下手に接近することもできず……。
+[k]
+
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 1]
+＠Dr.ロマン
+援護しなくても何だか平気っぽいしねえ。[r]そもそも、どうして彼、ここに来たがったんだろう？
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+[%1][&君:ちゃん]がそう感じたからには、[r]確かにこの時代[line 2]
+[k]
+
+＠Dr.ロマン
+聖杯の影響を失って修正されつつある[r]一世紀ローマに用があるんだろうけど、う～ん。
+[k]
+
+？1：バーサーカーだからね
+
+？2：何言ってるかわからないしね
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+はい……。[r]彼とは、意思の疎通が極めて困難です。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[communicationChara 98003003 1 5 0 0]
+[wt 1]
+＠Dr.ロマン
+取りあえず、うん！[r]なんでここに骸骨兵たちがいるのか分からないが！
+[k]
+
+＠Dr.ロマン
+彼はここの怪物を全部倒す気だ！[r]なら、怪物がいなくなれば彼の気も済むはず！
+[k]
+
+＠Dr.ロマン
+獲物を奪われて怒ったりはしないと信じよう！[r]じゃあ[line 2]やろうか！
+[k]
+
+？1：了解！
+
+？2：マシュ、戦闘準備！
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+はい、マスター！[r]戦闘態勢に入ります！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

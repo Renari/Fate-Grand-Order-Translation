@@ -1,0 +1,181 @@
+＄91-90-01-03-3-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20500]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 9001001 2 ジャンヌ]
+[charaSet E 5014001 0 メフィストフェレス]
+[charaSet F 98007000 1 ジャンヌ・オルタ]
+[charaFace D 2]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+獲った……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace F 0]
+[charaFadein F 0.1 2]
+＠メフィストフェレス
+おやおや、獲られちゃいました！[r]さあ、マスター。いかがなさいますか？
+[k]
+
+＠ジャンヌ・オルタ
+……敗北するはずないでしょう？
+[k]
+
+[charaFace F 1]
+＠ジャンヌ・オルタ
+ああ、私の異名をメフィストフェレスは[r]知らないのでしたね。
+[k]
+
+[charaFace E 4]
+＠メフィストフェレス
+異名？
+[k]
+
+＠ジャンヌ・オルタ
+我が二つ名は“竜の魔女”。
+[k]
+
+＠ジャンヌ・オルタ
+絶望を吐息に載せて撒き散らすために産み出された、[r]“災厄”を統べる者。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+まさ、か……！？
+[k]
+
+[se ad17]
+[charaFadeout D 0]
+[charaSet G 98013000 1 ファヴニール]
+[charaDepth G 0]
+[charaFadein G 0.4]
+[wt 1]
+[charaFadeout G 0.1]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠メフィストフェレス
+ヒューッ！　これは凄い！[r]わがはい久々に目玉が飛び出るほど驚きましたぞ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠ジャンヌ
+ファヴ……ニール……！
+[k]
+
+＠マシュ
+そんな……。[r]こんな、大物が……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ
+ファヴニール。愛しい私の竜。[r]さあ、今度こそ[line 2]正義と聖女を滅ぼすわよ。
+[k]
+
+[se ad17]
+[wait se ad17]
+[charaFadeout F 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+……それでも。負けません。
+[k]
+
+＠ジャンヌ
+貴女がたとえ誰を連れてこようとも、[r]私たちは敗北しない。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠ジャンヌ・オルタ
+それは神のおかげ？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ジャンヌ
+ええ、無論です。[r]主はいつでも、私の背中をほんの少し押して下さる。
+[k]
+
+＠ジャンヌ
+そして言うまでもなく友とマスターのお陰です。
+[k]
+
+＠ジャンヌ
+私の無力を慰め、力無く崩れ落ちた肩を[r]持ち上げてくれる彼らがいる。
+[k]
+
+＠ジャンヌ
+ただそれだけで、私は充分に救われていると思うのです。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk F]
+[charaFadein D 0.1 0]
+[charaFace F 4]
+[charaFadein F 0.1 2]
+＠ジャンヌ・オルタ
+……相変わらず優等生な答えね。[r]ああ、ほんっとうに頭にくるわ。
+[k]
+
+[charaFace F 2]
+＠ジャンヌ・オルタ
+いいじゃない。今度こそ決着をつけてあげる。[r]私の竜が勝つか、あなたの主さまが勝つか。
+[k]
+
+＠ジャンヌ・オルタ
+殺し合うわよ、ジャンヌ・ダルク……！！
+[k]
+
+[charaFace D 2]
+＠ジャンヌ
+望むところです。[r]来なさい、ファヴニール。メフィストフェレス。
+[k]
+
+＠ジャンヌ
+そして[line 2]堕ちた私。[r]私が拒絶した[#彼女:オルタナティブ]よ！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター、最終戦闘です！[r]全力を出します！
+[k]
+
+？1：こちらも全力で援護する！
+
+？！
+
+[charaFace A 2]
+＠マシュ
+はい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,168 @@
+＄91-70-16-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20300]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7016001 1 タマモキャット]
+[charaSet E 2006001 1 ダビデ]
+[charaSet F 7009001 0 アステリオス]
+[charaFace E 0]
+[charaFadein E 0]
+[fadein black 1]
+[wait fade]
+＠ダビデ
+くっ、土地代がタダだからって、[r]こんな島を選ぶんじゃなかったな……
+[k]
+
+[charaFace E 0]
+＠ダビデ
+まあいいさ、商売は何処であってもできる。[r]さらばだ諸君！　だが略奪もほどほどにね！
+[k]
+
+[charaFadeout E 0.7]
+[wt 1]
+[messageOff]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠タマモキャット
+ダビデ……意味もなく強敵だったワン……
+[k]
+
+[charaFace D 1]
+＠タマモキャット
+それはそれとしてお宝が目の前に！[r]なんとしてもあの五つ星はゲットせねば。
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+[line 3]ご主人！
+[k]
+
+？1：え、なに？
+
+？2：呼んだ？
+
+？！
+
+＠タマモキャット
+うむ。やりすぎになったらストップをかけてほしい。[r][#盲導犬:もうどうけん]ならぬ[#獰猛犬:どうもうけん]故に。
+[k]
+
+＠タマモキャット
+いただくのは一頭だけなのだ。[r]それでは、いざっ！
+[k]
+
+[messageOff]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 1]
+[scene 20300]
+[charaFace A 0]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+あ、帰ってきました。[r]牛を一頭、きっちり仕留めて。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠タマモキャット
+うむ、よい戦いだった。[r]これで狩りは終了なのだな。
+[k]
+
+[charaFace A 12]
+＠マシュ
+でも……あの、鮭も牛も仕留めただけ、ですよね？[r]狩りというから、てっきり……
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+うん？　そうだぞ、これは材料だ。[r]今回の最終目的はご主人のバンゴハンだからな！
+[k]
+
+？1：なんと!?
+
+？2：料理、できるの!?
+
+？！
+
+＠タマモキャット
+何をいう。アタシ、こう見えて料理はうまいぞ。[r]実は万能メイド属性なのだ。
+[k]
+
+？1：うっそだぁ～
+
+？！
+
+[charaFace A 13]
+＠マシュ
+先輩に同意します。[r]キャットさんにかぎって、そんな。あはは。
+[k]
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[wait effect bit_talk_07]
+[scene 10400]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠タマモキャット
+ほい。ガーリックステーキとかぼちゃのテリーヌ、[r]チキンローストディアボロソース、
+[k]
+
+＠タマモキャット
+かぼちゃのプリンとかぼちゃのパイ[r]あとテキトーにカナッペを四種類ほど作ってみたゾ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+料理が上手なの、ホントでした……！
+[k]
+
+＠タマモキャット
+アタシは嘘は言わないからな。[r]味の方はいかが、ご主人？
+[k]
+
+？1：……旨い。旨すぎる……
+
+？2：これからずっと[&俺:私]のゴハンを作ってくれ
+
+？！
+
+[charaFace D 1]
+＠タマモキャット
+ニャハハ、喜んでもらえてなによりだワン。[r]でも気にするな、こんなの日頃の恩返しだってば。
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+そして照れくさいのでこの台詞で締めるアタシ。[r][line 3]では、報酬にニンジンをいただこう！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

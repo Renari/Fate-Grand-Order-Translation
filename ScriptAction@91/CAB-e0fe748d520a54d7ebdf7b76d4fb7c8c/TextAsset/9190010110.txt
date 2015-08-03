@@ -1,0 +1,875 @@
+＄91-90-01-01-1-0
+
+[soundStopAll]
+[scene 10000]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 9001001 1 ジャンヌ]
+[charaSet E 98021000 1 市民]
+[charaSet F 98006200 1 ？？？]
+[charaSet G 98021100 1 市民]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+[line 2]夢を見ている。[r][line 2]“彼女”が愉しいと[#嗤:わら]っている。
+[k]
+
+＠ジャンヌ
+悪を殺すことは、悪を踏みにじることは、[r]とても正しいこと。
+[k]
+
+＠ジャンヌ
+だから[#愉:たの]しい。[r]だから嗤える。
+[k]
+
+＠ジャンヌ
+[line 2]ああ。私にあんな[#感情:もの]はない。[r][line 2]それでも。
+[k]
+
+＠ジャンヌ
+あれは、もしかすると。[r]得難い“何か”ではないのだろうか。
+[k]
+
+＠ジャンヌ
+そんな、愚かなことを考えてしまう自分がいた。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 1]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaFace A 12]
+[charaFadein A 0 1]
+[fadein black 0.5]
+[se ad7]
+[wait fade]
+＠マシュ
+先輩、おはようございます。[r]……あの、お体の調子はどうでしょか？
+[k]
+
+＠マシュ
+少し、顔色が悪いようですが……。
+[k]
+
+？1：何でもない
+
+？！
+
+[charaFace A 0]
+＠マシュ
+そうですか。ここのところ、連戦でしたから[r]疲れが溜まっているのかもしれませんね。
+[k]
+
+＠マシュ
+本日はお休みした方がいいかもしれません。[r]ドクターにもそう伝えておきますね。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ。
+[k]
+
+＠マシュ
+あ、フォウさん。[r]……フォウさんの面倒も見て頂けますか？
+[k]
+
+？1：わかった
+
+？2：了解
+
+？！
+
+[charaFace A 13]
+＠マシュ
+では、よろしくお願いします。
+[k]
+
+[charaFadeout A 0.4]
+[wt 0.7]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウッ。
+[k]
+
+？1：……
+
+？！
+
+＠フォウ
+……フォウ？
+[k]
+
+？1：……眠い……
+
+？！
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout C 0]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 2]
+[scene 20300]
+[charaFace D 4]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ジャンヌ
+……スター……マスター、マスター！
+[k]
+
+？1：……！？
+
+？！
+
+[bgm BGM_EVENT_2 0.1]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFadein D 0.1 0]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+ああ、良かった。[r]こんな場所で寝るものではありませんよ？
+[k]
+
+？1：ここは……
+
+？！
+
+[charaFace D 4]
+＠ジャンヌ
+それが私にもわかりません。[r]恐らく、フランスだと思うのですが……。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+マシュさん、マスターが目覚めました。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+マスター！　ご無事で何よりです。[r]周囲の見回りは終わりました。
+[k]
+
+＠マシュ
+今のところ、[r]これといった異常は感知できていません。
+[k]
+
+[charaFace A 12]
+＠マシュ
+ドクターとの通信も途絶えているのが、[r]気になりますが……。
+[k]
+
+[charaFace A 0]
+＠マシュ
+マスターはこの世界を訪れる前のことを[r]覚えていますか？
+[k]
+
+？1：あまり……
+
+？！
+
+[charaFace A 4]
+＠マシュ
+やはり、そうでしたか。[r]……わたしたちも同じです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+気付いたらこの世界にいた、という案配で。[r]マスター、ひとまず拠点を確保しましょう。
+[k]
+
+＠マシュ
+ドクターなら、異常に気付いて[r]何らかの対策を立ててくれるはずです。
+[k]
+
+[charaFace A 7]
+＠マシュ
+その間に、わたしたちはこの世界を探索し、[r]何らかの異常があれば、それを是正する[line 2]。
+[k]
+
+＠マシュ
+いかがでしょうか。
+[k]
+
+？1：問題ないと思う
+
+？！
+
+[charaFace A 0]
+＠マシュ
+はい。では、出発しましょう。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20300]
+[charaFace D 1]
+[charaFadein D 0 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジャンヌ
+いい風ですね。[r]故郷に帰ってきた、という実感が湧いてきます。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠マシュ
+そうなんですか……。
+[k]
+
+＠マシュ
+わたしはカルデアで育ったので、[r]あまり、そういう感覚が掴めないですけど……。
+[k]
+
+[charaFace A 13]
+＠マシュ
+ジャンヌさんが楽しそうなので、[r]いいと思います。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+し、失礼しました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ジャンヌさんの故郷は、確かドン・レミ村でしたね？[r]ここから近いのでしょうか。
+[k]
+
+[charaFace A 13]
+＠マシュ
+よければ、顔を出してみてはいかがです？
+[k]
+
+＠ジャンヌ
+残念ながら、フランスは結構広いですからね……。[r]数日かかる旅にお二人を付き合わせる訳にもいきません。
+[k]
+
+[charaFace D 5]
+＠ジャンヌ
+それに、戻ってはいけないと思います。
+[k]
+
+＠ジャンヌ
+フランスを救うと決めたとき、[r]故郷にはもう帰れまい、と覚悟をしましたから。
+[k]
+
+[charaFace A 12]
+＠マシュ
+そうなんですか……。
+[k]
+
+？1：帰りたいと思ったことは？
+
+？！
+
+[charaFace D 0]
+＠ジャンヌ
+……むむ、マスターは意地悪な質問を出しますね。[r]ええ、帰りたいと思ったことはあります。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+何度も、何度も。[r]矢が刺さって傷口から熱を出したときは、特に。
+[k]
+
+[charaFace A 0]
+＠マシュ
+でも、帰らなかったんですね。
+[k]
+
+＠ジャンヌ
+ええ、例えばもし[line 2]何もかも上手くいって、[r]私が故郷に帰っても何の支障もなくなったとしても。
+[k]
+
+＠ジャンヌ
+……帰ってはいけないと思ったんです。[r]だって、私は捨てたんですから。
+[k]
+
+＠ジャンヌ
+家族と、故郷を、何もかも。
+[k]
+
+[charaFace A 4]
+＠マシュ
+そんな……。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+ふふ、どっちみち仮定でしかありません。[r]私は捕縛され、炎に消えた。
+[k]
+
+＠ジャンヌ
+これはもう、終わったこと。
+[k]
+
+＠ジャンヌ
+それを改変しようとすれば、[r]あの時のジルのようになってしまいます。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+[line 2]でも、何故かわからないですけれど。
+[k]
+
+＠ジャンヌ
+判を押したように、[r]皆さんには未練があると思われてしまんですよね。
+[k]
+
+[charaFace A 12]
+＠マシュ
+それは……仕方ないことなのかもしれません。
+[k]
+
+＠マシュ
+ただ単純に、若いというだけで[line 2][r]人は生命を惜しむものですから。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+そうですね。確かにそれは正しい。
+[k]
+
+＠ジャンヌ
+時間、時間さえあればやりたいことがやれた、[r]あるいはやれなかったことがやれた。
+[k]
+
+＠ジャンヌ
+……どちらもなかったとしても。[r]やりたいことを見つけることができるかもしれない。
+[k]
+
+＠ジャンヌ
+人間には無数の可能性があり、[r]若ければ若いほどにその確率は飛躍的に高くなる。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+それを平気で投げ棄てた私は、[r]やはり愚者であっても聖女ではありません。
+[k]
+
+[charaFace A 4]
+＠マシュ
+……そうですか。[r]なら、もしかするとわたしも[line 2]
+[k]
+
+？1：マシュも？
+
+？！
+
+[charaFace A 7]
+＠マシュ
+あ、いえ！　……何でもありません。[r]それより、マスター。街の姿が見えます。
+[k]
+
+＠マシュ
+行きましょう。[r]この時代、この状況をまずは把握しないと[line 2]。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20500]
+[charaTalk D]
+[charaFace D 5]
+[fadein black 0.5]
+[wait fade]
+＠ジャンヌ
+……私は大丈夫……みたいですね。
+[k]
+
+＠マシュ
+そのようです。
+[k]
+
+[charaFace A 0]
+＠マシュ
+最初の１４３１年は、黒ジャンヌさんが大暴れしていた[r]せいで、ジャンヌさんも巻き込まれましたが……。
+[k]
+
+＠マシュ
+街は平和そうです。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+良かった。[r]平和なら、それに越したことはありません。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+……あれ？
+[k]
+
+＠マシュ
+どうしました？
+[k]
+
+＠ジャンヌ
+城の旗が……英国旗になっています。[r]ここはイングランドの領地になった……のでしょうか。
+[k]
+
+[charaFace A 7]
+＠マシュ
+ああ、確かにあの旗はフランスのそれとは違いますね。
+[k]
+
+＠ジャンヌ
+これは是正されるべき状況……なのでしょうか。
+[k]
+
+[charaFace A 0]
+＠マシュ
+圧政を受けているならばともかく、現状ですと特に問題は[r]なさそうです。下手に[#藪:やぶ]をつつくのも……。
+[k]
+
+＠ジャンヌ
+……その通りです。[r]確かにその通りですが……。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+いえ、すいません。私情でしかありませんね。[r]今の私は[%1]さんのサーヴァント。
+[k]
+
+＠ジャンヌ
+ひとまず、街で情報を収集しましょう。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[charaFadeout A 0]
+[charaFadeout D 0]
+[scene 20500]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace G 0]
+[charaFadein G 0.1 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+あの、すいません。
+[k]
+
+＠G：市民
+やあ、どうしたね？
+[k]
+
+＠マシュ
+実は[line 2]。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[scene 20500]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ジャンヌ
+失礼します。少々よろしいですか？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 2]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+＠E：市民
+何か用かな？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[scene 20500]
+[charaFace G 0]
+[charaFadein G 0.1 2]
+[charaFace A 0]
+[charaFadein A 0.1 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠G：市民
+おや、こんにちは。[r]何か？
+[k]
+
+[charaFace A 13]
+＠マシュ
+はい、教えて頂きたいことが……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[charaFadeout G 0.4]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.4]
+[scene 20500]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠マシュ
+大変です、マスター。
+[k]
+
+？1：何かあった？
+
+？2：やっぱり驚きの異変が!?
+
+？！
+
+[charaFace A 12]
+＠マシュ
+はい。何も起きていません。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ジャンヌ
+……そうですね。街は平和そのもの。[r]小競り合いがある程度で、それは法が解決すべき事柄。
+[k]
+
+＠ジャンヌ
+どうやらこの世界はイングランド側が、シャルル七世を[r]打ち破り、フランス全土を占拠した状態のようです。
+[k]
+
+[charaFace A 7]
+＠マシュ
+それってつまり……。
+[k]
+
+＠ジャンヌ
+その通りです。[r]ここは恐らく[line 2][#私が存在しなかった]世界なのでしょう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+もう調査すべき場所はほとんど残っていないですね。[r]強いて言うなら、あの城くらいですか。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+しかし……イングランドの兵士たちが、[r]我々を受け入れてくれるとは思えません。
+[k]
+
+＠マシュ
+そうですね。[r]ひとまず撤退しましょう。
+[k]
+
+[charaFace A 8]
+＠マシュ
+ロクな手掛かりが掴めなかったですね……。[r]明日が不安です。
+[k]
+
+？1：明日は明日の……
+
+？！
+
+[charaFace A 13]
+＠マシュ
+風が吹く、というやつですか。[r]ふふ、ありがとうございます。
+[k]
+
+＠ジャンヌ
+……。[r]……。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_6 0.1]
+[scene 20302]
+[charaFace D 5]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ジャンヌ
+……。[r]……。
+[k]
+
+？1：おうい？
+
+？！
+
+[charaFace D 0]
+＠ジャンヌ
+ああ、ごめんなさい。[r][#天:そら]に祈りを捧げていまして……。
+[k]
+
+＠ジャンヌ
+マシュさんは……見回りですか。
+[k]
+
+[wt 0.7]
+[charaFace D 4]
+＠ジャンヌ
+[line 2]マスター、お話いいですか？
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+……結局のところ、この世界は平和そのもの。
+[k]
+
+＠ジャンヌ
+イングランドはきちんと[#政:まつりごと]を整えているようです。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+確かにフランス兵は討ち果たされたようですが[line 2]。[r]それも、遥か彼方の出来事。
+[k]
+
+＠ジャンヌ
+マスター。[r]ここは、私がいた世界ではないようです。
+[k]
+
+＠ジャンヌ
+フランスは立ち上がれずに敗北し、[r]イングランド領となり[line 2]そして今、平和を享受している。
+[k]
+
+＠ジャンヌ
+紆余曲折があったのかもしれません。[r]争いや問題も発生したでしょう。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ
+けれど、彼らはそれを乗り越えた。[r]……乗り越えて、しまった。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ
+この世界に、私は[#存在しな:いな]い。[r]これでは……私の存在そのものが、無駄だったような……。
+[k]
+
+？1：そんなことはないと思う
+
+？！
+
+＠ジャンヌ
+……ありがとうございます。[r]でも、平和です。胸を抉るような戦いは、既にない。
+[k]
+
+＠ジャンヌ
+もしかすると、ドン・レミ村に私がいるのでしょうか？[r]村で平和に日々を暮らしている私。
+[k]
+
+＠ジャンヌ
+平凡に育ち、平凡に祈り、平凡に誰かと愛を紡ぐような。
+[k]
+
+？1：見てみたい？
+
+？！
+
+[charaFace D 0]
+＠ジャンヌ
+……ちょっとだけ。[r]でも、見た後で辛くなりそうです。
+[k]
+
+＠ジャンヌ
+そっちの私は、きっと幸福でしょうから。[r]もう少し、祈りを捧げようと思います。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ
+マスターは、マシュさんとフォウさんのところに[r]行ってあげてください。
+[k]
+
+[charaFadeout D 0.7]
+[wt 2]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+＠マシュ
+マスター、ジャンヌさんは……。
+[k]
+
+[messageOff]
+[wipeout rightToLeft 0.7 2]
+[wait wipe]
+[wt 0.5]
+[bgmStop BGM_EVENT_6 0.4]
+[scene 20302]
+[wipein rightToLeft 0.4 2]
+[wait wipe]
+＠マシュ
+……なるほど。確かにここはジャンヌさんが[r]いない場合の世界であり[line 2]平和そのものです。
+[k]
+
+[charaFace A 7]
+＠マシュ
+でも、これはおかしいです。
+[k]
+
+＠マシュ
+ジャンヌさんが立ち上がり、フランスという国が[r]成立しなければ、後々の歴史に大きく響くのは確かです。
+[k]
+
+＠マシュ
+何か……妙な気が……。
+[k]
+
+？1：平和すぎる
+
+？！
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace A 6]
+＠マシュ
+……！
+[k]
+
+[charaFace A 7]
+＠マシュ
+はい、確かにその通り。[r]この世界はあまりに平和過ぎる。
+[k]
+
+＠マシュ
+街の雰囲気に不穏さが欠片もない。攻め取った土地なら、[r]もう少しくらい緊張感があると思うんです。
+[k]
+
+＠マシュ
+街におかしいところが何もない[line 2]。[r]それが、逆におかしいと思います。
+[k]
+
+＠マシュ
+ジャンヌさんを連れて、もう一度街に行ってみましょう。[r]詳しく調べるべきだと思います。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20402]
+[charaFace D 5]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ジャンヌ
+……これは……！？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein D 0.1 0]
+[charaFace E 0]
+[charaFadein E 0 2]
+＠E：市民
+やあ、こんにちは。[r]ご機嫌いかがかな？
+[k]
+
+＠E：市民
+おや、どうしたね？[r]何か用かな？
+[k]
+
+[charaFadeout E 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+……現時刻は……午前一時……ですよね。
+[k]
+
+＠マシュ
+この時代なら、ほとんど寝静まっていると考えていい[r]時間帯だと思うのですが……。
+[k]
+
+＠マシュ
+まるで昼間のような行き交いがあります。[r]……やっぱり、これは異常です！
+[k]
+
+＠ジャンヌ
+[line 2]城に向かいましょう。[r]昼の内に調査しなかったのは、あの城だけです。
+[k]
+
+＠マシュ
+はい！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[scene 20602]
+[charaFace A 6]
+[charaFace D 5]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+これは……！
+[k]
+
+＠ジャンヌ
+血塗れ……それに、膨大な魔力が感知できます。
+[k]
+
+[se ad21]
+[wait se ad21]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 1]
+[charaFadeout F 0.1]
+[charaFadein F 0.1 0]
+[charaFace D 2]
+[charaFadein D 0.1 2]
+＠ジャンヌ
+[#彷徨:さまよ]う亡霊……これは……フランス兵……！？[r]いえ、イングランド側も混じっています！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+襲ってきます……！[r]マスター、指示をお願いします！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

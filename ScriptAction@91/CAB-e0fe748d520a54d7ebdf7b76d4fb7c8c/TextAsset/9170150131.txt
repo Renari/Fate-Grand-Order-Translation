@@ -1,0 +1,94 @@
+＄91-70-15-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7015001 1 エイリーク]
+[charaSet E 98006000 1 雑魚エネミー]
+[charaSet F 98006000 1 ？？？]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+[se ad53]
+[wait se ad53]
+＠エイリーク
+ヒャハハハハ！[r]クラエ、クラエ、クラエ！
+[k]
+
+[charaFace D 2]
+＠エイリーク
+オマエノチ、ニク、スベテ、オレノモノ……！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+斧が……一層禍々しく輝き始めました。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、なるほど。何て膨大な魔力だ。[r]確かにこれが、あの斧の真価と言うべき状態らしい。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠エイリーク
+マスター……。[r]コンゴトモ……ヨロシクナ……ヒヒヒヒヒ……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+しかし、まあアレだ。
+[k]
+
+＠Dr.ロマン
+……僕たち、とんでもないサーヴァントを[r]覚醒させたんじゃないかねえ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠マシュ
+マスターが御すれば、心配ない……ですよね。
+[k]
+
+？1：ま、まかせろ
+
+？2：が、がんばる
+
+？！
+
+[charaFace A 4]
+＠マシュ
+……ちょっと不安になります、マスター。
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

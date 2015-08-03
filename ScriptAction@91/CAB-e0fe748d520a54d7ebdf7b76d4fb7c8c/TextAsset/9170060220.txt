@@ -1,0 +1,214 @@
+＄91-70-06-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7006001 1 坂田金時]
+[charaSet E 98006000 0 ？？？]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+戦闘終了です。[r]敵集団、すべてを撃破しました。
+[k]
+
+[charaFace A 0]
+＠マシュ
+残存勢力はありません。[r]……凄まじい戦闘力ですね、英霊・坂田金時は。
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ。なにしろ雷神の子、赤龍の子なんて触れ込みだ。[r]安定感のある優れたサーヴァントと言えるだろう。
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+宝具に頼らなくても強いこと強いこと。[r]ううん、通常の聖杯戦争だったら凄い戦果を上げそうだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠坂田金時
+……つまんねえ。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+はい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠坂田金時
+わざわざ出向いて来たってえのに、[r]顔を出したのはとんだザコどもばかりじゃねえか。
+[k]
+
+＠坂田金時
+鬼退治と[#洒落:シャレ]込んで来たってのに、[r]これじゃ着飾り損じゃねえか。
+[k]
+
+＠坂田金時
+力も漢気も持て余しちまうぜ。[r]もっと強い奴はいねえのか？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+す、凄い余裕ですね。[r]ですが我慢してください。
+[k]
+
+＠マシュ
+先刻の戦闘も充分負担のあるものでした。[r]先輩の魔力残量も、無限ではありませんし……。
+[k]
+
+＠坂田金時
+ああ？[r]オレの魔力消費、ンなに激しくねえはずだぜ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+確かに、バーサーカーのクラスではあるけど[r]彼の狂化スキルは常時発動じゃないし、そうだね。
+[k]
+
+＠Dr.ロマン
+通常のバーサーカーほどの魔力消費はないね。[r]でも、まあ、結構な連戦だったしさ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠坂田金時
+……仕方ねえな。[r][%1]、もちっと鍛えておけよ？
+[k]
+
+＠坂田金時
+土壇場で頼りになるのは、結局足腰の強さだ。[r]玄米と魚と豆。こんだけ食ってれば問題ねえ。
+[k]
+
+＠坂田金時
+[line 3]さて。んじゃあまあ、[r]最後にデカブツ仕留めて帰るとするか。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+はい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ！！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout C 0]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠マシュ
+……先輩、ドクター！[r]極めて甚大な魔力反応の発生を確認！
+[k]
+
+＠マシュ
+[#すぐ近く]です！[r]未だ、実体化していませんが[line 2]いいえ、来ます！
+[k]
+
+[se ad23]
+＠？？？
+[fontSize x-large]ＧＡＡＡＡＡＡＡＡＡＡ[line 2]ッ！！[-]
+[k]
+
+[charaFace A 6]
+＠マシュ
+！！
+[k]
+
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+こ、こっちでも観測したよ！[r]竜種にさえ匹敵する巨大な魔力量、え、自然発生！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠坂田金時
+……何だ、やっぱりオレの勘違いだったのか？
+[k]
+
+＠坂田金時
+鬼がいると思ったんだがな。[r]それも、京を荒らして回ってやがった[#あの鬼]だ。
+[k]
+
+＠坂田金時
+どうやらこいつは違うらしい。[r]だが、まあ[line 2]
+[k]
+
+[charaFace D 0]
+＠坂田金時
+[line 2]人の世を蝕む怪物ってのには違いねえ。
+[k]
+
+？1：マシュ、戦闘準備！
+
+？！
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+はい、マスター！[r]ただちに戦闘態勢へ移ります！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+気を付けるんだ三人とも！[r]第六架空要素、真性の……ものかは不明だけども！！
+[k]
+
+＠Dr.ロマン
+それは[#悪魔]だ！[r]竜種にも相当する危険な存在だ、バカみたいに強いぞ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠坂田金時
+ハッ！　上等！[r]バカみてえな強さってんならオレもそれなりだ！
+[k]
+
+＠坂田金時
+勝負といこう！[r]なあおい、南蛮の[#鬼もどき]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

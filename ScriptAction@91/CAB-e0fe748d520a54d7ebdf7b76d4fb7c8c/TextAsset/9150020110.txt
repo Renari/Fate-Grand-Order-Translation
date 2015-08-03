@@ -1,0 +1,264 @@
+＄91-50-02-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 5002001 0 ジル]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0]
+[charaFace D 4]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ジル
+おおお、なんと荒みきった大地！　人の営みはおろか[r]草木の一本すら残さず焼き払われた焦土とは！
+[k]
+
+[charaFace D 0]
+＠ジル
+いったいこの地はどのような災厄に[r]見舞われたというのですか？
+[k]
+
+[charaFace A 12]
+＠マシュ
+我々にも詳しいところはわからないのです。[r]ともかく、人知を越えた異常な天災、としか……
+[k]
+
+[charaFace D 2]
+＠ジル
+天災！　戦災でなく天災！　人の罪過とは関わりなく、[r]神の悪戯によって、ここに棲まう民は殲滅されたと？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+そうだねぇ……この時代の人間の手では不可能[r]なんだから、運命の悪戯と言えない事もないかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠ジル
+おおお嘆かわしい！　なんたる悲劇！　なんたる惨劇！[r]これは断じて見過ごせませぬ！
+[k]
+
+[charaFace A 1]
+＠マシュ
+……キャスターさん……
+[k]
+
+[charaFace A 13]
+＠マシュ
+先輩。やはり人間は見た目ではないのですね。[r]容姿は恐ろしげなジルさんですが、善良な英霊です。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ふむ……あの悪名高い「青髭伝説」のモデルとなった[r]人物だけに、少なからず不安もあったんだが……
+[k]
+
+？1：実はいい人だったんですね
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ジル
+当然ですとも！　不肖このジル・ド・レェ、命の価値を[r]弁える者として他の何者の追随も許しませぬ。
+[k]
+
+？2：なんか無理してない？
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠ジル
+滅相もない！　不肖このジル・ド・レェ、命の価値を[r]弁える者として他の何者の追随も許しませぬ。
+[k]
+
+？！
+
+[charaFace A 1]
+＠マシュ
+やっぱりいい人です！
+[k]
+
+[charaFace D 4]
+＠ジル
+人の命は即ち果実のようなもの。絞れば珠玉の甘露で[r]もれなく我が喉を潤してくれるのです。なのにッ！
+[k]
+
+[charaFace D 5]
+＠ジル
+苦痛と悲鳴を！　恐怖と絶望を！　すべて余さず[r]搾り取ることもなく、ただ無益に潰して捨てるなど！
+[k]
+
+[charaFace A 6]
+＠マシュ
+……はい？
+[k]
+
+[charaFace D 2]
+＠ジル
+言語道断です！　神の気まぐれによる天災にて、[r]あたら命が潰えるなど言語道断！
+[k]
+
+＠ジル
+生きとし生けるものの断末魔は、命を摘み取る喜びを[r]弁えた者の手によって満喫されなくてはならない！
+[k]
+
+[charaFace A 4]
+＠マシュ
+……全言撤回します。先輩。この怪人を連れて[r]歩いていたら、カルデアの風評が地に堕ちます。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 4]
+＠Dr.ロマン
+いやそうは言ってもだね。サーヴァントとしての能力は[r]善悪で計れるものではない。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+人格的に多少アレだとしても、ここは貴重な戦力と思って[r]有効活用すべきなんじゃないかな？
+[k]
+
+？1：嫌だなぁ……
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ジル
+おやぁ？　我がマスターは生命の真の美しさについて[r]まだまだ理解が足りていないご様子……
+[k]
+
+＠ジル
+無理もない話です。こと審美の才というのは孤高なもの。[r]一朝一夕に辿り着けるものではありませぬ。
+[k]
+
+？2：楽しそう！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 3]
+[charaFadein D 0.1 0]
+＠ジル
+くけけけけけッ、ご理解いただけました我が主よ。[r]趣向の合うマスターと行動を共にできるのは幸いです。
+[k]
+
+＠ジル
+星の財たる命の光、神に代わり悪魔に代わり、是非とも[r]我らで味わい尽くしましょうぞ！
+[k]
+
+？！
+
+[charaFace A 12]
+＠マシュ
+ジル・ド・レェは百年戦争でジャンヌ・ダルクを[r]元帥として支えた立派な英雄と聞いていたのに……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 5]
+＠Dr.ロマン
+ああ。だが同時に何百人という幼児を虐殺した[r]快楽殺人鬼としても知られている。
+[k]
+
+＠Dr.ロマン
+そういった二面性の両側面において知名度の高い英霊は[r]召喚される際のクラス次第で全くの別人に成り得る。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+こういう癖のあるサーヴァントをどのように使いこなすか[r]まさにマスターとしての底力が問われるところだ
+[k]
+
+[communicationCharaFace 1]
+＠Dr.ロマン
+というわけで[%1]君、[r]まぁせいぜい頑張ってくれたまえ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+他人事ですね、ドクター。
+[k]
+
+＠フォウ
+フォ～ウ……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ほ、ほら、そんなこと言ってる間に！[r]敵の反応が近づいてるっぽいぞ！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 4]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠ジル
+おや？　召喚早々、いきなり手荒なお出迎えですか。
+[k]
+
+[charaFace D 2]
+＠ジル
+宜しい。人の殺し方もなっていない無粋な獣どもに、[r]この私が真の美について啓蒙して差し上げましょう！
+[k]
+
+[charaFace A 15]
+＠マシュ
+う……背に腹は代えられませんね……
+[k]
+
+[charaFace A 7]
+＠マシュ
+マスター。ここは新しいサーヴァントの力で、[r]難局を乗り越えるしかありません。
+[k]
+
+[charaFace A 2]
+＠マシュ
+わたしも頑張りますので、どうかご健闘を！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

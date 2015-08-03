@@ -1,0 +1,134 @@
+＄91-70-07-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_5 0.1]
+[scene 10902]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7007001 1 ヴラド三世]
+[charaSet E 98014000 1 女性]
+[charaSet F 98006200 1 雑魚エネミー]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠ヴラド三世
+またもやロンドンか。[r]かの悪魔は退治したが[line 2]また別物か？
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠マシュ
+そこまではわかりません。[r]ただ、このロンドンから反応があったのは事実です。
+[k]
+
+[charaFace D 2]
+＠ヴラド三世
+……いいだろう。たとえ小さなものだろうと[r]摘み取り、我が伝説を盤石のものにする。
+[k]
+
+＠ヴラド三世
+ヴラドの名は、悪魔を冠する。[r]されど、我は悪鬼にあらず。
+[k]
+
+＠ヴラド三世
+いくぞ、マスター、マシュ。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[bgmStop BGM_EVENT_5 0.4]
+[bgm BGM_EVENT_3 0.1]
+[wt 0.3]
+[scene 10952]
+[charaFace D 0]
+[charaFadein D 0 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠ヴラド三世
+……ほう。どうやら見つけたようだぞ。[r]今度は悪魔ではなく、ただの亡霊のようだが。
+[k]
+
+＠マシュ
+また誰かが襲われていますね。[r]救出しておきましょう。
+[k]
+
+＠マシュ
+小さな差違が、思わぬ何かを産み出すこともあります。
+[k]
+
+[charaFace D 2]
+＠ヴラド三世
+ああ、分かっているとも。[r]では、あの時のように[line 2]『[#血塗れ王鬼:カズィクル・ベイ]』！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadein F 0.1 1]
+[charaEffect F bit_talk_13]
+[voice NP_700700_2]
+[flashin once 0.1 2 FF000080 00000000]
+[wait flash]
+[se ad26]
+[wait se ad26]
+＠女性
+な、何……！？
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 0]
+[charaFace D 0]
+[charaFadein A 0.1 2]
+[charaFadein D 0.1 0]
+＠ヴラド三世
+[line 2]そこの女。立ち去るがいい。
+[k]
+
+＠ヴラド三世
+これは貴様たちの領域に侵入した[line 2][r]いてはならぬ[#概念:モノ]。
+[k]
+
+[charaFace D 2]
+＠ヴラド三世
+触れれば死ぬぞ。[r]命が惜しくば、去れ。
+[k]
+
+＠女性
+で、でも、でも、足がうごか、なくて……！
+[k]
+
+[charaFace D 0]
+＠ヴラド三世
+[line 2]ふむ、仕方あるまい。[r]マシュ、マスターと共に彼女を守るがいい。
+[k]
+
+[charaFace D 2]
+＠ヴラド三世
+余は、あの亡霊を蹂躙する。
+[k]
+
+[charaFace A 7]
+＠マシュ
+了解です。[r]マスター、彼女と一緒に退がって下さい。
+[k]
+
+[charaFace A 2]
+＠マシュ
+では、行きます！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

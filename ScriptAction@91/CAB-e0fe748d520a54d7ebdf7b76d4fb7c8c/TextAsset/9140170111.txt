@@ -1,0 +1,164 @@
+＄91-40-17-01-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20900 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 4017001 1 マリー・アントワネット]
+[charaSet E 1005001 1 ネロ]
+[charaTalk A]
+[charaFace E 0]
+[charaFadein E 0 0]
+[charaFace A 15]
+[charaFadein A 0 2]
+[fadein black 1]
+[wait fade]
+＠マシュ
+……つ、強い、です。[r]どうして人間のはずのネロさんが、こんな。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+この魔力量……何なんだ？[r]皇帝ネロに、魔術的な異変が起こっている……？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 2]
+[charaFadein E 0.1 0]
+＠ネロ
+今日の余はすこぶる調子が良い！[r]これならば、ローマの版図を明日にも広げられるな！
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_1 0.1]
+[charaFace E 0]
+＠ネロ
+しかしマリーとやら。[r]玉座をくれてやる訳にはいかんが、見事であった。
+[k]
+
+＠ネロ
+なによりその華やかさがよい。ローマには希有な清楚さだ。[r]その美しさを摘み取るのは野暮というもの。
+[k]
+
+[charaFace E 1]
+＠ネロ
+後でこっそり玉座にちょこんと座るがよい。[r]そして今宵は宴を催す故、楽しんでくいがよい！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace D 1]
+[charaFadein D 0.1 2]
+＠マリー・アントワネット
+光栄ですわ、皇帝陛下。[r]ね、フォウ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ、フォウ♪
+[k]
+
+[charaFadeout D 0.1]
+[charaFace A 3]
+[charaFadein A 0.1 2]
+＠マシュ
+フォウさんがあんなに懐いて……。[r]と、ともかく、どちらも命を落とさず何よりでした。
+[k]
+
+？1：仲良くなったしね
+
+[charaFace A 13]
+＠マシュ
+そうですね。
+[k]
+
+？2：よーし、今夜は食べるぞー！
+
+[charaFace A 13]
+＠マシュ
+魔力消費、激しかったですからね。[r]了解です。先輩にはたくさん食べていただきます。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+いいなあ……いいなあ、宴……。[r]ボクはここから様子を覗うだけなのにぃ……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠マリー・アントワネット
+ふふ。ちゃんとお土産を持って帰りますから、[r]哀しまないでくださいな、ドクター。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+マリー殿下……！[r]おお、ヴィヴ・ラ・フランス！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠マリー・アントワネット
+ヴィヴ・ラ・フランス♪
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォフォーウ♪
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+ヴィヴ・ラ・フラ[line 2]ンス！！[r]マリーさまー！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace E 1]
+[charaFadein E 0.1 0]
+＠ネロ
+む？　なんだ？　よくわからんが余も混ざるぞ！[r]ヴィヴ・ラ・ローマ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ、フォフォーウ♪
+[k]
+
+[charaFace A 3]
+＠マシュ
+…………。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_1 0.4]
+[wait fade]
+[soundStopAll]
+[end]

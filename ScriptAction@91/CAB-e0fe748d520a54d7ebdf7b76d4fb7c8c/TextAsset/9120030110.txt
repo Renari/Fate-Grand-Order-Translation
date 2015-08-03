@@ -1,0 +1,197 @@
+＄91-20-03-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 2003001 0 ロビンフッド]
+[charaFace D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[fadein black 1]
+[wait fade]
+[wt 0.5]
+[charaFace A 6]
+[charaFadein A 0.7 2]
+＠マシュ
+おや。ロビンさんが露店で買い物をしていますね。[r]先輩の指示ですか？
+[k]
+
+？1：そう、このあたりの警護を頼んだ
+
+[charaFace A 1]
+＠マシュ
+さすが先輩、正しいサーヴァントの運営手腕です。[r]何もなければパトロール、ですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+？2：……何かお願いした覚えはないけど……
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[communicationChara 98003003 1 5 0 2]
+[wt 0.3]
+＠Dr.ロマン
+じゃあ彼、勝手に出歩いているのかい？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+まあ、マスターが喚ぶまでは[r]彼等も自由に行動できるワケだけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+？！
+
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ロビンフッド
+おっさん、その刃こぼれした剣のクズ？[r]鍛冶屋に戻すならあるだけ売ってくれ。
+[k]
+
+＠ロビンフッド
+あと荒縄をもう一ダース。[r]ボロ布もサービスでつけてくれよ。
+[k]
+
+＠親父
+はいはいまいど。こんな売れ残りを買ってくれるのは[r]ありがたいが、いったい何に使うんだい？
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+さてねぇ？　まあ、不良品には不良品の使い途があると[r]言いますか。組み合わせて色々するってコトですよ。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+って、いい毛布じゃねえかコレ。[r]思わぬ出費だが、こいつも追加だおっさん。
+[k]
+
+＠親父
+そりゃ上質な毛布だよ？[r]マント一つあればいいアンタが使うのかい？
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+いや、うちの新しい雇い主はどうも軟弱でさあ。[r]野営とか慣れてなさそうなんで、もしもの時にね。
+[k]
+
+[charaFadeout D 0.4]
+[wait fade]
+[wt 0.5]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+……なにやら大量に買い込んでいます。[r]声をかけましょう、マスター。
+[k]
+
+[charaFace A 13]
+＠マシュ
+こんにちは、ロビンさん。[r]何かお買い物ですか？
+[k]
+
+[charaFadeout A 0]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠ロビンフッド
+お。マスターとマシュお嬢さん。[r]商店街で会うとは奇遇だね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+奇遇というより意外です。ロビンさん……いえ、[r]サーヴァントが買い物をするのは珍しい事かと。
+[k]
+
+＠ロビンフッド
+そうかもな。オレは他の連中に比べて、なんつーか[r]地味ですし？　こうして町人やってる方が気楽なんだよ。
+[k]
+
+＠ロビンフッド
+でもまあ、ちょうどいいと言えばちょうどいい。[r]今から狩り場に行くんだが、一緒にどうだいマスター？
+[k]
+
+[charaFace A 12]
+＠マシュ
+狩り場……？[r]それは賭博場とか、そういう……？
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+どんなイメージで見られてんだよオレは。[r]ギャンブルじゃねえです、健全なハントですよ。
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 0.5]
+[scene 20800]
+[bgm BGM_EVENT_3 0.1]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 0.5]
+[wait fade]
+＠ロビンフッド
+……静かに、静かにな。[r]このあたりに妙な生き物が徘徊した跡があってさ。
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+ここ数日、こっそりワナを仕掛けてたんだが……[r]……よっしゃビンゴだ！　まんまと誘導されてやがる。
+[k]
+
+[charaFace D 0]
+＠ロビンフッド
+この先はちょっとした袋小路だ。[r]今なら簡単に追いつめられる。
+[k]
+
+？1：本当に狩りだったんだ……
+
+[charaFace D 1]
+＠ロビンフッド
+そりゃそうですよ。[r]オタク、オレをなんだと思ってたワケ？
+[k]
+
+＠ロビンフッド
+ただのイケメンがサーヴァントにされるワケないっしょ。[r]これでも森の中なら海千山千ですよ？
+[k]
+
+？2：何を追いつめたんだ？
+
+[charaFace D 1]
+＠ロビンフッド
+キシシ、それは見てのお楽しみってな。[r]まだまだ成長途中のマスターには美味しいヤツさ。
+[k]
+
+？！
+
+[se ad27]
+[wait se ad27]
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ロビンさん、引いてます……！[r]釣り糸、引いています！
+[k]
+
+[charaFace D 1]
+＠ロビンフッド
+おいさ、んじゃあまあ始めますか！[r]滅多にない獲物だ、逃がすなよマスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

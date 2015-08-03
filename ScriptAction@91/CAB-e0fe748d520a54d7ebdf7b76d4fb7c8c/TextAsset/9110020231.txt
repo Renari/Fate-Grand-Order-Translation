@@ -1,0 +1,118 @@
+＄91-10-02-02-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1002001 1 セイバーオルタ]
+[charaSet E 1018001 1 アルテラ]
+[charaFace E 4]
+[charaFadein E 0 1]
+[messageOff]
+[fadein black 1]
+[wait fade]
+[shake 0.07 0 2 0]
+[se ad14]
+＠アルテラ
+その……剣……この惑星の内海で鍛えられたもの……[r]本当の、神造兵器、か……！
+[k]
+
+＠アルテラ
+知っている……私はこの傷みを知っている……[r]あれは……いつの時代の[line 3]
+[k]
+
+[messageOff]
+[charaSpecialEffect E flashErasure 1 1]
+[se ba5]
+[wait charaSpecialEffect E]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+英霊アルテラ、消滅を確認しました。[r]わたしたちの勝利……でしょうか？
+[k]
+
+[charaFadeout A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠セイバーオルタ
+そのようだな。私やジャンヌ同様、[r]聖杯によって歪められた英霊かと思ったが[line 3]
+[k]
+
+＠セイバーオルタ
+アレはそれ以前から歪んでいたようだ。[r]ヤツ自身、自分の正体がわからない程に。
+[k]
+
+？1：そんな事よりこれどうするの!?
+
+？2：セイバー、世界が壊れていく……！
+
+？！
+
+[charaFace D 1]
+＠セイバーオルタ
+案ずるな。これはアルテラの夢、[r]ヤツが消えたのだから夢も覚める。
+[k]
+
+＠セイバーオルタ
+世界の崩壊と共に我々も元の意識に帰るだろう。[r]なに、少々後味が悪い程度だ。気にするな。
+[k]
+
+[charaFace A 15]
+＠マシュ
+ワ、ワールドエンドの疑似体験、という事ですね……！[r]できれば知りたくない気持ち悪さですがっ……！
+[k]
+
+[charaFace D 4]
+＠セイバーオルタ
+そう責めるな。許せ。[r]少しはマスターの役に立とうとしたが、今回は失敗だ。
+[k]
+
+[charaFace D 0]
+＠セイバーオルタ
+この世界が終わった後にまた会おう、[%1]。[r]なに、まったくの無駄骨ではない。
+[k]
+
+[charaFace D 1]
+＠セイバーオルタ
+アルテラと戦った事で私の力も向上した。[r]次の戦いではより強力な斬撃を見せてやるさ。
+[k]
+
+[charaFadeout D 0.7]
+[wt 0.7]
+[charaFadeout A 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+ああ、セイバーさんひとりで先に帰っちゃいました！[r]先輩、わたしたちは、その……！
+[k]
+
+？1：うん、このまま真っ白になるしかないね
+
+[charaFace A 14]
+＠マシュ
+や、やっぱりそうですよねーーーーっ!?
+[k]
+
+？2：マシュ、怖いのなら目をつむるんだ。
+
+[charaFace A 8]
+＠マシュ
+だだ、だめです、目を瞑ると余計に怖いです！
+[k]
+
+？！
+
+[charaFace A 14]
+＠マシュ
+ああもう、オルタさんの頼み事は懲り懲りです！[r]先輩、次はちゃんと考えて行動してくださいねーーー！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[soundStopAll]
+[end]

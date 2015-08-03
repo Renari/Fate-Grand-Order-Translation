@@ -1,0 +1,109 @@
+＄91-70-16-02-1-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 11000]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7016001 2 タマモキャット]
+[charaSet E 7002001 0 シャドウサーヴァント]
+[charaFace D 2]
+[charaFadein D 0]
+[charaShadow E true]
+[charaFace E 0]
+[charaFadein E 0]
+[fadein black 1]
+[wait fade]
+＠タマモキャット
+エビチョップ！
+[k]
+
+[se bac20]
+[charaShake E 0.05 0 10 0.5]
+[wait se bac20]
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+エビブレイド！
+[k]
+
+[se bac20]
+[charaShake E 0.05 0 10 0.5]
+[wait se bac20]
+＠シャドウサーヴァント
+Gu、Gi[line 3]AaaaaaaaaaaaaaaA！
+[k]
+
+[se ba6]
+[messageOff]
+[charaSpecialEffect E darkEnemyErasure 0 3]
+[wait charaSpecialEffect E]
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_2 0.1]
+[charaFace A 7]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠マシュ
+敵サーヴァント、消滅。[r]マスター、ロブスターを死守しました。
+[k]
+
+＠タマモキャット
+マシュもなかなかのエビ使い。[r]台所に立てばさぞ腕のいい奥さんになろう。
+[k]
+
+[charaFace A 3]
+＠マシュ
+お、奥さん、ですか……!?[r]いい、いえ、でも、わたしは調理の経験がなくて……
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+調理と戦闘は似たようなものだぞ？[r]同じぐらい血なまぐさくて、同じぐらい興奮する。
+[k]
+
+＠タマモキャット
+食材と戦い、より[#巧:うま]くさばいたものがいただく。[r]男女関係も同じなのだな。勝った方が食べるのだ！
+[k]
+
+[charaFace A 7]
+＠マシュ
+ほほう……参考になる新説です。[r]より詳しくお願いします、キャット先生。
+[k]
+
+＠Dr.ロマン
+（止めなくていいのかい[%1][&君:ちゃん]。[r]　なにやら不穏なフラグが立ってるよ、あれ？）
+[k]
+
+？1：キャットに友人ができるのはいいことだ
+
+？2：マシュに友達ができるのはいいことだ。
+
+？！
+
+[charaFace D 5]
+＠タマモキャット
+しかし、ついに宝具を解禁してしまった……
+[k]
+
+＠タマモキャット
+[#陰気後宮:いんきこうきゅう]を満たし　みな正体を見失う。[r]ここは午睡の楽園、[#彼は誰時:かはたれどき] [#誰そ彼:だれそかれ]の狭間なり[line 3]
+[k]
+
+[charaFace D 0]
+＠タマモキャット
+わりとヤバめな逸話をカタチにしたものだが、[r]使いやすさは保証付きだ。ガシガシ使うがよい。
+[k]
+
+[charaFace D 1]
+＠タマモキャット
+ではご主人、今後は注意深くアタシを扱ってほしい。[r]厳しく、甘く、そして時には優しくナ！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[bgmStop BGM_EVENT_2 0.4]
+[soundStopAll]
+[end]

@@ -1,0 +1,165 @@
+＄91-40-19-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 10802]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 98006200 1 ？？？]
+[charaFace A 2]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+敵性体、撃破！[r]……戦闘終了しました、先輩。
+[k]
+
+[charaFace A 1]
+＠マシュ
+これでマルタさんも、きっと[r]元の穏やかな様子に戻っているはず……。
+[k]
+
+[charaFadeout A 0.1]
+[charaTalk D]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠マルタ
+………………。
+[k]
+
+[charaFace A 12]
+＠マシュ
+あれ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーウ……。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+機嫌がまだお戻りでないようなら、つまり、[r]ええと[line 2]よし、やっぱりか。わかったよ二人とも！
+[k]
+
+[communicationCharaFace 2]
+＠Dr.ロマン
+まだそこには何かがいる。[r]いや、[#これ]を感じ取って彼女はここに来たのか？
+[k]
+
+＠Dr.ロマン
+ゴーストなんて比べものにならない大物だ。[r]こいつは、そう、第六架空要素[line 2]
+[k]
+
+＠Dr.ロマン
+正真正銘の真性かは不明だけど、[r]少なくとも感知できる魔力量と性質は[#それ]だ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠マシュ
+……わたしも感じます。[r]先輩、戦闘準備をお願いします。
+[k]
+
+＠フォウ
+フォウ[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+＠マルタ
+………………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+マルタを突出させないように！[r]さっきと同じく、勝手に真名解放をしかねないよ！
+[k]
+
+＠Dr.ロマン
+なにせ、相手は[line 2]
+[k]
+
+[se ad19]
+＠？？？
+[fontSize x-large]ＧＡＡＡＡＡＡＡ[line 2]！！[-]
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadeout D 0.1]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+甚大な魔力量を確認！[r]間違いありません、これは[#悪魔]に類するものです！
+[k]
+
+[charaFace D 5]
+＠マルタ
+………………タラスク。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ああー駄目！　[%1][&君:ちゃん]急いで！[r]今度もちゃんと聖女マルタを制御しつつ敵を撃破！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 5]
+[charaFadein D 0.1 0]
+？1：マシュ、戦闘態勢！
+
+[charaFace A 2]
+＠マシュ
+はい、マスター！[r]戦闘態勢に入ります！
+[k]
+
+？2：マルタさん、よろしくお願いします！
+
+[charaFace D 2]
+＠マルタ
+………………許さない、許せない。潰す。
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォウ、フォウフォーウ！！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+行きます！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

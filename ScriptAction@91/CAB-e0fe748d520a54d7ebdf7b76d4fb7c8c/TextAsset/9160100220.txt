@@ -1,0 +1,151 @@
+＄91-60-10-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20110]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6010001 1 ステンノ]
+[charaSet E 98014000 1 ？？？]
+[charaSet F 4001001 0 メドゥーサ]
+[charaFace A 15]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+[scene 20110]
+＠マシュ
+ぜ、前回と……違いましたね？[r]不死系の怪物ではなく、キマイラやラミア……。
+[k]
+
+[charaFace A 7]
+＠マシュ
+確かに趣向を変えてはいるようです。[r]となると、この先の展開も以前とは違う可能性がっ。
+[k]
+
+＠マシュ
+メドゥーサさんよりも強力な英霊？[r]ですが、一体どんな英霊を[line 2]
+[k]
+
+＠F：？？？
+……申し訳ありません。
+[k]
+
+[charaFace A 6]
+＠マシュ
+！！
+[k]
+
+[charaFadeout A 0.1]
+[charaSet F 4001001 0 メドゥーサ]
+[charaDepth F 0]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠メドゥーサ
+恥ずかしながら同じ展開なんです……。[r]その、上姉さま曰く、「そこは外すところよ」だそうで……
+[k]
+
+[charaFadeout F 0.1]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠マシュ
+サーヴァント・ライダー……メドゥーサさん。[r]またなんですね。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠メドゥーサ
+……それを言わないでください。私も辛いのです。[r]宝を狙う不埒者を今度こそ追い返しなさいと上姉さまが。
+[k]
+
+＠メドゥーサ
+ですから、その、[r]今回は本当に厳しいと思いますが頑張ってください！
+[k]
+
+？1：戦闘ですね
+
+？2：もう話すことは……ない
+
+？！
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFace F 5]
+＠メドゥーサ
+ごめんなさい、何度も何度も。[r]でも、許してくれとは言いません。
+[k]
+
+＠メドゥーサ
+今回はとにかく本気ですから。[r]上姉さまの命令とはいえ、私も英霊のはしくれです。
+[k]
+
+[charaFace F 2]
+＠メドゥーサ
+二度も破れる訳にはいきません。[r]見なさい。これがゴルゴン流投影殺法[line 3]
+[k]
+
+＠メドゥーサ
+上姉さま命名、スネイク・マジック、です！
+[k]
+
+[flashin once 0.6 0.4 FFFFFF80 00000000]
+[charaSet E 4001001 0 メドゥーサ]
+[charaFace E 2]
+[charaDepth E 0]
+[charaFadein E 0.7]
+[charaSet G 4001001 2 メドゥーサ]
+[charaFace G 2]
+[charaDepth G 0]
+[charaFadein G 0.7]
+[se ad39]
+[wt 0.5]
+？1：ぶ、分身したぁ!?
+
+[charaTalk off]
+[charaFace F 3]
+＠メドゥーサ
+……はい。期待通りの反応、ありがとうございます。[r]ホント言うと恥ずかしかったので、助かりました。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+？2：だ、脱皮したぁ!?
+
+[charaTalk off]
+[charaFace F 5]
+＠メドゥーサ
+……………分身です。どう見ても分身でしょうに。[r]脱皮だなんて、私をなんだと思っているのですか。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォウ、フォーウ……
+[k]
+
+[charaFadeout C 0.1]
+？！
+
+[charaTalk on]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+先輩、和んでいる場合ではありません！[r]見た目のインパクトはともかく、戦力は本物です！
+[k]
+
+[charaFace A 2]
+＠マシュ
+敵は複数のサーヴァント[line 3][r]全力で迎撃します、マスター！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,48 @@
+＄91-70-05-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 21000]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 7005001 1 スパルタクス]
+[charaSet E 98016000 1 ローマ兵]
+[charaSet F 98006000 1 雑魚エネミー]
+[charaFace A 7]
+[charaFadein A 0]
+[fadein black 1]
+[wait fade]
+＠マシュ
+獣人を仕留めました[line 2]が。[r]向こうの様子を見るに、まだ来るようです！
+[k]
+
+＠マシュ
+今度は[line 2]。
+[k]
+
+[charaFadeout A 0.1]
+[charaFace F 0]
+[charaFadein F 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+[se ad21]
+＠スパルタクス
+今度は蛇と[#女性:にょしょう]の結合体か。[r]しかし、私の前に立った者はどうあれ闘技者。
+[k]
+
+＠スパルタクス
+その胴腹が我が手足を巻き折るが先か、[r]我が一撃がその胴腹をねじ切るが先か。
+[k]
+
+[charaFace D 2]
+＠スパルタクス
+うむ、骨肉軋む闘技地獄待ったなし。[r]存分に蹴散らさせて貰おう……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

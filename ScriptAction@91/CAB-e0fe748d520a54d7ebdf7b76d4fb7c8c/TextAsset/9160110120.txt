@@ -1,0 +1,33 @@
+＄91-60-11-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20900]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6011001 1 荊軻]
+[charaFace D 0]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠荊軻
+そして、また一歩足を進める。もし魔術師がいれば、[r]王を守るために何かを召喚するだろう。
+[k]
+
+[charaFace D 4]
+＠荊軻
+そうだな。[r]守りの堅いゴーレムあたりが適役か。
+[k]
+
+[charaFace D 2]
+＠荊軻
+そしてこれもまた、一瞬で仕留めなければならぬ。[r]匕首の切れ味を、更に磨き上げる[line 2]！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,127 @@
+＄91-40-06-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20301]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4006001 2 ゲオルギウス]
+[charaSet E 98013100 1 レッドドラゴン]
+[charaFace D 2]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠ゲオルギウス
+これで終わりです、[#力屠る祝福の剣:アスカロン]！！
+[k]
+
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[voice NP_400600_2]
+[effect bit_talk_12 1]
+[wt 0.5]
+[flashin once 0.6 0.4 FFFFFF80 00000000]
+[wt 1]
+[se ad18]
+[messageOff]
+[charaSpecialEffect E darkEnemyErasure 1 3]
+[wait charaSpecialEffect E]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+＠マシュ
+や、やりましたか……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+いやー、それにしても強敵だったね。
+[k]
+
+[se ad14]
+[messageOff]
+[shake 0.1 0 10 0.5]
+[wt 0.5]
+[shakeStop]
+[shake 0.1 0 2 0]
+＠Dr.ロマン
+おっと、空間を維持していたドラゴンが消えたから[r]歪みが閉じかけてる。
+[k]
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+回収するからみんな準備してくれ。[r]えーと、回収座標を固定してと……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[se ad51]
+[wait se ad51]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠ゲオルギウス
+[line 2]名もなき異界の竜よ[r]せめて安らかに眠りなさい。
+[k]
+
+？1：先生……
+
+？2：竜は罪ありきじゃないんですか？
+
+？！
+
+[charaFace D 0]
+＠ゲオルギウス
+滅ぼされるべくして生まれ、罪ありし竜といっても[r]滅ぼされて当然というものではないのです。
+[k]
+
+＠ゲオルギウス
+[line 2]罪と罰とは、本来別のものなのですよ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+＠マシュ
+先輩、そろそろ行かないと歪みが閉じて……。
+[k]
+
+？1：よし、帰ろう！！
+
+？2：行きましょう、先生
+
+？！
+
+[charaFace D 1]
+＠ゲオルギウス
+ええ……。[r]あ、最後にもう一枚だけ……。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+それはもういいですから！！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠フォウ
+フォーウ。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[shakeStop]
+[soundStopAll]
+[end]

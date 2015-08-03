@@ -1,0 +1,204 @@
+＄91-90-03-01-3-1
+
+[soundStopAll]
+[bgm BGM_EVENT_3 0.1]
+[scene 20602]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 98007000 2 ジャンヌ・オルタ]
+[charaSet E 98006200 0 幽霊]
+[charaTalk E]
+[charaFace D 0]
+[charaFadein D 0 2]
+[charaFace E 0]
+[charaFadein E 0 0]
+[fadein black 1]
+[wait fade]
+＠幽霊
+……さま……。[r]お……ま……えが……。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+おや、かろうじて自我が残っていましたか。[r][#シャルル七世]。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠マシュ
+……！
+[k]
+
+[charaFadeout A 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 0]
+[charaFace D 0]
+[charaFadein D 0.1 2]
+＠幽霊
+ジャン……ヌ……貴様……。[r]無辜の……市民を……手に掛けるとは……。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+無辜の市民？　何を言うかと思えば。[r]あの時の私にとって、彼らは憎んで余り有る怨敵だった。
+[k]
+
+＠ジャンヌ・オルタ
+滅ぼしたことに後悔などない。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+そもそも、貴方は時間の片隅に置き去りにされた[r][#存在してはいけない]もの。
+[k]
+
+＠ジャンヌ・オルタ
+本来のシャルル七世は史実通り、[r]私を見捨て[line 2]そしてその癖、私を再評価するのです。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+[line 2]消滅なさい。咎無き魂よ。
+[k]
+
+[se ad22]
+[messageOff]
+[charaSpecialEffect E enemyErasure 0 2]
+[wait charaSpecialEffect E]
+＠ジャンヌ・オルタ
+……。[r]……。
+[k]
+
+[bgmStop BGM_EVENT_3 0.4]
+[bgm BGM_EVENT_5 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 0]
+＠マシュ
+ジャンヌ・オルタさん。[r]この街は[line 2]あなたが滅ぼした街なんですね。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+そうです。言ってませんでしたか？
+[k]
+
+[charaFace A 2]
+＠マシュ
+言ってません！
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+でも。だからどうしたと言うのです。[r]私の言葉は正しい。
+[k]
+
+＠ジャンヌ・オルタ
+放置しておけば、この街は史実と仮想の狭間で、[r]永遠にもがき苦しんでいたでしょう。
+[k]
+
+＠ジャンヌ・オルタ
+ならば、消滅させてやる方が情けだと考えます。[r]どうですか？
+[k]
+
+[charaFace A 4]
+＠マシュ
+う、それは……。
+[k]
+
+[charaFace D 1]
+＠ジャンヌ・オルタ
+理解しましたか、[%1]？[r]貴方は騙されて、罪無き者たちを消滅させたのです。
+[k]
+
+＠ジャンヌ・オルタ
+軽蔑するならどうぞご自由に。
+[k]
+
+？1：軽蔑しない
+
+？2：わかっている
+
+？！
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+……なんですって？
+[k]
+
+？1：誰かがやらなくてはならない
+
+？！
+
+[charaFadeout A 0]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！
+[k]
+
+[charaFadeout C 0]
+[charaFace A 6]
+[charaFadein A 0.1 0]
+＠マシュ
+フォウさんも、賛成なんですか？
+[k]
+
+[charaFace A 4]
+＠マシュ
+確かに……確かに、放置しておけば[r]害を為す存在になっていた可能性は捨て切れません。
+[k]
+
+[charaFace D 4]
+＠ジャンヌ・オルタ
+[line 2]フン。どこかの誰かみたいな優等生ぶりね。[r]おかげで私も熱が冷めたわ。
+[k]
+
+[charaFace D 0]
+＠ジャンヌ・オルタ
+いいわ、もう茶番劇は終わりです。[r]帰りましょう。
+[k]
+
+＠ジャンヌ・オルタ
+この街を保つための思念が存在しなくなった以上、[r]世界そのものがすぐにでも消滅しますからね。
+[k]
+
+[se ad52]
+[charaFadeout D 0.7]
+[wt 1]
+[charaFadeout A 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠マシュ
+……オルタさんは、もしかすると。[r]責任を取ろうとしただけなのでしょうか？
+[k]
+
+？1：そうだと思う
+
+？2：そうかもしれない
+
+？！
+
+[charaFace A 0]
+＠マシュ
+だとしたら。……あの人もやはり、聖女たる資格を持つ[r]のかもしれませんね。
+[k]
+
+[charaFace A 4]
+＠マシュ
+その、よく分かりませんけど。
+[k]
+
+[charaFace A 13]
+＠マシュ
+やっぱり普通のジャンヌさんと、本質的には同じ[r]なのかもしれません……。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_5 0.4]
+[wait fade]
+[soundStopAll]
+[end]

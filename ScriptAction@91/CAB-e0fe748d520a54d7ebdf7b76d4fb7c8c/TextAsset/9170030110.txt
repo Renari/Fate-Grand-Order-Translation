@@ -1,0 +1,186 @@
+＄91-70-03-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21002]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 7003001 1 呂布]
+[charaTalk C]
+[charaFace A 13]
+[charaFadein A 0 2]
+[charaFace C 0]
+[charaFadein C 0 0]
+[fadein black 1]
+[wait fade]
+＠フォウ
+フォーウ……。
+[k]
+
+＠マシュ
+お疲れ様です先輩、コーヒーどうぞ。
+[k]
+
+？1：いつも、ありがとう
+
+[charaFace A 3]
+＠マシュ
+いえ、そんな……。[r]あ、ドクターから先輩にお話があるそうです。
+[k]
+
+？2：そろそろ休みなよ
+
+[charaFace A 12]
+＠マシュ
+はあ……、それなのですが、[r]ドクターから先輩にお話しがあるとかで……。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+うん、夜分遅くすまないね。[r]で、ボクの話っていうのはね……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呂布
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+彼だよ、彼！！　バーサーカー！！[r]見張りにバーサーカーって、ちょっとおかしくない？
+[k]
+
+？1：そうかな？
+
+？2：だめなの？
+
+？！
+
+[communicationCharaFace 3]
+＠Dr.ロマン
+いや、まあ……。
+[k]
+
+＠Dr.ロマン
+バーサーカーは理性を奪われたサーヴァントだ、ある意味[r]もっともマスターに忠実と言えるかもしれない。
+[k]
+
+[communicationCharaFace 5]
+＠Dr.ロマン
+でも、あのバーサーカーは特別だ。[r]君も話ぐらいは聞いたことがあるだろう？
+[k]
+
+＠Dr.ロマン
+『天下無双』『飛将軍』『人中の呂布』[r]彼を讃える言葉は数あれど、
+[k]
+
+＠Dr.ロマン
+裏切りを繰り返し、[r]忌み嫌われた彼を人々はこう呼んだ。
+[k]
+
+＠Dr.ロマン
+『虎狼』[r]……ってね。
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+だからさー、彼を見張りにするなんてよくないよ[r]危ないって、[%1][&君:ちゃん]……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠呂布
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ひっ……！？　今こっち睨んでなかった？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠呂布
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ギャー！！？　やっぱりー！！！？？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[se ad32]
+[wait se ad32]
+[messageOff]
+[charaEffect D bit_talk_14]
+[wt 0.5]
+[charaEffectStop D]
+[wait charaEffect D]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+お、お許しをー！！？　……って、あれ？
+[k]
+
+[se ad16]
+[wt 1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+＠フォウ
+フォウ！！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+＠マシュ
+いえ、これは……、マスター、敵襲です！！
+[k]
+
+[seStop ad16 3]
+？1：助けてくれたのかな？
+
+？2：さすが飛将軍！！
+
+？！
+
+[charaFadeout C 0.1]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠呂布
+[image berserker_language_2][line 2]ッ！！
+[k]
+
+[charaFace A 2]
+＠マシュ
+来ます！！　迎撃を！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,181 @@
+＄91-30-01-01-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20800 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 3001001 0 クー・フーリン]
+[charaSet E 98006100 0 キメラ]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠クー・フーリン
+とりあえずひと段落か。[r]んで、[#件:くだん]のイノシシはどこだ？
+[k]
+
+[charaFace A 7]
+＠マシュ
+妙ですね。森に入ると即座に襲い掛かってくるという[r]情報でしたが……襲ってきたのもホムンクルスで……
+[k]
+
+[charaFace D 5]
+＠クー・フーリン
+……っと、見つけたぜ、獣の足跡だ。デカいぞ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+さすがに手際がいいね。ケルトの大英霊にかかれば、[r]怪物退治ぐらいお手の物ってとこかな？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠クー・フーリン
+褒めても何もでねぇぞ。行くぞ、マスター。[r]しかし……、妙だな[line 2]。
+[k]
+
+[charaFadeout D 0.4]
+[charaFace A 6]
+＠マシュ
+あっ……、先輩、私たちも行きましょう。
+[k]
+
+[charaFadein C 0.1 0]
+＠フォウ
+フォウ！！
+[k]
+
+[charaFadeout A 0.4]
+[charaFadeout C 0.4]
+[messageOff]
+[wipeout rightToLeft 0.4 1]
+[wait wipe]
+[wt 0.3]
+[scene 20800 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0 0]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+＠クー・フーリン
+[line 2]っと、居たぞ。こっちだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+え！？　特にこっちには何の反応もないけど……。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠クー・フーリン
+[line 2]そこの岩陰だ。[r]どうやら面倒なことになってるみてぇだな。
+[k]
+
+[charaFace A 6]
+＠マシュ
+これは、巨大なイノシシ……、[r]……ですが、既に死亡しているようです。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 1]
+＠Dr.ロマン
+デカいなこれは……。[r]これはもう猪ってレベルじゃないだろ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠クー・フーリン
+そうかい？　この程度なら可愛いもんだ。うちの[r]イノシシなんて背中にルーンを大量に背負ってんぞ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ケルトのイノシシはルーンを食べてたのかい……。[r]そりゃあドラゴンより強い種も出てくるよ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+それにしてもこれだけ巨大なイノシシが[r]なぜ倒れているのでしょうか？
+[k]
+
+[charaFace D 0]
+＠クー・フーリン
+[line 2]嬢ちゃん、話はあとにしな。[r]来たぜ……、本命のお出ましだ。
+[k]
+
+[se ad19]
+[wait se ad19]
+[bgmStop BGM_EVENT_2 0.5]
+[bgm BGM_EVENT_3 0]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 1]
+[charaFadeout E 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なっ！？　[#合成獣:キメラ]だって！？[r]なんでこんなところに！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+マスター、下がってください。[r]迎撃します！！
+[k]
+
+[charaFace D 0]
+＠クー・フーリン
+どうやら、性質の悪い魔術師が放し飼いにでも[r]してるってとこか。……まあいいさ
+[k]
+
+＠クー・フーリン
+[#合成獣:キメラ]の心臓がどこだかしらねぇが[r]オレに出会ったのが運の尽きだったな。
+[k]
+
+[charaFace D 2]
+＠クー・フーリン
+質は悪いが狙い甲斐のある心臓じゃねえか。[r]いいぜ。その心臓、もらい受ける[line 3]！！
+[k]
+
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

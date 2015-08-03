@@ -1,0 +1,233 @@
+＄91-40-19-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20300]
+[charaSet A 8001000 0 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 4019001 1 マルタ]
+[charaSet E 98006100 1 ？？？]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[se ad37]
+[wt 3]
+[seStop ad37 3]
+＠マルタ
+普通の……。[r]ええ、どこにでもいる町娘だったんですよ。
+[k]
+
+＠マルタ
+妹と、弟と。それなりに仲良く、[r]たまに喧嘩もしながら暮らしていたんです。
+[k]
+
+＠マルタ
+生まれたのもベタニア。[r]育ったのも同じ街。
+[k]
+
+＠マルタ
+そうして、他の皆と同じように[r]過ごしていくのだとばかり思っていました。
+[k]
+
+[charaFace D 4]
+＠マルタ
+……いいえ。本当は、どうでしょう。[r]先のことなんて考えていなかったのかも知れません。
+[k]
+
+＠マルタ
+いつだって忙しくしていましたから。[r]今夜の食事はどうしよう、明日の天気はどうかしら[line 2]
+[k]
+
+＠マルタ
+「彼」がいらした時にさえ、[r]私、ばたばたしていたんですよ。
+[k]
+
+[charaFace D 0]
+＠マルタ
+妹が「彼」の言葉に聞き入っている中で、私、[r]お迎えする以上はあれもしなきゃこれもしなきゃって。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 13]
+[charaFadein A 0.1 2]
+＠マシュ
+マルタさん、家庭的な女性だったのですね。[r]立派だと思います。
+[k]
+
+？1：親しみが湧くよね
+
+？2：いいと思います
+
+？！
+
+[charaFace D 4]
+＠マルタ
+そう、かしら。[r]幻滅させてしまったのではなくて？
+[k]
+
+＠マルタ
+人に慕われる聖女というものは、もっと、[r]いつも輝いて……そう、あのジャンヌ・ダルクのように。
+[k]
+
+[charaFace A 1]
+＠マシュ
+いいえ、ジャンヌさんもあなたも、[r]わたしには輝く聖女であると感じられます。
+[k]
+
+＠マシュ
+人を愛し、人の希望となった。[r]そういう女性たち。
+[k]
+
+＠マシュ
+だからこそ、あなたたちは[r]等しく聖女と呼ばれるのだと思います。
+[k]
+
+[charaFace D 1]
+＠マルタ
+……ありがとう。マシュ・キリエライト。
+[k]
+
+[charaFace A 13]
+＠マシュ
+いいえ[line 2]
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+おっと、話の腰を折ってごめんよ。そこから[r]数百メートル先の海中で複数の魔力反応を感知したぞ。
+[k]
+
+＠Dr.ロマン
+マルタの懸念していた通り、修正されつつある[r]このマルセイユ沿岸には何らかの歪みがあるようだ！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ドクター、海に潜る必要が？
+[k]
+
+[charaFace D 0]
+＠マルタ
+必要ないでしょう。いざともなれば、[r]私のタラスクがあの[#群れ]を陸へ誘導します。
+[k]
+
+[charaFace A 6]
+＠マシュ
+群れ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+フォーウ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+誘導？[r]って、フォウやっぱりそっちにいたのか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マルタ
+ええ、あれは群れに違いありません。[r]正確に感じ取れてしまうのは、私の性質故なのでしょう。
+[k]
+
+＠マルタ
+完全ならざる竜の亜種の群れ。[r]十五世紀のこの地には有り得ざるものたち。
+[k]
+
+[se ad19]
+＠？？？
+[fontSize x-large]ＧＹＡＡＡＡＡＡＡ[line 2]！[-]
+[k]
+
+[charaFace A 2]
+＠マシュ
+……この咆哮、ワイバーンのものです！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+なるほど、流石は竜の聖女！[r]ワイバーンの群れの発生を感じてたのか！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+？1：戦闘態勢だ！
+
+？2：マルタ、タラスクを呼んで！
+
+？！
+
+[charaFace D 1]
+＠マルタ
+……どうということはありません。[r]この海辺は、かつてタラスクが支配した領域の一部。
+[k]
+
+[charaFace D 0]
+＠マルタ
+神が五日目に作りたもうたリヴァイアサン[line 2][r]その仔にして、数多の勇者を屠ってみせた凶猛の怪物。
+[k]
+
+＠マルタ
+今は、私と共に在るタラスク。[r]愛知らぬ哀しき竜。
+[k]
+
+[charaFace D 2]
+＠マルタ
+さあ、タラスク。[r]太陽に等しく滾る熱を操り、今、ここに。
+[k]
+
+＠マルタ
+生まれ[#出:いず]る時を違えた哀れなものたちに、[r]ひとときの眠りを与えましょう[line 2]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+聖女マルタの魔力反応増大！[r]こ、これは、怪獣タラスクＶＳワイバーン軍団か！？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 2]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+ワイバーン群が到達します！[r]戦闘です、先輩！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

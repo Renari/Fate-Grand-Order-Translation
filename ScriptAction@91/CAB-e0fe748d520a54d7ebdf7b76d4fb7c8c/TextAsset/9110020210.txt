@@ -1,0 +1,151 @@
+＄91-10-02-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10400]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003000 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1002001 1 セイバーオルタ]
+[charaSet E 9003001 1 ジャンヌオルタ]
+[charaFace D 0]
+[charaFadein D 0 1]
+[fadein black 1]
+[wait fade]
+＠セイバーオルタ
+次の機会がきたぞ[%1]。[r]大聖杯にレイシフトするがいい。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+＠マシュ
+ま、またですか？[r]前は悪いジャンヌさんでしたから、次は……
+[k]
+
+？1：不良になったネロ陛下？
+
+？2：良い子になったランスロット？
+
+？！
+
+[charaFadeout A 0.1]
+[charaFace C 0]
+[charaFadein C 0.1 2]
+＠フォウ
+ンー、キュキュ、キューイ！
+[k]
+
+[charaFace D 4]
+＠セイバーオルタ
+それは行ってのお楽しみ……と言いたいところだがな。[r]今回の相手は、私にもよくわからない。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……わからない？　誰と戦う事になるのか[r]特定できない、という意味ですか？
+[k]
+
+[charaFace D 0]
+＠セイバーオルタ
+違う。潰し合う相手は選定できている。[r]私が言いたいのは[line 3]
+[k]
+
+[charaFace D 5]
+＠セイバーオルタ
+私にはヤツが何者なのかわからない、という意味だ。[r]どうも、ヤツは他の英霊とは根本からして異なる。
+[k]
+
+[charaFace A 7]
+＠マシュ
+根本からして違う……そんな英霊がいたでしょうか……[r]あ、エリザベートさんとか違う気がしますけど。
+[k]
+
+[charaFace D 0]
+＠セイバーオルタ
+アレは変わり種なだけだ。[r]……まあいい。行けば貴様たちも感じ取るだろう。
+[k]
+
+[messageOff]
+[effect bit_talk_07]
+[se ad12]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 4]
+[fadeout white 1]
+[scene 20210]
+[fadein white 0.5]
+[wt 1]
+[fadeout black 0.5]
+[wait fade]
+[scene 20300]
+[wt 1]
+[charaFace A 12]
+[charaFadein A 0 1]
+[fadein black 1]
+[wt 0.7]
+＠マシュ
+ここはローマの平原……？[r]てっきり、またどこかの玉座かと思ったのですが……
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[se ad57]
+[wt 1]
+[bgm BGM_EVENT_3 0.1]
+[charaFadeout A 0]
+[charaTalk C]
+[charaFadein A 0.1 2]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+＠フォウ
+フォーーーウ!?
+[k]
+
+[charaFace A 6]
+＠マシュ
+こ、この地響きは……巨人、いえ、[r]巨大なゴーレムの集団です！
+[k]
+
+[seStop ad57 2]
+＠マシュ
+なに、あれ……地平線を埋め尽くしている……[r]万里の長城が押し寄せてくるような……
+[k]
+
+＠マシュ
+こちらに向かってやってきます！[r]セイバーさん、あれが今回の相手ですか!?
+[k]
+
+[charaFadeout C 0.1]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠セイバーオルタ
+……違うとは思うが、わからない。[r]あのゴーレムの群れもアレと同じモノなのかも知れぬ。
+[k]
+
+[charaFace D 5]
+＠セイバーオルタ
+ともあれ、あの壁を突破するぞ[%1]。[r]ヤツらは我々を敵視しているのではない。
+[k]
+
+＠セイバーオルタ
+アレはただこの土地を破壊するために[r]前進する巨大なローラーのようなものだ。
+[k]
+
+＠セイバーオルタ
+相手をしたところで得るものはないし、[r]倒しきれる数でもない。
+[k]
+
+＠セイバーオルタ
+数体に攻撃を集中させ、壁に穴を穿てばいい……！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,124 @@
+＄91-60-02-01-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10800]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 0 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 6002001 0 ハサン]
+[charaSet E 98016000 1 人さらい]
+[charaFace A 7]
+[charaFadein A 0]
+[communicationChara 98003003 0 5 0 5]
+[fadein black 1]
+[wait fade]
+＠マシュ
+人さらい･･････、ですか？
+[k]
+
+＠Dr.ロマン
+ああ、最近この町で子供が[r]連れ去られる事件が多発していてね。
+[k]
+
+＠Dr.ロマン
+ネロ陛下から僕らにも、[r]捜査の協力要請が来たってわけさ。
+[k]
+
+＠マシュ
+なるほど、そういうことなら協力するのは[r]やぶさかではありませんね。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ところで、手がかりなどは掴めているのですか？
+[k]
+
+[communicationCharaFace 4]
+＠Dr.ロマン
+それが、なかなか巧妙な連中らしくて[r]陛下の部下も尻尾を掴めないんだってさ。
+[k]
+
+[charaFace A 4]
+＠マシュ
+相手の根拠地もわからないのでは[r]手の打ち様がないですね……。
+[k]
+
+[communicationCharaFace 0]
+＠Dr.ロマン
+というわけで、[%1][&君:ちゃん]に[r]白羽の矢がたったってわけ。
+[k]
+
+＠Dr.ロマン
+うちにはその道の専門家がいるからね。[r]それじゃ頼むよ『山の翁』さん。
+[k]
+
+[communicationCharaStop]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠ハサン
+[line 2]ハサン・サッバーハ、これに。
+[k]
+
+？1：うわっ、もう来てたんだ！？
+
+？2：うん、よろしくね。
+
+？！
+
+＠ハサン
+[line 2][#主:あるじ]殿、既に連中の足取りは掴めております。[r]いかに巧妙に痕跡を消しているとはいえ
+[k]
+
+＠ハサン
+この[#暗殺者:アサシン]の英霊、[r]ハサンめの目はごまかせませぬ。
+[k]
+
+[charaFace A 7]
+＠マシュ
+さすがですね。[r]先輩、子供達が心配です！　急ぎましょう！！
+[k]
+
+[messageOff]
+[charaFadeout A 0.5]
+[charaFadeout D 0.5]
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[scene 20800]
+[charaTalk E]
+[charaFadein D 0 2]
+[charaFace D 5]
+[charaFadein E 0 0]
+[fadein black 0.5]
+[wait fade]
+＠人さらい
+なっ！？　てめぇらどうやって[r]ここを嗅ぎ付けやがった！？
+[k]
+
+＠ハサン
+[line 2]クッ、話にならぬ。[r]あの程度の隠蔽でその自信とは……
+[k]
+
+[charaFace D 0]
+＠ハサン
+貴様らは盗賊の中でも三流。生まれ変わって出直すか、[r]ここで生き方を変える方あるまいよ。
+[k]
+
+＠ハサン
+幸い、今回の我が主殿はまったき善人。[r]降伏すれば痛い目を見ずに済むぞ？
+[k]
+
+＠人さらい
+チッ、ドクロ野郎が気取ってんじゃねえ！[r]野郎ども、やっちまえ！！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

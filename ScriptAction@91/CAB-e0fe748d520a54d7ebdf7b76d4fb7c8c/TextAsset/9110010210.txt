@@ -1,0 +1,261 @@
+＄91-10-01-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20700]
+[charaSet A 8001000 2 マシュ]
+[charaSet B 98003003 2 Dr.ロマン]
+[charaSet C 98002000 2 フォウ]
+[charaSet D 1001001 1 アルトリア]
+[charaFace D 1]
+[charaFadein D 0]
+[fadein black 1]
+[wait fade]
+＠アルトリア
+……ふむ。[r]このあたりなら良し、ですね。
+[k]
+
+＠アルトリア
+あたりに人影はなく、建造物もない。[r]今から何が起きようと人的被害は出そうにない。
+[k]
+
+[charaFace D 0]
+＠アルトリア
+[line 3]当事者になる我々以外には。
+[k]
+
+[charaFadeout D 0]
+[charaTalk A]
+[charaFadein D 0.1 0]
+[charaFace A 12]
+[charaFadein A 0.1 2]
+＠マシュ
+……あの、先輩……アルトリアさんの発言が[r]不穏すぎるのですが、今回は何を……？
+[k]
+
+？1：自分もわからない……
+
+？2：とつぜん連れてこられて……
+
+？！
+
+[charaFace D 1]
+＠アルトリア
+さて。まずはありがとうございます、マスター。[r]今回も私の我が儘を聞いていただいて。
+[k]
+
+[charaFadeout A 0]
+[charaFadeout D 0]
+[communicationChara 98003003 1 5 0 4]
+[wt 0.3]
+＠Dr.ロマン
+突然、人気のない荒野に行こう、だもんなあ。[r][%1][&君:ちゃん]に何の用なんだい？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠アルトリア
+はい。前々から考えていた事を実行しようかと。
+[k]
+
+＠アルトリア
+カルデアに力を貸す英霊は増えましたが、[r]それに比例して戦いは激しさを増すばかり。
+[k]
+
+＠アルトリア
+この先もどんな怪物が現れたものか。[r]正直な話、火力不足を感じてはいませんか？
+[k]
+
+[charaFace A 0]
+＠マシュ
+それは……はい。防御が専門のわたしが言える事では[r]ありませんが、今までの火力では太刀打ちできないかと。
+[k]
+
+＠アルトリア
+でしょう。[r]なので、私も本気をだそうかと。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ええ!?　君、今まで本気じゃなかったの!?
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠アルトリア
+本気ではありましたが、制限があったのです。
+[k]
+
+＠アルトリア
+私の聖剣は、その、色々と[r]複雑な仕組みをしているものですから。
+[k]
+
+[charaFace D 0]
+＠アルトリア
+たとえば、心の善いものには振るってはならない。[r]たとえば、精霊には振るってはならない。
+[k]
+
+＠アルトリア
+このような誓約が複数かけられていて、[r]誓約に反するとその分魔力放出が削られてしまう。
+[k]
+
+[charaFace A 0]
+＠マシュ
+ドレスコードのようなもの、でしょうか。
+[k]
+
+＠マシュ
+ではセイバーさんの聖剣は、[r]今まで１００パーセントで開放された事がない、と？
+[k]
+
+＠アルトリア
+はい。すべての誓約が開放された一撃は、[r]それこそ一度あるかないかでしょう。
+[k]
+
+＠アルトリア
+この先もその機会があるかどうかは分かりませんが、[r]今は少しでも誓約は減らし、戦力を向上させたい。
+[k]
+
+[charaFace D 1]
+＠アルトリア
+その為に[%1]、[r]貴方にご足労願ったのです。
+[k]
+
+[charaFace D 1]
+＠アルトリア
+“共に戦う者は勇者でなければならない”[line 3][r]この誓約をクリアするために。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 3]
+＠Dr.ロマン
+……えっと。[r]つまり、マスターが弱いと聖剣も本気を出せない？
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+＠アルトリア
+この場合は肉体面ではなく精神面の話ですね。[r]自分より強いものに立ち向かう勇気があるのか？
+[k]
+
+＠アルトリア
+聖剣はその心の強さを計ります。[r]ですので[line 3]
+[k]
+
+[charaFace D 2]
+[wt 0.5]
+[se ad39]
+[charaEffect D bit_talk_36]
+[wt 2]
+[charaEffectStop D]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+な、なんだこの魔力量……!?[r]セイバー、君、何をしている!?
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠アルトリア
+過去に私が斬り伏せ、[r]封印した悪魔を召喚しているのですが、何か。
+[k]
+
+？1：まさか！？
+
+？2：ばかな！？
+
+？！
+
+[charaFace A 15]
+＠マシュ
+竜種に匹敵する魔力数値です……！[r]こんなの、今の先輩とわたしでは、とても……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+なんで何の相談もなしにそういう事するかなあ!?[r]そもそもアーサー王にそんな魔術は使えないぞ!?
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaTalk D]
+[charaFace A 15]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠アルトリア
+そこはそれ、レオナルド女史に相談をして[r][#使い切り:インスタント][#魔術書:スクロール]を用意してもらいました。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+ダ・ヴィンチちゃーーーん！
+[k]
+
+[bgmStop BGM_EVENT_2 0.4]
+[bgm BGM_EVENT_3 0.1]
+[communicationCharaClear]
+[wait communicationChara]
+[charaSet E 98006100 1 魔物]
+[charaFadein E 0.4]
+[se ad23]
+[wt 2]
+[charaFadeout E 0]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 2]
+[charaFadein D 0.1 0]
+＠アルトリア
+さあ、勇気を示す時ですマスター！[r]私たちでこのピンチを切り抜けましょう！
+[k]
+
+[charaFace A 14]
+＠マシュ
+お、王様はわりと無茶苦茶な人でしたー！[r]せせ、先輩、どうしましょう!?
+[k]
+
+？1：こうなったら戦うしかないな！
+
+？2：よーし、かかってこい！
+
+？！
+
+[charaFace A 14]
+＠マシュ
+なんという事でしょう……[r]わたしのマスターも、セイバーさんと同じ人種でした！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,223 @@
+＄91-50-15-01-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20500 0]
+[charaSet A 8001001 1 マシュ]
+[charaSet B 98003000 1 Dr.ロマン]
+[charaSet C 98002000 1 フォウ]
+[charaSet D 5015001 1 アマデウス]
+[charaSet E 98018000 1 山賊]
+[charaSet F 98006000 1 ワイバーン]
+[charaTalk D]
+[charaFace A 0]
+[charaFadein A 0 2]
+[charaFace D 1]
+[charaFadein D 0 0]
+[fadein black 1]
+[wait fade]
+＠アマデウス
+いやあ、いい稼ぎになったね！[r]想定の三倍の報奨金だよ、[%1]君、マシュ！
+[k]
+
+[charaFace A 1]
+＠マシュ
+はい。[r]二十三人も捕縛する事になるとは思いませんでした。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ワイバーンまで連れていた盗賊団だったからね。[r]一人いくらの話だったなら、実入りも相当なものだろう？
+[k]
+
+？1：これでしばらく贅沢できるね
+
+？2：これでさっきの店の代金は払えるね
+
+？！
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 1]
+[charaFadein A 0.1 2]
+[charaFace D 4]
+[charaFadein D 0.1 0]
+＠アマデウス
+そうだな。さっきの店のツケを払って、[r]他の店のツケを払って……なんだ、結局は一文無しか。
+[k]
+
+[charaFace A 6]
+＠マシュ
+ほかの店にも未払いがあったんですか!?
+[k]
+
+[charaFace D 3]
+＠アマデウス
+ああ。たいていは出禁扱いになってたよ。[r]そうでもなければ初めての店に入るもんか。
+[k]
+
+[charaFace A 12]
+＠マシュ
+なんという……アマデウスさんは技術も外見も[r]立派なのに、性格は問題がありすぎです。
+[k]
+
+[charaFace A 14]
+＠マシュ
+次に召喚される時は、[r]もっと節度をもった頃の年齢で召喚されてください。
+[k]
+
+？1：もっと年上のアマデウスとか？
+
+[charaFace A 7]
+＠マシュ
+はい。晩年のアマデウスさんなら、[r]もっと落ち着いている筈です！
+[k]
+
+？2：もっと年下のアマデウスとか？
+
+[charaFace A 7]
+＠マシュ
+そうですね。戦闘面では弱体化しますが、十二才ほどの[r]子供なら、少なくともパブには出入りできません！
+[k]
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+いや、それは無理なんだ[%1][&君:ちゃん]。[r]サーヴァントは全盛期の姿で召喚される。
+[k]
+
+＠Dr.ロマン
+その英霊が“もっとも強かった時”の姿だね。[r]そうでないと使い魔にする意味がない。
+[k]
+
+＠Dr.ロマン
+サーヴァントである以上、アマデウスは常にこの姿だ。[r]まあ、クラスが違えば全盛期も違ってだろうけど……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 7]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠アマデウス
+僕にキャスター以外のクラスはないよ。[r]だから晩年の姿も、子供の姿もない。
+[k]
+
+[charaFace D 3]
+＠アマデウス
+そして一ついい事を教えてあげようマシュ。そもそも[r]芸術家のサーヴァントなんて二種類しかいないのさ。
+[k]
+
+[charaFace A 6]
+＠マシュ
+二種類しかいない？[r]えっと……それは、どういう？
+[k]
+
+＠アマデウス
+召喚時の年齢の話だよ。[r]子供の姿で現れるか、大人の姿で現れるかってヤツ。
+[k]
+
+[charaFace D 0]
+＠アマデウス
+断言するが、芸術家くずれはみーんな[r]子供か青年だ。それ以外はありえない。
+[k]
+
+[charaFace D 3]
+＠アマデウス
+だって全盛期の自分が召喚されるんだぜ？[r]つまり天才だった頃だ。
+[k]
+
+＠アマデウス
+子供の姿のヤツはあれだな、[r]成長したら節度のある、正しい大人になったヤツだね。
+[k]
+
+[charaFace D 0]
+＠アマデウス
+だから天才だった[#子供]の頃の姿で現れる。[r]他人への迷惑を何とも思わない神童ってヤツさ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、なるほど。芸術家にとって感性こそが才能だ。[r]その感性がいちばん強い時が召喚対象になるのか。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[charaFace D 0]
+[charaFadein D 0.1 0]
+＠マシュ
+つまり、純粋な頃の姿で召喚されるのが少年タイプ[r]なのですね。では、青年の姿の芸術家系の特徴は？
+[k]
+
+[charaFace D 1]
+＠アマデウス
+そりゃあ君、大人になっても[#成長:へんか]しない、[r]死ぬまでクズだった変人に決まってるじゃないか！
+[k]
+
+[charaFace A 6]
+＠マシュ
+………………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[communicationCharaLoop 98003003 1 5 0 2]
+＠Dr.ロマン
+……なんて説得力のある言葉なんだ……[r]そしてなんてダメなサーヴァントなんだ……
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFace A 6]
+[charaFadein A 0.1 2]
+[charaFace D 1]
+[charaFadein D 0.1 0]
+＠アマデウス
+おっと、そろそろ夕食の時間だね。[r]ツケも消えたし、馴染みの店にひとっ飛びだ。
+[k]
+
+[charaFace D 3]
+＠アマデウス
+ああ、でもお礼はちゃんとしておかないと。[r]はい、[%1]君。僕からのプレゼント。
+[k]
+
+[charaFace D 1]
+＠アマデウス
+普段のお礼も兼ねてのものだよ。[r]それでは僕はここで。君たちもよい夕食を！
+[k]
+
+[charaFadeout D 0.7]
+[wt 1]
+[charaFadeout A 0.1]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠マシュ
+行ってしまいました……[r]その時代に興味のないサーヴァントもいれば、
+[k]
+
+[charaFace A 13]
+＠マシュ
+アマデウスさんのように“まるでその時代の人間”の[r]ように振る舞うサーヴァントもいる……
+[k]
+
+[charaFace A 8]
+＠マシュ
+英霊というのは、本当に千差万別です……
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]
