@@ -1,1 +1,1 @@
-All of the files currently in the apk directory are uneditable, since I'm currently unable to put the files back into their packages.
+All of the files currently in the apk directory are uneditable, since I'm currently unable to put the files back into their packages, with the exception of the values and value-ja directories.
