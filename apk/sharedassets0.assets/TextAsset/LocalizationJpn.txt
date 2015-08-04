@@ -136,6 +136,7 @@
     
     // System
     "NETWORK_ERROR_DIFFERENT_CREATE_USER_SERVER" : "作成されているユーザーデータは\n現在接続しているゲームサーバーと異なるため\nデバッグメニューを起動します",
+    "NETWORK_ERROR_ASSET_INIT" : "ダウンロード管理ファイルが\n破損しています。\nダウンロード管理ファイルを\n初期化しました。",
     "NETWORK_ERROR_DISK_FULL" : "ストレージが不足しています。\n整理してください。",
     "NETWORK_ERROR_CSID_CODE" : "エラーコード: {0}",
     
@@ -149,9 +150,14 @@
 
     "NETWORK_ERROR_PURCHASE_SUSPEND_MESSAGE" : "処理が中断されました\nリトライします。",
 
-
     "NETWORK_USER_DELETE_DECIDE": "はい",
     "NETWORK_USER_DELETE_CANCEL": "いいえ",
+    
+    "NETWORK_ERROR_BOOT_RETRY_MESSAGE" : "サーバーとの通信に失敗しました\n\n電波状況を確認し、リトライするか\nアプリケーションを再起動してください。",
+    "NETWORK_ERROR_BOOT_MESSAGE" : "サーバーとの通信に失敗しました\n\n電波状況を確認し、\nアプリケーションを再起動してください。",
+
+    "NETWORK_ERROR_BOOR_RETRY_DECIDE": "リトライ",
+    "NETWORK_ERROR_BOOT_RETRY_CANCEL": "再起動",
 
     "CONNECT_LOAD_MESSAGE1" : "※ダウンロードは、いつでも中断する事ができます。",
     "CONNECT_LOAD_MESSAGE2" : "ダウンロード中、しばらくお待ちください。",
@@ -990,8 +996,11 @@
     "TAKEOVER_ID_TXT" : "引き継ぎナンバー",
     "TAKEOVER_PW_TXT" : "パスワード",
 
-	
-	
+    // Android終了ダイアログ
+    "BACK_BUTTON_CONFIRM" : "アプリケーションを終了しますか？",
+    "BACK_BUTTON_CONFIRM_YES" : "終了",
+    "BACK_BUTTON_CONFIRM_NO" : "キャンセル",
+
     //
     "END" : "END"
 }
