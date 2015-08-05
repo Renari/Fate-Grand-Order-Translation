@@ -14,48 +14,48 @@
     "USER_FRIEND_CODE" : "[133493]ID : {0}",
     
     // Common
-    "COMMON_CONFIRM_YES" : "はい",
-    "COMMON_CONFIRM_NO" : "いいえ",
+    "COMMON_CONFIRM_YES" : "Yes",
+    "COMMON_CONFIRM_NO" : "No",
     "COMMON_CONFIRM_OK" : "OK",
-    "COMMON_CONFIRM_DECIDE" : "決定",
-    "COMMON_CONFIRM_CANCEL" : "キャンセル",
-    "COMMON_CONFIRM_CLOSE" : "閉じる",
-    "COMMON_CONFIRM_EXIT" : "終了",
-    "COMMON_CONFIRM_RETRY" : "やり直す",
-    "COMMON_CONFIRM_BACK" : "戻る",
-    "COMMON_CONFIRM_USE" : "使う",
-    "COMMON_EQUIP_CHANGE" : "装備する",
-    "COMMON_EQUIP_SET" : "装備",
-    "COMMON_EQUIP_REMOVE" : "はずす",
-    "COMMON_EQUIP_USED" : "使用中",
+    "COMMON_CONFIRM_DECIDE" : "Confirm",
+    "COMMON_CONFIRM_CANCEL" : "Cancel",
+    "COMMON_CONFIRM_CLOSE" : "Close",
+    "COMMON_CONFIRM_EXIT" : "Exit",
+    "COMMON_CONFIRM_RETRY" : "Retry",
+    "COMMON_CONFIRM_BACK" : "Back",
+    "COMMON_CONFIRM_USE" : "Use",
+    "COMMON_EQUIP_CHANGE" : "Equip",
+    "COMMON_EQUIP_SET" : "Equipment",
+    "COMMON_EQUIP_REMOVE" : "Remove",
+    "COMMON_EQUIP_USED" : "In Use",
 
     "COMMON_ON" : "ON",
     "COMMON_OFF" : "OFF",
-    "COMMON_SEARCH" : "検索",
-    "COMMON_INPUT" : "タッチして入力",
+    "COMMON_SEARCH" : "Search",
+    "COMMON_INPUT" : "Tap to Input",
 
-	"TIME_BEFORE_TITLE_LOGIN" : "[00FFFF]最終ログイン[-]",
-	"TIME_BEFORE_MINUTES" : "{0}分前",
-	"TIME_BEFORE_HOURS" : "{0}時間前",
-	"TIME_BEFORE_DAYS" : "{0}日前",
-	"TIME_BEFORE_OVER_YEARS" : "1年以上",
+	"TIME_BEFORE_TITLE_LOGIN" : "[00FFFF]Last Login[-]",
+	"TIME_BEFORE_MINUTES" : "{0}minutes ago",
+	"TIME_BEFORE_HOURS" : "{0}hours ago",
+	"TIME_BEFORE_DAYS" : "{0}days ago",
+	"TIME_BEFORE_OVER_YEARS" : "over a year",
 	"TIME_BEFORE_TITLE_COLOR" : "[0FEB6D]{0}[-]",
 
-	"TIME_REST_TIMEOVER" : "時間切れ",
-	"TIME_REST_MINUTES" : "残り {0}分",
-	"TIME_REST_HOURS" : "残り {0}時間",
-	"TIME_REST_DAYS" : "残り {0}日",
-	"TIME_REST_OVER_YEARS" : "残り 1年以上",
+	"TIME_REST_TIMEOVER" : "Timeout",
+	"TIME_REST_MINUTES" : "{0} minutes left",
+	"TIME_REST_HOURS" : "{0} hours left",
+	"TIME_REST_DAYS" : "{0} days left",
+	"TIME_REST_OVER_YEARS" : "More than a year left",
 	"TIME_REST_NONE" : "----",
 
 	//"UNIT_REST_NUM" : "{0}／{1}",
-	"UNIT_REST_NUM" : "あと{0}個",
+	"UNIT_REST_NUM" : "After {0}",
 	"UNIT_REST_NONE" : "----",
 
-    "UNIT_INFO" : "{0}個",
-    "HAVE_UNIT_INFO" : "所持 {0}個",
-    "COUNT_INFO" : "{0}回",
-    "PRICE_NAME" : "価格",
+    "UNIT_INFO" : "{0}",
+    "HAVE_UNIT_INFO" : "Have {0}",
+    "COUNT_INFO" : "{0}",
+    "PRICE_NAME" : "Cost",
     "PRICE_INFO" : "{0}円",
     "PRICE2_INFO" : "¥{0}",
 
@@ -77,50 +77,50 @@
     "ATTACK_INFO" : "ATK.{0}",
     "ATTACK_ICON_INFO" : "ATK{0}",
     
-    "FREE_NAME" : "無料",
+    "FREE_NAME" : "Free",
 
-    "STONE_NAME" : "聖晶石",
-    "STONE_TAKE" : "所持聖晶石",
-    "STONE_INFO" : "所持聖晶石 {0}個",
-    "STONE_UNIT" : "{0}個",
-    "STONE_NEED_INFO" : "[20FF20]必要聖晶石[-] {0}個",
+    "STONE_NAME" : "Saint Quartz",
+    "STONE_TAKE" : "You got Saint Quartz",
+    "STONE_INFO" : "You have {0} Saint Quartz",
+    "STONE_UNIT" : "{0}",
+    "STONE_NEED_INFO" : "[20FF20]You need[-] {0} Saint Quartz",
 
     "QP_NAME" : "QP",
-    "QP_TAKE" : "所持QP",
-    "QP_INFO" : "所持QP：{0:N0}",
+    "QP_TAKE" : "You got QP",
+    "QP_INFO" : "You got {0:N0} QP",
     "QP_UNIT" : "{0} QP",
     //"QP_GET_INFO" : "獲得QP：{0}",
 
-    "MANA_NAME" : "マナプリズム",
-    "MANA_TAKE" : "所持マナプリズム",
-    "MANA_INFO" : "所持マナプリズム：{0}",
-    "MANA_UNIT" : "{0}個",
+    "MANA_NAME" : "Mana Prism",
+    "MANA_TAKE" : "You got Mana Prism",
+    "MANA_INFO" : "You have {0} Mana Prism",
+    "MANA_UNIT" : "{0}",
     //"MANA_GET_INFO" : "獲得マナプリズム：{0}",
-    "MANA_NEED_INFO" : "[20FF20]必要マナプリズム[-] {0}個",
+    "MANA_NEED_INFO" : "[20FF20]You need[-] {0} Mana Prisms",
 
-    "FRIEND_POINT_NAME" : "フレンドポイント",
+    "FRIEND_POINT_NAME" : "Friend Points",
     "FRIEND_POINT_UNIT" : "{0} pt",
 
-    "FRIENDSHIP_NAME" : "絆ポイント",
+    "FRIENDSHIP_NAME" : "Bond Points",
     "FRIENDSHIP_UNIT" : "{0} pt",
     
     "USER_EXP_NAME" : "EXP",
     "USER_EXP_UNIT" : "{0} EXP",
     
-    "SERVANT_TAKE" : "サーヴァント",
-    "SERVANT_INFO" : "サーヴァント {0}／{1}",
-    "SERVANT_UNIT" : "{0}騎",
-    "EXCEPT_SERVANT_UNIT" : "{0}体",
+    "SERVANT_TAKE" : "Servant",
+    "SERVANT_INFO" : "Servant {0}／{1}",
+    "SERVANT_UNIT" : "{0}",
+    "EXCEPT_SERVANT_UNIT" : "{0}",
     
-    "SERVANT_EQUIP_TAKE" : "概念礼装",
-    "SERVANT_EQUIP_INFO" : "概念礼装 {0}／{1}",
-    "SERVANT_EQUIP_UNIT" : "{0}枚",
+    "SERVANT_EQUIP_TAKE" : "Common Formal Wear",
+    "SERVANT_EQUIP_INFO" : "Common Formal Wear {0}／{1}",
+    "SERVANT_EQUIP_UNIT" : "{0}",
 
-    "SELECT_INFO" : "[00FFFF]選択数 [-]{0}／{1}",
-    "SELECT_CANNOT" : "選択不可",
-    "SELECT_LOCK" : "ロック中",
-    "SELECT_FAVORITE" : "お気に入り\n登録中",
-    "SELECT_PARTY" : "PARTY\n登録中",
+    "SELECT_INFO" : "[00FFFF]Number Selected [-]{0}／{1}",
+    "SELECT_CANNOT" : "Can't Select",
+    "SELECT_LOCK" : "Locked",
+    "SELECT_FAVORITE" : "Favorite\nRegistered",
+    "SELECT_PARTY" : "PARTY\nRegistered",
     
     "SVT_HP" : "[FFB900]HP[-] {0}",	// フォーマットが異なるため作成→確定次第削除
     "SVT_ATK" : "[FFB900]ATK[-] {0}",	// フォーマットが異なるため作成→確定次第削除
@@ -168,7 +168,7 @@
     
     "CONNECT_CONFIRM_MESSAGE" : "追加のゲームデータのダウンロードを\n中断しますか？\n\n※中断してもゲームプレイには影響しません。",
     "CONNECT_CONFIRM_DECIDE" : "中断する",
-    "CONNECT_CONFIRM_CANCEL" : "キャンセル",
+    "CONNECT_CONFIRM_CANCEL" : "Cancel",
     
     "CONNECT_LATEST_MESSAGE" : "ゲームデータは最新状態です。",
     "CONNECT_COMPLET_MESSAGE" : "ゲームデータのダウンロードが完了しました。",
@@ -274,16 +274,16 @@
 	"SERVANT_STATUS_TOTAL_FRIENDSHIP" : "累計絆ポイント：{0}",
 	"SERVANT_STATUS_FAVORITE_CONFIRM_TITLE" : "注意",
 	"SERVANT_STATUS_FAVORITE_CONFIRM_MESSAGE" : "{0}を\nお気に入りに登録していますが、変更しますか？",
-   	"SERVANT_STATUS_FAVORITE_CONFIRM_CANCEL" : "キャンセル",
+   	"SERVANT_STATUS_FAVORITE_CONFIRM_CANCEL" : "Cancel",
 	"SERVANT_STATUS_FAVORITE_CONFIRM_DECIDE" : "決定",
 
     // Stone Purchase
     "STONE_PURCHASE_TITLE" : "聖晶石購入",
     "STONE_PURCHASE_EXPLANATION" : "特定商取引法・資金決済法に関して",
-    "STONE_PURCHASE_CLOSE" : "キャンセル",
+    "STONE_PURCHASE_CLOSE" : "Cancel",
     
-    "STONE_PURCHASE_RESULT_CANCEL" : "聖晶石の購入をキャンセルしました。",
-    "STONE_PURCHASE_RESULT_FAIL" : "聖晶石の購入をキャンセルしました。",
+    "STONE_PURCHASE_RESULT_CANCEL" : "聖晶石の購入をCancelしました。",
+    "STONE_PURCHASE_RESULT_FAIL" : "聖晶石の購入をCancelしました。",
     "STONE_PURCHASE_RESULT_SUCCESS" : "聖晶石を購入しました。",
     "STONE_PURCHASE_RESULT_CLOSE" : "閉じる",
     
@@ -322,7 +322,7 @@
     "USER_GAME_ACT_RECOVER_MESSAGE_INFO_NONE": "購入商品情報がありません。",
     "USER_GAME_ACT_RECOVER_INFO" : "[00FFFF]{0}[-]／[00FFFF]{1}",
     "USER_GAME_ACT_RECOVER_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
-    "USER_GAME_ACT_RECOVER_CANCEL": "キャンセル",
+    "USER_GAME_ACT_RECOVER_CANCEL": "Cancel",
     "USER_GAME_ACT_RECOVER_DECIDE": "回復する",
     "USER_GAME_ACT_RECOVER_STONE": "聖晶石購入へ",
     "USER_GAME_ACT_RECOVER_CLOSE": "閉じる",
@@ -345,13 +345,13 @@
     "SHOP_BUY_MANA_CONFIRM_WARNING" : "[FF0000]マナプリズムが足りません。",
     //"SHOP_BUY_MANA_CONFIRM_TITLE" : "マナプリズム使用",
     //"SHOP_BUY_MANA_CONFIRM_MESSAGE" : "マナプリズムを{1}使用して\n{0}を購入しますか？",
-    "SHOP_BUY_MANA_CONFIRM_CANCEL" : "キャンセル",
+    "SHOP_BUY_MANA_CONFIRM_CANCEL" : "Cancel",
     "SHOP_BUY_MANA_CONFIRM_DECIDE" : "購入する",
     
     "SHOP_BUY_STONE_CONFIRM_WARNING" : "[FF0000]聖晶石が足りません。",
     //"SHOP_BUY_STONE_CONFIRM_TITLE" : "聖晶石使用",
     //"SHOP_BUY_STONE_CONFIRM_MESSAGE" : "聖晶石を{1}使用して\n{0}を購入しますか？",
-    "SHOP_BUY_STONE_CONFIRM_CANCEL" : "キャンセル",
+    "SHOP_BUY_STONE_CONFIRM_CANCEL" : "Cancel",
     "SHOP_BUY_STONE_CONFIRM_DECIDE" : "購入する",
     
     "SHOP_BUY_SUCCESS" : "『{0} ×{1}』を\n入手しました。",
@@ -366,7 +366,7 @@
     // Servant Sort
     "SERVANT_SORT_TITLE" : "ソート",
     "SERVANT_SORT_TITLE2" : "フィルター",
-    "SERVANT_SORT_CANCEL": "キャンセル",
+    "SERVANT_SORT_CANCEL": "Cancel",
     "SERVANT_SORT_CLEAR": "クリア",
     "SERVANT_SORT_DECIDE": "決定",
     
@@ -417,7 +417,7 @@
     "SERVANT_FRAME_PURCHASE_INFO1" : "＜{0}枠＞　　　　[00FFFF]＜{1}枠＞",
     "SERVANT_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}枠＞",
     "SERVANT_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
-    "SERVANT_FRAME_PURCHASE_CANCEL": "キャンセル",
+    "SERVANT_FRAME_PURCHASE_CANCEL": "Cancel",
     "SERVANT_FRAME_PURCHASE_DECIDE": "拡張する",
     "SERVANT_FRAME_PURCHASE_STONE": "聖晶石購入へ",
     "SERVANT_FRAME_PURCHASE_CLOSE": "閉じる",
@@ -432,7 +432,7 @@
     "SERVANT_EQUIP_FRAME_PURCHASE_INFO1" : "＜{0}枠＞　　　　[00FFFF]＜{1}枠＞",
     "SERVANT_EQUIP_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}枠＞",
     "SERVANT_EQUIP_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
-    "SERVANT_EQUIP_FRAME_PURCHASE_CANCEL": "キャンセル",
+    "SERVANT_EQUIP_FRAME_PURCHASE_CANCEL": "Cancel",
     "SERVANT_EQUIP_FRAME_PURCHASE_DECIDE": "拡張する",
     "SERVANT_EQUIP_FRAME_PURCHASE_STONE": "聖晶石購入へ",
     "SERVANT_EQUIP_FRAME_PURCHASE_CLOSE": "閉じる",
@@ -455,7 +455,7 @@
     "SERVANT_SELL_INFO3" : "マナプリズム：{0}",
     "SERVANT_SELL_REQUEST_RARITY_MESSAGE" : "[FF0000]R以上のサーヴァントが含まれています。",
     "SERVANT_EQUIP_SELL_REQUEST_RARITY_MESSAGE" : "[FF0000]R以上の概念礼装が含まれています。",
-    "SERVANT_SELL_CANCEL": "キャンセル",
+    "SERVANT_SELL_CANCEL": "Cancel",
     "SERVANT_SELL_DECIDE": "くべる",
     "SERVANT_SELL_CLOSE": "閉じる",
 
@@ -535,7 +535,7 @@
     "PARTY_ORGANIZATION_SWAP" : "配置変更",
     "PARTY_ORGANIZATION_START" : "クエスト開始",
     "PARTY_ORGANIZATION_COMMAND_CARD" : "コマンドカード",
-    "PARTY_ORGANIZATION_CANCEL" : "キャンセル",
+    "PARTY_ORGANIZATION_CANCEL" : "Cancel",
     "PARTY_ORGANIZATION_REMOVE" : "パーティ解散",
     "PARTY_ORGANIZATION_DECIDE" : "決定",
 
@@ -549,17 +549,17 @@
     "PARTY_ORGANIZATION_CONFIRM_CANCEL_TITLE" : "CAUTION"
     "PARTY_ORGANIZATION_CONFIRM_CANCEL_MESSAGE" : "変更前の編成の状態に戻ります。\n実行しますか？",
     "PARTY_ORGANIZATION_CONFIRM_CANCEL_DECIDE" : "決定",
-    "PARTY_ORGANIZATION_CONFIRM_CANCEL_CANCEL" : "キャンセル",
+    "PARTY_ORGANIZATION_CONFIRM_CANCEL_CANCEL" : "Cancel",
 
     "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_TITLE" : "CAUTION"
     "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_MESSAGE" : "STARTING MEMBERが登録されていません。\n変更前の編成の状態に戻ります。\n実行しますか？",
     "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_DECIDE" : "決定",
-    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_CANCEL" : "キャンセル",
+    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_CANCEL" : "Cancel",
     
     "PARTY_ORGANIZATION_CONFIRM_REMOVE_TITLE" : "パーティ解散"
     "PARTY_ORGANIZATION_CONFIRM_REMOVE_MESSAGE" : "登録中のすべてのサーヴァントを解除します。\n実行しますか？",
     "PARTY_ORGANIZATION_CONFIRM_REMOVE_DECIDE" : "決定",
-    "PARTY_ORGANIZATION_CONFIRM_REMOVE_CANCEL" : "キャンセル",
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_CANCEL" : "Cancel",
 
     "PARTY_ORGANIZATION_COMMAND_CARD_TITLE" : "コマンドカード確認"
     "PARTY_ORGANIZATION_COMMAND_CARD_MESSAGE" : "STARTING MEMBERのコマンドカード",
@@ -999,7 +999,7 @@
     // Android終了ダイアログ
     "BACK_BUTTON_CONFIRM" : "アプリケーションを終了しますか？",
     "BACK_BUTTON_CONFIRM_YES" : "終了",
-    "BACK_BUTTON_CONFIRM_NO" : "キャンセル",
+    "BACK_BUTTON_CONFIRM_NO" : "Cancel",
 
     //
     "END" : "END"

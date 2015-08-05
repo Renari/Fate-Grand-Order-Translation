@@ -10,9 +10,9 @@
 		"mstTreasureDevice":[
 			{
 				"id": 109,
-				"ruby": "エクスカリバー",
-				"name": "約束された勝利の剣",
-				"detail": "計算結果を？倍したダメージを与える"
+				"ruby": "Excalibur",
+				"name": "Sword of Promised Victory",
+				"detail": "The calculation results? It doubles damage"
 			}
 		],
 		"mstSvtTreasureDevice":[
@@ -85,7 +85,7 @@
         "mstSvt": [
             {
                 "id": 600100,
-                "name": "佐々木小次郎",
+                "name": "Sasaki Kojirō",
                 "classId": 7,
                 "attri": 1,
                 "cardIds": [ 1, 1, 2, 2, 3 ],
