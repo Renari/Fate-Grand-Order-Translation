@@ -402,7 +402,7 @@
     "SERVANT_SORT_FILTER_KIND_COLLECTION_FIND" : "Seen",
     "SERVANT_SORT_FILTER_KIND_COLLECTION_GET" : "Have",
 
-    "SERVANT_ALL_EMPTY" : "所持していません",
+    "SERVANT_ALL_EMPTY" : "所持していません", // Needs Translation
     "SERVANT_EMPTY" : "契約しているサーヴァントがいません",
     "SERVANT_EQUIP_EMPTY" : "所持している概念礼装がありません",
     "SERVANT_SORT_FILTER_RESULT_EMPTY" : "該当する条件の項目が見つかりません",
@@ -460,120 +460,120 @@
     "SERVANT_SELL_CLOSE": "閉じる",
 
     // Friend Scene
-    "FRIEND_SEARCH_TITLE1" : "あなたのユーザーID",
-    "FRIEND_SEARCH_TITLE2" : "友達のユーザーIDを入れて検索できます",
-    "FRIEND_SEARCH_EXPLANATION" : "ここをタッチして入力してください",
-    "FRIEND_SEARCH_COPY_ID" : "IDをコピー",
-    "FRIEND_SEARCH_RESULT_TITLE" : "検索結果",
+    "FRIEND_SEARCH_TITLE1" : "Your User ID",
+    "FRIEND_SEARCH_TITLE2" : "You can add friends with their User ID",
+    "FRIEND_SEARCH_EXPLANATION" : "Touch to Enter ID",
+    "FRIEND_SEARCH_COPY_ID" : "Copy ID",
+    "FRIEND_SEARCH_RESULT_TITLE" : "Search Results",
     
-    "FRIEND_BUTTON_OFFER" : "申請",
-    "FRIEND_BUTTON_ACCEPT" : "承認",
-    "FRIEND_BUTTON_REJECT" : "拒否",
-    "FRIEND_BUTTON_CANCEL" : "取り止め",
-    "FRIEND_BUTTON_REMOVE" : "解除",
+    "FRIEND_BUTTON_OFFER" : "Offer",
+    "FRIEND_BUTTON_ACCEPT" : "Accept",
+    "FRIEND_BUTTON_REJECT" : "Reject",
+    "FRIEND_BUTTON_CANCEL" : "Cancel",
+    "FRIEND_BUTTON_REMOVE" : "Remove",
     
     "FRIEND_SHOW_INFOMATION" : "{0}/{1}",
     
-    "FRIEND_TAB_FRIEND" : "フレンド",
-    "FRIEND_TAB_OFFERED" : "通知",
-    "FRIEND_TAB_SEARCH" : "フレンド検索",
+    "FRIEND_TAB_FRIEND" : "Friend",
+    "FRIEND_TAB_OFFERED" : "Notification",
+    "FRIEND_TAB_SEARCH" : "Friend Search",
     
-    "FRIEND_OFFER_MESSAGE" : "{0} へ\nフレンド申請を行いますか？",
+    "FRIEND_OFFER_MESSAGE" : "Do you want to send\n{0}\na friend request?",
     "FRIEND_OFFER_DECIDE" : "Yes",
     "FRIEND_OFFER_CANCEL" : "No",
     
-    "FRIEND_ACCEPT_MESSAGE" : "{0} からの\nフレンド申請を承認しますか？",
+    "FRIEND_ACCEPT_MESSAGE" : "Do you want to accept \n{0}'s\nfriend request?",
     "FRIEND_ACCEPT_DECIDE" : "Yes",
     "FRIEND_ACCEPT_CANCEL" : "No",
 
-    "FRIEND_REJECT_MESSAGE" : "{0} からの\nフレンド申請を拒否します\n本当によろしいですか？",
+    "FRIEND_REJECT_MESSAGE" : "Are you sure you want to reject\n{0}'s\nfriend request?",
     "FRIEND_REJECT_DECIDE" : "Yes",
     "FRIEND_REJECT_CANCEL" : "No",
 
-    "FRIEND_CANCEL_MESSAGE" : "{0} への\nフレンド申請を取りやめます\n本当によろしいですか？",
+    "FRIEND_CANCEL_MESSAGE" : "Are you sure you want to cancel\nsending a friend request to\n{0}?",
     "FRIEND_CANCEL_DECIDE" : "Yes",
     "FRIEND_CANCEL_CANCEL" : "No",
 
-    "FRIEND_REMOVE_MESSAGE" : "{0}\n\nこのフレンドを解除します。\n本当によろしいですか？",
+    "FRIEND_REMOVE_MESSAGE" : "Are you sure you want to remove\n{0}\nas a friend?",
     "FRIEND_REMOVE_DECIDE" : "Yes",
     "FRIEND_REMOVE_CANCEL" : "No",
     
-    "FRIEND_MAX_FRIEND_MESSAGE" : "フレンド数が上限に達しています",
+    "FRIEND_MAX_FRIEND_MESSAGE" : "You have reached the friend cap",
     "FRIEND_MAX_FRIEND_CLOSE" : "OK",
     
-    "FRIEND_NO_FRIEND_MESSAGE" : "現在フレンドがいません",
+    "FRIEND_NO_FRIEND_MESSAGE" : "You currently have no friends", // :(
     "FRIEND_NO_FRIEND_CLOSE" : "OK",
     
-    "FRIEND_NO_OFFER_MESSAGE" : "フレンド申請はありません",
+    "FRIEND_NO_OFFER_MESSAGE" : "You have no pending outgoing friend requests",
     "FRIEND_NO_OFFER_CLOSE" : "OK",
 
-    "FRIEND_NO_OFFERED_MESSAGE" : "フレンド通知はありません",
+    "FRIEND_NO_OFFERED_MESSAGE" : "You have no pending incoming friend requests",
     "FRIEND_NO_OFFERED_CLOSE" : "OK",
 
-    "FRIEND_NO_SEARCH_MESSAGE" : "検索対象が存在しません",
+    "FRIEND_NO_SEARCH_MESSAGE" : "ID does not exist",
     "FRIEND_NO_SEARCH_CLOSE" : "OK",
     
-    "FRIEND_NO_STRING_MESSAGE" : " IDを入力してください",
+    "FRIEND_NO_STRING_MESSAGE" : " Please enter your ID",
     "FRIEND_NO_STRING_CLOSE" : "OK",
     
-    "FRIEND_EMPTY_FRIEND_MESSAGE" : "現在フレンドがいません。\nフレンドはIDを検索して探すか\nクエストクリア時に申請できます",
-    "FRIEND_EMPTY_OFFERED_MESSAGE" : "フレンド通知はありません。",
+    "FRIEND_EMPTY_FRIEND_MESSAGE" : "You currently have no friends\nYou can find friends after clearing quests\nor by adding them with their ID",
+    "FRIEND_EMPTY_OFFERED_MESSAGE" : "No friend notifications",
     
     // Follower Scene
-    "FOLLOWER_SELECT_EXPLANATION" : "[5CD5FF]NPC・フレンドを選択すると、宝具が使用できます",
+    "FOLLOWER_SELECT_EXPLANATION" : "[5CD5FF]NPC・フレンドを選択すると、宝具が使用できます", // Needs Translation
     "FOLLOWER_SELECT_NP_LOCK" : "[E04020]フレンドでないため宝具は使用できません",
     "FOLLOWER_SELECT_TYPE_POINT" : "[FCC13F]+{0}",
     "FOLLOWER_SELECT_TYPE_POINT_UP" : "[0000E6]+{0}",
     
     // 
-    "BATTLE_SETUP_CONFIRM_MESSAGE" : "出撃しますか？",
-    "BATTLE_SETUP_CONFIRM_DECIDE" : "出撃する",
+    "BATTLE_SETUP_CONFIRM_MESSAGE" : "Do you want to battle?",
+    "BATTLE_SETUP_CONFIRM_DECIDE" : "Battle",
 
     // Party Organization
-    "PARTY_ORGANIZATION_EDIT" : "パーティ編成",
-    "PARTY_ORGANIZATION_CHANGE" : "メンバー編成",
-    "PARTY_ORGANIZATION_SWAP" : "配置変更",
-    "PARTY_ORGANIZATION_START" : "クエスト開始",
-    "PARTY_ORGANIZATION_COMMAND_CARD" : "コマンドカード",
+    "PARTY_ORGANIZATION_EDIT" : "Organize Party",
+    "PARTY_ORGANIZATION_CHANGE" : "Edit Party Members",
+    "PARTY_ORGANIZATION_SWAP" : "Change Layout",
+    "PARTY_ORGANIZATION_START" : "Start Quest",
+    "PARTY_ORGANIZATION_COMMAND_CARD" : "Command Card",
     "PARTY_ORGANIZATION_CANCEL" : "Cancel",
-    "PARTY_ORGANIZATION_REMOVE" : "パーティ解散",
-    "PARTY_ORGANIZATION_DECIDE" : "決定",
+    "PARTY_ORGANIZATION_REMOVE" : "Remove Party",
+    "PARTY_ORGANIZATION_DECIDE" : "Confirm",
 
-    "PARTY_ORGANIZATION_SARVANT_CHANGE" : "替える",
-    "PARTY_ORGANIZATION_SARVANT_SWAP" : "入替える",
-    "PARTY_ORGANIZATION_SARVANT_REMOVE" : "はずす",
+    "PARTY_ORGANIZATION_SARVANT_CHANGE" : "Replace",
+    "PARTY_ORGANIZATION_SARVANT_SWAP" : "Swap",
+    "PARTY_ORGANIZATION_SARVANT_REMOVE" : "Remove",
 
     "PARTY_ORGANIZATION_SARVANT_COST_OVER" : "COST OVER",
-    "PARTY_ORGANIZATION_SARVANT_SAME_SERVANT" : "同じサーヴァント選択不可",
+    "PARTY_ORGANIZATION_SARVANT_SAME_SERVANT" : "Same Servant",
     
     "PARTY_ORGANIZATION_CONFIRM_CANCEL_TITLE" : "CAUTION"
-    "PARTY_ORGANIZATION_CONFIRM_CANCEL_MESSAGE" : "変更前の編成の状態に戻ります。\n実行しますか？",
-    "PARTY_ORGANIZATION_CONFIRM_CANCEL_DECIDE" : "決定",
+    "PARTY_ORGANIZATION_CONFIRM_CANCEL_MESSAGE" : "This will reset the party settings.\nAre you sure?",
+    "PARTY_ORGANIZATION_CONFIRM_CANCEL_DECIDE" : "Confirm",
     "PARTY_ORGANIZATION_CONFIRM_CANCEL_CANCEL" : "Cancel",
 
     "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_TITLE" : "CAUTION"
-    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_MESSAGE" : "STARTING MEMBERが登録されていません。\n変更前の編成の状態に戻ります。\n実行しますか？",
-    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_DECIDE" : "決定",
+    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_MESSAGE" : "STARTING MEMBER has not been registered.\nThis will reset the party settings.\nAre you sure?",
+    "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_DECIDE" : "Confirm",
     "PARTY_ORGANIZATION_CONFIRM_EMPTY_MAIN_DECK_CANCEL" : "Cancel",
     
-    "PARTY_ORGANIZATION_CONFIRM_REMOVE_TITLE" : "パーティ解散"
-    "PARTY_ORGANIZATION_CONFIRM_REMOVE_MESSAGE" : "登録中のすべてのサーヴァントを解除します。\n実行しますか？",
-    "PARTY_ORGANIZATION_CONFIRM_REMOVE_DECIDE" : "決定",
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_TITLE" : "Dissolve Party"
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_MESSAGE" : "This will reset the party settings.\nAre you sure?",
+    "PARTY_ORGANIZATION_CONFIRM_REMOVE_DECIDE" : "Confirm",
     "PARTY_ORGANIZATION_CONFIRM_REMOVE_CANCEL" : "Cancel",
 
-    "PARTY_ORGANIZATION_COMMAND_CARD_TITLE" : "コマンドカード確認"
-    "PARTY_ORGANIZATION_COMMAND_CARD_MESSAGE" : "STARTING MEMBERのコマンドカード",
-    "PARTY_ORGANIZATION_COMMAND_CARD_CLOSE" : "閉じる",
+    "PARTY_ORGANIZATION_COMMAND_CARD_TITLE" : "Command Card Check"
+    "PARTY_ORGANIZATION_COMMAND_CARD_MESSAGE" : "STARTING MEMBER Command Card",
+    "PARTY_ORGANIZATION_COMMAND_CARD_CLOSE" : "Close",
 
-    "PARTY_ORGANIZATION_DECIDE_WARNING_TITLE_COST_OVER" : "[FF2020]コストオーバー",
-    "PARTY_ORGANIZATION_DECIDE_WARNING_MESSAGE_COST_OVER" : "コストの制限をこえているので\nこのパーティを登録できません。",
+    "PARTY_ORGANIZATION_DECIDE_WARNING_TITLE_COST_OVER" : "[FF2020]Over Cost",
+    "PARTY_ORGANIZATION_DECIDE_WARNING_MESSAGE_COST_OVER" : "You cannot register this party\nas it exceeds the cost limit.",
 
-    "PARTY_ORGANIZATION_START_WARNING_TITLE_COST_OVER" : "[FF2020]コストオーバー",
-    "PARTY_ORGANIZATION_START_WARNING_MESSAGE_COST_OVER" : "コストの制限をこえているので\nこのパーティではクエストを開始できません。",
+    "PARTY_ORGANIZATION_START_WARNING_TITLE_COST_OVER" : "[FF2020]Over Cost",
+    "PARTY_ORGANIZATION_START_WARNING_MESSAGE_COST_OVER" : "You cannot start the quest\nwith this partyas it\nexceeds the cost limit.",
 
     // Script Action Scene
-    "SCRIPT_ACTION_SKIP_CONFIRM_TITLE" : "スキップ確認",
-    "SCRIPT_ACTION_SKIP_CONFIRM_DETAIL" : "このイベントをスキップしますか？",
+    "SCRIPT_ACTION_SKIP_CONFIRM_TITLE" : "Skip Confirmation",
+    "SCRIPT_ACTION_SKIP_CONFIRM_DETAIL" : "Are you sure you want to skip this event?",
     
     "SCRIPT_ACTION_CODE_COMMENT" : "＊",
     "SCRIPT_ACTION_CODE_LABEL" : "＄",
