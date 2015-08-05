@@ -1,4 +1,4 @@
-{
+﻿{
     "UNKNOWN_NAME" : "???",
     "NO_ENTRY_NAME" : "---",
 
@@ -134,30 +134,30 @@
     "FOLLOWER_TYPE_FRIEND" : "[00C000]FRIEND",
     "FOLLOWER_TYPE_NOT_FRIEND" : "",
     
-    // System Needs translation
-    "NETWORK_ERROR_DIFFERENT_CREATE_USER_SERVER" : "作成されているユーザーデータは\n現在接続しているゲームサーバーと異なるため\nデバッグメニューを起動します",
-    "NETWORK_ERROR_ASSET_INIT" : "ダウンロード管理ファイルが\n破損しています。\nダウンロード管理ファイルを\n初期化しました。",
-    "NETWORK_ERROR_DISK_FULL" : "ストレージが不足しています。\n整理してください。",
-    "NETWORK_ERROR_CSID_CODE" : "エラーコード: {0}",
+    // System 
+    "NETWORK_ERROR_DIFFERENT_CREATE_USER_SERVER" : "Creating user data\nGame server connection is now different\nBooting debug menu",
+    "NETWORK_ERROR_ASSET_INIT" : "Download control file\ncorrupted.\nDownload control file\nformatted.",
+    "NETWORK_ERROR_DISK_FULL" : "Insufficient storage\nPlease make room.",
+    "NETWORK_ERROR_CSID_CODE" : "Error code: {0}",
     
-    "NETWORK_ERROR_TIME_OVER_MESSAGE" : "サーバーとの通信が切れました。\nリトライしますか？\n\n「終了」をタッチすると\nタイトル画面に戻ります。",
-    "NETWORK_ERROR_SERVER_CANCEL_MESSAGE" : "通信が実行できませんでした。",
-    "NETWORK_ERROR_SERVER_BUSY_MESSAGE" : "サーバーが混雑しています。\nしばらく時間を置いてからゲームを起動しなおしてください。\n\n※通信環境のよい場所でプレイしてください",
-    "NETWORK_ERROR_SERVER_CONNECT_MESSAGE" : "サーバーに接続ができませんでした\nタイトル画面に移行します",
-    "NETWORK_ERROR_SERVER_PARAMETER_MESSAGE" : "不正なパラメータです\nタイトル画面に移行します",
-    "NETWORK_ERROR_SERVER_AUTH_MESSAGE" : "サーバーの認証に失敗しました\nタイトル画面に移行します",
-    "NETWORK_ERROR_SERVER_NO_FILE_MESSAGE" : "ファイルを見つけられませんでした\nタイトル画面に移行します",
+    "NETWORK_ERROR_TIME_OVER_MESSAGE" : "Server transfer was stopped.\nRetry?\n\nTap [Close]\nto return to title screen",
+    "NETWORK_ERROR_SERVER_CANCEL_MESSAGE" : "Transfer could not be completed.",
+    "NETWORK_ERROR_SERVER_BUSY_MESSAGE" : "Server is too busy.\nPlease restart the game.\n\n※Please play at an area with a better signal",
+    "NETWORK_ERROR_SERVER_CONNECT_MESSAGE" : "Could not connect to server\nReturning to title screen",
+    "NETWORK_ERROR_SERVER_PARAMETER_MESSAGE" : "Incorrect parameters\nReturning to title screen",
+    "NETWORK_ERROR_SERVER_AUTH_MESSAGE" : "Failed to authenticate\nReturning to title screen",
+    "NETWORK_ERROR_SERVER_NO_FILE_MESSAGE" : "Unable to find file\nReturning to title screen",
 
-    "NETWORK_ERROR_PURCHASE_SUSPEND_MESSAGE" : "処理が中断されました\nリトライします。",
+    "NETWORK_ERROR_PURCHASE_SUSPEND_MESSAGE" : "Could not be processed\nRetrying.",
 
-    "NETWORK_USER_DELETE_DECIDE": "Yes",
+    "NETWORK_USER_DELETE_DECIDE": "Confirm",
     "NETWORK_USER_DELETE_CANCEL": "No",
     
-    "NETWORK_ERROR_BOOT_RETRY_MESSAGE" : "サーバーとの通信に失敗しました\n\n電波状況を確認し、リトライするか\nアプリケーションを再起動してください。",
-    "NETWORK_ERROR_BOOT_MESSAGE" : "サーバーとの通信に失敗しました\n\n電波状況を確認し、\nアプリケーションを再起動してください。",
+    "NETWORK_ERROR_BOOT_RETRY_MESSAGE" : "Failed to connect to server\n\nCheck your connection and retry,\nPlease restart the app.",
+    "NETWORK_ERROR_BOOT_MESSAGE" : "Failed to connect to server\n\nCheck your connection、\nPlease restart the app.",
 
-    "NETWORK_ERROR_BOOR_RETRY_DECIDE": "リトライ",
-    "NETWORK_ERROR_BOOT_RETRY_CANCEL": "再起動",
+    "NETWORK_ERROR_BOOR_RETRY_DECIDE": "Retry",
+    "NETWORK_ERROR_BOOT_RETRY_CANCEL": "Restart",
 
     "CONNECT_LOAD_MESSAGE1" : "※Download can be cancelled at any time.",
     "CONNECT_LOAD_MESSAGE2" : "Downloading, please wait.",
@@ -201,7 +201,7 @@
     "COND_TYPE_QUEST_CLEAR" : "{0} cleared",
     "COND_TYPE_QUEST_PHASE_CLEAR" : "{0} of {1} cleared",
     "COND_TYPE_SERVANT_LEVEL" : "Servant Levels by {0}",
-    "COND_TYPE_SERVANT_LIMIT_COUNT" : "霊基再臨を {0} 段階突破する", // Needs Translation
+    "COND_TYPE_SERVANT_LIMIT_COUNT" : "Ascension Stage {0}", 
     "COND_TYPE_SERVANT_GET" : "Servant got {0}",
     "COND_TYPE_SERVANT_FRIENDSHIP" : "Bond Levels by {0}",
     "COND_TYPE_SERVANT_GROUP" : "In Group",
@@ -226,7 +226,7 @@
     "WEB_VIEW_TITLE_CREDIT" : "Credits",
     "WEB_VIEW_TITLE_RIGHT_NOTATION" : "Rights",
     "WEB_VIEW_TITLE_SERIAL_CODE" : "Serial Code",
-    "WEB_VIEW_TITLE_STONE_PURCHASE" : "特定商取引法・資金決済法に関して", // Needs Translation
+    "WEB_VIEW_TITLE_STONE_PURCHASE" : "Payment method for funds", 
     "WEB_VIEW_TITLE_SUMMON" : "Summon Details",
 
     // UserEntry
@@ -247,9 +247,9 @@
     "USER_ACTION_POINT_RECOVER" : "After {0:D2}:{1:D2}",
     
     // ServantList
-    //"CHARA_GRAPH_TAB_SERVANT" : "サーヴァント {0}/{1}",
+    //"CHARA_GRAPH_TAB_SERVANT" : "Servant {0}/{1}",
     "CHARA_GRAPH_TAB_SERVANT" : "{0}/{1}",
-    //"CHARA_GRAPH_TAB_SERVANT_EQUIP" : "概念礼装 {0}/{1}",
+    //"CHARA_GRAPH_TAB_SERVANT_EQUIP" : "Craft Essence {0}/{1}",
     "CHARA_GRAPH_TAB_SERVANT_EQUIP" : "{0}/{1}",
 
     // ServantStatus
@@ -257,7 +257,7 @@
     "SERVANT_STATUS_TAB_PROFILE" : "Profile",
     "SERVANT_STATUS_TAB_BATTLE" : "Battle Character",
     "SERVANT_STATUS_EXP_LATE" : "{0}",
-    "SERVANT_STATUS_TITLE_LIMIT_COUNT" : "霊基再臨", // Needs Translation
+    "SERVANT_STATUS_TITLE_LIMIT_COUNT" : "Ascension", 
     "SERVANT_STATUS_TITLE_POWER" : "Strength",
     "SERVANT_STATUS_TITLE_DEFENSE" : "End.",
     "SERVANT_STATUS_TITLE_LUCK" : "Luck",
@@ -279,7 +279,7 @@
 
     // Stone Purchase
     "STONE_PURCHASE_TITLE" : "Saint Quartz Purchase",
-    "STONE_PURCHASE_EXPLANATION" : "特定商取引法・資金決済法に関して",  // Needs Translation
+    "STONE_PURCHASE_EXPLANATION" : "Payment method for funds", 
     "STONE_PURCHASE_CLOSE" : "Cancel",
     
     "STONE_PURCHASE_RESULT_CANCEL" : "Cancel Quartz Purchase",
@@ -319,7 +319,7 @@
     "USER_GAME_ACT_RECOVER_MESSAGE_END": "AP Recovery Complete",
     "USER_GAME_ACT_RECOVER_MESSAGE_ERROR": "[00FFFF]Unable to recover AP",
     "USER_GAME_ACT_RECOVER_MESSAGE_MAX_ACT": "[00FFFF]You do not need to recover AP",
-    "USER_GAME_ACT_RECOVER_MESSAGE_INFO_NONE": "購入商品情報がありません。", // Needs Translation
+    "USER_GAME_ACT_RECOVER_MESSAGE_INFO_NONE": "No info on product purchase", 
     "USER_GAME_ACT_RECOVER_INFO" : "[00FFFF]{0}[-]／[00FFFF]{1}",
     "USER_GAME_ACT_RECOVER_REQUEST_STONE_MESSAGE" : "[FF0000]Not enough Saint Quartz",
     "USER_GAME_ACT_RECOVER_CANCEL": "Cancel",
@@ -335,7 +335,7 @@
     "SHOP_RECOVER_USER_GAME_ACT": "AP Recovery",
     "SHOP_BUY_SERVANT_FRAME" : "Servant Frame",
     "SHOP_BUY_SERVANT_EQUIP_FRAME" : "Servant Equipment Frame",
-    "SHOP_SELL_SERVANT" : "霊基変還", // Needs Translation
+    "SHOP_SELL_SERVANT" : "Burn", 
     "SHOP_ITEM_CHANGE" : "{0} in exchange",
     "SHOP_NOAH" : "Playing the game\nwill get you free Saint Quartz!",
     "SHOP_BUY_ACCOUNT_ITEM" : "課金動作購入（デバッグ用）", // This is a debug option
@@ -343,14 +343,14 @@
     "SHOP_LIST_EMPTY" : "You do not have products that can be purchased",
 
     "SHOP_BUY_MANA_CONFIRM_WARNING" : "[FF0000]Not enough mana prisms",
-    //"SHOP_BUY_MANA_CONFIRM_TITLE" : "マナプリズム使用",
-    //"SHOP_BUY_MANA_CONFIRM_MESSAGE" : "マナプリズムを{1}使用して\n{0}を購入しますか？",
+    //"SHOP_BUY_MANA_CONFIRM_TITLE" : "Use Mana prism",
+    //"SHOP_BUY_MANA_CONFIRM_MESSAGE" : "Used {1} Mana prism\nBuy {0}?",
     "SHOP_BUY_MANA_CONFIRM_CANCEL" : "Cancel",
     "SHOP_BUY_MANA_CONFIRM_DECIDE" : "Buy",
     
     "SHOP_BUY_STONE_CONFIRM_WARNING" : "[FF0000]Not enough Saint Quartz",
-    //"SHOP_BUY_STONE_CONFIRM_TITLE" : "聖晶石使用",
-    //"SHOP_BUY_STONE_CONFIRM_MESSAGE" : "聖晶石を{1}使用して\n{0}を購入しますか？",
+    //"SHOP_BUY_STONE_CONFIRM_TITLE" : "Use Saint Quartz",
+    //"SHOP_BUY_STONE_CONFIRM_MESSAGE" : "Used {1} Saint Quartz\nBuy {0}?",
     "SHOP_BUY_STONE_CONFIRM_CANCEL" : "Cancel",
     "SHOP_BUY_STONE_CONFIRM_DECIDE" : "Buy",
     
@@ -358,10 +358,10 @@
 
     "SHOP_BUY_SERVANT_FULL_WARNING" : "[FF0000]You have reached the Servant Frame Limit",
     "SHOP_BUY_SERVANT_OVER_WARNING" : "[FF0000]Over Frame Limit",
-    "SHOP_BUY_SERVANT_EQUIP_FULL_WARNING" : "[FF0000]概念礼装所持枠が限界に達しています。",
-    "SHOP_BUY_SERVANT_EQUIP_OVER_WARNING" : "[FF0000]購入すると概念礼装所持枠を越えます。",
-    "SHOP_BUY_ITEM_FULL_WARNING" : "[FF0000]アイテム所持枠が限界に達しています。",
-    "SHOP_BUY_ITEM_OVER_WARNING" : "[FF0000]購入するとアイテム所持枠を越えます。",
+    "SHOP_BUY_SERVANT_EQUIP_FULL_WARNING" : "[FF0000]Your craft essence inventory is full.", 
+    "SHOP_BUY_SERVANT_EQUIP_OVER_WARNING" : "[FF0000]You have exceeded the craft essence limit.", 
+    "SHOP_BUY_ITEM_FULL_WARNING" : "[FF0000]Your item inventory is full.", 
+    "SHOP_BUY_ITEM_OVER_WARNING" : "[FF0000]You have exceeded the item limit.", 
 
     // Servant Sort
     "SERVANT_SORT_TITLE" : "Sort",
@@ -372,7 +372,7 @@
     
     "SERVANT_SORT_KIND_BUTTON" : "Order",
     "SERVANT_SORT_KIND_PARTY" : "Party",
-    "SERVANT_SORT_KIND_CREATE" : "入手", // Needs Translation
+    "SERVANT_SORT_KIND_CREATE" : "Obtained", 
     "SERVANT_SORT_KIND_RARITY" : "Rarity",
     "SERVANT_SORT_KIND_LEVEL" : "Level",
     "SERVANT_SORT_KIND_NP_LEVEL" :  "NP Level",
@@ -380,7 +380,7 @@
     "SERVANT_SORT_KIND_ATK" : "ATK",
     "SERVANT_SORT_KIND_COST" : "COST",
     "SERVANT_SORT_KIND_CLASS" : "Class",
-    "SERVANT_SORT_KIND_LIMIT_COUNT" : "霊基再臨回数", // Needs Translation
+    "SERVANT_SORT_KIND_LIMIT_COUNT" : "Ascension Count", 
     "SERVANT_SORT_KIND_FRIENDSHIP" : "Bond",
     "SERVANT_SORT_KIND_ALL" : "All",
     "SERVANT_SORT_KIND_LOGIN_ACCESS" : "Login",
@@ -402,45 +402,45 @@
     "SERVANT_SORT_FILTER_KIND_COLLECTION_FIND" : "Seen",
     "SERVANT_SORT_FILTER_KIND_COLLECTION_GET" : "Have",
 
-    "SERVANT_ALL_EMPTY" : "所持していません", // Needs Translation
-    "SERVANT_EMPTY" : "契約しているサーヴァントがいません",
-    "SERVANT_EQUIP_EMPTY" : "所持している概念礼装がありません",
+    "SERVANT_ALL_EMPTY" : "Empty Inventory", 
+    "SERVANT_EMPTY" : "You have no Servants",
+    "SERVANT_EQUIP_EMPTY" : "You have no craft essences",
     "SERVANT_SORT_FILTER_RESULT_EMPTY" : "該当する条件の項目が見つかりません",
 
     // Servant Frame Purchase
-    "SERVANT_FRAME_PURCHASE_TITLE" : "サーヴァント所持枠を増やす",
-    "SERVANT_FRAME_PURCHASE_MESSAGE_START" : "聖晶石を1個使用して\nサーヴァント所持枠を増やしますか？\n※最大{0}枠まで増やせます。",
-    "SERVANT_FRAME_PURCHASE_MESSAGE_END": "サーヴァント所持枠が増えました。\n※最大{0}枠まで拡張することができます。",
-    "SERVANT_FRAME_PURCHASE_MESSAGE_ERROR": "[00FFFF]サーヴァント所持枠を増やすことができませんでした。",
-    "SERVANT_FRAME_PURCHASE_MESSAGE_MAX_FRAME": "[00FFFF]サーヴァント所持枠拡張が上限に達しています。",
-    "SERVANT_FRAME_PURCHASE_MESSAGE_INFO_NONE": "購入商品情報がありません。",
-    "SERVANT_FRAME_PURCHASE_INFO1" : "＜{0}枠＞　　　　[00FFFF]＜{1}枠＞",
-    "SERVANT_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}枠＞",
-    "SERVANT_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
+    "SERVANT_FRAME_PURCHASE_TITLE" : "Buy Servant",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_START" : "1 Saint Quartz will be used\nDo you wish to buy Servant?\n※Bought {0} max",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_END": "Servant added to inventory.\n※Added {0} max.",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_ERROR": "[00FFFF]Unable to buy Servant.",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_MAX_FRAME": "[00FFFF]Increase max Servant limit.",
+    "SERVANT_FRAME_PURCHASE_MESSAGE_INFO_NONE": "No info on product purchase",
+    "SERVANT_FRAME_PURCHASE_INFO1" : "＜{0}＞　　　　[00FFFF]＜{1}＞",
+    "SERVANT_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}＞",
+    "SERVANT_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]Not enough Saint Quartz",
     "SERVANT_FRAME_PURCHASE_CANCEL": "Cancel",
-    "SERVANT_FRAME_PURCHASE_DECIDE": "拡張する",
-    "SERVANT_FRAME_PURCHASE_STONE": "聖晶石購入へ",
-    "SERVANT_FRAME_PURCHASE_CLOSE": "閉じる",
+    "SERVANT_FRAME_PURCHASE_DECIDE": "Extend",
+    "SERVANT_FRAME_PURCHASE_STONE": "Buy Saint Quartz",
+    "SERVANT_FRAME_PURCHASE_CLOSE": "Close",
     
     // Servant Equip Frame Purchase
-    "SERVANT_EQUIP_FRAME_PURCHASE_TITLE" : "概念礼装所持枠を増やす",
-    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_START" : "聖晶石を1個使用して\n概念礼装所持枠を拡張しますか？\n※最大{0}枠まで拡張することができます。",
-    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_END": "概念礼装所持枠拡張が完了しました。\n※最大{0}枠まで拡張することができます。",
-    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_ERROR": "[00FFFF]概念礼装所持枠拡張ができませんでした。",
-    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_MAX_FRAME": "[00FFFF]概念礼装所持枠拡張が上限に達しています。",
-    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_INFO_NONE": "購入商品情報がありません。",
-    "SERVANT_EQUIP_FRAME_PURCHASE_INFO1" : "＜{0}枠＞　　　　[00FFFF]＜{1}枠＞",
-    "SERVANT_EQUIP_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}枠＞",
-    "SERVANT_EQUIP_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]聖晶石が足りません。",
+    "SERVANT_EQUIP_FRAME_PURCHASE_TITLE" : "Combine Craft Essence",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_START" : "1 Saint Quartz will be used\nDo you wish to increase craft essence limit?\n※Increased by max of {0}",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_END": "Craft Essence limit increase completed.\n※Increased by max of {0}",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_ERROR": "[00FFFF]Could not increase craft essence limit",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_MAX_FRAME": "[00FFFF]Increase max Craft Essence limit",
+    "SERVANT_EQUIP_FRAME_PURCHASE_MESSAGE_INFO_NONE": "No info on product purchase",
+    "SERVANT_EQUIP_FRAME_PURCHASE_INFO1" : "＜{0}[00FFFF]＜{1}＞",
+    "SERVANT_EQUIP_FRAME_PURCHASE_INFO2" : "[00FFFF]＜{0}＞",
+    "SERVANT_EQUIP_FRAME_PURCHASE_REQUEST_STONE_MESSAGE" : "[FF0000]Not enough Saint Quartz",
     "SERVANT_EQUIP_FRAME_PURCHASE_CANCEL": "Cancel",
-    "SERVANT_EQUIP_FRAME_PURCHASE_DECIDE": "拡張する",
-    "SERVANT_EQUIP_FRAME_PURCHASE_STONE": "聖晶石購入へ",
-    "SERVANT_EQUIP_FRAME_PURCHASE_CLOSE": "閉じる",
+    "SERVANT_EQUIP_FRAME_PURCHASE_DECIDE": "Extend",
+    "SERVANT_EQUIP_FRAME_PURCHASE_STONE": "Buy Saint Quartz",
+    "SERVANT_EQUIP_FRAME_PURCHASE_CLOSE": "Close",
     
     // Servant Sell
-    "SERVANT_SELL_TITLE" : "霊基変還",
-    "SERVANT_SELL_QP_TITLE" : "獲得QP",
-    "SERVANT_SELL_MP_TITLE" : "獲得MP",
+    "SERVANT_SELL_TITLE" : "Burn",
+    "SERVANT_SELL_QP_TITLE" : "Get QP",
+    "SERVANT_SELL_MP_TITLE" : "Get MP",
     "SERVANT_SELL_MESSAGE_START" : "選択したサーヴァントを変還します。\nよろしいですか？",
     "SERVANT_EQUIP_SELL_MESSAGE_START" : "選択した概念礼装を変還します。\nよろしいですか？",
     "SERVANT_SELL_MESSAGE_END": "サーヴァントを変還しました。",
@@ -520,8 +520,8 @@
     "FRIEND_EMPTY_OFFERED_MESSAGE" : "No friend notifications",
     
     // Follower Scene
-    "FOLLOWER_SELECT_EXPLANATION" : "[5CD5FF]NPC・フレンドを選択すると、宝具が使用できます", // Needs Translation
-    "FOLLOWER_SELECT_NP_LOCK" : "[E04020]フレンドでないため宝具は使用できません",
+    "FOLLOWER_SELECT_EXPLANATION" : "[5CD5FF]Select Friend NPC, allows use of Noble Phantasm
+    "FOLLOWER_SELECT_NP_LOCK" : "[E04020]Unable to use Noble Phantasm if not a friend",
     "FOLLOWER_SELECT_TYPE_POINT" : "[FCC13F]+{0}",
     "FOLLOWER_SELECT_TYPE_POINT_UP" : "[0000E6]+{0}",
     
@@ -593,12 +593,12 @@
     "DEBUG_TEST_EXIT_APPLICATION_DITAIL" : "処理を反映するには、アプリケーションの再起動が必要です。アプリケーションを停止しますか？",
     
     // SummonScene
-    "PAY_SUMMON_DETAIL" : "聖晶石{0}個で1回召喚",
+    "PAY_SUMMON_DETAIL" : "Use {0} Saint Quartz for 1 summon",
     "TICKET_SUMMON_DETAIL" : "呼符で召喚",
     "TICKET_NUM" : "呼符所持数：{0}枚",
     
-    "DAILY_SUMMON_DETAIL" : "1日1回無料で召喚",
-    "POINT_SUMMON_DETAIL" : "{0}Pで1回召喚",
+    "DAILY_SUMMON_DETAIL" : "1 daily summon for free",
+    "POINT_SUMMON_DETAIL" : "Use {0}P for 1 summon",
     
     "SHORT_DLG_TITLE" : "CAUTION",
     
