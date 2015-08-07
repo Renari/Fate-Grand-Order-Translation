@@ -17,7 +17,7 @@
 [k]
 
 ＠Announcer
-Welcome to these archives, the tellers of mankind's future。[r]This place is known as Human Logic Continuation Security Engine, Chaldea。
+Welcome to these archives, the tellers of mankind's future。[r]This place is known as the Human Logic Continuation Security Engine, Chaldea。
 [k]
 
 ＠Announcer
@@ -59,7 +59,7 @@ Your score will not be recorded。[r]Please enjoy yourself as you like.
 [se ad1]
 [wait se ad1]
 ＠Announcer
-Booting up Heroic Spirt Summoning System――Fate.[r]In 3 minutes' time, 
+Booting up Heroic Spirit Summoning System――Fate.[r]In 3 minutes' time, 
 you will be able to begin your worthwhile experience as a master.
 [k]
 
