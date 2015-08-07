@@ -186,7 +186,7 @@
 [input name]
 [scene 10310]
 [bgm BGM_EVENT_2 0.1]
-[charaSet A 98001000 0 ＠A：？？？]
+[charaSet A 98001000 0 マシュ]
 [charaSet B 98003000 2 ＠B：？？？]
 [charaSet C 98002000 0 フォウ]
 [charaSet D 98004000 0 レフ]
@@ -216,7 +216,6 @@
 おや、早くも競争意識に目覚めたのかな？[r]他のライバルたちに向けて情報は隠匿するのかい？
 [k]
 
-[charaSet A 98001000 2 マシュ]
 [charaFace A 0]
 [charaFadein A 0]
 ＠マシュ
