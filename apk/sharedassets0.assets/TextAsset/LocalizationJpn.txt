@@ -1001,6 +1001,9 @@
     "BACK_BUTTON_CONFIRM_YES" : "終了",
     "BACK_BUTTON_CONFIRM_NO" : "Cancel",
 
+    // 課金関連エラー
+    "PURCHASE_STONE_APPLE_SERVICE_UNAVAILABLE" : "ストアの決済サーバーとの\n通信が切断されました。\n\n「終了」をタッチすると、購入を一時中断し\nゲームを続けることができます。\n\n「やり直す」をタッチすると、\n通信をリトライします。",
+
     //
     "END" : "END"
 }
