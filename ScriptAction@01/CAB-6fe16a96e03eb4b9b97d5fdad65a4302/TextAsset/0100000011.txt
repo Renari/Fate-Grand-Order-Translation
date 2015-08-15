@@ -7,23 +7,23 @@
 [charaSet C 98002000 1 ＠C：？？？]
 [charaSet D 98004000 1 ＠D：？？？]
 [charaSet E 98005000 1 ＠E：？？？]
-[charaSet F 98006000 1 アナウンス]
+[charaSet F 98006000 1 Announcer]
 [charaFace C 0]
 [charaFadein C 0]
 [wipeFilter circleIn 0.6 1]
 [fadein black 1]
 [wait fade]
 ＠C：？？？
-フォウ……？[r]キュウ……キュウ？
+Phou……？[r]Kyuu……Kyuu~？
 [k]
 
-＠C：？？？
-フォウ！[r]フー、フォーウ！
+＠C：???
+Phou![r]Ph-, Phou!
 [k]
 
-？1：……何かの鳴き声……？
+？1：……Is that some kind of meowing I'm hearing……？
 
-？2：……いま、頬を舐められたような……
+？2：……And it felt like something just licked my cheek, right now……
 
 ？！
 
@@ -46,60 +46,64 @@
 [k]
 
 ＠A：？？？
-………………………あの。[r]朝でも夜でもありませんから、起きてください、先輩。
+………………………Ummm。[r]It's not exactly early in the morning or late at night, so please wake up, Senpai。
 [k]
 
-？1：君は……？
+？1：Who are you……？
 
 [charaFace A 4]
 ＠A：？？？
-いきなり難しい質問なので、返答に困ります。[r]名乗るほどのものではない[line 3]とか？
+That's a rather abrupt and difficult question to ask, so I'm having trouble finding a way to reply。[r]
+Perhaps I should say that I'm not exactly important enough to warrant naming myself,[line 3]I guess？
 [k]
 
 [charaFace A 3]
 ＠A：？？？
-いえ、名前はあるんです。[r]名前はあるのです、ちゃんと。
+No, I have a name.[r]I most certainly have a name。
 [k]
 
 [charaFace A 4]
 ＠A：？？？
-でも、あまり口にする機会がなかったので……[r]印象的な自己紹介ができないというか……
+However, since I don't really get many chances to tell it to anyone……[r]
+I can't exactly give you a worthwhile self-introduction, or something like that……
 [k]
 
-？2：ここは……？
+？2：What is this place……？
 
 [charaFace A 13]
 ＠A：？？？
-はい。それは簡単な質問です。[r]たいへん助かります。
+Of course。That question is rather simple。[r]It really saves me any truble。
 [k]
 
 ＠A：？？？
-ここは正面ゲートから中央管制室に向かう通路です。[r]より大雑把に言うと、カルデア正面ゲート前、です。
+This is the passageway used to get from the front gate to the center control room。[r]
+But if I was to say it in a broader sense, we're in front of the Chaldea's front gate.
 [k]
 
 ？！
 
 [charaFace A 7]
 ＠A：？？？
-……コホン。[r]どうあれ、質問よろしいでしょうか、先輩。
+……Ahem。[r]Whatever the case may be、I wonder if it would be fine to ask you a question、Senpai.
 [k]
 
 ＠A：？？？
-お休みのようでしたが、通路で眠る理由が、ちょっと。[r]硬い床でないと眠れない性質なのですか？
+You seemed to be sleeping, but your reason for sleeping in the hallway seems rather...[r]
+Perhaps you're the kind of person that can't sleep without a hard floor underneath them？
 [k]
 
-？1：自分はここで眠っていたのか？
+？1：I was sleeping here？
 
 [charaFace A 13]
 ＠A：？？？
-はい、すやすやと。[r][#教科書:テキスト]に載せたい程の熟睡でした。
+Yes, and quite peacefully as well。[r]A sleep so sound that it made me want to publish it in a textbook。
 [k]
 
-？2：実はそうなんだ。畳じゃないと、ちょっと
+？2：Well, you're right about that。It's no good if it doesn't feel like a tatami mat.
 
 [charaFace A 13]
 ＠A：？？？
-ジャパニーズカーペットですね。[r]噂には聞いていました。なるほど……なるほど。
+That's Japanese Carpeting you're referring to, right？[r]I've heard of it in a few rumors。I see……I see。
 [k]
 
 ？！
@@ -110,28 +114,28 @@
 [charaFace C 0]
 [charaFadein C 0.1 0]
 ＠C：？？？
-フォウ！[r]キュー、キャーウ！
+Phou！[r]Kyu~、Kyaaau~！
 [k]
 
 [charaFace A 0]
 ＠A：？？？
-……失念していました。[r]あなたの紹介がまだでしたね、フォウさん。
+……I had completely forgotten。[r]You still haven't introduced yourself, right, Phou-san?
 [k]
 
 [charaFace A 13]
 ＠A：？？？
-こちらのリスっぽい方はフォウ。[r]カルデアを自由に散歩する特権生物です。
+This squirrel like creature is called Phou。[r]It is an animal that has the privilege of wandering freely around Chaldea.
 [k]
 
 ＠A：？？？
-わたしはフォウさんにここまで誘導され、[r]お休み中の先輩を発見したんです。
+I was led here by Phou-san、[r]and found you resting here, Senpai。
 [k]
 
 [charaSet C 98002000 0 フォウ]
 [charaFace C 0]
 [charaFadein C 0]
-＠フォウ
-フォウ。[r]ンキュ、フォーウ！
+＠Phou
+Phou。[r]Nkyu、Phoou~！
 [k]
 
 [charaFadeout C 0.1]
@@ -140,22 +144,23 @@
 [charaFace A 0]
 [charaFadein A 0.1 1]
 ＠A：？？？
-……またどこかに行ってしまいました。[r]あのように、特に法則性もなく散歩しています。
+……It went wandering off somewhere else again。[r]It especially takes to wandering off without reason, like that.
 [k]
 
-？1：……見た事のない動物だな……
+？1：……It's not an animal I've ever seen before……
 
-？2：……不思議な生き物だね
+？2：……It's quite the strange creature.
 
 ？！
 
 [charaFace A 13]
 ＠A：？？？
-はい。わたし以外にはあまり近寄らないのですが、[r]先輩は気に入られたようです。
+Yes…it doesn't really approach anyone else as much as it approaches me、[r]
+but it looks as though Phou has taken a liking to you, Senpai。
 [k]
 
 ＠A：？？？
-おめでとうございます。[r]カルデアで二人目の、フォウのお世話係の誕生です。
+Congratulations。[r]Here in Cardea, you have been heralded as the second person in charge of taking care of Phou。
 [k]
 
 [charaFadeout A 0]
@@ -164,29 +169,30 @@
 [charaFace D 0]
 [charaFadein D 0.1 0]
 ＠D：？？？
-ああ、そこにいたのかマシュ。[r]だめだぞ、断りもなしで移動するのはよくないと……
+Ah, so that's where you were, Mashu?[r]You shouldn't be doing that. I told you that moving about without informing anybody isn't goo……
 [k]
 
 [charaFace D 0]
 ＠D：？？？
-おっと、先客がいたんだな。[r]君は……そうか、今日から配属された新人さんだね。
+Sorry, you were speaking with another person。[r]And you are……I see. 
+You're a newcomer that just got assigned today, right?。
 [k]
 
 [charaSet D 98004000 0 レフ]
 [charaFace D 0]
 [charaFadein D 0]
-＠レフ
-私はレフ・ライノール。[r]ここで働かせてもらっている技師の一人だ。
+＠Lef
+I'm Lef Lionel. [r]One of the engineers that has the pleasure of working here。
 [k]
 
-＠レフ
-君の名前は……？
+＠Lef
+And your name is……？
 [k]
 
 [input name]
 [scene 10310]
 [bgm BGM_EVENT_2 0.1]
-[charaSet A 98001000 0 マシュ]
+[charaSet A 98001000 0 ＠A：？？？]
 [charaSet B 98003000 2 ＠B：？？？]
 [charaSet C 98002000 0 フォウ]
 [charaSet D 98004000 0 レフ]
@@ -198,252 +204,253 @@
 [maskin black 1]
 [wait mask]
 [label inputName]
-＠レフ
-ふむ、[%1]君と。[r]招集された48人の適性者、その最後の一人というワケか。
+＠Lef
+I see. [%1]-kun it is, then。[r]So from those 48 suitable candidates that were called to Chaldea, that means that you're that final entrant。
 [k]
 
-＠レフ
-ようこそカルデアへ。歓迎するよ。
+＠Lef
+Welcome to Chaldea。We accept you with open arms。
 [k]
 
-＠レフ
-一般公募のようだけど、訓練期間はどれくらいだい？[r]一年？　半年？　それとも最短の三ヶ月？
+＠Lef
+This whole thing seemed more like a public recruitment、but how long was your practice period？[r]One year？　Half a year？　Or was it as short as three months？
 [k]
 
-？1：……ご想像にお任せします。
+？1：……I'll leave that to your imagination。
 
-＠レフ
-おや、早くも競争意識に目覚めたのかな？[r]他のライバルたちに向けて情報は隠匿するのかい？
+＠Lef
+Oh? Already aware that we’re in the middle of a competition, are we？[r]You’re faced with your rivals and take it upon yourself to conceal information?
 [k]
 
+[charaSet A 98001000 2 マシュ]
 [charaFace A 0]
 [charaFadein A 0]
 ＠マシュ
-レフ教授。[%1]さんの訓練期間は[r]数時間レベルです。単に恥ずかしがっているだけかと。
+Proffesor Lef, [%1]-san’s practice period was only for a few hours。Perhaps it is simply a matter of feeling embarrassed。
 [k]
 
 [charaFace D 0]
-＠レフ
-おや。それは……そうか、数合わせのために緊急で[r]採用した一般枠があったな。
+＠Lef
+Oh, that’s……I see. For the sake of balancing the numbers, it made an urgent call of lowering the prerequisites and accepted an ordinary candidate.
 [k]
 
-？2：いや、訓練はしていません
-
+？2：No, I actually haven’t practiced at all.
 [charaFace D 0]
-＠レフ
-ほう？　という事はまったくの素人なのかい？
+＠Lef
+Huh？ So that means that you’re a complete amateur？
 [k]
 
 [charaFace D 0]
-＠レフ
-ああ……そういえば、[r]数合わせに採用した一般枠があるんだっけ。
+＠Lef
+Ah……come to think of it、[r]I do believe that it is quite possible for it to adopt a system of average prerequisites while balancing the numbers。
 [k]
 
 ？！
 
 [charaFace D 0]
-＠レフ
-君はそのひとりだったのか。[r]申し訳ない。配慮に欠けた質問だった。
+＠Lef
+So you’re that one person? [r]You have my humblest apologies。It’s an inquiry that we lacked putting any consideration in。
 [k]
 
-＠レフ
-けど一般枠だからって悲観しないでほしい。[r]今回のミッションには君たち全員が必要なんだ。
+＠Lef
+However, even though you were chosen as an average candidate, I’d rather you not get disheartened about it。[r]For this mission, we’re going to need the help of each and every one of you。
 [k]
 
-＠レフ
-魔術の名門から38人、才能ある一般人から10人……[r]なんとか48人のマスター候補を集められた。
+＠Lef
+38 people chosen from noble magus families, and 10 ordinary people chosen by their
+talent alone……[r]At any rate, 48 Master Candidates have been assembled here in Chaldea。
 [k]
 
-＠レフ
-これは喜ばしい事だ。この2015年において[#霊子:りょうし]ダイブが[r]可能な適性者すべてをカルデアに集められたのだから。
+＠Lef
+This is a joyous occasion。After all, in this year of 2015, the Ryoushi(Soul-Master) Dive has assembled all possible candidates that are suitable for this task to Chaldea。
 [k]
 
-＠レフ
-わからない事があったら私やマシュに[r]遠慮なく声をかけて……おや？
+＠Lef
+If there’s anything that you don’t understand, please feel free to address someone like Mashu or I with you questions……Oh？
 [k]
 
-＠レフ
-そういえば、[&彼:彼女]と何を話していたんだいマシュ？[r]らしくないじゃないか。以前から面識があったとか？
+＠Lef
+Come to think of it、what were you talking about with [&Him:Her], Mashu？[r]Isn’t that quite unlike you? Have you two met before？
 [k]
 
 [charaFace A 12]
-＠マシュ
-いえ、先輩とは初対面です。[r]この区画で熟睡していらしたので、つい。
+＠Mashu
+No、this is my first meeting with Senpai。[r]Senpai seemed to be sleeping quite sound here, just now。
 [k]
 
 [charaFace D 0]
-＠レフ
-熟睡していた……？[r][%1]君が、ここで？
+＠Lef
+Sleeping soundly……？[r][%1]-kun、you were sleeping here？
 [k]
 
 [charaFace D 1]
-＠レフ
-ああ、さては入館時にシミュレートを受けたね？[r][#霊子:りょうし]ダイブは慣れていないと脳にくる。
+＠Lef
+Ah, and on top of that, you just received your entry-period simulation, right？[r]The Ryoushi dive is known to put some stress on the brain if you’re not familiar with it。
 [k]
 
 [charaFace D 0]
-＠レフ
+＠Lef
 シミュレート後、表層意識が覚醒しないまま[r]ゲートから開放され、ここまで歩いてきたんだろう。
 [k]
 
-＠レフ
+＠Lef
 一種の夢遊状態だ。[%1]君が[r]倒れたところで、ちょうどマシュが声をかけたのさ。
 [k]
 
-＠レフ
+＠Lef
 見たところ異常はないが、万が一という事もある。[r]医務室まで送ってあげたいところなんだが……
 [k]
 
-＠レフ
+＠Lef
 すまないね、もう少し我慢してくれ。じき所長の[r]説明会がはじまる。君も急いで出席しないと。
 [k]
 
 ？1：所長……？
 
-＠レフ
+＠Lef
 所長は所長さ。ここカルデアの責任者にして、[r][#特務作戦:ミッション]の司令官だよ。
 [k]
 
 [charaFace D 0]
-＠レフ
+＠Lef
 君は一般公募で来た新人だけど、[r]もしかしてパンフレットしか見ていない？
 [k]
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 そのようですね。[r]所長のプロフィールは一般公開されていませんから。
 [k]
 
-＠マシュ
+＠Mashu
 先輩と所長に接点はありません。アニムスフィアの名に[r]敬意を表すのは、百年以上の家系の魔術師だけです。
 [k]
 
 [charaFace D 0]
-＠レフ
+＠Lef
 そうだね。ま、所長を知っていようが知らなかろうが[r]マスターとしての仕事に影響はないし、問題ないな。
 [k]
 
-＠レフ
+＠Lef
 だが些細な事で目を付けられるのも良くない。[r]今後、君が平穏な職場を望むなら急ぎたまえ。
 [k]
 
-＠レフ
+＠Lef
 五分後に中央管制室で所長の説明会がある。[r]君たち[#新人:ニューエイジ]への、ちょっとしたパフォーマンスだ。
 [k]
 
 ？2：説明会……？
 
 [charaFace A 13]
-＠マシュ
+＠Mashu
 はい。[%1]さんと同じく、本日付で[r]配属されたマスター適性者の方達へのご挨拶です。
 [k]
 
-＠レフ
+＠Lef
 ようは組織のボスから、浮ついた新人たちへの[r]はじめの[#挨拶:しつけ]ってヤツさ。
 [k]
 
-＠レフ
+＠Lef
 所長は些細なミスも許容できないタイプだからね、[r]ここで遅刻でもしたら一年は睨まれるぞ。
 [k]
 
-＠レフ
+＠Lef
 五分後に中央管制室で説明会がはじまる。[r]この通路をまっすぐ行けばいい。急ぎなさい。
 [k]
 
 ？！
 
 [charaFace A 12]
-＠マシュ
+＠Mashu
 レフ教授。[r]わたしも説明会への参加が許されるでしょうか？
 [k]
 
-＠レフ
+＠Lef
 うん？　まあ、隅っこで立っているぐらいなら[r]大目に見てもらえるだろうけど……なんでだい？
 [k]
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 先輩を管制室まで案内するべきだと思ったのです。[r]途中でまた熟睡される可能性があります。
 [k]
 
 [charaFace D 5]
-＠レフ
+＠Lef
 ……君をひとりにすると所長に叱られるからなあ……[r]結果的に私も同席する、という事か。
 [k]
 
 [charaFace D 0]
-＠レフ
+＠Lef
 まあ、マシュがそうしたいなら好きにしなさい。[r][%1]君もそれでいいかい？
 [k]
 
-＠レフ
+＠Lef
 他に質問がなければ管制室に向かうけど。[r]今のうちに訊いておく事はある？
 [k]
 
 ？1：質問はありません。
 
-＠レフ
+＠Lef
 よし、それじゃあ行こうか。[r]姿勢はピンと正して、でも気持ちは楽にね。
 [k]
 
 ？2：ところで、なんで先輩と呼ぶんですか、この子
 
 [charaFace A 3]
-＠マシュ
+＠Mashu
 ………………。
 [k]
 
-＠レフ
+＠Lef
 ああ、気にしないで。彼女にとって、[r]君ぐらいの年頃の人間はみんな先輩なんだ
 [k]
 
 [charaFace D 0]
-＠レフ
+＠Lef
 でも、はっきりと口にするのは珍しいな。[r]いや、もしかして初めてかな。
 [k]
 
-＠レフ
+＠Lef
 私も不思議になってきたな。ねえマシュ。[r]なんだって[&彼:彼女]が先輩なんだい？
 [k]
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 理由……ですか？　[%1]さんは、[r]今まで出会ってきた人の中でいちばん人間らしいです。
 [k]
 
-＠レフ
+＠Lef
 ふむ。それは、つまり？
 [k]
 
 [charaFace A 1]
-＠マシュ
+＠Mashu
 まったく脅威を感じません。[r]ですので、敵対する理由が皆無です。
 [k]
 
 [charaFace D 1]
-＠レフ
+＠Lef
 なるほど、それは重要だ！[r]カルデアにいる人間は一癖も二癖もあるからね！
 [k]
 
-＠レフ
+＠Lef
 私もマシュの意見には賛成だな。[r][%1]君とはいい関係が築けそうだ！
 [k]
 
 [charaFace A 12]
-＠マシュ
+＠Mashu
 ……レフ教授が気に入るという事は、[r]所長がいちばん嫌うタイプの人間という事ですね。
 [k]
 
-＠マシュ
+＠Mashu
 …………あの。このままトイレにこもって説明会を[r]ボイコットする、というのはどうでしょうか？
 [k]
 
 [charaFace D 0]
-＠レフ
+＠Lef
 それじゃあますます所長に目を付けられる。[r]ここは運を天に任せて出たとこ勝負だ。
 [k]
 
-＠レフ
+＠Lef
 [#虎口:ここう]に飛びこむとしようか[%1]君。[r]なに、慣れてしまえば愛嬌のある人だよ。
 [k]
 
@@ -462,7 +469,7 @@
 [wait fade]
 [charaFace A 0]
 [charaFadein A 0 1]
-＠マシュ
+＠Mashu
 ここが中央管制室です。[r]先輩の番号は……一桁台、最前列ですね。
 [k]
 
@@ -472,17 +479,17 @@
 [wait flash]
 [wt 0.5]
 [charaFace A 12]
-＠マシュ
+＠Mashu
 一番前の列の空いているところにどうぞ。[r]……先輩？　顔の色が優れないようですが？
 [k]
 
-？1：……ごめん、まだ頭がぼうっと……
+？1：……Sorry, my head is still feeling hazy……
 
-？2：……眠い……すごく眠い……
+？2：……Sleepy……I’m so sleepy……
 
 ？！
 
-＠マシュ
+＠Mashu
 シミュレーターの後遺症ですね。[r]すぐに医務室にお連れしたいのですが……
 [k]
 
@@ -498,7 +505,7 @@
 [charaFadein A 0.1 2]
 [charaFace D 0]
 [charaFadein D 0.1 0]
-＠レフ
+＠Lef
 無駄口は避けた方がよさそうだ。[r]これ、もう始まっているようだからね。
 [k]
 
@@ -522,11 +529,11 @@
 [wt 0.5]
 [flashout 0.7]
 [wait flash]
-＠オルガマリー
+＠Olga Marie
 特務機関カルデアにようこそ。[r]所長のオルガマリー・アニムスフィアです。
 [k]
 
-＠オルガマリー
+＠Olga Marie
 あなたたちは各国から選抜、[r]あるいは発見された稀有な[line 3]
 [k]
 
@@ -551,7 +558,7 @@
 [charaFadein A 0 1]
 [fadein white 0]
 [wait fade]
-＠マシュ
+＠Mashu
 ……大丈夫ですか先輩？
 [k]
 
@@ -562,15 +569,15 @@
 ？！
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 はい。眠っていたかどうかで言えば、[r]どことなくレム睡眠だった……ような。
 [k]
 
-＠マシュ
+＠Mashu
 ともあれ、所長の平手打ちで[r]完全に覚醒したようで何よりです。
 [k]
 
-＠マシュ
+＠Mashu
 先輩はファーストミッションから外されたので、[r]いま先輩の部屋に案内していた[line 3]きゃっ!?
 [k]
 
@@ -581,9 +588,9 @@
 フォウ！
 [k]
 
-？1：リスが顔に……！
+？1：A squirrel’s heading for your head……！
 
-？2：危ない……！
+？2：Watch out……！
 
 ？！
 
@@ -594,47 +601,47 @@
 [charaMove C 0 1]
 [wt 0.5]
 [charaFace A 6]
-＠マシュ
+＠Mashu
 い、いえ、いつもの事です、問題ありません。
 [k]
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 フォウさんはわたしの顔に奇襲をかけ、そのまま背中に[r]まわりこみ、最終的に肩へ落ち着きたいらしいのです。
 [k]
 
 ？1：慣れているんだね
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 はい。フォウさんがカルデアに[r]住み着いてから一年ほど経ちますから。
 [k]
 
 ？2：もしかして、名付け親は君？
 
 [charaFace A 6]
-＠マシュ
+＠Mashu
 その通りです。特に理由はありませんが、[r]直感でフォウという単語が浮かんだのです。
 [k]
 
 [charaFace A 7]
-＠マシュ
+＠Mashu
 ですが、それを見抜くとはさすが先輩。[r]先輩もかなりの直感持ちと見ました。
 [k]
 
 ？！
 
-＠フォウ
+＠Phou
 フォウ。[r]クー、フォーウ！　フォーウ！
 [k]
 
 [charaFace A 13]
-＠マシュ
+＠Mashu
 ……ふむふむ。どうやらフォウさんは先輩を[r]同類として迎え入れたようですね……。
 [k]
 
 [charaFace A 12]
-＠マシュ
+＠Mashu
 しかし、人間をライバル視する[r]リスのような生き物はアリなのでしょうか……
 [k]
 
@@ -645,25 +652,25 @@
 ？！
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 まあ、フォウさんのことですから明日には[r]忘れているでしょう。それはそれとして、です。
 [k]
 
-＠マシュ
+＠Mashu
 実はもう目的地に着いています。[r]こちらが先輩用の個室となります。
 [k]
 
 ？1：……そうか。ここまでありがとう。
 
 [charaFace A 1]
-＠マシュ
+＠Mashu
 なんの。先輩の頼みごとなら、[#昼食:ランチ]を[r]おごる程度までなら承りますとも。
 [k]
 
 ？2：マシュは何チームなんだ？
 
 [charaFace A 0]
-＠マシュ
+＠Mashu
 ファーストミッション、Ａチームです。[r]ですのですぐに戻らないと。
 [k]
 
@@ -681,11 +688,11 @@
 [k]
 
 [charaFace A 13]
-＠マシュ
+＠Mashu
 フォウさんが先輩を見てくれるのですね。[r]これなら安心です。
 [k]
 
-＠マシュ
+＠Mashu
 それでは、わたしはこれで。[r]運が良ければまたお会いできると思います。
 [k]
 
@@ -737,30 +744,30 @@
 [charaSet B 98003000 2 Dr.ロマン]
 [charaDepth B 0]
 [charaFadein B 0 1]
-＠Dr.ロマン
+＠Dr. Roman
 ボクは医療部門のトップ、ロマニ・アーキマン。[r]なぜかみんなからDr.ロマンと略されていてね。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 理由は分からないけど言いやすいし、[r]君も遠慮なくロマンと呼んでくれていいとも。
 [k]
 
 [charaFace B 1]
-＠Dr.ロマン
+＠Dr. Roman
 実際、ロマンって響きはいいよね。格好いいし、[r]どことなく甘くていいかげんな感じがするし。
 [k]
 
 ？1：はじめまして、ドクター。
 
 [charaFace B 0]
-＠Dr.ロマン
+＠Dr. Roman
 うん、はじめまして。[r]今後ともよろしく。
 [k]
 
 ？2：……ああ、ゆるふわ系なんだ……
 
 [charaFace B 0]
-＠Dr.ロマン
+＠Dr. Roman
 ふわふわ？　ああ、髪型のコト？[r]時間がなくてね、いつも適当にセットしてるんだ。
 [k]
 
@@ -775,17 +782,17 @@
 [k]
 
 [charaFace B 2]
-＠Dr.ロマン
+＠Dr. Roman
 あれ？　君の肩にいるの、もしかして噂の怪生物？[r]うわあ、はじめて見た！
 [k]
 
 [charaFace B 0]
-＠Dr.ロマン
+＠Dr. Roman
 マシュから聞いてはいたけど、ほんとにいたんだねぇ……[r]どれ、ちょっと手なずけてみるかな。
 [k]
 
 [charaFace B 1]
-＠Dr.ロマン
+＠Dr. Roman
 はい、お手。うまくできたらお菓子をあげるぞ。
 [k]
 
@@ -798,60 +805,60 @@
 [charaFadeout B 0]
 [charaFace B 4]
 [charaFadein B 0.1 1]
-＠Dr.ロマン
+＠Dr. Roman
 あ、あれ。いま、すごく哀れなものを見るような目で[r]無視されたような……。
 [k]
 
 [charaFace B 0]
-＠Dr.ロマン
+＠Dr. Roman
 と、とにかく話は見えてきたよ。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 君は今日来たばかりの新人で、[r]所長のカミナリを受けたってところだろ？
 [k]
 
 [charaFace B 1]
-＠Dr.ロマン
+＠Dr. Roman
 ならボクと同類だ。[r]何を隠そう、ボクも所長に叱られて待機中だったんだ。
 [k]
 
 [charaFace B 0]
-＠Dr.ロマン
+＠Dr. Roman
 もうすぐレイシフト実験が始まるのは知ってるね？[r]スタッフは総出で現場にかり出されている。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 けどボクはみんなの健康管理が仕事だから。[r]正直、やるコトがなかった。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 [#霊子筐体:コフィン]に入った魔術師たちの[r]バイタルチェックは機械の方が確実だしね。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 所長に“ロマニが現場にいると空気が緩むのよ！”って[r]追い出されて、仕方なくここで拗ねていたんだ。
 [k]
 
 [charaFace B 1]
-＠Dr.ロマン
+＠Dr. Roman
 でも、そんな時にキミが来てくれた。[r]地獄に仏、ぼっちにメル友とはこのコトさ。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 所在ない同士、ここでのんびり世間話でも[r]して交友を深めようじゃあないか！
 [k]
 
 ？1：そうですね。そもそもここ[&俺:わたし]の部屋だし。
 
-＠Dr.ロマン
+＠Dr. Roman
 うん。つまりボクは友人の部屋に遊びにきたって事だ！[r]ヤッホゥ、新しい友達ができたぞぅ！
 [k]
 
 ？2：別に[&俺:わたし]、ぼっちじゃないけど。
 
 [charaFace B 2]
-＠Dr.ロマン
+＠Dr. Roman
 な……来たばかりの新人なのにもう友人がいるなんて、[r]なんてコミュ力なんだ……！　あやかりたい！
 [k]
 
@@ -865,7 +872,7 @@
 [charaFace B 0]
 [wipein downToUp 0.4 2]
 [wait wipe]
-＠Dr.ロマン
+＠Dr. Roman
 ……とまあ、以上がこのカルデアの構造だ。[r]標高6000メートルの雪山の中に作られた地下工房で……
 [k]
 
@@ -876,23 +883,23 @@
 [wait flash]
 [flashout 0.7]
 [wait flash]
-＠レフ
+＠Lef
 ロマニ、あと少しでレイシフト開始だ。[r]万が一に備えてこちらに来てくれないか？
 [k]
 
-＠レフ
+＠Lef
 Ａチームの状態は万全だが、Ｂチーム以下、[r]慣れていない者に若干の変調が見られる。
 [k]
 
-＠レフ
+＠Lef
 これは不安からくるものだろうな。[r]コフィンの中はコクピット同然だから。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 やあレフ。それは気の毒だ。[r]ちょっと麻酔をかけに行こうか。
 [k]
 
-＠レフ
+＠Lef
 ああ、急いでくれ。いま医務室だろ？[r]そこからなら二分で到着できる筈だ。
 [k]
 
@@ -905,49 +912,49 @@
 ？！
 
 [charaFace B 4]
-＠Dr.ロマン
+＠Dr. Roman
 ……あわわ……それは言わないでほしい……[r]ここからじゃどうあっても五分はかかるぞ……
 [k]
 
 [charaFace B 0]
-＠Dr.ロマン
+＠Dr. Roman
 ま、少しぐらいの遅刻は許されるよね。[r]Ａチームは問題ないようだし。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 ああ、今の男はレフ・ライノールと言うんだ。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 彼の[#疑似天体:カルデアス]を観るための望遠鏡[line 3][r]近未来観測レンズ・シバを作った魔術師だ。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 シバはカルデアスの観測だけじゃなく、この施設内の[r]ほぼ全域を監視し、写し出すモニターでもある。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 ちなみにレイシフトの中枢を担う召喚・喚起システムを[r]構築したのは前所長。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 その理論を実現させるための[#疑似霊子演算器:ぎじりょうしえんざんき]……ようは[r]スパコンだね、これを提供してくれたのがアトラス院。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 このように実に多くの才能が集結して、[r]このミッションは行われる。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 ボクみたいな平凡な医者が立ち会ってもしょうが[r]ないけど、お呼びとあらば行かないとね。
 [k]
 
 [charaFace B 1]
-＠Dr.ロマン
+＠Dr. Roman
 お喋りに付き合ってくれてありがとう、[r][%1][&君:さん]。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 落ち着いたら医務室を訪ねに来てくれ。[r]今度は美味しいケーキぐらいはご馳走するよ。
 [k]
 
@@ -955,7 +962,7 @@
 [wt 0.4]
 [scene 10000]
 [bgmStop BGM_EVENT_2 0.4]
-＠Dr.ロマン
+＠Dr. Roman
 なんだ？　明かりが消えるなんて、何か[line 3]
 [k]
 
@@ -975,23 +982,23 @@
 [wait flash]
 [seStop ad9 3]
 [charaSet G 8001000 1 アナウンスＡ]
-＠アナウンスＡ
+＠Announcer A
 緊急事態発生。緊急事態発生。[r]中央発電所、及び中央管制室で火災が発生しました。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 中央区画の隔壁は90秒後に閉鎖されます。[r]職員は速やかに第二ゲートから退避してください。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 繰り返します。[r]中央発電所、及び中央[line 3]
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 今のは爆発音か!?[r]一体なにが起こっている……!?
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 モニター、管制室を映してくれ！[r]みんなは無事なのか!?
 [k]
 
@@ -1008,7 +1015,7 @@
 
 ？！
 
-＠Dr.ロマン
+＠Dr. Roman
 これは[line 3]
 [k]
 
@@ -1030,7 +1037,7 @@
 [%1]、すぐに避難してくれ。[r]ボクは管制室に行く。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 もうじき隔壁が閉鎖するからね。[r]その前にキミだけでも外に出るんだ！
 [k]
 
@@ -1064,15 +1071,15 @@
 [charaFadein B 0.1 1]
 [fadein black 0.5]
 [wait fade]
-＠Dr.ロマン
+＠Dr. Roman
 いや、なにしてるんだキミ!?[r]方向が逆だ、第二ゲートは向こうだよ!?
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 まさかボクに付いてくるつもりなのか!?[r]そりゃあ人手があった方が助かるけど……
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 ああもう、言い争ってる時間も惜しい！[r]隔壁が閉鎖する前に戻るんだぞ！
 [k]
 
@@ -1092,39 +1099,39 @@
 [wt 1]
 [charaFace B 4]
 [charaFadein B 0.1 1]
-＠Dr.ロマン
+＠Dr. Roman
 ………………生存者はいない。[r]無事なのはカルデアスだけだ。
 [k]
 
 [charaFace B 5]
-＠Dr.ロマン
+＠Dr. Roman
 ここが爆発の基点だろう。[r]これは事故じゃない。人為的な破壊工作だ。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 動力部の停止を確認。[r]発電量が不足しています。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 予備電源への切り替えに異常　が　あります。[r]職員は　手動で　切り替えてください。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 隔壁閉鎖まで　あと　40秒[r]中央区画に残っている職員は速やかに[line 3]
 [k]
 
 [charaFadeout A 0]
 [charaFace B 5]
 [charaFadein B 0.1 1]
-＠Dr.ロマン
+＠Dr. Roman
 ……ボクは地下の発電所に行く。[r]カルデアの火を止める訳にはいかない。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 キミは急いで来た道を戻るんだ。[r]まだギリギリで間に合う。
 [k]
 
-＠Dr.ロマン
+＠Dr. Roman
 いいな、寄り道はするんじゃないぞ！[r]外に出て、外部からの救助を待つんだ！
 [k]
 
@@ -1134,15 +1141,15 @@
 [k]
 
 [charaSet H 8001000 1 アナウンスＢ]
-＠アナウンスＢ
+＠Announcer B
 システム　レイシフト最終段階に移行します。[r]座標　西暦2004年　1月　30日　日本　冬木
 [k]
 
-＠アナウンスＢ
+＠Announce B
 ラプラスによる転移保護　成立。[r]特異点への因子追加枠　確保。
 [k]
 
-＠アナウンスＢ
+＠Announcer B
 アンサモンプログラム　セット。[r]マスターは最終調整に入ってください。
 [k]
 
@@ -1164,21 +1171,21 @@
 [wt 2]
 [seStop ad60]
 [charaFace A 10]
-＠マシュ
+＠Mashu
 ………………、あ。
 [k]
 
 ？1：……しっかり、いま助ける……！
 
 [charaFace A 9]
-＠マシュ
+＠Mashu
 …………いい、です……助かりません、から。[r]それより、はやく、逃げないと。
 [k]
 
 ？2：……（この傷じゃ、もう……）
 
 [charaFace A 9]
-＠マシュ
+＠Mashu
 …………はい。ご理解がはやくて、たすかります。[r]だから、[%1]さんもはやく、逃げないと。
 [k]
 
@@ -1199,27 +1206,27 @@
 ！？
 [k]
 
-＠マシュ
-あ………
+＠Mashu
+Ah………
 [k]
 
-＠アナウンスＢ
+＠Announcer B
 観測スタッフに警告。[r]カルデアスの状態が変化しました。
 [k]
 
-＠アナウンスＢ
+＠Announcer B
 シバによる近未来観測データを書き換えます。
 [k]
 
-＠アナウンスＢ
+＠Announcer B
 近未来百年までの地球において[r]人類の痕跡は　発見　できません。
 [k]
 
-＠アナウンスＢ
+＠Announcer B
 人類の生存は　確認　できません。[r]人類の未来は　保証　できません。
 [k]
 
-＠マシュ
+＠Mashu
 カルデアスが……真っ赤に、なっちゃいました……[r]いえ、そんな、コト、より[line 3]
 [k]
 
@@ -1229,11 +1236,11 @@
 [charaFadein A 2]
 [wait scene]
 [wt 0.5]
-＠アナウンスＡ
+＠Announcer A
 中央隔壁　封鎖します。[r]館内洗浄開始まで　あと　180秒です
 [k]
 
-＠マシュ
+＠Mashu
 ……隔壁、閉まっちゃい、ました。[r]……もう、外に、は。
 [k]
 
@@ -1243,51 +1250,51 @@
 
 ？！
 
-＠マシュ
+＠Mashu
 ……………。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 コフィン内マスターのバイタル[r]基準値に　達していません。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 レイシフト　定員に　達していません。[r]該当マスターを検索中・・・・発見しました。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 適応番号48　[%1]　を[r]マスターとして　再設定　します。
 [k]
 
-＠アナウンスＡ
+＠Announcer A
 アンサモンプログラム　スタート。[r]霊子変換を開始　します。
 [k]
 
 [messageOff]
 [effect bit_talk_06]
-＠マシュ
-…………あの……………せん、ぱい
+＠Mashu
+......Umm......Sen...pai...?
 [k]
 
-＠マシュ
-手を、握ってもらって、いいですか？
+＠Mashu
+Would it be okay if...I held your hand？
 [k]
 
 [charaFace A 10]
 [wt 1]
-＠アナウンス
-レイシフト開始まで　あと３
+＠Announcer
+3 seconds until the commencement of the Spirit Shift.
 [k]
 
-＠アナウンス
-２
+＠Announcer 
+2.
 [k]
 
-＠アナウンス
-１
+＠Announcer
+1.
 [k]
 
-＠アナウンス
+＠Announcer
 全工程　[#完了:クリア]。[r]ファーストオーダー　実証を　開始　します。
 [k]
 
@@ -1304,3 +1311,4 @@
 [wait fade]
 [soundStopAll]
 [end]
+
