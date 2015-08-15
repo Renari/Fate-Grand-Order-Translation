@@ -160,7 +160,7 @@ but it looks as though Phou has taken a liking to you, Senpai。
 [k]
 
 ＠A：？？？
-Congratulations。[r]Here in Cardea, you have been heralded as the second person in charge of taking care of Phou。
+Congratulations。[r]Here in Chaldea, you have been heralded as the second person in charge of taking care of Phou。
 [k]
 
 [charaFadeout A 0]
