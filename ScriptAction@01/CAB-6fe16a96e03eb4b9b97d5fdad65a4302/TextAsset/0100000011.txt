@@ -72,7 +72,7 @@ I can't exactly give you a worthwhile self-introduction, or something like that�
 
 [charaFace A 13]
 ＠A：？？？
-Of course。That question is rather simple。[r]It really saves me any truble。
+Of course。That question is rather simple。[r]It really saves me any trouble。
 [k]
 
 ＠A：？？？
