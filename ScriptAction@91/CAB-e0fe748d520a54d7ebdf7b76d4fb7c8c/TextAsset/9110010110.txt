@@ -11,55 +11,56 @@
 [charaFadein D 0]
 [fadein black 1]
 [wait fade]
-＠アルトリア
-ここが聖杯戦争の発端となった土地、フユキ……
+＠Arturia
+This place is the grounds upon which the Holy Grail War began. The Land of Fuyuki...
 [k]
 
 [charaFace D 4]
-＠アルトリア
-ひどいものです。[r]この炎は十年や二十年では消えないでしょう。
+＠Arturia
+It’s a rather cruel thing.[r]This blaze probably won’t disappear from this place in 10 or even 20 years。
 [k]
 
-＠アルトリア
-呪いが土地そのものに染みついている。[r]ここはもう人間の住める場所ではありません。
+＠Arturia
+Its curse has been ingrained deep within the soil itself。[r]This is no longer a place where people may live。
 [k]
 
 [charaFadeout D 0.1]
 [communicationChara 98003003 1 5 0 5]
 [wt 0.3]
-＠Dr.ロマン
-そのようだね。[r]似たような街はアメリカにもあるらしいよ。
+＠Dr. Roman
+It seems that way, doesn’t it？[r]There looks to be a town that resembles this very one in America, as well。
 [k]
 
-＠Dr.ロマン
-地上には火災、地下にはガスが充満して、[r]あと五十年は燃え続ける見込みだとか。
+＠Dr. Roman
+A fire ravages the surface and gases permeate the underground. [r]It’s expected to continue burning for five more years, or something along those lines。
 [k]
 
 [communicationCharaFace 0]
-＠Dr.ロマン
-まあ、それは人間の都市開発による事故で、[r]こっちは魔術的な災害だけど。
+＠Dr. Roman
+Well、that instance is one brought about by human hands; an accident that occurred during the city’s development.[r]This instance is a calamity born from magic, however。
 [k]
 
 [communicationCharaClear]
 [wait communicationChara]
 [charaFace D 0]
 [charaFadein D 0.1 1]
-＠アルトリア
-魔術的な災害……[r]貴方はどう思いますか、マスター？
+＠Arturia
+A calamity born from magic……[r]What are your thoughts on the matter, Master？
 [k]
 
-？1：きっと聖杯のせいだ
+？1：This is definitely the fault of the Holy Grail. 
+
 
 [charaFace D 4]
-＠アルトリア
-聖杯が原因、なのですね。……私としては否定したい[r]ところですが、どうしようもない事実なのですね。
+＠Arturia
+So the Holy Grail is the cause of this. ......Part of me wants to refute this claim、but this is a truth that I cannot deny。
 [k]
 
-？2：特異点になったからだ
+？2：This is due to this place becoming a singularity.
 
 [charaFace D 0]
-＠アルトリア
-聖杯が原因ではなく、[r]特異点になった事でこの都市の在り方が変化した？
+＠Arturia
+Then the Holy Grail is not the cause.[r]The fact that this place became a singularity is what changed this city’s situation in such a way？
 [k]
 
 ？！
@@ -69,45 +70,45 @@
 [charaFadein D 0.1 0]
 [charaFace A 0]
 [charaFadein A 0.1 2]
-＠マシュ
-……あの。[r]この街の聖杯を守っていたのは貴女です、セイバー。
+＠Mashu
+……Ummm。[r]The one who protected this city’s Holy Grail was you, Saber。
 [k]
 
-＠マシュ
-正確に言えば貴女の別の側面、ですが。[r]そのあたりの記憶はないのですか？
+＠Mashu
+Or if I were to speak more accurately, a different side of you. However,[r]do you have any recollection of that time？
 [k]
 
 [charaFace D 4]
-＠アルトリア
-……申し訳ありません。
+＠Arturia
+……Please forgive me。
 [k]
 
 [charaFace D 0]
-＠アルトリア
-サーヴァントとして召喚された英霊は、[r]その時点で元のカタチとは独立したもの。
+＠Arturia
+When we Heroic Spirits are summoned as Servants, we are independent from our original forms during that point in time。
 [k]
 
-＠アルトリア
-契約が解除され座に戻ればすべての体験は[r]統合された記録として蓄積されるのですが……
+＠Arturia
+If our contract ends and we are returned to the Throne of Heroes, then all of our personal experiences are accumulated as records to be integrated within the throne. However......
 [k]
 
-＠アルトリア
-今の私はセイバーのクラスの、[r]騎士たちの王として自らを律した頃の私なのです。
+＠Arturia
+My current self is of the Saber class. This me comes from a time where I disciplined myself as the King of Knights.
 [k]
 
-＠アルトリア
-[%1]、マシュ。貴方たちが見た[r]黒い鎧の私は、私とは別人と考えてください。
+＠Arturia
+[%1]、Mashu. Please think of the me that you saw in that black armor as a different person from myself as I am now。
 [k]
 
 [charaFadeout A 0.1]
 [charaFadeout D 0.1]
 [communicationCharaLoop 98003003 1 5 0 0]
-＠Dr.ロマン
-うん。そこが英霊召喚システムの[r]長所でもあり短所でもある。
+＠Dr. Roman
+Yeah. That feature is the Heroic Spirit Summoning System’s strong point as well as its weak point.
 [k]
 
-＠Dr.ロマン
-ひとりの英霊の様々な側面を利用できる反面、[r]同じ英霊で争う事も起こりえるんだ。
+＠Dr. Roman
+It’s able to utilize various sides of a single Heroic Spirit. On the other hand, it’s also possible that you may have to compete against that same Heroic Spirit as well。
 [k]
 
 [communicationCharaClear]
@@ -116,24 +117,23 @@
 [charaFadein D 0.1 0]
 [charaFace A 0]
 [charaFadein A 0.1 2]
-＠アルトリア
-ですがご安心を。黒く堕ちた私が別のクラスでいた以上、[r]この私は何があっても変化する事はありません。
+＠Arutria
+However, please be at ease. Even more so than that me that had fallen into darkness being of a different class, [r]I assure you that no matter what may happen, I will never change。
 [k]
 
-＠アルトリア
-この剣は貴方の目的のために振るいます。[r]間違っても貴方たちに襲いかかる事はありません。
+＠Arturia
+I will wield this sword of mine for the sake of your goal. [r]Even if I’m mistaken in what I said before, I will never turn this sword against any of you。
 [k]
 
-？1：それは頼もしい。
+？1：That’s very promising。
 
-？2：もちろん、信頼している。
+？2：Of course, I’ll put my trust in you。
 
 ？！
 
 [charaFace D 1]
-＠アルトリア
-はい。感謝しますマスター。[r]ではさしあたって、その信頼に応えると致しましょう。
-[k]
+＠Arturia
+Yes, you have my thanks, Master。[r]Now then、let us face the situation at hand and respond to that trust.[k]
 
 [charaFace D 0]
 [wt 0.2]
@@ -142,12 +142,12 @@
 [bgmStop BGM_EVENT_5 0.4]
 [bgm BGM_EVENT_3 0.1]
 [charaFace A 7]
-＠マシュ
-今のうなり声は……！[r]敵性反応です、先輩！
+＠Mashu
+That growl, just now......![r]That was a hostile response, Senpai!
 [k]
 
-＠アルトリア
-いい戦闘経験になりそうですね。[r]マシュ、付いて来なさい。戦い方を教えてあげます！
+＠Arturia
+It looks as though this will become some fine battle experience, doesn’t it? [r]Mashu, come and stick close to me. I’ll teach you the ways of battle!
 [k]
 
 [messageOff]
@@ -156,3 +156,4 @@
 [wait fade]
 [soundStopAll]
 [end]
+
