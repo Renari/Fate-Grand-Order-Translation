@@ -14,11 +14,11 @@
 [fadein black 1]
 [wait fade]
 ＠C：？？？
-Phou……？[r]Kyuu……Kyuu~？
+Four……？[r]Kyuu……Kyuu~？
 [k]
 
 ＠C：???
-Phou![r]Ph-, Phou!
+Four![r]Fo-, Four!
 [k]
 
 ？1：……Is that some kind of meowing I'm hearing……？
@@ -114,28 +114,28 @@ That's Japanese Carpeting you're referring to, right？[r]I've heard of it in a 
 [charaFace C 0]
 [charaFadein C 0.1 0]
 ＠C：？？？
-Phou！[r]Kyu~、Kyaaau~！
+Four！[r]Kyu~、Kyaaau~！
 [k]
 
 [charaFace A 0]
 ＠A：？？？
-……I had completely forgotten。[r]You still haven't introduced yourself, right, Phou-san?
+……I had completely forgotten。[r]You still haven't introduced yourself, right, Four-san?
 [k]
 
 [charaFace A 13]
 ＠A：？？？
-This squirrel like creature is called Phou。[r]It is an animal that has the privilege of wandering freely around Chaldea.
+This squirrel like creature is called Four.[r]It is an animal that has the privilege of wandering freely around Chaldea.
 [k]
 
 ＠A：？？？
-I was led here by Phou-san、[r]and found you resting here, Senpai。
+I was led here by Four-san、[r]and found you resting here, Senpai。
 [k]
 
 [charaSet C 98002000 0 フォウ]
 [charaFace C 0]
 [charaFadein C 0]
 ＠Phou
-Phou。[r]Nkyu、Phoou~！
+Four.[r]Nkyu、Foour~！
 [k]
 
 [charaFadeout C 0.1]
@@ -144,7 +144,7 @@ Phou。[r]Nkyu、Phoou~！
 [charaFace A 0]
 [charaFadein A 0.1 1]
 ＠A：？？？
-……It went wandering off somewhere else again。[r]It especially takes to wandering off without reason, like that.
+……It went wandering off somewhere else again。[r]It especially takes to wandering off without reason like that.
 [k]
 
 ？1：……It's not an animal I've ever seen before……
@@ -156,11 +156,11 @@ Phou。[r]Nkyu、Phoou~！
 [charaFace A 13]
 ＠A：？？？
 Yes…it doesn't really approach anyone else as much as it approaches me、[r]
-but it looks as though Phou has taken a liking to you, Senpai。
+but it looks as though Four has taken a liking to you, Senpai。
 [k]
 
 ＠A：？？？
-Congratulations。[r]Here in Chaldea, you have been heralded as the second person in charge of taking care of Phou。
+Congratulations。[r]Here in Chaldea, you have been heralded as the second person in charge of taking care of Four.
 [k]
 
 [charaFadeout A 0]
