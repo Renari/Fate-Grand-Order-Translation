@@ -34,7 +34,7 @@ I'm honored to meet you. [r]You are the last visitor for today.
 [k]
 
 ＠Announcer
-By all means, pass your time to your liking.[k]
+By all means, make yourself at home.[k]
 
 [fadeout black 1]
 [wait fade]
