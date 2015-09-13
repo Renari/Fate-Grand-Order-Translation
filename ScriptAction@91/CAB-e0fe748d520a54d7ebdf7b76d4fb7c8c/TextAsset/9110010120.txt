@@ -25,12 +25,12 @@ As I expected, you have a well-toned body。[r]Mashu will become a fine warrior�
 
 [charaFace A 8]
 ＠Mashu
-……Sorry。[r]Fighting is as frightening as I expected
+……Sorry。[r]Fighting is as frightening as I expected it to be.
 [k]
 
 [charaFace A 0]
 ＠Mashu
-You weren’t scared, Saber-san？[r]Even you’re a girl and around the same age as me?[line 3]
+You weren’t scared, Saber-san？[r]Even though you’re a girl and about the same age as me?[line 3]
 [k]
 
 [charaFadeout A 0]
