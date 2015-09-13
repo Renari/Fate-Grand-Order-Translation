@@ -14,52 +14,52 @@
 [charaFadein D 0]
 [fadein black 1]
 [wait fade]
-＠アルトリア
-やはり筋がいい。[r]マシュはいい戦士になりますよ、[%1]。
+＠Arturia
+As I expected, you have a well-toned body。[r]Mashu will become a fine warrior、[%1]。
 [k]
 
 [charaFace D 0]
-＠アルトリア
-……まあ。[r]少し臆病なところは、今後の課題というところですが。
+＠Arturia
+……Well。[r]That slightly timid side of you is a problem that we’ll have to work on from now on, however。
 [k]
 
 [charaFace A 8]
-＠マシュ
-……すみません。[r]戦いはやっぱり怖くて。
+＠Mashu
+……Sorry。[r]Fighting is as frightening as I expected
 [k]
 
 [charaFace A 0]
-＠マシュ
-セイバーさんは怖くないんですか？[r]私と同じぐらいの歳で、女の子なのに[line 3]
+＠Mashu
+You weren’t scared, Saber-san？[r]Even you’re a girl and around the same age as me?[line 3]
 [k]
 
 [charaFadeout A 0]
 [charaFadeout D 0]
 [communicationCharaLoop 98003003 1 5 0 0]
-＠Dr.ロマン
-うん、ボクもそこは興味あるな。
+＠Dr. Roman
+Yeah、I’m interested in that as well。
 [k]
 
-＠Dr.ロマン
-伝説のアーサー王が女の子だった[line 3]なんて事も[r]驚いたけど、本当に驚いたのはその強さだ。
+＠Dr. Roman
+Learning that the King Arthur of legend was actually a young girl surprised me as well、but what really surprised me was that strength of yours。
 [k]
 
 [communicationCharaFace 3]
-＠Dr.ロマン
-セイバー……アルトリアの霊基の質は[r]英霊の中でもトップクラスだと思う。
+＠Dr. Roman
+I believe that the quality of Saber’s......that the quality of Arturia’s spiritual origins are top-class even among Heroic Spirits。
 [k]
 
 [communicationCharaFace 0]
-＠Dr.ロマン
-アルトリア。いや、アーサー王。[r]君はどうしてそこまで迷いがないんだい？
+＠Dr. Roman
+Arturia......No, King Arthur.[r]How did you go to such lengths without hesitating?
 [k]
 
-＠Dr.ロマン
-男装をしてまで王の座について、[r]荒れ果てたブリテンを統一し、他民族を追い返した。
+＠Dr. Roman
+Going as far as to disguise yourself as a man to take up the king’s throne、[r]uniting Britain in the midst of its ruin、and driving away the foreign warriors that invaded your land。
 [k]
 
-＠Dr.ロマン
-そこまでの決断をした理由と、君をその位置まで[r]押し上げた経緯はどんなものなんだろうね。
+＠Dr. Roman
+Your reasons for showing such determination. The circumstances that forced you to take up your position. I can’t help but to wonder about these things.
 [k]
 
 [communicationCharaClear]
@@ -68,77 +68,73 @@
 [charaFadein D 0.1 0]
 [charaFace A 0]
 [charaFadein A 0.1 2]
-＠アルトリア
-……理由と経緯、ですか。[r]そうですね。理由はともかく、経緯は説明できますよ。
+＠Arturia
+……My reasons and the circumstances behind them?[r]I see。Reasons aside, I can certainly explain the circumstances.[k]
+
+[charaFace D 0]
+＠Arturia
+I was a child born to...no. I was a child that was manufactured for the sake of putting a foolish, preceding ruler to death. [k]
+
+＠Arturia
+It seems to be a magic known as『Concept Conception.』
+[k]
+
+＠Arturia
+My mother conceived the concept of “The Red Dragon that will safeguard Britain.”, and gave birth to me as a result
 [k]
 
 [charaFace D 0]
-＠アルトリア
-私は暗君だった先王を誅するために生まれた……[r]いえ、作られた子供でした。
+＠Arturia
+The high quality of my spiritual origins is probably thanks to that。[r]Thereafter, I drew the sword that would determine who would become king.
 [k]
 
-＠アルトリア
-概念受胎、という魔術だそうです。
-[k]
+＠Arturia
+I was chosen by the sword...and I was assisted by Merlin...a troubling magus that also served as my inheritor.[k]
 
-＠アルトリア
-母はブリテンを守護する赤い竜の概念を孕み、[r]私を産み落とした。
-[k]
-
-[charaFace D 0]
-＠アルトリア
-私の霊基の質が高いのはそのおかげでしょう。[r]その後、私は王を選定する剣を抜きました。
-[k]
-
-＠アルトリア
-剣に選ばれ、マーリン……私の後継人かつ、[r]こまった魔術師です……に助けられ、
-[k]
-
-＠アルトリア
-湖の妖精からこの聖剣を授かり、[r]ブリテンを治める事になった。
+＠Arturia
+I received this holy sword from the Lady of the Lake and had begun governing Britain.
 [k]
 
 [charaFace D 1]
-＠アルトリア
-私の過去はそれだけの話です。[r]伝説の通りですね。
+＠Arturia
+That is all that there is to the story of my past。[r]It’s just like the legends say.
 [k]
 
-＠アルトリア
-少し皆さんの認識と違うのは性別でしょうか。
+＠Arturia
+The small detail that is different from your perceptions has to do with the fact I’m a different gender from the King Arthur of legend, right?
 [k]
 
-＠アルトリア
-ほら。国を治める、という点において、[r]男性の方が何かと便利でしたから。
-[k]
+＠Arturia
+I mean, when it comes to governing a country, it is somewhat more convenient to rule it as a man, after all.[k]
 
-？1：辛くはなかったんですか？
+？1：Wasn’t it difficult？
 
-？2：……後悔はしていますか？
+？2：……Do you have any regrets？
 
 ？！
 
 [charaFace D 0]
-＠アルトリア
-もちろん。辛かったし、多くの失敗もしました。[r]楽だけの人生がないのと同じです。
+＠Arturia
+Of course. It was quite difficult, and I had made many mistakes。[r]My life was not one that was composed simply of comfort.
 [k]
 
 [charaFace D 1]
-＠アルトリア
-でも、私の人生はそれで良かったのです。
+＠Arturia
+However, I was happy with life that I led.
 [k]
 
 [charaFace D 1]
-＠アルトリア
-色々と道を間違えましたが、[r]最後の最後でやっとわかった。
+＠Arturia
+I had walked many a mistaken road along the way、[r]but I had finally realized that fact at the very end。
 [k]
 
 [charaFace D 1]
-＠アルトリア
-私は多くの物を傷つけ、取りこぼしたけれど。[r]一番[#尊:とおと]いと思ったものは、最後まで守り通したのだと。
+＠Aruturia
+I had damaged many things and suffered unexpected defeat during my lifetime. [r]But the thing which I thought was the most noble was the fact that I protected Britain until the very end.
 [k]
 
 [charaFace A 12]
-＠マシュ
+＠Mashu
 ……………。
 [k]
 
@@ -147,13 +143,13 @@
 [bgmStop BGM_EVENT_5 0.4]
 [bgm BGM_EVENT_3 0.1]
 [charaFace D 0]
-＠アルトリア
-やれやれ。[r]長話ができる場所ではありませんでしたね。
+＠Arturia
+Honestly...this isn’t a place where I can indulge in telling such long stories, right?
 [k]
 
 [charaFace D 0]
-＠アルトリア
-マスター、指示を。[r]この土地に染みついた呪い、その一端を払いましょう！
+＠Arturia
+Master, give me your orders. [r]Let’s drive away the curse that ingrains itself in this land once and for all!
 [k]
 
 [messageOff]
@@ -162,3 +158,4 @@
 [wait fade]
 [soundStopAll]
 [end]
+
