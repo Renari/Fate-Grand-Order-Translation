@@ -4,18 +4,18 @@
 [fadein clear 2]
 [wait fade]
 [wait time 0.5]
-[charaSet A 8001000 0 ネロ]
-[charaSet B 1013000 2 ロビンフッド]
+[charaSet A 8001000 0 Nero]
+[charaSet B 1013000 2 Robin Hood]
 [charaFadein A 2]
 [charaFadein B 2]
 [charaDepth A 0]
 [charaDepth B 0]
 [wait time 2.5]
-＠1：ネロ
-初めてのバトルはいかがでしたか？[k]
+＠1：Nero
+How was your first battle？[k]
 
-＠2：ロビンフッド
-まだ慣れないかもしれませんが、[r]今後の真の戦いに備えないといけません！[k]
+＠2：Robin Hood
+You might not be used to fighting[r]今後の真の戦いに備えないといけません！[k]
 
 ＠？？？
 英霊召喚システム　フェイト　一時停止します。[r]マスターとして最後まで頑張りましょう。[k]

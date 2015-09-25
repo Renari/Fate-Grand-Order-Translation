@@ -13,8 +13,8 @@
 [fadeout black 2]
 [wait fade]
 [scene 10200]
-[charaSet A 8001000 0 ネロ]
-[charaSet B 1013000 2 緑茶]
+[charaSet A 8001000 0 Nero]
+[charaSet B 1013000 2 Green Tea]
 [charaFace A 2]
 [fadein black 2]
 [wait fade]
@@ -24,30 +24,30 @@
 [charaDepth B 0]
 [wait time 2.5]
 ＠1：ネロ
-[fontSize x-large]ようこそ！[fontSize medium][k]
+[fontSize x-large]Welcome！[fontSize medium][k]
 
 [charaFace A 4]
-＠1：ネロ
-人類の[FF0000]未来を語る[-]資料館へ。[r]ここは[#人理継続保障機関:じんりけいぞくほしょうきかん]　カルデアα。[k]
+＠1：Nero
+Let's go to the museum to talk about the future of humanity。[r]Here[#人理継続保障機関:じんりけいぞくほしょうきかん]　カルデアα。[k]
 
 [charaFace B 1]
-＠2：[#緑茶:ロビンフッド]
-貴方は本日　最後の来館者です。[r]最終確認を行います。[k]
+＠2：[#Green Tea: Robin Hood]
+You are the last customer。[r]We will make the final checks。[k]
 
 [charaFace B 3]
-＠2：緑茶
-飲み物は何が好きですか？[k]
+＠2：Green Tea
+What would you like to drink？[k]
 
 [wait time 0.5]
-？1：烏龍茶[image heart]
+？1：Oolong Tea[image heart]
 
 [wait time 0.5]
 [charaFace A 2]
-＠1：ネロ
-それはどういうお茶だ？[r]
-紅茶とは違うようだが…[k]
+＠1：Nero
+What kind of tea is that？[r]
+It's a bit different from black tea…[k]
 
-？2：紅茶だろう！！
+？2：The type of tea is！！
 
 [wait time 0.5]
 [charaFace A 1]
