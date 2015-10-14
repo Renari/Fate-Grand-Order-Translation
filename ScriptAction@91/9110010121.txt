@@ -14,74 +14,76 @@
 [charaFadein D 0 0]
 [fadein black 1]
 [wait fade]
-＠Arturia
-I told you that I wanted to see Fuyuki, and you indulged me of my selfish request.[r] You all have my thanks.
+＠アルトリア
+フユキを見たい、という我が儘を聞いていただき、[r]ありがとうございました。
 [k]
 
 [charaFace D 0]
-＠Arturia
-Let’s return to Chaldea, Master。[r]I expect that there are other things that we should be doing at this time。
+＠アルトリア
+カルデアに戻りましょう、マスター。[r]今は他にやるべき事があるはずです。
 [k]
 
-？1：Yeah, you have a point。
+？1：そうだね。
 
 [charaFace A 6]
-＠Mashu
-Please wait。[r]You haven’t finished your story from before。
+＠マシュ
+待ってください。[r]先ほどの話が終わっていません。
 [k]
 
-？2：……Before we do that, there’s one more thing I have to ask。
+？2：……その前に、もう一つだけ。
 
 [charaFace D 0]
-＠Arturia
-One more thing……？
+＠アルトリア
+もう一つ……？
 [k]
 
 ？！
 
 [charaFace D 0]
-＠Arturia
-Ah, that’s right。 I told you details behind me becoming king、[r]but I still haven’t told you about my reason for becoming king。
+＠アルトリア
+ああ、そうですね。経緯は話しましたが、[r]王になった理由はまだでした。
 [k]
 
 [charaFace D 4]
-＠Arturia
-My reason for taking up the throne and rushing into battle, despite the fact the fact that I possess the body of a young girl。[r]……For what purpose did I fight for?
+＠アルトリア
+少女の身で王を志し、戦場を駆け抜けた理由。[r]……私は、何のために戦ったのか。
 [k]
 
 [charaFace D 0]
-＠Arturia
-However, that is an easy answer to an easy question。[r]I certainly fought for the same reasons that you fight for now、Master [%1]。
+＠アルトリア
+でも、それは簡単で単純なものですよ。[r]きっと貴方と同じものです、[%1]殿。
 [k]
 
-＠Arturia
-I didn’t fight for the sake of my ideals。[r]I fought for the sake of the future。
+＠アルトリア
+わたしは理想のために戦ったのではありません。[r]わたしは未来のために戦った。
 [k]
 
-＠Arturia
-It’s something that anyone would naturally wish for。[r]For the sake of protecting that future, I outstretched this hand of mine and took up my blade。
+＠アルトリア
+誰もが願う、当たり前に欲しいと願うもの。[r]それを守るために剣に手を伸ばした。
 [k]
 
-＠Arturia
-I cannot judge whether or not I skillfully accomplished this task. [r]But I sacrificed as I much as I could of myself for the sake of that dream.[k]
+＠アルトリア
+うまくいったかどうか、私では判断ができませんが。[r]私は私のできる範囲で、その夢に殉じたのです。
+[k]
 
 [charaFace A 12]
-＠Mashu
-……You’re saying that King Arthur had no regrets in her final moments？
+＠マシュ
+……アーサー王との最期に、悔いはないと？
 [k]
 
 [charaFace D 1]
-＠Arturia
-I do feel remorse, but I have no regrets.
+＠アルトリア
+無念はありますが、後悔はありません。
 [k]
 
-＠Arturia
-The battle that I fought wasn’t the correct solution to save everything,[line 3][r]but it wasn’t incorrect, either. I’m already aware of this, after all.
+＠アルトリア
+私の戦いはすべてを救う正解ではなかったけれど[line 3][r]間違いではなかった事も、もう知っていますから。
 [k]
 
 [charaFace D 0]
-＠Arturia
-And from this point on, we have your battle to fight, Master。[r]I swear on this holy sword of mine that I will aid you in whatever way I can.[k]
+＠アルトリア
+ここからは貴方の戦いです、マスター。[r]私もこの聖剣にかけて、貴方の助けとなりましょう。
+[k]
 
 [messageOff]
 [fadeout black 0.5]
@@ -89,4 +91,3 @@ And from this point on, we have your battle to fight, Master。[r]I swear on thi
 [wait fade]
 [soundStopAll]
 [end]
-
