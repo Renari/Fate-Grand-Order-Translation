@@ -1,0 +1,228 @@
+＄94-00-04-04-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20702]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 2009201 1 オリオン]
+[charaSet C 1013002 1 カエサル]
+[charaSet D 7010002 1 カリギュラ]
+[charaSet E 1018001 1 ？？？]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[fadein black 1]
+[wait fade]
+＠カリギュラ
+ぐおぉおおおお、……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 5]
+＠カエサル
+ぬう、やはりセイバーでは限度がある……ッ！[r]もっとこう、楽に勝てるクラスがいいな私は！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+戦闘終了。こちらの勝利です、マスター。
+[k]
+
+＠マシュ
+では遠慮なくお団子を回収しますね。[r]これでやっとカルデアに帰れ[line 3]
+[k]
+
+[wt 0.3]
+[charaFace A 12]
+＠マシュ
+あれ……重い……重い、です……！[r]前はわたしだけでも持ち上げられた、のに……！
+[k]
+
+＠？？？
+……もぐもぐ……もぐもぐ……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠オリオン
+待ってマシュちゃん、[r]袋の中に何か入っているわ！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠カリギュラ
+なんだ……と？[r]待て……中身を確かめて……やる……
+[k]
+
+＠カリギュラ
+勝者には栄光が与え……られる……ものだ……[r]それを阻むものは……よくない……
+[k]
+
+[bgmStop BGM_EVENT_2]
+＠？？？
+それには及ばない。[r]これは私のものだ。
+[k]
+
+＠カリギュラ
+ぬっ……！？
+[k]
+
+[messageOff]
+[se bac5]
+[wait se bac5]
+[capture]
+[specialEffect cutting]
+[charaFadeout D 0]
+[se ba5]
+[wait se ba5]
+[charaSet E 1018001 1 アルテラ]
+[wait specialEffect]
+[charaFadein E 0.1 1]
+[bgm BGM_EVENT_3]
+＠アルテラ
+しまった。勢いあまって袋ごと斬ってしまったか。[r]許せ。命は壊さない。（もぐもぐ）
+[k]
+
+？1：なんか凄いのが出てきたーーー！？
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+あれは……えっと……誰でしょう？[r]トップランクのサーヴァントなのは確かですが……
+[k]
+
+[charaFadeout A 0.1]
+？2：唐突に善人になるから……
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠カエサル
+であるな。カリギュラめ、[r]やはり布越しに殺される運命であったか……
+[k]
+
+[charaFadeout C 0.1]
+？！
+
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠オリオン
+うそ、アルテラ……！？[r]なんで彼女がこんなところに……！？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠アルテラ
+何をいまさら驚く、女。[r]どこだろうと、文明あるところ私は現れる。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠カエサル
+アルテラだと？　ではあれが西方世界の大王、[r]破壊の化身と謳われたフンヌの戦士か……！
+[k]
+
+＠カエサル
+だがどうやってここまで！？[r]そしていつの間に荷物に入っていたのだ！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠アルテラ
+うん。基本、徒歩で来た。[r]レイシフトとか、文明だから使わないぞ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠カエサル
+またも徒歩でか！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠オリオン
+……マシュちゃん、[%1]。[r]淡々としているけど、あの女を甘くみてはダメよ。
+[k]
+
+＠オリオン
+あいつは私たちだけじゃなく、あなたたち[r]人間にとっても天敵みたいなヤツだから。
+[k]
+
+＠オリオン
+目に付いた建物は壊す。遠くにある建物も壊す。[r]自然には手を出さないけど結果的に壊す。
+[k]
+
+＠オリオン
+そんな、歩くだけでまわりがどんどん壊れていく[r]はた迷惑なヤツなんだから。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 5]
+＠アルテラ
+それは誤解だ。[r]私にも分別はあるぞ。
+[k]
+
+＠アルテラ
+あくまで[#感覚:フィーリング]の話だが、[r]文明にも種類があることに私は気づいた。
+[k]
+
+＠アルテラ
+もぐ、うむ。[r]つまり、いい文明とわるい文明だ。
+[k]
+
+＠アルテラ
+お団子はいい文明。[r]だが月見はわるい文明だ。
+[k]
+
+[charaFace E 2]
+＠アルテラ
+よってこの荷物は私が預かる。も。[r]月見をするおまえたちは壊す。ぐ。
+[k]
+
+＠アルテラ
+邪魔をするのなら容赦はしない。
+[k]
+
+＠アルテラ
+この、たまたま泥の中で拾った軍神の剣が[r]おまえたちを粉砕する。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein B 0.1 1]
+[charaFace B 5]
+＠オリオン
+なーにがたまたま、よ！[r]アナタが使えばなんでもそうなるクセに！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠カエサル
+ぬう、これはたまらん、手を貸すぞ諸君！[r]この地をローマの二の舞にはさせられん！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 5]
+＠マシュ
+マスター！　謎の敵サーヴァント、来ます！[r]全力で迎撃してください……っ！
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

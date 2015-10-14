@@ -1,0 +1,181 @@
+＄94-00-04-02-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 2009201 1 オリオン]
+[charaSet C 4017002 1 マリー]
+[charaSet D 1026002 1 デオン]
+[charaSet E 6012001 1 サンソン]
+[charaSet F 5015002 1 アマデウス]
+[charaFace F 0]
+[charaFadein F 0 1]
+[fadein black 1]
+[wait fade]
+[se ad39]
+[wait se ad39]
+[wt 0.6]
+[charaSet F 5015000 1 アマデウス]
+[charaFadein F 0.4 1]
+＠アマデウス
+とまあ、星１サーヴァントの僕が[r]勝てるはずがないんだけどね。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+[se bac8]
+[wt 0.4]
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠デオン
+おまえは本当に最低だな！[r]私たちの足を引っ張っただけじゃないか！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+見ましたか先輩……アマデウスさん、仮面が外れる[r]瞬間にサンソンさんの後頭部を叩いて、
+[k]
+
+＠マシュ
+一瞬でサンソンさんを気絶させました……あれが[r]長年の腐れ縁が生み出すツッコミ、なのでしょうか……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠マリー
+そこは気にしないでいいわマシュ。[r]サンソンが起きていると話が長くなってしまうから。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+マリーさん、思い出してくれたのですか？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠マリー
+はい。戦っているうちに、なんとなく。[r]積もる話はあるけれど、まずは、はい。
+[k]
+
+＠マリー
+この素敵なお菓子をお返しします。[r]少しだけいただいてしまったけれど、ごめんなさいね。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠デオン
+（少しだけ……少しだけ？[r]　い、いや、王妃がそう言うのなら、うん……）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+いえ、返却していただければそれでいいのです。[r]このお団子は皆さんにも平等に分ける予定で……
+[k]
+
+[charaFace A 14]
+＠マシュ
+おや？　あの……これだけですか？[r]先ほどの会話では三トンはある、と……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠マリー
+それは一番はじめの話なの。[r]私は確かに大きな荷物を馬車に詰め込んだけど……
+[k]
+
+＠マリー
+すぐに通りすがりの三人組に道を尋ねられて、[r]お近づきの印に大部分、譲ってしまったのよ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+なっ……！[r]三トン近いお団子をですか！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠マリー
+ええ。だって冷静に考えたら、どんなに美味しくても[r]三トンは食べられないでしょう？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠デオン
+うん。それはそうだ。[r]出来れば、もっと早くに冷静になってほしかったけど。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+ぐうの音もでない正論です、マリーさん……[r]では、その三人組はどこへ？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠マリー
+マルセイユの[#水辺:みずべ]で祈りを捧げる、と言っていたわ。[r]今から急げば間に合うのではないかしら。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+先輩……！
+[k]
+
+？1：ああ、急ごうマシュ！
+
+？2：ああ、もっと稼ぐぞマシュ！
+
+？！
+
+＠マシュ
+マリーさん、[r]積もる話はありますが今は火急の時ですので……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠マリー
+ええ、分かっている。[r][%1]さんもお気を付けて。
+[k]
+
+＠マリー
+あなたたちの旅に幸運があらんコトを！[r]ヴィヴ・ラ・フランス♪　あーんど、ちぃーす！
+[k]
+
+[messageOff]
+[charaEffect C bit_talk_28]
+[se ad30]
+[wt 1.2]
+[charaFadeout C 0.1]
+[wt 0.3]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠デオン
+王妃！？（なにそれ！？　と振り返る）
+[k]
+
+[charaFadeout D 0.1]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

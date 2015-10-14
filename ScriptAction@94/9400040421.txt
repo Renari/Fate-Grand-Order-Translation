@@ -1,0 +1,310 @@
+＄94-00-04-04-2-1
+
+[soundStopAll]
+[bgm BGM_EVENT_6 0.1]
+[fadeout white 0.5]
+[fadein white 0.5]
+[scene 20702]
+[wait fade]
+[fadein white 0.5]
+[wait fade]
+[fadeout white 0.5]
+[wait fade]
+[fadeout white 0.5]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 2009201 1 オリオン]
+[charaSet C 1013002 1 カエサル]
+[charaSet D 7010002 1 カリギュラ]
+[charaSet E 1018001 1 アルテラ]
+[charaSet F 98003000 1 Dr.ロマン]
+[charaFace E 4]
+[charaFadein E 0.4 1]
+[fadein white 0.5]
+[wait fade]
+＠アルテラ
+……うまくいかなかったな。[r]いや、お団子はうまかったが。
+[k]
+
+＠アルテラ
+ああ[line 3]この夢は[line 3][r]私の宝具は、いつになったら本来の力を[line 3]
+[k]
+
+[charaSpecialEffect E flashErasure 1 1]
+[se ba5]
+[wait se ba5]
+[wait charaSpecialEffect E flashErasure]
+[wait time 1]
+[wt 0.3]
+[charaFadein A 0.1 1]
+＠マシュ
+良かった……敵サーヴァント、消失を確認しました。[r]これでやっと[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[se ad13]
+[communicationChara 98003003 1 5 0 0]
+＠Dr.ロマン
+ああ、やっと繋がった！[r]もしもし、もしもーし！
+[k]
+
+＠Dr.ロマン
+二人とも無事かい！？[r]いま、すごい魔力の渦が計測されたけど！
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+ドクター、通信が回復したんですね。[r][line 3]と、これはレイシフトが起動して……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.2]
+[communicationChara 98003003 1 5 0 0]
+[effect bit_talk_06]
+＠Dr.ロマン
+ああ、キミたちの近くに食料資源があるのも確認した[r]からね、すぐにレイシフトをスタートさせたんだ。
+[k]
+
+＠Dr.ロマン
+別にやり残しはないだろう？[r]早くカルデアに戻ってくるといい。
+[k]
+
+＠Dr.ロマン
+お月見の用意をして待ってるよ。
+[k]
+
+[communicationCharaClear]
+[wait communicationChara]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+それは……はい。[r]確かに目的は達成したのですが……
+[k]
+
+？1：あれ、オリオンは？
+
+？！
+
+＠マシュ
+そうなんです。いつの間にか姿がなくて。[r]今まで手伝ってくれたお礼を言いたかったのですが……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 3]
+＠カエサル
+フン。私はまだここにいるのだが。[r]何か別れの挨拶などはないのかな？
+[k]
+
+？1：アルテラ戦ではまったく役に立たなかったですね。
+
+＠カエサル
+仕方あるまい、クラス相性というヤツだ。[r]あの女アーチャーには及ばないさ。
+[k]
+
+？2：一緒にカルデアでお月見をします？
+
+[charaFace C 0]
+＠カエサル
+よい。その言葉だけで十分だ。[r]名も知れぬマスターよ。縁があればまた出会おうさ。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+でも、助力していただきありがとうございました。
+[k]
+
+＠マシュ
+カエサルさんが味方についてくれた[r]だけでも大きかったです。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠カエサル
+うむ。敵がひとり減ったワケだからな。[r]そなたは[#戦:いくさ]というものをよく分かっている。
+[k]
+
+[charaFace C 2]
+＠カエサル
+その気持ちに応え、[r]最後に忠告しておこう。
+[k]
+
+＠カエサル
+こと食事において、はじめの持ち主と[r]最終的な持ち主は別の話なのだ。
+[k]
+
+[charaFace C 5]
+＠カエサル
+そも、この団子は真実、誰の持ち物なのか？
+[k]
+
+＠カエサル
+それは用意したものか？　否。[r]では調理したものか？　さらに否。
+[k]
+
+＠カエサル
+では誰か？　語るまでもない。[r]それは最後に口にする者のモノなのだ。
+[k]
+
+＠カエサル
+そなたは団子の所有権を主張したが、[r][#その者]にしてみればそれこそ笑い話だったに違いない。
+[k]
+
+[charaFace C 2]
+＠カエサル
+いいな？　そのあたりに気づかなければ、[r]真相は永久に闇の中だぞ？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 15]
+＠マシュ
+カエサルさん、それはどういう……！？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠カエサル
+ははははは！[r]食い意地を張っていればいずれ分かろう！
+[k]
+
+＠カエサル
+さらば、さらば！[r]白き団子の如き、胸あたりがもちっとしたお嬢さんよ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+っ、お礼は撤回です！[r]ローマはわるい文明だと思いますっ！
+[k]
+
+[effectStop]
+[charaFadeout A 0.1]
+[messageOff]
+[bgmStop BGM_EVENT_6 0.7]
+[wait effect bit_talk_06]
+[effect bit_talk_07]
+[se ad12]
+[wt 4]
+[fadeout white 1]
+[wait fade]
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 10200]
+[charaSet A 98001000 1 マシュ]
+[charaSet C 98003000 1 Dr.ロマン]
+[charaSet D 5009001 1 ダ・ヴィンチちゃん]
+[charaFadein C 0.1 1]
+[fadein white 1]
+[charaFace C 1]
+＠Dr.ロマン
+いやあ、一時はどうなることかと冷や汗をかいたけど、[r]二人が無事で良かった良かった。
+[k]
+
+[charaFace C 0]
+＠Dr.ロマン
+キミたちが回収してくれたお団子は絶賛配膳中だ。[r]あと少ししたらお月見パーティーが始まるよ。
+[k]
+
+＠Dr.ロマン
+それまで少し休んでくるといい。
+[k]
+
+＠Dr.ロマン
+いったい向こうで何があったのか知りたいけど、[r]それは後のお楽しみだ。
+[k]
+
+＠Dr.ロマン
+今回の冒険譚として、[r]スタッフみんなに聞かせてあげてくれ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace C 12]
+＠マシュ
+それはいいのですが……あの、ドクター。[r]通信不備の原因はなんだったのでしょう？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠Dr.ロマン
+う、うん。それが原因不明でね。[r]こちらの機材には何の異常も発見できなかった。
+[k]
+
+＠Dr.ロマン
+だから、もし原因があったとすれば[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠ダ・ヴィンチちゃん
+カルデア側じゃなくて、[r]そちら側に問題があった、という事さ。
+[k]
+
+＠ダ・ヴィンチちゃん
+レイシフトしてから通信が回復するまでの間、[r]キミたちには何らかの問題があった筈なんだけど……。
+[k]
+
+＠ダ・ヴィンチちゃん
+[%1][&君:ちゃん]に心当たりはあるかい？
+[k]
+
+？1：……まあ、なんとなく。
+
+？2：……ピック……アップ……
+
+？！
+
+[charaFace D 0]
+＠ダ・ヴィンチちゃん
+ま、害が無かったんだから忘れていい問題だけどね。[r]それじゃあお疲れさま！
+[k]
+
+＠ダ・ヴィンチちゃん
+残り時間、お月見を楽しんでくれたまえ！
+[k]
+
+[fadeout black 0.5]
+[messageOff]
+[charaFadeout D 0.1]
+[wait fade]
+[scene 10310]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+[fadein black 0.5]
+[wait fade]
+＠マシュ
+……やっぱり腑に落ちません。
+[k]
+
+＠マシュ
+私は、まだ……もう少し、[r]レアお団子を集めたい気持ちです。
+[k]
+
+＠マシュ
+犯人は捕まっていませんし、[r]最大の疑問も残ったままです。
+[k]
+
+[charaFace A 14]
+＠マシュ
+あのオリオンさんは[r]いったい誰だったのでしょう……？
+[k]
+
+[charaFadeout A 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

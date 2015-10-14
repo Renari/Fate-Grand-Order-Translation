@@ -1,0 +1,295 @@
+＄94-00-04-02-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20805]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 2009201 1 オリオン]
+[charaSet C 4017002 1 マリー]
+[charaSet D 1026002 1 デオン]
+[charaSet E 6012001 1 サンソン]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[fadein black 1]
+[wait fade]
+＠マシュ
+前方に明かりを確認……あれはキャンプの火です！[r]追いつきました、マスター！
+[k]
+
+[charaFace A 6]
+＠マシュ
+でもアレは[line 3]アレは[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[wipeout leftToRight 0.8 2]
+[wait wipe]
+[scene 20802]
+[charaFadein C 0.1 1]
+[wipein leftToRight 0.8 2]
+[wait wipe]
+[wt 0.3]
+＠マリー
+はい、どうぞデオン。[r]あーんしてください、あーん♡
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFadein C 0.1 2]
+[charaFadein D 0.1 0]
+[charaFace D 3]
+＠デオン
+あ、ああ……ありがとうマリー。[r]じゃあ……あーん。
+[k]
+
+[charaFace C 1]
+＠マリー
+ふふ、とっても美味しいでしょう？[r]このもちもちした食感と、あまーいお砂糖の味……
+[k]
+
+＠マリー
+見た目も[#白雪:しらゆき]みたいで愛らしいし。[r]是非、作り方を教えていただきたいわ。
+[k]
+
+＠マリー
+はい、貴方もどうぞ。[r]お団子っていいものね、サンソン。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 0]
+[charaFace E 3]
+＠サンソン
+あ、ああ……[#謹:つつし]んでいただきますよ、王妃。[r]でもいいのですか？
+[k]
+
+＠サンソン
+“ご自由にお持ちください”と書かれていたとはいえ、[r]三トン近い荷物をぜんぶ持ってきてしまうなんて。
+[k]
+
+[charaFace C 2]
+＠マリー
+まあ。もらえるものはもらえる時に、[r]欲張りなぐらいもらっていくものよサンソン。
+[k]
+
+＠マリー
+貴方は誠実だけど、[#慎:つつし]み深すぎるのは良くないわ。
+[k]
+
+＠マリー
+もう。ギロチンを用意する時の[r]大胆な貴方はどこにいったのかしら。
+[k]
+
+＠サンソン
+いや……王妃、僕はギロチンが好きなワケじゃなくて、[r]むしろ反対というか……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠デオン
+小言が多いぞ処刑人。[r]王妃が持っていく、と言ったんだ。
+[k]
+
+＠デオン
+なら、私たちはその手伝いをするだけだろう。[r]幸いマリーのガラスの馬車は出し入れ自由だ。
+[k]
+
+＠デオン
+一トンや二トンのお菓子、運ぶのは問題じゃない。[r]むしろもっと積んでも良かったぐらいだ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace D 0]
+＠マリー
+ふふ、デオンは乙女心を分かってくださいますね。
+[k]
+
+＠マリー
+だってこんなに美味しいのですもの、[r]あるだけ持っていきたくなるのが人情というものです。
+[k]
+
+[charaFadeout C 0.1]
+[charaTalk C]
+[charaFadein C 0.1 2]
+[charaFace C 0]
+[charaFadein D 0.1 0]
+[charaFace D 0]
+＠マリー
+はい、あーん♡
+[k]
+
+[charaFace D 1]
+＠デオン
+あーん。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 0]
+[charaFace E 3]
+＠サンソン
+うわ、まだ食べるのかい！？[r]いくらなんでも食べ過ぎだ！
+[k]
+
+＠サンソン
+医学に[#携:たずさ]わる者としてそれ以上のカロリー摂取は[r]容認できないというか、太るというか……
+[k]
+
+[charaFace C 3]
+＠マリー
+もう、そんな心配は無用よサンソン。[r]私、栄養は胸にいく体質なんだもの。
+[k]
+
+＠マリー
+いっぱい食べた分だけ胸のサイズが大きくなるの。[r]だから太る、なんてコトはありませんっ。
+[k]
+
+[charaFace E 3]
+＠サンソン
+な……なんだっ……て！？[r]そ、それは本当かい、マリー！？
+[k]
+
+＠サンソン
+いや、でもそんな都合のいいコト医学的にありえないし[r]いやでも本当だとしたら、ボクはうおおボクは……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠デオン
+……野蛮な。いきなり素振りを始めるな。[r]でも今のは事実だぞ処刑人。
+[k]
+
+＠デオン
+王妃は将来、フランスでもトップランクの[r]お体に成長なされるんだ。ほんと、ものすごいんだぞ。
+[k]
+
+[charaFadeout D 0.1]
+[charaTalk E]
+[charaFadein C 0.1 2]
+[charaFadein E 0.1 0]
+[charaFace E 2]
+＠サンソン
+[line 3]詳しく！　そのあたりの話、詳しく！[r]医学的に重要な資料になるからね！
+[k]
+
+[charaFace C 2]
+＠マリー
+それは医学でもなんでもありませんっ！[r]普通の、女性ならごく当然の現象です！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠デオン
+（……そうかな……お腹の肉にならないのは[r]　王妃だけだと思うけど……）
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.7]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠サンソン
+[line 3]！[r]シュヴァリエ！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠デオン
+！　分かっている、下がりなさい王妃！
+[k]
+
+[charaFadeout D 0.1]
+[se ad27]
+[wait se ad27]
+[se ad59]
+[wt 0.6]
+[seStop ad59]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+＠マシュ
+ご用です、ご用です！　おとなしく[r]縛についてください、お団子強盗団の皆さん！
+[k]
+
+[charaFadeout A 0.1]
+[seStop ad27]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠マリー
+あら、あなたたちは！
+[k]
+
+[charaFace C 4]
+＠マリー
+……あなたたちは……あなたたちは……[r]誰だったかしら。サンソン、知っていて？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠サンソン
+知るはずがない。[r]覚えがあるとしても他人のそら似だろう。
+[k]
+
+＠サンソン
+おおかた夜盗のたぐいだ。[r]たき火の明かりに誘われただけさ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠デオン
+同感だ。[r]こういう時だけは気が合うな処刑人。
+[k]
+
+[charaFace D 2]
+＠デオン
+さあ、剣を取れ不埒者ども。[r]王妃との淡い時間を台無しにした酬いを受けさせてやる！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠マリー
+うーん……[r]やっぱりどこかで会った気がするのですけど……
+[k]
+
+＠マリー
+思い出せない……おかしいわ……[r]とっても気が合いそうな気がするのに……
+[k]
+
+[bgmStop BGM_EVENT_2 0.1]
+[wt 0.3]
+[bgm BGM_EVENT_3 0.1]
+[charaFace C 1]
+＠マリー
+うん、でもこのさい戦いましょう！[r]手荒い歓迎をお許しくださいな、懐かしい方！
+[k]
+
+＠マリー
+色々と事情があるようですが今の私たちとは敵同士です。[r]だって、このお団子は渡せないのですから……ッ！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+さすがマリーさん、[r]ものすごく身勝手な宣戦布告です……！
+[k]
+
+＠マシュ
+いきます、先輩！[r]まずは戦って思い出してもらいましょう！
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

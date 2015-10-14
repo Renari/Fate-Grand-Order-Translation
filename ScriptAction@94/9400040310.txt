@@ -1,0 +1,545 @@
+＄94-00-04-03-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 21103]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 2009201 1 オリオン]
+[charaSet C 4006002 1 ゲオルギウス]
+[charaSet D 4019002 1 マルタ]
+[charaSet E 6001001 1 小次郎]
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 0]
+[charaFadein D 0.1 2]
+[se ad37]
+[fadein black 1]
+[wait fade]
+[wt 0.7]
+[charaFadeout C 0.4]
+[charaFadeout D 0.4]
+[wt 0.7]
+[charaFadein E 0.1]
+[wt 0.7]
+[charaFadeout E 0.4]
+[wt 0.3]
+[charaTalk on]
+[charaFadein C 0.1 1]
+＠ゲオルギウス
+ふむ……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+＠マルタ
+…………
+[k]
+
+[charaFadeout D 0.1]
+[seStop ad37]
+[charaFadein C 0.1 1]
+＠ゲオルギウス
+…………静かですね。[r]実に静かだ。そうは思いませんか、聖女マルタ。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+＠マルタ
+そうですね。今夜は海の波も穏やかですから。[r]…………ところで、聖ゲオルギウス。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+＠ゲオルギウス
+なんでしょう。[r]ああ、記念撮影ですか？
+[k]
+
+＠ゲオルギウス
+残念ながら私の専門は風景写真でして、[r]人物を撮るのはいささかためら、
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠マルタ
+誰も求めていません。[r]私が言っているのは、そちらの話です。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠ゲオルギウス
+ああ、こちらでしたか！[r]これは失礼。確かにそろそろです。では聖女マルタから？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠マルタ
+まあ。私からなんて恥ずかしい。
+[k]
+
+[charaFace D 1]
+＠マルタ
+ですが、聖ゲオルギウスからの提案と[r]あっては断れませんね。
+[k]
+
+[wt 0.4]
+＠マルタ
+では失礼して……あーん。
+[k]
+
+[charaFace D 3]
+＠マルタ
+ああ……この香ばしい皮の食感……！[r]マジでメッチャおいし[line 3]コホン。
+[k]
+
+[charaFace D 0]
+＠マルタ
+たいへん善い工夫です。[r]東洋の知恵も侮れませんね。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠ゲオルギウス
+では私も失礼して[line 3]ふむ。[r]これは、ホホッ、熱い、熱いが甘いですな！
+[k]
+
+＠ゲオルギウス
+単純なようでいて飽きがこない。[r]つるりとした表面なのに味わいがある。
+[k]
+
+＠ゲオルギウス
+シンプルでありながらディープです。[r]この感動をなんと評すればいいのか……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠小次郎
+そういう時は[#乙:おつ]、と言うのですよご両人。[r]さて、では失礼して[#拙者:せっしゃ]も一ついただこう。
+[k]
+
+＠小次郎
+うむ、うむ……一口に食べ[#易:やす]く、[r]かといってもの足りぬワケでもない。
+[k]
+
+[charaFace E 4]
+＠小次郎
+この団子は間違いなく名人の手によるもの。[r]この佐々木某、感服いたした。
+[k]
+
+＠小次郎
+いやあ。[r]いるものですな、どこの時代にも才人というものは。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠マルタ
+…………。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠小次郎
+どうされたマルタ殿。拙者の口元に、何か？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 0]
+＠マルタ
+いえ、別に。ただ、その蜂蜜のような黒いたれは[r]なんなのか、と気になっただけです。
+[k]
+
+[charaFace D 5]
+＠マルタ
+欲しいワケではありません。[r]だいいち、貴方を信用していません。
+[k]
+
+＠マルタ
+数日前からぶらぶらと私たちに付いてきましたが、[r]何が目的なのかそろそろ白状してもらいましょうか。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠小次郎
+目的ははじめに語り申した。[r]マルタ殿と手合わせがしたい。それだけにござる。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠マルタ
+ですから、それはお断りした筈です。[r]私は争いのむなしさを説く者です。
+[k]
+
+＠マルタ
+なぜ自分から戦わなくてはいけないのですか。[r]性に合いません。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠小次郎
+ええー？[r]ほんとにござるかぁ？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠マルタ
+ホントです！　なによその苦虫噛みつぶしたような声！[r]アンタね、アタシを馬鹿にしてんの！？
+[k]
+
+＠マルタ
+なによセッシャって。なによゴザルって！[r]アンタ、それワザとやってるでしょう！？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠小次郎
+ははは。見抜かれてしまったか。それなりの威厳を[r]求められる時は、それなりに気を遣うまで。
+[k]
+
+＠小次郎
+この通り風来の身[#故:ゆえ]、[r]素の自分と武芸者としての自分を使い分けている。
+[k]
+
+＠小次郎
+だが、それは私だけではあるまい。[r]マルタ殿も[#被:かぶ]っていよう。
+[k]
+
+＠小次郎
+とびきり大きな猫を。タラスク、といったかな。[r]まさにドラ猫というワケだ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠マルタ
+はあ！？　アンタ、アタシのタラスク狙ってたワケ！？[r]アタシ本人じゃなく！？
+[k]
+
+＠マルタ
+ワイバーン如きを何匹斬ったか知らないけど、[r]そんなほっそい剣で何ができるのよ。
+[k]
+
+＠マルタ
+タラスクの大鉄甲を舐めないでよね。[r]アタシの鉄拳にさえ耐えきったんだから、アレ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠小次郎
+ほう、鉄拳。そちらもまた興味深い。[r]マルタ殿の得物は杖ではなかったか？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠マルタ
+！[r]い、いやですわ、オホホホ。
+[k]
+
+＠マルタ
+何かの聞き間違いでしょう？[r]聖女である私が拳をあげるなんてあり得ませんし？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+＠ゲオルギウス
+ははは。そういえば、聖女マルタは「彼」から杖を[r]授かる前は道具という道具を持たなかったと聞きます。
+[k]
+
+＠ゲオルギウス
+なるほど。聖女として落ち着く前は、[r]素手で竜を説伏する武闘派だったのですね。
+[k]
+
+＠ゲオルギウス
+それは私も興味深い。同じく竜をいさめた者として、[r]その勇姿を一度カメラに収めてみたいものです。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠マルタ
+勇姿とか間違ってもないから。ステゴロとかもう[r]卒業したし、素手で戦ったコトもないし！
+[k]
+
+＠マルタ
+っていうかゲオルギウス、[r]風景専門だって言ってなかった！？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wipeout leftToRight 0.5 2]
+[wait wipe]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+[scene 21102]
+[wipein leftToRight 0.5 2]
+[wait wipe]
+＠マシュ
+……またもやサーヴァント三人組です……[r]竜退治三人衆、といったところでしょうか……
+[k]
+
+＠マシュ
+ジークフリートさんがいなくて幸いでした。[r]……ではそろそろ突撃します、マスター！
+[k]
+
+[charaFace A 7]
+[se ad59]
+[wt 0.3]
+[messageOff]
+[charaFadeout A 0.1]
+[wipeout leftToRight 0.5 2]
+[wait wipe]
+[bgmStop BGM_EVENT_2 0.4]
+[wt 1]
+[bgm BGM_EVENT_3 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+[scene 21103]
+[wipein leftToRight 0.5 2]
+[wait wipe]
+[seStop ad59]
+[charaFace A 2]
+＠マシュ
+お団子を焼いて食べるのはそこまでです！[r]神妙にお縄をちょうだいしてください！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠マルタ
+はあ？　縄がなんですって？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 4]
+＠小次郎
+おとなしく捕まれ、という意味でござるよマルタ殿。[r]荒縄で[#下手人:げしゅにん]の体を縛って連行するのでござる。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠マルタ
+あ、荒縄って……縛るのは手首だけでいいじゃない……[r]体中[#縛:しば]るとか、とんでもないコト言い出すのね……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+＠ゲオルギウス
+下手人……罪人、という事でしょうか。[r]我々にそのような覚えはありませんが。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+……その……残念ですがゲオル先生。[r]そのお団子はカルデアから盗まれた盗品なんです。
+[k]
+
+＠マシュ
+ですので、それを口にした時点でギルティかと。
+[k]
+
+＠マシュ
+でも素直に返却していただければ、[r]これ以上罪は問いませんので……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠ゲオルギウス
+……そうだったのですか……[r]知らぬ事とはいえ、我々はなんという事を……
+[k]
+
+＠ゲオルギウス
+我々はこの食事に対価を支払いましたが、[r]そもそも盗品であったとは……
+[k]
+
+＠ゲオルギウス
+見知らぬお嬢さん。[r]アナタが嘘をついているとは思えません。
+[k]
+
+＠ゲオルギウス
+この風呂敷いっぱいの食料はお返ししましょう。[r]それが我々にできる精一杯の罪滅ぼしです。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 6]
+＠マシュ
+え……あ、はい。[r]そうしていただけると助かります、けど……
+[k]
+
+？1：戦闘にならない……だと……？
+
+？2：こんなに話の分かる人たちだったなんて！
+
+？！
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 1]
+＠マルタ
+そんなの当たり前じゃない。[r]私たち、万人が認める聖人よ？
+[k]
+
+＠マルタ
+過ちは過ちだと認めるし、間違いはきっかり正すわ。[r]まあ、もうちょっと食べたかったけどそれはそれ。
+[k]
+
+＠マルタ
+それに、お金出したのは聖ゲオルギウスだけだしね。[r]私はノーダメージだから構わないわ。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠ゲオルギウス
+そういう事です。さあ、どうぞお受け取りを。[r]そしてカルデアとやらに帰りなさい。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠小次郎
+拙者も居合わせただけの[#居候:いそうろう]故、異論はない。[r]争いは何も産まぬよ。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 1]
+＠マシュ
+皆さん……[r]先輩、帰りましょう。これでミッションクリアです！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 1]
+＠オリオン
+んー、ちょっと待ってねー？
+[k]
+
+[charaFace B 1]
+＠オリオン
+感動話はいいんだけど、そこのサムライさん、[r][#懐:ふところ]にレア団子隠し持ってないかな？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 0]
+＠小次郎
+ん。サムライって、[#某:それがし]のことでござる？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein B 0.1 1]
+＠オリオン
+そっちの聖女さんも背中に隠してない？
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 3]
+＠マルタ
+な、なんのことかしら？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠ゲオルギウス
+お二人とも、なんと往生際の悪い……[r]同行者としてなんと謝罪したものか……
+[k]
+
+＠ゲオルギウス
+これは見放すのも致し方ないこと。私はここに[r]残りますので、どうぞ[#罪人:つみびと]二人を連行してください。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein B 0.1 1]
+＠オリオン
+うん。そしてそのおひげのおじさま、[r]カメラバックいっぱいにお団子隠してる。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 3]
+＠ゲオルギウス
+汝は竜なりぃぃぃいい！？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+ゲオル先生……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+＠ゲオルギウス
+ハッ……！？　く、なんと目の鋭いご婦人でしょう……[r]どうやらもう戦うしかないようですね……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠マルタ
+そのようね。盗人呼ばわりは濡れ衣だし、[r]そもそもお団子食べたいし。
+[k]
+
+＠マルタ
+今だけは聖女の誓いを海に捨てるわ。[r]タラスクより重い誓いだったのだけど。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+ずいぶん軽かったんですね、タラスクさん。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+＠マルタ
+小次郎、アンタも付き合いなさいよ。[r]今までさんざんタダ飯たかってきたんだから。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 2]
+＠小次郎
+うむ。完全にとばっちりだが仕方あるまい。[r]この地にて猛威をふるった我が秘剣、見舞うとしよう。
+[k]
+
+？1：来るぞ、マシュ……！
+
+？2：これだから聖人は……！
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 14]
+＠マシュ
+はい、ぜんぜん話の分かる人たちでは[r]ありませんでした！
+[k]
+
+[charaFadeout A 0.1]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_2 0.4]
+[wait fade]
+[soundStopAll]
+[end]

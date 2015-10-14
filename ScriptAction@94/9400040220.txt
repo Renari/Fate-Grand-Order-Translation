@@ -1,0 +1,135 @@
+＄94-00-04-02-2-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20802]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 2009201 1 オリオン]
+[charaSet C 4017002 1 マリー]
+[charaSet D 1026002 1 デオン]
+[charaSet E 6012001 1 サンソン]
+[charaSet F 5015002 1 ？？？]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[fadein black 1]
+[wait fade]
+＠サンソン
+ぐぅ……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠デオン
+くっ、不覚……！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 4]
+＠マリー
+きゃあ……！
+[k]
+
+[charaFadeout C 0.1]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠マシュ
+勝負ありました。[r]これでひとまず話を[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[bgmStop BGM_EVENT_2]
+[charaFadein B 0.1 1]
+＠オリオン
+待ってマシュ、まだ奥にひとりいるわ。[r]この気配……ダーリンと同じタイプのダメ人間ね！
+[k]
+
+[charaFadeout B 0.1]
+[se ad27]
+[wait se ad27]
+[charaFilter F silhouette 20202000]
+[charaFadein F 0.1 1]
+＠？？？
+フフフ……フフフフフ…………[r]このワタシの気配に気づくとは……
+[k]
+
+[charaFadeout F 0.1]
+[bgm BGM_EVENT_3]
+[charaFadein A 0.1 1]
+＠マシュ
+せ、先輩っ！[r]物陰から、見るからに怪しい変質者が！
+[k]
+
+[charaFadeout A 0.1]
+[se ad39]
+[wait se ad39]
+[charaFilter F normal]
+[charaFadein F 0.1 1]
+＠？？？
+変質者ではない。[r]ワタシはアマデウス仮面。通りすがりの妖精さんだ。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 1]
+＠マリー
+まあ、アマデウス仮面！[r]今回もこっそり付いてきていたのですね！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠デオン
+またオマエか変質者！[r]ウィーンに帰れ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein E 0.1 1]
+[charaFace E 1]
+＠サンソン
+フッ……やはり頼れる男だね、キミは。[r]このピンチに颯爽と現れるとは……
+[k]
+
+[charaFadeout E 0.1]
+[charaSet F 5015002 1 アマデウス仮面]
+[charaFadein F 0.1 1]
+＠アマデウス仮面
+フフフ……気が合いそうな倒錯趣味者には嫌われ、[r]どうでもいい野郎にはなぜか頼られる……なんだこれ。
+[k]
+
+＠アマデウス仮面
+まあいいや。マリアのピンチだからね、[r]組みたくもない相手とも手を組むのがワタシの矜持だ。
+[k]
+
+＠アマデウス仮面
+そして見知らぬ旅人たちよ、覚悟してほしい。
+[k]
+
+＠アマデウス仮面
+どこからどう見てもマリアたちが悪いんだけど、[r]僕はほら、そういう正義とかどうでもいいから。
+[k]
+
+＠アマデウス仮面
+よし。そういうワケで音楽を始めよう！[r]ヒュウ、盛り上がってきたぞぅ！
+[k]
+
+＠アマデウス仮面
+果たしてキミたちは、この音楽神によって[r]指揮された真の変質者三人組に勝てるかな！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.3]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠デオン
+[line 3]え。ちょっと待て。[r]いま私も含めなかったかオマエ！？
+[k]
+
+[charaFadeout D 0.5]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]

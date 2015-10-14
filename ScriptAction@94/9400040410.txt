@@ -1,0 +1,371 @@
+＄94-00-04-04-1-0
+
+[soundStopAll]
+[bgm BGM_EVENT_2 0.1]
+[scene 20702]
+[charaSet A 8001000 1 マシュ]
+[charaSet B 2009201 1 オリオン]
+[charaSet C 1013002 1 カエサル]
+[charaSet D 7010002 1 カリギュラ]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[fadein black 1]
+[wait fade]
+＠カエサル
+うむ、悪くない。私はもっとこう、果汁ほとばしる[r]瑞々しいフルーツが好みだが、悪くない。
+[k]
+
+[charaFace C 3]
+＠カエサル
+カタチがよい。持ち運びができる。日持ちがよい。[r]なにより食べやすい！
+[k]
+
+＠カエサル
+うむ、うむ、うむ、うむ！[r]どういうコトだ、ほいほい口に入るぞこれは！
+[k]
+
+[charaFace C 1]
+＠カエサル
+まるで私は玉入れのカゴになったようだ！[r]こうなっては地上全ての団子を平らげる他あるまい！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠カリギュラ
+[fontSize large]ウオオ、練ロォォオオオオオ！[fontSize -]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠カエサル
+フッ。そちらもなかなかの健啖ぶり。[r]やはりローマ皇帝たるもの、グルメでなければな。
+[k]
+
+＠カエサル
+いや、厳密に言うと私は皇帝ではないがね。[r]帝政の基礎を作った男にすぎん。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠カリギュラ
+[fontSize large]ウオオ、DEBUUUUUーーーーーーウ！[fontSize -]
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠カエサル
+太っているのではない！　ふくよかなのだ！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wipeout leftToRight 0.5 2]
+[wait wipe]
+[charaFadein B 0.1 1]
+[charaFace B 1]
+[wipein leftToRight 0.5 2]
+[wait wipe]
+＠オリオン
+あの二人の後ろに積み上げられた大量のお供えもの……[r]やっと本命にたどり着いたみたい。
+[k]
+
+[charaFace B 0]
+＠オリオン
+どうする、二人とも。[r]やっぱり話し合い？
+[k]
+
+？1：あの二人にそれは無理じゃないかな……
+
+？2：マルタの忠告に従おう。
+
+？！
+
+[charaFadeout B 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+そ、そうですね……暴君カリギュラはバーサーカー、[r]話し合いは通じません。
+[k]
+
+＠マシュ
+セイバーであるカエサルさんは話の分かる人ですが、[r]分かりすぎるきらいがあります。
+[k]
+
+＠マシュ
+下手に会話に持ち込むと丸めこまれる可能性、大です。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein B 0.1 1]
+＠オリオン
+そうよね……すごく丸いものね、あの人……
+[k]
+
+[charaFadeout B 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+とにかく接近しましょう、先輩。
+[k]
+
+＠マシュ
+正面からの襲撃であれば騎士道精神にのっとったもの[r]ですので、卑怯者のそしりはありません。
+[k]
+
+？1：マシュもかなりカリカリしてるね。
+
+？2：騎士道……精神……？
+
+？！
+
+[se ad59]
+[messageOff]
+[charaFadeout A 0.1]
+[wipeout leftToRight 0.5 2]
+[wait wipe]
+[charaFadein A 0.1 1]
+[charaFace A 2]
+[wipein leftToRight 0.5 2]
+[wait wipe]
+[seStop ad59]
+＠マシュ
+全自動洗濯機のような真似はそこまでです！
+[k]
+
+＠マシュ
+その食料はカルデアの所有物、[r]ローマのものではありません！
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 4]
+＠カリギュラ
+[line 1]？　ローマでは……ない？[r]ローマは……団子では……ない……
+[k]
+
+＠カリギュラ
+だが偉大なるカエサルは……丸い……[r]これは……どういうコト……だ？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 2]
+＠カエサル
+どうもこうもない、[r]私と円形のものを重ねるな！
+[k]
+
+[charaFace C 4]
+＠カエサル
+……はあ。幸福な食事時を邪魔しおって……[r]まったく面倒なことだ。実に実に面倒だ。
+[k]
+
+[charaFace C 5]
+＠カエサル
+だが、やはり現れたか。いや、ついにと言うべきか。[r]諸君らの目的はこれ、この月見団子であろう。
+[k]
+
+＠カエサル
+これはな、私が悪鬼の如きライダーから[r]うまいこと横領せしめたものではあるが……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 0]
+＠マシュ
+（先輩先輩。カエサルさん、[r]　いま横領って言いました、横領って）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠カエサル
+それには正統な理由があるのだ。[r]どうだろう、耳を傾けるかな、まろっとしたお嬢さん？
+[k]
+
+＠カエサル
+いや聞くだろう、なにあろう、万人が聞き惚れるとも！[r]この私の、値千金とも言える演説なのだから！
+[k]
+
+＠カエサル
+では語ろう、私がいかにして[r]この団子を私物化したのかを。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 12]
+＠マシュ
+あ、あの、そういうのはいいですので……[r]とにかく戦闘にしましょう、戦闘。
+[k]
+
+＠マシュ
+理由とかあまり興味はないので、[r]あとはもう返していただければ……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 0]
+＠カエサル
+おっと、その前に自己紹介がまだだったな。[r]私ともあろうものが名乗りを忘れるとは。
+[k]
+
+[charaFace C 1]
+＠カエサル
+何を隠そう、私こそ噂に名高いローマの花、[r]深紅の剣士・赤セイバーである！
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+すみません。本気で訴えますよ。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 2]
+＠カリギュラ
+あり得んッ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+[charaFace C 3]
+＠カエサル
+むう、だめか。[r]わりといけると思ったのだが。
+[k]
+
+[charaFace C 4]
+＠カエサル
+そしてカリギュラよ、おまえもか。
+[k]
+
+[charaFace C 1]
+＠カエサル
+まあよい。話の続きをするとしよう。[r]私は肥沃なるこの土地にて、美味しい匂いに出会った。
+[k]
+
+＠カエサル
+であれば[line 3]
+[k]
+
+？1：来た、見た、買った！　ですよね！
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+お気持ちはわかりますが、[r]自重してくださいマスター。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadein C 0.1 1]
+？2：……（あえて無言を通す）。
+
+[charaFace C 4]
+＠カエサル
+……反応が薄いな。[r]悲しい……とても悲しい事だ……
+[k]
+
+？！
+
+[charaFace C 0]
+＠カエサル
+ともあれ、なにやら企みも感じたのでな。[r]これは私が管理しなければと思い、徴収したのだ。
+[k]
+
+＠カエサル
+うむ。だが、元は盗品となれば諸君らの怒りも分かる。[r]正当性、というヤツは復讐よりも強い怒りを産むものだ。
+[k]
+
+＠カエサル
+私は戦いは好まない。面倒だしな。[r]なのでこうしよう。
+[k]
+
+[charaFace C 1]
+＠カエサル
+まず、私が諸君らを信用し、[r]この荷物をいったん預けよう。
+[k]
+
+＠カエサル
+諸君らはこの荷物を原価の三倍の価格で[r]売りさばき、戻ってくるのだ。
+[k]
+
+＠カエサル
+その売り上げを私が受け取り、[r]諸君らになんと！　原価の二倍もの金額を返却する。
+[k]
+
+＠カエサル
+どうだろう。諸君らは損をせず利益を得、[r]私も諸君らを信用して良かったという満足を得る。
+[k]
+
+＠カエサル
+この線であらば荷物を預けるが、いかが？
+[k]
+
+？1：おお……平和的すぎる……！
+
+[charaFadeout C 0.1]
+[charaFadein B 0.1 1]
+＠オリオン
+落ち着いてね[%1]？
+[k]
+
+＠オリオン
+騙されやすい私が言うのもなんだけど、[r]アナタ、すっごく騙されてるわよ？
+[k]
+
+[charaFadeout B 0.1]
+？2：おお……あまりに暴利すぎる……！
+
+[charaFadeout C 0.1]
+[charaFadein A 0.1 1]
+[charaFace A 7]
+＠マシュ
+その通りですマスター。
+[k]
+
+＠マシュ
+マルタさんの言う通り、[r]カエサルさんと会話をしてはいけません！
+[k]
+
+[charaFadeout A 0.1]
+？！
+
+[charaFadein C 0.1 1]
+[charaFace C 3]
+＠カエサル
+むう。うまくいかないものだな。[r]クレオパトラの真似をしてみたのだが……
+[k]
+
+[bgmStop BGM_EVENT_2]
+[wt 0.4]
+[bgm BGM_EVENT_3]
+[charaFace C 5]
+＠カエサル
+仕方あるまい。であれば戦いだ。[r]カリギュラよ、支度をするがいい。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadein D 0.1 1]
+[charaFace D 5]
+＠カリギュラ
+クゥオオオオオオ……！[r]どう見てもあちらが正しいが、ウォオオオオ！
+[k]
+
+[charaFadeout D 0.1]
+[charaFadein C 0.1 1]
+＠カエサル
+フッ、では来るがいい。[r]我が[#黄の死:クロケア・モース]の冴えをお見せしよう！
+[k]
+
+[charaFadeout C 0.4]
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_3 0.4]
+[wait fade]
+[soundStopAll]
+[end]
