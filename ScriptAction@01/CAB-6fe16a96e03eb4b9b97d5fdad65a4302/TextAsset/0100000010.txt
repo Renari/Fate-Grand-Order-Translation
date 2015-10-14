@@ -8,59 +8,57 @@
 [charaSet C 98002000 2 フォウ]
 [charaSet D 98004000 1 レフ]
 [charaSet E 98005000 1 オルガマリー]
-[charaSet F 98006000 1 アナウンサー]
+[charaSet F 98006000 1 アナウンス]
 [fadein black 1]
 [wait fade]
-＠Announcer
-[line 3]Checking Basic DNA Sequence.　　Human Genome: Confirmed.[r]
-[line 3]Checking Spiritual Vessel Properties. Innate Goodness in Man・Neutrality: Confirmed.
+＠アナウンス
+[line 3]塩基配列　　ヒトゲノムと確認[r][line 3]霊器属性　　善性・中立と確認
 [k]
 
-＠Announcer
-Welcome to these archives, the tellers of mankind's future。[r]This place is known as the Human Logic Continuation Security Engine, Chaldea。
+＠アナウンス
+ようこそ、人類の未来を語る資料館へ。[r]ここは[#人理継続保障機関:じんりけいぞくほしょうきかん]　カルデア。
 [k]
 
-＠Announcer
-Fingerprint Confirmation.　Vocal Chord Confirmation.　Genetic Confirmation.　Clear。[r]
-Magic Circuit Measurement……Completed。
+＠アナウンス
+指紋認証　声帯認証　遺伝子認証　クリア。[r]魔術回路の測定……完了しました。
 [k]
 
-＠Announcer
-Matching you with your registered name。[r]Assessing you as a member of the primate family.
+＠アナウンス
+登録名と一致します。[r]貴方を霊長類の一員である事を認めます。
 [k]
 
-＠Announcer
-I'm honored to meet you. [r]You are the last visitor for today.
+＠アナウンス
+はじめまして。[r]貴方は本日　最後の来館者です。
 [k]
 
-＠Announcer
-By all means, make yourself at home.[k]
+＠アナウンス
+どうぞ、善き時間をお過ごしください。
+[k]
 
 [fadeout black 1]
 [wait fade]
 [fadein black 0]
 [wait fade]
-＠Announcer
-……My humblest apologies。[r]The data entry procedure will need 3 more minutes until it is completed。
+＠アナウンス
+……申し訳ございません。[r]入館手続き完了まであと180秒必要です。
 [k]
 
-＠Announcer
-During that time, please enjoy this simulated battle.
+＠アナウンス
+その間、模擬戦闘をお楽しみください。
 [k]
 
-＠Announcer
-Regulation: Senior[r]Contracted Servants：Saber. Lancer. Archer.
+＠アナウンス
+レギュレーション：シニア[r]契約サーヴァント：セイバー　ランサー　アーチャー
 [k]
 
-＠Announcer
-Your score will not be recorded。[r]Please enjoy yourself as you like.
+＠アナウンス
+スコアの記録はいたしません。[r]どうぞ気の向くまま、自由にお楽しみください。
 [k]
 
 [se ad1]
 [wait se ad1]
-＠Announcer
-Booting up Heroic Spirit Summoning System――Fate.[r]In 3 minutes' time, 
-you will be able to begin your worthwhile experience as a master.
+＠アナウンス
+英霊召喚システム　フェイト　起動します。[r]180秒の間、マスターとして善い経験ができますよう。
 [k]
 
 [messageOff]
@@ -69,4 +67,3 @@ you will be able to begin your worthwhile experience as a master.
 [wait fade]
 [soundStopAll]
 [end]
-
