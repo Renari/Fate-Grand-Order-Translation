@@ -308,7 +308,6 @@
 [messageOff]
 [seStop ad11 2]
 [wt 1]
-[flashout 1]
 [charaSpecialEffect G flash 1 2]
 [wt 1]
 [voice NP_100800_2]

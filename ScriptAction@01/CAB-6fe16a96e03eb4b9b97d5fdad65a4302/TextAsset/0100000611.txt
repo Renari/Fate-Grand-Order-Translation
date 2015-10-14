@@ -27,7 +27,6 @@
 [se ad32]
 [wt 0.5]
 [charaEffectStop F]
-[wait charaEffect F]
 ＠F：サーヴァント
 [line 6]ドウ　モ　何モ、話ニナラン。[r]コレデハ　私一人デ　十分ダッタカ。
 [k]

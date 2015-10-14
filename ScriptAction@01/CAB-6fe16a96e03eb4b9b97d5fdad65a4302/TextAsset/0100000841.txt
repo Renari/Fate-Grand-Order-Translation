@@ -81,7 +81,6 @@
 [charaEffect A bit_talk_14]
 [fadeout white 2]
 [wt 0.5]
-[charaEffectStop A]
 [wait charaEffect A]
 [flashout 0.7]
 [bgmStop BGM_EVENT_3 0.4]

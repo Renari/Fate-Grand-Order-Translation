@@ -54,7 +54,7 @@
 
 [charaFace F 1]
 ＠カエサル
-ユリウス・ガイウス・カエサル。[r]それが私だ。
+ガイウス・ユリウス・カエサル[r]それが私だ。
 [k]
 
 [charaFace D 2]
@@ -140,6 +140,9 @@
 ……さてと。[r]では、次は本気だ。
 [k]
 
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFadein F 0.1 1]
 [bgmStop BGM_EVENT_5 0.4]
 [bgm BGM_EVENT_3 0.1]
 [charaFace F 5]
@@ -147,16 +150,23 @@
 久々に体を動かさんとな。[r]黄金剣も、時には振るってやらねば哀れに過ぎる。
 [k]
 
-[charaFadeout A 0.1]
+[fadeout white 0.3]
+[wait fade]
+[fadein white 0.3]
+[wait fade]
+[fadein white 0.3]
+[wait fade]
+[wt 0.3]
+[charaFadeout F 0.1]
 [charaFace D 5]
-[charaFadein D 0.1 2]
+[charaFadein D 0.1 1]
 ＠ネロ
 本気だと……？
 [k]
 
 [charaFadeout D 0.1]
 [charaFace A 2]
-[charaFadein A 0.1 2]
+[charaFadein A 0.1 1]
 ＠マシュ
 この気配[line 2][r]気を付けてください、マスター！
 [k]
@@ -169,6 +179,9 @@
 どうやら相手は本気になったらしい！[r]というか、本気ではなかったのか、今まで！
 [k]
 
+[charaFadeout A 0.1]
+[charaSet F 1013002 1 カエサル]
+[charaFadein F 0.4 1]
 [charaFace F 2]
 ＠カエサル
 私は来た。私は見た。[r]ならば、次は勝つだけだ……！

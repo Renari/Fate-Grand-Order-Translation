@@ -12,40 +12,36 @@
 [charaSet G 7002001 1 ランスロット]
 [charaSet H 6012001 1 サンソン]
 [charaFace B 0]
-[charaFadein B 0 0]
-[charaFace C 0]
-[charaFadein C 0 2]
+[charaFadein B 0 1]
 [fadein black 1]
 [wait fade]
 [wt 0.5]
-[se ad19]
-[wait se ad19]
 ＠バーサーク・アサシン
 ワイバーン。まずは兵士をお食べなさい？
 [k]
 
 [charaFadeout B 0.1]
+[charaFace C 0]
+[charaFadein C 0 1]
+[se ad19]
+[wait se ad19]
+[wt 0.6]
 [charaFadeout C 0.1]
 [charaFace D 2]
-[charaFadein D 0.1 1]
+[charaFadein D 0 1]
 ＠ジャンヌ
 たああああああああああああ！
 [k]
 
 [charaFadeout D 0.1]
-[charaFace B 0]
-[charaFadein B 0.1 0]
 [charaFace C 0]
-[charaFadein C 0.1 2]
+[charaFadein C 0.1 1]
 [messageOff]
-[charaEffect B bit_talk_12]
 [charaEffect C bit_talk_12]
 [shake 0.05 0 10 0.5]
 [se ad32]
 [wt 0.5]
-[charaEffectStop B]
 [charaEffectStop C]
-[charaFadeout B 0.1]
 [charaFadeout C 0.1]
 [charaFace D 2]
 [charaFadein D 0.1 1]
@@ -117,7 +113,7 @@
 [k]
 
 ＠バーサーク・アサシン
-美しく、[#儚:はかな]く、そして[#滑稽:こっけい]な筋書きね。[r]貴女はまだ[#足掻:あがい]いているのに[line 2]。
+美しく、[#儚:はかな]く、そして[#滑稽:こっけい]な筋書きね。[r]貴女はまだ[#足掻:あが]いているのに[line 2]。
 [k]
 
 [charaFace B 2]
@@ -166,7 +162,7 @@
 [charaFace D 4]
 [charaFadein D 0.1 1]
 ＠ジャンヌ
-さあ、フランスを救おうと立ち上がって時点で[r]正気ではない、とはよく言われましたが……。
+さあ、フランスを救おうと立ち上がった時点で[r]正気ではない、とはよく言われましたが……。
 [k]
 
 [charaFadeout D 0.1]
@@ -213,22 +209,15 @@
 [scene 20300 0]
 [wipein rightToLeft 0.4 1]
 [wait wipe]
-[charaFace B 0]
-[charaFadein B 0 0]
 [charaFace C 0]
-[charaFadein C 0 2]
+[charaFadein C 0 1]
 [wt 0.5]
 [se ad34]
 [shake 0.05 0 10 0.5]
-[charaEffect B bit_talk_32]
 [charaEffect C bit_talk_32]
-[wt 0.5]
-[charaEffectStop B]
+[wt 2]
 [charaEffectStop C]
-[wait charaEffect B]
-[wait charaEffect C]
 [wt 0.5]
-[charaFadeout B 0.1]
 [charaFadeout C 0.1]
 [charaFace D 2]
 [charaFadein D 0.1 1]
@@ -238,15 +227,12 @@
 
 [charaFadeout D 0.1]
 [charaFace B 2]
-[charaFadein B 0.1 0]
-[charaFace C 0]
-[charaFadein C 0.1 2]
+[charaFadein B 0.1 1]
 ＠バーサーク・アサシン
 くっ……！
 [k]
 
 [charaFadeout B 0.1]
-[charaFadeout C 0.1]
 [charaFace D 2]
 [charaFadein D 0.1 1]
 ＠ジャンヌ
@@ -254,7 +240,6 @@
 [k]
 
 [charaFadeout D 0.4]
-[charaFadeout B 0.4]
 [messageOff]
 [wipeout rightToLeft 0.4 1]
 [wait wipe]

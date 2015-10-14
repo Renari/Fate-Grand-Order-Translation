@@ -8,14 +8,11 @@
 [charaSet C 3009001 1 レオニダス]
 [charaSet D 1005001 1 ネロ]
 [charaSet E 3010001 1 ？？？]
-[charaSet F 1013001 1 カエサル]
+[charaSet F 1013002 1 カエサル]
 [charaSet G 98004000 1 レフ]
 [charaSet H 7010001 1 カリギュラ]
-[charaTalk D]
-[charaFace F 4]
-[charaFadein F 0 0]
 [charaFace D 0]
-[charaFadein D 0 2]
+[charaFadein D 0 1]
 [fadein black 1]
 [wait fade]
 ＠ネロ
@@ -28,11 +25,13 @@
 
 [charaFadeout D 0.1]
 [charaFace A 7]
-[charaFadein A 0.1 2]
+[charaFadein A 0.1 1]
 ＠マシュ
 あなたの剣は強力な攻撃でした。[r]けれど、先輩の指示さえあれば守り切れます。
 [k]
 
+[charaFadeout A 0.1]
+[charaFadein F 0 1]
 [charaFace F 1]
 ＠カエサル
 うむ、うむ。[r]美しい女たちに負けるのも悪くない。
@@ -43,15 +42,14 @@
 そも、俺が一兵卒の真似事をするのは無理がある。[r]まったく、[#あの御方]の奇矯には困ったものだ。
 [k]
 
-[charaFadeout A 0.1]
+[charaFadeout F 0.1]
 [charaFace D 5]
-[charaFadein D 0.1 2]
+[charaFadein D 0.1 1]
 ＠ネロ
 あの御方[line 2]？
 [k]
 
 [charaFadeout D 0.1]
-[charaFadeout F 0.1]
 [charaFace F 0]
 [charaFadein F 0.1 1]
 ＠カエサル
@@ -250,7 +248,7 @@
 
 [charaFace G 4]
 ＠レフ
-世界を思うままに駆けられる力がありながら[r]自由がないとは、こんな皮肉な話があるか！
+世界を思うままに駆ける力を持ちながら[r]自由がないとは、こんな皮肉な話があるか！
 [k]
 
 [charaFace G 2]
@@ -278,7 +276,7 @@
 [k]
 
 ＠レフ
-それこそ[line 2][r]我らが王が賜れた、私の責務であるのだから。
+それこそ[line 2][r]我らが王の賜れた、私の責務であるのだから。
 [k]
 
 ＠E：？？？
@@ -287,11 +285,11 @@
 
 [charaFace G 0]
 ＠レフ
-さて、と。では減った戦力を補充するとしよう。[r]丁度、召喚儀式が終了するところだ。
+では減った戦力を補充するとしよう。[r]丁度、召喚儀式が終了するところだ。
 [k]
 
 ＠レフ
-所詮未完成であるカルデアのそれとは違う。[r]私は真に、サーヴァントを自在に召喚できる。
+未完成であるカルデアのそれとは違う。[r]私は真に、サーヴァントを自在に召喚できる。
 [k]
 
 [charaFace G 2]
