@@ -73,7 +73,7 @@
 [charaFadeout D 0.1]
 [communicationCharaLoop 98003003 1 5 0 2]
 ＠Dr.ロマン
-キマイラ……獅子と山羊の頭を持ち、[r]蛇の尾を持つというあの伝説の魔獣か……！
+キメラ……獅子と山羊の頭を持ち、[r]蛇の尾を持つというあの伝説の魔獣か……！
 [k]
 
 [communicationCharaClear]

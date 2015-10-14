@@ -11,9 +11,6 @@
 [charaFace D 1]
 [charaFadein D 0]
 [fadein black 1]
-[se ad37]
-[wt 3]
-[seStop ad37 3]
 ＠マルタ
 普通の……。[r]ええ、どこにでもいる町娘だったんですよ。
 [k]

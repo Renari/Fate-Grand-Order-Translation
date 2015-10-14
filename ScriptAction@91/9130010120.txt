@@ -8,7 +8,6 @@
 [charaSet C 98002000 2 フォウ]
 [charaSet D 3001001 0 クー・フーリン]
 [charaSet E 98006100 0 キメラ]
-[charaTalk D]
 [charaFace A 0]
 [charaFadein A 0 2]
 [charaFace D 0]
@@ -165,6 +164,8 @@
 どうやら、性質の悪い魔術師が放し飼いにでも[r]してるってとこか。……まあいいさ
 [k]
 
+[se ad51]
+[wait se ad51]
 ＠クー・フーリン
 [#合成獣:キメラ]の心臓がどこだかしらねぇが[r]オレに出会ったのが運の尽きだったな。
 [k]

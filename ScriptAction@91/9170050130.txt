@@ -41,7 +41,7 @@
 [charaFace F 0]
 [charaFadein F 0.1 0]
 ＠マシュ
-キマイラ……！！
+キメラ……！！
 [k]
 
 [charaFadeout A 0.1]

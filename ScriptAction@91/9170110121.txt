@@ -8,7 +8,6 @@
 [charaSet C 98002000 2 フォウ]
 [charaSet D 7011001 1 ダレイオス三世]
 [charaSet E 4015001 1 アレキサンダー]
-[charaSet F 4002001 0 イスカンダル]
 [charaFace A 0]
 [charaFadein A 0]
 [fadein black 1]

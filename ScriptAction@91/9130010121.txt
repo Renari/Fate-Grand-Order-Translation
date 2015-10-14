@@ -18,13 +18,12 @@
 [wt 0.5]
 [bgmStop BGM_EVENT_3 0.4]
 [bgm BGM_EVENT_2 0]
-[charaTalk D]
 [charaFace A 0]
 [charaFadein A 0.1 2]
 [charaFace D 0]
 [charaFadein D 0.1 0]
 ＠クー・フーリン
-なんだ、合成獣でも心臓は一つみてぇだな。[r]見かけ倒しってとこか。
+なんだ、合成獣でも心臓は脆いみてぇだな。[r]見かけ倒しってとこか。
 [k]
 
 [charaFace A 13]
@@ -52,7 +51,8 @@
 [line 3]このあたりか。[r]……よっ、と。
 [k]
 
-[se ad54]
+[se ad39]
+[wait se ad39]
 [charaFadeout D 0]
 [communicationCharaLoop 98003003 1 5 0 0]
 ＠Dr.ロマン
@@ -140,15 +140,14 @@
 [wait wipe]
 [wt 0.3]
 [scene 20802 0]
-[charaTalk A]
-[charaFace D 0]
-[charaFadein D 0.4 0]
 [charaFace A 6]
 [charaFadein A 0.4 2]
+[charaFace D 0]
+[charaFadein D 0.4 0]
 [wipein rightToLeft 0.4 1]
 [wait wipe]
 ＠マシュ
-……それにしても、料理も見事な手際ですね。[r]なんというか、多彩な英霊なのですね。
+……それにしても、料理も見事な手際ですね。[r]なんというか、多才な英霊なのですね。
 [k]
 
 [charaFace D 1]
@@ -178,7 +177,7 @@
 [#合成獣:キメラ]なんて何が入っているか[r]わからないのに、よく食べられるね。
 [k]
 
-？1：以外と美味しい！！
+？1：意外と美味しい！！
 
 ？2：こういうのでいいんだよ、こういうので
 

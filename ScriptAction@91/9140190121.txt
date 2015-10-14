@@ -74,7 +74,7 @@
 [charaFadeout A 0.1]
 [communicationCharaLoop 98003003 1 5 0 2]
 ＠Dr.ロマン
-お、おお……テリブル……。[r]いえ、感服いいたしました聖女さま！
+お、おお……テリブル……。[r]いえ、感服いたしました聖女さま！
 [k]
 
 [communicationCharaClear]
