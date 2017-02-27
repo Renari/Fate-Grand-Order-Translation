@@ -3,17 +3,17 @@
 [soundStopAll]
 [bgm BGM_EVENT_3 0.1]
 [scene 20401 0]
-[charaSet A 8001000 1 マシュ]
-[charaSet B 98003003 1 Dr.ロマン]
-[charaSet C 98002000 1 フォウ]
-[charaSet D 1005001 1 ネロ]
-[charaSet E 98016000 1 ローマ兵]
+[charaSet A 8001000 1 マシュ/Mashu]
+[charaSet B 98003003 1 Dr.ロマン/Dr. Roman]
+[charaSet C 98002000 1 フォウ/Fou]
+[charaSet D 1005001 1 ネロ/Nero]
+[charaSet E 98016000 1 ローマ兵/Roman Soldier]
 [charaFace A 0]
 [charaFadein A 0 1]
 [fadein black 1]
 [wait fade]
-＠マシュ
-日が暮れてきましたね。[r]ですが、まだ攻勢は終わっていないようです。
+＠マシュ Mashu
+日が暮れてきましたね。The daylight has really faded.[r]ですが、Yet, their offensive does not seem to cease. まだ攻勢は終わっていないようです。
 [k]
 
 [se ad13]
@@ -22,13 +22,13 @@
 [charaTalk B]
 [charaFadein A 0.1 2]
 [communicationChara 98003003 0 5 0 0]
-＠Dr.ロマン
-数が多いのが問題だな。[r]特に[%1][&君:ちゃん]の体力と魔力消費に注意だ！
+＠Dr.ロマン Dr. Roman
+数が多いのが問題だな。 The problem is really their vast numbers.[r]Pay special attention to (Gudao)'s physical strenght and magical power consumption!特に[%1][&君:ちゃん]の体力と魔力消費に注意だ！
 [k]
 
 [charaFace A 7]
-＠マシュ
-はい。ドクター。[r]マスター、極力、無理なく。
+＠マシュ Mashu:
+はい。ドクター。Understood, Doctor. [r]マスター、極力、無理なく。Master, as much as you can, don't strain yourself.
 [k]
 
 [messageOff]
